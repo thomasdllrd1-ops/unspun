@@ -1,0 +1,15 @@
+---
+/** A small link to where a fact came from. Usage: <Source id="clerk-2024-stats" /> */
+import { sourceById } from '../lib/data';
+interface Props { id: string; label?: string }
+const { id, label } = Astro.props;
+const s = sourceById(id);
+---
+<a class="src" href={s.url} rel="noopener" target="_blank" title={`${s.title}. Checked ${s.accessed}.`}>
+  {label ?? s.publisher}<span class="visually-hidden"> (opens in a new tab)</span><span aria-hidden="true"> ↗</span>
+</a>
+
+<style>
+  .src { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+  .src:hover { color: var(--text-2); }
+</style>

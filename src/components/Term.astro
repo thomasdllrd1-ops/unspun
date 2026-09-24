@@ -1,0 +1,35 @@
+---
+/**
+ * Glossary tooltip. Tap or click the dotted word to see a plain-English
+ * definition. Uses the browser's built-in popover (no JavaScript needed).
+ * Usage: <Term id="margin-of-error">margin of error</Term>
+ * (Everything here is a <span> so it's valid inside a paragraph.)
+ */
+import { db } from '../lib/data';
+
+interface Props { id: string }
+const { id } = Astro.props;
+const entry = db.glossary.find((g) => g.id === id);
+if (!entry) throw new Error(`Glossary term "${id}" not found in data/glossary.json`);
+const uid = `term-${id}-${Math.random().toString(36).slice(2, 8)}`;
+---
+<button type="button" class="term" popovertarget={uid}><slot>{entry.term}</slot></button><span
+  id={uid} popover class="term-pop"><strong>{entry.term}</strong><span class="def">{entry.short}</span><a
+  href={`/glossary/#${id}`}>All terms</a></span>
+
+<style>
+  .term {
+    font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: help;
+    text-decoration: underline dotted; text-decoration-thickness: 1.5px; text-underline-offset: 3px;
+  }
+  .term-pop {
+    max-width: min(340px, calc(100vw - 32px)); margin: auto; padding: 14px 16px;
+    background: var(--surface-2); color: var(--text); border: 1px solid var(--border-strong);
+    border-radius: var(--radius-sm); box-shadow: 0 12px 40px rgba(0,0,0,.35); font-size: 0.95rem; line-height: 1.45;
+  }
+  /* Spans (not divs/paragraphs) so a term can sit inside a sentence without breaking it. */
+  .term-pop strong, .term-pop .def, .term-pop a { display: block; }
+  .term-pop .def { margin: 6px 0 8px; color: var(--text-2); }
+  .term-pop a { font-size: 0.85rem; }
+  .term-pop::backdrop { background: rgba(0,0,0,.35); }
+</style>

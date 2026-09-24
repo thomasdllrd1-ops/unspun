@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { db } from '../lib/data';
+const terms = [...db.glossary].sort((a, b) => a.term.localeCompare(b.term));
+---
+<Layout title="Glossary" description="Plain-English definitions of polling and campaign terms.">
+  <h1>Glossary</h1>
+  <p class="headline">Every term we underline, in plain English.</p>
+  <dl class="card gl">
+    {terms.map((t) => (<div id={t.id}><dt>{t.term}</dt><dd class="text-2">{t.short}</dd></div>))}
+  </dl>
+</Layout>
+<style>
+  .gl > div { padding: 12px 0; border-bottom: 1px solid var(--border); scroll-margin-top: 110px; }
+  .gl > div:last-child { border-bottom: 0; }
+  .gl > div:target { background: var(--surface-2); margin: 0 -16px; padding: 12px 16px; }
+  dt { font-weight: 700; }
+  dd { margin: 4px 0 0; }
+</style>

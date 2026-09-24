@@ -1,0 +1,135 @@
+{
+  "state": "VA",
+  "election_date": "2026-11-03",
+  "headline": "You can already vote in Virginia. Early voting started Sept. 18.",
+  "deadlines": [
+    {
+      "date": "2026-09-18",
+      "label": "Early in-person voting starts",
+      "detail": "At your local voter registration office or a satellite location.",
+      "source": "va-elec-pocket-guide-2026"
+    },
+    {
+      "date": "2026-10-18",
+      "label": "Sunday early voting",
+      "detail": "Local voter registration offices open for in-person voting.",
+      "source": "va-elec-pocket-guide-2026"
+    },
+    {
+      "date": "2026-10-23",
+      "label": "Last day to register (regular ballot)",
+      "detail": "Also the last day to update your address. After this you can still register in person through Election Day, but you'll vote a provisional ballot.",
+      "source": "va-elec-pocket-guide-2026",
+      "key": true
+    },
+    {
+      "date": "2026-10-23",
+      "time": "5:00 p.m.",
+      "label": "Last day to request a mail ballot",
+      "detail": "Request online at elections.virginia.gov/absentee.",
+      "source": "va-elec-pocket-guide-2026",
+      "key": true
+    },
+    {
+      "date": "2026-10-24",
+      "label": "Saturday early voting",
+      "detail": "Local voter registration offices open for in-person voting.",
+      "source": "va-elec-pocket-guide-2026"
+    },
+    {
+      "date": "2026-10-25",
+      "label": "Sunday early voting",
+      "detail": "Local voter registration offices open for in-person voting.",
+      "source": "va-elec-pocket-guide-2026"
+    },
+    {
+      "date": "2026-10-31",
+      "label": "Last day of early voting",
+      "detail": "In person at your local voter registration office. Official page: through 5:00 p.m.",
+      "source": "va-elec-upcoming-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "time": "6 a.m.–7 p.m.",
+      "label": "Election Day",
+      "detail": "Vote at your assigned polling place. If you're in line by 7 p.m., you can vote.",
+      "source": "va-elec-pocket-guide-2026",
+      "key": true
+    },
+    {
+      "date": "2026-11-06",
+      "time": "noon",
+      "label": "Mailed ballots must arrive",
+      "detail": "A mailed ballot must be postmarked on or before Election Day and received by your registrar by noon on the third day after the election.",
+      "source": "va-elec-absentee"
+    }
+  ],
+  "students": [
+    {
+      "q": "Can I register at my college address?",
+      "a": "Yes. Virginia says a dorm or college address can be your residential address for voting. You can only be registered in one place at a time, so pick school or home.",
+      "source": "va-elec-college"
+    },
+    {
+      "q": "Is my student ID enough at the polls?",
+      "a": "A valid student ID from a Virginia college, university or high school works. A student photo ID from any U.S. college or university also works.",
+      "source": "va-elec-voter-id-chart"
+    },
+    {
+      "q": "Can I use my out-of-state driver's license?",
+      "a": "No. Virginia's ID chart lists out-of-state driver's licenses as not accepted. Bring a student ID or another accepted ID instead.",
+      "source": "va-elec-voter-id-chart",
+      "warn": true
+    },
+    {
+      "q": "What if I forget my ID?",
+      "a": "You can sign an ID Confirmation Statement and vote a regular ballot. If you don't show ID or sign the statement, you'll vote a provisional ballot.",
+      "source": "va-elec-voter-id-chart"
+    },
+    {
+      "q": "I'm registered at home but live at school. How do I vote?",
+      "a": "Request a mail ballot by 5 p.m. on Oct. 23. You can mail it back (postmarked by Election Day), drop it at your voter registration office, a drop-off location or a satellite location before Election Day, or drop it at your voter registration office, any polling place or a drop-off location by 7 p.m. on Election Day.",
+      "source": "va-elec-pocket-guide-2026"
+    }
+  ],
+  "links": [
+    {
+      "label": "Check your registration or register online",
+      "url": "https://vote.elections.virginia.gov/VoterInformation",
+      "source": "va-elec-absentee"
+    },
+    {
+      "label": "Request a mail ballot",
+      "url": "https://www.elections.virginia.gov/absentee",
+      "source": "va-elec-pocket-guide-2026"
+    },
+    {
+      "label": "Find your polling place",
+      "url": "https://www.elections.virginia.gov/VoterInfo",
+      "source": "va-elec-pocket-guide-2026"
+    },
+    {
+      "label": "Find your local voter registration office (early voting)",
+      "url": "https://www.elections.virginia.gov/VRO",
+      "source": "va-elec-pocket-guide-2026"
+    },
+    {
+      "label": "Track your mail ballot",
+      "url": "https://ballot.elections.virginia.gov/voter/va/bt/track",
+      "source": "va-elec-absentee"
+    },
+    {
+      "label": "Full list of accepted IDs",
+      "url": "https://www.elections.virginia.gov/VoterID",
+      "source": "va-elec-pocket-guide-2026"
+    },
+    {
+      "label": "Not in Virginia? Find your state's rules",
+      "url": "https://vote.gov/",
+      "source": null
+    }
+  ],
+  "on_ballot": "Your Virginia ballot also includes three proposed amendments to the state constitution and local races. They aren't covered on this site yet.",
+  "on_ballot_source": "va-elec-early-voting-release-2026",
+  "limits": "Rules can change and local offices may add hours. Always confirm with the Virginia Department of Elections or your local registrar. Questions: (800) 552-9745."
+}

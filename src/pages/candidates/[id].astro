@@ -1,0 +1,62 @@
+---
+/** ONE template for every candidate, of every party. */
+import Layout from '../../layouts/Layout.astro';
+import PartyTag from '../../components/PartyTag.astro';
+import Term from '../../components/Term.astro';
+import Source from '../../components/Source.astro';
+import SourceList from '../../components/SourceList.astro';
+import Limits from '../../components/Limits.astro';
+import { db, raceById, moneyFor, lastChecked, candidatesInRace } from '../../lib/data';
+import { money, date } from '../../lib/format';
+
+export function getStaticPaths() {
+  return db.candidates.map((c) => ({ params: { id: c.id }, props: { c } }));
+}
+const { c } = Astro.props;
+const race = raceById(c.race);
+const m = moneyFor(c.id);
+const others = candidatesInRace(c.race).filter((x) => x.id !== c.id);
+const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-registering-candidate' : null];
+---
+<Layout title={c.ballot_name} description={`${c.ballot_name}, candidate for ${race.name}: money raised and where they stand, with sources.`} updated={lastChecked(sourceIds)}>
+  <nav class="small muted" aria-label="Breadcrumb"><a href="/virginia/">Virginia</a> › <a href={`/races/${race.id}/`}>{race.short}</a></nav>
+  <div class="eyebrow" style="margin-top:8px">{race.name}</div>
+  <h1>{c.ballot_name}</h1>
+  <p class="row"><PartyTag party={c.party} />{c.incumbent && <span class="chip"><Term id="incumbent">Incumbent</Term></span>}</p>
+
+  <div class="stack">
+    <section class="card">
+      <h2>Top 3 policies, in their words</h2>
+      <p class="text-2">Not yet researched. We research every candidate in {race.short} at the same time and publish them together, each quote linked to where they said it.</p>
+      {c.website && <p class="small"><a href={c.website} target="_blank" rel="noopener nofollow">Campaign website ↗</a></p>}
+    </section>
+
+    <section class="card">
+      <h2>Money</h2>
+      {m.status === 'ok' ? (
+        <dl class="stats">
+          <div><dt>Raised</dt><dd class="num">{money(m.receipts)}</dd></div>
+          <div><dt>Spent</dt><dd class="num">{money(m.disbursements)}</dd></div>
+          <div><dt><Term id="cash-on-hand">Cash on hand</Term></dt><dd class="num">{money(m.cash_on_hand)}</dd></div>
+        </dl>
+      ) : <p class="text-2">{m.note} {m.status === 'not-registered' && <Source id="fec-registering-candidate" label="FEC rule" />}</p>}
+      {m.status === 'ok' && <p class="small muted">Reports cover {m.coverage_start ? `${date(m.coverage_start)} – ` : 'through '}{date(m.coverage_end)}. <a href={m.fec_url} target="_blank" rel="noopener">See it on fec.gov ↗</a></p>}
+      <Limits>Coming soon: small vs. large donors, in-state vs. out-of-state, top PAC givers, and outside spending for and against. The same breakdown for every candidate.</Limits>
+    </section>
+
+    {others.length > 0 && (
+      <section class="card">
+        <h2>Also running in {race.short}</h2>
+        <ul class="plain">{others.map((o) => <li><a href={`/candidates/${o.id}/`}>{o.ballot_name}</a> <PartyTag party={o.party} /></li>)}</ul>
+      </section>
+    )}
+    <SourceList ids={sourceIds} />
+  </div>
+</Layout>
+<style>
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 8px; }
+  .stats dt { font-size: 0.8rem; color: var(--muted); }
+  .stats dd { margin: 0; font-size: 1.3rem; font-weight: 800; }
+  .plain { list-style: none; padding: 0; margin: 0; }
+  .plain li { padding: 6px 0; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+</style>

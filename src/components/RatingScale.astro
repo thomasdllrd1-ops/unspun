@@ -1,0 +1,56 @@
+---
+/**
+ * The three forecasters' ratings on one 7-step scale, from Solid Democratic
+ * to Solid Republican. Each forecaster is a labeled marker, and there's a text list for screen readers.
+ */
+import type { Rating } from '../lib/schema';
+import { RATING_VALUES } from '../lib/schema';
+import { FORECASTER_NAMES, ratingLabel, ratingColor } from '../lib/ratings';
+import { date } from '../lib/format';
+import Source from './Source.astro';
+import Pending from './Pending.astro';
+
+interface Props { ratings: Rating[] }
+const { ratings } = Astro.props;
+const short = { cook: 'Cook', inside: 'Inside', sabato: 'Sabato' } as const;
+const steps = ['Solid D', 'Likely D', 'Lean D', 'Toss-up', 'Lean R', 'Likely R', 'Solid R'];
+---
+{ratings.length > 0 && (
+  <figure class="scale" aria-label="Forecaster ratings on a scale from Solid Democratic to Solid Republican">
+    <div class="track" aria-hidden="true">
+      {RATING_VALUES.map((v, i) => {
+        const here = ratings.filter((r) => r.rating === v);
+        return (
+          <div class="cell" style={`--c:${ratingColor(v)}`}>
+            <div class="swatch"></div>
+            <div class="markers">{here.map((r) => <span class="marker">{short[r.forecaster]}</span>)}</div>
+            <div class="step">{steps[i]}</div>
+          </div>
+        );
+      })}
+    </div>
+    <ul class="list">
+      {ratings.map((r) => (
+        <li>
+          <span><strong>{FORECASTER_NAMES[r.forecaster]}:</strong> {ratingLabel(r.rating, r.forecaster)}</span>
+          <span class="muted small">as of {date(r.as_of)}</span>
+          <Source id={r.source} label="source" />
+          {r.status === 'pending' && <Pending />}
+        </li>
+      ))}
+    </ul>
+  </figure>
+)}
+
+<style>
+  .scale { margin: 0; }
+  .track { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+  .swatch { height: 10px; background: var(--c); }
+  .cell:first-child .swatch { border-radius: 4px 0 0 4px; }
+  .cell:last-child .swatch { border-radius: 0 4px 4px 0; }
+  .markers { min-height: 28px; display: flex; flex-direction: column; align-items: center; gap: 2px; padding-top: 4px; }
+  .marker { font-size: 0.68rem; font-weight: 700; background: var(--text); color: var(--bg); border-radius: 4px; padding: 1px 4px; }
+  .step { font-size: 0.66rem; color: var(--muted); text-align: center; line-height: 1.2; }
+  .list { list-style: none; padding: 0; margin: 12px 0 0; font-size: 0.9rem; }
+  .list li { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; padding: 4px 0; }
+</style>

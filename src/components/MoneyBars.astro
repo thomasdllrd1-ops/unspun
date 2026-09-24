@@ -1,0 +1,70 @@
+---
+/**
+ * Money raised by each candidate (FEC). Bars share one scale so they're
+ * comparable. Candidates with no reports are listed in words, not as $0.
+ */
+import type { Candidate, MoneyEntry } from '../lib/schema';
+import { moneyFor, partyById, db } from '../lib/data';
+import { money, date } from '../lib/format';
+import Term from './Term.astro';
+import Limits from './Limits.astro';
+
+interface Props { candidates: Candidate[] }
+const { candidates } = Astro.props;
+type Entry = MoneyEntry;
+type Ok = Extract<Entry, { status: 'ok' }>;
+type NotOk = Exclude<Entry, { status: 'ok' }>;
+const rows = candidates.map((c) => ({ c, m: moneyFor(c.id), party: partyById(c.party) }));
+const reported = rows.filter((r): r is typeof r & { m: Ok } => r.m.status === 'ok');
+const unreported = rows.filter((r): r is typeof r & { m: NotOk } => r.m.status !== 'ok');
+const max = Math.max(1, ...reported.map((r) => r.m.receipts ?? 0));
+const through = [...new Set(reported.map((r) => r.m.coverage_end))].sort();
+---
+<div class="money">
+  {reported.length > 0 ? (
+    <ul class="bars" aria-label="Money raised this election cycle">
+      {reported.map(({ c, m, party }) => (
+        <li>
+          <div class="label"><span>{c.sort_name}</span><span class="num">{money(m.receipts)}</span></div>
+          <div class="bar-track" aria-hidden="true">
+            <div class={`bar ${party.color}`} style={`width:${Math.max(0.5, ((m.receipts ?? 0) / max) * 100)}%`}></div>
+          </div>
+          <div class="sub small muted">
+            <Term id="cash-on-hand">Cash on hand</Term>: <span class="num">{money(m.cash_on_hand)}</span> · {m.coverage_start ? `${date(m.coverage_start)} – ` : 'through '}{date(m.coverage_end)} · <a href={m.fec_url} target="_blank" rel="noopener">FEC ↗</a>
+          </div>
+        </li>
+      ))}
+    </ul>
+  ) : <p class="muted">No candidate in this race has filed a fundraising report yet.</p>}
+  {unreported.length > 0 && (
+    <ul class="none small">
+      {unreported.map(({ c, m }) => <li><strong>{c.sort_name}:</strong> <span class="muted">{m.note}</span></li>)}
+    </ul>
+  )}
+  <details class="more">
+    <summary>See the numbers as a table</summary>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Candidate</th><th class="num">Raised</th><th class="num">Spent</th><th class="num">Cash on hand</th><th>Period</th></tr></thead>
+        <tbody>
+          {reported.map(({ c, m }) => (
+            <tr><td>{c.ballot_name}</td><td class="num">{money(m.receipts)}</td><td class="num">{money(m.disbursements)}</td><td class="num">{money(m.cash_on_hand)}</td><td>{m.coverage_start ? `${date(m.coverage_start)} – ` : ''}{date(m.coverage_end)}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </details>
+  <Limits>
+    Totals are what each campaign reported to the <Term id="fec">FEC</Term> for its whole 2026 election cycle, including the primary. Cycles differ: senators' run six years and House members' two, and newer candidates started later, so check each date range before comparing. Reports come out every few months, so newer money isn't counted yet{through.length ? ` (latest report here runs through ${date(through.at(-1)!)})` : ''}. This doesn't include <Term id="outside-spending">outside spending</Term> by super PACs; that's coming soon. Data pulled {date(db.money.fetched_at.slice(0, 10))}.
+  </Limits>
+</div>
+
+<style>
+  .bars, .none { list-style: none; padding: 0; margin: 0; }
+  .bars li { margin-bottom: 14px; }
+  .label { display: flex; justify-content: space-between; font-weight: 600; font-size: 0.95rem; }
+  .bar-track { height: 12px; margin: 4px 0; }
+  .bar { height: 100%; border-radius: 0 4px 4px 0; }
+  .bar.dem { background: var(--dem); } .bar.rep { background: var(--rep); } .bar.other { background: var(--other); }
+  .none li { margin-bottom: 6px; }
+</style>

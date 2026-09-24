@@ -1,0 +1,21 @@
+---
+import type { Confidence } from '../lib/polls';
+interface Props { level: Confidence; recent: number; total: number }
+const { level, recent, total } = Astro.props;
+const text = {
+  lots: 'Lots of recent polls',
+  few: recent === 1 ? '1 recent poll' : `${recent} recent polls`,
+  none: 'No recent polls',
+}[level];
+const bars = { lots: 3, few: 2, none: 0 }[level];
+---
+<span class="conf" title={`${total} poll${total === 1 ? '' : 's'} total; "recent" means the last 60 days.`}>
+  <span class="bars" aria-hidden="true">{[1, 2, 3].map((i) => <i class={i <= bars ? 'on' : ''} style={`height:${4 + i * 3}px`}></i>)}</span>
+  {text}
+</span>
+<style>
+  .conf { display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; font-weight: 600; }
+  .bars { display: inline-flex; align-items: flex-end; gap: 2px; }
+  .bars i { width: 4px; border-radius: 1px; background: var(--grid); }
+  .bars i.on { background: var(--text); }
+</style>

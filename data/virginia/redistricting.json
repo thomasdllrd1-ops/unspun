@@ -1,0 +1,35 @@
+{
+  "headline": "Virginia votes in 2026 on the same district map it has used since the 2021 redraw.",
+  "summary": "Voters approved a plan to redraw the map in April 2026, but courts blocked it before the election.",
+  "steps": [
+    {
+      "date": "2021-12-28",
+      "label": "Dec 2021",
+      "title": "Court approves today's map",
+      "text": "Virginia's redistricting commission missed its deadline. The Supreme Court of Virginia took over and approved a congressional map drafted by two special masters it appointed.",
+      "sources": ["ballotpedia-va-map-2022"]
+    },
+    {
+      "date": "2026-04-21",
+      "label": "Apr 21, 2026",
+      "title": "Voters approve a redraw",
+      "text": "51.7% of voters said yes to a constitutional amendment letting the General Assembly redraw congressional districts. The proposed map would have shifted four Republican-held districts to lean more Democratic.",
+      "sources": ["ballotpedia-scova-2026-05-08"]
+    },
+    {
+      "date": "2026-05-08",
+      "label": "May 8, 2026",
+      "title": "State Supreme Court blocks it",
+      "text": "In a 4–3 decision, the Supreme Court of Virginia ruled the amendment void. The majority said the General Assembly first passed it after early voting had already started in the 2025 election, which broke the state constitution's rules for amendments.",
+      "sources": ["ballotpedia-scova-2026-05-08", "scotusblog-2026-05-15"]
+    },
+    {
+      "date": "2026-05-15",
+      "label": "May 15, 2026",
+      "title": "U.S. Supreme Court declines to step in",
+      "text": "The U.S. Supreme Court turned down Virginia's emergency request to block the state court's ruling. There were no public dissents. The existing map stays in place for November 2026.",
+      "sources": ["scotusblog-2026-05-15"]
+    }
+  ],
+  "limits": "This is a short summary. Court opinions and the amendment's full text are longer and more detailed; follow the source links for the full story."
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "va-sen",
+    "state": "VA",
+    "chamber": "senate",
+    "district": null,
+    "name": "Virginia U.S. Senate",
+    "short": "VA Senate",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-01",
+    "state": "VA",
+    "chamber": "house",
+    "district": 1,
+    "name": "Virginia's 1st District",
+    "short": "VA-1",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-02",
+    "state": "VA",
+    "chamber": "house",
+    "district": 2,
+    "name": "Virginia's 2nd District",
+    "short": "VA-2",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-03",
+    "state": "VA",
+    "chamber": "house",
+    "district": 3,
+    "name": "Virginia's 3rd District",
+    "short": "VA-3",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-04",
+    "state": "VA",
+    "chamber": "house",
+    "district": 4,
+    "name": "Virginia's 4th District",
+    "short": "VA-4",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-05",
+    "state": "VA",
+    "chamber": "house",
+    "district": 5,
+    "name": "Virginia's 5th District",
+    "short": "VA-5",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-06",
+    "state": "VA",
+    "chamber": "house",
+    "district": 6,
+    "name": "Virginia's 6th District",
+    "short": "VA-6",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-07",
+    "state": "VA",
+    "chamber": "house",
+    "district": 7,
+    "name": "Virginia's 7th District",
+    "short": "VA-7",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-08",
+    "state": "VA",
+    "chamber": "house",
+    "district": 8,
+    "name": "Virginia's 8th District",
+    "short": "VA-8",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-09",
+    "state": "VA",
+    "chamber": "house",
+    "district": 9,
+    "name": "Virginia's 9th District",
+    "short": "VA-9",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-10",
+    "state": "VA",
+    "chamber": "house",
+    "district": 10,
+    "name": "Virginia's 10th District",
+    "short": "VA-10",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "va-11",
+    "state": "VA",
+    "chamber": "house",
+    "district": 11,
+    "name": "Virginia's 11th District",
+    "short": "VA-11",
+    "election_date": "2026-11-03",
+    "source": "va-elec-candidates-2026"
+  }
+]

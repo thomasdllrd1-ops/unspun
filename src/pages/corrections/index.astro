@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { db } from '../../lib/data';
+import { date } from '../../lib/format';
+const log = [...db.corrections].sort((a, b) => b.date.localeCompare(a.date));
+---
+<Layout title="Report an error" description="Tell us about a mistake. We fix errors and log every correction publicly.">
+  <h1>Spot a mistake? Tell us.</h1>
+  <p class="headline">We read every report. When we fix something, it goes in the public log below.</p>
+
+  <div class="stack">
+    <form class="card form" name="corrections" method="POST" action="/corrections/thanks/" data-netlify="true" netlify-honeypot="company">
+      <input type="hidden" name="form-name" value="corrections" />
+      <p class="visually-hidden"><label>Leave this empty: <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+      <label for="page">Which page? <span class="muted">(link or name)</span></label>
+      <input id="page" name="page" type="text" required />
+      <label for="problem">What's wrong?</label>
+      <textarea id="problem" name="problem" rows="4" required></textarea>
+      <label for="evidence">Source showing the right info <span class="muted">(optional, but it helps us fix it fast)</span></label>
+      <input id="evidence" name="evidence" type="url" inputmode="url" placeholder="https://" />
+      <label for="email">Email, if you'd like a reply <span class="muted">(optional, never published)</span></label>
+      <input id="email" name="email" type="email" autocomplete="email" />
+      <button class="btn" type="submit">Send report</button>
+    </form>
+
+    <section class="card" id="log" aria-labelledby="log-h">
+      <h2 id="log-h">Corrections log</h2>
+      {log.length === 0 ? <p class="muted">No corrections yet. When we fix a mistake, we'll list what it said, what it says now, and when.</p> : (
+        <ul class="log">{log.map((c) => (
+          <li><div class="small muted">{date(c.date)} · {c.page}</div><div><strong>Was:</strong> {c.was}</div><div><strong>Now:</strong> {c.now}</div></li>
+        ))}</ul>
+      )}
+    </section>
+  </div>
+</Layout>
+<style>
+  .form { display: grid; gap: 6px; }
+  .form label { font-weight: 600; font-size: 0.9rem; margin-top: 8px; }
+  .form input, .form textarea { font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); padding: 10px 12px; min-height: 44px; }
+  .form .btn { margin-top: 12px; justify-self: start; }
+  .log { list-style: none; padding: 0; margin: 0; }
+  .log li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+</style>

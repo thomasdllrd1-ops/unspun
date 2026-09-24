@@ -1,0 +1,41 @@
+---
+import { pastResultsForRace, db } from '../lib/data';
+import { pct } from '../lib/format';
+import Source from './Source.astro';
+
+interface Props { race: string }
+const rows = pastResultsForRace(Astro.props.race);
+const groups = [...new Map(rows.map((r) => [`${r.year}|${r.contest}`, r])).keys()].map((k) => {
+  const [year, contest] = k.split('|');
+  const g = rows.filter((r) => String(r.year) === year && r.contest === contest);
+  const total = g.reduce((t, r) => t + r.votes, 0);
+  return { year, contest, total, source: g[0].source, notes: g[0].notes, rows: g.sort((a, b) => b.votes - a.votes) };
+}).sort((a, b) => Number(b.year) - Number(a.year));
+const color = (party: string) => db.parties.find((p) => p.id === party)?.color ?? 'neutral';
+---
+{groups.length === 0 ? <p class="muted">No past results loaded yet.</p> : groups.map((g) => (
+  <div class="past">
+    <h3>{g.year} · {g.contest}</h3>
+    <ul>
+      {g.rows.map((r) => (
+        <li>
+          <span class="name">{r.candidate}{r.winner && <span class="visually-hidden"> (won)</span>}{r.winner && <span aria-hidden="true"> ✓</span>}</span>
+          <span class="bar-track" aria-hidden="true"><span class={`bar ${color(r.party)}`} style={`width:${(r.votes / g.total) * 100}%`}></span></span>
+          <span class="num val">{pct((r.votes / g.total) * 100)}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="small muted">{g.total.toLocaleString('en-US')} votes · <Source id={g.source} /></p>
+    {g.notes && <p class="small text-2">{g.notes}</p>}
+  </div>
+))}
+<style>
+  .past + .past { margin-top: 16px; }
+  ul { list-style: none; padding: 0; margin: 6px 0; }
+  li { display: grid; grid-template-columns: minmax(90px, 40%) 1fr 56px; gap: 8px; align-items: center; font-size: 0.9rem; padding: 3px 0; }
+  .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bar-track { height: 10px; }
+  .bar { display: block; height: 100%; border-radius: 0 3px 3px 0; min-width: 2px; }
+  .bar.dem { background: var(--dem); } .bar.rep { background: var(--rep); } .bar.other { background: var(--other); } .bar.neutral { background: var(--neutral); }
+  .val { text-align: right; }
+</style>

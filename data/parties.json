@@ -1,0 +1,7 @@
+[
+  { "id": "democratic", "name": "Democratic", "abbr": "D", "color": "dem" },
+  { "id": "republican", "name": "Republican", "abbr": "R", "color": "rep" },
+  { "id": "libertarian", "name": "Libertarian", "abbr": "L", "color": "other" },
+  { "id": "green", "name": "Green", "abbr": "G", "color": "other" },
+  { "id": "independent", "name": "Independent", "abbr": "I", "color": "other" }
+]

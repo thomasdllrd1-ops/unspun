@@ -1,0 +1,23 @@
+---
+/** "Sources for this page": every source used, with the date we checked it. */
+import { sourceById } from '../lib/data';
+import { date } from '../lib/format';
+interface Props { ids: (string | null | undefined)[] }
+const ids = [...new Set(Astro.props.ids.filter((x): x is string => !!x))];
+const sources = ids.map(sourceById);
+---
+<details class="more sources">
+  <summary>Sources for this page ({sources.length})</summary>
+  <ol class="small">
+    {sources.map((s) => (
+      <li>
+        <a href={s.url} rel="noopener" target="_blank">{s.title}</a>
+        <span class="muted"> · {s.publisher} · checked {date(s.accessed)}</span>
+      </li>
+    ))}
+  </ol>
+</details>
+<style>
+  ol { padding-left: 20px; margin: 4px 0 0; }
+  li { margin-bottom: 6px; }
+</style>

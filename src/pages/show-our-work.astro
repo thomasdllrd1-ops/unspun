@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Term from '../components/Term.astro';
+import { db } from '../lib/data';
+import { date } from '../lib/format';
+
+const bySourceType = Object.groupBy(db.sources, (s) => s.type);
+const typeNames: Record<string, string> = {
+  official: 'Official government sources', forecaster: 'Race forecasters', pollster: 'Pollsters', reference: 'Reference & explainers', news: 'News', campaign: 'Campaigns',
+};
+const pendingRatings = db.ratings.filter((r) => r.status === 'pending').length;
+---
+<Layout title="Show our work" description="Every source we use, every choice we made and why, and what our data can't tell you.">
+  <div class="eyebrow">Show our work · beta</div>
+  <h1>No data is neutral. Here's every choice we made.</h1>
+  <p class="headline">This page lists our sources, our rules, and what we don't know yet. It grows as the site does.</p>
+
+  <div class="stack">
+    <section class="card">
+      <h2>Our rules</h2>
+      <ol class="rules">
+        <li><strong>We never make up a number, quote, or date.</strong> If we can't confirm something, we leave it blank and put it on our to-check list.</li>
+        <li><strong>Every fact links to where it came from</strong>, with the date we checked it.</li>
+        <li><strong>One template for everyone.</strong> Every race page and candidate page is built from the same code, so no candidate or party gets different treatment. Candidates are listed alphabetically by last name.</li>
+        <li><strong>We research a race's candidates together</strong> and publish them at the same time, so one side is never filled in while the other is blank.</li>
+        <li><strong>A person checks what a script can't.</strong> Some sites block automated tools. Anything we couldn't confirm straight from the original source waits for a person to check it, and it stays off the public site until then.</li>
+        <li><strong>We don't track you.</strong> No ads, no tracking cookies, no analytics that follow you around.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Why these colors?</h2>
+      <p class="text-2">We use <span class="dot dem"></span> teal for Democrats, <span class="dot rep"></span> amber for Republicans, and <span class="dot other"></span> violet for everyone else (Libertarian, Green, independent). We skipped the usual red and blue on purpose. We tested these colors so people with the most common kinds of color blindness can tell them apart. Party names are always written out too, so color is never the only clue.</p>
+    </section>
+
+    <section class="card">
+      <h2>How we handle polls</h2>
+      <ul class="rules">
+        <li><strong>Ranges, not single numbers.</strong> For each poll we show the <Term id="moe-lead">margin of error on the lead</Term>. With the sample size, we use the standard formula for the gap between two candidates in the same poll, 1.96 × √((p₁ + p₂ − (p₁ − p₂)²) ÷ n). We then scale it up by the same factor the pollster's own margin implies (their <Term id="weighting">weighting</Term> makes results less precise), so we never claim more precision than the pollster does. With no sample size, we use 2 × the pollster's margin. If the range includes a tie, we call it a statistical toss-up.</li>
+        <li><strong>"Recent" means the last 60 days.</strong> Older polls are still shown, clearly marked.</li>
+        <li><strong>Confidence badge:</strong> "Lots" = 5 or more recent polls from 3 or more pollsters. "A few" = at least one. "None" = no recent polls, so lean on ratings, money, and past results instead.</li>
+        <li><strong>Every poll is tagged</strong> with who paid for it, who was asked (<Term id="likely-voters">likely voters</Term>, registered voters, or all adults), how people were reached, sample size, and dates. Polls paid for by campaigns or parties are included and labeled the same way for both sides.</li>
+        <li><strong>Our polling average</strong> is coming in the next update, with its full formula published here first.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Race ratings</h2>
+      <p class="text-2">We show ratings from three forecasters: the Cook Political Report, Inside Elections, and Sabato's Crystal Ball. Their sites block automated tools, so we start from Wikipedia's cited tables and then a person checks each rating on the forecaster's own site before it goes live. {pendingRatings > 0 && `Right now ${pendingRatings} ratings are waiting for that check.`} On the Virginia map, "forecaster rating" colors are an average of the three, used only for color. The race page shows each forecaster separately.</p>
+    </section>
+
+    <section class="card">
+      <h2>Money</h2>
+      <p class="text-2">Fundraising comes straight from the Federal Election Commission's official data. We show totals for the full 2026 cycle. Candidates who haven't filed a report are listed in words, not shown as $0. Campaigns report every few months, so there's always a lag.</p>
+    </section>
+
+    <section class="card">
+      <h2>Every source we use</h2>
+      {Object.entries(bySourceType).map(([type, list]) => (
+        <details class="more">
+          <summary>{typeNames[type] ?? type} ({list!.length})</summary>
+          <ul class="srcs small">
+            {list!.map((s) => <li><a href={s.url} target="_blank" rel="noopener">{s.title}</a> <span class="muted">· {s.publisher} · checked {date(s.accessed)}</span></li>)}
+          </ul>
+        </details>
+      ))}
+    </section>
+
+    <section class="card">
+      <h2>What our data can't tell you</h2>
+      <ul class="rules text-2">
+        <li>Polls miss, sometimes by more than their margin of error. Real error includes things a margin of error doesn't cover, like who actually turns out.</li>
+        <li>Race ratings are informed opinions, not math.</li>
+        <li>Money raised doesn't equal votes, and fundraising reports run weeks behind.</li>
+        <li>We cover federal races. Your ballot may also include state and local races and ballot questions we don't cover.</li>
+      </ul>
+    </section>
+
+    <p class="small muted">Found a mistake? <a href="/corrections/">Report it</a>. We fix errors and log every correction publicly.</p>
+  </div>
+</Layout>
+<style>
+  .rules { padding-left: 20px; margin: 0; }
+  .rules li { margin-bottom: 10px; }
+  .srcs { padding-left: 18px; margin: 8px 0 0; }
+  .srcs li { margin-bottom: 6px; }
+  .dot { vertical-align: middle; }
+</style>

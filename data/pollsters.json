@@ -1,0 +1,37 @@
+[
+  {
+    "id": "the-public-sentiment-institute",
+    "name": "The Public Sentiment Institute",
+    "url": "https://tpsiofficial.substack.com/",
+    "track_record": null,
+    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+  },
+  {
+    "id": "dccc-analytics",
+    "name": "DCCC Analytics",
+    "url": null,
+    "track_record": null,
+    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+  },
+  {
+    "id": "public-policy-polling",
+    "name": "Public Policy Polling",
+    "url": null,
+    "track_record": null,
+    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+  },
+  {
+    "id": "tulchin-research",
+    "name": "Tulchin Research",
+    "url": null,
+    "track_record": null,
+    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+  },
+  {
+    "id": "expedition-strategies",
+    "name": "Expedition Strategies",
+    "url": null,
+    "track_record": null,
+    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+  }
+]

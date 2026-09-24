@@ -1,0 +1,9 @@
+---
+import { partyById } from '../lib/data';
+interface Props { party: string }
+const p = partyById(Astro.props.party);
+---
+<span class="party"><span class={`dot ${p.color}`} aria-hidden="true"></span>{p.name}</span>
+<style>
+  .party { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-2); }
+</style>

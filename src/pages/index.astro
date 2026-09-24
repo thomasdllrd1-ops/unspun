@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { db, candidatesInRace, ratingsForRace, partyById, raceById } from '../lib/data';
+import { ratingsHeadline } from '../lib/ratings';
+import { daysUntil, dateDay } from '../lib/format';
+
+const ELECTION = '2026-11-03';
+const today = new Date();
+const toGo = daysUntil(ELECTION, today);
+const v = db.howToVoteVA;
+const nextKey = v.deadlines.find((d) => d.key && daysUntil(d.date, today) >= 0);
+const sen = raceById('va-sen');
+const tossups = db.races.filter((r) => r.chamber === 'house' && ratingsForRace(r.id).some((x) => x.rating === 'tossup'));
+---
+<Layout title="Unspun">
+  <section class="hero">
+    <div class="eyebrow">2026 U.S. midterms</div>
+    <h1>Election Day is Tuesday, Nov 3.</h1>
+    <p class="count"><span class="n num" data-countdown={ELECTION} data-unit="short">{toGo}d</span> <span class="text-2">to go. Early voting is already open in Virginia.</span></p>
+  </section>
+
+  <div class="stack">
+    <a class="card card-link" href="/how-to-vote/virginia/">
+      <div class="eyebrow">How to vote · Virginia</div>
+      <h2>{nextKey ? nextKey.label : 'Vote on Election Day'}</h2>
+      <p class="text-2">{nextKey ? `${dateDay(nextKey.date)}${nextKey.time ? `, ${nextKey.time}` : ''}.` : ''} Dates, mail ballots, and ID rules for college students, from the state's official sources.</p>
+      <span class="small">Your voting plan →</span>
+    </a>
+
+    <a class="card card-link" href="/virginia/">
+      <div class="eyebrow">Virginia · 12 races</div>
+      <h2>Tap a district, see the race</h2>
+      <p class="text-2">Who's running, what forecasters say, polls, money raised, and past results for all 11 House districts, plus why the map almost changed this year.</p>
+      <span class="small">Open the map →</span>
+    </a>
+
+    <a class="card card-link" href={`/races/${sen.id}/`}>
+      <div class="eyebrow">U.S. Senate · Virginia</div>
+      <h2>{candidatesInRace(sen.id).map((c) => `${c.sort_name} (${partyById(c.party).abbr})`).join(' vs. ')}</h2>
+      <p class="text-2">{ratingsHeadline(ratingsForRace(sen.id))}</p>
+      <span class="small">See the race →</span>
+    </a>
+
+    {tossups.length > 0 && (
+      <div class="card">
+        <div class="eyebrow">Closest Virginia races</div>
+        <ul class="plain">{tossups.map((r) => <li><a href={`/races/${r.id}/`}>{r.name}</a>: rated a toss-up</li>)}</ul>
+      </div>
+    )}
+
+    <div class="card how">
+      <h2>How this site works</h2>
+      <ul>
+        <li><strong>Every number links to its source.</strong> Tap the ↗.</li>
+        <li><strong>Same template for everyone.</strong> Every candidate and party gets the same sections, in the same order.</li>
+        <li><strong>We say what we don't know.</strong> Blank means we haven't confirmed it yet.</li>
+      </ul>
+      <a href="/show-our-work/">Read how we work →</a>
+    </div>
+
+    <p class="small muted">Coming next: every 2026 Senate race, 10 closely watched House races, poll tools, and candidate positions in their own words.</p>
+  </div>
+</Layout>
+
+<style>
+  .hero { padding: 12px 0 20px; }
+  .count { font-size: 1.1rem; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .count .n { font-size: 3rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; }
+  .plain { list-style: none; padding: 0; margin: 0; }
+  .plain li { padding: 4px 0; }
+  .how ul { padding-left: 18px; margin: 8px 0 12px; }
+  .how li { margin-bottom: 6px; }
+</style>

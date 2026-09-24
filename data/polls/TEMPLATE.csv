@@ -1,0 +1,2 @@
+id,race,pollster,sponsor,sponsor_type,sponsor_lean,population,sample_size,moe,method,method_detail,field_start,field_end,released,source,status,notes
+EXAMPLE-pollster-2026-10-va-sen,va-sen,Pollster name,Who paid (blank if the pollster),independent|campaign|party|partisan-aligned|media|academic|not-stated|unknown,D|R|none|unknown,LV|RV|A,800,3.5,phone|online|text|ivr|mixed,Short description of how people were reached,2026-10-01,2026-10-05,2026-10-07,source-id-from-sources.json,pending|verified,Anything a reader should know

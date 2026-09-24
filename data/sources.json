@@ -1,0 +1,260 @@
+[
+  {
+    "id": "va-elec-candidates-2026",
+    "title": "November 3, 2026 General Election — All Offices Candidate List (rev. 9-22-2026)",
+    "publisher": "Virginia Department of Elections",
+    "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+    "file_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2026/2026-November-All-Offices-Candidate-List-(rev-9-22-2026).xlsx",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "va-elec-upcoming-2026",
+    "title": "Upcoming Elections — November 3, 2026 General Election",
+    "publisher": "Virginia Department of Elections",
+    "url": "https://www.elections.virginia.gov/casting-a-ballot/calendars-schedules/upcoming-elections.html",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "va-elec-early-voting-release-2026",
+    "title": "Early Voting for 2026 November General Election Begins Sept. 18",
+    "publisher": "Virginia Department of Elections",
+    "url": "https://www.elections.virginia.gov/news-releases/early-voting-for-2026-november-general-election-begins-sept-18-2.html",
+    "type": "official",
+    "accessed": "2026-09-24",
+    "published": "2026-09-11"
+  },
+  {
+    "id": "va-elec-pocket-guide-2026",
+    "title": "Virginia Voter Pocket Guide — November 3, 2026 General Election",
+    "publisher": "Virginia Department of Elections",
+    "url": "https://www.elections.virginia.gov/media/formswarehouse/voter-outreach/voter-pocket-guide/VPG_BW_en.pdf",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "va-elec-absentee",
+    "title": "Absentee and Early Voting",
+    "publisher": "Virginia Department of Elections",
+    "url": "https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "va-elec-registration",
+    "title": "Registration",
+    "publisher": "Virginia Department of Elections",
+    "url": "https://www.elections.virginia.gov/registration/",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "va-elec-college",
+    "title": "Voting Information for College Students",
+    "publisher": "Virginia Department of Elections",
+    "url": "https://www.elections.virginia.gov/registration/college-student-info/",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "va-elec-voter-id-chart",
+    "title": "Voter Identification Chart (Rev. 07/2025)",
+    "publisher": "Virginia Department of Elections",
+    "url": "https://www.elections.virginia.gov/media/formswarehouse/voter-id/outreach-materials/documents/Voter-Identification-Chart---Revised-07.2025.pdf",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "clerk-2024-stats",
+    "title": "Statistics of the Presidential and Congressional Election of November 5, 2024",
+    "publisher": "Clerk of the U.S. House of Representatives",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2024/statistics2024.pdf",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "clerk-2020-stats",
+    "title": "Statistics of the Presidential and Congressional Election of November 3, 2020",
+    "publisher": "Clerk of the U.S. House of Representatives",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2020/statistics2020.pdf",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "census-cd119-2025",
+    "title": "2025 Cartographic Boundary File, 119th Congressional Districts (1:500,000)",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/tiger/GENZ2025/shp/cb_2025_us_cd119_500k.zip",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "fec-api",
+    "title": "OpenFEC API — candidate financial totals",
+    "publisher": "Federal Election Commission",
+    "url": "https://api.open.fec.gov/developers/",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "ballotpedia-va-map-2022",
+    "title": "Virginia Supreme Court approves new congressional district map",
+    "publisher": "Ballotpedia News",
+    "url": "https://news.ballotpedia.org/2022/01/04/virginia-supreme-court-approves-new-congressional-district-map/",
+    "type": "reference",
+    "published": "2022-01-04",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "ballotpedia-scova-2026-05-08",
+    "title": "Virginia Supreme Court voids election results for Virginia redistricting referendum",
+    "publisher": "Ballotpedia News",
+    "url": "https://news.ballotpedia.org/2026/05/08/virginia-supreme-court-voids-election-results-for-virginia-redistricting-referendum-blocking-implementation-of-a-map-that-would-have-shifted-four-congressional-seats-towards-democrats/",
+    "type": "reference",
+    "published": "2026-05-08",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "scotusblog-2026-05-15",
+    "title": "Court denies Virginia's request to reinstate congressional map that would benefit Democrats",
+    "publisher": "SCOTUSblog (Amy Howe)",
+    "url": "https://www.scotusblog.com/2026/05/court-denies-virginias-request-to-reinstate-congressional-map-that-would-benefit-democrats/",
+    "type": "news",
+    "published": "2026-05-15",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "tpsi-2026-05-05",
+    "title": "The Virginia Project / The Public Sentiment Institute — NEW Virginia Poll Shows Democrats' Advantage Across The State",
+    "publisher": "The Public Sentiment Institute",
+    "url": "https://tpsiofficial.substack.com/p/the-virginia-project-the-public-sentiment",
+    "type": "pollster",
+    "published": "2026-05-05",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "tpsi-2026-06-16",
+    "title": "New TPSI Senate Poll Confirms Democratic Structural Advantage; With Shifts Worth Watching",
+    "publisher": "The Public Sentiment Institute",
+    "url": "https://tpsiofficial.substack.com/p/tpsi-new-tpsi-senate-poll-confirms",
+    "type": "pollster",
+    "published": "2026-06-16",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "wikipedia-va-sen-2026",
+    "title": "2026 United States Senate election in Virginia",
+    "publisher": "Wikipedia (CC BY-SA 4.0)",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
+    "type": "reference",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "wikipedia-va-house-2026",
+    "title": "2026 United States House of Representatives elections in Virginia",
+    "publisher": "Wikipedia (CC BY-SA 4.0)",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia",
+    "type": "reference",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "cook-senate",
+    "title": "2026 Senate Race Ratings",
+    "publisher": "The Cook Political Report",
+    "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+    "type": "forecaster",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "cook-house",
+    "title": "2026 House Race Ratings",
+    "publisher": "The Cook Political Report",
+    "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+    "type": "forecaster",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "sabato-senate",
+    "title": "2026 Senate Ratings",
+    "publisher": "Sabato's Crystal Ball (UVA Center for Politics)",
+    "url": "https://centerforpolitics.org/crystalball/2026-senate/",
+    "type": "forecaster",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "sabato-house",
+    "title": "2026 House Ratings",
+    "publisher": "Sabato's Crystal Ball (UVA Center for Politics)",
+    "url": "https://centerforpolitics.org/crystalball/2026-house/",
+    "type": "forecaster",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "inside-senate",
+    "title": "Senate Ratings",
+    "publisher": "Inside Elections",
+    "url": "https://insideelections.com/ratings/senate",
+    "type": "forecaster",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "inside-house",
+    "title": "House Ratings",
+    "publisher": "Inside Elections",
+    "url": "https://insideelections.com/ratings/house",
+    "type": "forecaster",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "fec-registering-candidate",
+    "title": "Registering as a candidate",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/help-candidates-and-committees/registering-candidate/",
+    "type": "official",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "virginiascope-2026-09-21",
+    "title": "Internal poll shows a tight race between Wittman and Taylor",
+    "publisher": "Virginia Scope (Brandon Jarvis)",
+    "url": "https://www.virginiascope.com/internal-poll-shows-a-tight-race-between-wittman-and-taylor/",
+    "type": "news",
+    "published": "2026-09-21",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "downballot-2025-09-08",
+    "title": "Morning Digest: Kansas Republicans want to gerrymander. They have a few problems.",
+    "publisher": "The Downballot",
+    "url": "https://www.the-downballot.com/p/morning-digest-kansas-republicans",
+    "type": "news",
+    "published": "2025-09-08",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "hmp-home",
+    "title": "House Majority PAC home page (\"Fighting for a Democratic Majority in the House\")",
+    "publisher": "House Majority PAC",
+    "url": "https://www.thehousemajoritypac.com/",
+    "type": "organization",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "hmp-va02-memo",
+    "title": "HMP Poll: Elaine Luria Has a Clear Path to Victory in VA-02",
+    "publisher": "House Majority PAC (hosted by Politico)",
+    "url": "https://www.politico.com/f/?id=0000019f-918b-d49c-ad9f-9fbb88d00000",
+    "type": "pollster",
+    "published": "2026-07-24",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "perriello-va05-memo",
+    "title": "VA-05 Poll Results",
+    "publisher": "Expedition Strategies (Google Drive)",
+    "url": "https://drive.google.com/file/d/1EkjffKo5q9TcJ4GLK9LS-00iPmeBhGS5/view",
+    "type": "pollster",
+    "accessed": "2026-09-24"
+  }
+]

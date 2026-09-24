@@ -1,0 +1,150 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import VaMap, { type DistrictInfo } from '../../islands/VaMap';
+import Term from '../../components/Term.astro';
+import Source from '../../components/Source.astro';
+import SourceList from '../../components/SourceList.astro';
+import Limits from '../../components/Limits.astro';
+import geo from '../../../data/geo/va-districts-svg.json';
+import { db, candidatesInRace, ratingsForRace, pastResultsForRace, partyById, moneyFor, lastChecked, raceById } from '../../lib/data';
+import { consensus, ratingColor, ratingLabel, ratingsHeadline } from '../../lib/ratings';
+import { money } from '../../lib/format';
+
+const shortF = { cook: 'Cook', inside: 'Inside Elections', sabato: 'Sabato' } as const;
+
+const districts: DistrictInfo[] = geo.districts.map((g) => {
+  const raceId = `va-${String(g.number).padStart(2, '0')}`;
+  const race = raceById(raceId);
+  const ratings = ratingsForRace(raceId);
+  const cons = consensus(ratings);
+  const same = new Set(ratings.map((r) => r.rating)).size === 1;
+  const ratingText = !ratings.length
+    ? 'Being double-checked'
+    : same
+      ? `${ratingLabel(ratings[0].rating)} (all ${ratings.length})`
+      : ratings.map((r) => `${shortF[r.forecaster]}: ${ratingLabel(r.rating, r.forecaster)}`).join(' · ');
+
+  const past = pastResultsForRace(raceId).filter((r) => r.year === 2024).sort((a, b) => b.votes - a.votes);
+  const total = past.reduce((t, r) => t + r.votes, 0);
+  const [w, second] = past;
+  const margin = w && second ? ((w.votes - second.votes) / total) * 100 : 0;
+  const wParty = w ? partyById(w.party) : null;
+  const strength = Math.min(1, margin / 30);
+  const resultFill = wParty ? `color-mix(in oklab, var(--${wParty.color}) ${Math.round(35 + 65 * strength)}%, var(--neutral))` : 'var(--surface-2)';
+  const resultText = w ? `${w.candidate} (${wParty?.abbr}) won by ${margin.toFixed(1)} points` : 'No result loaded';
+
+  const cands = candidatesInRace(raceId);
+  return {
+    number: g.number,
+    raceId,
+    name: race.name,
+    d: g.d,
+    label: g.label as [number, number],
+    anchor: (g.anchor as [number, number] | null) ?? null,
+    ratingFill: cons ? ratingColor(cons) : null,
+    ratingText,
+    resultFill,
+    resultText,
+    candidates: cands.map((c) => {
+      const p = partyById(c.party);
+      return { name: c.ballot_name, party: p.name, color: p.color, incumbent: c.incumbent };
+    }),
+    raised: cands.flatMap((c) => {
+      const m = moneyFor(c.id);
+      return m.status === 'ok' && m.receipts ? [{ name: c.sort_name, amount: money(m.receipts) }] : [];
+    }),
+  };
+});
+const hasRatings = districts.some((d) => d.ratingFill);
+
+const senate = raceById('va-sen');
+const senRatings = ratingsForRace('va-sen');
+const senCands = candidatesInRace('va-sen');
+const r = db.redistricting;
+const redistrictingSources = r.steps.flatMap((s) => s.sources);
+const sourceIds = ['census-cd119-2025', 'va-elec-candidates-2026', 'clerk-2024-stats', 'fec-api', ...redistrictingSources,
+  ...db.ratings.filter((x) => x.race.startsWith('va-') && hasRatings).map((x) => x.source)];
+---
+<Layout title="Virginia" description="Virginia's 2026 U.S. Senate race and all 11 House districts: an interactive map with ratings, money, and past results." updated={lastChecked(sourceIds)}>
+  <div class="eyebrow">Virginia · Nov 3, 2026</div>
+  <h1>Virginia's 12 federal races</h1>
+  <p class="headline">One U.S. Senate seat and all 11 U.S. House seats are on the ballot.</p>
+
+  <div class="stack">
+    <a class="card card-link" href={`/races/${senate.id}/`}>
+      <div class="eyebrow">U.S. Senate · statewide</div>
+      <h2>{senate.name}</h2>
+      <p class="text-2">{ratingsHeadline(senRatings)}</p>
+      <p class="small">{senCands.map((c) => `${c.ballot_name} (${partyById(c.party).abbr}${c.incumbent ? ', incumbent' : ''})`).join(' · ')}</p>
+      <span class="small">See the race →</span>
+    </a>
+
+    <section class="card" aria-labelledby="map-h">
+      <h2 id="map-h">U.S. House: pick a district</h2>
+      <p class="small text-2">Not sure which district you live in? Use the state's <a href="https://www.elections.virginia.gov/VoterInfo" target="_blank" rel="noopener">polling place and ballot lookup ↗</a>.</p>
+      <VaMap client:visible viewBox={geo.viewBox} districts={districts} hasRatings={hasRatings} />
+      <Limits>
+        District lines: <Source id="census-cd119-2025" label="U.S. Census Bureau" />, simplified so the map loads fast on phones, so edges are approximate. Small districts in Northern Virginia and Hampton Roads are hard to tap; use the number buttons. {!hasRatings && "Forecaster ratings will appear once we've checked each one against the forecaster's own site."}
+      </Limits>
+    </section>
+
+    <section class="card" aria-labelledby="redistricting-h">
+      <div class="eyebrow">Explainer · <Term id="redistricting">redistricting</Term></div>
+      <h2 id="redistricting-h">{r.headline}</h2>
+      <p class="text-2">{r.summary}</p>
+      <ol class="timeline">
+        {r.steps.map((s, i) => (
+          <li class={i === r.steps.length - 1 ? 'last' : ''}>
+            <div class="when">{s.label}</div>
+            <div class="what">
+              <strong>{s.title}</strong>
+              <p class="small text-2">{s.text}</p>
+              <p class="small srcrow">{s.sources.map((id) => <Source id={id} />)}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+      <div class="result"><strong>Result:</strong> the <Term id="special-master">court-drawn</Term> 2021 map is the one on your 2026 ballot.</div>
+      <Limits>{r.limits}</Limits>
+    </section>
+
+    <SourceList ids={sourceIds} />
+  </div>
+</Layout>
+
+<style>
+  .timeline { list-style: none; padding: 0; margin: 16px 0; }
+  .timeline li { display: grid; grid-template-columns: 92px 1fr; gap: 12px; position: relative; padding-bottom: 14px; }
+  .timeline li::before { content: ''; position: absolute; left: 97px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--text); }
+  .timeline li:not(.last)::after { content: ''; position: absolute; left: 101px; top: 18px; bottom: -4px; width: 2px; background: var(--border-strong); }
+  .timeline .when { font-weight: 700; font-size: 0.85rem; text-align: right; padding-right: 14px; }
+  .timeline .what { padding-left: 22px; min-width: 0; }
+  .srcrow { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+  .timeline p { margin: 4px 0; }
+  .result { background: var(--surface-2); border-radius: var(--radius-sm); padding: 10px 12px; }
+</style>
+
+<style is:global>
+  .vamap .modes { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin: 8px 0; }
+  .vamap .modes button { font: inherit; font-size: 0.85rem; font-weight: 600; padding: 6px 12px; min-height: 36px; border-radius: 999px; border: 1px solid var(--border-strong); background: transparent; color: var(--text-2); cursor: pointer; }
+  .vamap .modes button[aria-pressed='true'] { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .vamap .modes button:disabled { opacity: 0.45; cursor: not-allowed; }
+  .vamap .map { width: 100%; height: auto; display: block; margin: 8px 0; }
+  .vamap .district { stroke: var(--bg); stroke-width: 1.5; cursor: pointer; transition: opacity 0.15s; }
+  .vamap .district:hover { opacity: 0.85; }
+  .vamap .district.selected { stroke: var(--text); stroke-width: 3; }
+  .vamap .dlabel { font: 700 22px var(--font); fill: var(--text); paint-order: stroke; stroke: var(--bg); stroke-width: 4px; text-anchor: middle; pointer-events: none; }
+  .vamap .callout { stroke: var(--text); stroke-width: 1.2; opacity: 0.7; }
+  .vamap .legend { margin: 0 0 12px; }
+  .vamap .dbuttons { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+  .vamap .dbtn { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; border-radius: var(--radius-sm); border: 1px solid var(--border); background: var(--surface-2); font-weight: 700; text-decoration: none; }
+  .vamap .dbtn[aria-current='true'] { border-color: var(--text); box-shadow: inset 0 0 0 1px var(--text); }
+  .vamap .dbtn .swatch { width: 10px; height: 10px; border-radius: 2px; }
+  .vamap .panel { margin-top: 12px; background: var(--surface-2); }
+  .vamap .panel h3 { margin-bottom: 8px; }
+  .vamap .panel p { margin: 4px 0; }
+  .vamap .plist { list-style: none; padding: 0; margin: 10px 0; font-size: 0.9rem; }
+  .vamap .plist li { padding: 3px 0; }
+  .vamap .btn { margin-top: 8px; }
+  @media (max-width: 480px) { .vamap .dbuttons { grid-template-columns: repeat(4, 1fr); } .vamap .dlabel { font-size: 36px; stroke-width: 6px; } }
+</style>

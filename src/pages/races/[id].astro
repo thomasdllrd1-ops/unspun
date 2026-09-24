@@ -1,0 +1,138 @@
+---
+/**
+ * ONE template for every race (Senate and House). Nothing here is
+ * specific to a candidate or party. Same sections, same order, for everyone.
+ */
+import Layout from '../../layouts/Layout.astro';
+import RatingScale from '../../components/RatingScale.astro';
+import PollCard from '../../components/PollCard.astro';
+import MoneyBars from '../../components/MoneyBars.astro';
+import PastResults from '../../components/PastResults.astro';
+import PartyTag from '../../components/PartyTag.astro';
+import Term from '../../components/Term.astro';
+import Source from '../../components/Source.astro';
+import SourceList from '../../components/SourceList.astro';
+import Limits from '../../components/Limits.astro';
+import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
+import { db, candidatesInRace, ratingsForRace, pollsForRace, pastResultsForRace, lastChecked } from '../../lib/data';
+import { ratingsHeadline } from '../../lib/ratings';
+import { confidence, daysBetween, pollDate, RECENT_DAYS } from '../../lib/polls';
+import { date, plural } from '../../lib/format';
+
+export function getStaticPaths() {
+  return db.races.map((race) => ({ params: { id: race.id }, props: { race } }));
+}
+
+const { race } = Astro.props;
+const today = new Date();
+const candidates = candidatesInRace(race.id);
+const ratings = ratingsForRace(race.id);
+const polls = pollsForRace(race.id);
+const recent = polls.filter((p) => daysBetween(pollDate(p), today) <= RECENT_DAYS);
+const conf = confidence(polls, today);
+const past = pastResultsForRace(race.id);
+const office = race.chamber === 'senate' ? 'U.S. Senate' : 'U.S. House';
+const allRatingsHidden = ratings.length === 0 && db.ratings.some((r) => r.race === race.id);
+
+const pollHeadline =
+  polls.length === 0
+    ? "We haven't added any polls for this race yet."
+    : recent.length === 0
+      ? `No polls in the last ${RECENT_DAYS} days. The ${plural(polls.length, 'poll')} below ${polls.length === 1 ? 'is' : 'are'} older.`
+      : `${plural(recent.length, 'poll')} in the last ${RECENT_DAYS} days.`;
+
+const sourceIds = [
+  race.source,
+  ...candidates.map((c) => c.source),
+  ...ratings.map((r) => r.source),
+  ...ratings.map((r) => r.found_via),
+  ...polls.map((p) => p.source),
+  ...past.map((p) => p.source),
+  'fec-api',
+];
+const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort().at(-1);
+---
+<Layout title={race.name} description={`${race.name}, ${office}: who's running, race ratings, polls, money, and past results. Every number sourced.`} updated={updated}>
+  <nav class="crumbs small" aria-label="Breadcrumb"><a href="/virginia/">Virginia</a> › {race.short}</nav>
+
+  <header class="race-head">
+    <div class="eyebrow">{office} · Election Day {date(race.election_date)}</div>
+    <h1>{race.name}</h1>
+    <p class="headline">{ratingsHeadline(ratings)}</p>
+  </header>
+
+  <div class="stack">
+    <section class="card" aria-labelledby="ballot">
+      <h2 id="ballot">On the ballot ({candidates.length})</h2>
+      <ul class="cands">
+        {candidates.map((c) => (
+          <li>
+            <div>
+              <a class="cname" href={`/candidates/${c.id}/`}>{c.ballot_name}</a>
+              {c.incumbent && <span class="chip"><Term id="incumbent">Incumbent</Term></span>}
+            </div>
+            <div class="row small">
+              <PartyTag party={c.party} />
+              {c.website ? <a class="muted" href={c.website} target="_blank" rel="noopener nofollow">Campaign site ↗</a> : <span class="muted">No campaign website listed</span>}
+            </div>
+          </li>
+        ))}
+      </ul>
+      <p class="small muted">Listed alphabetically by last name. Your real ballot may use a different order. Names as certified by the state: <Source id={race.source} />.</p>
+    </section>
+
+    <section class="card" aria-labelledby="ratings">
+      <h2 id="ratings">What forecasters say</h2>
+      {ratings.length > 0 ? <RatingScale ratings={ratings} /> : (
+        <p class="text-2">{allRatingsHidden ? "We're double-checking these ratings against each forecaster's own site before publishing them." : 'No forecaster ratings loaded yet.'}</p>
+      )}
+      <Limits>
+        A <Term id="race-rating">race rating</Term> is an expert's judgment, not a poll or a prediction of the final score. Forecasters update on their own schedules, so check the "as of" date.
+      </Limits>
+    </section>
+
+    <section class="card" aria-labelledby="polls">
+      <div class="row between">
+        <h2 id="polls">Polls</h2>
+        <ConfidenceBadge level={conf} recent={recent.length} total={polls.length} />
+      </div>
+      <p class="headline">{pollHeadline}</p>
+      <div class="stack">
+        {polls.map((p) => <PollCard poll={p} candidates={candidates} today={today} />)}
+      </div>
+      <Limits>
+        One poll is a snapshot, not a forecast. Each poll's range shows how far its lead could be off just from sampling. Real errors can be bigger. {conf !== 'lots' && 'With few recent polls, lean more on ratings, money, and past results.'}
+      </Limits>
+    </section>
+
+    <section class="card" aria-labelledby="money">
+      <h2 id="money">Money raised</h2>
+      <MoneyBars candidates={candidates} />
+    </section>
+
+    <section class="card" aria-labelledby="past">
+      <h2 id="past">Past results</h2>
+      <PastResults race={race.id} />
+      {race.chamber === 'house' && (
+        <Limits>These are results under the same district lines used in 2026. Past results don't decide future ones, especially with different candidates.</Limits>
+      )}
+    </section>
+
+    <section class="card" aria-labelledby="positions">
+      <h2 id="positions">Where they stand</h2>
+      <p class="text-2">Coming soon: each candidate's top 3 policies in their own words, with a link to where they said it. We research every candidate in a race at the same time and publish them together.</p>
+    </section>
+
+    <SourceList ids={sourceIds} />
+  </div>
+</Layout>
+
+<style>
+  .crumbs { color: var(--muted); margin-bottom: 8px; }
+  .race-head { margin-bottom: 16px; }
+  .cands { list-style: none; padding: 0; margin: 0 0 8px; }
+  .cands li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .cands li:last-child { border-bottom: 0; }
+  .cname { font-weight: 700; margin-right: 6px; }
+  .between { justify-content: space-between; }
+</style>

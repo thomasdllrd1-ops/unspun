@@ -1,0 +1,100 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Term from '../../components/Term.astro';
+import Source from '../../components/Source.astro';
+import SourceList from '../../components/SourceList.astro';
+import Limits from '../../components/Limits.astro';
+import { db, lastChecked } from '../../lib/data';
+import { dateDay, daysUntil } from '../../lib/format';
+
+const v = db.howToVoteVA;
+const today = new Date();
+const upcoming = v.deadlines.filter((d) => daysUntil(d.date, today) >= 0);
+const next = upcoming.find((d) => d.key) ?? upcoming[0];
+const sourceIds = [...v.deadlines.map((d) => d.source), ...v.students.map((s) => s.source), ...v.links.map((l) => l.source), v.on_ballot_source];
+const countdown = (iso: string) => {
+  const n = daysUntil(iso, today);
+  return n === 0 ? 'Today' : n === 1 ? 'Tomorrow' : `In ${n} days`;
+};
+---
+<Layout title="How to vote in Virginia" description="Virginia's 2026 voting deadlines, early voting, mail ballots, and ID rules for college students, straight from the state's official sources." updated={lastChecked(sourceIds)}>
+  <div class="eyebrow">How to vote · Virginia</div>
+  <h1>{v.headline}</h1>
+
+  {next && (
+    <div class="card next">
+      <div class="eyebrow">Next deadline · <span data-countdown={next.date}>{countdown(next.date)}</span></div>
+      <div class="big">{next.label}</div>
+      <div class="text-2">{dateDay(next.date)}{next.time ? `, ${next.time}` : ''}</div>
+    </div>
+  )}
+
+  <div class="stack">
+    <section class="card" aria-labelledby="links-h">
+      <h2 id="links-h">Do it now</h2>
+      <ul class="links">
+        {v.links.map((l) => (
+          <li><a class="btn btn-ghost" href={l.url} target="_blank" rel="noopener">{l.label} ↗</a></li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="dates-h">
+      <h2 id="dates-h">Key dates</h2>
+      <ol class="dates">
+        {v.deadlines.map((d) => {
+          const past = daysUntil(d.date, today) < 0;
+          return (
+            <li class:list={[{ past, key: d.key }]} data-date={d.date}>
+              <div class="d num">{dateDay(d.date)}{d.time && <span class="muted">, {d.time}</span>}</div>
+              <div>
+                <strong>{d.label}</strong><span class="chip passed-chip">Passed</span>
+                <p class="small text-2">{d.detail} <Source id={d.source} /></p>
+              </div>
+            </li>
+          );
+        })}
+      </ol>
+    </section>
+
+    <section class="card" aria-labelledby="students-h">
+      <h2 id="students-h">College students</h2>
+      {v.students.map((s) => (
+        <details class="more" open={s.warn}>
+          <summary>{s.warn && <span aria-hidden="true">⚠️ </span>}{s.q}</summary>
+          <p class="text-2">{s.a} <Source id={s.source} /></p>
+        </details>
+      ))}
+      <p class="small muted" style="margin-top:12px">
+        Words to know: <Term id="absentee">mail ballot</Term> · <Term id="provisional-ballot">provisional ballot</Term>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>What else is on your ballot</h2>
+      <p class="text-2">{v.on_ballot} <Source id={v.on_ballot_source} /></p>
+      <p class="small">Registered somewhere else? <a href="https://vote.gov/" target="_blank" rel="noopener">vote.gov ↗</a> has every state's rules.</p>
+    </section>
+
+    <Limits>{v.limits}</Limits>
+    <SourceList ids={sourceIds} />
+  </div>
+</Layout>
+
+<style>
+  .next { margin: 12px 0 16px; border-color: var(--border-strong); }
+  .next .big { font-size: 1.4rem; font-weight: 800; line-height: 1.2; }
+  .links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .links .btn { width: 100%; justify-content: space-between; font-weight: 600; }
+  .dates { list-style: none; padding: 0; margin: 0; }
+  .dates li { display: grid; grid-template-columns: 130px 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .dates li:last-child { border-bottom: 0; }
+  .dates li.key strong { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  .dates li.past { opacity: 0.55; }
+  .dates .d { font-weight: 700; font-size: 0.9rem; }
+  .dates p { margin: 4px 0 0; }
+  .dates .chip { margin-left: 8px; }
+  .dates .passed-chip { display: none; }
+  .dates li.past .passed-chip { display: inline-flex; }
+  @media (max-width: 420px) { .dates li { grid-template-columns: 1fr; gap: 2px; } }
+</style>

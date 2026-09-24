@@ -1,0 +1,15 @@
+# Netlify build settings (read automatically when you connect the repo)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# Basic security headers. No tracking scripts are loaded anywhere on the site.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
