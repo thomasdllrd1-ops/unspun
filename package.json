@@ -14,7 +14,8 @@
     "validate": "tsx scripts/validate-data.ts",
     "fetch:fec": "tsx scripts/fetch-fec.ts",
     "build:geo": "tsx scripts/build-geo.ts",
-    "check:quotes": "tsx scripts/check-quotes.ts"
+    "check:quotes": "tsx scripts/check-quotes.ts",
+    "build:polls-history": "tsx scripts/build-poll-history.ts"
   },
   "dependencies": {
     "@astrojs/preact": "^6.0.5",

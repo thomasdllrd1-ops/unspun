@@ -18,3 +18,6 @@ data/geo/raw/
 .vscode/*
 !.vscode/extensions.json
 .netlify/
+
+# downloaded source files (rebuilt by scripts)
+data/raw/

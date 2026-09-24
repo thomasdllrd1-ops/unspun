@@ -14,10 +14,13 @@ import Source from '../../components/Source.astro';
 import SourceList from '../../components/SourceList.astro';
 import Limits from '../../components/Limits.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
-import { db, candidatesInRace, ratingsForRace, pollsForRace, pastResultsForRace, lastChecked } from '../../lib/data';
+import AverageBuilder from '../../islands/AverageBuilder';
+import { db, candidatesInRace, ratingsForRace, pollsForRace, pastResultsForRace, resultsForPoll, partyById, sourceById, lastChecked } from '../../lib/data';
+import { pollingAverage, missForState, type AvgPoll } from '../../lib/average';
+import { stateName } from '../../lib/states';
 import { ratingsHeadline } from '../../lib/ratings';
 import { confidence, daysBetween, pollDate, RECENT_DAYS } from '../../lib/polls';
-import { date, plural } from '../../lib/format';
+import { date, dateShort, plural } from '../../lib/format';
 
 export function getStaticPaths() {
   return db.races.map((race) => ({ params: { id: race.id }, props: { race } }));
@@ -33,6 +36,33 @@ const conf = confidence(polls, today);
 const past = pastResultsForRace(race.id);
 const office = race.chamber === 'senate' ? 'U.S. Senate' : 'U.S. House';
 const allRatingsHidden = ratings.length === 0 && db.ratings.some((r) => r.race === race.id);
+
+// ---- polling average (same code runs in the browser for the toggles) ----
+const todayIso = today.toISOString().slice(0, 10);
+const candIds = new Set(candidates.map((c) => c.id));
+const avgPolls: AvgPoll[] = polls.map((p) => ({
+  id: p.id,
+  pollster: p.pollster,
+  sponsorType: p.sponsor_type,
+  sponsorLean: p.sponsor_lean,
+  population: p.population,
+  sampleSize: p.sample_size,
+  date: pollDate(p),
+  shares: Object.fromEntries(resultsForPoll(p.id).filter((r) => candIds.has(r.candidate)).map((r) => [r.candidate, r.pct])),
+}));
+const baseAvg = pollingAverage(avgPolls, { today: todayIso });
+const onlyOne = (party: string) => {
+  const xs = candidates.filter((c) => c.party === party);
+  return xs.length === 1 ? xs[0].id : null;
+};
+const history = db.pollHistory;
+const misses = history.cycles.map((c) => {
+  const m = missForState(c, race.state);
+  const src = sourceById(m.scope === 'state' ? c.states_source : history.national_source);
+  return { ...m, sourceLabel: src.publisher.split(' (')[0], sourceUrl: src.url };
+});
+const avgCandidates = candidates.map((c) => ({ id: c.id, name: c.sort_name, color: partyById(c.party).color, party: partyById(c.party).name }));
+const pollLabels = Object.fromEntries(polls.map((p) => [p.id, `${p.pollster}, ${dateShort(pollDate(p))}`]));
 
 const pollHeadline =
   polls.length === 0
@@ -96,7 +126,14 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
         <h2 id="polls">Polls</h2>
         <ConfidenceBadge level={conf} recent={recent.length} total={polls.length} />
       </div>
-      <p class="headline">{pollHeadline}</p>
+      {baseAvg ? (
+        <AverageBuilder client:visible today={todayIso} polls={avgPolls} candidates={avgCandidates}
+          demId={onlyOne('democratic')} repId={onlyOne('republican')} typicalMiss={history.typical_miss}
+          misses={misses} stateName={stateName(race.state)} pollLabels={pollLabels} />
+      ) : (
+        <p class="headline">{pollHeadline}{polls.length > 0 && recent.length === 0 && ' So there\u2019s no polling average right now.'}</p>
+      )}
+      {polls.length > 0 && <h3 class="every">Every poll ({polls.length})</h3>}
       <div class="stack">
         {polls.map((p) => <PollCard poll={p} candidates={candidates} today={today} />)}
       </div>
@@ -135,4 +172,5 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
   .cands li:last-child { border-bottom: 0; }
   .cname { font-weight: 700; margin-right: 6px; }
   .between { justify-content: space-between; }
+  .every { margin: 20px 0 10px; font-size: 1rem; }
 </style>

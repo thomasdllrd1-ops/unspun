@@ -1,0 +1,38 @@
+{
+ "source": "fivethirtyeight-pollster-data",
+ "scale": "0 to 3 (3 is best)",
+ "ratings": {
+  "DCCC Analytics": {
+   "fte_id": 68,
+   "fte_name": "DCCC Targeting and Analytics Department",
+   "grade": 1.1,
+   "polls_analyzed": 19,
+   "percent_partisan_work": 1,
+   "inactive": false
+  },
+  "Public Policy Polling": {
+   "fte_id": 263,
+   "fte_name": "Public Policy Polling",
+   "grade": 1.4,
+   "polls_analyzed": 537,
+   "percent_partisan_work": 0.4,
+   "inactive": false
+  },
+  "Tulchin Research": {
+   "fte_id": 340,
+   "fte_name": "Tulchin Research",
+   "grade": 0.9,
+   "polls_analyzed": 8,
+   "percent_partisan_work": 0.9,
+   "inactive": false
+  },
+  "Expedition Strategies": {
+   "fte_id": 409,
+   "fte_name": "Expedition Strategies",
+   "grade": 1.2,
+   "polls_analyzed": 1,
+   "percent_partisan_work": 1,
+   "inactive": false
+  }
+ }
+}

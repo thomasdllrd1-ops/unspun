@@ -256,5 +256,21 @@
     "url": "https://drive.google.com/file/d/1EkjffKo5q9TcJ4GLK9LS-00iPmeBhGS5/view",
     "type": "pollster",
     "accessed": "2026-09-24"
+  },
+  {
+    "id": "aapor-2024-report",
+    "title": "An Evaluation of the 2024 General Election Polls (Task Force on 2024 Pre-Election Polling, October 2025)",
+    "publisher": "American Association for Public Opinion Research (AAPOR)",
+    "url": "https://aapor.org/wp-content/uploads/2025/10/AAPOR-Task-Force-on-2024-Pre-Election-Polling_Report.pdf",
+    "type": "reference",
+    "accessed": "2026-09-24"
+  },
+  {
+    "id": "fivethirtyeight-pollster-data",
+    "title": "FiveThirtyEight pollster ratings data (raw_polls.csv, pollster-ratings-combined.csv), CC BY 4.0",
+    "publisher": "FiveThirtyEight (GitHub archive; pollster-ratings folder last updated Sep 13, 2024)",
+    "url": "https://github.com/fivethirtyeight/data/tree/master/pollster-ratings",
+    "type": "reference",
+    "accessed": "2026-09-24"
   }
 ]

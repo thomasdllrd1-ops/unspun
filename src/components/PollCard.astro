@@ -6,7 +6,7 @@
  *   layer 3 (tap to expand): every tag (sponsor, voters, method, size, dates) + notes
  */
 import type { Poll, Candidate } from '../lib/schema';
-import { resultsForPoll, partyById, db } from '../lib/data';
+import { resultsForPoll, partyById, db, sourceById } from '../lib/data';
 import { leadRange, pollDate, daysBetween, RECENT_DAYS } from '../lib/polls';
 import { dateRange, date, pct, plural } from '../lib/format';
 import Term from './Term.astro';
@@ -45,6 +45,27 @@ const sponsorText: Record<Poll['sponsor_type'], string> = {
 };
 const pop = { LV: ['likely-voters', 'Likely voters'], RV: ['registered-voters', 'Registered voters'], A: ['adults', 'Adults'], unknown: ['sample-size', 'Voter group not stated'] } as const;
 const methodText: Record<Poll['method'], string> = { phone: 'Phone', online: 'Online', text: 'Text', ivr: 'Automated phone', mixed: 'Mixed methods', unknown: 'Method not stated' };
+
+// Track record (FiveThirtyEight grade, frozen Sep 2024)
+const grade = db.pollsterRatings.ratings[poll.pollster] ?? null;
+const pollsterInfo = db.pollsters.find((x) => x.name === poll.pollster);
+
+// Plain-English summary for the decoder
+const partisan = ['campaign', 'party', 'partisan-aligned'].includes(poll.sponsor_type);
+const leanWord = { D: 'Democratic', R: 'Republican', none: '', unknown: '' }[poll.sponsor_lean];
+const who =
+  poll.population === 'unknown'
+    ? poll.sample_size ? `${poll.sample_size.toLocaleString('en-US')} voters (which kind isn't stated)` : "voters (how many, and which kind, isn't stated)"
+    : poll.sample_size ? `${poll.sample_size.toLocaleString('en-US')} ${pop[poll.population][1].toLowerCase()}` : `${pop[poll.population][1].toLowerCase()} (how many isn't stated)`;
+const paidBy = poll.sponsor && poll.sponsor !== poll.pollster ? `, paid for by ${poll.sponsor}${leanWord ? ` (a ${leanWord}-aligned sponsor)` : ''}` : '';
+const summary = `${poll.pollster} asked ${who}${paidBy}.` +
+  (a && b
+    ? range
+      ? range.tossup
+        ? ` ${a.name} led by ${(a.pct - b.pct).toFixed(1)}, which is within the poll's margin of error, so it's a statistical tie.`
+        : ` ${a.name} led by ${(a.pct - b.pct).toFixed(1)}, more than the poll's margin of error.`
+      : ` ${a.name} led by ${(a.pct - b.pct).toFixed(1)}. Without a margin of error, we can't say whether that's a real lead.`
+    : '');
 
 // Range bar geometry: ±40 points centered on a tie.
 const SPAN = 40;
@@ -110,15 +131,24 @@ const x = (v: number) => 50 + (Math.max(-SPAN, Math.min(SPAN, v)) / SPAN) * 50;
 
   <details class="more">
     <summary>Poll decoder: what this poll can and can't tell you</summary>
+    <p class="plain small"><strong>In plain English:</strong> {summary}</p>
+    {partisan && (
+      <p class="small partisan-note">Polls paid for by a campaign, party, or partisan group can be accurate, but the sponsor chooses whether to release them. We label these the same way for every party.</p>
+    )}
     <dl class="decoder small">
-      <dt>Who ran it</dt><dd>{poll.pollster}. {db.pollsters.find((p) => p.name === poll.pollster)?.track_record_note ?? 'Track record not yet researched.'}</dd>
+      <dt>Who ran it</dt><dd>{poll.pollster}.</dd>
+      <dt>Track record</dt><dd>{grade
+        ? grade.grade != null
+          ? <><Term id="pollster-grade">FiveThirtyEight grade</Term>: <strong>{grade.grade.toFixed(1)} out of 3</strong>, based on {grade.polls_analyzed.toLocaleString('en-US')} past poll{grade.polls_analyzed === 1 ? '' : 's'}{grade.polls_analyzed < 5 ? ' (very few, so treat this grade with caution)' : ''}. Last updated Sep 2024. <Source id={db.pollsterRatings.source} label="data" /></>
+          : 'FiveThirtyEight lists this pollster as inactive, with no current grade.'
+        : pollsterInfo?.track_record_note || 'Not yet researched.'}</dd>
       <dt>Who paid</dt><dd>{poll.sponsor || 'Not stated in the release.'}{poll.sponsor_type === 'unknown' ? " We haven't verified whether this sponsor leans toward a party." : ''}</dd>
       <dt>Who they asked</dt><dd>{pop[poll.population][1]}{poll.sample_size ? `, ${plural(poll.sample_size, 'person', 'people')}` : ''}.</dd>
       <dt>How</dt><dd>{poll.method_detail || methodText[poll.method]}</dd>
       <dt>When</dt><dd>{poll.field_start ? dateRange(poll.field_start, poll.field_end) : 'Field dates not stated'}{poll.released ? `; released ${date(poll.released)}` : ''}.</dd>
       {poll.notes && (<><dt>Notes</dt><dd>{poll.notes}</dd></>)}
     </dl>
-    <Source id={poll.source} label="Read the pollster's release" />
+    <Source id={poll.source} label={{ pollster: "Read the pollster's release", news: 'Read the news report' }[sourceById(poll.source).type as string] ?? 'See the source'} />
   </details>
 </article>
 
@@ -141,6 +171,8 @@ const x = (v: number) => 50 + (Math.max(-SPAN, Math.min(SPAN, v)) / SPAN) * 50;
   .bar.dem { background: var(--dem); } .bar.rep { background: var(--rep); } .bar.other { background: var(--other); } .bar.neutral { background: var(--neutral); }
   .val { text-align: right; font-weight: 600; }
   .tags { gap: 6px; }
+  .plain { margin: 10px 0 8px; }
+  .partisan-note { border-left: 3px solid var(--warn-ink); padding: 2px 0 2px 10px; color: var(--text-2); margin-bottom: 8px; }
   .decoder { display: grid; grid-template-columns: 110px 1fr; gap: 6px 12px; margin: 8px 0 12px; }
   .decoder dt { color: var(--muted); font-weight: 600; }
   .decoder dd { margin: 0; }

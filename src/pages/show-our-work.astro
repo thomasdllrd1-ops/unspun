@@ -3,6 +3,10 @@ import Layout from '../layouts/Layout.astro';
 import Term from '../components/Term.astro';
 import { db } from '../lib/data';
 import { date } from '../lib/format';
+import { HALF_LIFE_DAYS, DEFAULT_WINDOW_DAYS, SHORT_WINDOW_DAYS, FALLBACK_SAMPLE } from '../lib/average';
+import Source from '../components/Source.astro';
+const h = db.pollHistory;
+const signed = (x: number) => `${x > 0 ? '+' : ''}${x.toFixed(1)}`;
 
 const bySourceType = Object.groupBy(db.sources, (s) => s.type);
 const typeNames: Record<string, string> = {
@@ -40,8 +44,49 @@ const pendingRatings = db.ratings.filter((r) => r.status === 'pending').length;
         <li><strong>"Recent" means the last 60 days.</strong> Older polls are still shown, clearly marked.</li>
         <li><strong>Confidence badge:</strong> "Lots" = 5 or more recent polls from 3 or more pollsters. "A few" = at least one. "None" = no recent polls, so lean on ratings, money, and past results instead.</li>
         <li><strong>Every poll is tagged</strong> with who paid for it, who was asked (<Term id="likely-voters">likely voters</Term>, registered voters, or all adults), how people were reached, sample size, and dates. Polls paid for by campaigns or parties are included and labeled the same way for both sides.</li>
-        <li><strong>Our polling average</strong> is coming in the next update, with its full formula published here first.</li>
       </ul>
+    </section>
+
+    <section class="card" id="average">
+      <h2>Our polling average: the whole formula</h2>
+      <ol class="rules">
+        <li>Take every public poll whose last day of interviews was in the last {DEFAULT_WINDOW_DAYS} days. That includes polls paid for by campaigns and parties, labeled. You can remove them with the toggles on any race page.</li>
+        <li>Keep only the <strong>newest poll from each pollster</strong>, so a pollster that releases a lot can't drown out the rest.</li>
+        <li>Give each poll a weight: <code>0.5 ^ (days old ÷ {HALF_LIFE_DAYS}) × √(sample size)</code>. A poll loses half its weight every {HALF_LIFE_DAYS} days. Bigger polls count more, but a poll 4 times bigger only counts 2 times as much. Polls that don't publish a sample size count as the middle (median) size of the others, or {FALLBACK_SAMPLE} if none do.</li>
+        <li>Each candidate's number is the weighted average of their share in the polls that asked about them.</li>
+        <li>The range around the average is <strong>±{h.typical_miss} points</strong>: the typical <Term id="polling-miss">polling miss</Term> in the last four national elections. {h.typical_miss_note} <Source id={h.national_source} label="AAPOR" /> If that range includes a tie, we call the race a toss-up.</li>
+        <li>We also say how much of each average comes from polls with a partisan sponsor, and from which side.</li>
+      </ol>
+      <p class="small text-2">"Build your own average" toggles: remove campaign, party, and partisan-group polls (both sides at once); likely voters only; last {SHORT_WINDOW_DAYS} days only. The same code runs on the page and in our tests, so the numbers can't drift apart.</p>
+      <p class="small text-2">What we don't do (yet): adjust for each pollster's lean (<Term id="house-effect">house effect</Term>), or weight pollsters by their grade. Both are judgment calls, and we'd rather show you the raw average than hide our choices inside it.</p>
+    </section>
+
+    <section class="card" id="what-if">
+      <h2>"What if the polls are wrong?"</h2>
+      <p class="text-2">The buttons on each race page shift today's margin by how much polls actually missed in a past election. {h.sign_convention}</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Year</th><th>Polls used</th><th class="num">Average miss</th><th class="num">Our check</th></tr></thead>
+          <tbody>
+            {h.cycles.map((c) => (
+              <tr>
+                <td>{c.cycle}</td>
+                <td>{c.contest}, final 2 weeks ({c.national.polls} polls)</td>
+                <td class="num">{signed(c.national.signed)}</td>
+                <td class="num">{c.check ? `${signed(c.check.signed)} (${c.check.polls})` : '—'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="small text-2">"Average miss" comes from the <Source id="aapor-2024-report" label="AAPOR 2024 task force report" /> (Appendix I.3). Positive = polls overstated Democrats. "Our check" is our own calculation from <Source id="fivethirtyeight-pollster-data" label="FiveThirtyEight's public poll data" /> using the same two-week window. It lands within half a point of AAPOR's figures, which is how we know our state-level numbers are built correctly.</p>
+      <p class="small text-2"><strong>State by state:</strong> for 2016, 2020, and 2022 we use polls from that state in FiveThirtyEight's data (presidential polls in 2016 and 2020, Senate polls in 2022), if the state had at least {h.min_state_polls}. For 2024 we use AAPOR's state table, which covers {Object.keys(h.cycles.find((c) => c.cycle === 2024)?.states ?? {}).length} states. Anywhere else, we use the national figure and say so. House races use their state's figure.</p>
+      <p class="small text-2"><strong>Why the "flip it" button:</strong> polls underestimated Republicans in 2016, 2020, and 2024, and underestimated Democrats in 2022. The direction changes from cycle to cycle, so the button applies the same-size miss the other way.</p>
+    </section>
+
+    <section class="card">
+      <h2>Pollster track records</h2>
+      <p class="text-2">Each poll's decoder shows the pollster's <Term id="pollster-grade">grade</Term> from FiveThirtyEight (0 to 3, higher is better), and how many past polls it's based on. FiveThirtyEight last updated these in September 2024, so newer pollsters may not have one, and we say so instead of guessing. A grade built on only a few polls isn't very reliable, and we flag that too. <Source id="fivethirtyeight-pollster-data" label="data" /></p>
     </section>
 
     <section class="card">

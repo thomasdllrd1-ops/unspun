@@ -4,7 +4,7 @@ Everything here is either **hidden from the public site** until a person checks 
 
 When you finish an item, delete it from this file (git keeps the history).
 
-_Last updated: Sep 24, 2026_
+_Last updated: Sep 24, 2026 (Phase 2)_
 
 ---
 
@@ -58,7 +58,8 @@ Candidates were matched to FEC records by name + district + party. These are the
 
 - **Campaign website links** were copied from the state's candidate list and haven't been checked to load. Two candidates list none (Geral Staten, Cooke Harvey).
 - **Glossary definitions** were written by us in plain English. Have someone who knows polling skim them, and we'll add "learn more" sources in Phase 5.
-- **Pollster track records**: not researched yet (Phase 2).
+- **Pollster track records**: FiveThirtyEight grades added (frozen Sep 2024). The Public Sentiment Institute has no grade there. Other raters (e.g. Silver Bulletin) may cover it, but check their terms first.
+- **2024 state polling errors**: typed in from the AAPOR report's Appendix I.2 (p. 71). AAPOR says a CSV will be posted on its task force GitHub. Swap it in when it's available.
 - **Map**: district shapes are simplified for speed. Labels for districts 2, 3, 8, and 11 were placed by hand.
 
 ## Sites our tools couldn't read (so a person has to)

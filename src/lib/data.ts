@@ -11,7 +11,7 @@ import Papa from 'papaparse';
 import { z } from 'zod';
 import {
   SourceSchema, PartySchema, RaceSchema, CandidateSchema, RatingSchema, PollSchema, PollResultSchema,
-  PastResultSchema, PollsterSchema, GlossarySchema, RedistrictingSchema, HowToVoteSchema, MoneySchema, CorrectionSchema,
+  PastResultSchema, PollsterSchema, PollHistorySchema, PollsterRatingsSchema, GlossarySchema, RedistrictingSchema, HowToVoteSchema, MoneySchema, CorrectionSchema,
   type Rating, type Poll,
 } from './schema';
 
@@ -63,6 +63,8 @@ function load() {
   const redistricting = parseOne('virginia/redistricting.json', RedistrictingSchema, readJson('virginia/redistricting.json'));
   const howToVoteVA = parseOne('how_to_vote/virginia.json', HowToVoteSchema, readJson('how_to_vote/virginia.json'));
   const money = parseOne('money/fec-totals.json', MoneySchema, readJson('money/fec-totals.json'));
+  const pollHistory = parseOne('historical_poll_error.json', PollHistorySchema, readJson('historical_poll_error.json'));
+  const pollsterRatings = parseOne('pollster_ratings.json', PollsterRatingsSchema, readJson('pollster_ratings.json'));
 
   // ---- cross-checks -------------------------------------------------------
   const errors: string[] = [];
@@ -133,6 +135,13 @@ function load() {
   for (const l of howToVoteVA.links) needSource(`how-to-vote link ${l.label}`, l.source);
   needSource('how-to-vote on_ballot', howToVoteVA.on_ballot_source);
   for (const c of corrections) needSource(`correction ${c.date}`, c.source);
+  needSource('historical_poll_error.json', pollHistory.national_source);
+  for (const c of pollHistory.cycles) needSource(`historical_poll_error ${c.cycle}`, c.states_source);
+  needSource('pollster_ratings.json', pollsterRatings.source);
+  for (const p of pollsters) {
+    if (p.fte_id != null && !pollsterRatings.ratings[p.name])
+      errors.push(`pollster ${p.name}: has fte_id but no rating in pollster_ratings.json (run npm run build:polls-history)`);
+  }
 
   if (errors.length) {
     throw new Error(`Data check failed (${errors.length} problem${errors.length > 1 ? 's' : ''}):\n  - ${errors.join('\n  - ')}`);
@@ -140,7 +149,7 @@ function load() {
 
   return {
     sources, parties, races, candidates, ratings, polls, pollResults, pollsters, pastResults, glossary, corrections,
-    redistricting, howToVoteVA, money,
+    redistricting, howToVoteVA, money, pollHistory, pollsterRatings,
   };
 }
 

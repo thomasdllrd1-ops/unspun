@@ -114,8 +114,46 @@ export const PollsterSchema = z.object({
   id: z.string(),
   name: z.string(),
   url: url.nullable(),
+  fte_id: z.number().int().nullable(), // FiveThirtyEight pollster_rating_id
   track_record: z.string().nullable(),
   track_record_note: z.string(),
+});
+
+const errorFigure = z.object({ signed: z.number(), polls: z.number().int() });
+export const PollHistorySchema = z.object({
+  built_at: isoDate,
+  national_source: sourceId,
+  window_days: z.number(),
+  min_state_polls: z.number(),
+  sign_convention: z.string(),
+  typical_miss: z.number().positive(),
+  typical_miss_note: z.string(),
+  cycles: z.array(
+    z.object({
+      cycle: z.number().int(),
+      contest: z.string(),
+      national: z.object({ signed: z.number(), abs: z.number(), polls: z.number().int() }),
+      states: z.record(z.string().length(2), errorFigure),
+      check: z.object({ polls: z.number(), signed: z.number(), abs: z.number() }).nullable(),
+      states_source: sourceId,
+    }),
+  ),
+});
+
+export const PollsterRatingsSchema = z.object({
+  source: sourceId,
+  scale: z.string(),
+  ratings: z.record(
+    z.string(),
+    z.object({
+      fte_id: z.number(),
+      fte_name: z.string(),
+      grade: z.number().nullable(),
+      polls_analyzed: z.number(),
+      percent_partisan_work: z.number(),
+      inactive: z.boolean(),
+    }),
+  ),
 });
 
 export const GlossarySchema = z.object({ id: z.string(), term: z.string(), short: z.string().min(10) });
@@ -195,6 +233,8 @@ export type Poll = z.infer<typeof PollSchema>;
 export type PollResult = z.infer<typeof PollResultSchema>;
 export type PastResult = z.infer<typeof PastResultSchema>;
 export type Pollster = z.infer<typeof PollsterSchema>;
+export type PollHistory = z.infer<typeof PollHistorySchema>;
+export type PollsterRatings = z.infer<typeof PollsterRatingsSchema>;
 export type GlossaryTerm = z.infer<typeof GlossarySchema>;
 export type Redistricting = z.infer<typeof RedistrictingSchema>;
 export type HowToVote = z.infer<typeof HowToVoteSchema>;

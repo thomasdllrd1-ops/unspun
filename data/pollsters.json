@@ -4,34 +4,39 @@
     "name": "The Public Sentiment Institute",
     "url": "https://tpsiofficial.substack.com/",
     "track_record": null,
-    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+    "track_record_note": "No FiveThirtyEight rating (the pollster may be too new or have too few polls).",
+    "fte_id": null
   },
   {
     "id": "dccc-analytics",
     "name": "DCCC Analytics",
     "url": null,
     "track_record": null,
-    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+    "track_record_note": "",
+    "fte_id": 68
   },
   {
     "id": "public-policy-polling",
     "name": "Public Policy Polling",
     "url": null,
     "track_record": null,
-    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+    "track_record_note": "",
+    "fte_id": 263
   },
   {
     "id": "tulchin-research",
     "name": "Tulchin Research",
     "url": null,
     "track_record": null,
-    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+    "track_record_note": "",
+    "fte_id": 340
   },
   {
     "id": "expedition-strategies",
     "name": "Expedition Strategies",
     "url": null,
     "track_record": null,
-    "track_record_note": "Not yet researched. We'll check public pollster ratings in Phase 2."
+    "track_record_note": "",
+    "fte_id": 409
   }
 ]
