@@ -22,6 +22,8 @@ The forecasters' sites block automated tools, so these came from Wikipedia's cit
 4. If it doesn't match, fix `rating` and `as_of` first, then mark it verified.
 5. Run `npm run validate`.
 
+**Second opinion:** Wikipedia's national House ratings table (columns dated Cook Sep 11, Inside Elections Sep 17, Sabato Sep 22, 2026) shows the same ratings for VA-1, VA-2, VA-5 and VA-7. Other Virginia districts aren't in that table, which lists only seats at least one forecaster calls competitive.
+
 ## 2. Polls waiting for your check (2)
 
 Both are **hidden on the public site**. Numbers came from Wikipedia. The original memos are on sites our tools can't open.
