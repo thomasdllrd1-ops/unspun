@@ -272,5 +272,13 @@
     "url": "https://github.com/fivethirtyeight/data/tree/master/pollster-ratings",
     "type": "reference",
     "accessed": "2026-09-24"
+  },
+  {
+    "id": "wikipedia-house-ratings-2026",
+    "title": "2026 United States House of Representatives election ratings",
+    "publisher": "Wikipedia (CC BY-SA 4.0)",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+    "type": "reference",
+    "accessed": "2026-09-24"
   }
 ]

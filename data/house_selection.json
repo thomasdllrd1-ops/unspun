@@ -1,0 +1,207 @@
+{
+  "decided_on": "2026-09-24",
+  "decided_by": "Thomas",
+  "rule": "Every U.S. House district rated Toss-up by at least 2 of the 3 forecasters we track (Cook Political Report, Inside Elections, Sabato's Crystal Ball).",
+  "ratings_as_of": {
+    "cook": "2026-09-11",
+    "inside": "2026-09-17",
+    "sabato": "2026-09-22"
+  },
+  "ratings_found_via": "wikipedia-house-ratings-2026",
+  "order": "Money raised this cycle by every candidate who filed in the district, including primary candidates (FEC processed reports, fetched 2026-09-24).",
+  "not_used": "Outside spending (super PACs etc.) isn't used for ordering yet. Most late-cycle outside spending is filed as 24/48-hour notices the FEC hasn't processed, so the processed totals badly undercount it.",
+  "history": "We first planned to pick 10 races by total spending. The top 10 by money were all Republican-held seats (the toss-up pool is 14 Republican-held, 5 Democratic-held), so we chose to cover all 19 instead of cutting the list.",
+  "money_source": "fec-api",
+  "districts": [
+    {
+      "race": "ny-17",
+      "incumbent": "Mike Lawler",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 28685776,
+      "candidates_filed": 9
+    },
+    {
+      "race": "wi-03",
+      "incumbent": "Derrick Van Orden",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 16887986,
+      "candidates_filed": 9
+    },
+    {
+      "race": "az-01",
+      "incumbent": "David Schweikert",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 16438211,
+      "candidates_filed": 23
+    },
+    {
+      "race": "ia-01",
+      "incumbent": "Mariannette Miller-Meeks",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "lean-d",
+      "raised_all_candidates": 15226616,
+      "candidates_filed": 8
+    },
+    {
+      "race": "az-06",
+      "incumbent": "Juan Ciscomani",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 13578784,
+      "candidates_filed": 12
+    },
+    {
+      "race": "co-08",
+      "incumbent": "Gabe Evans",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 13324382,
+      "candidates_filed": 12
+    },
+    {
+      "race": "mi-07",
+      "incumbent": "Tom Barrett",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 12739468,
+      "candidates_filed": 9
+    },
+    {
+      "race": "va-02",
+      "incumbent": "Jen Kiggans",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 12208477,
+      "candidates_filed": 14
+    },
+    {
+      "race": "pa-10",
+      "incumbent": "Scott Perry",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 11797338,
+      "candidates_filed": 11
+    },
+    {
+      "race": "ia-03",
+      "incumbent": "Zach Nunn",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 10770580,
+      "candidates_filed": 6
+    },
+    {
+      "race": "pa-07",
+      "incumbent": "Ryan Mackenzie",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 9910498,
+      "candidates_filed": 10
+    },
+    {
+      "race": "pa-08",
+      "incumbent": "Rob Bresnahan",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 9844175,
+      "candidates_filed": 4
+    },
+    {
+      "race": "fl-25",
+      "incumbent": "Jared Moskowitz",
+      "incumbent_party": "democratic",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 9809707,
+      "candidates_filed": 10
+    },
+    {
+      "race": "tx-34",
+      "incumbent": "Vicente Gonzalez",
+      "incumbent_party": "democratic",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "lean-d",
+      "raised_all_candidates": 9522896,
+      "candidates_filed": 14
+    },
+    {
+      "race": "mi-10",
+      "incumbent": "John James",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tilt-r",
+      "sabato": "tossup",
+      "raised_all_candidates": 8960720,
+      "candidates_filed": 16
+    },
+    {
+      "race": "wa-03",
+      "incumbent": "Marie Gluesenkamp Perez",
+      "incumbent_party": "democratic",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "lean-d",
+      "raised_all_candidates": 8822616,
+      "candidates_filed": 9
+    },
+    {
+      "race": "fl-14",
+      "incumbent": "Kathy Castor",
+      "incumbent_party": "democratic",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 7970277,
+      "candidates_filed": 17
+    },
+    {
+      "race": "oh-09",
+      "incumbent": "Marcy Kaptur",
+      "incumbent_party": "democratic",
+      "cook": "tossup",
+      "inside": "tilt-r",
+      "sabato": "tossup",
+      "raised_all_candidates": 7916618,
+      "candidates_filed": 10
+    },
+    {
+      "race": "oh-07",
+      "incumbent": "Max Miller",
+      "incumbent_party": "republican",
+      "cook": "tossup",
+      "inside": "tossup",
+      "sabato": "tossup",
+      "raised_all_candidates": 3156418,
+      "candidates_filed": 9
+    }
+  ]
+}
