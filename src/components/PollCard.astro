@@ -148,6 +148,11 @@ const x = (v: number) => 50 + (Math.max(-SPAN, Math.min(SPAN, v)) / SPAN) * 50;
       <dt>When</dt><dd>{poll.field_start ? dateRange(poll.field_start, poll.field_end) : 'Field dates not stated'}{poll.released ? `; released ${date(poll.released)}` : ''}.</dd>
       {poll.notes && (<><dt>Notes</dt><dd>{poll.notes}</dd></>)}
     </dl>
+    <p class="small muted checked">{poll.status === 'verified'
+      ? poll.checked_by === 'script'
+        ? `Numbers checked automatically against the source on ${date(poll.checked_on)}.`
+        : `Numbers checked by a person against the source on ${date(poll.checked_on)}.`
+      : 'Not yet checked against the source.'}</p>
     <Source id={poll.source} label={{ pollster: "Read the pollster's release", news: 'Read the news report' }[sourceById(poll.source).type as string] ?? 'See the source'} />
   </details>
 </article>

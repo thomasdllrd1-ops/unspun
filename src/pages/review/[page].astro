@@ -1,0 +1,59 @@
+---
+/**
+ * Human review checklist. Only exists in preview mode (npm run dev), never on the public site.
+ */
+import Layout from '../../layouts/Layout.astro';
+import { db, SHOW_PENDING, raceById, sourceById, resultsForPoll } from '../../lib/data';
+import { FORECASTER_NAMES, ratingLabel } from '../../lib/ratings';
+import { date } from '../../lib/format';
+
+export function getStaticPaths() {
+  return SHOW_PENDING ? [{ params: { page: 'checklist' } }] : [];
+}
+const pendingRatings = db.ratings.filter((r) => r.status === 'pending');
+const byForecaster = Object.groupBy(pendingRatings, (r) => r.forecaster);
+const pendingPolls = db.polls.filter((p) => p.status === 'pending').sort((x, y) => (y.field_end || y.released).localeCompare(x.field_end || x.released));
+const name = (id: string) => db.candidates.find((c) => c.id === id)?.sort_name ?? id;
+---
+<Layout title="Review checklist">
+  <meta name="robots" content="noindex" />
+  <h1>Review checklist</h1>
+  <p class="headline">{pendingRatings.length} ratings and {pendingPolls.length} polls are waiting for a person to check them. Nothing here is on the public site yet.</p>
+
+  <div class="stack">
+    {Object.entries(byForecaster).map(([fc, rows]) => {
+      const kinds = [...new Set(rows!.map((r) => r.source))];
+      return (
+        <section class="card">
+          <h2>{FORECASTER_NAMES[fc as keyof typeof FORECASTER_NAMES]} ({rows!.length})</h2>
+          <p class="small">Open {kinds.map((k) => <a href={sourceById(k).url} target="_blank" rel="noopener">{sourceById(k).title} ↗</a>)} and compare:</p>
+          <table class="small">
+            <thead><tr><th>Race</th><th>We have</th><th>As of</th><th>Command if it matches</th></tr></thead>
+            <tbody>{rows!.map((r) => <tr><td>{raceById(r.race)?.name ?? r.race}</td><td>{ratingLabel(r.rating, r.forecaster)}</td><td>{date(r.as_of)}</td><td><code>npm run verify -- ratings {fc} {r.race}</code></td></tr>)}</tbody>
+          </table>
+          <p class="small">All match? <code>npm run verify -- ratings {fc}</code></p>
+        </section>
+      );
+    })}
+
+    <section class="card">
+      <h2>Polls ({pendingPolls.length}), newest first</h2>
+      <table class="small">
+        <thead><tr><th>Poll</th><th>Numbers to confirm</th><th>Source</th></tr></thead>
+        <tbody>
+          {pendingPolls.map((p) => (
+            <tr>
+              <td>{raceById(p.race)?.short}: {p.pollster}<br /><span class="muted">{p.field_start} – {p.field_end || p.released}</span><br /><code>npm run verify -- poll {p.id}</code></td>
+              <td>{resultsForPoll(p.id).map((r) => `${r.candidate ? name(r.candidate) : r.label} ${r.pct}`).join(' · ')}<br /><span class="muted">n={p.sample_size ?? '?'} {p.population} · ±{p.moe ?? '?'}</span></td>
+              <td><a href={sourceById(p.source).url} target="_blank" rel="noopener">open ↗</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>
+<style>
+  td code { font-size: 0.75rem; word-break: break-all; }
+  table { margin-top: 8px; }
+</style>

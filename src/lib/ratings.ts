@@ -14,7 +14,9 @@ export function ratingLabel(r: Rating['rating'], forecaster?: Rating['forecaster
     'solid-d': `${solid} Democratic`,
     'likely-d': 'Likely Democratic',
     'lean-d': 'Lean Democratic',
+    'tilt-d': 'Tilt Democratic',
     tossup: 'Toss-up',
+    'tilt-r': 'Tilt Republican',
     'lean-r': 'Lean Republican',
     'likely-r': 'Likely Republican',
     'solid-r': `${solid} Republican`,
@@ -22,12 +24,22 @@ export function ratingLabel(r: Rating['rating'], forecaster?: Rating['forecaster
   return map[r];
 }
 
-/** −3 (Solid D) … 0 (Toss-up) … +3 (Solid R). Used only to place markers and average. */
-export const ratingScore = (r: Rating['rating']) => RATING_VALUES.indexOf(r) - 3;
+/**
+ * −3 (Solid D) … 0 (Toss-up) … +3 (Solid R); Tilt is ±0.5, halfway between Toss-up and Lean.
+ * Used only to place markers and to average forecasters for map colors.
+ */
+const SCORES: Record<Rating['rating'], number> = {
+  'solid-d': -3, 'likely-d': -2, 'lean-d': -1, 'tilt-d': -0.5, tossup: 0, 'tilt-r': 0.5, 'lean-r': 1, 'likely-r': 2, 'solid-r': 3,
+};
+export const ratingScore = (r: Rating['rating']) => SCORES[r];
 // Round away from zero the same way for both sides. (Math.round(-0.5) is 0 but
 // Math.round(0.5) is 1, which would quietly favor one party in a tie.)
 const roundSymmetric = (x: number) => Math.sign(x) * Math.round(Math.abs(x));
-export const ratingFromScore = (s: number) => RATING_VALUES[Math.max(0, Math.min(6, roundSymmetric(s) + 3))];
+/** Nearest whole-step category (the average never lands on "Tilt", which only Inside Elections uses). */
+export const ratingFromScore = (s: number): Rating['rating'] => {
+  const whole = ['solid-d', 'likely-d', 'lean-d', 'tossup', 'lean-r', 'likely-r', 'solid-r'] as const;
+  return whole[Math.max(0, Math.min(6, roundSymmetric(s) + 3))];
+};
 
 /** Which party color a rating leans toward, and how strongly (0–1). */
 export function ratingTint(r: Rating['rating']): { side: 'dem' | 'rep' | 'neutral'; strength: number } {
@@ -40,7 +52,8 @@ export function ratingTint(r: Rating['rating']): { side: 'dem' | 'rep' | 'neutra
 export function ratingColor(r: Rating['rating']): string {
   const { side, strength } = ratingTint(r);
   if (side === 'neutral') return 'var(--neutral)';
-  const p = [0, 45, 72, 100][Math.round(strength * 3)];
+  // Tilt 25%, Lean 45%, Likely 72%, Solid 100% party color (the rest is neutral gray)
+  const p = strength <= 1 / 6 ? 25 : [0, 45, 72, 100][Math.round(strength * 3)];
   return `color-mix(in oklab, var(--${side}) ${p}%, var(--neutral))`;
 }
 

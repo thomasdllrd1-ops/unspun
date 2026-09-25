@@ -83,7 +83,10 @@ const sourceIds = [
 const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort().at(-1);
 ---
 <Layout title={race.name} description={`${race.name}, ${office}: who's running, race ratings, polls, money, and past results. Every number sourced.`} updated={updated}>
-  <nav class="crumbs small" aria-label="Breadcrumb"><a href="/virginia/">Virginia</a> › {race.short}</nav>
+  <nav class="crumbs small" aria-label="Breadcrumb">
+    {race.chamber === 'senate' ? <a href="/senate/">Senate</a> : <a href="/house/">House</a>}
+    {race.state === 'VA' && <> · <a href="/virginia/">Virginia</a></>} › {race.short}
+  </nav>
 
   <header class="race-head">
     <div class="eyebrow">{office} · Election Day {date(race.election_date)}</div>
@@ -108,7 +111,11 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
           </li>
         ))}
       </ul>
-      <p class="small muted">Listed alphabetically by last name. Your real ballot may use a different order. Names as certified by the state: <Source id={race.source} />.</p>
+      {sourceById(race.source).type === 'official' ? (
+        <p class="small muted">Listed alphabetically by last name. Your real ballot may use a different order. Names as certified by the state: <Source id={race.source} />.</p>
+      ) : (
+        <p class="small partisan-note">We haven't confirmed this list with {stateName(race.state)}'s election office yet. It comes from <Source id={race.source} />. Listed alphabetically by last name.</p>
+      )}
     </section>
 
     <section class="card" aria-labelledby="ratings">
@@ -149,8 +156,10 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
 
     <section class="card" aria-labelledby="past">
       <h2 id="past">Past results</h2>
-      <PastResults race={race.id} />
-      {race.chamber === 'house' && (
+      {race.redistricted ? (
+        <p class="text-2">{race.redistricted} <Source id={race.redistricted_source!} /></p>
+      ) : <PastResults race={race.id} />}
+      {race.chamber === 'house' && !race.redistricted && (
         <Limits>These are results under the same district lines used in 2026. Past results don't decide future ones, especially with different candidates.</Limits>
       )}
     </section>

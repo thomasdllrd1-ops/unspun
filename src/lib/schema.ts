@@ -37,6 +37,9 @@ export const RaceSchema = z.object({
   short: z.string(),
   election_date: isoDate,
   source: sourceId,
+  /** If the district was redrawn since the last election, a sentence saying so (past results are then hidden). */
+  redistricted: z.string().optional(),
+  redistricted_source: sourceId.optional(),
 });
 
 export const CandidateSchema = z.object({
@@ -48,10 +51,12 @@ export const CandidateSchema = z.object({
   incumbent: z.boolean(),
   website: url.nullable(),
   fec_id: z.string().regex(/^[HSP]\d[A-Z]{2}\d{5}$/).nullable(),
+  fec_checked: z.boolean().optional(), // true = we searched the FEC and found no record
   source: sourceId,
 });
 
-export const RATING_VALUES = ['solid-d', 'likely-d', 'lean-d', 'tossup', 'lean-r', 'likely-r', 'solid-r'] as const;
+// "Tilt" is used only by Inside Elections: a slight edge, between Lean and Toss-up.
+export const RATING_VALUES = ['solid-d', 'likely-d', 'lean-d', 'tilt-d', 'tossup', 'tilt-r', 'lean-r', 'likely-r', 'solid-r'] as const;
 export const FORECASTERS = ['cook', 'inside', 'sabato'] as const;
 const status = z.enum(['pending', 'verified']);
 
@@ -86,8 +91,12 @@ export const PollSchema = z.object({
   released: z.union([isoDate, z.literal('')]),
   source: sourceId,
   status,
+  checked_by: z.string(), // "script" = numbers found automatically in the source; "manual" or a name = a person checked
+  checked_on: z.union([isoDate, z.literal('')]),
   notes: z.string(),
-}).refine((p) => p.field_end || p.released, 'each poll needs a field end date or a release date');
+})
+  .refine((p) => p.field_end || p.released, 'each poll needs a field end date or a release date')
+  .refine((p) => p.status !== 'verified' || (p.checked_by && p.checked_on), 'verified polls need checked_by and checked_on');
 
 export const PollResultSchema = z
   .object({

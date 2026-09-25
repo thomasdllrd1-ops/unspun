@@ -13,8 +13,10 @@ const { title, description = 'The 2026 midterms without the spin. Every number s
 const fullTitle = title === 'Unspun' ? 'Unspun · 2026 midterms, sourced' : `${title} · Unspun`;
 const path = Astro.url.pathname;
 const nav = [
+  { href: '/senate/', label: 'Senate' },
+  { href: '/house/', label: 'House' },
   { href: '/virginia/', label: 'Virginia' },
-  { href: '/how-to-vote/virginia/', label: 'How to vote' },
+  { href: '/how-to-vote/virginia/', label: 'Vote' },
   { href: '/show-our-work/', label: 'Our work' },
 ];
 ---

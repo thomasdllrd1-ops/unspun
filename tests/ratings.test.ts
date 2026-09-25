@@ -34,13 +34,22 @@ describe('consensus fairness', () => {
     expect(consensus([r('cook', 'lean-r'), r('inside', 'tossup')])).toBe('lean-r');
   });
   it('is a mirror image for every pair of ratings', () => {
-    const vals = ['solid-d', 'likely-d', 'lean-d', 'tossup', 'lean-r', 'likely-r', 'solid-r'] as const;
-    const flip = (v: (typeof vals)[number]) => vals[6 - vals.indexOf(v)];
+    const vals = ['solid-d', 'likely-d', 'lean-d', 'tilt-d', 'tossup', 'tilt-r', 'lean-r', 'likely-r', 'solid-r'] as const;
+    const flip = (v: (typeof vals)[number]) => vals[vals.length - 1 - vals.indexOf(v)];
     for (const a of vals) for (const b of vals) for (const c of vals) {
       const got = consensus([r('cook', a), r('inside', b), r('sabato', c)])!;
       const mirrored = consensus([r('cook', flip(a)), r('inside', flip(b)), r('sabato', flip(c))])!;
       expect(mirrored).toBe(flip(got));
     }
+  });
+});
+
+describe('tilt', () => {
+  it('counts as half a step toward a party', () => {
+    // Tilt R + Toss-up + Toss-up averages to +0.17, which is still a toss-up
+    expect(consensus([r('inside', 'tilt-r'), r('cook', 'tossup'), r('sabato', 'tossup')])).toBe('tossup');
+    // Tilt R + Lean R + Lean R averages to +0.83, which rounds to Lean R
+    expect(consensus([r('inside', 'tilt-r'), r('cook', 'lean-r'), r('sabato', 'lean-r')])).toBe('lean-r');
   });
 });
 

@@ -90,7 +90,11 @@ function load() {
   dupes('polls.csv', polls.map((p) => p.id));
   dupes('ratings.csv', ratings.map((r) => `${r.race}/${r.forecaster}`));
 
-  for (const r of races) needSource(`race ${r.id}`, r.source);
+  for (const r of races) {
+    needSource(`race ${r.id}`, r.source);
+    needSource(`race ${r.id} redistricting`, r.redistricted_source);
+    if (r.redistricted && !r.redistricted_source) errors.push(`race ${r.id}: redistricted note needs redistricted_source`);
+  }
   for (const c of candidates) {
     needSource(`candidate ${c.id}`, c.source);
     if (!raceIds.has(c.race)) errors.push(`candidate ${c.id}: unknown race "${c.race}"`);

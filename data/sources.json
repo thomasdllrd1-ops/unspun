@@ -280,5 +280,29 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
     "type": "reference",
     "accessed": "2026-09-24"
+  },
+  {
+    "id": "wikipedia-senate-2026",
+    "title": "2026 United States Senate elections",
+    "publisher": "Wikipedia (CC BY-SA 4.0)",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "type": "reference",
+    "accessed": "2026-09-25"
+  },
+  {
+    "id": "senate-class-ii",
+    "title": "Class II - Senators Whose Terms of Service Expire in 2027",
+    "publisher": "U.S. Senate",
+    "url": "https://www.senate.gov/senators/Class_II.htm",
+    "type": "official",
+    "accessed": "2026-09-25"
+  },
+  {
+    "id": "clerk-2022-stats",
+    "title": "Statistics of the Congressional Election of November 8, 2022",
+    "publisher": "Clerk of the U.S. House of Representatives",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2022/statistics2022.pdf",
+    "type": "official",
+    "accessed": "2026-09-25"
   }
 ]
