@@ -1,0 +1,17 @@
+---
+/**
+ * Inline SVG icon from the open-source Lucide set (ISC license).
+ * Usage: <Icon name="Calendar" /> — decorative by default (hidden from screen readers).
+ */
+import * as icons from 'lucide-static';
+
+interface Props { name: keyof typeof icons; label?: string; class?: string }
+const { name, label, class: cls = '' } = Astro.props;
+const raw = icons[name] as string;
+if (!raw) throw new Error(`Unknown icon ${String(name)}`);
+const svg = raw
+  .replace('<svg', `<svg class="icon ${cls}" ${label ? `role="img" aria-label="${label}"` : 'aria-hidden="true"'} focusable="false"`)
+  .replace(/\s*class="lucide[^"]*"/, '')
+  .replace(/width="24"\s*height="24"/, '');
+---
+<Fragment set:html={svg} />

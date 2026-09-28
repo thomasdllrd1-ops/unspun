@@ -15,6 +15,9 @@ import SourceList from '../../components/SourceList.astro';
 import Limits from '../../components/Limits.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import AverageBuilder from '../../islands/AverageBuilder';
+import Scoreboard from '../../components/Scoreboard.astro';
+import Icon from '../../components/Icon.astro';
+import { summarize } from '../../lib/summary';
 import { db, candidatesInRace, ratingsForRace, pollsForRace, pastResultsForRace, resultsForPoll, partyById, sourceById, majorPair, pendingRecentPolls, lastChecked } from '../../lib/data';
 import { pollingAverage, missForState, type AvgPoll } from '../../lib/average';
 import { stateName } from '../../lib/states';
@@ -27,6 +30,7 @@ export function getStaticPaths() {
 }
 
 const { race } = Astro.props;
+const summary = summarize(race);
 const today = new Date();
 const candidates = candidatesInRace(race.id);
 const ratings = ratingsForRace(race.id);
@@ -89,12 +93,14 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
   <header class="race-head">
     <div class="eyebrow">{office} · Election Day {date(race.election_date)}</div>
     <h1>{race.name}</h1>
+    <Scoreboard s={summary} size="hero" link={false} />
     <p class="headline">{ratingsHeadline(ratings)}</p>
   </header>
 
   <div class="stack">
     <section class="card" aria-labelledby="ballot">
-      <h2 id="ballot">On the ballot ({candidates.length})</h2>
+      <div class="eyebrow">The lineup</div>
+      <h2 id="ballot"><Icon name="Users" />Who's on the ballot ({candidates.length})</h2>
       {race.note && <p class="small partisan-note">{race.note} {race.note_source && <Source id={race.note_source} />}</p>}
       <ul class="cands">
         {candidates.map((c) => (
@@ -123,7 +129,8 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
     </section>
 
     <section class="card" aria-labelledby="ratings">
-      <h2 id="ratings">What forecasters say</h2>
+      <div class="eyebrow">Expert picks</div>
+      <h2 id="ratings"><Icon name="Trophy" />What forecasters say</h2>
       {ratings.length > 0 ? <RatingScale ratings={ratings} /> : (
         <p class="text-2">{allRatingsHidden ? "We're double-checking these ratings against each forecaster's own site before publishing them." : 'No forecaster ratings loaded yet.'}</p>
       )}
@@ -134,7 +141,7 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
 
     <section class="card" aria-labelledby="polls">
       <div class="row between">
-        <h2 id="polls">Polls</h2>
+        <div><div class="eyebrow">Game by game</div><h2 id="polls"><Icon name="ChartColumn" />Polls</h2></div>
         <ConfidenceBadge level={conf} recent={recent.length} total={polls.length} />
       </div>
       {baseAvg ? (
@@ -159,12 +166,14 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
     </section>
 
     <section class="card" aria-labelledby="money">
-      <h2 id="money">Money raised</h2>
+      <div class="eyebrow">The budget</div>
+      <h2 id="money"><Icon name="DollarSign" />Money raised</h2>
       <MoneyBars candidates={candidates} />
     </section>
 
     <section class="card" aria-labelledby="past">
-      <h2 id="past">Past results</h2>
+      <div class="eyebrow">Last season's final</div>
+      <h2 id="past"><Icon name="History" />Past results</h2>
       {race.redistricted ? (
         <p class="text-2">{race.redistricted} <Source id={race.redistricted_source!} /></p>
       ) : <PastResults race={race.id} />}
@@ -174,7 +183,8 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
     </section>
 
     <section class="card" aria-labelledby="positions">
-      <h2 id="positions">Where they stand</h2>
+      <div class="eyebrow">Game plan</div>
+      <h2 id="positions"><Icon name="Flag" />Where they stand</h2>
       <p class="text-2">Coming soon: each candidate's top 3 policies in their own words, with a link to where they said it. We research every candidate in a race at the same time and publish them together.</p>
     </section>
 
@@ -185,6 +195,7 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
 <style>
   .crumbs { color: var(--muted); margin-bottom: 8px; }
   .race-head { margin-bottom: 16px; }
+  .race-head :global(.board) { margin: 10px 0 12px; }
   .cands { list-style: none; padding: 0; margin: 0 0 8px; }
   .cands li { padding: 10px 0; border-bottom: 1px solid var(--border); }
   .cands li:last-child { border-bottom: 0; }

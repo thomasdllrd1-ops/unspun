@@ -1,7 +1,17 @@
 ---
+import '@fontsource/barlow/400.css';
+import '@fontsource/barlow/500.css';
+import '@fontsource/barlow/600.css';
+import '@fontsource/barlow/700.css';
+import '@fontsource/barlow-condensed/600.css';
+import '@fontsource/barlow-condensed/700.css';
+import '@fontsource/barlow-condensed/800.css';
+import '@fontsource/barlow-condensed/800-italic.css';
 import '../styles/global.css';
-import { SHOW_PENDING } from '../lib/data';
-import { date } from '../lib/format';
+import Logo from '../components/Logo.astro';
+import Icon from '../components/Icon.astro';
+import { SHOW_PENDING, db } from '../lib/data';
+import { date, daysUntil } from '../lib/format';
 
 interface Props {
   title: string;
@@ -12,13 +22,26 @@ interface Props {
 const { title, description = 'The 2026 midterms without the spin. Every number sourced.', updated } = Astro.props;
 const fullTitle = title === 'Unspun' ? 'Unspun · 2026 midterms, sourced' : `${title} · Unspun`;
 const path = Astro.url.pathname;
-const nav = [
-  { href: '/senate/', label: 'Senate' },
-  { href: '/house/', label: 'House' },
-  { href: '/virginia/', label: 'Virginia' },
-  { href: '/how-to-vote/virginia/', label: 'Vote' },
-  { href: '/show-our-work/', label: 'Our work' },
+const ELECTION = '2026-11-03';
+const toGo = daysUntil(ELECTION);
+const senateCount = db.races.filter((r) => r.chamber === 'senate').length;
+const houseCount = db.races.filter((r) => r.chamber === 'house').length;
+// Ticker: facts only, each one on the site with a source.
+const ticker = [
+  { html: `ELECTION DAY · TUE NOV 3 · <span data-countdown="${ELECTION}" data-unit="days">${toGo} DAYS</span>`, href: '/how-to-vote/virginia/' },
+  { html: 'VIRGINIA: EARLY VOTING IS OPEN', href: '/how-to-vote/virginia/' },
+  { html: 'VIRGINIA: REGISTER OR REQUEST A MAIL BALLOT BY OCT 23', href: '/how-to-vote/virginia/' },
+  { html: `${senateCount} SENATE RACES`, href: '/senate/' },
+  { html: `${houseCount} HOUSE RACES`, href: '/house/' },
+  { html: 'EVERY NUMBER SOURCED', href: '/show-our-work/' },
 ];
+const nav = [
+  { href: '/senate/', label: 'Senate', icon: 'Map' },
+  { href: '/house/', label: 'House', icon: 'Landmark' },
+  { href: '/virginia/', label: 'Virginia', icon: 'MapPin' },
+  { href: '/how-to-vote/virginia/', label: 'Vote', icon: 'Vote' },
+  { href: '/show-our-work/', label: 'Our work', icon: 'BookOpenCheck' },
+] as const;
 ---
 <!doctype html>
 <html lang="en">
@@ -27,7 +50,7 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#0f1113" />
+    <meta name="theme-color" content="#07090b" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -40,7 +63,7 @@ const nav = [
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="wrap bar">
-        <a href="/" class="logo" aria-label="Unspun home">unspun<span aria-hidden="true">.</span></a>
+        <a href="/" class="logo" aria-label="Unspun home"><Logo /></a>
         <nav aria-label="Main">
           {nav.map((n) => (
             <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>
@@ -50,9 +73,18 @@ const nav = [
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.5 0-.9-.1-1.4A5.5 5.5 0 0 1 13.4 3.1 9 9 0 0 0 12 3Z"/></svg>
         </button>
       </div>
+      <div class="ticker" aria-label="Key dates and facts">
+        <div class="ticker-track">
+          {[0, 1].map((copy) => (
+            <ul aria-hidden={copy === 1 ? 'true' : undefined}>
+              {ticker.map((t) => <li><a href={t.href} tabindex={copy === 1 ? -1 : undefined} set:html={t.html} /></li>)}
+            </ul>
+          ))}
+        </div>
+      </div>
       <div class="beta">
         <div class="wrap">
-          <strong>Beta.</strong> We're adding races every few days. Spot a mistake? <a href="/corrections/">Tell us</a>.
+          <strong>Beta.</strong> Spot a mistake? <a href="/corrections/">Tell us</a>.
           {SHOW_PENDING && <span class="chip chip-pending">Preview mode: showing items still pending a check</span>}
         </div>
       </div>
@@ -63,9 +95,16 @@ const nav = [
       {updated && <p class="updated small muted">Facts on this page last checked {date(updated)}.</p>}
     </main>
 
+    <nav class="tabbar" aria-label="Main (bottom)">
+      {nav.map((n) => (
+        <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}><Icon name={n.icon} /><span>{n.label}</span></a>
+      ))}
+    </nav>
+
     <footer class="site-footer">
       <div class="wrap">
-        <p><strong>unspun</strong>: the 2026 midterms for people who've never read a poll. No data is neutral, so we show all of it, label every source, and explain our choices.</p>
+        <p><Logo size={22} /></p>
+        <p>The 2026 midterms, explained like a scoreboard, for people who've never read a poll. No data is neutral, so we show all of it, label every source, and explain our choices.</p>
         <p class="row small">
           <a href="/show-our-work/">How we work</a>
           <a href="/corrections/">Report an error</a>
@@ -83,8 +122,11 @@ const nav = [
       const days = (iso: string) => Math.round((Date.parse(iso) - todayUtc) / 86_400_000);
       document.querySelectorAll<HTMLElement>('[data-countdown]').forEach((el) => {
         const n = days(el.dataset.countdown!);
-        const unit = el.dataset.unit === 'short' ? 'd' : n === 1 ? ' day' : ' days';
-        el.textContent = n > 0 ? (el.dataset.unit === 'short' ? `${n}${unit}` : `In ${n}${unit}`) : n === 0 ? 'Today' : 'Passed';
+        const u = el.dataset.unit;
+        el.textContent = u === 'days' ? (n > 0 ? `${n} DAY${n === 1 ? '' : 'S'}` : n === 0 ? 'TODAY' : 'PASSED')
+          : u === 'num' ? String(Math.max(0, n))
+          : u === 'short' ? (n > 0 ? `${n}d` : n === 0 ? 'Today' : 'Passed')
+          : n > 0 ? `In ${n} day${n === 1 ? '' : 's'}` : n === 0 ? 'Today' : 'Passed';
       });
       document.querySelectorAll<HTMLElement>('[data-date]').forEach((el) => {
         el.classList.toggle('past', days(el.dataset.date!) < 0);
@@ -105,19 +147,43 @@ const nav = [
 <style>
   .skip { position: absolute; left: -999px; top: 8px; background: var(--text); color: var(--bg); padding: 8px 12px; border-radius: 8px; z-index: 10; }
   .skip:focus { left: 8px; }
-  .site-header { position: sticky; top: 0; z-index: 5; background: color-mix(in oklab, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); }
-  .bar { display: flex; align-items: center; gap: 12px; min-height: 56px; }
-  .logo { font-weight: 800; font-size: 1.25rem; letter-spacing: -0.03em; text-decoration: none; }
-  .logo span { color: var(--muted); }
-  nav { display: flex; gap: 2px; margin-left: auto; overflow-x: auto; min-width: 0; scrollbar-width: none; }
-  nav::-webkit-scrollbar { display: none; }
-  nav a { text-decoration: none; font-size: 0.9rem; font-weight: 600; color: var(--text-2); padding: 10px 8px; white-space: nowrap; }
-  nav a[aria-current='page'] { color: var(--text); text-decoration: underline; text-underline-offset: 6px; }
-  .theme-toggle { background: none; border: 1px solid var(--border); color: var(--text); border-radius: 999px; width: 40px; height: 40px; display: grid; place-items: center; cursor: pointer; flex: none; }
-  .beta { font-size: 0.8rem; color: var(--text-2); border-top: 1px solid var(--border); padding: 6px 0; }
+  .site-header { position: sticky; top: 0; z-index: 5; background: var(--board); color: var(--board-ink); border-bottom: 3px solid var(--accent); }
+  .bar { display: flex; align-items: center; gap: 12px; min-height: 58px; }
+  .logo { text-decoration: none; color: var(--board-ink); }
+  .bar nav { display: flex; gap: 2px; margin-left: auto; overflow-x: auto; min-width: 0; scrollbar-width: none; }
+  .tabbar { display: none; }
+  @media (max-width: 640px) {
+    .bar nav { display: none; }
+    .theme-toggle { margin-left: auto; }
+    .site-header { position: static; }
+    .tabbar { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--board); border-top: 1px solid rgba(255,255,255,.12); padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); }
+    .tabbar a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 2px; min-height: 48px; color: #aeb5be; text-decoration: none; font-family: var(--font-display); font-weight: 700; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .tabbar a :global(.icon) { width: 22px; height: 22px; }
+    .tabbar a[aria-current='page'] { color: var(--accent); }
+    :global(body) { padding-bottom: 64px; }
+  }
+  .bar nav::-webkit-scrollbar { display: none; }
+  .bar nav a { text-decoration: none; font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #b9bfc7; padding: 10px 7px; white-space: nowrap; }
+  .bar nav a:hover { color: #fff; }
+  .bar nav a[aria-current='page'] { color: var(--accent); }
+  .theme-toggle { background: none; border: 1px solid rgba(255,255,255,.25); color: #fff; border-radius: 8px; width: 40px; height: 40px; display: grid; place-items: center; cursor: pointer; flex: none; }
+  .ticker { background: var(--accent); color: var(--accent-ink); overflow: hidden; white-space: nowrap; font-family: var(--font-display); font-weight: 800; font-size: 0.95rem; letter-spacing: 0.06em; }
+  .ticker-track { display: inline-flex; animation: ticker 40s linear infinite; }
+  .ticker:hover .ticker-track { animation-play-state: paused; }
+  .ticker ul { display: inline-flex; list-style: none; margin: 0; padding: 0; }
+  .ticker li { padding: 6px 0; }
+  .ticker li::after { content: '★'; margin: 0 18px; opacity: 0.6; }
+  .ticker a { color: inherit; text-decoration: none; }
+  .ticker a:hover { text-decoration: underline; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .ticker-track { animation: none; } .ticker { overflow-x: auto; } }
+  .beta { font-size: 0.8rem; color: #b9bfc7; background: var(--board); border-top: 1px solid rgba(255,255,255,.08); padding: 5px 0; }
+  .beta a { color: #fff; }
   .beta .chip { margin-left: 6px; }
   .updated { margin-top: 32px; }
-  .site-footer { border-top: 1px solid var(--border); padding: 24px 0 40px; color: var(--text-2); font-size: 0.9rem; }
+  .site-footer { background: var(--board); color: #b9bfc7; border-top: 3px solid var(--accent); padding: 28px 0 44px; font-size: 0.9rem; margin-top: 24px; }
+  .site-footer a { color: #fff; }
+  .site-footer :global(.logo-wrap) { color: #fff; }
   .site-footer .row { gap: 16px; }
-  @media (max-width: 420px) { .logo { font-size: 1.1rem; } nav a { padding: 10px 6px; font-size: 0.85rem; } }
+
 </style>

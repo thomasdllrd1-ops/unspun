@@ -108,7 +108,7 @@ export default function SenateOverview({ races, typicalMiss, cycles }: { races: 
       </div>
       <p class="legend small muted">
         {mode === 'rating'
-          ? 'Average of Cook, Inside Elections and Sabato. Teal leans Democratic, amber leans Republican, gray is a toss-up. Darker = more one-sided.'
+          ? 'Average of Cook, Inside Elections and Sabato. Blue leans Democratic, red leans Republican, gray is a toss-up. Darker = more one-sided.'
           : `Gray = within a typical polling miss (±${typicalMiss}). Darker = bigger lead. Blank = no average: no recent polls, polls still being checked, or no Democrat-vs-Republican matchup.`}{' '}
         * special election. Every state is the same size on purpose.
       </p>

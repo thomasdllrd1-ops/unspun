@@ -18,9 +18,11 @@ Help 18–25 year olds understand the 2026 midterms without spin. Radical transp
 - No adjectives that editorialize ("extreme," "radical," "common-sense," etc.).
 
 ## Design
-- Mobile-first, dark mode, fast, WCAG AA.
-- Neutral, colorblind-safe palette — avoid defaulting to red/blue for parties.
-- Feels like a scores app, not a news site.
+- Mobile-first, light + dark (follows the phone's setting), fast, WCAG AA.
+- **Sports-scoreboard look and metaphor** (decided Sep 28, 2026): use sports ideas everyone knows to explain polling — average = the score, within the margin = too close to call, unchecked polls = under review, number of polls = games played, recent polls = form guide, forecaster ratings = expert picks. Always "leading," never "winning"; poll averages are never presented as results.
+- **Party colors: blue = Democratic, red = Republican, teal = every other party/independent** (Thomas's decision, Sep 28, 2026; replaces the earlier neutral palette). Checked with the color-blindness validator; party names are always written out too, so color never carries meaning alone.
+- UI accent is scoreboard yellow — never red or blue — so site chrome never looks partisan.
+- Fonts are self-hosted (no third-party font requests).
 
 ## Data
 - All data lives in `/data` as JSON/CSV, versioned in git.

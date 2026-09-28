@@ -2,72 +2,86 @@
   {
     "id": "margin-of-error",
     "term": "Margin of error",
-    "short": "How far a poll's number could be from the true number just because the poll talked to a sample of people instead of everyone. A ±3 point margin on 50% means the real number is probably between 47% and 53%."
+    "short": "How far a poll's number could be from the true number just because the poll talked to a sample of people instead of everyone. A ±3 point margin on 50% means the real number is probably between 47% and 53%.",
+    "sports": "Like a close play at the plate: if the lead is inside the margin of error, the poll can't say for sure who's ahead."
   },
   {
     "id": "moe-lead",
     "term": "Margin of error on the lead",
-    "short": "The gap between two candidates is less certain than either candidate's number alone, roughly twice the poll's stated margin of error. That's why a 4-point lead in a ±3 poll can still be a toss-up."
+    "short": "The gap between two candidates is less certain than either candidate's number alone, roughly twice the poll's stated margin of error. That's why a 4-point lead in a ±3 poll can still be a toss-up.",
+    "sports": "Think of the lead as a score that could be off by a few points either way, like a replay that could go either way."
   },
   {
     "id": "likely-voters",
     "term": "Likely voters (LV)",
-    "short": "People the pollster thinks will actually vote, based on questions like past voting and interest. Each pollster decides this differently."
+    "short": "People the pollster thinks will actually vote, based on questions like past voting and interest. Each pollster decides this differently.",
+    "sports": "The players expected to actually suit up on game day."
   },
   {
     "id": "registered-voters",
     "term": "Registered voters (RV)",
-    "short": "Everyone registered to vote, whether or not they're likely to show up."
+    "short": "Everyone registered to vote, whether or not they're likely to show up.",
+    "sports": "Everyone on the roster, including people who may not play on game day."
   },
   {
     "id": "adults",
     "term": "Adults (A)",
-    "short": "All adults, including people who aren't registered to vote. The least precise group for predicting an election."
+    "short": "All adults, including people who aren't registered to vote. The least precise group for predicting an election.",
+    "sports": "Everyone in the stadium, not just the players."
   },
   {
     "id": "sample-size",
     "term": "Sample size (n)",
-    "short": "How many people answered the poll. More people means a smaller margin of error, but only if they were picked well."
+    "short": "How many people answered the poll. More people means a smaller margin of error, but only if they were picked well.",
+    "sports": "How many games are in the sample. More games gives you a better read on a team."
   },
   {
     "id": "weighting",
     "term": "Weighting",
-    "short": "Adjusting poll answers so the group of people who answered matches the population (for example, by age, race, education or past vote). Every pollster weights differently."
+    "short": "Adjusting poll answers so the group of people who answered matches the population (for example, by age, race, education or past vote). Every pollster weights differently.",
+    "sports": "Like adjusting stats for strength of schedule so the sample matches the real league."
   },
   {
     "id": "house-effect",
     "term": "House effect",
-    "short": "When one pollster's results lean in the same direction compared with other polls, again and again. It doesn't mean the pollster is wrong, just consistently different."
+    "short": "When one pollster's results lean in the same direction compared with other polls, again and again. It doesn't mean the pollster is wrong, just consistently different.",
+    "sports": "A scorekeeper who always seems a little generous to one side."
   },
   {
     "id": "herding",
     "term": "Herding",
-    "short": "When pollsters adjust or hold back results so they look like other polls. It can make polls look more certain than they are."
+    "short": "When pollsters adjust or hold back results so they look like other polls. It can make polls look more certain than they are.",
+    "sports": "Analysts all copying each other's picks instead of making their own."
   },
   {
     "id": "partisan-poll",
     "term": "Partisan-sponsored poll",
-    "short": "A poll paid for by a campaign, a party, or a group that supports one side. It can still be accurate, but sponsors can choose which results to release."
+    "short": "A poll paid for by a campaign, a party, or a group that supports one side. It can still be accurate, but sponsors can choose which results to release.",
+    "sports": "A stat sheet put out by one of the teams. It might be right, but they choose which stats to share."
   },
   {
     "id": "polling-average",
     "term": "Polling average",
-    "short": "Combining several polls into one number, which usually beats any single poll. Our formula is published on the Show Our Work page."
+    "short": "Combining several polls into one number, which usually beats any single poll. Our formula is published on the Show Our Work page.",
+    "sports": "The score. It combines many polls into one number, like a team's average across many games."
   },
   {
     "id": "race-rating",
     "term": "Race rating",
-    "short": "An expert forecaster's call on how competitive a race is, from Solid (not competitive) to Likely, Lean and Toss-up (anyone's race)."
+    "short": "An expert forecaster's call on how competitive a race is, from Solid (not competitive) to Likely, Lean and Toss-up (anyone's race).",
+    "sports": "Expert picks, like analysts predicting a game before it's played."
   },
   {
     "id": "toss-up",
     "term": "Toss-up",
-    "short": "A race either side could realistically win. On our poll charts, it also means the margin-of-error range includes a tie."
+    "short": "A race either side could realistically win. On our poll charts, it also means the margin-of-error range includes a tie.",
+    "sports": "A coin-flip game: either side could realistically win."
   },
   {
     "id": "incumbent",
     "term": "Incumbent",
-    "short": "The person who currently holds the seat."
+    "short": "The person who currently holds the seat.",
+    "sports": "The defending champion: the person who holds the seat now."
   },
   {
     "id": "fec",
@@ -77,7 +91,8 @@
   {
     "id": "cash-on-hand",
     "term": "Cash on hand",
-    "short": "How much money a campaign had in the bank at the end of its latest report."
+    "short": "How much money a campaign had in the bank at the end of its latest report.",
+    "sports": "Money still in the bank, like a team's remaining budget."
   },
   {
     "id": "unitemized",
@@ -92,12 +107,14 @@
   {
     "id": "super-pac",
     "term": "Super PAC",
-    "short": "A group that can raise and spend unlimited money to support or oppose candidates, but isn't allowed to coordinate with campaigns."
+    "short": "A group that can raise and spend unlimited money to support or oppose candidates, but isn't allowed to coordinate with campaigns.",
+    "sports": "A booster club that can spend unlimited money but isn't allowed to coordinate with the team."
   },
   {
     "id": "outside-spending",
     "term": "Outside spending",
-    "short": "Money spent by groups other than the campaign itself (like super PACs) to help or hurt a candidate."
+    "short": "Money spent by groups other than the campaign itself (like super PACs) to help or hurt a candidate.",
+    "sports": "Money spent by booster clubs, not by the team itself."
   },
   {
     "id": "provisional-ballot",
@@ -122,11 +139,49 @@
   {
     "id": "pollster-grade",
     "term": "Pollster grade",
-    "short": "FiveThirtyEight's score for how accurate and open a pollster has been in past elections, from 0 to 3 (3 is best). Their ratings were last updated in September 2024, so newer pollsters may not have one."
+    "short": "FiveThirtyEight's score for how accurate and open a pollster has been in past elections, from 0 to 3 (3 is best). Their ratings were last updated in September 2024, so newer pollsters may not have one.",
+    "sports": "A scouting report on the pollster's track record."
   },
   {
     "id": "polling-miss",
     "term": "Polling miss",
-    "short": "How far the final polls were from the actual result, and in which direction. If polls showed a Democrat up 5 and they won by 1, polls overstated Democrats by 4 points."
+    "short": "How far the final polls were from the actual result, and in which direction. If polls showed a Democrat up 5 and they won by 1, polls overstated Democrats by 4 points.",
+    "sports": "How far the final polls were from the real result, like a point spread that missed."
+  },
+  {
+    "id": "scoreboard-score",
+    "term": "The score",
+    "short": "Our polling average for this race: each candidate's average share across recent checked polls. It's a poll average, not a result. Nobody has won anything until votes are counted.",
+    "sports": "The score in the middle of the game. It can still change."
+  },
+  {
+    "id": "games-played",
+    "term": "Games played",
+    "short": "How many checked polls of this race came out in the last 60 days. More polls usually means a steadier average.",
+    "sports": "Games played so far this season."
+  },
+  {
+    "id": "form-guide",
+    "term": "Form",
+    "short": "Who led each of the last five checked polls, newest first. Blue = Democrat, red = Republican, teal = another candidate, gray = tied.",
+    "sports": "A team's recent form, like W-W-L-W-L."
+  },
+  {
+    "id": "expert-picks",
+    "term": "Expert picks",
+    "short": "The average rating from three forecasters: Cook Political Report, Inside Elections, and Sabato's Crystal Ball.",
+    "sports": "Analysts' picks before the game."
+  },
+  {
+    "id": "under-review",
+    "term": "Under review",
+    "short": "At least one recent poll hasn't been checked against its original source yet, so we don't show a score until it is.",
+    "sports": "The play is under review. The score waits until the replay is checked."
+  },
+  {
+    "id": "clear-lead",
+    "term": "Clear lead",
+    "short": "One candidate's lead in our average is bigger than a typical polling miss (about 4.6 points). It's still not a guarantee.",
+    "sports": "Up by more than a couple of scores, but the game isn't over."
   }
 ]

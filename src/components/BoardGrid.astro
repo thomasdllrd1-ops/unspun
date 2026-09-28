@@ -1,0 +1,26 @@
+---
+/** Every race as a scoreboard card, grouped by game status. Same order rules for every race. */
+import Scoreboard from './Scoreboard.astro';
+import Icon from './Icon.astro';
+import type { Summary } from '../lib/summary';
+interface Props { summaries: Summary[] }
+const { summaries } = Astro.props;
+const byName = (a: Summary, b: Summary) => a.race.name.localeCompare(b.race.name);
+const groups = [
+  { key: 'scores', title: 'Scores', icon: 'Trophy', note: 'Every recent poll checked. Closest first.', items: summaries.filter((s) => s.status === 'close' || s.status === 'lead').sort((a, b) => a.margin! - b.margin!) },
+  { key: 'review', title: 'Under review', icon: 'Eye', note: "Recent polls we're still checking against their sources. The score waits for the replay.", items: summaries.filter((s) => s.status === 'review').sort(byName) },
+  { key: 'none', title: 'No recent polls', icon: 'Hourglass', note: 'No polls in the last 60 days. Lean on expert picks and past results.', items: summaries.filter((s) => s.status === 'none').sort(byName) },
+] as const;
+---
+{groups.filter((g) => g.items.length).map((g) => (
+  <section class="bg-group" aria-labelledby={`bg-${g.key}`}>
+    <h2 id={`bg-${g.key}`}><Icon name={g.icon} />{g.title} <span class="muted count">({g.items.length})</span></h2>
+    <p class="small text-2">{g.note}</p>
+    <div class="bg-grid">{g.items.map((s) => <Scoreboard s={s} />)}</div>
+  </section>
+))}
+<style>
+  .bg-group { margin: 22px 0; }
+  .bg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; margin-top: 10px; }
+  .count { font-weight: 600; }
+</style>

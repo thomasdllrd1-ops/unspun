@@ -72,8 +72,8 @@ export default function VaMap({ viewBox, districts, hasRatings }: { viewBox: str
 
       <p class="legend small muted">
         {mode === 'rating'
-          ? 'Teal = leans Democratic, amber = leans Republican, gray = toss-up. Darker = more one-sided. Average of 3 forecasters.'
-          : "Party of the 2024 winner. Teal = Democrat, amber = Republican. Darker = bigger win. Past results don't decide 2026."}
+          ? 'Blue = leans Democratic, red = leans Republican, gray = toss-up. Darker = more one-sided. Average of 3 forecasters.'
+          : "Party of the 2024 winner. Blue = Democrat, red = Republican. Darker = bigger win. Past results don't decide 2026."}
       </p>
 
       <div class="dbuttons" role="group" aria-label="Choose a district">

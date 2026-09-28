@@ -1,0 +1,109 @@
+---
+/**
+ * A race as a scoreboard. Same layout for every race and every party.
+ *   size="card" → compact tile for lists   size="hero" → big version for the top of a race page
+ */
+import type { Summary } from '../lib/summary';
+import { STATUS_TEXT } from '../lib/summary';
+import { ratingColor } from '../lib/ratings';
+import { stateName } from '../lib/states';
+import Term from './Term.astro';
+
+interface Props { s: Summary; size?: 'card' | 'hero'; link?: boolean }
+const { s, size = 'card', link = true } = Astro.props;
+const office = s.race.chamber === 'senate' ? (s.race.id.endsWith('special') ? 'Senate · special' : 'Senate') : `House · District ${s.race.district}`;
+const tag = s.race.chamber === 'senate' ? stateName(s.race.state) : s.race.short;
+const fmt = (x: number | null) => (x == null ? '–' : x.toFixed(1));
+const Tag = link ? 'a' : 'div';
+---
+<Tag class:list={['board', `board-${size}`, `st-${s.status}`]} href={link ? `/races/${s.race.id}/` : undefined}
+  aria-label={link ? `${s.race.name}: ${STATUS_TEXT[s.status]}${s.leader && s.margin != null ? `, ${s.leader.name} leads by ${fmt(s.margin)} in our polling average` : ''}` : undefined}>
+  <div class="board-top">
+    <div>
+      <div class="board-tag">{tag}</div>
+      <div class="board-office">{office}</div>
+    </div>
+    <span class:list={['chip', 'chip-status', `chip-${s.status}`]}>{STATUS_TEXT[s.status]}</span>
+  </div>
+
+  <ul class="teams">
+    {s.teams.map((t) => (
+      <li class:list={[{ lead: s.leader?.id === t.id && (s.margin ?? 0) >= 0.05 }]}>
+        <span class:list={['stripe', t.color]} aria-hidden="true"></span>
+        <span class="tname">{t.name}{t.incumbent && <span class="inc" title="Incumbent">★</span>}</span>
+        <span class="tparty">{t.abbr === 'D' || t.abbr === 'R' ? t.abbr : t.party}</span>
+        <span class="tscore score">{s.status === 'review' ? '··' : fmt(t.score)}</span>
+      </li>
+    ))}
+  </ul>
+
+  <div class="board-foot">
+    {s.status === 'review' ? (
+      <span>{s.underReview} poll{s.underReview === 1 ? '' : 's'} under review. The score is on hold until every recent poll is checked.</span>
+    ) : s.status === 'none' ? (
+      <span>No polls in the last 60 days. See the expert picks.</span>
+    ) : (
+      s.margin != null && s.margin < 0.05
+        ? <span><strong>Tied</strong> in our polling average</span>
+        : <span><strong>{s.leader!.name} +{fmt(s.margin)}</strong> in our polling average</span>
+    )}
+  </div>
+
+  <dl class="stats">
+    <div><dt>Games played</dt><dd class="score">{s.gamesPlayed}</dd></div>
+    <div>
+      <dt>Form</dt>
+      <dd class="form" aria-label={s.form.length ? `Last ${s.form.length} checked polls led by: ${s.form.map((f) => ({ dem: 'Democrat', rep: 'Republican', other: 'other candidate', tie: 'tie' })[f]).join(', ')}` : 'No checked polls yet'}>
+        {s.form.length ? s.form.map((f) => <i class={f}>{f === 'tie' ? '=' : ''}</i>) : <span class="muted">–</span>}
+      </dd>
+    </div>
+    <div>
+      <dt>Expert picks</dt>
+      <dd class="picks">{s.picks.rating && <span class="dot" style={`background:${ratingColor(s.picks.rating)}`} aria-hidden="true"></span>}{s.picks.text}</dd>
+    </div>
+  </dl>
+  {size === 'hero' && (
+    <p class="board-note small">
+      <Term id="scoreboard-score">What's the score?</Term> · <Term id="games-played">Games played</Term> · <Term id="form-guide">Form</Term> · <Term id="expert-picks">Expert picks</Term>
+    </p>
+  )}
+</Tag>
+
+<style>
+  .board { display: block; text-decoration: none; color: var(--board-ink); background: var(--board); border-radius: var(--radius); padding: 14px 16px 12px; border: 1px solid rgba(255,255,255,.08); box-shadow: 0 1px 0 rgba(255,255,255,.04) inset; }
+  a.board:hover { border-color: var(--accent); }
+  .board-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
+  .board-tag { font-family: var(--font-display); font-weight: 800; font-size: 1.35rem; text-transform: uppercase; letter-spacing: 0.03em; line-height: 1; }
+  .board-office { font-family: var(--font-display); font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color: #9aa1ab; margin-top: 3px; }
+  .chip-close { background: #3a404a; color: #fff; }
+  .chip-lead { background: #fff; color: #0b0d10; border-color: transparent; }
+  .chip-none { background: transparent; color: #b9bfc7; border-color: rgba(255,255,255,.25); }
+  .teams { list-style: none; padding: 0; margin: 0; border-top: 1px solid rgba(255,255,255,.1); }
+  .teams li { display: grid; grid-template-columns: 6px minmax(0, 1fr) auto auto; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.1); }
+  .stripe { width: 6px; height: 28px; border-radius: 2px; }
+  .stripe.dem { background: var(--dem); } .stripe.rep { background: var(--rep); } .stripe.other { background: var(--other); }
+  .tname { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; text-transform: uppercase; letter-spacing: 0.02em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .inc { color: var(--accent); font-size: 0.8em; margin-left: 6px; vertical-align: 0.1em; }
+  .tparty { font-family: var(--font-display); font-weight: 700; color: #9aa1ab; font-size: 0.95rem; }
+  .tscore { font-size: 1.9rem; text-align: right; line-height: 1; color: #fff; min-width: 3.2ch; }
+  .lead .tscore { color: var(--accent); }
+  .board-foot { font-size: 0.92rem; color: #c3c8cf; padding: 8px 0 6px; }
+  .board-foot strong { color: #fff; }
+  .stats { display: grid; grid-template-columns: auto auto 1fr; gap: 14px; margin: 4px 0 0; }
+  .stats dt { font-family: var(--font-display); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: #8d949e; font-weight: 700; }
+  .stats dd { margin: 2px 0 0; font-size: 0.92rem; }
+  .stats dd.score { font-size: 1.25rem; line-height: 1.1; }
+  .form { display: flex; gap: 3px; align-items: center; min-height: 1.4rem; }
+  .form i { width: 14px; height: 14px; border-radius: 3px; display: grid; place-items: center; font-style: normal; font-size: 0.7rem; font-weight: 800; color: #0b0d10; }
+  .form i.dem { background: var(--dem); } .form i.rep { background: var(--rep); } .form i.other { background: var(--other); } .form i.tie { background: #6b727c; }
+  .picks { display: flex; align-items: center; gap: 6px; color: #e3e6ea; }
+  .board-hero { padding: 18px 20px 14px; }
+  .board-hero .board-tag { font-size: 2rem; }
+  .board-hero .tname { font-size: 1.7rem; }
+  .board-hero .tscore { font-size: clamp(2.2rem, 10vw, 2.8rem); }
+  .board-hero .teams li { grid-template-columns: 8px minmax(0, 1fr) auto auto; padding: 10px 0; }
+  .board-hero .stripe { width: 8px; height: 38px; }
+  .board-note { color: #9aa1ab; margin: 12px 0 0; }
+  .board-note :global(.term) { color: #e3e6ea; }
+  @media (max-width: 380px) { .stats { grid-template-columns: auto 1fr; } .stats div:last-child { grid-column: 1 / -1; } }
+</style>

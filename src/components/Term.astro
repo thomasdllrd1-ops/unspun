@@ -14,7 +14,7 @@ if (!entry) throw new Error(`Glossary term "${id}" not found in data/glossary.js
 const uid = `term-${id}-${Math.random().toString(36).slice(2, 8)}`;
 ---
 <button type="button" class="term" popovertarget={uid}><slot>{entry.term}</slot></button><span
-  id={uid} popover class="term-pop"><strong>{entry.term}</strong><span class="def">{entry.short}</span><a
+  id={uid} popover class="term-pop"><strong>{entry.term}</strong><span class="def">{entry.short}</span>{entry.sports && <span class="sports"><b>In sports terms:</b> {entry.sports}</span>}<a
   href={`/glossary/#${id}`}>All terms</a></span>
 
 <style>
@@ -28,8 +28,10 @@ const uid = `term-${id}-${Math.random().toString(36).slice(2, 8)}`;
     border-radius: var(--radius-sm); box-shadow: 0 12px 40px rgba(0,0,0,.35); font-size: 0.95rem; line-height: 1.45;
   }
   /* Spans (not divs/paragraphs) so a term can sit inside a sentence without breaking it. */
-  .term-pop strong, .term-pop .def, .term-pop a { display: block; }
+  .term-pop strong, .term-pop .def, .term-pop .sports, .term-pop a { display: block; }
+  .term-pop strong { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; font-size: 1.1rem; }
   .term-pop .def { margin: 6px 0 8px; color: var(--text-2); }
+  .term-pop .sports { margin: 0 0 10px; padding: 8px 10px; border-radius: 6px; background: var(--accent); color: var(--accent-ink); font-size: 0.9rem; }
   .term-pop a { font-size: 0.85rem; }
   .term-pop::backdrop { background: rgba(0,0,0,.35); }
 </style>

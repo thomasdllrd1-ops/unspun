@@ -172,7 +172,7 @@ export const PollsterRatingsSchema = z.object({
   ),
 });
 
-export const GlossarySchema = z.object({ id: z.string(), term: z.string(), short: z.string().min(10) });
+export const GlossarySchema = z.object({ id: z.string(), term: z.string(), short: z.string().min(10), sports: z.string().optional() });
 
 export const RedistrictingSchema = z.object({
   headline: z.string(),

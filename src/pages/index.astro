@@ -1,87 +1,88 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { db, candidatesInRace, ratingsForRace, partyById, raceById } from '../lib/data';
-import { ratingsHeadline } from '../lib/ratings';
+import Hero from '../components/Hero.astro';
+import Scoreboard from '../components/Scoreboard.astro';
+import Icon from '../components/Icon.astro';
+import Term from '../components/Term.astro';
+import { db } from '../lib/data';
+import { summarize } from '../lib/summary';
 import { daysUntil, dateDay } from '../lib/format';
 
 const ELECTION = '2026-11-03';
 const today = new Date();
-const toGo = daysUntil(ELECTION, today);
+const all = db.races.map((r) => summarize(r, today));
+const scored = all.filter((s) => s.status === 'close' || s.status === 'lead').sort((a, b) => a.margin! - b.margin!);
+const review = all.filter((s) => s.status === 'review').length;
 const v = db.howToVoteVA;
 const nextKey = v.deadlines.find((d) => d.key && daysUntil(d.date, today) >= 0);
-const sen = raceById('va-sen');
-const tossups = db.races.filter((r) => r.chamber === 'house' && ratingsForRace(r.id).some((x) => x.rating === 'tossup'));
+
+const howTo = [
+  { icon: 'Trophy', term: 'scoreboard-score', title: 'The score', text: 'Our polling average: each candidate’s average share across recent checked polls. A score mid-game, not a final.' },
+  { icon: 'Scale', term: 'toss-up', title: 'Too close to call', text: 'The lead is smaller than a typical polling miss (about 4.6 points), so either side could be ahead.' },
+  { icon: 'Eye', term: 'under-review', title: 'Under review', text: 'A recent poll is still being checked against its source. The score waits for the replay.' },
+  { icon: 'ChartColumn', term: 'games-played', title: 'Games played', text: 'How many checked polls came out in the last 60 days. More games, steadier read.' },
+  { icon: 'Activity', term: 'form-guide', title: 'Form', text: 'Who led each of the last five polls. Blue = Democrat, red = Republican, teal = another candidate.' },
+  { icon: 'Users', term: 'expert-picks', title: 'Expert picks', text: 'What three forecasters rate the race, from Solid to Toss-up.' },
+] as const;
+const sections = [
+  { href: '/senate/', icon: 'Map', title: 'Senate board', text: `All ${db.races.filter((r) => r.chamber === 'senate').length} races on one map` },
+  { href: '/house/', icon: 'Landmark', title: 'House toss-ups', text: '19 districts rated toss-ups' },
+  { href: '/virginia/', icon: 'MapPin', title: 'Virginia', text: 'Every district, plus the map fight' },
+  { href: '/how-to-vote/virginia/', icon: 'Vote', title: 'How to vote', text: nextKey ? `${nextKey.label}: ${dateDay(nextKey.date)}` : 'Your voting plan' },
+  { href: '/show-our-work/', icon: 'BookOpenCheck', title: 'Our work', text: 'Every source and every choice' },
+  { href: '/glossary/', icon: 'CircleHelp', title: 'Glossary', text: 'Jargon, in sports terms' },
+] as const;
 ---
 <Layout title="Unspun">
-  <section class="hero">
-    <div class="eyebrow">2026 U.S. midterms</div>
-    <h1>Election Day is Tuesday, Nov 3.</h1>
-    <p class="count"><span class="n num" data-countdown={ELECTION} data-unit="short">{toGo}d</span> <span class="text-2">to go. Early voting is already open in Virginia.</span></p>
+  <Hero election={ELECTION} />
+
+  <section aria-labelledby="board-h" class="block">
+    <h2 id="board-h"><Icon name="Trophy" />Today's board</h2>
+    <p class="text-2">Races where every recent poll has been checked, closest first. These are poll averages, not results.</p>
+    <div class="boards">
+      {scored.slice(0, 6).map((s) => <Scoreboard s={s} />)}
+    </div>
+    <p class="small muted">
+      {review > 0 && <><span class="chip chip-status chip-review">Under review</span> {review} more race{review === 1 ? ' has' : 's have'} polls we're still checking. </>}
+      <a href="/senate/">See every Senate race →</a>
+    </p>
   </section>
 
-  <div class="stack">
-    <a class="card card-link" href="/how-to-vote/virginia/">
-      <div class="eyebrow">How to vote · Virginia</div>
-      <h2>{nextKey ? nextKey.label : 'Vote on Election Day'}</h2>
-      <p class="text-2">{nextKey ? `${dateDay(nextKey.date)}${nextKey.time ? `, ${nextKey.time}` : ''}.` : ''} Dates, mail ballots, and ID rules for college students, from the state's official sources.</p>
-      <span class="small">Your voting plan →</span>
-    </a>
+  <section aria-labelledby="read-h" class="block card">
+    <h2 id="read-h"><Icon name="Info" />How to read the scoreboard</h2>
+    <ul class="howto">
+      {howTo.map((h) => (
+        <li>
+          <span class="howto-ico"><Icon name={h.icon} /></span>
+          <div><strong><Term id={h.term}>{h.title}</Term></strong><p class="small text-2">{h.text}</p></div>
+        </li>
+      ))}
+    </ul>
+  </section>
 
-    <a class="card card-link" href="/senate/">
-      <div class="eyebrow">U.S. Senate · {db.races.filter((r) => r.chamber === 'senate').length} races</div>
-      <h2>Every Senate race on one map</h2>
-      <p class="text-2">What forecasters say, our polling average, and what happens if the polls miss the way they did in 2016, 2020, 2022, or 2024.</p>
-      <span class="small">Open the Senate map →</span>
-    </a>
-
-    <a class="card card-link" href="/house/">
-      <div class="eyebrow">U.S. House · 19 toss-ups</div>
-      <h2>The closest House races</h2>
-      <p class="text-2">Every district that at least two of three forecasters rate a toss-up, and exactly how we picked them.</p>
-      <span class="small">See the House races →</span>
-    </a>
-
-    <a class="card card-link" href="/virginia/">
-      <div class="eyebrow">Virginia · 12 races</div>
-      <h2>Tap a district, see the race</h2>
-      <p class="text-2">Who's running, what forecasters say, polls, money raised, and past results for all 11 House districts, plus why the map almost changed this year.</p>
-      <span class="small">Open the map →</span>
-    </a>
-
-    <a class="card card-link" href={`/races/${sen.id}/`}>
-      <div class="eyebrow">U.S. Senate · Virginia</div>
-      <h2>{candidatesInRace(sen.id).map((c) => `${c.sort_name} (${partyById(c.party).abbr})`).join(' vs. ')}</h2>
-      <p class="text-2">{ratingsHeadline(ratingsForRace(sen.id))}</p>
-      <span class="small">See the race →</span>
-    </a>
-
-    {tossups.length > 0 && (
-      <div class="card">
-        <div class="eyebrow">Closest Virginia races</div>
-        <ul class="plain">{tossups.map((r) => <li><a href={`/races/${r.id}/`}>{r.name}</a>: rated a toss-up</li>)}</ul>
-      </div>
-    )}
-
-    <div class="card how">
-      <h2>How this site works</h2>
-      <ul>
-        <li><strong>Every number links to its source.</strong> Tap the ↗.</li>
-        <li><strong>Same template for everyone.</strong> Every candidate and party gets the same sections, in the same order.</li>
-        <li><strong>We say what we don't know.</strong> Blank means we haven't confirmed it yet.</li>
-      </ul>
-      <a href="/show-our-work/">Read how we work →</a>
+  <section aria-label="Sections" class="block">
+    <div class="sections">
+      {sections.map((x) => (
+        <a class="card card-link sec" href={x.href}>
+          <span class="sec-ico"><Icon name={x.icon} /></span>
+          <span class="sec-title">{x.title}</span>
+          <span class="small text-2">{x.text}</span>
+        </a>
+      ))}
     </div>
-
-    <p class="small muted">Coming next: candidate positions in their own words, where the money comes from, and a "Who matches me?" quiz.</p>
-  </div>
+  </section>
 </Layout>
 
 <style>
-  .hero { padding: 12px 0 20px; }
-  .count { font-size: 1.1rem; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-  .count .n { font-size: 3rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; }
-  .plain { list-style: none; padding: 0; margin: 0; }
-  .plain li { padding: 4px 0; }
-  .how ul { padding-left: 18px; margin: 8px 0 12px; }
-  .how li { margin-bottom: 6px; }
+  .block { margin-bottom: 22px; }
+  .boards { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; margin: 12px 0 10px; }
+  .howto { list-style: none; padding: 0; margin: 8px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 18px; }
+  .howto li { display: grid; grid-template-columns: 38px 1fr; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .howto strong { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; font-size: 1.1rem; }
+  .howto p { margin: 2px 0 0; }
+  .howto-ico { width: 38px; height: 38px; border-radius: 8px; background: var(--accent); color: var(--accent-ink); display: grid; place-items: center; font-size: 1.2rem; }
+  .sections { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+  .sec { display: flex; flex-direction: column; gap: 4px; padding: 14px; }
+  .sec-ico { color: var(--text); font-size: 1.5rem; }
+  .sec-title { font-family: var(--font-display); font-weight: 800; text-transform: uppercase; font-size: 1.15rem; letter-spacing: 0.03em; }
 </style>

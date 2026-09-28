@@ -5,9 +5,9 @@ const terms = [...db.glossary].sort((a, b) => a.term.localeCompare(b.term));
 ---
 <Layout title="Glossary" description="Plain-English definitions of polling and campaign terms.">
   <h1>Glossary</h1>
-  <p class="headline">Every term we underline, in plain English.</p>
+  <p class="headline">Every term we underline, in plain English, plus how it works in sports terms.</p>
   <dl class="card gl">
-    {terms.map((t) => (<div id={t.id}><dt>{t.term}</dt><dd class="text-2">{t.short}</dd></div>))}
+    {terms.map((t) => (<div id={t.id}><dt>{t.term}</dt><dd class="text-2">{t.short}</dd>{t.sports && <dd class="sports"><b>In sports terms:</b> {t.sports}</dd>}</div>))}
   </dl>
 </Layout>
 <style>
@@ -16,4 +16,6 @@ const terms = [...db.glossary].sort((a, b) => a.term.localeCompare(b.term));
   .gl > div:target { background: var(--surface-2); margin: 0 -16px; padding: 12px 16px; }
   dt { font-weight: 700; }
   dd { margin: 4px 0 0; }
+  dt { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; font-size: 1.15rem; }
+  .sports { margin-top: 8px; padding: 8px 10px; border-left: 4px solid var(--accent); background: var(--surface-2); border-radius: 4px; font-size: 0.92rem; }
 </style>

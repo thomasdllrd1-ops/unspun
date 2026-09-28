@@ -7,6 +7,8 @@ import { db, candidatesInRace, ratingsForRace, partyById, lastChecked } from '..
 import { consensus, ratingColor, ratingLabel } from '../../lib/ratings';
 import { money, date } from '../../lib/format';
 import sel from '../../../data/house_selection.json';
+import BoardGrid from '../../components/BoardGrid.astro';
+import { summarize } from '../../lib/summary';
 
 const inData = new Set(db.races.map((r) => r.id));
 const rows = sel.districts.map((d) => {
@@ -24,24 +26,7 @@ const heldD = rows.filter((r) => r.incumbent_party === 'democratic').length;
   <p class="headline">All 435 House seats are on the ballot. We cover every district that at least 2 of 3 forecasters call a <Term id="toss-up">toss-up</Term>.</p>
 
   <div class="stack">
-    <ul class="hlist">
-      {rows.map((r) => (
-        <li class="card">
-          <a class="card-link" href={r.race ? `/races/${r.race.id}/` : undefined}>
-            <div class="row between">
-              <strong>{r.race?.name ?? r.race}</strong>
-              {r.cons ? <span class="chip"><span class="dot" style={`background:${ratingColor(r.cons)}`}></span>{ratingLabel(r.cons)}</span> : <span class="chip muted">Ratings being checked</span>}
-            </div>
-            <div class="small text-2">
-              {r.cands.length
-                ? r.cands.map((c) => `${c.sort_name} (${partyById(c.party).abbr}${c.incumbent ? ', incumbent' : ''})`).join(' · ')
-                : `Held by ${r.incumbent ?? 'a vacant seat'}; candidate list being confirmed`}
-            </div>
-            <div class="small muted">Raised by all candidates this cycle: {money(r.raised_all_candidates)}</div>
-          </a>
-        </li>
-      ))}
-    </ul>
+    <BoardGrid summaries={db.races.filter((r) => r.chamber === 'house').map((r) => summarize(r))} />
 
     <section class="card">
       <h2>How we picked these</h2>

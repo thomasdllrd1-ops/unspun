@@ -4,6 +4,8 @@ import SenateOverview, { type OverviewRace } from '../../islands/SenateOverview'
 import Term from '../../components/Term.astro';
 import Source from '../../components/Source.astro';
 import Limits from '../../components/Limits.astro';
+import BoardGrid from '../../components/BoardGrid.astro';
+import { summarize } from '../../lib/summary';
 import { db, candidatesInRace, ratingsForRace, pollsForRace, resultsForPoll, majorPair, pendingRecentPolls, lastChecked } from '../../lib/data';
 import { consensus, ratingColor, ratingLabel } from '../../lib/ratings';
 import { pollingAverage, drMargin, missForState, type AvgPoll } from '../../lib/average';
@@ -50,6 +52,7 @@ const sourceIds = [...new Set(senate.flatMap((r) => ratingsForRace(r.id).map((x)
   <h1>35 Senate seats are on the ballot</h1>
   <p class="headline">That's 33 regular races plus special elections in Florida and Ohio. Tap a state to see its race.</p>
   <SenateOverview client:visible races={races} typicalMiss={db.pollHistory.typical_miss} cycles={db.pollHistory.cycles.map((c) => c.cycle)} />
+  <BoardGrid summaries={senate.map((r) => summarize(r))} />
   <Limits>
     Forecaster colors average three experts' <Term id="race-rating">ratings</Term>. Poll colors use <a href="/show-our-work/#average">our published average</a>, only for races with polls in the last 60 days. The "what if" buttons use real past <Term id="polling-miss">polling misses</Term> (<Source id={db.pollHistory.national_source} label="AAPOR" />, state figures where available). Ratings and polls we haven't checked against the original source aren't shown.
   </Limits>
