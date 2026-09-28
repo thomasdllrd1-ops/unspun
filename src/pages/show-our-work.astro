@@ -35,7 +35,7 @@ const pendingRatings = db.ratings.filter((r) => r.status === 'pending').length;
 
     <section class="card" id="ai">
       <h2>Built with an AI assistant</h2>
-      <p class="text-2">This site is built by a student with help from an AI assistant (Claude, made by Anthropic). The assistant wrote much of the code, gathered data from official sources (state election offices, the FEC, the House Clerk, the Census Bureau), and checked poll numbers against pollsters' releases.</p>
+      <p class="text-2">This site is built by a student with help from an AI assistant (Claude, made by Anthropic). The assistant wrote much of the code, gathered data from official sources (state election offices, the FEC, the House Clerk, the Census Bureau), checked poll numbers against pollsters' releases, and picks the candidate quotes we show (using <a href="/issues/#rules">published rules</a>).</p>
       <p class="text-2">AI assistants can make mistakes, so we built guardrails. The site won't build if a fact has no source. Candidate names are copied from official state lists, not from memory. Anything checked only by the AI is labeled that way, and a person spot-checks a sample. If you find an error, <a href="/corrections/">tell us</a>. We fix it and log the correction publicly.</p>
     </section>
 
@@ -52,6 +52,12 @@ const pendingRatings = db.ratings.filter((r) => r.status === 'pending').length;
         <li><strong>Confidence badge:</strong> "Lots" = 5 or more recent polls from 3 or more pollsters. "A few" = at least one. "None" = no recent polls, so lean on ratings, money, and past results instead.</li>
         <li><strong>Every poll is tagged</strong> with who paid for it, who was asked (<Term id="likely-voters">likely voters</Term>, registered voters, or all adults), how people were reached, sample size, and dates. Polls paid for by campaigns or parties are included and labeled the same way for both sides.</li>
       </ul>
+    </section>
+
+    <section class="card" id="positions">
+      <h2>Where candidates stand</h2>
+      <p class="text-2">We track every candidate on the same <a href="/issues/">6 issues</a>, chosen from two 2026 polls of 18–29 year olds. Every position is a word-for-word quote with a link to where it came from and a tag saying how we know (voted, said, campaign website, or no position found). We research all the candidates in a race at the same time and publish them together. A script confirms each quote is really on the page before it can appear. <a href="/issues/#rules">The full rules for picking quotes</a>.</p>
+      <p class="text-2">We don't label positions "left" or "right," and we don't score who agrees with whom. The blind quiz on each researched race hides candidates' names so you judge the words, not the party, and it never saves or sends your answers.</p>
     </section>
 
     <section class="card" id="average">

@@ -16,6 +16,7 @@ export const SourceSchema = z.object({
   publisher: z.string().min(1),
   url,
   file_url: url.optional(),
+  archive_url: url.optional(), // a saved copy (Internet Archive), in case the page changes
   type: z.enum(['official', 'news', 'reference', 'pollster', 'forecaster', 'campaign', 'organization']),
   published: isoDate.optional(),
   accessed: isoDate,
@@ -240,6 +241,76 @@ export const CorrectionSchema = z.object({
   source: sourceId.optional(),
 });
 
+// ---- Issues and where candidates stand -----------------------------------------
+
+export const IssuesSchema = z.object({
+  chosen_on: isoDate,
+  chosen_by: z.string(),
+  method: z.string(),
+  limits: z.string(),
+  left_out: z.array(z.object({ name: z.string(), why: z.string(), source: sourceId })),
+  issues: z
+    .array(
+      z.object({
+        id: z.string().regex(/^[a-z-]+$/),
+        name: z.string(),
+        icon: z.string(),
+        covers: z.string(),
+        not_covered: z.string(),
+        why: z.array(z.object({ source: sourceId, text: z.string() })).min(2),
+      }),
+    )
+    .length(6),
+});
+
+/** How we know: they voted on it, said it (speech, debate, interview), or it's on their campaign website. */
+export const EVIDENCE = ['voted', 'said', 'website', 'no-position'] as const;
+const checkedFields = {
+  status,
+  checked_by: z.string(), // "script" = a script found the exact words on the source page; "ai" = an AI assistant checked; else a person's name
+  checked_on: z.union([isoDate, z.literal('')]),
+};
+const needsCheck = (x: { status: string; checked_by: string; checked_on: string }) => x.status !== 'verified' || Boolean(x.checked_by && x.checked_on);
+
+export const StanceSchema = z
+  .object({
+    evidence: z.enum(EVIDENCE),
+    heading: z.string(), // the heading above the quote on the source page, word for word ('' if none)
+    quote: z.string(), // word for word. Blank only for "no-position".
+    said_on: z.union([isoDate, z.literal('')]), // when they said it, if known (campaign websites are usually undated)
+    source: sourceId.nullable(), // where the quote is. For "no-position", null (the pages we checked are in looked_at)
+    ...checkedFields,
+    note: z.string(),
+  })
+  .refine((s) => (s.evidence === 'no-position') === (s.quote === ''), 'a quote is required, except for no-position (leave it blank)')
+  .refine((s) => s.evidence === 'no-position' || s.source, 'a quote needs a source')
+  .refine(needsCheck, 'verified items need checked_by and checked_on');
+
+export const PrioritySchema = z
+  .object({
+    rank: z.number().int().min(1).max(3),
+    heading: z.string().min(1), // their heading, word for word
+    quote: z.string().min(1), // word for word
+    source: sourceId,
+    ...checkedFields,
+  })
+  .refine(needsCheck, 'verified items need checked_by and checked_on');
+
+export const PositionsFileSchema = z.object({
+  race: z.string(),
+  candidates: z.array(
+    z.object({
+      candidate: z.string(),
+      researched_on: isoDate,
+      researched_by: z.string(), // "ai" or a person's name
+      looked_at: z.array(sourceId).min(1), // every page we checked, even ones where we found nothing
+      priorities_note: z.string(), // required when there are fewer than 3 priorities: say why
+      priorities: z.array(PrioritySchema).max(3),
+      stances: z.record(z.string(), StanceSchema),
+    }),
+  ),
+});
+
 export type Source = z.infer<typeof SourceSchema>;
 export type Party = z.infer<typeof PartySchema>;
 export type Race = z.infer<typeof RaceSchema>;
@@ -257,3 +328,9 @@ export type HowToVote = z.infer<typeof HowToVoteSchema>;
 export type Money = z.infer<typeof MoneySchema>;
 export type MoneyEntry = Money['candidates'][string];
 export type Correction = z.infer<typeof CorrectionSchema>;
+export type Issues = z.infer<typeof IssuesSchema>;
+export type Issue = Issues['issues'][number];
+export type Stance = z.infer<typeof StanceSchema>;
+export type Priority = z.infer<typeof PrioritySchema>;
+export type PositionsFile = z.infer<typeof PositionsFileSchema>;
+export type CandidatePositions = PositionsFile['candidates'][number];

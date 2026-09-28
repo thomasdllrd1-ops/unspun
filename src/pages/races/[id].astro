@@ -18,7 +18,7 @@ import AverageBuilder from '../../islands/AverageBuilder';
 import Scoreboard from '../../components/Scoreboard.astro';
 import Icon from '../../components/Icon.astro';
 import { summarize } from '../../lib/summary';
-import { db, candidatesInRace, ratingsForRace, pollsForRace, pastResultsForRace, resultsForPoll, partyById, sourceById, majorPair, pendingRecentPolls, lastChecked } from '../../lib/data';
+import { db, positionsOf, raceResearch, issueList, candidatesInRace, ratingsForRace, pollsForRace, pastResultsForRace, resultsForPoll, partyById, sourceById, majorPair, pendingRecentPolls, lastChecked } from '../../lib/data';
 import { pollingAverage, missForState, type AvgPoll } from '../../lib/average';
 import { stateName } from '../../lib/states';
 import { ratingsHeadline } from '../../lib/ratings';
@@ -33,6 +33,7 @@ const { race } = Astro.props;
 const summary = summarize(race);
 const today = new Date();
 const candidates = candidatesInRace(race.id);
+const research = raceResearch(race.id);
 const ratings = ratingsForRace(race.id);
 const polls = pollsForRace(race.id);
 const recent = polls.filter((p) => daysBetween(pollDate(p), today) <= RECENT_DAYS);
@@ -185,7 +186,24 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
     <section class="card" aria-labelledby="positions">
       <div class="eyebrow">Game plan</div>
       <h2 id="positions"><Icon name="Flag" />Where they stand</h2>
-      <p class="text-2">Coming soon: each candidate's top 3 policies in their own words, with a link to where they said it. We research every candidate in a race at the same time and publish them together.</p>
+      {research.shown ? (
+        <>
+          <p class="headline">Each candidate's top priorities and their words on our 6 issues, linked to where they said it.</p>
+          <ul class="found">
+            {candidates.map((c) => {
+              const cp = positionsOf(research, c.id);
+              const n = issueList.filter((i) => cp.stances[i.id].evidence !== 'no-position').length;
+              return <li><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a> <span class="muted small">position found on {n} of 6</span></li>;
+            })}
+          </ul>
+          <p class="row">
+            <a class="btn" href={`/races/${race.id}/quiz/`}><Icon name="Shuffle" />Blind quiz: who matches me?</a>
+            <a class="btn btn-ghost" href={`/races/${race.id}/compare/`}><Icon name="Columns2" />Compare side by side</a>
+          </p>
+        </>
+      ) : (
+        <p class="text-2">Not yet researched. We research every candidate in a race at the same time and publish them together: their top 3 priorities and their words on <a href="/issues/">our 6 issues</a>, each linked to where they said it.</p>
+      )}
     </section>
 
     <SourceList ids={sourceIds} />
@@ -202,5 +220,7 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
   .cname { font-weight: 700; margin-right: 6px; }
   .between { justify-content: space-between; }
   .every { margin: 20px 0 10px; font-size: 1rem; }
+  .found { list-style: none; padding: 0; margin: 0 0 12px; }
+  .found li { padding: 6px 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
   .hold { border-left: 3px solid var(--warn-ink); padding-left: 12px; }
 </style>

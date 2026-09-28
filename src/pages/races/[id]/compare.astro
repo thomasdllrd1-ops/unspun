@@ -1,0 +1,61 @@
+---
+/** Every candidate in a race, issue by issue, in their own words. Same layout for every race. */
+import Layout from '../../../layouts/Layout.astro';
+import PartyTag from '../../../components/PartyTag.astro';
+import StanceCard from '../../../components/StanceCard.astro';
+import Icon from '../../../components/Icon.astro';
+import Limits from '../../../components/Limits.astro';
+import SourceList from '../../../components/SourceList.astro';
+import { db, positionsOf, raceById, raceResearch, candidatesInRace, issueList, lastChecked } from '../../../lib/data';
+
+export function getStaticPaths() {
+  return db.races.filter((r) => raceResearch(r.id).shown).map((r) => ({ params: { id: r.id } }));
+}
+const race = raceById(Astro.params.id!);
+const research = raceResearch(race.id);
+const candidates = candidatesInRace(race.id);
+const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.id).looked_at))];
+---
+<Layout title={`${race.short}: side by side`} description={`Where every candidate in ${race.name} stands on 6 issues, in their own words, with sources.`} updated={lastChecked(sourceIds)}>
+  <nav class="small muted" aria-label="Breadcrumb"><a href={`/races/${race.id}/`}>{race.short}</a> › Side by side</nav>
+  <div class="eyebrow" style="margin-top:8px">{race.name}</div>
+  <h1>Side by side</h1>
+  <p class="headline">All {candidates.length} candidates on our 6 issues, word for word. Listed alphabetically by last name.</p>
+
+  <nav class="jump" aria-label="Jump to an issue">
+    {issueList.map((i) => <a class="chip" href={`#${i.id}`}><Icon name={i.icon as any} />{i.name}</a>)}
+  </nav>
+
+  <div class="stack">
+    {issueList.map((i) => (
+      <section class="card" id={i.id} aria-labelledby={`${i.id}-h`}>
+        <h2 id={`${i.id}-h`}><Icon name={i.icon as any} />{i.name}</h2>
+        <p class="small muted">Covers: {i.covers}</p>
+        <div class="cols">
+          {candidates.map((c) => {
+            const cp = positionsOf(research, c.id);
+            return (
+              <div class="col">
+                <div class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a> <PartyTag party={c.party} /></div>
+                <StanceCard stance={cp.stances[i.id]} lookedAt={cp.looked_at} />
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+    <p class="row"><a class="btn" href={`/races/${race.id}/quiz/`}><Icon name="Shuffle" />Try the blind quiz</a></p>
+    <Limits>These are the candidates' own words, mostly from campaign websites, which are written to win votes. We don't sort positions into "left" and "right" or say who agrees with whom, because that would mean putting our judgment in place of their words. <a href="/issues/#rules">How we pick the words we quote</a>.</Limits>
+    <SourceList ids={sourceIds} />
+  </div>
+</Layout>
+
+<style>
+  .jump { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0 12px; scrollbar-width: none; }
+  .jump::-webkit-scrollbar { display: none; }
+  .jump .chip { white-space: nowrap; text-decoration: none; gap: 5px; min-height: 36px; }
+  .jump .chip :global(.icon) { width: 15px; height: 15px; }
+  .cols { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 8px; }
+  .col { border-top: 3px solid var(--border-strong); padding-top: 8px; min-width: 0; display: grid; gap: 6px; align-content: start; }
+  .who { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-weight: 700; }
+</style>

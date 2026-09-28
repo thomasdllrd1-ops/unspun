@@ -5,14 +5,15 @@
  *
  * If anything is wrong, this throws, which stops the build. Bad data can't ship.
  */
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import Papa from 'papaparse';
 import { z } from 'zod';
 import {
   SourceSchema, PartySchema, RaceSchema, CandidateSchema, RatingSchema, PollSchema, PollResultSchema,
   PastResultSchema, PollsterSchema, PollHistorySchema, PollsterRatingsSchema, GlossarySchema, RedistrictingSchema, HowToVoteSchema, MoneySchema, CorrectionSchema,
-  type Rating, type Poll,
+  IssuesSchema, PositionsFileSchema,
+  type Rating, type Poll, type CandidatePositions,
 } from './schema';
 
 const DATA = join(process.cwd(), 'data');
@@ -65,6 +66,14 @@ function load() {
   const money = parseOne('money/fec-totals.json', MoneySchema, readJson('money/fec-totals.json'));
   const pollHistory = parseOne('historical_poll_error.json', PollHistorySchema, readJson('historical_poll_error.json'));
   const pollsterRatings = parseOne('pollster_ratings.json', PollsterRatingsSchema, readJson('pollster_ratings.json'));
+  const issues = parseOne('issues.json', IssuesSchema, readJson('issues.json'));
+  const posDir = join(DATA, 'positions');
+  const positions = existsSync(posDir)
+    ? readdirSync(posDir)
+        .filter((f) => f.endsWith('.json'))
+        .sort()
+        .map((f) => ({ file: f, ...parseOne(`positions/${f}`, PositionsFileSchema, readJson(`positions/${f}`)) }))
+    : [];
 
   // ---- cross-checks -------------------------------------------------------
   const errors: string[] = [];
@@ -148,13 +157,43 @@ function load() {
       errors.push(`pollster ${p.name}: has fte_id but no rating in pollster_ratings.json (run npm run build:polls-history)`);
   }
 
+  // Issues and positions: every candidate in a race is researched together, on the same 6 issues.
+  const issueIds = issues.issues.map((i) => i.id);
+  for (const i of issues.issues) i.why.forEach((w) => needSource(`issue ${i.id}`, w.source));
+  for (const l of issues.left_out) needSource(`issues.json left_out ${l.name}`, l.source);
+  dupes('positions', positions.map((p) => p.race));
+  for (const file of positions) {
+    const where = `positions/${file.file}`;
+    if (file.file !== `${file.race}.json`) errors.push(`${where}: file name must be ${file.race}.json`);
+    if (!raceIds.has(file.race)) { errors.push(`${where}: unknown race "${file.race}"`); continue; }
+    const inRace = candidates.filter((c) => c.race === file.race).map((c) => c.id);
+    const listed = file.candidates.map((c) => c.candidate);
+    dupes(where, listed);
+    for (const id of inRace)
+      if (!listed.includes(id)) errors.push(`${where}: missing ${id}. Every candidate in a race is researched together.`);
+    for (const cp of file.candidates) {
+      const w = `${where} ${cp.candidate}`;
+      if (!inRace.includes(cp.candidate)) errors.push(`${w}: not a candidate in ${file.race}`);
+      cp.looked_at.forEach((id) => needSource(`${w} looked_at`, id));
+      cp.priorities.forEach((p, i) => {
+        needSource(`${w} priority ${p.rank}`, p.source);
+        if (p.rank !== i + 1) errors.push(`${w}: priorities must be ranked 1, 2, 3 in order`);
+      });
+      if (cp.priorities.length < 3 && !cp.priorities_note) errors.push(`${w}: fewer than 3 priorities, so priorities_note must say why`);
+      const got = Object.keys(cp.stances);
+      for (const id of issueIds) if (!got.includes(id)) errors.push(`${w}: missing a stance on "${id}" (use no-position if none was found)`);
+      for (const id of got) if (!issueIds.includes(id)) errors.push(`${w}: unknown issue "${id}"`);
+      for (const [id, st] of Object.entries(cp.stances)) needSource(`${w} ${id}`, st.source);
+    }
+  }
+
   if (errors.length) {
     throw new Error(`Data check failed (${errors.length} problem${errors.length > 1 ? 's' : ''}):\n  - ${errors.join('\n  - ')}`);
   }
 
   return {
     sources, parties, races, candidates, ratings, polls, pollResults, pollsters, pastResults, glossary, corrections,
-    redistricting, howToVoteVA, money, pollHistory, pollsterRatings,
+    redistricting, howToVoteVA, money, pollHistory, pollsterRatings, issues, positions,
   };
 }
 
@@ -220,3 +259,31 @@ export const lastChecked = (sourceIds: (string | null | undefined)[]) =>
     .map((id) => sourceById(id).accessed)
     .sort()
     .at(-1) ?? null;
+
+// ---- issues and positions ------------------------------------------------------
+
+export const issueList = db.issues.issues;
+export const issueById = (id: string) => issueList.find((i) => i.id === id)!;
+
+export type ResearchStatus = 'published' | 'in-progress' | 'not-started';
+
+/**
+ * A race's positions go public all at once: only when every candidate in it has been researched
+ * and every quote checked. Until then, the public site says "not yet researched" for all of them.
+ */
+export function raceResearch(raceId: string) {
+  const file = db.positions.find((p) => p.race === raceId);
+  if (!file) return { status: 'not-started' as ResearchStatus, shown: false, pending: 0, byCandidate: new Map<string, CandidatePositions>() };
+  const items = file.candidates.flatMap((c) => [...c.priorities, ...Object.values(c.stances)]);
+  const pending = items.filter((x) => x.status !== 'verified').length;
+  const status: ResearchStatus = pending === 0 ? 'published' : 'in-progress';
+  const byCandidate = new Map<string, CandidatePositions>(file.candidates.map((c) => [c.candidate, c]));
+  return { status, shown: status === 'published' || SHOW_PENDING, pending, byCandidate };
+}
+
+/** One candidate's research. The data check guarantees every candidate in a researched race has an entry. */
+export function positionsOf(research: ReturnType<typeof raceResearch>, candidateId: string): CandidatePositions {
+  const cp = research.byCandidate.get(candidateId);
+  if (!cp) throw new Error(`No positions for ${candidateId}`);
+  return cp;
+}

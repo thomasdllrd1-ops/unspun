@@ -4,7 +4,7 @@ Everything here is either **hidden from the public site** until a person checks 
 
 **Fastest way to work through it:** run `npm run dev`, open **http://localhost:4321/review/checklist/**, and use the `npm run verify` commands shown there. When you finish an item below, delete it (git keeps the history).
 
-_Last updated: Sep 28, 2026 (Phase 3 + scoreboard redesign)_
+_Last updated: Sep 28, 2026 (Phase 4 started: issues + candidate positions)_
 
 ---
 
@@ -54,6 +54,14 @@ If a poll's numbers differ from what we have, fix `data/polls/poll_results.csv` 
 About 40 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
 
 Also spot-check 3 candidate lists against the official links on their race pages (the helpers' work was spot-checked for NJ, ME, WY, TX and FL, and all matched).
+
+## Priority 5: Spot-check candidate positions (new, about 10 minutes per race)
+
+A script already confirmed every quote is word for word on the candidate's site. What it can't judge is whether the AI picked a **fair** passage. For each newly researched race:
+
+1. Open the race's **Side by side** page (e.g. `/races/va-sen/compare/`) and click through to each candidate's site.
+2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
+3. If a pick looks unfair, tell Claude which one and why. Researched so far: **VA Senate** (Sep 28).
 
 ---
 

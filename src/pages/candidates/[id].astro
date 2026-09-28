@@ -6,7 +6,11 @@ import Term from '../../components/Term.astro';
 import Source from '../../components/Source.astro';
 import SourceList from '../../components/SourceList.astro';
 import Limits from '../../components/Limits.astro';
-import { db, raceById, moneyFor, lastChecked, candidatesInRace } from '../../lib/data';
+import Icon from '../../components/Icon.astro';
+import EvidenceTag from '../../components/EvidenceTag.astro';
+import StanceCard from '../../components/StanceCard.astro';
+import Pending from '../../components/Pending.astro';
+import { db, raceById, moneyFor, lastChecked, candidatesInRace, raceResearch, issueList } from '../../lib/data';
 import { money, date } from '../../lib/format';
 
 export function getStaticPaths() {
@@ -16,7 +20,10 @@ const { c } = Astro.props;
 const race = raceById(c.race);
 const m = moneyFor(c.id);
 const others = candidatesInRace(c.race).filter((x) => x.id !== c.id);
-const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-registering-candidate' : null];
+const research = raceResearch(c.race);
+const cp = research.shown ? research.byCandidate.get(c.id) : undefined;
+const found = cp ? issueList.filter((i) => cp.stances[i.id].evidence !== 'no-position').length : 0;
+const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-registering-candidate' : null, ...(cp?.looked_at ?? [])];
 ---
 <Layout title={c.ballot_name} description={`${c.ballot_name}, candidate for ${race.name}: money raised and where they stand, with sources.`} updated={lastChecked(sourceIds)}>
   <nav class="small muted" aria-label="Breadcrumb"><a href="/virginia/">Virginia</a> › <a href={`/races/${race.id}/`}>{race.short}</a></nav>
@@ -25,11 +32,58 @@ const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-reg
   <p class="row"><PartyTag party={c.party} />{c.incumbent && <span class="chip"><Term id="incumbent">Incumbent</Term></span>}</p>
 
   <div class="stack">
-    <section class="card">
-      <h2>Top 3 policies, in their words</h2>
-      <p class="text-2">Not yet researched. We research every candidate in {race.short} at the same time and publish them together, each quote linked to where they said it.</p>
-      {c.website && <p class="small"><a href={c.website} target="_blank" rel="noopener nofollow">Campaign website ↗</a></p>}
-    </section>
+    {cp ? (
+      <>
+        <section class="card" aria-labelledby="top3">
+          <div class="eyebrow">Their game plan</div>
+          <h2 id="top3"><Icon name="ListOrdered" />Top {cp.priorities.length || 3} priorities, in their words</h2>
+          {cp.priorities.length > 0 ? (
+            <>
+              <p class="small muted">The first {cp.priorities.length === 1 ? 'issue' : `${cp.priorities.length} issues`} on their campaign website, in the order the site lists them.</p>
+              <ol class="prio">
+                {cp.priorities.map((p) => (
+                  <li>
+                    <span class="rank score" aria-hidden="true">{p.rank}</span>
+                    <div class="stack-sm">
+                      <div class="ph">{p.heading} {p.status !== 'verified' && <Pending />}</div>
+                      <p>“{p.quote}”</p>
+                      <p class="small muted">Word for word from <Source id={p.source} />.</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </>
+          ) : null}
+          {cp.priorities_note && <p class="text-2">{cp.priorities_note}</p>}
+        </section>
+
+        <section class="card" aria-labelledby="stand">
+          <div class="eyebrow">The playbook</div>
+          <h2 id="stand"><Icon name="Flag" />Where they stand on our 6 issues</h2>
+          <p class="headline">We found {c.ballot_name}'s position on {found} of our 6 issues.</p>
+          <div class="issues">
+            {issueList.map((i) => (
+              <details class="iss">
+                <summary><Icon name={i.icon as any} /><span class="iname">{i.name}</span><EvidenceTag evidence={cp.stances[i.id].evidence} /></summary>
+                <div class="ibody"><StanceCard stance={cp.stances[i.id]} lookedAt={cp.looked_at} showTag={false} /></div>
+              </details>
+            ))}
+          </div>
+          <p class="row" style="margin-top:12px">
+            <a class="btn" href={`/races/${race.id}/quiz/`}><Icon name="Shuffle" />Blind quiz: who matches me?</a>
+            <a class="btn btn-ghost" href={`/races/${race.id}/compare/`}><Icon name="Columns2" />Compare side by side</a>
+          </p>
+          <Limits>Campaign websites are written to win votes, and they leave things out. "No position found" means we didn't find one on the pages we checked, not that the candidate has no view. <a href="/issues/#rules">How we pick the words we quote</a>.</Limits>
+        </section>
+      </>
+    ) : (
+      <section class="card">
+        <div class="eyebrow">Their game plan</div>
+        <h2>Top 3 priorities and where they stand</h2>
+        <p class="text-2">Not yet researched. We research every candidate in {race.short} at the same time and publish them together, each quote linked to where they said it.</p>
+        {c.website && <p class="small"><a href={c.website} target="_blank" rel="noopener nofollow">Campaign website ↗</a></p>}
+      </section>
+    )}
 
     <section class="card">
       <h2>Money</h2>
@@ -54,6 +108,19 @@ const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-reg
   </div>
 </Layout>
 <style>
+  .prio { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 14px; }
+  .prio li { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 10px; align-items: start; }
+  .prio p { margin: 0; }
+  .rank { font-size: 1.4rem; line-height: 1; background: var(--board); color: var(--accent); border-radius: 6px; padding: 6px 0; text-align: center; }
+  .ph { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 800; }
+  .stack-sm { display: grid; gap: 4px; min-width: 0; }
+  .issues { display: grid; gap: 6px; }
+  .iss { border: 1px solid var(--border); border-radius: var(--radius-sm); }
+  .iss summary { display: flex; align-items: center; gap: 8px; padding: 10px 12px; cursor: pointer; min-height: 44px; flex-wrap: wrap; }
+  .iss summary :global(.icon) { flex: none; }
+  .iname { font-weight: 700; flex: 1 1 auto; }
+  .iss summary :global(.ev) { margin-left: auto; }
+  .ibody { padding: 0 12px 12px; }
   .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 8px; }
   .stats dt { font-size: 0.8rem; color: var(--muted); }
   .stats dd { margin: 0; font-size: 1.3rem; font-weight: 800; }

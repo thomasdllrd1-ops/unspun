@@ -1,0 +1,22 @@
+---
+/** How we know where a candidate stands. The same four tags for every candidate. */
+import Icon from './Icon.astro';
+import type { Stance } from '../lib/schema';
+
+interface Props { evidence: Stance['evidence'] }
+const { evidence } = Astro.props;
+const TAGS = {
+  voted: { icon: 'Vote', label: 'Voted', title: 'How they voted in office' },
+  said: { icon: 'MessageSquareQuote', label: 'Said', title: 'Something they said in a speech, debate, or interview' },
+  website: { icon: 'Laptop', label: 'Campaign website', title: 'Words from their own campaign website' },
+  'no-position': { icon: 'CircleHelp', label: 'No position found', title: "We didn't find a position on the pages we checked" },
+} as const;
+const t = TAGS[evidence];
+---
+<span class:list={['chip', 'ev', `ev-${evidence}`]} title={t.title}><Icon name={t.icon} />{t.label}</span>
+
+<style>
+  .ev { gap: 5px; font-size: 0.78rem; }
+  .ev :global(.icon) { width: 14px; height: 14px; }
+  .ev-no-position { border-style: dashed; color: var(--muted); background: transparent; }
+</style>

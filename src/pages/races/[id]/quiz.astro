@@ -1,0 +1,92 @@
+---
+/** "Who matches me?" — the blind quiz for one race. Same quiz for every race. */
+import Layout from '../../../layouts/Layout.astro';
+import Limits from '../../../components/Limits.astro';
+import BlindQuiz from '../../../islands/BlindQuiz';
+import { db, positionsOf, raceById, raceResearch, candidatesInRace, issueList, partyById, lastChecked } from '../../../lib/data';
+import { nameVariants, hideNames } from '../../../lib/quiz';
+
+export function getStaticPaths() {
+  return db.races.filter((r) => raceResearch(r.id).shown).map((r) => ({ params: { id: r.id } }));
+}
+const race = raceById(Astro.params.id!);
+const research = raceResearch(race.id);
+const candidates = candidatesInRace(race.id);
+const variants = candidates.flatMap((c) => nameVariants(c.ballot_name, c.sort_name));
+
+const questions = issueList.map((i) => {
+  const withWords = candidates.filter((c) => positionsOf(research, c.id).stances[i.id].evidence !== 'no-position');
+  return {
+    issue: i.id,
+    name: i.name,
+    covers: i.covers,
+    options: withWords.map((c) => {
+      const st = positionsOf(research, c.id).stances[i.id];
+      return { candidate: c.id, blind: hideNames(st.quote, variants), heading: hideNames(st.heading, variants) };
+    }),
+    missing: candidates.filter((c) => !withWords.includes(c)).map((c) => c.id),
+  };
+});
+// An issue needs at least 2 candidates' words to compare.
+const asked = questions.filter((q) => q.options.length >= 2);
+const skipped = questions
+  .filter((q) => q.options.length < 2)
+  .map((q) => ({ name: q.name, reason: q.options.length === 1 ? 'only 1 candidate states a position' : 'no candidate states a position' }));
+const quizCandidates = candidates.map((c) => {
+  const party = partyById(c.party);
+  return { id: c.id, name: c.ballot_name, party: party.name, color: party.color, href: `/candidates/${c.id}/` };
+});
+const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.id).looked_at))];
+---
+<Layout title={`${race.short}: who matches me?`} description={`A blind quiz: read what the ${race.name} candidates say on ${asked.length} issues with names hidden, then see whose words you picked.`} updated={lastChecked(sourceIds)}>
+  <nav class="small muted" aria-label="Breadcrumb"><a href={`/races/${race.id}/`}>{race.short}</a> › Blind quiz</nav>
+  <div class="eyebrow" style="margin-top:8px">{race.name}</div>
+  <h1>Who matches me?</h1>
+  <p class="headline">A blind taste test for candidates: pick the words you agree with before you know who said them.</p>
+
+  <div class="stack">
+    {asked.length >= 2 ? (
+      <BlindQuiz client:load race={race.short} compareHref={`/races/${race.id}/compare/`} candidates={quizCandidates} questions={asked} skipped={skipped} />
+    ) : (
+      <p class="card text-2">Not enough candidates state positions on the same issues for a quiz. <a href={`/races/${race.id}/compare/`}>See what they do say, side by side</a>.</p>
+    )}
+    <noscript><p class="card">The quiz needs JavaScript. You can still <a href={`/races/${race.id}/compare/`}>read every candidate's words side by side</a>.</p></noscript>
+    {skipped.length > 0 && <p class="small muted">Left out of the quiz: {skipped.map((s) => `${s.name} (${s.reason})`).join('; ')}.</p>}
+    <Limits>The quiz uses the same quotes as the <a href={`/races/${race.id}/compare/`}>side-by-side page</a>, with candidates' names swapped for "[name hidden]." Quotes can still mention parties or other people. The order of options is shuffled every time. Every issue counts the same. <a href="/issues/#rules">How we pick the words we quote</a>.</Limits>
+  </div>
+</Layout>
+
+<style is:global>
+  .quiz:focus { outline: none; }
+  .quiz:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .quiz .how { padding-left: 1.2em; margin: 8px 0 12px; }
+  .quiz .how li { margin: 4px 0; }
+  .quiz fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+  .quiz legend { display: grid; gap: 2px; margin-bottom: 10px; padding: 0; }
+  .quiz .qname { font-family: var(--font-display); text-transform: uppercase; font-weight: 800; font-size: 1.5rem; letter-spacing: 0.02em; }
+  .quiz .progress { height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; margin-bottom: 12px; }
+  .quiz .progress span { display: block; height: 100%; background: var(--accent); }
+  .quiz .opts { display: grid; gap: 8px; }
+  .quiz .opt { display: grid; grid-template-columns: auto 30px minmax(0, 1fr); gap: 10px; align-items: start; border: 1px solid var(--border-strong); border-radius: var(--radius-sm); padding: 12px; cursor: pointer; line-height: 1.5; }
+  .quiz .opt-plain { grid-template-columns: auto minmax(0, 1fr); align-items: center; font-weight: 600; }
+  .quiz .opt input { width: 20px; height: 20px; margin: 2px 0 0; accent-color: var(--accent); }
+  .quiz .opt.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+  .quiz .letter { font-family: var(--font-display); font-weight: 800; font-size: 1.2rem; background: var(--board); color: var(--accent); border-radius: 6px; text-align: center; line-height: 30px; }
+  .quiz .oh { display: block; font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 700; font-size: 0.85rem; color: var(--muted); }
+  .quiz .nav { margin-top: 12px; }
+  .quiz .btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+  .quiz .tallies { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 10px; }
+  .quiz .tallies li { display: grid; grid-template-columns: 12px auto minmax(0, 1fr) auto; grid-template-areas: 'dot name party score' '. bar bar bar'; gap: 4px 8px; align-items: center; }
+  .quiz .tallies .dot { grid-area: dot; }
+  .quiz .tallies a { grid-area: name; font-weight: 700; }
+  .quiz .tallies .muted { grid-area: party; }
+  .quiz .tallies .score { grid-area: score; font-size: 1.6rem; }
+  .quiz .tallies .bar { grid-area: bar; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .quiz .tallies .bar span { display: block; height: 100%; }
+  .quiz .bar .dem { background: var(--dem); }
+  .quiz .bar .rep { background: var(--rep); }
+  .quiz .bar .other { background: var(--other); }
+  .quiz .reveal { padding-left: 1.1em; }
+  .quiz .reveal li { margin: 8px 0; }
+  .quiz .note { border-left: 3px solid var(--accent); padding-left: 10px; }
+</style>

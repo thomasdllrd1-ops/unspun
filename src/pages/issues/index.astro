@@ -1,0 +1,94 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import Source from '../../components/Source.astro';
+import SourceList from '../../components/SourceList.astro';
+import Limits from '../../components/Limits.astro';
+import { db, issueList, raceResearch } from '../../lib/data';
+import { date } from '../../lib/format';
+
+const meta = db.issues;
+const published = db.races.filter((r) => raceResearch(r.id).shown);
+const sourceIds = [...new Set([...issueList.flatMap((i) => i.why.map((w) => w.source)), ...meta.left_out.map((l) => l.source)])];
+---
+<Layout title="The 6 issues" description="The 6 issues we track for every candidate, why we picked them, and how we choose the words we quote." updated={meta.chosen_on}>
+  <div class="eyebrow">The playbook</div>
+  <h1>The 6 issues we track</h1>
+  <p class="headline">These are the issues 18–29 year olds said matter most in two big 2026 polls. We track every candidate on the same 6.</p>
+
+  <div class="stack">
+    <ul class="grid">
+      {issueList.map((i) => (
+        <li class="card issue" id={i.id}>
+          <h2><Icon name={i.icon as any} />{i.name}</h2>
+          <p>{i.covers} {i.not_covered && <span class="text-2">{i.not_covered}</span>}</p>
+          <details>
+            <summary class="small">Why this issue?</summary>
+            <ul class="why small">{i.why.map((w) => <li>{w.text} <Source id={w.source} /></li>)}</ul>
+          </details>
+        </li>
+      ))}
+    </ul>
+
+    <section class="card" aria-labelledby="how-h">
+      <h2 id="how-h"><Icon name="ListChecks" />How we picked them</h2>
+      <p>{meta.method}</p>
+      <p class="small muted">Chosen {date(meta.chosen_on)}. {meta.chosen_by}.</p>
+      <h3>Close, but not in the 6</h3>
+      <ul class="small">{meta.left_out.map((l) => <li><strong>{l.name}:</strong> {l.why} <Source id={l.source} /></li>)}</ul>
+      <Limits>{meta.limits}</Limits>
+    </section>
+
+    <section class="card" id="rules" aria-labelledby="rules-h">
+      <h2 id="rules-h"><Icon name="Quote" />How we pick the words we quote</h2>
+      <ol class="rules">
+        <li><strong>Where we look:</strong> each candidate's campaign website: its issues page, About page, and home page. We don't use social media posts, which change constantly and can't be checked the same way for every candidate.</li>
+        <li><strong>Their words, not ours.</strong> Every quote is copied word for word. We don't fix typos, cut words out, or sum up what they "really mean."</li>
+        <li><strong>Top 3 priorities</strong> are the first three issues on the candidate's campaign website, in the order the site lists them. The campaign decided what comes first, not us.</li>
+        <li><strong>For each of our 6 issues</strong>, we quote the passage (whole sentences, 60 words at most) that most directly says what the candidate would do, supports, opposes, or has done. We skip lines that don't take a position, like "Health care matters." If two passages fit equally, we use the one that comes first on the page. This is a judgment call, so every quote links to the full page.</li>
+        <li><strong>A tag says how we know:</strong> <em>Voted</em> (their record in office), <em>Said</em> (a speech, debate, or interview), <em>Campaign website</em>, or <em>No position found</em>.</li>
+        <li><strong>"No position found"</strong> means we didn't find one on the pages we checked (we list them), not that the candidate has no view.</li>
+        <li><strong>Whole races at once.</strong> We research every candidate in a race at the same time, on the same kinds of pages, and publish them together. Until then, every candidate in that race shows "Not yet researched."</li>
+        <li><strong>Checked by a script.</strong> An AI assistant finds the pages and picks the passages using these rules. Then a script re-opens each page and confirms the exact words are there. If it can't find them, the quote stays hidden until a person checks it. Our editor spot-checks the AI's picks.</li>
+      </ol>
+      <p class="small">Think we picked an unfair quote? <a href="/corrections/">Tell us</a> and we'll look again.</p>
+    </section>
+
+    <section class="card" aria-labelledby="done-h">
+      <h2 id="done-h"><Icon name="Flag" />Races researched so far: {published.length} of {db.races.length}</h2>
+      {published.length ? (
+        <ul class="done">{published.map((r) => <li><a href={`/races/${r.id}/compare/`}>{r.name}</a> · <a class="small" href={`/races/${r.id}/quiz/`}>quiz</a></li>)}</ul>
+      ) : <p class="text-2">None yet. The first races are being researched now.</p>}
+      <p class="small muted">Order: Virginia first, then the closest Senate races, then House toss-ups, then the rest.</p>
+    </section>
+
+    <form class="card form" id="suggest" name="issue-suggestions" method="POST" action="/issues/thanks/" data-netlify="true" netlify-honeypot="company" aria-labelledby="suggest-h">
+      <h2 id="suggest-h"><Icon name="MessageSquarePlus" />Suggest an issue</h2>
+      <p class="small text-2">What should we track next? We read every suggestion.</p>
+      <input type="hidden" name="form-name" value="issue-suggestions" />
+      <p class="visually-hidden"><label>Leave this empty: <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+      <label for="issue">Issue</label>
+      <input id="issue" name="issue" type="text" required maxlength="120" />
+      <label for="why">Why it matters to you <span class="muted">(optional)</span></label>
+      <textarea id="why" name="why" rows="3" maxlength="1000"></textarea>
+      <button class="btn" type="submit">Send suggestion</button>
+    </form>
+
+    <SourceList ids={sourceIds} />
+  </div>
+</Layout>
+
+<style>
+  .grid { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--gap); grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .issue p { margin: 6px 0; }
+  .why { padding-left: 1.1em; margin: 6px 0 0; }
+  .why li { margin: 4px 0; }
+  details summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; color: var(--text-2); }
+  .rules { padding-left: 1.2em; }
+  .rules li { margin: 8px 0; line-height: 1.5; }
+  .done { padding-left: 1.1em; }
+  .form { display: grid; gap: 6px; }
+  .form label { font-weight: 600; font-size: 0.9rem; margin-top: 8px; }
+  .form input, .form textarea { font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); padding: 10px 12px; min-height: 44px; }
+  .form .btn { margin-top: 12px; justify-self: start; }
+</style>

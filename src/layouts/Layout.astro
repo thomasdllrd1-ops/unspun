@@ -39,6 +39,7 @@ const nav = [
   { href: '/senate/', label: 'Senate', icon: 'Map' },
   { href: '/house/', label: 'House', icon: 'Landmark' },
   { href: '/virginia/', label: 'Virginia', icon: 'MapPin' },
+  { href: '/issues/', label: 'Issues', icon: 'Flag' },
   { href: '/how-to-vote/virginia/', label: 'Vote', icon: 'Vote' },
   { href: '/show-our-work/', label: 'Our work', icon: 'BookOpenCheck' },
 ] as const;
@@ -156,7 +157,7 @@ const nav = [
     .bar nav { display: none; }
     .theme-toggle { margin-left: auto; }
     .site-header { position: static; }
-    .tabbar { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--board); border-top: 1px solid rgba(255,255,255,.12); padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); }
+    .tabbar { display: grid; grid-template-columns: repeat(6, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--board); border-top: 1px solid rgba(255,255,255,.12); padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); }
     .tabbar a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 2px; min-height: 48px; color: #aeb5be; text-decoration: none; font-family: var(--font-display); font-weight: 700; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
     .tabbar a :global(.icon) { width: 22px; height: 22px; }
     .tabbar a[aria-current='page'] { color: var(--accent); }

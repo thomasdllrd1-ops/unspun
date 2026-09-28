@@ -1,0 +1,39 @@
+---
+/** One candidate's words on one issue, word for word, with where it came from. Same card for everyone. */
+import EvidenceTag from './EvidenceTag.astro';
+import Pending from './Pending.astro';
+import Source from './Source.astro';
+import type { Stance } from '../lib/schema';
+import { date } from '../lib/format';
+import { sourceById } from '../lib/data';
+
+interface Props { stance: Stance; lookedAt: string[]; showTag?: boolean }
+const { stance: s, lookedAt, showTag = true } = Astro.props;
+const checkedText =
+  s.checked_by === 'script' ? `A script found these exact words on the page on ${date(s.checked_on)}.`
+  : s.checked_by === 'ai' ? `Checked by an AI assistant on ${date(s.checked_on)}.`
+  : s.checked_by ? `Checked by ${s.checked_by} on ${date(s.checked_on)}.` : '';
+---
+<div class="stance">
+  {(showTag || s.status !== 'verified') && <div class="row">{showTag && <EvidenceTag evidence={s.evidence} />}{s.status !== 'verified' && <Pending />}</div>}
+  {s.evidence === 'no-position' ? (
+    <p class="text-2 none">We didn't find a position on this. {lookedAt.every((id) => sourceById(id).type === 'campaign') ? 'We checked these pages on their campaign website' : 'We checked'}: {lookedAt.map((id, i) => <>{i > 0 && ', '}<Source id={id} label={sourceById(id).title} /></>)}. <span class="small muted">{checkedText}</span></p>
+  ) : (
+    <>
+      <blockquote>
+        {s.heading && <div class="qh">{s.heading}</div>}
+        <p>“{s.quote}”</p>
+      </blockquote>
+      <p class="small muted">Word for word from <Source id={s.source!} />{s.said_on && <>, {date(s.said_on)}</>}. {checkedText}</p>
+    </>
+  )}
+  {s.note && <p class="small text-2">{s.note}</p>}
+</div>
+
+<style>
+  .stance { display: grid; gap: 6px; }
+  blockquote { margin: 0; border-left: 3px solid var(--border-strong); padding: 2px 0 2px 12px; }
+  blockquote p { margin: 0; line-height: 1.5; }
+  .qh { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 700; font-size: 0.85rem; color: var(--muted); margin-bottom: 2px; }
+  .none { margin: 0; }
+</style>

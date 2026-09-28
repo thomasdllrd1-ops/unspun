@@ -1,0 +1,221 @@
+{
+  "race": "va-sen",
+  "candidates": [
+    {
+      "candidate": "bert-mizusawa",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "mizusawa-site-issues",
+        "mizusawa-site-about",
+        "mizusawa-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Fiscal Responsibility",
+          "quote": "In the Senate, I will focus on balancing the budget to protect future generations from financial ruin.",
+          "source": "mizusawa-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "Affordability",
+          "quote": "In the Senate, I will lower the tax on selling your home, lower the tax burden on Virginia families, and help bring down the cost of living.",
+          "source": "mizusawa-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "Defending Our Military",
+          "quote": "I will protect veterans' benefits, expand access to quality healthcare, and ensure veterans aren't stuck waiting on Washington for the care they earned.",
+          "source": "mizusawa-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Affordability",
+          "quote": "In the Senate, I will lower the tax on selling your home, lower the tax burden on Virginia families, and help bring down the cost of living.",
+          "said_on": "",
+          "source": "mizusawa-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Affordability",
+          "quote": "In the Senate, I will lower the tax on selling your home, lower the tax burden on Virginia families, and help bring down the cost of living.",
+          "said_on": "",
+          "source": "mizusawa-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": "The same sentence is quoted for cost of living & jobs. It is the only passage on the site about housing."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lower Healthcare Costs",
+          "quote": "In Washington, I will lower healthcare costs for Virginians. That starts with holding insurance companies accountable and funding for rural hospitals, funding that Mark Warner refused to support.",
+          "said_on": "",
+          "source": "mizusawa-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site's \"Defending Our Military\" section is about veterans' benefits and care, which this issue doesn't cover."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "I support bringing new nuclear power on-line to slash the ever-increasing energy costs for American households.",
+          "said_on": "",
+          "source": "mizusawa-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "mark-warner",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "warner-site-plan",
+        "warner-site-about",
+        "warner-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lowering Costs",
+          "quote": "In the Senate, Mark’s plan is designed to expand housing supply and bring down costs by encouraging rehabilitation of existing structures, speeding up permitting, and making it easier for first-time homebuyers to obtain their first mortgage.",
+          "source": "warner-site-plan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "Universal Healthcare",
+          "quote": "He believes that the only way to lower premiums and keep the health care system sustainable is to ensure every American has access to an affordable basic standard of care.",
+          "source": "warner-site-plan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "Preparing for AI",
+          "quote": "Mark believes the AI companies and big corporations that stand to massively profit from this disruption must do their part, including preparing workers for the economy of the future and paying their fair share of the enormous energy demands AI will place on our grid.",
+          "source": "warner-site-plan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "The Problem",
+          "quote": "We need an economy that rewards work, not just wealth. That means a fairer tax code, affordable health care, and an innovation agenda that grows the middle class and ensures every worker has a fair shot to succeed.",
+          "said_on": "",
+          "source": "warner-site-plan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Lowering Costs",
+          "quote": "In the Senate, Mark’s plan is designed to expand housing supply and bring down costs by encouraging rehabilitation of existing structures, speeding up permitting, and making it easier for first-time homebuyers to obtain their first mortgage.",
+          "said_on": "",
+          "source": "warner-site-plan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Universal Healthcare",
+          "quote": "He believes that the only way to lower premiums and keep the health care system sustainable is to ensure every American has access to an affordable basic standard of care.",
+          "said_on": "",
+          "source": "warner-site-plan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Strengthening our edge over China",
+          "quote": "As the top Democrat on the Senate Intelligence Committee, Mark has led bipartisan efforts to counter the Chinese government’s technological and economic aggression – from securing supply chains to cracking down on foreign investments that threaten U.S. national security.",
+          "said_on": "",
+          "source": "warner-site-plan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Advanced manufacturing jobs",
+          "quote": "He has also championed clean-energy projects that are creating thousands of jobs and building a stronger, more competitive economy.",
+          "said_on": "",
+          "source": "warner-site-plan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
