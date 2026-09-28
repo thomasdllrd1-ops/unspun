@@ -53,8 +53,9 @@ const Tag = link ? 'a' : 'div';
     <div><dt>Games played</dt><dd class="score">{s.gamesPlayed}</dd></div>
     <div>
       <dt>Form</dt>
-      <dd class="form" aria-label={s.form.length ? `Last ${s.form.length} checked polls led by: ${s.form.map((f) => ({ dem: 'Democrat', rep: 'Republican', other: 'other candidate', tie: 'tie' })[f]).join(', ')}` : 'No checked polls yet'}>
-        {s.form.length ? s.form.map((f) => <i class={f}>{f === 'tie' ? '=' : ''}</i>) : <span class="muted">–</span>}
+      <dd class="form">
+        <span class="visually-hidden">{s.form.length ? `Last ${s.form.length} checked polls led by: ${s.form.map((f) => ({ dem: 'Democrat', rep: 'Republican', other: 'other candidate', tie: 'tie' })[f]).join(', ')}` : 'No checked polls yet'}</span>
+        {s.form.length ? s.form.map((f) => <i class={f} aria-hidden="true">{f === 'tie' ? '=' : ''}</i>) : <span class="muted" aria-hidden="true">–</span>}
       </dd>
     </div>
     <div>

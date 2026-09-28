@@ -90,7 +90,8 @@ const countdown = (iso: string) => {
   .dates li { display: grid; grid-template-columns: 130px 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
   .dates li:last-child { border-bottom: 0; }
   .dates li.key strong { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
-  .dates li.past { opacity: 0.55; }
+  .dates li.past .d, .dates li.past strong { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
+  .dates li.past p { color: var(--muted); }
   .dates .d { font-weight: 700; font-size: 0.9rem; }
   .dates p { margin: 4px 0 0; }
   .dates .chip { margin-left: 8px; }
