@@ -26,6 +26,8 @@ export const PartySchema = z.object({
   name: z.string(),
   abbr: z.string().max(2),
   color: z.enum(['dem', 'rep', 'other']),
+  /** Which major-party side this counts as for averages and "what if" (e.g. Minnesota's DFL = D). */
+  bloc: z.enum(['D', 'R']).optional(),
 });
 
 export const RaceSchema = z.object({
@@ -37,6 +39,9 @@ export const RaceSchema = z.object({
   short: z.string(),
   election_date: isoDate,
   source: sourceId,
+  /** A short, sourced note shown with the candidate list (e.g. known gaps in it). */
+  note: z.string().optional(),
+  note_source: sourceId.optional(),
   /** If the district was redrawn since the last election, a sentence saying so (past results are then hidden). */
   redistricted: z.string().optional(),
   redistricted_source: sourceId.optional(),
@@ -52,6 +57,8 @@ export const CandidateSchema = z.object({
   website: url.nullable(),
   fec_id: z.string().regex(/^[HSP]\d[A-Z]{2}\d{5}$/).nullable(),
   fec_checked: z.boolean().optional(), // true = we searched the FEC and found no record
+  party_lines: z.array(z.string()).optional(), // fusion voting (e.g. New York): every party line they appear on
+  note: z.string().optional(), // a short, sourced fact shown under the name
   source: sourceId,
 });
 
@@ -91,7 +98,7 @@ export const PollSchema = z.object({
   released: z.union([isoDate, z.literal('')]),
   source: sourceId,
   status,
-  checked_by: z.string(), // "script" = numbers found automatically in the source; "manual" or a name = a person checked
+  checked_by: z.string(), // "script" = found automatically; "ai" = an AI assistant read the source; anything else = the name of the person who checked
   checked_on: z.union([isoDate, z.literal('')]),
   notes: z.string(),
 })
@@ -220,7 +227,7 @@ const moneyNone = z.object({
 export const MoneySchema = z.object({
   fetched_at: z.string(),
   cycle: z.number(),
-  api_url: url,
+  api_url: z.string(),
   candidates: z.record(z.string(), z.union([moneyOk, moneyNone])),
 });
 

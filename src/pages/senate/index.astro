@@ -4,7 +4,7 @@ import SenateOverview, { type OverviewRace } from '../../islands/SenateOverview'
 import Term from '../../components/Term.astro';
 import Source from '../../components/Source.astro';
 import Limits from '../../components/Limits.astro';
-import { db, candidatesInRace, ratingsForRace, pollsForRace, resultsForPoll, lastChecked } from '../../lib/data';
+import { db, candidatesInRace, ratingsForRace, pollsForRace, resultsForPoll, majorPair, pendingRecentPolls, lastChecked } from '../../lib/data';
 import { consensus, ratingColor, ratingLabel } from '../../lib/ratings';
 import { pollingAverage, drMargin, missForState, type AvgPoll } from '../../lib/average';
 import { pollDate } from '../../lib/polls';
@@ -17,17 +17,15 @@ const races: OverviewRace[] = senate.map((race) => {
   const cands = candidatesInRace(race.id);
   const ratings = ratingsForRace(race.id);
   const cons = consensus(ratings);
-  const dems = cands.filter((c) => c.party === 'democratic');
-  const reps = cands.filter((c) => c.party === 'republican');
-  const dem = dems.length === 1 ? dems[0] : null;
-  const rep = reps.length === 1 ? reps[0] : null;
+  const { dem, rep } = majorPair(race.id);
   const ids = new Set(cands.map((c) => c.id));
   const polls: AvgPoll[] = pollsForRace(race.id).map((p) => ({
     id: p.id, pollster: p.pollster, sponsorType: p.sponsor_type, sponsorLean: p.sponsor_lean, population: p.population,
     sampleSize: p.sample_size, date: pollDate(p),
     shares: Object.fromEntries(resultsForPoll(p.id).filter((r) => ids.has(r.candidate)).map((r) => [r.candidate, r.pct])),
   }));
-  const avg = pollingAverage(polls, { today });
+  const held = pendingRecentPolls(race.id, new Date(today)).length;
+  const avg = held ? null : pollingAverage(polls, { today });
   const margin = avg ? drMargin(avg.shares, dem?.id ?? null, rep?.id ?? null) : null;
   return {
     state: race.state,
@@ -41,7 +39,7 @@ const races: OverviewRace[] = senate.map((race) => {
     pollCount: avg?.used.length ?? 0,
     demName: dem?.sort_name ?? null,
     repName: rep?.sort_name ?? null,
-    note: !dem || !rep ? (avg ? 'Not a Democrat-vs-Republican race' : null) : null,
+    note: held ? `On hold: ${held} poll${held === 1 ? '' : 's'} being checked` : !dem || !rep ? (avg ? 'Not a Democrat-vs-Republican race' : null) : null,
     misses: db.pollHistory.cycles.map((c) => missForState(c, race.state)),
   };
 });

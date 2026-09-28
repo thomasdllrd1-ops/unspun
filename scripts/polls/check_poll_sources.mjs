@@ -41,9 +41,11 @@ function nearby(text, name, value) {
   const lower = text.toLowerCase(); const ln = name.toLowerCase();
   let i = lower.indexOf(ln);
   while (i !== -1) {
-    const win = text.slice(Math.max(0, i - 300), i + ln.length + 300);
-    re.lastIndex = 0;
-    if (re.test(win)) return true;
+    // the number must come right after the name (tables, "Name ... 48%") or just before it ("48% Name")
+    const after = text.slice(i + ln.length, i + ln.length + 200);
+    const before = text.slice(Math.max(0, i - 30), i);
+    re.lastIndex = 0; if (re.test(after)) return true;
+    re.lastIndex = 0; if (re.test(before)) return true;
     i = lower.indexOf(ln, i + 1);
   }
   return false;

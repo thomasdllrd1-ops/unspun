@@ -99,6 +99,7 @@ function load() {
     needSource(`candidate ${c.id}`, c.source);
     if (!raceIds.has(c.race)) errors.push(`candidate ${c.id}: unknown race "${c.race}"`);
     if (!partyIds.has(c.party)) errors.push(`candidate ${c.id}: unknown party "${c.party}"`);
+    for (const pl of c.party_lines ?? []) if (!partyIds.has(pl)) errors.push(`candidate ${c.id}: unknown party line "${pl}"`);
     if (!(c.id in money.candidates)) errors.push(`candidate ${c.id}: missing from money/fec-totals.json (run npm run fetch:fec)`);
   }
   for (const r of races) {
@@ -167,6 +168,16 @@ export const sourceById = (id: string) => {
   return s;
 };
 export const partyById = (id: string) => db.parties.find((p) => p.id === id)!;
+
+/** The single Democratic-side and Republican-side candidate in a race (null if none or more than one). */
+export function majorPair(raceId: string) {
+  const inRace = db.candidates.filter((c) => c.race === raceId);
+  const one = (bloc: 'D' | 'R') => {
+    const xs = inRace.filter((c) => partyById(c.party).bloc === bloc);
+    return xs.length === 1 ? xs[0] : null;
+  };
+  return { dem: one('D'), rep: one('R') };
+}
 export const raceById = (id: string) => db.races.find((r) => r.id === id)!;
 
 /** Candidates in a race, always alphabetical by last name (never by party or poll standing). */
@@ -184,6 +195,19 @@ export const pollsForRace = (raceId: string): Poll[] =>
   db.polls
     .filter((p) => p.race === raceId && visible(p))
     .sort((a, b) => (b.field_end || b.released).localeCompare(a.field_end || a.released));
+
+/**
+ * Recent polls (last `days` days) in a race that nobody has checked yet. While any exist, we don't
+ * publish an average: which polls happen to be checked first would otherwise tilt the number.
+ */
+export const pendingRecentPolls = (raceId: string, today: Date, days = 60) =>
+  SHOW_PENDING
+    ? []
+    : db.polls.filter((p) => {
+        if (p.race !== raceId || p.status !== 'pending') return false;
+        const d = p.field_end || p.released;
+        return (today.getTime() - Date.parse(d)) / 86_400_000 <= days;
+      });
 
 export const resultsForPoll = (pollId: string) => db.pollResults.filter((r) => r.poll === pollId);
 export const pastResultsForRace = (raceId: string) => db.pastResults.filter((r) => r.race === raceId);

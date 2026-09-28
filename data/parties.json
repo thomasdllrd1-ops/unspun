@@ -1,7 +1,173 @@
 [
-  { "id": "democratic", "name": "Democratic", "abbr": "D", "color": "dem" },
-  { "id": "republican", "name": "Republican", "abbr": "R", "color": "rep" },
-  { "id": "libertarian", "name": "Libertarian", "abbr": "L", "color": "other" },
-  { "id": "green", "name": "Green", "abbr": "G", "color": "other" },
-  { "id": "independent", "name": "Independent", "abbr": "I", "color": "other" }
+  {
+    "id": "democratic",
+    "name": "Democratic",
+    "abbr": "D",
+    "color": "dem",
+    "bloc": "D"
+  },
+  {
+    "id": "republican",
+    "name": "Republican",
+    "abbr": "R",
+    "color": "rep",
+    "bloc": "R"
+  },
+  {
+    "id": "libertarian",
+    "name": "Libertarian",
+    "abbr": "L",
+    "color": "other"
+  },
+  {
+    "id": "green",
+    "name": "Green",
+    "abbr": "G",
+    "color": "other"
+  },
+  {
+    "id": "independent",
+    "name": "Independent",
+    "abbr": "I",
+    "color": "other"
+  },
+  {
+    "id": "forward",
+    "name": "Forward",
+    "abbr": "F",
+    "color": "other"
+  },
+  {
+    "id": "approval-voting",
+    "name": "Approval Voting",
+    "abbr": "A",
+    "color": "other"
+  },
+  {
+    "id": "unity",
+    "name": "Unity",
+    "abbr": "U",
+    "color": "other"
+  },
+  {
+    "id": "no-party-affiliation",
+    "name": "No Party Affiliation",
+    "abbr": "N",
+    "color": "other"
+  },
+  {
+    "id": "american-center",
+    "name": "American Center",
+    "abbr": "A",
+    "color": "other"
+  },
+  {
+    "id": "kentucky",
+    "name": "Kentucky Party",
+    "abbr": "K",
+    "color": "other"
+  },
+  {
+    "id": "party-for-socialism-and-liberation",
+    "name": "Party for Socialism and Liberation",
+    "abbr": "P",
+    "color": "other"
+  },
+  {
+    "id": "us-taxpayers",
+    "name": "U.S. Taxpayers",
+    "abbr": "U",
+    "color": "other"
+  },
+  {
+    "id": "natural-law",
+    "name": "Natural Law",
+    "abbr": "N",
+    "color": "other"
+  },
+  {
+    "id": "democratic-farmer-labor",
+    "name": "Democratic-Farmer-Labor",
+    "abbr": "D",
+    "color": "dem",
+    "bloc": "D"
+  },
+  {
+    "id": "legal-marijuana-now",
+    "name": "Legal Marijuana Now",
+    "abbr": "L",
+    "color": "other"
+  },
+  {
+    "id": "nebraska-working-people",
+    "name": "Nebraska Working People",
+    "abbr": "N",
+    "color": "other"
+  },
+  {
+    "id": "america-first",
+    "name": "America First",
+    "abbr": "A",
+    "color": "other"
+  },
+  {
+    "id": "by-petition",
+    "name": "By Petition",
+    "abbr": "B",
+    "color": "other"
+  },
+  {
+    "id": "constitution",
+    "name": "Constitution",
+    "abbr": "C",
+    "color": "other"
+  },
+  {
+    "id": "end-the-corruption",
+    "name": "End the Corruption!",
+    "abbr": "E",
+    "color": "other"
+  },
+  {
+    "id": "socialist-workers",
+    "name": "Socialist Workers",
+    "abbr": "S",
+    "color": "other"
+  },
+  {
+    "id": "other-party-candidate",
+    "name": "Other-party candidate",
+    "abbr": "O",
+    "color": "other"
+  },
+  {
+    "id": "working-families",
+    "name": "Working Families",
+    "abbr": "W",
+    "color": "other"
+  },
+  {
+    "id": "progressive",
+    "name": "Progressive",
+    "abbr": "P",
+    "color": "other"
+  },
+  {
+    "id": "pacific-green",
+    "name": "Pacific Green",
+    "abbr": "P",
+    "color": "other"
+  },
+  {
+    "id": "conservative",
+    "name": "Conservative",
+    "abbr": "C",
+    "color": "other"
+  },
+  {
+    "id": "working-class",
+    "name": "Working Class",
+    "abbr": "W",
+    "color": "other"
+  }
 ]

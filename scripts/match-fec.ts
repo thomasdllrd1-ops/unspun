@@ -38,8 +38,13 @@ for (const [raceId, cands] of Object.entries(byRace)) {
   const race = raceById.get(raceId)!;
   const fec = await fecCandidates(race);
   for (const c of cands!) {
-    const last = norm(c.sort_name.split(' ').at(-1)!);
-    const hits = fec.filter((f) => norm(f.name.split(',')[0]) === last);
+    // Compare the FEC last name with our full sort name ("Van Orden", "Trone Garriott") and with its last word.
+    const full = norm(c.sort_name);
+    const lastWord = norm(c.sort_name.split(' ').at(-1)!);
+    const hits = fec.filter((f) => {
+      const fl = norm(f.name.split(',')[0]);
+      return fl === full || fl === lastWord || fl.endsWith(full);
+    });
     if (hits.length === 1) {
       report.push(`MATCH  ${raceId} ${c.ballot_name} → ${hits[0].candidate_id} ${hits[0].name} (${hits[0].party})`);
       if (APPLY) { c.fec_id = hits[0].candidate_id; applied++; }

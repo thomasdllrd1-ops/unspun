@@ -29,7 +29,14 @@ const pendingRatings = db.ratings.filter((r) => r.status === 'pending').length;
         <li><strong>We research a race's candidates together</strong> and publish them at the same time, so one side is never filled in while the other is blank.</li>
         <li><strong>A person checks what a script can't.</strong> Some sites block automated tools. Anything we couldn't confirm straight from the original source waits for a person to check it, and it stays off the public site until then.</li>
         <li><strong>We don't track you.</strong> No ads, no tracking cookies, no analytics that follow you around.</li>
+        <li><strong>We say who checked what.</strong> Every poll says whether its numbers were found automatically by a script, checked by an AI assistant, or checked by a person.</li>
       </ol>
+    </section>
+
+    <section class="card" id="ai">
+      <h2>Built with an AI assistant</h2>
+      <p class="text-2">This site is built by a student with help from an AI assistant (Claude, made by Anthropic). The assistant wrote much of the code, gathered data from official sources (state election offices, the FEC, the House Clerk, the Census Bureau), and checked poll numbers against pollsters' releases.</p>
+      <p class="text-2">AI assistants can make mistakes, so we built guardrails. The site won't build if a fact has no source. Candidate names are copied from official state lists, not from memory. Anything checked only by the AI is labeled that way, and a person spot-checks a sample. If you find an error, <a href="/corrections/">tell us</a>. We fix it and log the correction publicly.</p>
     </section>
 
     <section class="card">
@@ -56,6 +63,7 @@ const pendingRatings = db.ratings.filter((r) => r.status === 'pending').length;
         <li>Each candidate's number is the weighted average of their share in the polls that asked about them.</li>
         <li>The range around the average is <strong>±{h.typical_miss} points</strong>: the typical <Term id="polling-miss">polling miss</Term> in the last four national elections. {h.typical_miss_note} <Source id={h.national_source} label="AAPOR" /> If that range includes a tie, we call the race a toss-up.</li>
         <li>We also say how much of each average comes from polls with a partisan sponsor, and from which side.</li>
+        <li><strong>No partial averages.</strong> If any poll from the last {DEFAULT_WINDOW_DAYS} days is still waiting to be checked against its source, the race's average is put on hold. Otherwise, whichever polls happened to get checked first could tilt the number.</li>
       </ol>
       <p class="small text-2">"Build your own average" toggles: remove campaign, party, and partisan-group polls (both sides at once); likely voters only; last {SHORT_WINDOW_DAYS} days only. The same code runs on the page and in our tests, so the numbers can't drift apart.</p>
       <p class="small text-2">What we don't do (yet): adjust for each pollster's lean (<Term id="house-effect">house effect</Term>), or weight pollsters by their grade. Both are judgment calls, and we'd rather show you the raw average than hide our choices inside it.</p>

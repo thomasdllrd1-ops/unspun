@@ -15,7 +15,7 @@ import SourceList from '../../components/SourceList.astro';
 import Limits from '../../components/Limits.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import AverageBuilder from '../../islands/AverageBuilder';
-import { db, candidatesInRace, ratingsForRace, pollsForRace, pastResultsForRace, resultsForPoll, partyById, sourceById, lastChecked } from '../../lib/data';
+import { db, candidatesInRace, ratingsForRace, pollsForRace, pastResultsForRace, resultsForPoll, partyById, sourceById, majorPair, pendingRecentPolls, lastChecked } from '../../lib/data';
 import { pollingAverage, missForState, type AvgPoll } from '../../lib/average';
 import { stateName } from '../../lib/states';
 import { ratingsHeadline } from '../../lib/ratings';
@@ -50,11 +50,9 @@ const avgPolls: AvgPoll[] = polls.map((p) => ({
   date: pollDate(p),
   shares: Object.fromEntries(resultsForPoll(p.id).filter((r) => candIds.has(r.candidate)).map((r) => [r.candidate, r.pct])),
 }));
-const baseAvg = pollingAverage(avgPolls, { today: todayIso });
-const onlyOne = (party: string) => {
-  const xs = candidates.filter((c) => c.party === party);
-  return xs.length === 1 ? xs[0].id : null;
-};
+const onHold = pendingRecentPolls(race.id, today);
+const baseAvg = onHold.length ? null : pollingAverage(avgPolls, { today: todayIso });
+const pair = majorPair(race.id);
 const history = db.pollHistory;
 const misses = history.cycles.map((c) => {
   const m = missForState(c, race.state);
@@ -97,6 +95,7 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
   <div class="stack">
     <section class="card" aria-labelledby="ballot">
       <h2 id="ballot">On the ballot ({candidates.length})</h2>
+      {race.note && <p class="small partisan-note">{race.note} {race.note_source && <Source id={race.note_source} />}</p>}
       <ul class="cands">
         {candidates.map((c) => (
           <li>
@@ -104,13 +103,18 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
               <a class="cname" href={`/candidates/${c.id}/`}>{c.ballot_name}</a>
               {c.incumbent && <span class="chip"><Term id="incumbent">Incumbent</Term></span>}
             </div>
+            {c.note && <div class="small text-2">{c.note}</div>}
             <div class="row small">
               <PartyTag party={c.party} />
+              {c.party_lines && c.party_lines.length > 1 && <span class="small muted">also on the {c.party_lines.slice(1).map((l) => partyById(l).name).join(', ')} line</span>}
               {c.website ? <a class="muted" href={c.website} target="_blank" rel="noopener nofollow">Campaign site ↗</a> : <span class="muted">No campaign website listed</span>}
             </div>
           </li>
         ))}
       </ul>
+      {candidates.some((c) => sourceById(c.source).type !== 'official') && sourceById(race.source).type === 'official' && (
+        <p class="small partisan-note">Not yet confirmed with {stateName(race.state)}'s official list: {candidates.filter((c) => sourceById(c.source).type !== 'official').map((c) => c.ballot_name).join(', ')} (from <Source id={candidates.find((c) => sourceById(c.source).type !== 'official')!.source} />).</p>
+      )}
       {sourceById(race.source).type === 'official' ? (
         <p class="small muted">Listed alphabetically by last name. Your real ballot may use a different order. Names as certified by the state: <Source id={race.source} />.</p>
       ) : (
@@ -135,8 +139,13 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
       </div>
       {baseAvg ? (
         <AverageBuilder client:visible today={todayIso} polls={avgPolls} candidates={avgCandidates}
-          demId={onlyOne('democratic')} repId={onlyOne('republican')} typicalMiss={history.typical_miss}
+          demId={pair.dem?.id ?? null} repId={pair.rep?.id ?? null} typicalMiss={history.typical_miss}
           misses={misses} stateName={stateName(race.state)} pollLabels={pollLabels} />
+      ) : onHold.length ? (
+        <div class="hold">
+          <p class="headline">Average on hold</p>
+          <p class="text-2">{plural(onHold.length, 'recent poll')} in this race {onHold.length === 1 ? 'is' : 'are'} still being checked against the original source. We don't publish an average until every recent poll is checked, because averaging only some of them could tilt the result. The checked polls are below.</p>
+        </div>
       ) : (
         <p class="headline">{pollHeadline}{polls.length > 0 && recent.length === 0 && ' So there\u2019s no polling average right now.'}</p>
       )}
@@ -182,4 +191,5 @@ const updated = [lastChecked(sourceIds), db.money.fetched_at.slice(0, 10)].sort(
   .cname { font-weight: 700; margin-right: 6px; }
   .between { justify-content: space-between; }
   .every { margin: 20px 0 10px; font-size: 1rem; }
+  .hold { border-left: 3px solid var(--warn-ink); padding-left: 12px; }
 </style>

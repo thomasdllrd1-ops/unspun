@@ -118,5 +118,537 @@
     "short": "VA-11",
     "election_date": "2026-11-03",
     "source": "va-elec-candidates-2026"
+  },
+  {
+    "id": "al-sen",
+    "state": "AL",
+    "chamber": "senate",
+    "district": null,
+    "name": "Alabama U.S. Senate",
+    "short": "AL Senate",
+    "election_date": "2026-11-03",
+    "source": "official-al-2026"
+  },
+  {
+    "id": "ak-sen",
+    "state": "AK",
+    "chamber": "senate",
+    "district": null,
+    "name": "Alaska U.S. Senate",
+    "short": "AK Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ak-2026"
+  },
+  {
+    "id": "ar-sen",
+    "state": "AR",
+    "chamber": "senate",
+    "district": null,
+    "name": "Arkansas U.S. Senate",
+    "short": "AR Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ar-2026"
+  },
+  {
+    "id": "co-sen",
+    "state": "CO",
+    "chamber": "senate",
+    "district": null,
+    "name": "Colorado U.S. Senate",
+    "short": "CO Senate",
+    "election_date": "2026-11-03",
+    "source": "official-co-2026"
+  },
+  {
+    "id": "de-sen",
+    "state": "DE",
+    "chamber": "senate",
+    "district": null,
+    "name": "Delaware U.S. Senate",
+    "short": "DE Senate",
+    "election_date": "2026-11-03",
+    "source": "official-de-2026"
+  },
+  {
+    "id": "fl-sen-special",
+    "state": "FL",
+    "chamber": "senate",
+    "district": null,
+    "name": "Florida U.S. Senate (special election)",
+    "short": "FL Senate special",
+    "election_date": "2026-11-03",
+    "source": "official-fl-2026"
+  },
+  {
+    "id": "ga-sen",
+    "state": "GA",
+    "chamber": "senate",
+    "district": null,
+    "name": "Georgia U.S. Senate",
+    "short": "GA Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ga-2026"
+  },
+  {
+    "id": "id-sen",
+    "state": "ID",
+    "chamber": "senate",
+    "district": null,
+    "name": "Idaho U.S. Senate",
+    "short": "ID Senate",
+    "election_date": "2026-11-03",
+    "source": "official-id-2026"
+  },
+  {
+    "id": "il-sen",
+    "state": "IL",
+    "chamber": "senate",
+    "district": null,
+    "name": "Illinois U.S. Senate",
+    "short": "IL Senate",
+    "election_date": "2026-11-03",
+    "source": "official-il-2026"
+  },
+  {
+    "id": "ia-sen",
+    "state": "IA",
+    "chamber": "senate",
+    "district": null,
+    "name": "Iowa U.S. Senate",
+    "short": "IA Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ia-2026"
+  },
+  {
+    "id": "ks-sen",
+    "state": "KS",
+    "chamber": "senate",
+    "district": null,
+    "name": "Kansas U.S. Senate",
+    "short": "KS Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ks-2026"
+  },
+  {
+    "id": "ky-sen",
+    "state": "KY",
+    "chamber": "senate",
+    "district": null,
+    "name": "Kentucky U.S. Senate",
+    "short": "KY Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ky-2026"
+  },
+  {
+    "id": "la-sen",
+    "state": "LA",
+    "chamber": "senate",
+    "district": null,
+    "name": "Louisiana U.S. Senate",
+    "short": "LA Senate",
+    "election_date": "2026-11-03",
+    "source": "official-la-2026"
+  },
+  {
+    "id": "me-sen",
+    "state": "ME",
+    "chamber": "senate",
+    "district": null,
+    "name": "Maine U.S. Senate",
+    "short": "ME Senate",
+    "election_date": "2026-11-03",
+    "source": "official-me-2026"
+  },
+  {
+    "id": "ma-sen",
+    "state": "MA",
+    "chamber": "senate",
+    "district": null,
+    "name": "Massachusetts U.S. Senate",
+    "short": "MA Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ma-2026"
+  },
+  {
+    "id": "mi-sen",
+    "state": "MI",
+    "chamber": "senate",
+    "district": null,
+    "name": "Michigan U.S. Senate",
+    "short": "MI Senate",
+    "election_date": "2026-11-03",
+    "source": "official-mi-2026"
+  },
+  {
+    "id": "mn-sen",
+    "state": "MN",
+    "chamber": "senate",
+    "district": null,
+    "name": "Minnesota U.S. Senate",
+    "short": "MN Senate",
+    "election_date": "2026-11-03",
+    "source": "official-mn-2026"
+  },
+  {
+    "id": "ms-sen",
+    "state": "MS",
+    "chamber": "senate",
+    "district": null,
+    "name": "Mississippi U.S. Senate",
+    "short": "MS Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ms-2026"
+  },
+  {
+    "id": "mt-sen",
+    "state": "MT",
+    "chamber": "senate",
+    "district": null,
+    "name": "Montana U.S. Senate",
+    "short": "MT Senate",
+    "election_date": "2026-11-03",
+    "source": "official-mt-2026"
+  },
+  {
+    "id": "ne-sen",
+    "state": "NE",
+    "chamber": "senate",
+    "district": null,
+    "name": "Nebraska U.S. Senate",
+    "short": "NE Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ne-2026"
+  },
+  {
+    "id": "nh-sen",
+    "state": "NH",
+    "chamber": "senate",
+    "district": null,
+    "name": "New Hampshire U.S. Senate",
+    "short": "NH Senate",
+    "election_date": "2026-11-03",
+    "source": "wikipedia-senate-2026",
+    "note": "This list may be incomplete. A Rasmussen Reports poll release says four independents are also on the ballot: Aaron Day, Tim Harris, Christine Lopez and Jeanne Logan Morrow. We're confirming the full ballot with New Hampshire's official list.",
+    "note_source": "poll-3c3699ec83"
+  },
+  {
+    "id": "nj-sen",
+    "state": "NJ",
+    "chamber": "senate",
+    "district": null,
+    "name": "New Jersey U.S. Senate",
+    "short": "NJ Senate",
+    "election_date": "2026-11-03",
+    "source": "official-nj-2026"
+  },
+  {
+    "id": "nm-sen",
+    "state": "NM",
+    "chamber": "senate",
+    "district": null,
+    "name": "New Mexico U.S. Senate",
+    "short": "NM Senate",
+    "election_date": "2026-11-03",
+    "source": "official-nm-2026"
+  },
+  {
+    "id": "nc-sen",
+    "state": "NC",
+    "chamber": "senate",
+    "district": null,
+    "name": "North Carolina U.S. Senate",
+    "short": "NC Senate",
+    "election_date": "2026-11-03",
+    "source": "official-nc-2026"
+  },
+  {
+    "id": "oh-sen-special",
+    "state": "OH",
+    "chamber": "senate",
+    "district": null,
+    "name": "Ohio U.S. Senate (special election)",
+    "short": "OH Senate special",
+    "election_date": "2026-11-03",
+    "source": "official-oh-2026"
+  },
+  {
+    "id": "ok-sen",
+    "state": "OK",
+    "chamber": "senate",
+    "district": null,
+    "name": "Oklahoma U.S. Senate",
+    "short": "OK Senate",
+    "election_date": "2026-11-03",
+    "source": "official-ok-2026"
+  },
+  {
+    "id": "or-sen",
+    "state": "OR",
+    "chamber": "senate",
+    "district": null,
+    "name": "Oregon U.S. Senate",
+    "short": "OR Senate",
+    "election_date": "2026-11-03",
+    "source": "official-or-2026"
+  },
+  {
+    "id": "ri-sen",
+    "state": "RI",
+    "chamber": "senate",
+    "district": null,
+    "name": "Rhode Island U.S. Senate",
+    "short": "RI Senate",
+    "election_date": "2026-11-03",
+    "source": "wikipedia-senate-2026"
+  },
+  {
+    "id": "sc-sen",
+    "state": "SC",
+    "chamber": "senate",
+    "district": null,
+    "name": "South Carolina U.S. Senate",
+    "short": "SC Senate",
+    "election_date": "2026-11-03",
+    "source": "official-sc-2026"
+  },
+  {
+    "id": "sd-sen",
+    "state": "SD",
+    "chamber": "senate",
+    "district": null,
+    "name": "South Dakota U.S. Senate",
+    "short": "SD Senate",
+    "election_date": "2026-11-03",
+    "source": "official-sd-2026"
+  },
+  {
+    "id": "tn-sen",
+    "state": "TN",
+    "chamber": "senate",
+    "district": null,
+    "name": "Tennessee U.S. Senate",
+    "short": "TN Senate",
+    "election_date": "2026-11-03",
+    "source": "official-tn-2026"
+  },
+  {
+    "id": "tx-sen",
+    "state": "TX",
+    "chamber": "senate",
+    "district": null,
+    "name": "Texas U.S. Senate",
+    "short": "TX Senate",
+    "election_date": "2026-11-03",
+    "source": "official-tx-2026"
+  },
+  {
+    "id": "wv-sen",
+    "state": "WV",
+    "chamber": "senate",
+    "district": null,
+    "name": "West Virginia U.S. Senate",
+    "short": "WV Senate",
+    "election_date": "2026-11-03",
+    "source": "official-wv-2026"
+  },
+  {
+    "id": "wy-sen",
+    "state": "WY",
+    "chamber": "senate",
+    "district": null,
+    "name": "Wyoming U.S. Senate",
+    "short": "WY Senate",
+    "election_date": "2026-11-03",
+    "source": "official-wy-2026"
+  },
+  {
+    "id": "ny-17",
+    "state": "NY",
+    "chamber": "house",
+    "district": 17,
+    "name": "New York's 17th District",
+    "short": "NY-17",
+    "election_date": "2026-11-03",
+    "source": "official-ny-2026"
+  },
+  {
+    "id": "wi-03",
+    "state": "WI",
+    "chamber": "house",
+    "district": 3,
+    "name": "Wisconsin's 3rd District",
+    "short": "WI-3",
+    "election_date": "2026-11-03",
+    "source": "official-wi-2026"
+  },
+  {
+    "id": "az-01",
+    "state": "AZ",
+    "chamber": "house",
+    "district": 1,
+    "name": "Arizona's 1st District",
+    "short": "AZ-1",
+    "election_date": "2026-11-03",
+    "source": "wikipedia-house-2026"
+  },
+  {
+    "id": "ia-01",
+    "state": "IA",
+    "chamber": "house",
+    "district": 1,
+    "name": "Iowa's 1st District",
+    "short": "IA-1",
+    "election_date": "2026-11-03",
+    "source": "official-ia-2026"
+  },
+  {
+    "id": "az-06",
+    "state": "AZ",
+    "chamber": "house",
+    "district": 6,
+    "name": "Arizona's 6th District",
+    "short": "AZ-6",
+    "election_date": "2026-11-03",
+    "source": "wikipedia-house-2026"
+  },
+  {
+    "id": "co-08",
+    "state": "CO",
+    "chamber": "house",
+    "district": 8,
+    "name": "Colorado's 8th District",
+    "short": "CO-8",
+    "election_date": "2026-11-03",
+    "source": "official-co-2026"
+  },
+  {
+    "id": "mi-07",
+    "state": "MI",
+    "chamber": "house",
+    "district": 7,
+    "name": "Michigan's 7th District",
+    "short": "MI-7",
+    "election_date": "2026-11-03",
+    "source": "official-mi-2026"
+  },
+  {
+    "id": "pa-10",
+    "state": "PA",
+    "chamber": "house",
+    "district": 10,
+    "name": "Pennsylvania's 10th District",
+    "short": "PA-10",
+    "election_date": "2026-11-03",
+    "source": "official-pa-2026"
+  },
+  {
+    "id": "ia-03",
+    "state": "IA",
+    "chamber": "house",
+    "district": 3,
+    "name": "Iowa's 3rd District",
+    "short": "IA-3",
+    "election_date": "2026-11-03",
+    "source": "official-ia-2026"
+  },
+  {
+    "id": "pa-07",
+    "state": "PA",
+    "chamber": "house",
+    "district": 7,
+    "name": "Pennsylvania's 7th District",
+    "short": "PA-7",
+    "election_date": "2026-11-03",
+    "source": "official-pa-2026"
+  },
+  {
+    "id": "pa-08",
+    "state": "PA",
+    "chamber": "house",
+    "district": 8,
+    "name": "Pennsylvania's 8th District",
+    "short": "PA-8",
+    "election_date": "2026-11-03",
+    "source": "official-pa-2026"
+  },
+  {
+    "id": "fl-25",
+    "state": "FL",
+    "chamber": "house",
+    "district": 25,
+    "name": "Florida's 25th District",
+    "short": "FL-25",
+    "election_date": "2026-11-03",
+    "source": "official-fl-2026",
+    "redistricted": "Florida adopted a new congressional map on April 29, 2026, so this district's lines changed and its 2024 result isn't comparable.",
+    "redistricted_source": "wikipedia-fl-house-2026"
+  },
+  {
+    "id": "tx-34",
+    "state": "TX",
+    "chamber": "house",
+    "district": 34,
+    "name": "Texas's 34th District",
+    "short": "TX-34",
+    "election_date": "2026-11-03",
+    "source": "official-tx-2026",
+    "redistricted": "Texas adopted a new congressional map in 2025, so this district's lines changed and its 2024 result isn't comparable.",
+    "redistricted_source": "wikipedia-tx-house-2026"
+  },
+  {
+    "id": "mi-10",
+    "state": "MI",
+    "chamber": "house",
+    "district": 10,
+    "name": "Michigan's 10th District",
+    "short": "MI-10",
+    "election_date": "2026-11-03",
+    "source": "official-mi-2026"
+  },
+  {
+    "id": "wa-03",
+    "state": "WA",
+    "chamber": "house",
+    "district": 3,
+    "name": "Washington's 3rd District",
+    "short": "WA-3",
+    "election_date": "2026-11-03",
+    "source": "official-wa-2026"
+  },
+  {
+    "id": "fl-14",
+    "state": "FL",
+    "chamber": "house",
+    "district": 14,
+    "name": "Florida's 14th District",
+    "short": "FL-14",
+    "election_date": "2026-11-03",
+    "source": "official-fl-2026",
+    "redistricted": "Florida adopted a new congressional map on April 29, 2026, so this district's lines changed and its 2024 result isn't comparable.",
+    "redistricted_source": "wikipedia-fl-house-2026"
+  },
+  {
+    "id": "oh-09",
+    "state": "OH",
+    "chamber": "house",
+    "district": 9,
+    "name": "Ohio's 9th District",
+    "short": "OH-9",
+    "election_date": "2026-11-03",
+    "source": "official-oh-2026",
+    "redistricted": "The Ohio Redistricting Commission adopted a new congressional map on October 31, 2025, so this district's lines changed and its 2024 result isn't comparable.",
+    "redistricted_source": "wikipedia-oh-house-2026"
+  },
+  {
+    "id": "oh-07",
+    "state": "OH",
+    "chamber": "house",
+    "district": 7,
+    "name": "Ohio's 7th District",
+    "short": "OH-7",
+    "election_date": "2026-11-03",
+    "source": "official-oh-2026",
+    "redistricted": "The Ohio Redistricting Commission adopted a new congressional map on October 31, 2025, so this district's lines changed and its 2024 result isn't comparable.",
+    "redistricted_source": "wikipedia-oh-house-2026"
   }
 ]

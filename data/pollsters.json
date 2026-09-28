@@ -38,5 +38,845 @@
     "track_record": null,
     "track_record_note": "",
     "fte_id": 409
+  },
+  {
+    "id": "stetson-university",
+    "name": "Stetson University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "insideradvantage",
+    "name": "InsiderAdvantage",
+    "url": null,
+    "fte_id": 243,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "st-pete-polls",
+    "name": "St. Pete Polls",
+    "url": null,
+    "fte_id": 314,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "quantus-insights",
+    "name": "Quantus Insights",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "change-research",
+    "name": "Change Research",
+    "url": null,
+    "fte_id": 48,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "university-of-north-florida",
+    "name": "University of North Florida",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "emerson-college",
+    "name": "Emerson College",
+    "url": null,
+    "fte_id": 88,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "trafalgar-group",
+    "name": "Trafalgar Group",
+    "url": null,
+    "fte_id": 338,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "bowling-green-state-university-yougov",
+    "name": "Bowling Green State University/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "abacus-data",
+    "name": "Abacus Data",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "wedgewood-polls",
+    "name": "Wedgewood Polls",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "beacon-research-d-shaw-co-research",
+    "name": "Beacon Research (D)/ Shaw & Co. Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "new-york-times-siena-university",
+    "name": "New York Times/Siena University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "fabrizio-ward-r-impact-research",
+    "name": "Fabrizio Ward (R) / Impact Research (D)",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "echelon-insights",
+    "name": "Echelon Insights",
+    "url": null,
+    "fte_id": 407,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "onmessage-public-strategies",
+    "name": "OnMessage Public Strategies",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "emc-research",
+    "name": "EMC Research",
+    "url": null,
+    "fte_id": 130,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "hart-research",
+    "name": "Hart Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "yes-every-kid",
+    "name": "yes. every kid.",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "data-for-progress",
+    "name": "Data for Progress",
+    "url": null,
+    "fte_id": 522,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "j-l-partners",
+    "name": "J.L. Partners",
+    "url": null,
+    "fte_id": 619,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "hendrix-college",
+    "name": "Hendrix College",
+    "url": null,
+    "fte_id": 138,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "2040-strategy-group",
+    "name": "2040 Strategy Group",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "grayhouse",
+    "name": "GrayHouse",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "yougov",
+    "name": "YouGov",
+    "url": null,
+    "fte_id": 391,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "rasmussen-reports",
+    "name": "Rasmussen Reports",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "wick",
+    "name": "Wick",
+    "url": null,
+    "fte_id": 284,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "tipp-insights",
+    "name": "TIPP Insights",
+    "url": null,
+    "fte_id": 144,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "cygnal",
+    "name": "Cygnal",
+    "url": null,
+    "fte_id": 67,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "wpa-intelligence",
+    "name": "WPA Intelligence",
+    "url": null,
+    "fte_id": 383,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "advanced-targeting-research",
+    "name": "Advanced Targeting Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "the-bullfinch-group",
+    "name": "The Bullfinch Group",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "marist-college",
+    "name": "Marist College",
+    "url": null,
+    "fte_id": 183,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "global-strategy-group",
+    "name": "Global Strategy Group",
+    "url": null,
+    "fte_id": 118,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "suffolk-university",
+    "name": "Suffolk University",
+    "url": null,
+    "fte_id": 323,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "gqr",
+    "name": "GQR",
+    "url": null,
+    "fte_id": 126,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "co-efficient",
+    "name": "co/efficient",
+    "url": null,
+    "fte_id": 514,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "gbao",
+    "name": "GBAO",
+    "url": null,
+    "fte_id": 109,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "tavern-research",
+    "name": "Tavern Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "hart-research-associates",
+    "name": "Hart Research Associates",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "university-of-new-hampshire",
+    "name": "University of New Hampshire",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "university-of-massachusetts-yougov",
+    "name": "University of Massachusetts/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "ssrs",
+    "name": "SSRS",
+    "url": null,
+    "fte_id": 297,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "z-to-a-research",
+    "name": "Z to A Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "umass-amherst-yougov",
+    "name": "UMass Amherst/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "surveyusa",
+    "name": "SurveyUSA",
+    "url": null,
+    "fte_id": 325,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "the-washington-post-sspg",
+    "name": "The Washington Post/SSPG",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "glengariff-group",
+    "name": "Glengariff Group",
+    "url": null,
+    "fte_id": 117,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "epic-mra",
+    "name": "EPIC-MRA",
+    "url": null,
+    "fte_id": 84,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "michigan-state-university-yougov",
+    "name": "Michigan State University/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "susquehanna-polling-research",
+    "name": "Susquehanna Polling & Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "socal-strategies",
+    "name": "SoCal Strategies",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "mitchell-research-communications",
+    "name": "Mitchell Research & Communications",
+    "url": null,
+    "fte_id": 213,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "zenith-research",
+    "name": "Zenith Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "mitchell-research",
+    "name": "Mitchell Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "rosetta-stone-communications",
+    "name": "Rosetta Stone Communications",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "kstp-surveyusa",
+    "name": "KSTP/SurveyUSA",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "ktsp-surveyusa",
+    "name": "KTSP/SurveyUSA",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "impact-research",
+    "name": "Impact Research",
+    "url": null,
+    "fte_id": 14,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "aspect-strategic",
+    "name": "Aspect Strategic",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "rutgers-university-eagleton-institute-of",
+    "name": "Rutgers University Eagleton Institute of Politics",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "peak-insights",
+    "name": "Peak Insights",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "public-opinion-strategies",
+    "name": "Public Opinion Strategies",
+    "url": null,
+    "fte_id": 260,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "lake-research-partners",
+    "name": "Lake Research Partners",
+    "url": null,
+    "fte_id": 165,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "fabrizio-lee-associates",
+    "name": "Fabrizio, Lee, & Associates",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "saint-anselm-college",
+    "name": "Saint Anselm College",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "nhjournal-praecones-analytica",
+    "name": "NHJournal/Praecones Analytica",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "guidant-polling-and-strategy",
+    "name": "Guidant Polling and Strategy",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "1892-polling",
+    "name": "1892 Polling",
+    "url": null,
+    "fte_id": 461,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "research-polling-inc",
+    "name": "Research & Polling Inc.",
+    "url": null,
+    "fte_id": 280,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "high-point-university",
+    "name": "High Point University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "harper-polling",
+    "name": "Harper Polling",
+    "url": null,
+    "fte_id": 132,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "the-trafalgar-group",
+    "name": "The Trafalgar Group",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "east-carolina-university",
+    "name": "East Carolina University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "elon-university-yougov",
+    "name": "Elon University/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "high-point-university-yougov",
+    "name": "High Point University/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "catawba-college-yougov",
+    "name": "Catawba College/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "opinion-diagnostics",
+    "name": "Opinion Diagnostics",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "nexus-strategies-strategic-partners-solu",
+    "name": "Nexus Strategies/ Strategic Partners Solutions",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "victory-insights",
+    "name": "Victory Insights",
+    "url": null,
+    "fte_id": 673,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "chs-associates",
+    "name": "CHS & Associates",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "targoz-market-research",
+    "name": "Targoz Market Research",
+    "url": null,
+    "fte_id": 454,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "marist-university",
+    "name": "Marist University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "texas-southern-university",
+    "name": "Texas Southern University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "reconmr-siena-university",
+    "name": "ReconMR/Siena University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "mason-dixon",
+    "name": "Mason-Dixon",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "univision-yougov",
+    "name": "Univision/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "overton-insights",
+    "name": "Overton Insights",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "texas-public-opinion-research",
+    "name": "Texas Public Opinion Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "university-of-texas-texas-politics-proje",
+    "name": "University of Texas/Texas Politics Project",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "yougov-blue",
+    "name": "YouGov Blue",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "texas-a-m-university-reconmr-siena-unive",
+    "name": "Texas A&M University/ReconMR/Siena University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "a2-insights",
+    "name": "A2 Insights",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "university-of-houston-yougov",
+    "name": "University of Houston/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "ragnar-research-partners",
+    "name": "Ragnar Research Partners",
+    "url": null,
+    "fte_id": 517,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "ut-tyler",
+    "name": "UT Tyler",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "mclaughlin-and-associates",
+    "name": "McLaughlin and Associates",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "beacon-insights",
+    "name": "Beacon Insights",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "the-bullfinch-group-independent-center",
+    "name": "The Bullfinch Group/Independent Center",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "fm3-research",
+    "name": "FM3 Research",
+    "url": null,
+    "fte_id": 91,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "bedrock-polling",
+    "name": "Bedrock Polling",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "mclaughlin-associates",
+    "name": "McLaughlin & Associates",
+    "url": null,
+    "fte_id": 203,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "franklin-marshall-college",
+    "name": "Franklin & Marshall College",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "normington-petts",
+    "name": "Normington Petts",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "public-policy-research-texas-southern-un",
+    "name": "Public Policy Research/Texas Southern University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
   }
 ]

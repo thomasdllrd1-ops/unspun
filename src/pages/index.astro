@@ -27,6 +27,20 @@ const tossups = db.races.filter((r) => r.chamber === 'house' && ratingsForRace(r
       <span class="small">Your voting plan →</span>
     </a>
 
+    <a class="card card-link" href="/senate/">
+      <div class="eyebrow">U.S. Senate · {db.races.filter((r) => r.chamber === 'senate').length} races</div>
+      <h2>Every Senate race on one map</h2>
+      <p class="text-2">What forecasters say, our polling average, and what happens if the polls miss the way they did in 2016, 2020, 2022, or 2024.</p>
+      <span class="small">Open the Senate map →</span>
+    </a>
+
+    <a class="card card-link" href="/house/">
+      <div class="eyebrow">U.S. House · 19 toss-ups</div>
+      <h2>The closest House races</h2>
+      <p class="text-2">Every district that at least two of three forecasters rate a toss-up, and exactly how we picked them.</p>
+      <span class="small">See the House races →</span>
+    </a>
+
     <a class="card card-link" href="/virginia/">
       <div class="eyebrow">Virginia · 12 races</div>
       <h2>Tap a district, see the race</h2>
@@ -58,7 +72,7 @@ const tossups = db.races.filter((r) => r.chamber === 'house' && ratingsForRace(r
       <a href="/show-our-work/">Read how we work →</a>
     </div>
 
-    <p class="small muted">New: every race page now has our polling average, a build-your-own average, and a "what if the polls are wrong?" tool. Coming next: every 2026 Senate race, 10 closely watched House races, and candidate positions in their own words.</p>
+    <p class="small muted">Coming next: candidate positions in their own words, where the money comes from, and a "Who matches me?" quiz.</p>
   </div>
 </Layout>
 

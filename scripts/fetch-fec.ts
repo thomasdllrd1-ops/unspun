@@ -20,23 +20,25 @@ const API = 'https://api.open.fec.gov/v1';
 const KEY = process.env.FEC_API_KEY || 'DEMO_KEY';
 const CYCLE = 2026;
 
-type Candidate = { id: string; race: string; ballot_name: string; fec_id: string | null };
+type Candidate = { id: string; race: string; ballot_name: string; fec_id: string | null; fec_checked?: boolean };
 const candidates: Candidate[] = JSON.parse(readFileSync('data/candidates.json', 'utf8'));
 
-const withIds = candidates.filter((c) => c.fec_id);
-const params = new URLSearchParams({
-  election_year: String(CYCLE),
-  election_full: 'true',
-  per_page: '100',
-});
-for (const c of withIds) params.append('candidate_id', c.fec_id!);
-
-const publicUrl = `${API}/candidates/totals/?${params}`; // saved without the key
-const res = await fetch(`${publicUrl}&api_key=${KEY}`);
-if (!res.ok) throw new Error(`FEC API error ${res.status}: ${await res.text()}`);
-const body = (await res.json()) as { results: Record<string, unknown>[] };
-
-const byFecId = new Map(body.results.map((r) => [r.candidate_id as string, r]));
+const withIds = [...new Set(candidates.flatMap((c) => (c.fec_id ? [c.fec_id] : [])))];
+const publicUrl = `${API}/candidates/totals/?election_year=${CYCLE}&election_full=true&candidate_id=…`; // saved without the key
+const all: Record<string, unknown>[] = [];
+// Ask for 50 candidates at a time (keeps URLs short), following every page.
+for (let i = 0; i < withIds.length; i += 50) {
+  for (let page = 1; ; page++) {
+    const params = new URLSearchParams({ election_year: String(CYCLE), election_full: 'true', per_page: '100', page: String(page), api_key: KEY });
+    for (const id of withIds.slice(i, i + 50)) params.append('candidate_id', id);
+    const res = await fetch(`${API}/candidates/totals/?${params}`);
+    if (!res.ok) throw new Error(`FEC API error ${res.status}: ${await res.text()}`);
+    const body = (await res.json()) as { results: Record<string, unknown>[]; pagination: { pages: number } };
+    all.push(...body.results);
+    if (page >= body.pagination.pages) break;
+  }
+}
+const byFecId = new Map(all.map((r) => [r.candidate_id as string, r]));
 // The FEC sends some amounts as numbers and some as text (e.g. "16114725.24").
 const num = (v: unknown) => {
   const n = typeof v === 'string' ? Number(v) : v;

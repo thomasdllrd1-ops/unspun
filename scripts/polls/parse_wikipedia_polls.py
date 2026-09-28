@@ -8,7 +8,7 @@ def strip_refs(s):
 
 def clean(s):
     s = strip_refs(s)
-    s = re.sub(r'\{\{efn[^{}]*(\{\{[^{}]*\}\}[^{}]*)*\}\}', '', s)
+    s = re.sub(r'(?i)\{\{efn[^{}]*(\{\{[^{}]*\}\}[^{}]*)*\}\}', '', s)
     s = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]', r'\1', s)
     s = re.sub(r'\{\{(?:party shading|Party shading)[^}]*\}\}\|?', '', s)
     s = re.sub(r'\{\{nowrap\|([^}]*)\}\}', r'\1', s)
@@ -38,7 +38,7 @@ def ref_urls(cell, refs):
     return [u for u in urls if u]
 
 def efn_text(cell):
-    m = re.search(r'\{\{efn(?:-ua)?\|(?:name=[^|}]*\|)?([^{}]*(?:\{\{[^{}]*\}\}[^{}]*)*)\}\}', cell)
+    m = re.search(r'(?i)\{\{efn(?:-ua)?\|(?:name=[^|}]*\|)?([^{}]*(?:\{\{[^{}]*\}\}[^{}]*)*)\}\}', cell)
     return clean(m.group(1)) if m else ''
 
 def parse_table(tbl, refs):
@@ -65,10 +65,25 @@ def parse_table(tbl, refs):
         if not pollster or pollster.lower().startswith('poll source'): continue
         # Continuation rows: another version of the previous poll (e.g. RV after LV), or
         # ranked-choice rounds (Alaska/Maine) — they don't start with a pollster name.
-        if re.match(r'^[\d,]+\s*\((LV|RV|A|V)\)$', pollster) or re.match(r'^\d{1,2}$', pollster) or re.match(r'^(Round|First|Final)\b', pollster, re.I):
+        if re.match(r'^[\d,]*\s*\((LV|RV|A|V)\)$', pollster) and polls:
+            # another version of the previous poll (e.g. registered vs likely voters)
+            cells = [strip_refs(re.sub(r'(?i)\{\{efn(?:-ua)?\|[^{}]*(?:\{\{[^{}]*\}\}[^{}]*)*\}\}', '', c)) for c in cells]
+            rest = [clean(re.sub(r'^\s*((?:rowspan|colspan|style|data-sort-value)\s*=\s*"?[^|"]*"?\s*)+\|', '', c).split('|')[-1]) for c in cells[1:]]
+            prev = polls[-1]
+            ncols = len(prev['cols'])
+            moe_v, pcts = (rest[0], rest[1:1 + ncols]) if len(rest) >= ncols + 1 else (prev['moe'], rest[:ncols])
+            prev.setdefault('versions', []).append({'sample': pollster, 'moe': moe_v, 'pcts': pcts})
+            continue
+        if re.match(r'^\d{1,2}$', pollster) or re.match(r'^(Round|First|Final)\b', pollster, re.I):
             if polls: polls[-1]['other_versions'] = polls[-1].get('other_versions', 0) + 1
             continue
-        vals = [clean(c.split('|')[-1]) if c.count('|') and ('shading' in c or 'style' in c.split('|')[0]) else clean(c) for c in cells[1:]]
+        def val(c):
+            # drop footnotes/refs first: their text contains "|" and would be mistaken for the value
+            c = re.sub(r'(?i)\{\{efn(?:-ua)?\|[^{}]*(?:\{\{[^{}]*\}\}[^{}]*)*\}\}', '', c)
+            c = strip_refs(c)
+            c = re.sub(r'^\s*((?:rowspan|colspan|style|data-sort-value|class)\s*=\s*"?[^|"]*"?\s*)+\|', '', c)
+            return clean(c.split('|')[-1]) if c.count('|') and ('shading' in c or 'style' in c.split('|')[0]) else clean(c)
+        vals = [val(c) for c in cells[1:]]
         dates, sample, moe = vals[0], vals[1], vals[2]
         pct = vals[3:3 + len(cols)]
         polls.append({
@@ -76,6 +91,14 @@ def parse_table(tbl, refs):
             'sponsor_note': efn_text(cells[0]), 'dates': dates, 'sample': sample, 'moe': moe,
             'cols': cols, 'pcts': pct, 'urls': ref_urls(cells[0], refs),
         })
+    for p in polls:
+        vs = p.get('versions', [])
+        if vs and '(LV)' not in p['sample']:
+            lv = next((v for v in vs if '(LV)' in v['sample']), None)
+            if lv:
+                vs.remove(lv); vs.append({'sample': p['sample'], 'moe': p['moe'], 'pcts': p['pcts']})
+                p['sample'], p['moe'], p['pcts'] = lv['sample'], lv['moe'], lv['pcts']
+        p['other_versions'] = p.get('other_versions', 0) + len(vs)
     return polls
 
 out = {}
