@@ -2,68 +2,71 @@
 
 Everything here is either **hidden from the public site** until a person checks it, or **left blank** because we couldn't confirm it. Nothing on this list was guessed.
 
-When you finish an item, delete it from this file (git keeps the history).
+**Fastest way to work through it:** run `npm run dev`, open **http://localhost:4321/review/checklist/**, and use the `npm run verify` commands shown there. When you finish an item below, delete it (git keeps the history).
 
-_Last updated: Sep 24, 2026 (Phase 2)_
+_Last updated: Sep 28, 2026 (Phase 3 + scoreboard redesign)_
 
 ---
 
-## 1. Race ratings: 36 ratings waiting for your check (≈10 min)
+## Priority 1: Race ratings (192), about 20 minutes
 
-The forecasters' sites block automated tools, so these came from Wikipedia's cited tables. They're **hidden on the public site** until verified. Several Wikipedia "as of" dates for House races are from April/May 2026, so some may be out of date.
+The forecasters' sites block automated tools, so ratings came from Wikipedia's cited tables. **They're all hidden on the public site**, which is why every scoreboard says "Picks under review" and the Senate map's "Forecasters" view is blank.
 
-**How to check:**
-1. Open each page in your browser:
+1. Open the checklist page (above). Ratings are grouped by forecaster, with links:
    - Cook: [Senate](https://www.cookpolitical.com/ratings/senate-race-ratings) · [House](https://www.cookpolitical.com/ratings/house-race-ratings)
    - Inside Elections: [Senate](https://insideelections.com/ratings/senate) · [House](https://insideelections.com/ratings/house)
    - Sabato's Crystal Ball: [Senate](https://centerforpolitics.org/crystalball/2026-senate/) · [House](https://centerforpolitics.org/crystalball/2026-house/)
-2. For each Virginia row in `data/ratings.csv`, compare the `rating` column with what the site says. Use one of: `solid-d`, `likely-d`, `lean-d`, `tossup`, `lean-r`, `likely-r`, `solid-r` (Sabato's "Safe" = `solid`).
-3. If it matches, set `status` to `verified`, `verified_by` to `Thomas`, `verified_on` to today's date (`2026-09-25`). If the forecaster shows a date for the rating, put it in `as_of`.
-4. If it doesn't match, fix `rating` and `as_of` first, then mark it verified.
-5. Run `npm run validate`.
+2. If a forecaster's page matches every row: `npm run verify -- ratings cook` (or `inside`, `sabato`).
+3. If one row differs, fix that row in `data/ratings.csv` first (values: `solid-d`, `likely-d`, `lean-d`, `tilt-d`, `tossup`, `tilt-r`, `lean-r`, `likely-r`, `solid-r`; Sabato's "Safe" = `solid`), then verify.
+4. Run `npm run validate`, then tell Claude to publish.
 
-**Second opinion:** Wikipedia's national House ratings table (columns dated Cook Sep 11, Inside Elections Sep 17, Sabato Sep 22, 2026) shows the same ratings for VA-1, VA-2, VA-5 and VA-7. Other Virginia districts aren't in that table, which lists only seats at least one forecaster calls competitive.
+## Priority 2: Candidate lists we couldn't confirm (browser needed)
 
-## 2. Polls waiting for your check (2)
+These states' official sites block automated tools. The race page shows a "not confirmed" banner until you check.
 
-Both are **hidden on the public site**. Numbers came from Wikipedia. The original memos are on sites our tools can't open.
-
-| Poll | Open this | Confirm |
+| Race | Open this in your browser | What to check |
 |---|---|---|
-| `tulchin-2026-07-va-02` (Tulchin Research for House Majority PAC, VA-2) | [Memo on Politico](https://www.politico.com/f/?id=0000019f-918b-d49c-ad9f-9fbb88d00000) | Dates Jul 9–13, 2026 · 700 likely voters · margin of error (blank now) · method · Kiggans 47 / Luria 47 / undecided 6 |
-| `expedition-2026-08-va-05` (Expedition Strategies for Perriello campaign, VA-5) | [Google Drive memo](https://drive.google.com/file/d/1EkjffKo5q9TcJ4GLK9LS-00iPmeBhGS5/view) | Dates Jul 29–Aug 1, 2026 · 602 likely voters · ±3.99 · method · release date (blank now) · McGuire 47 / Perriello 44 / undecided 9 |
+| **New Hampshire Senate** | sos.nh.gov → 2026 general election candidates | Full ballot. A Rasmussen release lists 4 independents we don't have: Aaron Day, Tim Harris, Christine Lopez, Jeanne Logan Morrow. Our list is Pappas, Sununu, LaPlante. |
+| **Rhode Island Senate** | vote.sos.ri.gov → Candidates | Full ballot (we have Reed, McKay, Bahry from Wikipedia) |
+| **AZ-01 and AZ-06** | azsos.gov → 2026 general election candidates | Full ballots (from Wikipedia: AZ-01 Feely, Shah, Alponte; AZ-06 Ciscomani, Mendoza, Peters, Swing). Is AZ-01 an open seat? |
+| **Massachusetts Senate** | sec.state.ma.us → 2026 state election candidates | Confirm the two non-major candidates: Shiva Ayyadurai (Independent) and Joe Tache (Socialism and Liberation) |
+| **Mississippi Senate** | sos.ms.gov → Candidate Qualifying | Confirm Hyde-Smith, Colom, Pinkins are the full general-election ballot |
 
-Edit `data/polls/polls.csv` (and `poll_results.csv` if numbers differ), then set `status` to `verified`.
+To fix a list: tell Claude what the official page shows, and the source link will be switched to the official one.
 
-## 3. Poll details we left blank or flagged
+Other candidate notes:
+- **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
+- **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-- **TPSI June poll (`tpsi-2026-06-va-sen`)**: the release doesn't give field dates. Wikipedia says June 12–16, 2026. Left blank.
-- **TPSI May poll (`tpsi-2026-05-va-sen`)**: the release says "May 1–5, **2025**." We treat that as a typo for 2026 (it was published May 5, 2026 and asks about the 2026 race). The note on the site says so.
-- **"The Virginia Project"** (sponsor of the TPSI May poll): Wikipedia labels it Republican-aligned. The poll release doesn't say. Tagged "leaning not verified" until we find a source.
-- **PPP / House Majority PAC poll of VA-1 (`ppp-2025-08-va-01`)**: The Downballot confirms pollster, sponsor, dates, and 41–40. Wikipedia also lists 541 registered voters, ±4.2%, and 19% undecided. Those are unconfirmed and left blank.
-- **DCCC poll of VA-1 (`dccc-2026-09-va-01`)**: survey method isn't in the news report. The full memo isn't public.
+## Priority 3: Polls that need a human (50 recent polls, 22 races on hold)
 
-## 4. Facts still to source
+A race's average stays **on hold** until every poll from the last 60 days is checked, so these block the scoreboard for 22 races. The checklist page lists each one with its source link and the numbers to confirm. Most come from sites that block automated tools:
 
-- **VA-11 incumbent**: Gerald Connolly won in 2024, but the state lists James Walkinshaw as the incumbent. We need an official source (e.g. 2025 special election results) before adding a note explaining how the seat changed hands.
-- **Mail ballot deadline date**: the state says mailed ballots must arrive "by noon on the third day following the election." We show that as **Friday, Nov 6**. Worth confirming with an official source that states the calendar date.
+- **Google Drive** memos (9), **University of New Hampshire** PDFs (7), **DocumentCloud** (5), **New York Times** (3), **Politico** (2), **Change Research** (1)
+- **Abacus Data** (5 polls, one article): the numbers are in a chart. Also, the article says its likely-voter results total 1,507 people across the five states, but Wikipedia's per-state sizes add up to 1,594. Check the sample sizes in the chart.
+- **Quantus Insights, Maine** (Sep 14–15) didn't load for us. **Quantus, North Carolina (Sep 22)**: Wikipedia links it to a different pollster's page, so we couldn't find it.
+- **Hart Research (Louisiana)** and **Aspect Strategic (Montana)**: the only sources we found were social-media posts, not the pollster's release.
 
-## 5. FEC matches to double-check
+If a poll's numbers differ from what we have, fix `data/polls/poll_results.csv` before running `npm run verify -- poll <id>`.
 
-Candidates were matched to FEC records by name + district + party. These are the least certain:
-- **J. Matt Baker** (VA-2) → FEC `H6VA02263` "BAKER, MATTHEW"
-- **Makiba A. Gaines** (VA-3) → FEC `H6VA02248` (ID prefix says district 2, but FEC lists district 3)
-- **Dianne L. Blais** (VA-11) → FEC `H4VA10154` (ID from an earlier run in district 10)
-- **Taner E. Demirci Lopez** (VA-7) and **Shelly M. Arnoldi** (VA-8): no FEC registration found by name search. Site says so.
+## Priority 4: Spot-check the AI assistant's work
 
-## 6. Other checks
+About 40 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
 
-- **Campaign website links** were copied from the state's candidate list and haven't been checked to load. Two candidates list none (Geral Staten, Cooke Harvey).
-- **Glossary definitions** were written by us in plain English. Have someone who knows polling skim them, and we'll add "learn more" sources in Phase 5.
-- **Pollster track records**: FiveThirtyEight grades added (frozen Sep 2024). The Public Sentiment Institute has no grade there. Other raters (e.g. Silver Bulletin) may cover it, but check their terms first.
-- **2024 state polling errors**: typed in from the AAPOR report's Appendix I.2 (p. 71). AAPOR says a CSV will be posted on its task force GitHub. Swap it in when it's available.
-- **Map**: district shapes are simplified for speed. Labels for districts 2, 3, 8, and 11 were placed by hand.
+Also spot-check 3 candidate lists against the official links on their race pages (the helpers' work was spot-checked for NJ, ME, WY, TX and FL, and all matched).
+
+---
+
+## Smaller items
+
+- **VA-11 incumbent**: Gerald Connolly won in 2024; the state lists James Walkinshaw as incumbent. Needs an official source (2025 special election results) before we add a note.
+- **Mail ballot deadline**: shown as Friday, Nov 6 (the state says "noon on the third day following the election"). Worth confirming a calendar date from an official source.
+- **Redistricting notes** for TX-34, FL-14, FL-25, OH-07 and OH-09 cite Wikipedia. Swap in the official map adoption records (Texas Legislature, Florida Legislature, Ohio Redistricting Commission) when convenient.
+- **2024 state polling errors** were typed in from the AAPOR report (Appendix I.2, p. 71). AAPOR says a CSV will be posted. Swap it in when available.
+- **Campaign website links** are only filled in for Virginia so far (from the state list). Other states: Phase 4.
+- **Glossary**: plain-English definitions and "in sports terms" lines were written by us. Worth a skim.
+- **Pollster track records**: FiveThirtyEight grades (frozen Sep 2024). Several newer pollsters have none.
 
 ## Sites our tools couldn't read (so a person has to)
 
-Cook Political Report, Inside Elections, Sabato's Crystal Ball, VPAP, Virginia Mercury, Politico. We didn't try to get around these blocks.
+Cook Political Report, Inside Elections, Sabato's Crystal Ball, VPAP, Virginia Mercury, Politico, New York Times, University of New Hampshire PDFs, Google Drive, and official election sites for NH, RI, AZ, MA (candidate page), PA, NY, WI, GA, KS, AR, OH, TN. We didn't try to get around these blocks.
