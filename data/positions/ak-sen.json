@@ -1,0 +1,351 @@
+{
+  "race": "ak-sen",
+  "candidates": [
+    {
+      "candidate": "gerald-heikes",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-ak-2026"
+      ],
+      "priorities_note": "We couldn't find a campaign website. Alaska's official candidate list doesn't include one, and a web search on Sep 28, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "mary-peltola",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "mary-peltola-site-affordability",
+        "mary-peltola-site-fixing-system",
+        "mary-peltola-site-fish",
+        "mary-peltola-site-energy",
+        "mary-peltola-site-veterans",
+        "mary-peltola-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordability",
+          "quote": "Mary knows that refining more of our oil here in Alaska will lower fuel costs, create good-paying jobs, and help meet the increased need for military readiness in the Arctic, and she will push for targeted tax credits that encourage investment in Alaska refineries.",
+          "source": "mary-peltola-site-affordability",
+          "status": "pending",
+          "checked_by": "",
+          "checked_on": ""
+        },
+        {
+          "rank": 2,
+          "heading": "Fixing the Rigged System",
+          "quote": "Mary will fight for 12 year term limits in Congress, giving our representatives deadlines to deliver for Alaska.",
+          "source": "mary-peltola-site-fixing-system",
+          "status": "pending",
+          "checked_by": "",
+          "checked_on": ""
+        },
+        {
+          "rank": 3,
+          "heading": "Fighting for Alaska Fisheries",
+          "quote": "Mary will fight to ban factory trawling to protect our Alaska way of life.",
+          "source": "mary-peltola-site-fish",
+          "status": "pending",
+          "checked_by": "",
+          "checked_on": ""
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Affordability",
+          "quote": "Mary will push for real wage increases for Alaska workers by creating tax incentives for companies that pay fair wages and holding large corporations accountable for prioritizing multimillion-dollar executive bonuses before worker pay.",
+          "said_on": "",
+          "source": "mary-peltola-site-affordability",
+          "status": "pending",
+          "checked_by": "",
+          "checked_on": "",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site's veterans page covers housing for veterans, but the site doesn't say what she would do about housing in general."
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site's health care plans are for veterans, which this issue doesn't cover."
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Making Energy Affordable for Alaskans",
+          "quote": "In the U.S. Senate, she will fight to lower Alaskans’ energy costs by modernizing energy infrastructure, pushing through meaningful permitting reform, and working alongside local communities to ensure the benefits of Alaska resources stay in Alaska.",
+          "said_on": "",
+          "source": "mary-peltola-site-energy",
+          "status": "pending",
+          "checked_by": "",
+          "checked_on": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "dan-sullivan",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "dan-sullivan-site-home",
+        "dan-sullivan-site-meet-dan"
+      ],
+      "priorities_note": "His campaign website has no issues page or list of issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "From passing the biggest tax cut in American history and unleashing Alaska’s energy potential, to making historic investments in our military and national defense and strengthening Alaska’s healthcare system, Dan is running for re-election to continue delivering real results for Alaska.",
+          "said_on": "",
+          "source": "dan-sullivan-site-home",
+          "status": "pending",
+          "checked_by": "",
+          "checked_on": "",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "With a distinguished record in military and national security service, Dan is a leading voice on foreign policy and a strong national defense advocate.",
+          "said_on": "",
+          "source": "dan-sullivan-site-meet-dan",
+          "status": "pending",
+          "checked_by": "",
+          "checked_on": "",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "A relentless advocate for an all-of-the-above energy strategy and the good-paying jobs and high environmental standards that support it, Dan led the fight against the Biden Administration’s disastrous war on energy.",
+          "said_on": "",
+          "source": "dan-sullivan-site-meet-dan",
+          "status": "pending",
+          "checked_by": "",
+          "checked_on": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "daniel-sullivan",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-ak-2026"
+      ],
+      "priorities_note": "The website on Alaska's official candidate list (www.sullivanforsenate.com) didn't load when we checked on Sep 28, 2026, so we couldn't read his positions there.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

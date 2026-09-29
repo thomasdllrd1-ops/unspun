@@ -4188,5 +4188,573 @@
   "url": "https://dianneforcongress.org/doku.php?id=about",
   "type": "campaign",
   "accessed": "2026-09-28"
+ },
+ {
+  "id": "sherrod-brown-site-our-fight",
+  "title": "Our fight page",
+  "publisher": "Sherrod Brown campaign website",
+  "url": "https://www.sherrodbrown.com/our-fight/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "sherrod-brown-site-home",
+  "title": "Home page",
+  "publisher": "Sherrod Brown campaign website",
+  "url": "https://www.sherrodbrown.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "jon-husted-site-home",
+  "title": "Home page",
+  "publisher": "Jon Husted campaign website",
+  "url": "https://www.jonhustedforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "jon-husted-site-bio",
+  "title": "Bio page",
+  "publisher": "Jon Husted campaign website",
+  "url": "https://www.jonhustedforsenate.com/bio/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "greg-levy-site-platform",
+  "title": "Platform page",
+  "publisher": "Greg Levy campaign website",
+  "url": "https://www.greg4senate.com/platform",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "greg-levy-site-home",
+  "title": "Home page",
+  "publisher": "Greg Levy campaign website",
+  "url": "https://www.greg4senate.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "greg-levy-site-about",
+  "title": "About page",
+  "publisher": "Greg Levy campaign website",
+  "url": "https://www.greg4senate.com/about",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "greg-levy-site-about-the-psl",
+  "title": "About the psl page",
+  "publisher": "Greg Levy campaign website",
+  "url": "https://www.greg4senate.com/about-the-psl",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "william-redpath-site-faq",
+  "title": "Faq page",
+  "publisher": "William B. Redpath campaign website",
+  "url": "https://billredpath.com/faq/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "william-redpath-site-home",
+  "title": "Home page",
+  "publisher": "William B. Redpath campaign website",
+  "url": "https://billredpath.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "william-redpath-site-about",
+  "title": "About page",
+  "publisher": "William B. Redpath campaign website",
+  "url": "https://billredpath.com/about/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "mary-peltola-site-affordability",
+  "title": "Affordability page",
+  "publisher": "Mary Peltola campaign website",
+  "url": "https://marypeltola.com/affordability/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "mary-peltola-site-fixing-system",
+  "title": "Fixing system page",
+  "publisher": "Mary Peltola campaign website",
+  "url": "https://marypeltola.com/fixing-system/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "mary-peltola-site-fish",
+  "title": "Fish page",
+  "publisher": "Mary Peltola campaign website",
+  "url": "https://marypeltola.com/fish/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "mary-peltola-site-energy",
+  "title": "Energy page",
+  "publisher": "Mary Peltola campaign website",
+  "url": "https://marypeltola.com/energy/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "mary-peltola-site-veterans",
+  "title": "Veterans page",
+  "publisher": "Mary Peltola campaign website",
+  "url": "https://marypeltola.com/veterans/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "mary-peltola-site-home",
+  "title": "Home page",
+  "publisher": "Mary Peltola campaign website",
+  "url": "https://marypeltola.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "dan-sullivan-site-home",
+  "title": "Home page",
+  "publisher": "Dan S. Sullivan campaign website",
+  "url": "https://dansullivanforalaska.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "dan-sullivan-site-meet-dan",
+  "title": "Meet dan page",
+  "publisher": "Dan S. Sullivan campaign website",
+  "url": "https://dansullivanforalaska.com/meet-dan/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "ashley-hinson-site-issues",
+  "title": "Issues page",
+  "publisher": "Ashley Hinson campaign website",
+  "url": "https://ashleyhinson.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "ashley-hinson-site-home",
+  "title": "Home page",
+  "publisher": "Ashley Hinson campaign website",
+  "url": "https://ashleyhinson.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "ashley-hinson-site-meet-ashley",
+  "title": "Meet ashley page",
+  "publisher": "Ashley Hinson campaign website",
+  "url": "https://ashleyhinson.com/meet-ashley/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "josh-turek-site-platform",
+  "title": "Platform page",
+  "publisher": "Josh Turek campaign website",
+  "url": "https://turek4iowa.com/platform/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "josh-turek-site-home",
+  "title": "Home page",
+  "publisher": "Josh Turek campaign website",
+  "url": "https://turek4iowa.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "josh-turek-site-about",
+  "title": "About page",
+  "publisher": "Josh Turek campaign website",
+  "url": "https://turek4iowa.com/about/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "thomas-laehn-site-issues",
+  "title": "Issues page",
+  "publisher": "Thomas Laehn campaign website",
+  "url": "https://laehn4iowa.org/issues",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "thomas-laehn-site-home",
+  "title": "Home page",
+  "publisher": "Thomas Laehn campaign website",
+  "url": "https://laehn4iowa.org/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "thomas-laehn-site-about",
+  "title": "About page",
+  "publisher": "Thomas Laehn campaign website",
+  "url": "https://laehn4iowa.org/about",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priorities/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-affordability-and-the-economy",
+  "title": "Priority: affordability and the economy page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/affordability-and-the-economy/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-anti-corruption-agenda",
+  "title": "Priority: anti corruption agenda page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/anti-corruption-agenda/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-education",
+  "title": "Priority: education page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/education/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-energy-and-environment",
+  "title": "Priority: energy and environment page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/energy-and-environment/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-foreign-policy",
+  "title": "Priority: foreign policy page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/foreign-policy/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-health-care",
+  "title": "Priority: health care page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/health-care/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-housing",
+  "title": "Priority: housing page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/housing/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-immigration",
+  "title": "Priority: immigration page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/immigration/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-priority-tax-cuts-lower-costs-blueprint",
+  "title": "Priority: tax cuts lower costs blueprint page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/priority/tax-cuts-lower-costs-blueprint/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-home",
+  "title": "Home page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "chris-pappas-site-about",
+  "title": "About page",
+  "publisher": "Chris Pappas campaign website",
+  "url": "https://chrispappas.org/about/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "john-sununu-site-home",
+  "title": "Home page",
+  "publisher": "John E. Sununu campaign website",
+  "url": "https://www.sununusenator.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "john-sununu-site-about",
+  "title": "About page",
+  "publisher": "John E. Sununu campaign website",
+  "url": "https://www.sununusenator.com/about",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "edmond-laplante-site-my-platform",
+  "title": "My platform page",
+  "publisher": "Edmond LaPlante campaign website",
+  "url": "https://laplante4constitutionalnh.com/my-platform",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "edmond-laplante-site-home",
+  "title": "Home page",
+  "publisher": "Edmond LaPlante campaign website",
+  "url": "https://laplante4constitutionalnh.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "edmond-laplante-site-about-me",
+  "title": "About me page",
+  "publisher": "Edmond LaPlante campaign website",
+  "url": "https://laplante4constitutionalnh.com/about-me",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "roy-cooper-site-home",
+  "title": "Home page",
+  "publisher": "Roy Cooper campaign website",
+  "url": "https://roycooper.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "roy-cooper-site-about",
+  "title": "About page",
+  "publisher": "Roy Cooper campaign website",
+  "url": "https://roycooper.com/about/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "michael-whatley-site-issues",
+  "title": "Issues page",
+  "publisher": "Michael Whatley campaign website",
+  "url": "https://michaelwhatley.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "michael-whatley-site-home",
+  "title": "Home page",
+  "publisher": "Michael Whatley campaign website",
+  "url": "https://michaelwhatley.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "michael-whatley-site-about",
+  "title": "About page",
+  "publisher": "Michael Whatley campaign website",
+  "url": "https://michaelwhatley.com/about/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "michael-dublin-site-issues",
+  "title": "Issues page",
+  "publisher": "Michael Dublin campaign website",
+  "url": "https://www.dublinforcongress.com/issues",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "michael-dublin-site-platform",
+  "title": "Platform page",
+  "publisher": "Michael Dublin campaign website",
+  "url": "https://www.dublinforcongress.com/platform",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "michael-dublin-site-home",
+  "title": "Home page",
+  "publisher": "Michael Dublin campaign website",
+  "url": "https://www.dublinforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "michael-dublin-site-about",
+  "title": "About page",
+  "publisher": "Michael Dublin campaign website",
+  "url": "https://www.dublinforcongress.com/about",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues",
+  "title": "Issues page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/issues",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues-economy",
+  "title": " issues economy page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/_issues_economy",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues-monetary-policy",
+  "title": " issues monetary policy page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/_issues_monetary-policy",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues-jobs-innovation",
+  "title": " issues jobs innovation page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/_issues_jobs-innovation",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues-healthcare",
+  "title": " issues healthcare page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/_issues_healthcare",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues-immigration",
+  "title": " issues immigration page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/_issues_immigration",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues-foreign-policy",
+  "title": " issues foreign policy page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/_issues_foreign-policy",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues-energy",
+  "title": " issues energy page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/_issues_energy",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-issues-digital-assets",
+  "title": " issues digital assets page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/_issues_digital-assets",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-home",
+  "title": "Home page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "shannon-bray-site-about",
+  "title": "About page",
+  "publisher": "Shannon W. Bray campaign website",
+  "url": "https://www.shannonbray.us/about",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "susan-collins-site-track-record",
+  "title": "Track record page",
+  "publisher": "Susan M. Collins campaign website",
+  "url": "https://susancollins.com/track-record/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "susan-collins-site-home",
+  "title": "Home page",
+  "publisher": "Susan M. Collins campaign website",
+  "url": "https://susancollins.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "susan-collins-site-about",
+  "title": "About page",
+  "publisher": "Susan M. Collins campaign website",
+  "url": "https://susancollins.com/about/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "troy-jackson-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Troy D. Jackson campaign website",
+  "url": "https://www.jacksonformaine.com/priorities",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "troy-jackson-site-home",
+  "title": "Home page",
+  "publisher": "Troy D. Jackson campaign website",
+  "url": "https://www.jacksonformaine.com/",
+  "type": "campaign",
+  "accessed": "2026-09-28"
+ },
+ {
+  "id": "troy-jackson-site-about",
+  "title": "About page",
+  "publisher": "Troy D. Jackson campaign website",
+  "url": "https://www.jacksonformaine.com/about",
+  "type": "campaign",
+  "accessed": "2026-09-28"
  }
 ]

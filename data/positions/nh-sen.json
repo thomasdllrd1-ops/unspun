@@ -1,0 +1,309 @@
+{
+  "race": "nh-sen",
+  "candidates": [
+    {
+      "candidate": "edmond-laplante",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "edmond-laplante-site-my-platform",
+        "edmond-laplante-site-home",
+        "edmond-laplante-site-about-me"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "America/NH first",
+          "quote": "I believe it is time to end U.S. involvement in wars abroad, stop sending foreign aid overseas, and focus on rebuilding our country here at home.",
+          "source": "edmond-laplante-site-my-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Veterans and Mental Health",
+          "quote": "Mental health and addiction issues are too often overlooked until crisis strikes, and I believe states must be empowered - with flexibility, accountability, and local control - to expand access to timely, effective care while the federal government focuses on its proper, limited role.",
+          "source": "edmond-laplante-site-my-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Government Overreach and Transparency",
+          "quote": "I believe it is time to restore constitutional boundaries, demand full transparency, and hold federal agencies accountable to the people they serve - returning power to the states and reaffirming that no agency stands above the Constitution.",
+          "source": "edmond-laplante-site-my-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Veterans and Mental Health",
+          "quote": "For civilian healthcare, including mental health and addiction treatment, solutions should be led by the states and communities closest to the people affected, not imposed by distant federal bureaucracies.",
+          "said_on": "",
+          "source": "edmond-laplante-site-my-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border Enforcement and Immigration",
+          "quote": "I believe that immigration policy must begin with enforcement of the laws already on the books, and that individuals who are in the country illegally should not receive state or federal benefits intended for citizens and lawful residents.",
+          "said_on": "",
+          "source": "edmond-laplante-site-my-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "America/NH first",
+          "quote": "I believe it is time to end U.S. involvement in wars abroad, stop sending foreign aid overseas, and focus on rebuilding our country here at home.",
+          "said_on": "",
+          "source": "edmond-laplante-site-my-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "chris-pappas",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "chris-pappas-site-priorities",
+        "chris-pappas-site-priority-affordability-and-the-economy",
+        "chris-pappas-site-priority-anti-corruption-agenda",
+        "chris-pappas-site-priority-education",
+        "chris-pappas-site-priority-energy-and-environment",
+        "chris-pappas-site-priority-foreign-policy",
+        "chris-pappas-site-priority-health-care",
+        "chris-pappas-site-priority-housing",
+        "chris-pappas-site-priority-immigration",
+        "chris-pappas-site-priority-tax-cuts-lower-costs-blueprint",
+        "chris-pappas-site-home",
+        "chris-pappas-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordability and the Economy",
+          "quote": "He is also leading the effort to protect Granite Staters from the disastrous Trump tariffs that have created record-high prices and reimburse small businesses for the tens of thousands of dollars they’ve been forced to pay.",
+          "source": "chris-pappas-site-priority-affordability-and-the-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Anti-Corruption Agenda",
+          "quote": "He introduced the DISCLOSE Act to stop billionaires and corporate special interests from secretly buying our elections.",
+          "source": "chris-pappas-site-priority-anti-corruption-agenda",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Education",
+          "quote": "Chris supports increasing access to Pell grants, affordable community college, and debt forgiveness for students who enter high-demand careers like nursing.",
+          "source": "chris-pappas-site-priority-education",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Affordability and the Economy",
+          "quote": "He is also leading the effort to protect Granite Staters from the disastrous Trump tariffs that have created record-high prices and reimburse small businesses for the tens of thousands of dollars they’ve been forced to pay.",
+          "said_on": "",
+          "source": "chris-pappas-site-priority-affordability-and-the-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "Chris is working to make homeownership a reality for more Granite Staters by cutting red tape for communities to build more homes, providing tax cuts to help first-time home buyers, and supporting the financing and development of affordable housing.",
+          "said_on": "",
+          "source": "chris-pappas-site-priority-housing",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health Care",
+          "quote": "He is working across the aisle to restore ACA enhanced premium tax credits and bring down health care costs that have skyrocketed by double or more.",
+          "said_on": "",
+          "source": "chris-pappas-site-priority-health-care",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "Chris supports comprehensive, common-sense immigration reform that will help fix our broken system and allow immigrants who work hard and follow the rules get a shot at their American dream.",
+          "said_on": "",
+          "source": "chris-pappas-site-priority-immigration",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy",
+          "quote": "He has supported bipartisan security assistance for Israel to defend itself and has voted for more than $9 billion in life-saving humanitarian aid to Gaza.",
+          "said_on": "",
+          "source": "chris-pappas-site-priority-foreign-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy and Environment",
+          "quote": "Chris passed the largest climate change legislation in history, the Inflation Reduction Act, and championed vital climate resilience funding in the Bipartisan Infrastructure Law so communities in New Hampshire can withstand catastrophic weather events and rebuild their homes, businesses, and infrastructure.",
+          "said_on": "",
+          "source": "chris-pappas-site-priority-energy-and-environment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "john-sununu",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "john-sununu-site-home",
+        "john-sununu-site-about"
+      ],
+      "priorities_note": "His campaign website has no issues page or list of issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He’ll oppose all middle-class tax hikes and work to make life more affordable for New Hampshire families by focusing like a laser on reducing inflation and lowering the cost of housing, healthcare, and energy.",
+          "said_on": "",
+          "source": "john-sununu-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He’ll oppose all middle-class tax hikes and work to make life more affordable for New Hampshire families by focusing like a laser on reducing inflation and lowering the cost of housing, healthcare, and energy.",
+          "said_on": "",
+          "source": "john-sununu-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "The same sentence is quoted for cost of living & jobs. It is the only passage on the site about this issue."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He’ll oppose all middle-class tax hikes and work to make life more affordable for New Hampshire families by focusing like a laser on reducing inflation and lowering the cost of housing, healthcare, and energy.",
+          "said_on": "",
+          "source": "john-sununu-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "The same sentence is quoted for cost of living & jobs. It is the only passage on the site about this issue."
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He’ll oppose all middle-class tax hikes and work to make life more affordable for New Hampshire families by focusing like a laser on reducing inflation and lowering the cost of housing, healthcare, and energy.",
+          "said_on": "",
+          "source": "john-sununu-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "The same sentence is quoted for cost of living & jobs. It is the only passage on the site about this issue."
+        }
+      }
+    }
+  ]
+}

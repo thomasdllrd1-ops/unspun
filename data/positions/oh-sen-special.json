@@ -1,0 +1,409 @@
+{
+  "race": "oh-sen-special",
+  "candidates": [
+    {
+      "candidate": "sherrod-brown",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "sherrod-brown-site-our-fight",
+        "sherrod-brown-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Holding Health Insurance Companies Accountable",
+          "quote": "It’s time to ban health insurance companies from denying the care your doctor says you need. And if they try to deny your claims, we’ll fine them.",
+          "source": "sherrod-brown-site-our-fight",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Bringing down prescription drug costs",
+          "quote": "Let’s make it illegal for drug companies to charge Americans more than they do in other countries, because the same pill should be the same price.",
+          "source": "sherrod-brown-site-our-fight",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Making Data Centers Pay",
+          "quote": "We’re fighting to require data centers to pay the full cost of their utilities so your bills don’t go up.",
+          "source": "sherrod-brown-site-our-fight",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Born and raised in Mansfield, Sherrod saw firsthand how corporations lobbied for tax breaks and bad trade agreements that shipped Ohio jobs overseas. That’s why he’s always opposed unfair trade deals that hurt Ohio workers.",
+          "said_on": "",
+          "source": "sherrod-brown-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Holding Health Insurance Companies Accountable",
+          "quote": "It’s time to ban health insurance companies from denying the care your doctor says you need. And if they try to deny your claims, we’ll fine them.",
+          "said_on": "",
+          "source": "sherrod-brown-site-our-fight",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Making Data Centers Pay",
+          "quote": "We’re fighting to require data centers to pay the full cost of their utilities so your bills don’t go up.",
+          "said_on": "",
+          "source": "sherrod-brown-site-our-fight",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jon-husted",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "jon-husted-site-home",
+        "jon-husted-site-bio"
+      ],
+      "priorities_note": "His campaign website has no issues page or list of issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Senator Jon Husted Leads with Conservative Principles",
+          "quote": "Helped bring in the largest economic development deal in state history with Intel’s chip manufacturing facility in Licking County",
+          "said_on": "",
+          "source": "jon-husted-site-bio",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "greg-levy",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "greg-levy-site-platform",
+        "greg-levy-site-home",
+        "greg-levy-site-about",
+        "greg-levy-site-about",
+        "greg-levy-site-about-the-psl"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "BUILD A NEW ECONOMY THAT MEETS OUR NEEDS",
+          "quote": "Most workers agree, we need a radical reconstruction of the economy: and that begins by seizing the 100 biggest corporations –including the six, like Kroger and Procter & Gamble, headquartered right here in Ohio –(just 0.0007% of businesses) and transforming them into public property, democratically controlled by the workers themselves.",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "BUILD A DEMOCRACY FOR THE WORKING CLASS – END THE DICTATORSHIP OF THE RICH",
+          "quote": "We must build a new system of government where power is directly exercised by workers through their unions, neighborhood assemblies, and community organizations—a true democracy from the bottom up.",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "END THE WAR ON BLACK AMERICA!",
+          "quote": "This begins with the full payment of reparations to Black Americans for slavery and Jim Crow dictatorship.",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "BUILD A NEW ECONOMY THAT MEETS OUR NEEDS",
+          "quote": "This will put Ohio’s proud union labor back to work at a living wage, manufacturing the renewable energy systems, transit and housing materials needed to slash emissions and rebuild America.",
+          "said_on": "",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "BUILD A NEW ECONOMY THAT MEETS OUR NEEDS",
+          "quote": "This means enacting a national rent cap so no one pays more than 20% of their income on housing, and banning evictions.",
+          "said_on": "",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "BUILD A NEW ECONOMY THAT MEETS OUR NEEDS",
+          "quote": "It means establishing a universal, single-payer healthcare system, free at the point of use.",
+          "said_on": "",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "FIGHT THE REAL ENEMIES! THE ONLY DANGEROUS MINORITY IS THE BILLIONAIRE CLASS",
+          "quote": "That means abolishing ICE, ending all raids and deportations, shutting down the detention camps, and establishing a clear path to citizenship.",
+          "said_on": "",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "STOP THE FOREVER WARS – END THE US WAR MACHINE",
+          "quote": "We will fight to slash the Pentagon budget by 90%.",
+          "said_on": "",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "SAVE THE PLANET FROM CAPITALISM- ONLY SOCIALISM CAN SOLVE THE CLIMATE CRISIS",
+          "quote": "Ohio can be at the forefront of the green revolution—building out public transit systems connecting our cities; reorganizing our agricultural production sustainably; retooling our manufacturing expertise for renewable technology.",
+          "said_on": "",
+          "source": "greg-levy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "william-redpath",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "william-redpath-site-faq",
+        "william-redpath-site-home",
+        "william-redpath-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "WAR WITH IRAN",
+          "quote": "While I certainly would like to see a non-theocratic/autocratic democracy in Iran, the United States participation in the war against Iran is clearly unconstitutional, as well as horrible policy for the US and the world.",
+          "source": "william-redpath-site-faq",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "REPEAL NOT JUST TRUMP’S TARIFFS, REPEAL ALL TARIFFS",
+          "quote": "The United States should end all tariffs on imported goods and services, regardless of the policies of other nations.",
+          "source": "william-redpath-site-faq",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "IMMIGRATION",
+          "quote": "Open immigration would be the greatest anti-poverty program the world has ever known.",
+          "source": "william-redpath-site-faq",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "REPEAL NOT JUST TRUMP’S TARIFFS, REPEAL ALL TARIFFS",
+          "quote": "The United States should end all tariffs on imported goods and services, regardless of the policies of other nations.",
+          "said_on": "",
+          "source": "william-redpath-site-faq",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "REDUCE FEDERAL GOVERNMENT SPENDING",
+          "quote": "Aside from badly needed changes to entitlement programs, I call for the elimination of the Departments of Education and Housing & Urban Development, as well as an end to all corporate welfare and farm subsidies.",
+          "said_on": "",
+          "source": "william-redpath-site-faq",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "STOP THE FORTHCOMING DEBT CRISIS",
+          "quote": "Medicare should be reformed with payments going to Medicare enrollees as cash payment, instead of continuing payments to medical providers, with higher payments going to recipients with lower lifetime incomes and worse health, in a budget neutral manner.",
+          "said_on": "",
+          "source": "william-redpath-site-faq",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "IMMIGRATION",
+          "quote": "Open immigration would be the greatest anti-poverty program the world has ever known.",
+          "said_on": "",
+          "source": "william-redpath-site-faq",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "The rest of this section quotes a Cato Institute scholar he agrees with. We quote only his own words."
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "WAR WITH IRAN",
+          "quote": "While I certainly would like to see a non-theocratic/autocratic democracy in Iran, the United States participation in the war against Iran is clearly unconstitutional, as well as horrible policy for the US and the world.",
+          "said_on": "",
+          "source": "william-redpath-site-faq",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

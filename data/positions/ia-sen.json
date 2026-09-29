@@ -1,0 +1,329 @@
+{
+  "race": "ia-sen",
+  "candidates": [
+    {
+      "candidate": "ashley-hinson",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "ashley-hinson-site-issues",
+        "ashley-hinson-site-home",
+        "ashley-hinson-site-meet-ashley"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lowering Costs & Growing the Economy",
+          "quote": "Make life more affordable by cutting wasteful spending, lowering inflation, and creating an economy where small businesses can grow and create good-paying jobs.",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Healthcare",
+          "quote": "Lower prescription drug costs by increasing transparency and holding pharmacy benefit managers accountable.",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Agriculture & Rural Iowa",
+          "quote": "Protect family farms by pushing back against burdensome regulations, improving voluntary conservation programs, and fighting policies like California’s Proposition 12 that hurt Iowa family farmers.",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lowering Costs & Growing the Economy",
+          "quote": "Make life more affordable by cutting wasteful spending, lowering inflation, and creating an economy where small businesses can grow and create good-paying jobs.",
+          "said_on": "",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Lowering Costs & Growing the Economy",
+          "quote": "Help more families become homeowners by allowing first-time homebuyers to save tax-free for a down payment through the First Home Savings Opportunity Act and ensuring large institutional investors cannot buy up single-family homes in Iowa neighborhoods.",
+          "said_on": "",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "Lower prescription drug costs by increasing transparency and holding pharmacy benefit managers accountable.",
+          "said_on": "",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border Security & Public Safety",
+          "quote": "Secure the southern border by enforcing America’s immigration laws and deporting dangerous criminal illegal immigrants.",
+          "said_on": "",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Protecting Iowa Values",
+          "quote": "Hold Communist China accountable for ripping off American jobs and innovation, purchasing American farmland, and implementing unfair trade practices that hurt Iowa farmers, workers, and businesses.",
+          "said_on": "",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Agriculture & Rural Iowa",
+          "quote": "Keep Iowa at the forefront of American energy by championing year-round E15, strengthening biofuels, and investing in homegrown energy production.",
+          "said_on": "",
+          "source": "ashley-hinson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "thomas-laehn",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "thomas-laehn-site-issues",
+        "thomas-laehn-site-home",
+        "thomas-laehn-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Restoring political power to the people",
+          "quote": "I will also sponsor legislation to eliminate the corrupting role of PACs and super PACs in our electoral system.",
+          "source": "thomas-laehn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Ending eminent domain abuse",
+          "quote": "As a U.S. Senator, I will work to pass legislation prohibiting private companies from harnessing the coercive power of the state to seize property for commercial gain, ending eminent domain abuse in our nation.",
+          "source": "thomas-laehn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Stopping wasteful wars",
+          "quote": "As a U.S. Senator, I will fight to bring our men and women in uniform home, to block foolish wars declared by presidents without the consent of Congress, and to conserve our nation’s military strength for those rare occasions when our nation’s vital interests are truly at stake.",
+          "source": "thomas-laehn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site's economic section is about the national debt, which this issue doesn't cover."
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Securing borders with humane immigration policies",
+          "quote": "I will fight for a secure border. I will also fight to raise or to eliminate artificial caps on the number of people who can legally immigrate to remove the pressure on our nation’s borders.",
+          "said_on": "",
+          "source": "thomas-laehn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Stopping wasteful wars",
+          "quote": "As a U.S. Senator, I will fight to bring our men and women in uniform home, to block foolish wars declared by presidents without the consent of Congress, and to conserve our nation’s military strength for those rare occasions when our nation’s vital interests are truly at stake.",
+          "said_on": "",
+          "source": "thomas-laehn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "josh-turek",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "josh-turek-site-platform",
+        "josh-turek-site-home",
+        "josh-turek-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Each and every American should be able to afford the basics.",
+          "quote": "Cut taxes for the middle class and working families and close loopholes for billionaires and big corporations.",
+          "source": "josh-turek-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Health care is a human right. All Americans deserve access to basic care.",
+          "quote": "Restore full funding for Medicaid for the 110,000 Iowans who are at risk of losing access to health care due to cuts in the Big Beautiful Bill that Ashley Hinson voted for.",
+          "source": "josh-turek-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Stop the corruption. Politicians should deliver for the people, not enrich themselves.",
+          "quote": "Ban Members of Congress and their spouses from trading stock.",
+          "source": "josh-turek-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Each and every American should be able to afford the basics.",
+          "quote": "Cut taxes for the middle class and working families and close loopholes for billionaires and big corporations.",
+          "said_on": "",
+          "source": "josh-turek-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Each and every American should be able to afford the basics.",
+          "quote": "Ban Wall Street private equity firms from purchasing single family homes and farmland to make housing more affordable and protect small family farms.",
+          "said_on": "",
+          "source": "josh-turek-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health care is a human right. All Americans deserve access to basic care.",
+          "quote": "Restore full funding for Medicaid for the 110,000 Iowans who are at risk of losing access to health care due to cuts in the Big Beautiful Bill that Ashley Hinson voted for.",
+          "said_on": "",
+          "source": "josh-turek-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Our immigration system is broken and needs comprehensive reform.",
+          "quote": "Pass bipartisan immigration legislation that strengthens our borders and simplifies an earned pathway to citizenship.",
+          "said_on": "",
+          "source": "josh-turek-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Support our military heroes and their families while they serve – and when they come home.",
+          "quote": "End unnecessary wars that put American lives at risk.",
+          "said_on": "",
+          "source": "josh-turek-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

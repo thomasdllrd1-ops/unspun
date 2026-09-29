@@ -1,0 +1,417 @@
+{
+  "race": "nc-sen",
+  "candidates": [
+    {
+      "candidate": "shannon-bray",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "shannon-bray-site-issues",
+        "shannon-bray-site-issues-economy",
+        "shannon-bray-site-issues-monetary-policy",
+        "shannon-bray-site-issues-jobs-innovation",
+        "shannon-bray-site-issues-healthcare",
+        "shannon-bray-site-issues-immigration",
+        "shannon-bray-site-issues-foreign-policy",
+        "shannon-bray-site-issues-energy",
+        "shannon-bray-site-issues-digital-assets",
+        "shannon-bray-site-home",
+        "shannon-bray-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economy & Taxes",
+          "quote": "Simplifying the tax code to reward work and productivity",
+          "source": "shannon-bray-site-issues-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Monetary Policy & Inflation",
+          "quote": "Opposition to a government-controlled digital currency",
+          "source": "shannon-bray-site-issues-monetary-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Jobs, Innovation & Technology",
+          "quote": "Reducing barriers for small businesses",
+          "source": "shannon-bray-site-issues-jobs-innovation",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy & Taxes",
+          "quote": "Simplifying the tax code to reward work and productivity",
+          "said_on": "",
+          "source": "shannon-bray-site-issues-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "Repealing top-down federal healthcare mandates",
+          "said_on": "",
+          "source": "shannon-bray-site-issues-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration & Borders",
+          "quote": "Enforcing existing immigration laws",
+          "said_on": "",
+          "source": "shannon-bray-site-issues-immigration",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy & Defense",
+          "quote": "Ending undeclared wars",
+          "said_on": "",
+          "source": "shannon-bray-site-issues-foreign-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy & Environment",
+          "quote": "Opposing carbon taxes",
+          "said_on": "",
+          "source": "shannon-bray-site-issues-energy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "roy-cooper",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "roy-cooper-site-home",
+        "roy-cooper-site-about"
+      ],
+      "priorities_note": "His campaign website has no issues page or list of issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Governor Cooper worked to create thousands of new jobs and worked with members of both parties to enact hundreds of bipartisan bills.",
+          "said_on": "",
+          "source": "roy-cooper-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He succeeded in getting a bipartisan agreement to expand Medicaid, which in early 2025 has already brought health care to more than 650,000 North Carolinians.",
+          "said_on": "",
+          "source": "roy-cooper-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "michael-dublin",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "michael-dublin-site-issues",
+        "michael-dublin-site-platform",
+        "michael-dublin-site-home",
+        "michael-dublin-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Government Reform",
+          "quote": "We will fight to get big money out of politics by overturning Citizens United and passing comprehensive campaign finance reform.",
+          "source": "michael-dublin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Environmental Justice",
+          "quote": "We will invest in renewable energy, creating thousands of good-paying union jobs and ensuring that the communities most affected by climate change and pollution are the first to benefit from the new green economy.",
+          "source": "michael-dublin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Social & Racial Equity",
+          "quote": "We will fight to dismantle these systems of oppression in all their forms. This means reforming our criminal justice system, ending mass incarceration, and investing in community-based alternatives to policing.",
+          "source": "michael-dublin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Work & Wages",
+          "quote": "I support raising the federal minimum wage to $25 an hour, adjusted annually for the cost of living.",
+          "said_on": "",
+          "source": "michael-dublin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "A Fair & Sustainable Economy",
+          "quote": "I support a massive expansion of publicly owned, permanently affordable housing. I stand for universal rent control and an end to the criminalization of homelessness.",
+          "said_on": "",
+          "source": "michael-dublin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "A Fair & Sustainable Economy",
+          "quote": "I stand for taking pharmaceutical companies and for-profit hospitals into democratic public ownership to provide high-quality care at no cost to patients.",
+          "said_on": "",
+          "source": "michael-dublin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigrants' Rights",
+          "quote": "I support abolishing ICE and getting rid of immigrant detention centers and deportations. I stand for immediate, unconditional legalization and equal rights for all undocumented immigrants.",
+          "said_on": "",
+          "source": "michael-dublin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Stopping the War Machine",
+          "quote": "I stand for drastically cutting the US military budget and redirecting those funds toward free universal healthcare, public education, and affordable housing.",
+          "said_on": "",
+          "source": "michael-dublin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Climate Justice & The Green New Deal",
+          "quote": "I stand for a Green New Deal featuring a unionized, living-wage green jobs program.",
+          "said_on": "",
+          "source": "michael-dublin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "michael-whatley",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "michael-whatley-site-issues",
+        "michael-whatley-site-home",
+        "michael-whatley-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Enact the Trump Agenda in the U.S. Senate",
+          "quote": "I am committed to advancing President Trump’s America First agenda as the next U.S. Senator from North Carolina.",
+          "source": "michael-whatley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Make North Carolina Safe Again",
+          "quote": "As your next U.S. Senator, I will stand shoulder to shoulder with President Trump to restore law and order, roll back dangerous and lenient Democrat policies, back the blue without apology, and put law-abiding North Carolinians first.",
+          "source": "michael-whatley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Fight Illegal Immigration",
+          "quote": "In contrast, I am 100% supportive of President Trump securing the border and deporting the millions of criminal illegal aliens that Joe Biden and Roy Cooper allowed into this country.",
+          "source": "michael-whatley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "America First Economy",
+          "quote": "By practicing fiscal responsibility and unleashing American energy, we can empower American workers, create good-paying jobs, achieve energy independence, and build lasting prosperity for every American.",
+          "said_on": "",
+          "source": "michael-whatley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Fight Illegal Immigration",
+          "quote": "In contrast, I am 100% supportive of President Trump securing the border and deporting the millions of criminal illegal aliens that Joe Biden and Roy Cooper allowed into this country.",
+          "said_on": "",
+          "source": "michael-whatley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "America First Economy",
+          "quote": "By practicing fiscal responsibility and unleashing American energy, we can empower American workers, create good-paying jobs, achieve energy independence, and build lasting prosperity for every American.",
+          "said_on": "",
+          "source": "michael-whatley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "The same sentence is quoted for cost of living & jobs. It is the only passage on the site about this issue."
+        }
+      }
+    }
+  ]
+}

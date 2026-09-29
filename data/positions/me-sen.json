@@ -1,0 +1,221 @@
+{
+  "race": "me-sen",
+  "candidates": [
+    {
+      "candidate": "susan-collins",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "susan-collins-site-track-record",
+        "susan-collins-site-home",
+        "susan-collins-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Maine Jobs and Workforce Development",
+          "quote": "As Chairman of the Senate Appropriations Committee, Susan has secured millions of dollars in federal investments for workforce development and training programs.",
+          "source": "susan-collins-site-track-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Health Care",
+          "quote": "She has led efforts to expand access to care including legislation to make key telehealth flexibilities permanent through Medicare so patients can connect with providers from home, reducing barriers for patients and providers.",
+          "source": "susan-collins-site-track-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Alzheimer’s",
+          "quote": "She secured a $100 million increase for Alzheimer’s research at NIH in Fiscal Year 2026, bringing total investment to $3.9 billion this year.",
+          "source": "susan-collins-site-track-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Maine Jobs and Workforce Development",
+          "quote": "As Chairman of the Senate Appropriations Committee, Susan has secured millions of dollars in federal investments for workforce development and training programs.",
+          "said_on": "",
+          "source": "susan-collins-site-track-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health Care",
+          "quote": "She has led efforts to expand access to care including legislation to make key telehealth flexibilities permanent through Medicare so patients can connect with providers from home, reducing barriers for patients and providers.",
+          "said_on": "",
+          "source": "susan-collins-site-track-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "troy-jackson",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "troy-jackson-site-priorities",
+        "troy-jackson-site-home",
+        "troy-jackson-site-about"
+      ],
+      "priorities_note": "His priorities page lists each priority as a one-sentence statement, shown here as written.",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Pass Medicare for all.",
+          "quote": "",
+          "source": "troy-jackson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Lower the cost of prescription drugs.",
+          "quote": "",
+          "source": "troy-jackson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Tax the billionaires and make sure greedy corporations pay their fair share.",
+          "quote": "",
+          "source": "troy-jackson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Tax the billionaires and make sure greedy corporations pay their fair share.",
+          "said_on": "",
+          "source": "troy-jackson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Pass Medicare for all.",
+          "said_on": "",
+          "source": "troy-jackson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Dismantle and abolish ICE.",
+          "said_on": "",
+          "source": "troy-jackson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "End the genocide in Gaza. No U.S. tax dollars to Israel's military.",
+          "said_on": "",
+          "source": "troy-jackson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

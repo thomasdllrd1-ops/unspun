@@ -113,6 +113,8 @@ function load() {
   }
   for (const r of races) {
     if (!candidates.some((c) => c.race === r.id)) errors.push(`race ${r.id}: has no candidates`);
+    const inc = candidates.filter((c) => c.race === r.id && c.incumbent);
+    if (inc.length > 1) errors.push(`race ${r.id}: more than one incumbent (${inc.map((c) => c.id).join(', ')})`);
   }
   for (const r of ratings) {
     needSource(`rating ${r.race}/${r.forecaster}`, r.source);

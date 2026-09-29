@@ -459,7 +459,7 @@
     "sort_name": "Peltola",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://marypeltola.com",
     "fec_id": "S6AK00276",
     "source": "official-ak-2026"
   },
@@ -470,7 +470,7 @@
     "sort_name": "Sullivan",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://dansullivanforalaska.com",
     "fec_id": "S4AK00214",
     "source": "official-ak-2026"
   },
@@ -480,8 +480,8 @@
     "ballot_name": "Daniel J. Sullivan Jr.",
     "sort_name": "Sullivan",
     "party": "republican",
-    "incumbent": true,
-    "website": null,
+    "incumbent": false,
+    "website": "https://www.sullivanforsenate.com",
     "fec_id": "S6AK00326",
     "source": "official-ak-2026"
   },
@@ -750,7 +750,7 @@
     "sort_name": "Hinson",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://ashleyhinson.com",
     "fec_id": "S6IA00314",
     "source": "official-ia-2026"
   },
@@ -761,7 +761,7 @@
     "sort_name": "Turek",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://turek4iowa.com",
     "fec_id": "S6IA00298",
     "source": "official-ia-2026"
   },
@@ -772,7 +772,7 @@
     "sort_name": "Laehn",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://laehn4iowa.org",
     "fec_id": "S6IA00181",
     "source": "official-ia-2026"
   },
@@ -871,7 +871,7 @@
     "sort_name": "Collins",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://susancollins.com",
     "fec_id": "S6ME00159",
     "source": "official-me-2026"
   },
@@ -882,7 +882,7 @@
     "sort_name": "Jackson",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.jacksonformaine.com",
     "fec_id": "S6ME00464",
     "source": "official-me-2026"
   },
@@ -1181,7 +1181,7 @@
     "sort_name": "LaPlante",
     "party": "constitution",
     "incumbent": false,
-    "website": null,
+    "website": "https://laplante4constitutionalnh.com",
     "fec_id": "S2NH00223",
     "source": "wikipedia-senate-2026"
   },
@@ -1192,7 +1192,7 @@
     "sort_name": "Pappas",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://chrispappas.org",
     "fec_id": "S6NH00141",
     "source": "wikipedia-senate-2026"
   },
@@ -1203,7 +1203,7 @@
     "sort_name": "Sununu",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.sununusenator.com",
     "fec_id": "S6NH00208",
     "source": "wikipedia-senate-2026"
   },
@@ -1280,7 +1280,7 @@
     "sort_name": "Dublin",
     "party": "green",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.dublinforcongress.com",
     "fec_id": "S6NC00563",
     "source": "official-nc-2026"
   },
@@ -1291,7 +1291,7 @@
     "sort_name": "Cooper",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://roycooper.com",
     "fec_id": "S6NC00407",
     "source": "official-nc-2026"
   },
@@ -1302,7 +1302,7 @@
     "sort_name": "Bray",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.shannonbray.us",
     "fec_id": "S0NC00335",
     "source": "official-nc-2026"
   },
@@ -1313,7 +1313,7 @@
     "sort_name": "Whatley",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://michaelwhatley.com",
     "fec_id": "S6NC00415",
     "source": "official-nc-2026"
   },
@@ -1324,7 +1324,7 @@
     "sort_name": "Brown",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.sherrodbrown.com",
     "fec_id": "S6OH00163",
     "source": "official-oh-2026"
   },
@@ -1335,7 +1335,7 @@
     "sort_name": "Husted",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.jonhustedforsenate.com",
     "fec_id": "S6OH00304",
     "source": "official-oh-2026"
   },
@@ -1346,7 +1346,7 @@
     "sort_name": "Levy",
     "party": "other-party-candidate",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.greg4senate.com",
     "fec_id": "S6OH00395",
     "source": "official-oh-2026"
   },
@@ -1357,7 +1357,7 @@
     "sort_name": "Redpath",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://billredpath.com",
     "fec_id": "S6OH00429",
     "source": "official-oh-2026"
   },
