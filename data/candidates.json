@@ -651,7 +651,7 @@
     "sort_name": "Collins",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://mikecollinsga.com",
     "fec_id": "S6GA00390",
     "source": "official-ga-2026"
   },
@@ -662,7 +662,7 @@
     "sort_name": "Ossoff",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://electjon.com",
     "fec_id": "S8GA00180",
     "source": "official-ga-2026"
   },
@@ -794,7 +794,7 @@
     "sort_name": "Hamilton",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://hamiltonforkansas.com",
     "fec_id": "S6KS00312",
     "source": "official-ks-2026"
   },
@@ -805,7 +805,7 @@
     "sort_name": "Marshall",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://kansansformarshall.com",
     "fec_id": "S0KS00315",
     "source": "official-ks-2026"
   },
@@ -937,7 +937,7 @@
     "sort_name": "El-Sayed",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://abdulforsenate.com",
     "fec_id": "S6MI00418",
     "source": "official-mi-2026"
   },
@@ -948,7 +948,7 @@
     "sort_name": "Rogers",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://rogersforsenate.com",
     "fec_id": "S4MI00595",
     "source": "official-mi-2026"
   },
@@ -959,7 +959,7 @@
     "sort_name": "Christensen",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.lydialynnchristensen.com",
     "fec_id": "S6MI00442",
     "source": "official-mi-2026"
   },
@@ -1690,7 +1690,7 @@
     "sort_name": "Paxton",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.kenpaxton.com",
     "fec_id": "S6TX00388",
     "source": "official-tx-2026"
   },
@@ -1701,7 +1701,7 @@
     "sort_name": "Talarico",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://jamestalarico.com",
     "fec_id": "S6TX00479",
     "source": "official-tx-2026"
   },
@@ -1712,7 +1712,7 @@
     "sort_name": "Brown",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://tedbrown.org",
     "fec_id": "S4TX00888",
     "source": "official-tx-2026"
   },

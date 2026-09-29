@@ -1,0 +1,306 @@
+{
+  "race": "ks-sen",
+  "candidates": [
+    {
+      "candidate": "david-graham",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-ks-2026"
+      ],
+      "priorities_note": "We couldn't find a working campaign website. A site named in his campaign coverage (graham4senate.com) showed a \"domain has expired\" page when we checked on Sep 28, 2026.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "adam-hamilton",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "adam-hamilton-site-issues",
+        "adam-hamilton-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Protecting Kansas Families from Rising Energy Bills",
+          "quote": "We need a comprehensive, all of the above strategy that creates jobs and increases energy independence while bringing down costs for consumers today.",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Protecting the Security Kansas Seniors Have Earned",
+          "quote": "Prioritize home-based care reimbursement to give seniors the option of aging at home instead of in a nursing facility or hospital.",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Housing Kansans Can Afford",
+          "quote": "Modernize and standardize regulations for modular homes in order to increase the housing supply and provide more affordable options for families.",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Protecting Kansas Families from Rising Energy Bills",
+          "quote": "End self-destructive tariffs and unnecessary wars, which are driving up energy costs and hurting our ability to add energy capacity.",
+          "said_on": "",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing Kansans Can Afford",
+          "quote": "Modernize and standardize regulations for modular homes in order to increase the housing supply and provide more affordable options for families.",
+          "said_on": "",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Adam's Agenda to Lower Health Care Costs",
+          "quote": "Expand Medicare drug price negotiation and extend the savings to private insurance.",
+          "said_on": "",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Support Kansas Agriculture, Producers, and Consumers",
+          "quote": "Congress must reform the broken H-2A guest-worker program — permitting year-round visas that reflect modern needs, lowering compliance costs, and giving existing workers a path to legal status.",
+          "said_on": "",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Protecting Kansas Families from Rising Energy Bills",
+          "quote": "End self-destructive tariffs and unnecessary wars, which are driving up energy costs and hurting our ability to add energy capacity.",
+          "said_on": "",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "The same sentence is quoted for cost of living & jobs. It is the only passage on the site about war."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protecting Kansas Families from Rising Energy Bills",
+          "quote": "We need a comprehensive, all of the above strategy that creates jobs and increases energy independence while bringing down costs for consumers today.",
+          "said_on": "",
+          "source": "adam-hamilton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "roger-marshall",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "roger-marshall-site-record",
+        "roger-marshall-site-record-agriculture",
+        "roger-marshall-site-record-rural-healthcare",
+        "roger-marshall-site-record-cost-of-living",
+        "roger-marshall-site-record-border-security",
+        "roger-marshall-site-record-energy",
+        "roger-marshall-site-record-aerospace-defense",
+        "roger-marshall-site-record-veterans",
+        "roger-marshall-site-record-ogallala-aquifer",
+        "roger-marshall-site-home",
+        "roger-marshall-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Agriculture",
+          "quote": "On April 28, 2026, Doc introduced S. 4418 — the Lowering Input Costs for American Farmers Act — to eliminate the Biden-era countervailing duties on phosphate fertilizer imports from Morocco.",
+          "source": "roger-marshall-site-record-agriculture",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Rural Healthcare",
+          "quote": "In April 2026, Doc introduced the Medicare Advantage Improvement Act, which goes further: no more retroactive denials, no more automated denial algorithms, hard 72-hour caps.",
+          "source": "roger-marshall-site-record-rural-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Border & Security",
+          "quote": "The Laken Riley Act (S. 5) — which Doc cosponsored and President Trump signed into law on January 29, 2025 — was the first major bill of the 119th Congress: it requires ICE detention of unauthorized immigrants who commit certain crimes, including burglary, theft, assault on a law enforcement officer, or any offense causing death or serious injury.",
+          "source": "roger-marshall-site-record-border-security",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Cost of Living",
+          "quote": "Doc voted yea on the Working Families Tax Cuts in 2025 to make the 2017 tax cuts permanent — the small business deduction, full expensing, R&D expensing, the expanded child tax credit.",
+          "said_on": "",
+          "source": "roger-marshall-site-record-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Rural Healthcare",
+          "quote": "In April 2026, Doc introduced the Medicare Advantage Improvement Act, which goes further: no more retroactive denials, no more automated denial algorithms, hard 72-hour caps.",
+          "said_on": "",
+          "source": "roger-marshall-site-record-rural-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border & Security",
+          "quote": "The Laken Riley Act (S. 5) — which Doc cosponsored and President Trump signed into law on January 29, 2025 — was the first major bill of the 119th Congress: it requires ICE detention of unauthorized immigrants who commit certain crimes, including burglary, theft, assault on a law enforcement officer, or any offense causing death or serious injury.",
+          "said_on": "",
+          "source": "roger-marshall-site-record-border-security",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Aerospace & Defense",
+          "quote": "On the defense side: NDAA FY2026 (S. 1071) carried Kansas-specific language Doc fought to include — funding for a new air-traffic-control tower at Fort Riley and an expanded training course at the post.",
+          "said_on": "",
+          "source": "roger-marshall-site-record-aerospace-defense",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "This passage is about defense spending. The site doesn't discuss wars or conflicts abroad."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "My top three priorities right now are E15, E15, and E15. All-of-the-above is the Kansas energy answer because it is the Kansas economic answer.",
+          "said_on": "",
+          "source": "roger-marshall-site-record-energy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

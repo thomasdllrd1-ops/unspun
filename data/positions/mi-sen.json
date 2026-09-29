@@ -1,0 +1,544 @@
+{
+  "race": "mi-sen",
+  "candidates": [
+    {
+      "candidate": "lydia-christensen",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "lydia-christensen-site-issues",
+        "lydia-christensen-site-issues-1",
+        "lydia-christensen-site-issues-2",
+        "lydia-christensen-site-issues-3",
+        "lydia-christensen-site-issues-4",
+        "lydia-christensen-site-home",
+        "lydia-christensen-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Defending the 2nd Amendment",
+          "quote": "Lydia will unchain Michiganders’ constitutional right to bear arms by defending the 2nd Amendment.",
+          "source": "lydia-christensen-site-issues-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Repealing the Patriot Act: Defending Civil Liberties",
+          "quote": "Lydia will push to end sneak-and-peek delayed notice outside genuine emergencies and require judicial approval before a National Security Letter can compel anyone's records.",
+          "source": "lydia-christensen-site-issues-2",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Fighting Mass Surveillance and Technofeudalism: A Bill of Digital Rights",
+          "quote": "Lydia will fight warrantless surveillance of Americans' communications, dismantle the license plate reader dragnet, and introduce a Bill of Digital Rights making your data your property.",
+          "source": "lydia-christensen-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Real Tax Relief: No Income Tax Under $150,000",
+          "quote": "No federal income tax on any earnings under $150,000 a year, a real step toward eliminating the federal income tax entirely, and an end to the hidden tax of private insurance premiums, deductibles, and surprise bills eating into paychecks before workers ever see them.",
+          "said_on": "",
+          "source": "lydia-christensen-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Solving Michigan's Housing Crisis",
+          "quote": "Lydia will pass a rapid rehousing program through HHS to get Michiganders off the streets fast, funded by capping the Pentagon budget rather than cutting help for people.",
+          "said_on": "",
+          "source": "lydia-christensen-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Medicaid for All: Real Choice, Real Coverage",
+          "quote": "Medicaid for All is opt-in coverage for citizens and legal residents. All medically necessary care is covered, no diagnosis or category required.",
+          "said_on": "",
+          "source": "lydia-christensen-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Protecting Dreamers and DACA",
+          "quote": "Lydia will push for a permanent solution for Dreamers, protecting them from deportation, offering them a pathway to citizenship, and ensuring their futures in the United States.",
+          "said_on": "",
+          "source": "lydia-christensen-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Ending the War in Iran",
+          "quote": "Lydia will vote for binding legislation, oppose further war funding without authorization, and close the ceasefire loophole the administration is using to sidestep the law.",
+          "said_on": "",
+          "source": "lydia-christensen-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Ending Fossil Fuel Subsidies",
+          "quote": "Lydia supports ending these industry-specific tax carve-outs and redirecting the money toward Michigan families instead of shareholders.",
+          "said_on": "",
+          "source": "lydia-christensen-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "abdul-el-sayed",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "abdul-el-sayed-site-priorities",
+        "abdul-el-sayed-site-priority-money-out-of-politics",
+        "abdul-el-sayed-site-priority-money-in-your-pocket",
+        "abdul-el-sayed-site-priority-medicare-for-all-the-path-to-a",
+        "abdul-el-sayed-site-home",
+        "abdul-el-sayed-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Money Out of Politics",
+          "quote": "To get corporate and special interest money out of politics, I support legislation to overturn the disastrous Citizens United Supreme Court decision.",
+          "source": "abdul-el-sayed-site-priority-money-out-of-politics",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Money in Your Pocket",
+          "quote": "I believe in bringing dignified, well-paying jobs to Michigan. That means investing in the research, development, and growth of the technologies of the future while using tools like tariffs in a steady, thoughtful, and targeted way to protect them as they grow.",
+          "source": "abdul-el-sayed-site-priority-money-in-your-pocket",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Medicare for All",
+          "quote": "I will fight to expand Medicare to cover all necessary healthcare, including vision, dental, and hearing, and extend it to every single American from cradle to grave without premiums, copays, or deductibles.",
+          "source": "abdul-el-sayed-site-priority-medicare-for-all-the-path-to-a",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Jobs and Trade",
+          "quote": "I believe in bringing dignified, well-paying jobs to Michigan. That means investing in the research, development, and growth of the technologies of the future while using tools like tariffs in a steady, thoughtful, and targeted way to protect them as they grow.",
+          "said_on": "",
+          "source": "abdul-el-sayed-site-priority-money-in-your-pocket",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing and Homelessness",
+          "quote": "We need a building boom. And to create that we need to massively invest in building new housing in communities across the country, and to streamline local regulations that are making it way too hard to build anything in America.",
+          "said_on": "",
+          "source": "abdul-el-sayed-site-priority-money-in-your-pocket",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Medicare for All",
+          "quote": "I will fight to expand Medicare to cover all necessary healthcare, including vision, dental, and hearing, and extend it to every single American from cradle to grave without premiums, copays, or deductibles.",
+          "said_on": "",
+          "source": "abdul-el-sayed-site-priority-medicare-for-all-the-path-to-a",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "We must replace our broken and unpredictable immigration policy with a clear, comprehensive, and fair system. That begins with Abolishing ICE.",
+          "said_on": "",
+          "source": "abdul-el-sayed-site-priority-money-out-of-politics",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Sensible Foreign Policy",
+          "quote": "I oppose the illegal and unjustifiable war in Iran and demand an immediate end to the hostilities.",
+          "said_on": "",
+          "source": "abdul-el-sayed-site-priority-money-out-of-politics",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Environment and Natural Resources",
+          "quote": "That means codifying the Endangerment Finding into law, so no future administration can strip the EPA of its authority to regulate greenhouse gases by executive order.",
+          "said_on": "",
+          "source": "abdul-el-sayed-site-priority-money-out-of-politics",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "walter-kristy",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-mi-2026"
+      ],
+      "priorities_note": "We couldn't find a campaign website. A web search on Sep 28, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "tim-long",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-mi-2026"
+      ],
+      "priorities_note": "We couldn't find a campaign website. A web search on Sep 28, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "douglas-marsh",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-mi-2026"
+      ],
+      "priorities_note": "We couldn't find a campaign website. A web search on Sep 28, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "mike-rogers",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "mike-rogers-site-home",
+        "mike-rogers-site-meet-mike",
+        "mike-rogers-site-housingplan",
+        "mike-rogers-site-healthplan",
+        "mike-rogers-site-what-michiganders-need-to-know"
+      ],
+      "priorities_note": "His campaign website has no list of issues. It has separate plans for housing and health care.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "That means bringing manufacturing jobs back home, lowering the cost of gas, groceries, & prescription drugs, protecting seniors’ social security & medicare, and setting our kids up for success by prioritizing education not indoctrination.",
+          "said_on": "",
+          "source": "mike-rogers-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "ASSISTS WITH DOWNPAYMENTS BY EXPANDING 529 PLANS TO HOUSING",
+          "quote": "Expands 529 plans to cover college, vocational training, and first-time home down payments",
+          "said_on": "",
+          "source": "mike-rogers-site-housingplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "HEALTHCARE THAT WORKS FOR WORKING FAMILIES",
+          "quote": "If hospitals and insurance companies don’t publicly post real prices so patients know what they’re paying before they receive care - the executives should be held accountable. Fines should be imposed.",
+          "said_on": "",
+          "source": "mike-rogers-site-healthplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He was among the first to sound the alarm on the economic and national security danger posed by China.",
+          "said_on": "",
+          "source": "mike-rogers-site-meet-mike",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "On the House Energy and Commerce Committee, Mike worked to secure our nations’ energy independence and unleash American made energy by reducing the regulations and tax burdens on American families and small businesses.",
+          "said_on": "",
+          "source": "mike-rogers-site-meet-mike",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

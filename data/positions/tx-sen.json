@@ -1,0 +1,336 @@
+{
+  "race": "tx-sen",
+  "candidates": [
+    {
+      "candidate": "ted-brown",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "ted-brown-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Digital Privacy and Freedom",
+          "quote": "I oppose government-mandated age limits on social media or other internet use.",
+          "source": "ted-brown-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Taxes",
+          "quote": "Repeal the income tax, abolish the IRS, and replace them with nothing.",
+          "source": "ted-brown-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Immigration",
+          "quote": "End the immigration police state and abolish ICE",
+          "source": "ted-brown-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Ted Brown's Tax Plan:",
+          "quote": "Repeal the income tax, abolish the IRS, and replace them with nothing.",
+          "said_on": "",
+          "source": "ted-brown-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Ted Brown's Healthcare Reforms:",
+          "quote": "Promote Medical Savings Accounts (similar to IRAs)",
+          "said_on": "",
+          "source": "ted-brown-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Ellis Island-Style Solution:",
+          "quote": "End the immigration police state and abolish ICE",
+          "said_on": "",
+          "source": "ted-brown-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "America First Foreign Policy:",
+          "quote": "Bring ALL troops home from foreign assignments",
+          "said_on": "",
+          "source": "ted-brown-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "ken-paxton",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "ken-paxton-site-issues",
+        "ken-paxton-site-home",
+        "ken-paxton-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Carry the Torch for Trump’s Agenda.",
+          "quote": "In Washington, Ken Paxton will champion President Trump’s legislative priorities, including cutting taxes, securing the border and deporting illegal aliens, ending the weaponization of government, and draining the Swamp.",
+          "source": "ken-paxton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "TAKE ON BIG FOOD AND BIG PHARMA",
+          "quote": "In the Senate, he will work alongside President Trump to Make America Healthy Again by taking on Big Pharma and Big Food, increasing transparency in our food and healthcare systems, promoting healthier outcomes for Texas families, and putting the well-being of the Americans people ahead of corporate profits.",
+          "source": "ken-paxton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Sovereignty Matters. Borders Must Hold.",
+          "quote": "Ken Paxton will carry that fight to Washington, where he will help President Trump deport the criminal illegal aliens Joe Biden invited into the country, secure the border, and complete the construction of the border wall.",
+          "source": "ken-paxton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "No More Blank Checks. No More Broken Promises.",
+          "quote": "Ken Paxton is a strong fiscal conservative who will fight to cut taxes and stop the wasteful spending that has led to our nation being in over $36 trillion dollars in debt.",
+          "said_on": "",
+          "source": "ken-paxton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "TAKE ON BIG FOOD AND BIG PHARMA",
+          "quote": "In the Senate, he will work alongside President Trump to Make America Healthy Again by taking on Big Pharma and Big Food, increasing transparency in our food and healthcare systems, promoting healthier outcomes for Texas families, and putting the well-being of the Americans people ahead of corporate profits.",
+          "said_on": "",
+          "source": "ken-paxton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Sovereignty Matters. Borders Must Hold.",
+          "quote": "Ken Paxton will carry that fight to Washington, where he will help President Trump deport the criminal illegal aliens Joe Biden invited into the country, secure the border, and complete the construction of the border wall.",
+          "said_on": "",
+          "source": "ken-paxton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy That Puts Americans First — Period.",
+          "quote": "Alongside President Trump, he will work to advance an America First foreign policy that promotes peace through strength, prioritizes our nation’s interests first and foremost, and ensures the safety of American citizens.",
+          "said_on": "",
+          "source": "ken-paxton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "No More Blank Checks. No More Broken Promises.",
+          "quote": "After four years of Joe Biden causing skyrocketing inflation and declaring war on American energy, Ken Paxton will help bring down costs and remove harmful regulations designed to hurt our energy companies.",
+          "said_on": "",
+          "source": "ken-paxton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "james-talarico",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "james-talarico-site-issues",
+        "james-talarico-site-issue-corruption-democracy",
+        "james-talarico-site-issue-taxes-cost-of-living",
+        "james-talarico-site-issue-public-education",
+        "james-talarico-site-issue-health-care",
+        "james-talarico-site-issue-immigration-border-security",
+        "james-talarico-site-issue-foreign-policy",
+        "james-talarico-site-issue-energy-environment",
+        "james-talarico-site-issue-rural-investment",
+        "james-talarico-site-home",
+        "james-talarico-site-meet-james-talarico",
+        "james-talarico-site-what-voters-need-to-know-about-james"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Corruption & Democracy",
+          "quote": "And it’s why the first set of legislation I will pursue in the U.S. Senate will be an anti-corruption package to ban super PACs and corporate PACs, ban partisan gerrymandering, and increase transparency and accountability in all branches of government.",
+          "source": "james-talarico-site-issue-corruption-democracy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Taxes & Cost of Living",
+          "quote": "Make giant corporations and the wealthiest Americans pay their fair share of taxes. (That way, we can cut taxes for working families and small businesses.)",
+          "source": "james-talarico-site-issue-taxes-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Public Education",
+          "quote": "Provide grants and other incentives to encourage public schools to adopt evidence-based strategies like phonics, early literacy programs, and 1:1 intensive tutoring.",
+          "source": "james-talarico-site-issue-public-education",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Create a fairer tax system",
+          "quote": "Make giant corporations and the wealthiest Americans pay their fair share of taxes. (That way, we can cut taxes for working families and small businesses.)",
+          "said_on": "",
+          "source": "james-talarico-site-issue-taxes-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Taxes & Cost of Living",
+          "quote": "And we need a government that rolls back the barriers keeping us from living the American dream — whether they’re unnecessary tariffs or outdated zoning regulations.",
+          "said_on": "",
+          "source": "james-talarico-site-issue-taxes-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "His \"Lower housing costs\" plan on the same page is longer than our 60-word limit, so we quote this shorter passage. The full plan is on the linked page."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Allow every American — regardless of their age — to join Medicare",
+          "quote": "Provide an affordable not-for-profit health care option for every American, while also bringing down costs for those who don’t participate by increasing competition with private insurance.",
+          "said_on": "",
+          "source": "james-talarico-site-issue-health-care",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Pass comprehensive immigration reform",
+          "quote": "Secure the border, make it easier to come here legally, and supercharge our economy.",
+          "said_on": "",
+          "source": "james-talarico-site-issue-immigration-border-security",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy",
+          "quote": "It is our duty as the world’s oldest democracy to defend Ukraine against Russian aggression, address human rights abuses like those being suffered by the people of Sudan, and use every ounce of our diplomatic and financial leverage to secure peace in Israel and Palestine.",
+          "said_on": "",
+          "source": "james-talarico-site-issue-foreign-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy & Environment",
+          "quote": "We can pioneer innovative ways to streamline permitting processes without compromising the protection of our environment — so that Texas can lead in increasing energy supply and driving down costs.",
+          "said_on": "",
+          "source": "james-talarico-site-issue-energy-environment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
