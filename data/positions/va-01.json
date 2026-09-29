@@ -1,0 +1,220 @@
+{
+  "race": "va-01",
+  "candidates": [
+    {
+      "candidate": "shannon-taylor",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "shannon-taylor-site-agenda",
+        "shannon-taylor-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Mandatory Jail Time for Politicians that Steal Our Tax Payer Funds.",
+          "quote": "In Congress, my first bill will mandate jail time of at least a year for any current or former member of Congress caught stealing $10,000 in taxpayer funds, including not paying their taxes.",
+          "source": "shannon-taylor-site-agenda",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "Ban Members of Congress from Becoming Lobbyists on Behalf of the Corporations They Regulate, for Life.",
+          "quote": "That is why I will propose a lifetime federal lobbying ban on those who serve in Congress.",
+          "source": "shannon-taylor-site-agenda",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "Ban Members of Congress from Trading Stocks Using Information No Other American Has.",
+          "quote": "When elected, I will draw a hard line on not buying or selling any stock while in office.",
+          "source": "shannon-taylor-site-agenda",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower Our Taxes & Grow the Economy",
+          "quote": "Shannon will fight to cut taxes for working families and small businesses – not for billionaires and corporate special interests.",
+          "said_on": "",
+          "source": "shannon-taylor-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Fight for Quality, Affordable Healthcare.",
+          "quote": "Shannon will fight to restore the Affordable Care Act tax credits that Congressman Wittman allowed to expire, causing premiums to rise by hundreds of dollars a month.",
+          "said_on": "",
+          "source": "shannon-taylor-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Lower Our Taxes & Grow the Economy",
+          "quote": "She will work to rein in the reckless tariffs and endless wars that are driving up the price of groceries, gas, and everyday goods.",
+          "said_on": "",
+          "source": "shannon-taylor-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": "This is the only passage on the site about war. It is in the section on taxes and the economy."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Lower Utility Costs",
+          "quote": "Shannon has consistently opposed proposed utility price hikes here in Virginia. She has also called for legislation to mandate that any new data center construction does not result in increased energy costs for our families.",
+          "said_on": "",
+          "source": "shannon-taylor-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "robert-wittman",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "robert-wittman-site-home",
+        "robert-wittman-site-issues",
+        "robert-wittman-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "JOBS AND THE ECONOMY",
+          "quote": "I am fighting for policies that lower costs, keep taxes down, increase American energy production, reduce unnecessary regulations, and make it easier to build, invest, hire, and grow here at home.",
+          "source": "robert-wittman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "FISCAL ACCOUNTABILITY",
+          "quote": "Fiscal responsibility starts with respecting taxpayers’ hard earned money. That means eliminating waste, fraud, improper payments, and duplicative or ineffective programs while protecting the essential services Americans depend on.",
+          "source": "robert-wittman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "HEALTH CARE",
+          "quote": "I have supported efforts to increase price transparency, expand access to lower-cost medicines, give families more flexibility through Health Savings Accounts, and make it easier for patients to understand what they will actually pay before receiving care.",
+          "source": "robert-wittman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "JOBS AND THE ECONOMY",
+          "quote": "I am fighting for policies that lower costs, keep taxes down, increase American energy production, reduce unnecessary regulations, and make it easier to build, invest, hire, and grow here at home.",
+          "said_on": "",
+          "source": "robert-wittman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site mentions housing costs and military family housing, but doesn't say what he would do about housing in general."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "HEALTH CARE",
+          "quote": "I have supported efforts to increase price transparency, expand access to lower-cost medicines, give families more flexibility through Health Savings Accounts, and make it easier for patients to understand what they will actually pay before receiving care.",
+          "said_on": "",
+          "source": "robert-wittman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border Security",
+          "quote": "We need to stop illegal crossings, target cartels and human traffickers, stop the flow of deadly drugs into our country, and make sure dangerous criminals do not fall through the cracks.",
+          "said_on": "",
+          "source": "robert-wittman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "National Security",
+          "quote": "We must rebuild our defense industrial base, expand shipbuilding, produce the munitions and weapons our military needs, accelerate the adoption of new technology, and make sure our servicemembers have the best equipment and training in the world.",
+          "said_on": "",
+          "source": "robert-wittman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Affordable, Reliable American Energy",
+          "quote": "I support an all-of-the-above approach that includes nuclear power, natural gas, oil, hydropower, wind, solar, carbon capture, and the next generation of American energy technologies.",
+          "said_on": "",
+          "source": "robert-wittman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "race": "va-05",
+  "candidates": [
+    {
+      "candidate": "cooke-harvey",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "va-elec-candidates-2026"
+      ],
+      "priorities_note": "We couldn't find a campaign website. Virginia's official candidate list doesn't include one. A web search on Sep 28, 2026 found a YouTube channel but no website (we don't use social media or video channels).",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "john-mcguire",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "john-mcguire-site-home",
+        "john-mcguire-site-about"
+      ],
+      "priorities_note": "His campaign website has no issues page or list of issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "tom-perriello",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "tom-perriello-site-issues",
+        "tom-perriello-site-healthcare",
+        "tom-perriello-site-corruption",
+        "tom-perriello-site-jobs",
+        "tom-perriello-site-housing",
+        "tom-perriello-site-foreign-policy",
+        "tom-perriello-site-block-valley-link",
+        "tom-perriello-site-ai",
+        "tom-perriello-site-rural-communities",
+        "tom-perriello-site-seniors",
+        "tom-perriello-site-students",
+        "tom-perriello-site-childcare-and-education",
+        "tom-perriello-site-child-safety",
+        "tom-perriello-site-voting-rights",
+        "tom-perriello-site-freedoms",
+        "tom-perriello-site-issue-veterans",
+        "tom-perriello-site-home",
+        "tom-perriello-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Healthcare",
+          "quote": "We cannot let insurance companies keep rationing care, driving up costs, and preventing doctors and nurses from providing the care they have trained their whole lives to provide, because insurance lobbyists paid this Congress to add on layer after layer of red tape and pre-authorizations.",
+          "source": "tom-perriello-site-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Corruption",
+          "quote": "Tom is running to shut down the gravy train and get that money back to the people it was taken from.",
+          "source": "tom-perriello-site-corruption",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Jobs",
+          "quote": "Tom would flip that rule and rebuild federal and fiscal policy around one priority – getting working Americans the raise they've earned.",
+          "source": "tom-perriello-site-jobs",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Tom's Priorities",
+          "quote": "Tom's most urgent priority will be to save families money by ending the tariffs that spiked grocery bills, ending the Iran war that’s made gas and fertilizer prices insane, and ending the shady deals bankrupting our country.",
+          "said_on": "",
+          "source": "tom-perriello-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "Tom is focused on bringing costs down and restoring a fair housing market. That means building more housing, cutting red tape, and taking on the corporate practices that are driving prices higher.",
+          "said_on": "",
+          "source": "tom-perriello-site-housing",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "We cannot let insurance companies keep rationing care, driving up costs, and preventing doctors and nurses from providing the care they have trained their whole lives to provide, because insurance lobbyists paid this Congress to add on layer after layer of red tape and pre-authorizations.",
+          "said_on": "",
+          "source": "tom-perriello-site-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy",
+          "quote": "Tom's rule is simple: Make Congress vote before America fights, and fund the people who stop wars before they start.",
+          "said_on": "",
+          "source": "tom-perriello-site-foreign-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He fought side by side with communities throughout the Blue Ridge to defeat the Atlantic Coast Pipeline and to land good-paying clean energy jobs.",
+          "said_on": "",
+          "source": "tom-perriello-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

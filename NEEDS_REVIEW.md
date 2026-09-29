@@ -61,7 +61,14 @@ A script already confirmed every quote is word for word on the candidate's site.
 
 1. Open the race's **Side by side** page (e.g. `/races/va-sen/compare/`) and click through to each candidate's site.
 2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
-3. If a pick looks unfair, tell Claude which one and why. Researched so far: **VA Senate** (Sep 28).
+3. If a pick looks unfair, tell Claude which one and why.
+
+Researched so far (Sep 28): **VA Senate and VA-01, 02, 03, 05, 06, 07, 08, 09, 10, 11**. A good sample to start with: VA-02 (4 candidates) and VA-07 (6 candidates).
+
+Blocked or broken sites:
+- **VA-04 is on hold**: Robert Murray's site (murrayforcongress.com, from the state list) is blocked by a safety filter on our network. It shows a "safebrowse.io" warning page. Before opening it yourself, you could check the address with Google's Safe Browsing site status tool (transparencyreport.google.com/safe-browsing/search). If it's safe, tell Claude, and VA-04 (McClellan and Bell are already researched) can be finished.
+- **VA-07, Joshua Ertle**: the site on the state list (www.joshua.vote) showed a security warning, and "page not found" without "www". He's marked "no website found." Recheck in a week.
+- **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
 ---
 

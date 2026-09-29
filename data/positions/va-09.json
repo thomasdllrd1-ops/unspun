@@ -1,0 +1,222 @@
+{
+  "race": "va-09",
+  "candidates": [
+    {
+      "candidate": "morgan-griffith",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "morgan-griffith-site-issues",
+        "morgan-griffith-site-home",
+        "morgan-griffith-site-meet-morgan"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Getting Government Out of the Way of Job Creation",
+          "quote": "In Congress, Morgan introduced the EPA Regulatory Relief Act to reduce burdensome regulations on hospitals, manufacturers, and other businesses in our area so they can grow and provide jobs.",
+          "source": "morgan-griffith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Protecting Coal and American Energy Resources",
+          "quote": "Morgan is working to provide funding to revitalize coal communities by reclaiming and restoring abandoned mine sites to create jobs and increase our coal production.",
+          "source": "morgan-griffith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Securing Our Elections",
+          "quote": "Morgan supports commonsense solutions to secure our elections, such as requiring voter ID, clearing the deceased from voter rolls, and requiring proof of citizenship to register to vote.",
+          "source": "morgan-griffith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Getting Government Out of the Way of Job Creation",
+          "quote": "In Congress, Morgan introduced the EPA Regulatory Relief Act to reduce burdensome regulations on hospitals, manufacturers, and other businesses in our area so they can grow and provide jobs.",
+          "said_on": "",
+          "source": "morgan-griffith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site's health section is about the opioid crisis, which this issue doesn't cover."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Cracking Down on Illegal Immigration",
+          "quote": "Morgan is working to secure our border and crack down on illegal immigration. Morgan welcomes immigrants who want to come here legally and share in the American dream.",
+          "said_on": "",
+          "source": "morgan-griffith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protecting Coal and American Energy Resources",
+          "quote": "Morgan supports an “all of the above” energy approach and coal is a vital part of that plan.",
+          "said_on": "",
+          "source": "morgan-griffith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "joy-powers",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "joy-powers-site-home",
+        "joy-powers-site-copy-of-priorities",
+        "joy-powers-site-meet-joy",
+        "joy-powers-site-about-3"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "HEALTHCARE THAT'S CLOSE TO HOME",
+          "quote": "Joy will protect rural hospitals, expand mental health and addiction treatment, and grow the healthcare workforce so every family can get quality care close to home.",
+          "source": "joy-powers-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "OPPORTUNITY FOR WORKING FAMILIES",
+          "quote": "Joy will bring new industries and small business investment to the Ninth District, rebuild infrastructure like roads and broadband, and make sure every community has a fair chance to thrive.",
+          "source": "joy-powers-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "MARKET AFFORDABILITY IN SWVA",
+          "quote": "Joy will fight to lower costs by holding corporations accountable, building affordable homes, and ensuring working people can keep more of what they earn each month.",
+          "source": "joy-powers-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "The cost of everything keeps going up. What is your plan?",
+          "quote": "I am running to put real weight back on the side of working people. That means going after the price-gouging and the consolidation that lets a handful of companies set the price of your food, your seed, and your medicine.",
+          "said_on": "",
+          "source": "joy-powers-site-copy-of-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "MARKET AFFORDABILITY IN SWVA",
+          "quote": "Joy will fight to lower costs by holding corporations accountable, building affordable homes, and ensuring working people can keep more of what they earn each month.",
+          "said_on": "",
+          "source": "joy-powers-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Rural hospitals keep cutting services. What would you do?",
+          "quote": "A big part of this traces back to recent federal Medicaid changes that pulled billions out of Virginia hospitals starting this year. I would fight to protect that funding, because for rural hospitals it is not extra.",
+          "said_on": "",
+          "source": "joy-powers-site-copy-of-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Where do you stand on AIPAC and U.S. aid to Israel?",
+          "quote": "We send Israel's government billions in weapons and taxpayer dollars every year with almost no conditions and no accountability, and I would end that.",
+          "said_on": "",
+          "source": "joy-powers-site-copy-of-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Where do you stand on data centers?",
+          "quote": "If a project cannot run without raising your power bill, draining our water, and pocketing a tax break the rest of us pay for, then it is not a good deal for Southwest Virginia, and I will say so plainly.",
+          "said_on": "",
+          "source": "joy-powers-site-copy-of-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -40,12 +40,14 @@ const decode = (s: string) =>
   s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e: string) =>
     e[0] === '#' ? String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10)) : ENTITIES[e.toLowerCase()] ?? m,
   );
+/** Block tags (paragraphs, list items…) become a space; inline tags (bold, links…) vanish, as a reader sees them. */
+const BLOCK = 'address|article|aside|blockquote|br|button|dd|div|dl|dt|figcaption|figure|footer|form|h[1-6]|header|hr|label|li|main|nav|ol|option|p|section|select|table|tbody|td|th|thead|tr|ul';
 const htmlToText = (html: string) =>
   decode(
     html
       .replace(/<(script|style|noscript|svg)[^>]*>[\s\S]*?<\/\1>/gi, ' ')
-      .replace(/<br\s*\/?>/gi, ' ')
-      .replace(/<[^>]+>/g, ' '),
+      .replace(new RegExp(`<\\/?(?:${BLOCK})\\b[^>]*>`, 'gi'), ' ')
+      .replace(/<[^>]+>/g, ''),
   );
 /** Same words, ignoring differences a reader can't see: curly vs straight quotes, dash types, spacing. */
 export const normalize = (s: string) =>

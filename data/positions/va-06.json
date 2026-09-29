@@ -1,0 +1,229 @@
+{
+  "race": "va-06",
+  "candidates": [
+    {
+      "candidate": "ben-cline",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "ben-cline-site-issues",
+        "ben-cline-site-issues-stop-the-waste",
+        "ben-cline-site-issues-hold-government-accountable",
+        "ben-cline-site-issues-support-the-2nd-amendment",
+        "ben-cline-site-issues-defend-the-rule-of-law",
+        "ben-cline-site-issues-upholding-election-integrity",
+        "ben-cline-site-issues-protecting-the-unborn",
+        "ben-cline-site-issues-educating-our-children",
+        "ben-cline-site-issues-keep-america-safe",
+        "ben-cline-site-issues-bolster-rural-america",
+        "ben-cline-site-home",
+        "ben-cline-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Stop The Waste",
+          "quote": "I will hold Washington accountable by putting an end to wasteful spending and returning as many tax dollars as possible back to the citizens – after all, it’s your money, not the government’s money!",
+          "source": "ben-cline-site-issues-stop-the-waste",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Hold Government Accountable",
+          "quote": "I have a long record of passing legislation to increase transparency in government.",
+          "source": "ben-cline-site-issues-hold-government-accountable",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Support The 2nd Amendment",
+          "quote": "I promise to fight every day to defend the Second Amendment so that we can protect ourselves and our families.",
+          "source": "ben-cline-site-issues-support-the-2nd-amendment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Stop The Waste",
+          "quote": "I will hold Washington accountable by putting an end to wasteful spending and returning as many tax dollars as possible back to the citizens – after all, it’s your money, not the government’s money!",
+          "said_on": "",
+          "source": "ben-cline-site-issues-stop-the-waste",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Keep America Safe",
+          "quote": "Peace through strength deters future threats from ever challenging our safety. I support measures to modernize our military in order to prepare for the battlefields of the future and prevent America from fighting forever wars.",
+          "said_on": "",
+          "source": "ben-cline-site-issues-keep-america-safe",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Since being asked to serve on the Committees on Budget and Appropriations, Ben has taken the fight to liberal left's massive tax hikes, the Squad's Green New Deal scheme, and Joe Biden's bloated bureaucracy.",
+          "said_on": "",
+          "source": "ben-cline-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "This is the only mention of climate or energy on the site. It's from his About page."
+        }
+      }
+    },
+    {
+      "candidate": "beth-macy",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "beth-macy-site-priorities",
+        "beth-macy-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Data Centers Must be Regulated",
+          "quote": "I will reach across party lines to work with Congressional colleagues to regulate the proliferation of data centers that consume massive quantities of electricity and water, which raises prices for my constituents.",
+          "source": "beth-macy-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Creating a More Affordable Virginia",
+          "quote": "Congress needs to reduce the price of food by cracking down on corporate profiteering, preventing Big Ag from secretly colluding to keep prices high. It should end tariffs, which are really a tax on purchased items.",
+          "source": "beth-macy-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Healthcare Should Be a Human Right",
+          "quote": "I will fight for universal healthcare coverage including Medicare for All so that anyone can join and stop worrying about how they’ll pay for an emergency room visit or a hospital stay.",
+          "source": "beth-macy-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Creating a More Affordable Virginia",
+          "quote": "Congress needs to reduce the price of food by cracking down on corporate profiteering, preventing Big Ag from secretly colluding to keep prices high. It should end tariffs, which are really a tax on purchased items.",
+          "said_on": "",
+          "source": "beth-macy-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Creating a More Affordable Virginia",
+          "quote": "Congress should create incentives for state and local governments to enact reforms that pave the way for more affordable housing, including zoning reform.",
+          "said_on": "",
+          "source": "beth-macy-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare Should Be a Human Right",
+          "quote": "I will fight for universal healthcare coverage including Medicare for All so that anyone can join and stop worrying about how they’ll pay for an emergency room visit or a hospital stay.",
+          "said_on": "",
+          "source": "beth-macy-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Addressing Our Immigration Disaster",
+          "quote": "America must restore/preserve legal pathways for permanent legal status and/or citizenship.",
+          "said_on": "",
+          "source": "beth-macy-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Data Centers Must be Regulated",
+          "quote": "I will reach across party lines to work with Congressional colleagues to regulate the proliferation of data centers that consume massive quantities of electricity and water, which raises prices for my constituents.",
+          "said_on": "",
+          "source": "beth-macy-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

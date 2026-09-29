@@ -1,0 +1,450 @@
+{
+  "race": "va-08",
+  "candidates": [
+    {
+      "candidate": "shelly-arnoldi",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "shelly-arnoldi-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Strong Schools, Strong Families",
+          "quote": "Put parents back at the center of their children's education.",
+          "source": "shelly-arnoldi-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Lower Taxes, More Opportunity",
+          "quote": "Cut taxes and red tape that hurt small businesses so our local economy can thrive.",
+          "source": "shelly-arnoldi-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Honest, Accountable Government",
+          "quote": "Term limits. Transparent budgets. An end to the influence of special interests over the needs of constituents.",
+          "source": "shelly-arnoldi-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower Taxes, More Opportunity",
+          "quote": "Cut taxes and red tape that hurt small businesses so our local economy can thrive.",
+          "said_on": "",
+          "source": "shelly-arnoldi-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Lower Taxes, More Opportunity",
+          "quote": "Hold data centers responsible for their own energy and water — not at the expense of working families.",
+          "said_on": "",
+          "source": "shelly-arnoldi-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "donald-beyer",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "donald-beyer-site-home",
+        "donald-beyer-site-priorities-economy",
+        "donald-beyer-site-priorities-education",
+        "donald-beyer-site-priorities-energyandenvironment",
+        "donald-beyer-site-priorities-federalworkforce",
+        "donald-beyer-site-priorities-foreignpolicy",
+        "donald-beyer-site-priorities-healthcare",
+        "donald-beyer-site-priorities-housing",
+        "donald-beyer-site-priorities-immigration",
+        "donald-beyer-site-priorities-oversightoftheadministration",
+        "donald-beyer-site-priorities-racialjustice",
+        "donald-beyer-site-priorities-transportation",
+        "donald-beyer-site-meetdon"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "An Equitable Economy",
+          "quote": "Eliminating Trump’s tariffs is one of the most effective steps we can take to make life affordable for the American people, but it’s not the only one.",
+          "source": "donald-beyer-site-priorities-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Education",
+          "quote": "I have vigorously opposed these illegal attacks on America’s education system with legislation, my votes, and in person at the Department of Education—where I joined colleagues to bluntly tell Secretary of Education Linda McMahon that her actions are wrong and illegal.",
+          "source": "donald-beyer-site-priorities-education",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Energy & The Environment",
+          "quote": "For that reason, I am the sponsor of the Healthy Climate and Family Security Act, a carbon cap and dividend bill that would auction carbon pollution credits and return the proceeds electronically every quarter to every American.",
+          "source": "donald-beyer-site-priorities-energyandenvironment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "An Equitable Economy",
+          "quote": "Eliminating Trump’s tariffs is one of the most effective steps we can take to make life affordable for the American people, but it’s not the only one.",
+          "said_on": "",
+          "source": "donald-beyer-site-priorities-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "I am a co-lead of H.R. 2573, the Affordable Housing Credit Improvement Act, which would build more than two million new affordable housing units nationwide over the next 10 years and better meet the needs of at-risk groups.",
+          "said_on": "",
+          "source": "donald-beyer-site-priorities-housing",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "As a member of the House Committee on Ways and Means, which has jurisdiction over health care, I am at the heart of the fight to build on that progress and make affordable, accessible health care fully universal. I introduced the Choose Medicare Act to do just that, and am a proud co-sponsor of Medicare for All.",
+          "said_on": "",
+          "source": "donald-beyer-site-priorities-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "That is why I support a humane approach to immigration that treats people with dignity while advancing our national interest, as opposed to the viciousness and hate we have seen over and over again from this president and his administration.",
+          "said_on": "",
+          "source": "donald-beyer-site-priorities-immigration",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy",
+          "quote": "While I believe in maintaining a strong military, I will always see diplomatic engagement as the first, second, and third option, with force as a true last resort.",
+          "said_on": "",
+          "source": "donald-beyer-site-priorities-foreignpolicy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy & The Environment",
+          "quote": "For that reason, I am the sponsor of the Healthy Climate and Family Security Act, a carbon cap and dividend bill that would auction carbon pollution credits and return the proceeds electronically every quarter to every American.",
+          "said_on": "",
+          "source": "donald-beyer-site-priorities-energyandenvironment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "tony-sabio",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "tony-sabio-site-home",
+        "tony-sabio-site-energy-26-power",
+        "tony-sabio-site-jobs-26-opportunity",
+        "tony-sabio-site-small-business-first",
+        "tony-sabio-site-safe-and-secured-america-1",
+        "tony-sabio-site-affordable-healthcare-1",
+        "tony-sabio-site-promise-for-america",
+        "tony-sabio-site-meet-tony-1"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "THE ENERGY AFFORDABILITY & AMERICAN POWER ACT",
+          "quote": "Prevent middle-class families from carrying the financial burden of large-scale infrastructure expansion driven by hyperscale energy demand.",
+          "source": "tony-sabio-site-energy-26-power",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "THE AMERICAN JOBS & INDUSTRIAL RENEWAL ACT",
+          "quote": "Encourage investment in American production and local economic growth rather than dependence on overseas supply chains.",
+          "source": "tony-sabio-site-jobs-26-opportunity",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "THE SMALL BUSINESS FIRST ACT",
+          "quote": "Streamline unnecessary regulations hurting small business growth and local investment.",
+          "source": "tony-sabio-site-small-business-first",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "THE AMERICAN JOBS & INDUSTRIAL RENEWAL ACT",
+          "quote": "Encourage investment in American production and local economic growth rather than dependence on overseas supply chains.",
+          "said_on": "",
+          "source": "tony-sabio-site-jobs-26-opportunity",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Affordable Care. More Choices. Better Outcomes.",
+          "quote": "This plan delivers universal access without a government takeover and lowers costs without permanent subsidies.",
+          "said_on": "",
+          "source": "tony-sabio-site-affordable-healthcare-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "THE SAFE COMMUNITIES & SECURE AMERICA ACT",
+          "quote": "Secure the border while restoring lawful and orderly immigration processes.",
+          "said_on": "",
+          "source": "tony-sabio-site-safe-and-secured-america-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "THE SAFE COMMUNITIES & SECURE AMERICA ACT",
+          "quote": "America must restore strength abroad while rebuilding confidence at home.",
+          "said_on": "",
+          "source": "tony-sabio-site-safe-and-secured-america-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protect Working Families from Massive Utility Cost Shifts",
+          "quote": "Prevent middle-class families from carrying the financial burden of large-scale infrastructure expansion driven by hyperscale energy demand.",
+          "said_on": "",
+          "source": "tony-sabio-site-energy-26-power",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "tim-sharman",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "tim-sharman-site-home",
+        "tim-sharman-site-about",
+        "tim-sharman-site-congress-can-lead"
+      ],
+      "priorities_note": "His home page lists these issues as headings. We couldn't find any text under them.",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordability, Affordability, Affordability",
+          "quote": "",
+          "source": "tim-sharman-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "An Economy of Opportunity",
+          "quote": "",
+          "source": "tim-sharman-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "The American Opportunity Fund Act",
+          "quote": "",
+          "source": "tim-sharman-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site has sections titled \"Affordability, Affordability, Affordability\" and \"An Economy of Opportunity,\" but we couldn't find any text under them."
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site has a section titled \"The Affordable Healthcare Moonshot,\" but we couldn't find any text under it."
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -255,6 +255,7 @@ export const IssuesSchema = z.object({
         id: z.string().regex(/^[a-z-]+$/),
         name: z.string(),
         icon: z.string(),
+        question: z.string().endsWith('?'), // the key question: we quote the passage that most directly answers it
         covers: z.string(),
         not_covered: z.string(),
         why: z.array(z.object({ source: sourceId, text: z.string() })).min(2),
@@ -290,7 +291,7 @@ export const PrioritySchema = z
   .object({
     rank: z.number().int().min(1).max(3),
     heading: z.string().min(1), // their heading, word for word
-    quote: z.string().min(1), // word for word
+    quote: z.string(), // word for word; blank only when the site shows the heading with no text under it
     source: sourceId,
     ...checkedFields,
   })

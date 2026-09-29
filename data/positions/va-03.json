@@ -1,0 +1,439 @@
+{
+  "race": "va-03",
+  "candidates": [
+    {
+      "candidate": "makiba-gaines",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "makiba-gaines-site-blank-1",
+        "makiba-gaines-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "AFFORDABILITY/TAXES",
+          "quote": "Not only are household and family costs increasing but everyday Americans are being buried under federal, state, and local taxes, sales taxes, real estate and personal property taxes, tolls, and more government mandated expenses.",
+          "source": "makiba-gaines-site-blank-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "FIGHTING GOVERNMENT CORRUPTION, FRAUD, AND WASTE",
+          "quote": "I intend to reduce financial burdens on the American public by reducing government waste and redistributing those funds to other necessary programs on which so many Americans need and rely.",
+          "source": "makiba-gaines-site-blank-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "CRIME CONTROL/SELF SUFFICIENCY",
+          "quote": "I intend to increase funding to community programs to establish strong partnerships with Americans who want to create change and lead programs and incentives in their own communities.",
+          "source": "makiba-gaines-site-blank-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "AFFORDABILITY/TAXES",
+          "quote": "Not only are household and family costs increasing but everyday Americans are being buried under federal, state, and local taxes, sales taxes, real estate and personal property taxes, tolls, and more government mandated expenses.",
+          "said_on": "",
+          "source": "makiba-gaines-site-blank-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "CRIME CONTROL/SELF SUFFICIENCY",
+          "quote": "We can reduce poverty and crime by increasing funding to home-ownership- and entrepreneurship programs and incentives.",
+          "said_on": "",
+          "source": "makiba-gaines-site-blank-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "PROTECTING MEDICAID, MEDICARE, AND SOCIAL SECURITY",
+          "quote": "As Americans, we must demand proper funding of Medicare, Medicaid, and Social Security programs.",
+          "said_on": "",
+          "source": "makiba-gaines-site-blank-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "edwin-rivera",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "edwin-rivera-site-issues",
+        "edwin-rivera-site-home",
+        "edwin-rivera-site-about",
+        "edwin-rivera-site-issues-education-reform",
+        "edwin-rivera-site-issues-healthcare-accessibility"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Education Reform",
+          "quote": "HBCU Education Career & Tech. Public/private college pathways from local high schools. Raise teacher pay.",
+          "source": "edwin-rivera-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "Transportation & Tolls",
+          "quote": "Toll Capping / oppose tolls on HRBT.",
+          "source": "edwin-rivera-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "Healthcare Accessibility",
+          "quote": "Edwin Rivera supports improving access to doctors, mental health services, prescription affordability, preventive care, and timely treatment for communities that are too often overlooked.",
+          "source": "edwin-rivera-site-issues-healthcare-accessibility",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy & Jobs",
+          "quote": "Edwin will work to lower taxes pass legislation that keeps Virginia the best state to do business increase job opportunities expand public-private partnerships.",
+          "said_on": "",
+          "source": "edwin-rivera-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Affordability & Homeownership",
+          "quote": "Support Affordable housing options.",
+          "said_on": "",
+          "source": "edwin-rivera-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Quality Care Should Be Within Reach",
+          "quote": "Edwin Rivera supports improving access to doctors, mental health services, prescription affordability, preventive care, and timely treatment for communities that are too often overlooked.",
+          "said_on": "",
+          "source": "edwin-rivera-site-issues-healthcare-accessibility",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "Increase the number of Immigration Judges. Fix green card process.",
+          "said_on": "",
+          "source": "edwin-rivera-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy and Natural Resources",
+          "quote": "Lower energy cost, Edwin support an all-of-the above energy platform.",
+          "said_on": "",
+          "source": "edwin-rivera-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "robert-scott",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "robert-scott-site-the-scott-record",
+        "robert-scott-site-working-for-us",
+        "robert-scott-site-home",
+        "robert-scott-site-about-bobby"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "ENSURING EVERY CHILD HAS ACCESS TO A QUALITY EDUCATION",
+          "quote": "As Chairman of the House Education and Labor Committee, Congressman Scott worked with President Biden to draft the education provisions of the American Rescue Plan Act, which helped reopen our schools with the single largest federal investment in K-12 public schools in America’s history and provided billions of dollars to our Historical Black Colleges and Universities.",
+          "source": "robert-scott-site-the-scott-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "WORKING TO REFORM OUR NATION’S BROKEN CRIMINAL JUSTICE SYSTEM",
+          "quote": "Since his first term in Congress, Congressman Scott has fought for comprehensive, evidence-based criminal justice reform. That is why he opposed the 1994 Crime Bill, which contributed to mass incarceration, destroyed communities, and did nothing to reduce crime.",
+          "source": "robert-scott-site-the-scott-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "ADDRESSING CLIMATE CHANGE, PROTECTING THE ENVIRONMENT, AND BUILDING A RESILIENT HAMPTON ROADS",
+          "quote": "Congressman Scott also supported the Inflation Reduction Act, which is the single largest federal investment ever to address climate change and includes language drafted by Congressman Scott for investment and production tax credits for new clean, green energy.",
+          "source": "robert-scott-site-the-scott-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "FIGHTING FOR AMERICA’S WORKERS",
+          "quote": "He has sponsored the Raise the Wage Act to gradually increase the federal minimum wage from $7.25 an hour to $17 an hour – if enacted, this would be the first increase in the federal minimum wage since 2009; previous versions of Rep Scott's bill have passed the House, but failed in the Senate.",
+          "said_on": "",
+          "source": "robert-scott-site-the-scott-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "EXPANDING ACCESS TO HEALTHCARE AND LOWERING COSTS FOR SENIORS",
+          "quote": "He also supported the Inflation Reduction Act, which lowers the cost of healthcare by reducing premiums in the ACA Marketplace, caps the price of insulin at $35 for seniors in Medicare, and lowers the costs of prescription drugs for seniors by finally allowing Medicare to negotiate drug prices.",
+          "said_on": "",
+          "source": "robert-scott-site-the-scott-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "On protecting our region's defense interests, Bobby is an active member of the Congressional Shipbuilding Caucus and is a leading advocate for shipbuilding, shipbuilders, and our men and women in uniform.",
+          "said_on": "",
+          "source": "robert-scott-site-about-bobby",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": "This passage is about defense spending. The site doesn't discuss wars or conflicts abroad."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "ADDRESSING CLIMATE CHANGE, PROTECTING THE ENVIRONMENT, AND BUILDING A RESILIENT HAMPTON ROADS",
+          "quote": "Congressman Scott also supported the Inflation Reduction Act, which is the single largest federal investment ever to address climate change and includes language drafted by Congressman Scott for investment and production tax credits for new clean, green energy.",
+          "said_on": "",
+          "source": "robert-scott-site-the-scott-record",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "stephen-woll",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "stephen-woll-site-issues",
+        "stephen-woll-site-home",
+        "stephen-woll-site-meetsteve"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Government & Rule of Law",
+          "quote": "End partisan gerrymandering - independent citizen commissions only",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "America's Place in the World",
+          "quote": "Re-embrace NATO - 80 years of the most effective peacekeeping force in history; our behavior toward it has been shameful",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "Jobs, Health Care, and Growth",
+          "quote": "Fight inflation by restoring middle class wages, not by blaming scapegoats",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "INFLATION & TRADE",
+          "quote": "Fight inflation by restoring middle class wages, not by blaming scapegoats",
+          "said_on": "",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "RIGHTS",
+          "quote": "Increased housing to support our growing population at affordable rates",
+          "said_on": "",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "HEALTH CARE",
+          "quote": "Universal access to basic health care. Other peer nations have solved this - we need to.",
+          "said_on": "",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "IMMIGRATION",
+          "quote": "Secure our borders fairly, intelligently, and compassionately",
+          "said_on": "",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "STANDING AGAINST AGGRESSION",
+          "quote": "Support Ukraine fully - a democracy brutally attacked by a dictator deserves our backing",
+          "said_on": "",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "ENVIRONMENT & ENERGY",
+          "quote": "Climate change is real and undeniable. Bickering about the cause does not relieve us of the obligation to act now, in collaboration with international efforts that we first initiated.",
+          "said_on": "",
+          "source": "stephen-woll-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "race": "va-11",
+  "candidates": [
+    {
+      "candidate": "dianne-blais",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "dianne-blais-site-doku-php-id-what-i-stand-for-a-greenus",
+        "dianne-blais-site-home",
+        "dianne-blais-site-doku-php-id-about"
+      ],
+      "priorities_note": "Her campaign website has no list of issues. Its \"What I Stand For\" page is written as paragraphs.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "My Domestic Platform is Ralph Nader's Compact for America which includes $15 minimum wage, increase taxes on wealthy and corporations and medicare for all.",
+          "said_on": "",
+          "source": "dianne-blais-site-doku-php-id-what-i-stand-for-a-greenus",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "My Domestic Platform is Ralph Nader's Compact for America which includes $15 minimum wage, increase taxes on wealthy and corporations and medicare for all.",
+          "said_on": "",
+          "source": "dianne-blais-site-doku-php-id-what-i-stand-for-a-greenus",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "The same sentence is quoted for cost of living & jobs."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "I want: A moratorium of data centers, free public transit, open borders, improved incarceration, and a basic return to pre-2025 status quo.",
+          "said_on": "",
+          "source": "dianne-blais-site-doku-php-id-what-i-stand-for-a-greenus",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Wars and the preparation for wars have huge costs and have major environmental impacts besides eating up the money that should be spent here.",
+          "said_on": "",
+          "source": "dianne-blais-site-doku-php-id-what-i-stand-for-a-greenus",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "arthur-purves",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "arthur-purves-site-home"
+      ],
+      "priorities_note": "His site lists his positions as one-sentence statements, shown here as written.",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Ultra-processed food causes chronic disease, including mental illness.",
+          "quote": "",
+          "source": "arthur-purves-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Billions spent reducing carbon footprint has no impact on atmospheric CO2.",
+          "quote": "",
+          "source": "arthur-purves-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "It is warming. It is not a crisis, but Democrats will still raise gas prices.",
+          "quote": "",
+          "source": "arthur-purves-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "The alternative to big government is self-sufficient families.",
+          "quote": "Tax hikes make families less self-sufficient. Bring back good jobs. Have schools that actually teach reading and arithmetic. Stop chronic disease: Eat real food. End the war on fossil fuels to reduce gas and food prices.",
+          "said_on": "",
+          "source": "arthur-purves-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Want an alternative to Obamacare? Eat real food and you may not need Obamacare!",
+          "said_on": "",
+          "source": "arthur-purves-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Vet immigrants before they enter.",
+          "quote": "Do not let in the drug- and sex-traffickers and gang members from whom other immigrants are trying to flee.",
+          "said_on": "",
+          "source": "arthur-purves-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Billions spent reducing carbon footprint has no impact on atmospheric CO2.",
+          "said_on": "",
+          "source": "arthur-purves-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "james-walkinshaw",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "james-walkinshaw-site-home",
+        "james-walkinshaw-site-about"
+      ],
+      "priorities_note": "His campaign website has no issues page or list of issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He is pushing back against President Trump’s tariffs that raise prices and threaten Virginia jobs, while advancing bipartisan solutions to make housing more affordable across the Commonwealth and the nation.",
+          "said_on": "",
+          "source": "james-walkinshaw-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He is pushing back against President Trump’s tariffs that raise prices and threaten Virginia jobs, while advancing bipartisan solutions to make housing more affordable across the Commonwealth and the nation.",
+          "said_on": "",
+          "source": "james-walkinshaw-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": "The same sentence is quoted for cost of living & jobs. It is the only passage on the site about housing."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "When Republicans blocked action, he helped force a House vote to extend Affordable Care Act premium tax credits for 335,000 Virginians.",
+          "said_on": "",
+          "source": "james-walkinshaw-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "He has focused in particular on oversight of ICE and DHS, demanding transparency, investigating misconduct, and advancing reforms to curb excessive force, protect sensitive locations such as schools and houses of worship, and ensure basic humanitarian standards for individuals in federal custody.",
+          "said_on": "",
+          "source": "james-walkinshaw-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

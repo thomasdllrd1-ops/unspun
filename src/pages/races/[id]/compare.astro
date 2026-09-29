@@ -30,6 +30,7 @@ const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.
     {issueList.map((i) => (
       <section class="card" id={i.id} aria-labelledby={`${i.id}-h`}>
         <h2 id={`${i.id}-h`}><Icon name={i.icon as any} />{i.name}</h2>
+        <p class="q">{i.question}</p>
         <p class="small muted">Covers: {i.covers}</p>
         <div class="cols">
           {candidates.map((c) => {
@@ -57,5 +58,6 @@ const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.
   .jump .chip :global(.icon) { width: 15px; height: 15px; }
   .cols { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 8px; }
   .col { border-top: 3px solid var(--border-strong); padding-top: 8px; min-width: 0; display: grid; gap: 6px; align-content: start; }
+  .q { font-weight: 700; margin: 4px 0; }
   .who { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-weight: 700; }
 </style>

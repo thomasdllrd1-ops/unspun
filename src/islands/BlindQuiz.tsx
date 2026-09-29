@@ -8,7 +8,7 @@ import { tally } from '../lib/quiz';
 
 type Cand = { id: string; name: string; party: string; color: 'dem' | 'rep' | 'other'; href: string };
 type Option = { candidate: string; blind: string; heading: string };
-type Question = { issue: string; name: string; covers: string; options: Option[]; missing: string[] };
+type Question = { issue: string; name: string; question: string; covers: string; options: Option[]; missing: string[] };
 type Props = { race: string; compareHref: string; candidates: Cand[]; questions: Question[]; skipped: { name: string; reason: string }[] };
 
 const LETTERS = 'ABCDEFGH';
@@ -108,7 +108,8 @@ export default function BlindQuiz(p: Props) {
         <legend>
           <span class="eyebrow">Issue {step + 1} of {order.length}</span>
           <span class="qname">{q.name}</span>
-          <span class="small muted qcovers">Which comes closest to your view?</span>
+          <span class="qq">{q.question}</span>
+          <span class="small muted qcovers">Which answer comes closest to your view?</span>
         </legend>
         <div class="opts">
           {q.options.map((o, i) => (

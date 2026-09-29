@@ -21,6 +21,7 @@ const sourceIds = [...new Set([...issueList.flatMap((i) => i.why.map((w) => w.so
       {issueList.map((i) => (
         <li class="card issue" id={i.id}>
           <h2><Icon name={i.icon as any} />{i.name}</h2>
+          <p class="q">{i.question}</p>
           <p>{i.covers} {i.not_covered && <span class="text-2">{i.not_covered}</span>}</p>
           <details>
             <summary class="small">Why this issue?</summary>
@@ -44,8 +45,8 @@ const sourceIds = [...new Set([...issueList.flatMap((i) => i.why.map((w) => w.so
       <ol class="rules">
         <li><strong>Where we look:</strong> each candidate's campaign website: its issues page, About page, and home page. We don't use social media posts, which change constantly and can't be checked the same way for every candidate.</li>
         <li><strong>Their words, not ours.</strong> Every quote is copied word for word. We don't fix typos, cut words out, or sum up what they "really mean."</li>
-        <li><strong>Top 3 priorities</strong> are the first three issues on the candidate's campaign website, in the order the site lists them. The campaign decided what comes first, not us.</li>
-        <li><strong>For each of our 6 issues</strong>, we quote the passage (whole sentences, 60 words at most) that most directly says what the candidate would do, supports, opposes, or has done. We skip lines that don't take a position, like "Health care matters." If two passages fit equally, we use the one that comes first on the page. This is a judgment call, so every quote links to the full page.</li>
+        <li><strong>Top 3 priorities</strong> are the first three issues in the list the campaign links from its website's main menu (its issues, priorities, or agenda page), in the order listed. We skip introductions and biography. If there's no such page, we use the first list of issues on the site. The campaign decided what comes first, not us.</li>
+        <li><strong>For each of our 6 issues</strong>, we quote the passage (whole sentences or list items, 60 words at most) that most directly answers that issue's key question, shown in bold on each issue above: what the candidate would do, supports, opposes, or has done. We skip lines that don't take a position, like "Health care matters," and we prefer a specific plan or action over a general goal. If two passages fit equally, we use the one that comes first on the page. This is still a judgment call, so every quote links to the full page.</li>
         <li><strong>A tag says how we know:</strong> <em>Voted</em> (their record in office), <em>Said</em> (a speech, debate, or interview), <em>Campaign website</em>, or <em>No position found</em>.</li>
         <li><strong>"No position found"</strong> means we didn't find one on the pages we checked (we list them), not that the candidate has no view.</li>
         <li><strong>Whole races at once.</strong> We research every candidate in a race at the same time, on the same kinds of pages, and publish them together. Until then, every candidate in that race shows "Not yet researched."</li>
@@ -81,6 +82,7 @@ const sourceIds = [...new Set([...issueList.flatMap((i) => i.why.map((w) => w.so
 <style>
   .grid { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--gap); grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
   .issue p { margin: 6px 0; }
+  .issue .q { font-weight: 700; }
   .why { padding-left: 1.1em; margin: 6px 0 0; }
   .why li { margin: 4px 0; }
   details summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; color: var(--text-2); }

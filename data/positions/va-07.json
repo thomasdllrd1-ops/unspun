@@ -1,0 +1,591 @@
+{
+  "race": "va-07",
+  "candidates": [
+    {
+      "candidate": "alaha-ahrar",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "alaha-ahrar-site-home",
+        "alaha-ahrar-site-policies"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Jobs, skills & small business",
+          "quote": "Practical digital skills, career certification, entrepreneurship coaching, and local business support—so residents can connect experience to opportunity.",
+          "source": "alaha-ahrar-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Veterans & military families",
+          "quote": "Service should be met with more than gratitude. It should lead to a serious path to civilian prosperity, ownership, and stability.",
+          "source": "alaha-ahrar-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Economic security & dignity",
+          "quote": "No one should have to remain in danger because they lack a job, a credential, or a safe place to live.",
+          "source": "alaha-ahrar-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Jobs, skills & small business",
+          "quote": "Practical digital skills, career certification, entrepreneurship coaching, and local business support—so residents can connect experience to opportunity.",
+          "said_on": "",
+          "source": "alaha-ahrar-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Homes & sustainable communities",
+          "quote": "Working families deserve a realistic path to own a home in the communities they serve. Factory-built, energy-smart housing and ADU options.",
+          "said_on": "",
+          "source": "alaha-ahrar-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigrant advancement",
+          "quote": "Virginia's immigrant communities are a source of skill, language, entrepreneurship, and leadership. Multilingual learning and digital-certification pathways.",
+          "said_on": "",
+          "source": "alaha-ahrar-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Local opportunity that lasts",
+          "quote": "Triple-net-zero community concepts adapted to local needs.",
+          "said_on": "",
+          "source": "alaha-ahrar-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "taner-demirci-lopez",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "taner-demirci-lopez-site-about",
+        "taner-demirci-lopez-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Our Re-independence",
+          "quote": "I will speak and vote against new rules and spending that do not serve the American people. I will introduce and fight for bills that return decisions to citizens here at home.",
+          "source": "taner-demirci-lopez-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Immigration",
+          "quote": "I will introduce the American Controlled Immigration, Workforce and Security Act (the 10-12 Act). Qualifying participants would register, pass background checks, work legally, and contribute toward border security and relief for citizens.",
+          "source": "taner-demirci-lopez-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Health Services",
+          "quote": "I will introduce bills to reduce regulatory barriers that keep competition out of health care, so more providers can enter the market and prices can fall.",
+          "source": "taner-demirci-lopez-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Taxation and the size of the Government",
+          "quote": "I will oppose bills that raise federal taxes. I will work to reduce federal spending and the size of federal departments.",
+          "said_on": "",
+          "source": "taner-demirci-lopez-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site mentions \"housing pressure\" but doesn't say what he would do about it."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health Services",
+          "quote": "I will introduce bills to reduce regulatory barriers that keep competition out of health care, so more providers can enter the market and prices can fall.",
+          "said_on": "",
+          "source": "taner-demirci-lopez-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "I will introduce the American Controlled Immigration, Workforce and Security Act (the 10-12 Act). Qualifying participants would register, pass background checks, work legally, and contribute toward border security and relief for citizens.",
+          "said_on": "",
+          "source": "taner-demirci-lopez-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Data centers, power costs, and community consent",
+          "quote": "Companies that create the new demand should pay for the generation and transmission built for them. Ordinary households should not subsidize industrial load.",
+          "said_on": "",
+          "source": "taner-demirci-lopez-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "joshua-ertle",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "va-elec-candidates-2026"
+      ],
+      "priorities_note": "The website on Virginia's official candidate list (www.joshua.vote) didn't load when we checked on Sep 28, 2026: it showed a security warning, and without \"www\" it showed \"page not found.\" A web search found no other campaign website.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "doug-ollivant",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "doug-ollivant-site-issues",
+        "doug-ollivant-site-home",
+        "doug-ollivant-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Energy",
+          "quote": "That’s why I support a common sense all-of-the-above approach, with small modular nuclear reactors and natural gas at the center.",
+          "source": "doug-ollivant-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Agriculture That Builds a Stronger Future",
+          "quote": "We must make it easier for farmers to sell directly to consumers, creating stronger connections between rural producers and suburban households looking for affordable fresh, high-quality nutritious food.",
+          "source": "doug-ollivant-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Pro-Family, Pro-Worker, Pro-Business",
+          "quote": "I’m committed to policies that support working parents, expand opportunity, and make it easier to build a good life right here at home. That means reducing the cost of living, encouraging job creation, and cutting red tape that holds back small businesses.",
+          "source": "doug-ollivant-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Pro-Family, Pro-Worker, Pro-Business",
+          "quote": "I’m committed to policies that support working parents, expand opportunity, and make it easier to build a good life right here at home. That means reducing the cost of living, encouraging job creation, and cutting red tape that holds back small businesses.",
+          "said_on": "",
+          "source": "doug-ollivant-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing Affordability",
+          "quote": "The best way to increase supply is to reduce regulation for development, redevelopment, and building supply chains, while creating some legal protections against frivolous zoning disputes.",
+          "said_on": "",
+          "source": "doug-ollivant-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site's health section is about Lyme disease, which this issue doesn't cover."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Securing the Border and Stopping Fentanyl",
+          "quote": "I support strong enforcement of our immigration laws to stop unlawful entry and deter those who exploit our system.",
+          "said_on": "",
+          "source": "doug-ollivant-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Peace Through Strength",
+          "quote": "In Congress, I will work to advance a foreign policy that defends our borders, increases global stability, and ensures America’s interests are protected both at home and abroad.",
+          "said_on": "",
+          "source": "doug-ollivant-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "That’s why I support a common sense all-of-the-above approach, with small modular nuclear reactors and natural gas at the center.",
+          "said_on": "",
+          "source": "doug-ollivant-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "randall-terry",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "randall-terry-site-home"
+      ],
+      "priorities_note": "His campaign website has no list of issues. The site is about abortion, which isn't one of our 6 issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "eugene-vindman",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "eugene-vindman-site-issues",
+        "eugene-vindman-site-home",
+        "eugene-vindman-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lower Costs and Cut Taxes for Working Families",
+          "quote": "In Congress, Eugene is working to crack down on anti-competitive business practices, lower costs for working families, support small businesses, and ensure economic development creates opportunity in every community.",
+          "source": "eugene-vindman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Fighting Corruption in Washington",
+          "quote": "To restore faith in government, he is leading the congressional efforts to ban Members of Congress from participating in prediction markets and from lobbying their former colleagues after leaving office.",
+          "source": "eugene-vindman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Stand with Servicemembers, Veterans, and Military Families",
+          "quote": "On the House Armed Services Committee, he’s fighting to lower everyday costs for military families, expand access to high-quality health care, strengthen mental health services, and ensure every veteran receives the benefits they’ve earned.",
+          "source": "eugene-vindman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower Costs and Cut Taxes for Working Families",
+          "quote": "In Congress, Eugene is working to crack down on anti-competitive business practices, lower costs for working families, support small businesses, and ensure economic development creates opportunity in every community.",
+          "said_on": "",
+          "source": "eugene-vindman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site mentions bills to lower housing costs for military families, but doesn't say what he would do about housing in general."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lower Health Care Costs and Protect Access to Care",
+          "quote": "In Congress, he’s working to lower the cost of prescription drugs, strengthen the Affordable Care Act, protect Medicare and Medicaid, and close the gaps in access that leave too many communities behind.",
+          "said_on": "",
+          "source": "eugene-vindman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Welcoming Legal Immigrants While Securing America’s Borders",
+          "quote": "Eugene supports cracking down on transnational crime and violent criminals, alongside simpler, legal pathways for people who pay their taxes and are trying to do things the right way.",
+          "said_on": "",
+          "source": "eugene-vindman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Strengthen Alliances and Defend America from Global Threats",
+          "quote": "As a member of the House Armed Services Committee, Eugene is committed to strengthening our global alliances and ensuring our military remains equipped, ready, and capable of confronting the threats of today and tomorrow.",
+          "said_on": "",
+          "source": "eugene-vindman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protect Our Environment and Address Climate Change",
+          "quote": "He supports bold investments in clean energy, efforts to reduce carbon emissions, transitioning away from fossil fuels, lowering energy bills for Virginians and policies that position Virginia as a leader in the green economy.",
+          "said_on": "",
+          "source": "eugene-vindman-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

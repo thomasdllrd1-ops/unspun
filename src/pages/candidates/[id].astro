@@ -39,15 +39,15 @@ const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-reg
           <h2 id="top3"><Icon name="ListOrdered" />Top {cp.priorities.length || 3} priorities, in their words</h2>
           {cp.priorities.length > 0 ? (
             <>
-              <p class="small muted">The first {cp.priorities.length === 1 ? 'issue' : `${cp.priorities.length} issues`} on their campaign website, in the order the site lists them.</p>
+              <p class="small muted">The first {cp.priorities.length === 1 ? 'issue' : `${cp.priorities.length} issues`} in the list on their campaign website, in the order the site lists them. <a href="/issues/#rules">How we pick them</a>.</p>
               <ol class="prio">
                 {cp.priorities.map((p) => (
                   <li>
                     <span class="rank score" aria-hidden="true">{p.rank}</span>
                     <div class="stack-sm">
                       <div class="ph">{p.heading} {p.status !== 'verified' && <Pending />}</div>
-                      <p>“{p.quote}”</p>
-                      <p class="small muted">Word for word from <Source id={p.source} />.</p>
+                      {p.quote && <p>“{p.quote}”</p>}
+                      <p class="small muted">{p.quote ? 'Word for word from' : 'Heading, word for word, from'} <Source id={p.source} />.</p>
                     </div>
                   </li>
                 ))}

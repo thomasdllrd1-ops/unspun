@@ -19,6 +19,7 @@ const questions = issueList.map((i) => {
   return {
     issue: i.id,
     name: i.name,
+    question: i.question,
     covers: i.covers,
     options: withWords.map((c) => {
       const st = positionsOf(research, c.id).stances[i.id];
@@ -64,6 +65,7 @@ const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.
   .quiz fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
   .quiz legend { display: grid; gap: 2px; margin-bottom: 10px; padding: 0; }
   .quiz .qname { font-family: var(--font-display); text-transform: uppercase; font-weight: 800; font-size: 1.5rem; letter-spacing: 0.02em; }
+  .quiz .qq { font-weight: 700; font-size: 1.05rem; line-height: 1.35; }
   .quiz .progress { height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; margin-bottom: 12px; }
   .quiz .progress span { display: block; height: 100%; background: var(--accent); }
   .quiz .opts { display: grid; gap: 8px; }

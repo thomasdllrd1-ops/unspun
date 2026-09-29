@@ -1,0 +1,407 @@
+{
+  "race": "va-02",
+  "candidates": [
+    {
+      "candidate": "matt-baker",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "matt-baker-site-vision",
+        "matt-baker-site-home",
+        "matt-baker-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Democracy & rule of law",
+          "quote": "January 6th is my litmus test. Organized individuals attacked the United States Capitol. Any candidate who cannot say so plainly is not ready to serve in the institution those people attacked. Democracy is non-negotiable.",
+          "source": "matt-baker-site-vision",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "Fiscal Conservatism",
+          "quote": "Voting to add $5.7 trillion to the national debt while calling yourself a fiscal conservative is not a position - it is a performance. I will not perform fiscal conservatism. I will practice it.",
+          "source": "matt-baker-site-vision",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "Reproductive Freedom",
+          "quote": "A woman has a right to choose. This is settled for me. I will not relitigate it, and I will not hedge it.",
+          "source": "matt-baker-site-vision",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site's \"Jobs, Costs & the Kitchen Table\" section describes rising costs but doesn't say what he would do."
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site mentions \"housing that outruns wages\" but doesn't say what he would do."
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site mentions health care bills but doesn't say what he would do."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "Let's give them a path to citizenship. And if they commit crimes, they must go — that's the deal any nation of laws offers: welcome, and accountability.",
+          "said_on": "",
+          "source": "matt-baker-site-vision",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "National Security",
+          "quote": "We are in an unauthorized war. Firing the Chairman of the Joint Chiefs and the Chief of Naval Operations made us more fragile, not stronger. Hampton Roads knows this. I will say it - and act on it.",
+          "said_on": "",
+          "source": "matt-baker-site-vision",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "A Coast That Stays Above Water",
+          "quote": "It's a drainage problem, an insurance problem, and a national security problem. Flood resilience funding for this region is a first-term priority.",
+          "said_on": "",
+          "source": "matt-baker-site-vision",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jen-kiggans",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "jen-kiggans-site-issues",
+        "jen-kiggans-site-home",
+        "jen-kiggans-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "The Cost of Living",
+          "quote": "Congresswoman Kiggans was proud to support the Working Families Tax Cuts, which were signed into law, to deliver relief for Americans and put more money in their pocketbooks by making the 2017 tax cuts permanent and advancing affordability measures for families, such as eliminating most taxes on tips and overtime.",
+          "source": "jen-kiggans-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "Growing Jobs",
+          "quote": "She fights to help industries critical to Virginia’s economic success hire new workers, reduce Washington’s regulatory burden, and keep government out of businesses’ day-to-day operations.",
+          "source": "jen-kiggans-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "Economy",
+          "quote": "She knows her children and grandchildren will be saddled with the responsibility for the reckless spending of the previous administration and will continue to be a staunch advocate for strong fiscal policy that incentivizes continued growth in the American economy and puts more money in the wallets of all Americans.",
+          "source": "jen-kiggans-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "The Cost of Living",
+          "quote": "Congresswoman Kiggans was proud to support the Working Families Tax Cuts, which were signed into law, to deliver relief for Americans and put more money in their pocketbooks by making the 2017 tax cuts permanent and advancing affordability measures for families, such as eliminating most taxes on tips and overtime.",
+          "said_on": "",
+          "source": "jen-kiggans-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Reforming Healthcare",
+          "quote": "Jen led the bipartisan effort to renew and reform the Affordable Care Act (ACA) tax credits. And co-lead a bipartisan group announcing CommonGround 2025, a framework to extend premium tax credit relief for American families — a direct affordability action for working families’ healthcare costs.",
+          "said_on": "",
+          "source": "jen-kiggans-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Stopping the Crisis at the Border",
+          "quote": "Jen is a supporter of Trump’s efforts to secure our border after the disastrous Biden administration’s disastrous management of it.",
+          "said_on": "",
+          "source": "jen-kiggans-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Prioritizing National Security",
+          "quote": "Jen has also supported legislation that refocuses the Department of Defense’s priorities on warfighting capabilities and deterrence, which are core components of her belief that global peace can only be achieved through American strength.",
+          "said_on": "",
+          "source": "jen-kiggans-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "elaine-luria",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "elaine-luria-site-issues",
+        "elaine-luria-site-home",
+        "elaine-luria-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Protect Hampton Roads and the Chesapeake Bay",
+          "quote": "I will continue to lead efforts to combat climate change’s impact on our local community, fight against offshore drilling, restore the Chesapeake Bay, and ensure Hampton Roads has clean air and water.",
+          "source": "elaine-luria-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 2,
+          "heading": "Protect Our Seniors",
+          "quote": "I will continue to advocate for strengthening Medicare and Social Security, stand firm against any efforts to gut seniors’ hard-earned benefits, and oppose cuts to these critical programs.",
+          "source": "elaine-luria-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        },
+        {
+          "rank": 3,
+          "heading": "Strengthen our National Security and Care for our Military Families",
+          "quote": "I will continue to fight to improve the quality of life for active duty military personnel and their families, ensure they have the resources they need to deter our adversaries and keep us safe, serve as a check against reckless foreign wars that put our servicemembers at risk, and cost American taxpayers, and strengthen our border security.",
+          "source": "elaine-luria-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Oppose Endless Wars that Raise Gas Prices and the Tariffs on Our Allies that Raise Costs on Americans",
+          "quote": "In Congress, I will serve as a check on Trump’s bad decisions that are costing our families, fight to repeal the tariffs, and reverse legislation and policy decisions that have increased energy costs.",
+          "said_on": "",
+          "source": "elaine-luria-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site lists housing among rising costs but doesn't say what she would do about it."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Cut the Cost of Care",
+          "quote": "Cut health care costs for the middle class by restoring ACA premium subsidies. Cut health care costs for seniors by expanding the number of drugs Medicare can negotiate on and extending the reduced cost benefits to people on private insurance.",
+          "said_on": "",
+          "source": "elaine-luria-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Strengthen our National Security and Care for our Military Families",
+          "quote": "I also know that a strong border is essential to strengthening our nation’s security, and I was proud to support comprehensive efforts in Congress to deter illegal immigration and strengthen border security, while also providing a pathway to citizenship for those who follow our nation’s laws.",
+          "said_on": "",
+          "source": "elaine-luria-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Strengthen our National Security and Care for our Military Families",
+          "quote": "The war in Iran is another unnecessary and endless military intervention in the Middle East that is putting a strain on working families in Hampton Roads, and costing precious American lives and resources that should be spent here at home.",
+          "said_on": "",
+          "source": "elaine-luria-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protect Hampton Roads and the Chesapeake Bay",
+          "quote": "I will continue to lead efforts to combat climate change’s impact on our local community, fight against offshore drilling, restore the Chesapeake Bay, and ensure Hampton Roads has clean air and water.",
+          "said_on": "",
+          "source": "elaine-luria-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "geral-staten",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "va-elec-candidates-2026"
+      ],
+      "priorities_note": "We couldn't find a campaign website. Virginia's official candidate list doesn't include one, and a web search on Sep 28, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

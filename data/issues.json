@@ -4,75 +4,129 @@
   "method": "We looked at two large 2026 polls of 18–29 year olds. Cost of living, housing, health care and immigration ranked high in both. The last two spots (war & foreign policy, climate & energy) ranked high in the newer Harvard poll but lower in CIRCLE's, so choosing them was a judgment call. Jobs is combined with cost of living because candidates usually talk about prices, wages and jobs together.",
   "limits": "Both polls asked people to pick from a list, so an issue that wasn't on a list couldn't rank. The polls asked different questions, so their percentages can't be compared directly. Both were taken in early 2026, and what people care about can change.",
   "left_out": [
-    { "name": "Free speech and religious freedom", "why": "#6 in CIRCLE (34%). Not in Harvard's list.", "source": "circle-50-million-2026" },
-    { "name": "Education and child care", "why": "#7 in CIRCLE (33%). Not in Harvard's list.", "source": "circle-50-million-2026" },
-    { "name": "Abortion and reproductive rights", "why": "#8 in CIRCLE (31%). 2% named it their top concern in Harvard's open question.", "source": "circle-50-million-2026" }
+    {
+      "name": "Free speech and religious freedom",
+      "why": "#6 in CIRCLE (34%). Not in Harvard's list.",
+      "source": "circle-50-million-2026"
+    },
+    {
+      "name": "Education and child care",
+      "why": "#7 in CIRCLE (33%). Not in Harvard's list.",
+      "source": "circle-50-million-2026"
+    },
+    {
+      "name": "Abortion and reproductive rights",
+      "why": "#8 in CIRCLE (31%). 2% named it their top concern in Harvard's open question.",
+      "source": "circle-50-million-2026"
+    }
   ],
   "issues": [
     {
       "id": "cost-of-living",
       "name": "Cost of living & jobs",
       "icon": "Wallet",
+      "question": "What would they do about prices, wages, taxes, and jobs?",
       "covers": "Prices and inflation, wages, taxes, tariffs, and jobs.",
       "not_covered": "Housing and health care costs have their own sections.",
       "why": [
-        { "source": "circle-50-million-2026", "text": "Cost of living and inflation was the #1 pick (65%). Jobs and unemployment was #4 (35%)." },
-        { "source": "harvard-youth-poll-spring-2026", "text": "46% called rising prices and inflation an urgent crisis, the most of the 8 issues asked about." }
+        {
+          "source": "circle-50-million-2026",
+          "text": "Cost of living and inflation was the #1 pick (65%). Jobs and unemployment was #4 (35%)."
+        },
+        {
+          "source": "harvard-youth-poll-spring-2026",
+          "text": "46% called rising prices and inflation an urgent crisis, the most of the 8 issues asked about."
+        }
       ]
     },
     {
       "id": "housing",
       "name": "Housing",
       "icon": "House",
+      "question": "What would they do to make housing more affordable?",
       "covers": "Rent, home prices, mortgages, building more homes, and homelessness.",
       "not_covered": "",
       "why": [
-        { "source": "circle-50-million-2026", "text": "Housing costs was #3 (45%)." },
-        { "source": "harvard-youth-poll-spring-2026", "text": "40% called the rising cost of housing an urgent crisis (#2 of 8)." }
+        {
+          "source": "circle-50-million-2026",
+          "text": "Housing costs was #3 (45%)."
+        },
+        {
+          "source": "harvard-youth-poll-spring-2026",
+          "text": "40% called the rising cost of housing an urgent crisis (#2 of 8)."
+        }
       ]
     },
     {
       "id": "health-care",
       "name": "Health care",
       "icon": "HeartPulse",
+      "question": "What would they do about health insurance and the cost of care?",
       "covers": "Health insurance, the Affordable Care Act (Obamacare), Medicare, Medicaid, and drug prices.",
       "not_covered": "Health care for veterans is included only when it's part of a wider health care plan.",
       "why": [
-        { "source": "circle-50-million-2026", "text": "Healthcare was #2 (45%)." },
-        { "source": "harvard-youth-poll-spring-2026", "text": "38% called access to affordable health care an urgent crisis (#3 of 8)." }
+        {
+          "source": "circle-50-million-2026",
+          "text": "Healthcare was #2 (45%)."
+        },
+        {
+          "source": "harvard-youth-poll-spring-2026",
+          "text": "38% called access to affordable health care an urgent crisis (#3 of 8)."
+        }
       ]
     },
     {
       "id": "immigration",
       "name": "Immigration",
       "icon": "IdCard",
+      "question": "What would they do about the border and about immigrants already in the country?",
       "covers": "The border, deportations and ICE, legal immigration, asylum, and DACA.",
       "not_covered": "",
       "why": [
-        { "source": "circle-50-million-2026", "text": "Immigration was #5 (34%)." },
-        { "source": "harvard-youth-poll-spring-2026", "text": "9% named immigration as the national issue that concerns them most, the #4 answer. But only 20% called illegal immigration at the border an urgent crisis (#8 of 8)." }
+        {
+          "source": "circle-50-million-2026",
+          "text": "Immigration was #5 (34%)."
+        },
+        {
+          "source": "harvard-youth-poll-spring-2026",
+          "text": "9% named immigration as the national issue that concerns them most, the #4 answer. But only 20% called illegal immigration at the border an urgent crisis (#8 of 8)."
+        }
       ]
     },
     {
       "id": "foreign-policy",
       "name": "War & foreign policy",
       "icon": "Globe",
+      "question": "What should the U.S. do about wars and conflicts abroad, like Iran, Israel and Gaza, and Ukraine?",
       "covers": "Military action abroad (including Iran), Israel and Gaza, Russia and Ukraine, China, alliances, and defense spending.",
       "not_covered": "Benefits and care for veterans aren't included.",
       "why": [
-        { "source": "harvard-youth-poll-spring-2026", "text": "17% named war, the military or Iran as the national issue that concerns them most, the #2 answer. 36% called U.S. military action against Iran an urgent crisis (#4 of 8)." },
-        { "source": "circle-50-million-2026", "text": "Foreign policy and humanitarian crises abroad was #16 of 16 listed issues (15%)." }
+        {
+          "source": "harvard-youth-poll-spring-2026",
+          "text": "17% named war, the military or Iran as the national issue that concerns them most, the #2 answer. 36% called U.S. military action against Iran an urgent crisis (#4 of 8)."
+        },
+        {
+          "source": "circle-50-million-2026",
+          "text": "Foreign policy and humanitarian crises abroad was #16 of 16 listed issues (15%)."
+        }
       ]
     },
     {
       "id": "climate-energy",
       "name": "Climate & energy",
       "icon": "Leaf",
+      "question": "What would they do about climate change and energy costs?",
       "covers": "Climate change, energy prices and the power grid, oil and gas, and clean energy.",
       "not_covered": "",
       "why": [
-        { "source": "harvard-youth-poll-spring-2026", "text": "35% called long-term changes in the climate an urgent crisis (#5 of 8)." },
-        { "source": "circle-50-million-2026", "text": "Climate change and the environment was #10 (27%)." }
+        {
+          "source": "harvard-youth-poll-spring-2026",
+          "text": "35% called long-term changes in the climate an urgent crisis (#5 of 8)."
+        },
+        {
+          "source": "circle-50-million-2026",
+          "text": "Climate change and the environment was #10 (27%)."
+        }
       ]
     }
   ]

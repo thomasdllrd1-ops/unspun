@@ -1,0 +1,344 @@
+{
+  "race": "va-10",
+  "candidates": [
+    {
+      "candidate": "dave-beckwith",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "dave-beckwith-site-key-issues",
+        "dave-beckwith-site-economic-vitality",
+        "dave-beckwith-site-fiscal-responsibility",
+        "dave-beckwith-site-safety-and-security",
+        "dave-beckwith-site-uphold-our-constitution",
+        "dave-beckwith-site-unleashing-american-energy",
+        "dave-beckwith-site-education-for-our-modern-economy",
+        "dave-beckwith-site-supporting-our-veterans",
+        "dave-beckwith-site-health-communities",
+        "dave-beckwith-site-home",
+        "dave-beckwith-site-meet-dave"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Restoring Economic Vitality",
+          "quote": "Dave supports a flat 5% federal tax rate for anyone earning under $200,000 a year.",
+          "source": "dave-beckwith-site-economic-vitality",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "FISCAL RESPONSIBILITY",
+          "quote": "He will be a steadfast voice for eliminating wasteful spending and combating the fraud that costs taxpayers up to $521 billion every year.",
+          "source": "dave-beckwith-site-key-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "safety and security in our communities",
+          "quote": "He believes in firm, fair justice that prioritizes the rights of victims and removes violent repeat offenders from our neighborhoods.",
+          "source": "dave-beckwith-site-safety-and-security",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Restoring Economic Vitality",
+          "quote": "Dave supports a flat 5% federal tax rate for anyone earning under $200,000 a year.",
+          "said_on": "",
+          "source": "dave-beckwith-site-economic-vitality",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Capital Gains Indexed to Pre-Inflation Prices",
+          "quote": "Dave will push for policy allowing homeowners to index capital gains to pre-inflation home prices, so families are only taxed on real gains, not on a number inflated by economic policies they had no control over.",
+          "said_on": "",
+          "source": "dave-beckwith-site-economic-vitality",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Absolute Price Transparency",
+          "quote": "Dave supports requiring hospitals and insurers to post real, usable prices before a procedure happens, so a patients can compare costs at face value, the same way they'd compare prices on anything else they pay for out of pocket.",
+          "said_on": "",
+          "source": "dave-beckwith-site-health-communities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Standing with law enforcement",
+          "quote": "This includes a \"zero tolerance\" approach to criminal illegal aliens; those who break our laws must be tried, punished, and deported.",
+          "said_on": "",
+          "source": "dave-beckwith-site-safety-and-security",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "safety and security in our communities",
+          "quote": "On the national level, Dave understands that peace comes through strength. A military that is fully funded, equipped, and ready is the single greatest deterrent to those who wish to do us harm. He will fight for a defense budget that maintains America's technological edge while demanding accountability and efficiency from the Department of Defense.",
+          "said_on": "",
+          "source": "dave-beckwith-site-safety-and-security",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "unleashing american energy",
+          "quote": "Dave Beckwith supports an all-of-the-above energy strategy that ends market-distorting subsidies, cuts regulatory red tape, and makes a bold bet on nuclear power to lower costs and create good jobs.",
+          "said_on": "",
+          "source": "dave-beckwith-site-unleashing-american-energy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "ahsen-mujeeb-malik",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "ahsen-mujeeb-malik-site-issues-html",
+        "ahsen-mujeeb-malik-site-issues-abortion-html",
+        "ahsen-mujeeb-malik-site-issues-data-centers-html",
+        "ahsen-mujeeb-malik-site-issues-climate-policy-html",
+        "ahsen-mujeeb-malik-site-issues-ice-html",
+        "ahsen-mujeeb-malik-site-issues-inflation-html",
+        "ahsen-mujeeb-malik-site-issues-iran-israel-html",
+        "ahsen-mujeeb-malik-site-issues-health-security-html",
+        "ahsen-mujeeb-malik-site-issues-election-reform-html",
+        "ahsen-mujeeb-malik-site-home",
+        "ahsen-mujeeb-malik-site-meet-ahsen-html"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Abortion: The Bold Truth",
+          "quote": "I am pro-choice in the first trimester and pro-life in the last trimester with the exception of the pregnancy being harmful to the life of the mother",
+          "source": "ahsen-mujeeb-malik-site-issues-abortion-html",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Data Centers",
+          "quote": "I fully support all local legislative efforts to completely ban new data center construction",
+          "source": "ahsen-mujeeb-malik-site-issues-data-centers-html",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Effective and Lasting Climate Policy",
+          "quote": "I support a bipartisan climate bill that aggressively expands clean and renewable energy, invests in the mineral supply chains and domestic manufacturing capacity, includes real permitting reform, and addresses issues beyond energy sources",
+          "source": "ahsen-mujeeb-malik-site-issues-climate-policy-html",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Inflation and Rising Grocery Prices",
+          "quote": "I will fight hard for a balanced budget as that is the key to reducing inflation long term and preventing it from coming back",
+          "said_on": "",
+          "source": "ahsen-mujeeb-malik-site-issues-inflation-html",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Universal Health Security",
+          "quote": "I support a Single Payer Health Insurance System covering all Americans",
+          "said_on": "",
+          "source": "ahsen-mujeeb-malik-site-issues-health-security-html",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "ICE: To Abolish or Not, That Is the Question",
+          "quote": "I support a secure border, an immigration enforcement system that conforms to the rule of law and answers to the public, and a realistic, honest plan for the millions of undocumented people already living in this country.",
+          "said_on": "",
+          "source": "ahsen-mujeeb-malik-site-issues-ice-html",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Iran and Israel",
+          "quote": "I predicted Trump would start war with Iran, strongly oppose it and believe it needs to end ASAP",
+          "said_on": "",
+          "source": "ahsen-mujeeb-malik-site-issues-iran-israel-html",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Effective and Lasting Climate Policy",
+          "quote": "I support a bipartisan climate bill that aggressively expands clean and renewable energy, invests in the mineral supply chains and domestic manufacturing capacity, includes real permitting reform, and addresses issues beyond energy sources",
+          "said_on": "",
+          "source": "ahsen-mujeeb-malik-site-issues-climate-policy-html",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "suhas-subramanyam",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "suhas-subramanyam-site-issues",
+        "suhas-subramanyam-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economy & Job Creation",
+          "quote": "Virginia's 10th Congressional District is home to tens of thousands of federal civil servants and contractors, and Suhas will protect those jobs so that our community can continue to thrive.",
+          "source": "suhas-subramanyam-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Protecting Women's Healthcare",
+          "quote": "He will always support the right to in-vitro fertilization (IVF) and a woman’s bodily autonomy.",
+          "source": "suhas-subramanyam-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Responsible Gun Ownership",
+          "quote": "In the legislature, Suhas has actively supported common sense gun safety laws, and he proudly pushed several measures which passed the General Assembly just this year, two of which were signed by a Republican Governor.",
+          "source": "suhas-subramanyam-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy & Job Creation",
+          "quote": "Virginia's 10th Congressional District is home to tens of thousands of federal civil servants and contractors, and Suhas will protect those jobs so that our community can continue to thrive.",
+          "said_on": "",
+          "source": "suhas-subramanyam-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Boosting Healthcare Access & Affordability",
+          "quote": "He fought for transparency in prescription drug pricing and won, and he will continue to support the ability of Medicare to negotiate drug prices.",
+          "said_on": "",
+          "source": "suhas-subramanyam-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Environmental Protection & Renewable Energy",
+          "quote": "Suhas believes we are facing a climate emergency that poses a grave threat to the future of our planet.",
+          "said_on": "",
+          "source": "suhas-subramanyam-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
