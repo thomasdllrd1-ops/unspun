@@ -111,6 +111,15 @@ with open(f'{ROOT}/data/positions/{RACE}.json', 'w') as f:
     json.dump({'race': RACE, 'candidates': out}, f, indent=2, ensure_ascii=False); f.write('\n')
 with open(f'{ROOT}/data/sources.json', 'w') as f:
     json.dump(sources, f, indent=1, ensure_ascii=False); f.write('\n')
+# Fill in campaign websites we verified (home page), where the candidate list had none.
+cand_list = json.load(open(f'{ROOT}/data/candidates.json'))
+src_url = {s['id']: s['url'] for s in sources}
+for c in cand_list:
+    home = src_url.get(f"{c['id']}-site-home")
+    if c['race'] == RACE and not c['website'] and home:
+        c['website'] = '{0.scheme}://{0.netloc}'.format(urllib.parse.urlparse(home))
+with open(f'{ROOT}/data/candidates.json', 'w') as f:
+    json.dump(cand_list, f, indent=2, ensure_ascii=False); f.write('\n')
 for e in out:
     print(e['candidate'], '| priorities', [p['heading'] for p in e['priorities']],
           '| found', [k for k, v in e['stances'].items() if v['evidence'] != 'no-position'])
