@@ -1003,7 +1003,7 @@
     "sort_name": "Flanagan",
     "party": "democratic-farmer-labor",
     "incumbent": false,
-    "website": null,
+    "website": "https://peggyflanagan.com",
     "fec_id": "S6MN00440",
     "source": "official-mn-2026"
   },
@@ -1014,7 +1014,7 @@
     "sort_name": "Tafoya",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://micheletafoya.com",
     "fec_id": "S6MN00556",
     "source": "official-mn-2026"
   },
@@ -1025,7 +1025,7 @@
     "sort_name": "Simonetti",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.marisasimonetti.com",
     "fec_id": "S6MN00481",
     "source": "official-mn-2026"
   },
@@ -1036,7 +1036,7 @@
     "sort_name": "Whiting",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://whiting4senate.us",
     "fec_id": "S6MN00572",
     "source": "official-mn-2026"
   },

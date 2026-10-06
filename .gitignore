@@ -21,3 +21,6 @@ data/geo/raw/
 
 # downloaded source files (rebuilt by scripts)
 data/raw/
+
+# saved copies of campaign pages for position research (re-fetchable)
+.research/

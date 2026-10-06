@@ -1,0 +1,433 @@
+{
+  "race": "mn-sen",
+  "candidates": [
+    {
+      "candidate": "peggy-flanagan",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "peggy-flanagan-site-priorities",
+        "peggy-flanagan-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Ending Corruption: Make Washington work for Minnesotans, not special interests",
+          "quote": "In the Senate, Peggy will fight to ban corporate money in our elections and require disclosure of all donors.",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Healthcare: Everyone should be able to access and afford the care they need",
+          "quote": "Peggy believes healthcare is a human right and will fight for Medicare for All, ensuring providers, clinics, and hospitals have the resources to give people the care they deserve.",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Affording Your Life: Putting more money in Minnesotans’ pockets",
+          "quote": "Peggy co-chaired the Raise the Wage campaign in Minnesota and supports a $17 federal minimum wage tied to inflation to keep up with the increased costs of food, housing, and everyday essentials.",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Affording Your Life: Putting more money in Minnesotans’ pockets",
+          "quote": "Peggy co-chaired the Raise the Wage campaign in Minnesota and supports a $17 federal minimum wage tied to inflation to keep up with the increased costs of food, housing, and everyday essentials.",
+          "said_on": "",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing: Affording a place to call home",
+          "quote": "Peggy supports The Homes Act and taking other bold steps to create more affordable options and good union jobs to get the work done.",
+          "said_on": "",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare: Everyone should be able to access and afford the care they need",
+          "quote": "Peggy believes healthcare is a human right and will fight for Medicare for All, ensuring providers, clinics, and hospitals have the resources to give people the care they deserve.",
+          "said_on": "",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration: Overhauling our broken immigration system",
+          "quote": "Peggy believes that ICE is out of control and that we must dismantle the agency and reimagine an immigration system rooted in dignity, safety, and due process for all.",
+          "said_on": "",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy",
+          "quote": "Peggy believes that establishing ongoing peace and stability in the Middle East requires a lasting ceasefire and a two-state solution which allows for a secure Israel and Palestinian self-determination.",
+          "said_on": "",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Climate: Protecting our planet & creating a green economy",
+          "quote": "Peggy opposes the Trump Administration’s rollback of investments in clean energy and supports clean energy solutions like wind and solar that also create new union jobs in all areas of our state.",
+          "said_on": "",
+          "source": "peggy-flanagan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "marisa-simonetti",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "marisa-simonetti-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Agriculture",
+          "quote": "I will support policies that protect small and mid-sized farms, cut unnecessary red tape, and increase access to sustainable agriculture grants.",
+          "source": "marisa-simonetti-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Education",
+          "quote": "I will fight for stable public school funding, expanded early childhood programs, and competitive pay for our teachers.",
+          "source": "marisa-simonetti-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Energy",
+          "quote": "I support expanding access to solar, wind, and geothermal energy through incentives, grid upgrades, and community-owned renewable projects that keep profits local.",
+          "source": "marisa-simonetti-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Jobs & Economy",
+          "quote": "I’ll champion small businesses, support workforce development, and expand access to childcare and job training.",
+          "said_on": "",
+          "source": "marisa-simonetti-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "I will work to make healthcare more affordable and accessible across the board—including mental health services, addiction treatment, and reproductive care.",
+          "said_on": "",
+          "source": "marisa-simonetti-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "National Security",
+          "quote": "I support a strong defense, but I also believe in diplomacy, disaster preparedness, and cybersecurity.",
+          "said_on": "",
+          "source": "marisa-simonetti-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "I support expanding access to solar, wind, and geothermal energy through incentives, grid upgrades, and community-owned renewable projects that keep profits local.",
+          "said_on": "",
+          "source": "marisa-simonetti-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "michele-tafoya",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "michele-tafoya-site-issues",
+        "michele-tafoya-site-home",
+        "michele-tafoya-site-meet-michele"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Stop The Fraud",
+          "quote": "As our Senator, Michele will cosponsor and lead the Deporting Fraudsters Act with Senators Ted Cruz, Mike Lee and John Cornyn.",
+          "source": "michele-tafoya-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "Law and Order",
+          "quote": "As our Senator, Michele will push for more funding, top-quality equipment and training for the men and women who put their own safety at risk to protect us all, and fight against efforts to remove the legal protections they need to do their job.",
+          "source": "michele-tafoya-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Cut Costs and Taxes for the Middle Class",
+          "quote": "As our Senator, Michele will oppose any tax increase on the middle class and stand up for us, not the IRS.",
+          "source": "michele-tafoya-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Cut Costs and Taxes for the Middle Class",
+          "quote": "As our Senator, Michele will oppose any tax increase on the middle class and stand up for us, not the IRS.",
+          "said_on": "",
+          "source": "michele-tafoya-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Cut Costs and Taxes for the Middle Class",
+          "quote": "As our Senator, Michele will fight ALL the bureaucrats, middlemen and price-gougers, cut prescription drug costs and keep power in the hands of patients.",
+          "said_on": "",
+          "source": "michele-tafoya-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Law and Order",
+          "quote": "Enforce our laws, deport criminal illegal aliens and let federal, state and local law enforcement work together.",
+          "said_on": "",
+          "source": "michele-tafoya-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Cut Costs and Taxes for the Middle Class",
+          "quote": "As our Senator, Michele will support all U.S. energy sources so Minnesotans can see lower utility bills and gas prices while continuing to protect our environment.",
+          "said_on": "",
+          "source": "michele-tafoya-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "rebecca-whiting",
+      "researched_on": "2026-09-28",
+      "researched_by": "ai",
+      "looked_at": [
+        "rebecca-whiting-site-home",
+        "rebecca-whiting-site-portfolio-government-policy"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "No more wars.",
+          "quote": "Unless the United States is attacked, we have no business using our military in foreign countries.",
+          "source": "rebecca-whiting-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 2,
+          "heading": "No more entangling alliances.",
+          "quote": "Our friends need to learn to run their own countries without the use of US dollars.",
+          "source": "rebecca-whiting-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        },
+        {
+          "rank": 3,
+          "heading": "Bring the troops home.",
+          "quote": "The military isn’t a tool to be used by the military industrial complex.",
+          "source": "rebecca-whiting-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "",
+          "quote": "Taxation is theft. Should we tax it? No.",
+          "said_on": "",
+          "source": "rebecca-whiting-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": "The site's health care position is about veterans' care, which this issue doesn't cover."
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "No more wars.",
+          "quote": "Unless the United States is attacked, we have no business using our military in foreign countries.",
+          "said_on": "",
+          "source": "rebecca-whiting-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-09-29",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-09-28",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

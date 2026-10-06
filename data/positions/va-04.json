@@ -1,0 +1,275 @@
+{
+  "race": "va-04",
+  "candidates": [
+    {
+      "candidate": "joan-bell",
+      "researched_on": "2026-10-06",
+      "researched_by": "ai",
+      "looked_at": [
+        "joan-bell-site-home"
+      ],
+      "priorities_note": "Her campaign website has no list of issues. The site is about abortion, which isn't one of our 6 issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jennifer-mcclellan",
+      "researched_on": "2026-10-06",
+      "researched_by": "ai",
+      "looked_at": [
+        "jennifer-mcclellan-site-issues",
+        "jennifer-mcclellan-site-issue-economic-opportunity",
+        "jennifer-mcclellan-site-issue-healthcare",
+        "jennifer-mcclellan-site-issue-education-and-child-care",
+        "jennifer-mcclellan-site-issue-energy-and-environment",
+        "jennifer-mcclellan-site-issue-national-security",
+        "jennifer-mcclellan-site-issue-voting-rights",
+        "jennifer-mcclellan-site-home",
+        "jennifer-mcclellan-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economic Opportunity",
+          "quote": "Jenn voted for the bipartisan Tax Relief for American Families and Workers Act, which expanded the Child Tax Credit to provide direct financial relief to working families.",
+          "source": "jennifer-mcclellan-site-issue-economic-opportunity",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-06"
+        },
+        {
+          "rank": 2,
+          "heading": "Energy & Environment",
+          "quote": "Jenn believes we can meet growing energy demand while building a cleaner, more sustainable future, lowering energy costs, protecting public health, and ensuring no community is left behind.",
+          "source": "jennifer-mcclellan-site-issue-energy-and-environment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-06"
+        },
+        {
+          "rank": 3,
+          "heading": "Healthcare",
+          "quote": "Jenn has been a fierce defender of the Affordable Care Act (ACA), voting against every Republican effort to gut it and pushing to extend ACA enhanced premium tax credits to keep coverage affordable for millions of Americans.",
+          "source": "jennifer-mcclellan-site-issue-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-06"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Putting Money Back in Families’ Pockets",
+          "quote": "Jenn voted for the bipartisan Tax Relief for American Families and Workers Act, which expanded the Child Tax Credit to provide direct financial relief to working families.",
+          "said_on": "",
+          "source": "jennifer-mcclellan-site-issue-economic-opportunity",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Expanding Housing Options",
+          "quote": "Jenn has worked at the state and federal level to expand the supply of affordable housing.",
+          "said_on": "",
+          "source": "jennifer-mcclellan-site-issue-economic-opportunity",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Defending the Affordable Care Act",
+          "quote": "Jenn has been a fierce defender of the Affordable Care Act (ACA), voting against every Republican effort to gut it and pushing to extend ACA enhanced premium tax credits to keep coverage affordable for millions of Americans.",
+          "said_on": "",
+          "source": "jennifer-mcclellan-site-issue-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Keeping Our Commitments to Allies",
+          "quote": "She has also been an outspoken critic of the Trump Administration’s haphazard approach to conflicts around the globe, including its latest war of choice in Iran.",
+          "said_on": "",
+          "source": "jennifer-mcclellan-site-issue-national-security",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Cleaner Energy. Healthier Communities. A Livable Planet.",
+          "quote": "Jenn believes we can meet growing energy demand while building a cleaner, more sustainable future, lowering energy costs, protecting public health, and ensuring no community is left behind.",
+          "said_on": "",
+          "source": "jennifer-mcclellan-site-issue-energy-and-environment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-06",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "robert-murray",
+      "researched_on": "2026-10-06",
+      "researched_by": "ai",
+      "looked_at": [
+        "va-elec-candidates-2026"
+      ],
+      "priorities_note": "We couldn't read his campaign website. The site on Virginia's official candidate list (murrayforcongress.com) was blocked by a security warning when we tried on Sep 28 and Oct 6, 2026, so we couldn't find his positions there.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-06",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
