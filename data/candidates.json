@@ -1124,7 +1124,7 @@
     "sort_name": "Ricketts",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://petericketts.com",
     "fec_id": "S6NE00129",
     "source": "official-ne-2026"
   },
@@ -1135,7 +1135,7 @@
     "sort_name": "Marvin",
     "party": "legal-marijuana-now",
     "incumbent": false,
-    "website": null,
+    "website": "https://marvinforsenate.com",
     "fec_id": "S6NE00152",
     "source": "official-ne-2026"
   },
@@ -1146,7 +1146,7 @@
     "sort_name": "Richards",
     "party": "nebraska-working-people",
     "incumbent": false,
-    "website": null,
+    "website": "https://robinforne.com",
     "fec_id": null,
     "source": "official-ne-2026",
     "fec_checked": true
@@ -1158,7 +1158,7 @@
     "sort_name": "Conboy",
     "party": "america-first",
     "incumbent": false,
-    "website": null,
+    "website": "https://conboyforsenate.com",
     "fec_id": null,
     "source": "official-ne-2026",
     "fec_checked": true
@@ -1170,7 +1170,7 @@
     "sort_name": "Osborn",
     "party": "by-petition",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.osbornforsenate.com",
     "fec_id": "S4NE00207",
     "source": "official-ne-2026"
   },
@@ -1510,7 +1510,7 @@
     "sort_name": "Andrews",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://drannieandrews.com",
     "fec_id": "S6SC04239",
     "source": "official-sc-2026"
   },
@@ -1521,7 +1521,7 @@
     "sort_name": "Graham",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.darlinegraham.com",
     "fec_id": "S6SC04437",
     "source": "official-sc-2026"
   },
@@ -1544,7 +1544,7 @@
     "sort_name": "Whitener",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://kasiesouthcarolina.com",
     "fec_id": "S6SC04247",
     "source": "official-sc-2026"
   },

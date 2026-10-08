@@ -63,12 +63,14 @@ A script already confirmed every quote is word for word on the candidate's site.
 2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
 3. If a pick looks unfair, tell Claude which one and why.
 
-Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
+Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
 
 Blocked or broken sites:
 - **VA-04, Robert Murray**: his site (murrayforcongress.com) is blocked by a security warning on our network and in your browser (Google's Safe Browsing check says it's clean). He's marked "we couldn't read his website." If it ever loads normally, tell Claude.
 - **VA-07, Joshua Ertle**: the site on the state list (www.joshua.vote) showed a security warning, and "page not found" without "www". He's marked "no website found." Recheck in a week.
 - **AK Senate, Daniel J. Sullivan Jr.**: the site on Alaska's official list (www.sullivanforsenate.com) didn't load for us. Try it in your browser. Gerald Heikes has no site on the official list.
+- **SC Senate, Kasie Whitener**: her menu's "On the Issues" link goes to a list of dated blog posts on her campaign site, not an issues list. We used those posts for her stances (no top 3). Check that this seems fair.
+- **SC Senate, Mark Hackett**: no campaign website found (official list and a web search, Oct 8).
 - **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
 ---

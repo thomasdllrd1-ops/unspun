@@ -1,0 +1,399 @@
+{
+  "race": "sc-sen",
+  "candidates": [
+    {
+      "candidate": "annie-andrews",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "annie-andrews-site-platform",
+        "annie-andrews-site-issue-healthcare-is-a-right-not-a-privil",
+        "annie-andrews-site-issue-an-economy-that-works-for-working",
+        "annie-andrews-site-issue-strong-schools-affordable-child-ca",
+        "annie-andrews-site-issue-reproductive-freedom-trust-women",
+        "annie-andrews-site-issue-fighting-political-corruption",
+        "annie-andrews-site-issue-an-end-to-gun-violence",
+        "annie-andrews-site-issue-immigration-security-with-dignity",
+        "annie-andrews-site-issue-protecting-kids-not-big-tech",
+        "annie-andrews-site-issue-no-more-endless-wars",
+        "annie-andrews-site-issue-transportation-infrastructure-that",
+        "annie-andrews-site-home",
+        "annie-andrews-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Healthcare is a Right, Not a Privilege",
+          "quote": "Advocate for policies like a public option that expand access to affordable healthcare for all South Carolinians",
+          "source": "annie-andrews-site-issue-healthcare-is-a-right-not-a-privil",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "An Economy That Works for Working People",
+          "quote": "End tax breaks for the ultra-wealthy and corporate polluters",
+          "source": "annie-andrews-site-issue-an-economy-that-works-for-working",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Strong Schools & Affordable Child Care",
+          "quote": "Invest in modern classrooms, technology, and school safety",
+          "source": "annie-andrews-site-issue-strong-schools-affordable-child-ca",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "An Economy That Works for Working People",
+          "quote": "End tax breaks for the ultra-wealthy and corporate polluters",
+          "said_on": "",
+          "source": "annie-andrews-site-issue-an-economy-that-works-for-working",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare is a Right, Not a Privilege",
+          "quote": "Advocate for policies like a public option that expand access to affordable healthcare for all South Carolinians",
+          "said_on": "",
+          "source": "annie-andrews-site-issue-healthcare-is-a-right-not-a-privil",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration: Security with Dignity",
+          "quote": "Creates a fair path to citizenship for people who work hard and follow the rules",
+          "said_on": "",
+          "source": "annie-andrews-site-issue-immigration-security-with-dignity",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "No More Endless Wars",
+          "quote": "Require Congress to approve use of military force",
+          "said_on": "",
+          "source": "annie-andrews-site-issue-no-more-endless-wars",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "darline-graham",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "darline-graham-site-issues",
+        "darline-graham-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economy",
+          "quote": "She will work to make the Trump tax cuts permanent, root out waste and fraud in federal spending, and stop Washington from mortgaging our children's future.",
+          "source": "darline-graham-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Border",
+          "quote": "Darline supports finishing the wall, fully funding border enforcement, and ending catch-and-release. She will fight the flow of fentanyl that is killing South Carolinians, back the removal of criminal illegal aliens, and oppose amnesty and taxpayer-funded benefits for those here illegally.",
+          "source": "darline-graham-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Life",
+          "quote": "She supports mothers, adoption, and pregnancy resource centers, and opposes taxpayer funding of abortion. She will defend religious liberty, stand up for parents' rights in their children's education, and protect girls' sports and locker rooms.",
+          "source": "darline-graham-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy",
+          "quote": "She will work to make the Trump tax cuts permanent, root out waste and fraud in federal spending, and stop Washington from mortgaging our children's future.",
+          "said_on": "",
+          "source": "darline-graham-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Fighting for South Carolina",
+          "quote": "She will stand up for South Carolina farmers, expand rural broadband, fight to keep rural hospitals open, and protect Medicare and Social Security for the seniors who paid into them.",
+          "said_on": "",
+          "source": "darline-graham-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border",
+          "quote": "Darline supports finishing the wall, fully funding border enforcement, and ending catch-and-release. She will fight the flow of fentanyl that is killing South Carolinians, back the removal of criminal illegal aliens, and oppose amnesty and taxpayer-funded benefits for those here illegally.",
+          "said_on": "",
+          "source": "darline-graham-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Strength",
+          "quote": "Darline will fight for the resources our installations and service members need, hold the VA accountable so veterans get the care they earned, and back an all-of-the-above American energy strategy that lowers costs and ends our dependence on foreign adversaries.",
+          "said_on": "",
+          "source": "darline-graham-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "We found only one passage on this issue, and it also covers Climate & energy, so the same sentence is used for both."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Strength",
+          "quote": "Darline will fight for the resources our installations and service members need, hold the VA accountable so veterans get the care they earned, and back an all-of-the-above American energy strategy that lowers costs and ends our dependence on foreign adversaries.",
+          "said_on": "",
+          "source": "darline-graham-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "We found only one passage on this issue, and it also covers War & foreign policy, so the same sentence is used for both."
+        }
+      }
+    },
+    {
+      "candidate": "mark-hackett",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-sc-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. South Carolina's official candidate page lists none, and a web search on Oct 8, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "kasie-whitener",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "kasie-whitener-site-blog",
+        "kasie-whitener-site-bad-laws-make-for-bad-enforcement",
+        "kasie-whitener-site-healthcare-decoupled",
+        "kasie-whitener-site-uncertainty-is-the-enemy-of-prosperity",
+        "kasie-whitener-site-we-cant-tax-our-way-out-of-this",
+        "kasie-whitener-site-do-the-ends-justify-the-means",
+        "kasie-whitener-site-military-war-veterans-and-the-ndaa",
+        "kasie-whitener-site-why-less-government-is-better",
+        "kasie-whitener-site-what-about-the-billionaires",
+        "kasie-whitener-site-a-visit-with-some-low-country-republican",
+        "kasie-whitener-site-a-visit-with-some-low-country-democrats",
+        "kasie-whitener-site-econ-101-summer-school",
+        "kasie-whitener-site-home",
+        "kasie-whitener-site-about"
+      ],
+      "priorities_note": "Her website's “On the Issues” page is a list of blog posts by date, not a list of issues, so there's no top 3. Her stances below come from those posts and her home page.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Meet Dr. Kasie Whitener",
+          "quote": "Kasie will bring real oversight, end protectionist policies and laws, and get government out of the way so people can prosper.",
+          "said_on": "",
+          "source": "kasie-whitener-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare: Decoupled",
+          "quote": "So: decouple. Decouple health insurance from health care. Decouple health insurance from employment.",
+          "said_on": "",
+          "source": "kasie-whitener-site-healthcare-decoupled",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Bad laws make for bad enforcement",
+          "quote": "I said I think people who come to the United States should do so legally. We should have a resident-worker program that enables them to become registered workers.",
+          "said_on": "",
+          "source": "kasie-whitener-site-bad-laws-make-for-bad-enforcement",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Do the ends justify the means?",
+          "quote": "As the United States was not attacked by Venezuela or Iran, I oppose the use of force in both circumstances. Presidents cannot be allowed to go to war at will or on whims.",
+          "said_on": "",
+          "source": "kasie-whitener-site-do-the-ends-justify-the-means",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

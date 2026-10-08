@@ -1,0 +1,525 @@
+{
+  "race": "ne-sen",
+  "candidates": [
+    {
+      "candidate": "chuck-conboy",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "chuck-conboy-site-platform",
+        "chuck-conboy-site-about",
+        "chuck-conboy-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Seal the Border",
+          "quote": "Expand immigration enforcement to identify and process illegal aliens",
+          "source": "chuck-conboy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Fix Social Security",
+          "quote": "Protect and preserve Social Security for current and future retirees",
+          "source": "chuck-conboy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "America First",
+          "quote": "No more endless foreign wars that drain American blood and treasure",
+          "source": "chuck-conboy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy",
+          "quote": "Bring down the cost of living and rebuild a strong American middle class",
+          "said_on": "",
+          "source": "chuck-conboy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "Bring down the out-of-control cost of healthcare for American families",
+          "said_on": "",
+          "source": "chuck-conboy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Seal the Border",
+          "quote": "Expand immigration enforcement to identify and process illegal aliens",
+          "said_on": "",
+          "source": "chuck-conboy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "America First",
+          "quote": "No more endless foreign wars that drain American blood and treasure",
+          "said_on": "",
+          "source": "chuck-conboy-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "mike-marvin",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "mike-marvin-site-home"
+      ],
+      "priorities_note": "His campaign website has no list of issues. It says he will stay on the ballot but now urges his supporters to vote for Dan Osborn.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "dan-osborn",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "dan-osborn-site-plans",
+        "dan-osborn-site-ngfp-draintheswamp",
+        "dan-osborn-site-ngfp-protect-our-paychecks-social-securi",
+        "dan-osborn-site-ngfp-cut-waste-and-balance-the-budget",
+        "dan-osborn-site-ngfp-protect-the-good-life",
+        "dan-osborn-site-ngfp-fight-like-hell-for-rural-nebraska",
+        "dan-osborn-site-ngfp-defend-our-freedoms-and-the-constit",
+        "dan-osborn-site-home",
+        "dan-osborn-site-meet-dan"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "drain the swamp",
+          "quote": "When I’m in the Senate, I will champion the strongest anti-corruption platform Washington has ever seen.",
+          "source": "dan-osborn-site-plans",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "PROTECT OUR PAYCHECKS, SOCIAL SECURITY, AND HEALTHCARE",
+          "quote": "I will take on the corporations and their chosen political lapdogs to restore economic liberty and fairness for the working Americans who make this country run. Elders should be able to age gracefully. No one should go bankrupt from medical debt.",
+          "source": "dan-osborn-site-plans",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Cut Waste and Balance the Budget",
+          "quote": "I'll cut waste, end corporate welfare, and refuse to vote for spending we can't afford.",
+          "source": "dan-osborn-site-plans",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Middle-Class Tax Cut",
+          "quote": "I support a real middle class tax cut that lowers rates on wage income, expands credits that put money back in people's pockets, and makes the tax code work for people who punch a clock rather than people who punch a number into a brokerage account.",
+          "said_on": "",
+          "source": "dan-osborn-site-ngfp-protect-our-paychecks-social-securi",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Break Up Healthcare Monopolies",
+          "quote": "I support the bipartisan Break Up Big Medicine Act (S.3822) – a Glass-Steagall approach to healthcare. One company, one business. Insurance or providers. Insurance or pharmacies. Not all of the above. Break up the conflicts of interest, restore competition, and watch costs come down.",
+          "said_on": "",
+          "source": "dan-osborn-site-ngfp-protect-our-paychecks-social-securi",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Protect the Good Life",
+          "quote": "A Nebraska-First Foreign Policy that begins by ending the wars that drive up prices and costs the lives of American servicemen and women. This means ending the war in Iran and cutting off aid to Israel until they end their aggression against Gaza and their neighbors.",
+          "said_on": "",
+          "source": "dan-osborn-site-ngfp-protect-the-good-life",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protect Utility Ratepayers",
+          "quote": "If these corporations want to consume the power of entire cities to train their models, they should pay for it themselves, not stick it to your electric bill.",
+          "said_on": "",
+          "source": "dan-osborn-site-ngfp-protect-our-paychecks-social-securi",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "This passage is about electricity prices. We found no passage about climate change."
+        }
+      }
+    },
+    {
+      "candidate": "robin-richards",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "robin-richards-site-issues",
+        "robin-richards-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lower costs. Good jobs.",
+          "quote": "The price of a gallon of gas and a gallon of milk matters. Working families, small businesses, family farms, and ranches need a government focused on the real cost of getting by — not another speech.",
+          "source": "robin-richards-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Affordable health care.",
+          "quote": "Robin will fight for an approach that puts people and their ability to get care ahead of institutional loyalty.",
+          "source": "robin-richards-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Fully funded public schools.",
+          "quote": "Nebraska schools should be places where kids can learn, not a battle zone created by the far right. Our public schools deserve the support to serve every community.",
+          "source": "robin-richards-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower costs. Good jobs.",
+          "quote": "The price of a gallon of gas and a gallon of milk matters. Working families, small businesses, family farms, and ranches need a government focused on the real cost of getting by — not another speech.",
+          "said_on": "",
+          "source": "robin-richards-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing people can live in.",
+          "quote": "Robin believes practical government should help make housing people can actually live in possible.",
+          "said_on": "",
+          "source": "robin-richards-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Affordable health care.",
+          "quote": "Robin will fight for an approach that puts people and their ability to get care ahead of institutional loyalty.",
+          "said_on": "",
+          "source": "robin-richards-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "pete-ricketts",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "pete-ricketts-site-delivering-for-nebraska",
+        "pete-ricketts-site-delivering-for-nebraska-cutting-taxes",
+        "pete-ricketts-site-delivering-for-nebraska-keeping-nebraska",
+        "pete-ricketts-site-delivering-for-nebraska-protecting-our-n",
+        "pete-ricketts-site-delivering-for-nebraska-making-governmen",
+        "pete-ricketts-site-delivering-for-nebraska-delivering-prove",
+        "pete-ricketts-site-delivering-for-nebraska-defending-our-va",
+        "pete-ricketts-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Cutting Taxes",
+          "quote": "In Washington, Pete helped pass the largest federal tax cut in American history, with the highest percentage of tax cuts going to those who make less than $50,000 a year.",
+          "source": "pete-ricketts-site-delivering-for-nebraska-cutting-taxes",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Keeping Nebraskans Safe",
+          "quote": "Pete has helped President Trump bring illegal border crossings to a record low by voting to deliver $46.5 billion investment in border security. He voted to hire 16,000 border patrol agents and invest $4 billion in clearing the immigration court backlog.",
+          "source": "pete-ricketts-site-delivering-for-nebraska-keeping-nebraska",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Protecting Our National Security",
+          "quote": "Pete introduced bipartisan legislation to strengthen America’s ability to stop foreign adversaries from owning farmland, including the CCP. He voted to invest in better weapons, training, and military equipment to deter Communist China.",
+          "source": "pete-ricketts-site-delivering-for-nebraska-protecting-our-n",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Cutting Taxes",
+          "quote": "In Washington, Pete helped pass the largest federal tax cut in American history, with the highest percentage of tax cuts going to those who make less than $50,000 a year.",
+          "said_on": "",
+          "source": "pete-ricketts-site-delivering-for-nebraska-cutting-taxes",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Delivering for Nebraska",
+          "quote": "Pete helped secure $500 million in guaranteed funding for rural Nebraska hospitals",
+          "said_on": "",
+          "source": "pete-ricketts-site-delivering-for-nebraska",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Keeping Nebraskans Safe",
+          "quote": "Pete has helped President Trump bring illegal border crossings to a record low by voting to deliver $46.5 billion investment in border security. He voted to hire 16,000 border patrol agents and invest $4 billion in clearing the immigration court backlog.",
+          "said_on": "",
+          "source": "pete-ricketts-site-delivering-for-nebraska-keeping-nebraska",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Protecting Our National Security",
+          "quote": "Pete introduced bipartisan legislation to strengthen America’s ability to stop foreign adversaries from owning farmland, including the CCP. He voted to invest in better weapons, training, and military equipment to deter Communist China.",
+          "said_on": "",
+          "source": "pete-ricketts-site-delivering-for-nebraska-protecting-our-n",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -5316,5 +5316,421 @@
   "url": "https://joan.vote/",
   "type": "campaign",
   "accessed": "2026-10-06"
+ },
+ {
+  "id": "pete-ricketts-site-delivering-for-nebraska-cutting-taxes",
+  "title": "Delivering for nebraska: cutting taxes page",
+  "publisher": "Pete Ricketts campaign website",
+  "url": "https://petericketts.com/delivering-for-nebraska/cutting-taxes/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "pete-ricketts-site-delivering-for-nebraska-keeping-nebraska",
+  "title": "Delivering for nebraska: keeping nebraskans safe page",
+  "publisher": "Pete Ricketts campaign website",
+  "url": "https://petericketts.com/delivering-for-nebraska/keeping-nebraskans-safe/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "pete-ricketts-site-delivering-for-nebraska-protecting-our-n",
+  "title": "Delivering for nebraska: protecting our national security page",
+  "publisher": "Pete Ricketts campaign website",
+  "url": "https://petericketts.com/delivering-for-nebraska/protecting-our-national-security/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "pete-ricketts-site-delivering-for-nebraska",
+  "title": "Delivering for nebraska page",
+  "publisher": "Pete Ricketts campaign website",
+  "url": "https://petericketts.com/delivering-for-nebraska/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "pete-ricketts-site-delivering-for-nebraska-making-governmen",
+  "title": "Delivering for nebraska: making government work better page",
+  "publisher": "Pete Ricketts campaign website",
+  "url": "https://petericketts.com/delivering-for-nebraska/making-government-work-better/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "pete-ricketts-site-delivering-for-nebraska-delivering-prove",
+  "title": "Delivering for nebraska: delivering proven nebraska solutions page",
+  "publisher": "Pete Ricketts campaign website",
+  "url": "https://petericketts.com/delivering-for-nebraska/delivering-proven-nebraska-solutions/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "pete-ricketts-site-delivering-for-nebraska-defending-our-va",
+  "title": "Delivering for nebraska: defending our values page",
+  "publisher": "Pete Ricketts campaign website",
+  "url": "https://petericketts.com/delivering-for-nebraska/defending-our-values/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "pete-ricketts-site-home",
+  "title": "Home page",
+  "publisher": "Pete Ricketts campaign website",
+  "url": "https://petericketts.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "mike-marvin-site-home",
+  "title": "Home page",
+  "publisher": "Mike Marvin campaign website",
+  "url": "https://marvinforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "robin-richards-site-issues",
+  "title": "Issues page",
+  "publisher": "Robin Richards campaign website",
+  "url": "https://robinforne.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "robin-richards-site-home",
+  "title": "Home page",
+  "publisher": "Robin Richards campaign website",
+  "url": "https://robinforne.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "chuck-conboy-site-platform",
+  "title": "Platform page",
+  "publisher": "Chuck Conboy campaign website",
+  "url": "https://conboyforsenate.com/platform",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "chuck-conboy-site-about",
+  "title": "About page",
+  "publisher": "Chuck Conboy campaign website",
+  "url": "https://conboyforsenate.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "chuck-conboy-site-home",
+  "title": "Home page",
+  "publisher": "Chuck Conboy campaign website",
+  "url": "https://conboyforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-plans",
+  "title": "Plans page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/plans",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-ngfp-protect-our-paychecks-social-securi",
+  "title": "Ngfp protect our paychecks social security and healthcare page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/ngfp-protect-our-paychecks-social-security-and-healthcare",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-ngfp-protect-the-good-life",
+  "title": "Ngfp protect the good life page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/ngfp-protect-the-good-life",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-ngfp-draintheswamp",
+  "title": "Ngfp draintheswamp page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/ngfp-draintheswamp",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-ngfp-cut-waste-and-balance-the-budget",
+  "title": "Ngfp cut waste and balance the budget page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/ngfp-cut-waste-and-balance-the-budget",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-ngfp-fight-like-hell-for-rural-nebraska",
+  "title": "Ngfp fight like hell for rural nebraska page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/ngfp-fight-like-hell-for-rural-nebraska",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-ngfp-defend-our-freedoms-and-the-constit",
+  "title": "Ngfp defend our freedoms and the constitution page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/ngfp-defend-our-freedoms-and-the-constitution",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-home",
+  "title": "Home page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "dan-osborn-site-meet-dan",
+  "title": "Meet dan page",
+  "publisher": "Dan Osborn campaign website",
+  "url": "https://www.osbornforsenate.com/meet-dan",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-healthcare-is-a-right-not-a-privil",
+  "title": "Issue: healthcare is a right not a privilege page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/healthcare-is-a-right-not-a-privilege/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-an-economy-that-works-for-working",
+  "title": "Issue: an economy that works for working people page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/an-economy-that-works-for-working-people/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-strong-schools-affordable-child-ca",
+  "title": "Issue: strong schools affordable child care page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/strong-schools-affordable-child-care/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-immigration-security-with-dignity",
+  "title": "Issue: immigration security with dignity page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/immigration-security-with-dignity/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-no-more-endless-wars",
+  "title": "Issue: no more endless wars page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/no-more-endless-wars/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-platform",
+  "title": "Platform page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/platform/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-reproductive-freedom-trust-women",
+  "title": "Issue: reproductive freedom trust women page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/reproductive-freedom-trust-women/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-fighting-political-corruption",
+  "title": "Issue: fighting political corruption page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/fighting-political-corruption/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-an-end-to-gun-violence",
+  "title": "Issue: an end to gun violence page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/an-end-to-gun-violence/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-protecting-kids-not-big-tech",
+  "title": "Issue: protecting kids not big tech page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/protecting-kids-not-big-tech/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-issue-transportation-infrastructure-that",
+  "title": "Issue: transportation infrastructure that works page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/issue/transportation-infrastructure-that-works/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-home",
+  "title": "Home page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "annie-andrews-site-about",
+  "title": "About page",
+  "publisher": "Annie Andrews campaign website",
+  "url": "https://drannieandrews.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "darline-graham-site-issues",
+  "title": "Issues page",
+  "publisher": "Darline Graham campaign website",
+  "url": "https://www.darlinegraham.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "darline-graham-site-home",
+  "title": "Home page",
+  "publisher": "Darline Graham campaign website",
+  "url": "https://www.darlinegraham.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-home",
+  "title": "Home page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-healthcare-decoupled",
+  "title": "Healthcare decoupled page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/healthcare-decoupled/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-bad-laws-make-for-bad-enforcement",
+  "title": "Bad laws make for bad enforcement page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/bad-laws-make-for-bad-enforcement/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-do-the-ends-justify-the-means",
+  "title": "Do the ends justify the means page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/do-the-ends-justify-the-means/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-blog",
+  "title": "Blog page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/blog/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-uncertainty-is-the-enemy-of-prosperity",
+  "title": "Uncertainty is the enemy of prosperity page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/uncertainty-is-the-enemy-of-prosperity/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-we-cant-tax-our-way-out-of-this",
+  "title": "We cant tax our way out of this page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/we-cant-tax-our-way-out-of-this/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-military-war-veterans-and-the-ndaa",
+  "title": "Military war veterans and the ndaa page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/military-war-veterans-and-the-ndaa/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-why-less-government-is-better",
+  "title": "Why less government is better page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/why-less-government-is-better/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-what-about-the-billionaires",
+  "title": "What about the billionaires page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/what-about-the-billionaires/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-a-visit-with-some-low-country-republican",
+  "title": "A visit with some low country republicans page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/a-visit-with-some-low-country-republicans/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-a-visit-with-some-low-country-democrats",
+  "title": "A visit with some low country democrats page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/a-visit-with-some-low-country-democrats/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-econ-101-summer-school",
+  "title": "Econ 101 summer school page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/econ-101-summer-school/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "kasie-whitener-site-about",
+  "title": "About page",
+  "publisher": "Kasie Whitener campaign website",
+  "url": "https://kasiesouthcarolina.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
  }
 ]
