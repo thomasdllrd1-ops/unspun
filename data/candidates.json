@@ -673,7 +673,7 @@
     "sort_name": "Risch",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://senatorrisch.com",
     "fec_id": "S8ID00092",
     "source": "official-id-2026"
   },
@@ -684,7 +684,7 @@
     "sort_name": "Achilles",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.achillesforidaho.com",
     "fec_id": "S6ID00146",
     "source": "official-id-2026"
   },
@@ -695,7 +695,7 @@
     "sort_name": "Fleming",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://nataliefleming.info",
     "fec_id": "S0ID00172",
     "source": "official-id-2026"
   },
@@ -706,7 +706,7 @@
     "sort_name": "Loesby",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.loesby.us",
     "fec_id": "S6ID00187",
     "source": "official-id-2026"
   },

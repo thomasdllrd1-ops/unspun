@@ -1,0 +1,436 @@
+{
+  "race": "id-sen",
+  "candidates": [
+    {
+      "candidate": "todd-achilles",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "todd-achilles-site-policies",
+        "todd-achilles-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Stop Corruption in Congress",
+          "quote": "I will fight for a constitutional amendment to limit the terms of members of the Senate, the House of Representatives, and the Supreme Court.",
+          "source": "todd-achilles-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Reduce the National Debt",
+          "quote": "I will work to close tax loopholes that American elite and corporations abuse.",
+          "source": "todd-achilles-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Give Working Families a Fighting Chance",
+          "quote": "I will work to lower taxes for working families, small businesses, and ag producers.",
+          "source": "todd-achilles-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Give Working Families a Fighting Chance",
+          "quote": "I will work to lower taxes for working families, small businesses, and ag producers.",
+          "said_on": "",
+          "source": "todd-achilles-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Make Healthcare & Housing Affordable Again",
+          "quote": "The bipartisan 21st Century ROAD to Housing Act made meaningful progress toward increasing housing supply and limiting large institutional investors from buying up single-family homes. I will build on those reforms to make homeownership more attainable for Idaho families.",
+          "said_on": "",
+          "source": "todd-achilles-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Make Healthcare & Housing Affordable Again",
+          "quote": "I will protect healthcare tax credits that help Idaho families afford coverage by working across party lines to pass needed insurance reforms.",
+          "said_on": "",
+          "source": "todd-achilles-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Protect Our Borders and Fix Immigration",
+          "quote": "I will support providing Customs and Border Protection with the staffing, technology, and resources it needs to secure our border, stop illegal crossings, and carry out its mission ethically and lawfully.",
+          "said_on": "",
+          "source": "todd-achilles-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "End Endless Wars and Support Our Veterans",
+          "quote": "I will fight to reassert Congress' constitutional authority over decisions of war and peace, so that America's sons and daughters are not sent into combat without the debate, accountability, and explicit authorization the Constitution requires.",
+          "said_on": "",
+          "source": "todd-achilles-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "natalie-m-fleming",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "natalie-m-fleming-site-just-a-few-issues",
+        "natalie-m-fleming-site-policy",
+        "natalie-m-fleming-site-about-natalie-m-fleming",
+        "natalie-m-fleming-site-home"
+      ],
+      "priorities_note": "Her Issues page is grouped into categories (Freedom & Rights, Economy & Land, Health & Food, and more). Her top 3 are the first item in each of the first three categories.",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Defending all Faiths, Family, Community and Freedom",
+          "quote": "We will protect basic human kindness, religious freedom for all faiths, parental rights, and the moral foundations that give life meaning.",
+          "source": "natalie-m-fleming-site-just-a-few-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Home-ownership and Homesteading",
+          "quote": "We will curb corporate landlords, restore affordability, and revive small-town pathways to ownership and homesteading.",
+          "source": "natalie-m-fleming-site-just-a-few-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Healthy Food, Healthy Land, Healthy People",
+          "quote": "We will clean toxins from food and water, strengthen organic and regenerative farming, and safeguard rural health.",
+          "source": "natalie-m-fleming-site-just-a-few-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Building a People-Centered Economy",
+          "quote": "We will strengthen small businesses, cooperatives, and local supply chains that keep dollars circulating in our communities.",
+          "said_on": "",
+          "source": "natalie-m-fleming-site-just-a-few-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Home-ownership and Homesteading",
+          "quote": "We will curb corporate landlords, restore affordability, and revive small-town pathways to ownership and homesteading.",
+          "said_on": "",
+          "source": "natalie-m-fleming-site-just-a-few-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Everyone’s Health",
+          "quote": "We live in the most advanced civilization in the known history of our Planet, basic health care is a question of human decency, we can figure this out!",
+          "said_on": "",
+          "source": "natalie-m-fleming-site-just-a-few-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Common Sense Immigration Reform",
+          "quote": "A lean, clean, compassionate immigration process gets good people integrated and building — because messy systems don’t just waste money, they fuel corruption and cruelty.",
+          "said_on": "",
+          "source": "natalie-m-fleming-site-just-a-few-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Securing America’s Food and Energy Independence",
+          "quote": "We will invest in regenerative energy, strengthen domestic production, and protect rural infrastructure.",
+          "said_on": "",
+          "source": "natalie-m-fleming-site-just-a-few-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "matt-loesby",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "matt-loesby-site-platform",
+        "matt-loesby-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Stop Doing Evil",
+          "quote": "The Global American Empire must end, immediately. As your Congressman, I will do everything I can to weaken its power.",
+          "source": "matt-loesby-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Re-knit the Social Fabric",
+          "quote": "As your Congressman, I can help block and abolish the laws that tear our social fabric apart. However, it will be up to each of you to rebuild the social bonds in your community.",
+          "source": "matt-loesby-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Know What Time It Is",
+          "quote": "Small tweaks and minor cutbacks will not fix our problems. Major sacrifices are ahead for all of us.",
+          "source": "matt-loesby-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "End the Federal Reserve. Return To Sound Money.",
+          "quote": "As your Congressman, I will push to audit, and then to end, the Federal Reserve and its monopoly on money. I will fight to cut government budgets across the board, not just reduce future increases, so that the real economy stops being crowded out of the market.",
+          "said_on": "",
+          "source": "matt-loesby-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Build Families and Local Economies",
+          "quote": "As your Congressman, I can push to repeal the many laws and regulations that make it so difficult to run a legitimate business hiring American workers, including minimum wage laws and programs like Obamacare that balloon the cost of hiring an employee and shut low-yield jobs out of the legitimate market.",
+          "said_on": "",
+          "source": "matt-loesby-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "This passage is about the cost of hiring workers, and it names Obamacare. It's the only passage about health insurance on his site."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Close the Border. End Birthright Citizenship.",
+          "quote": "In a similar manner, the United States border should be closed to any immigrants, except those who have been invited by US Citizen landowners.",
+          "said_on": "",
+          "source": "matt-loesby-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Bring all the troops all the way home. End all proxy wars.",
+          "quote": "No member of the US military should be deployed anywhere outside US territory. Unless and until the US Congress declares war against another country, they should be at home with their families, commuting to base every work day to maintain equipment and train.",
+          "said_on": "",
+          "source": "matt-loesby-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jim-risch",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "jim-risch-site-issues",
+        "jim-risch-site-about",
+        "jim-risch-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Defending Idaho’s Public Lands",
+          "quote": "I led the fight in the Senate to stop a proposal that would have sold some of Idaho’s public lands to the highest bidder.",
+          "source": "jim-risch-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Affordability",
+          "quote": "From passing historic tax cuts to strengthening domestic supply chains, I’m working to lower the cost of groceries, housing, and everyday necessities.",
+          "source": "jim-risch-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Boosting Small Business",
+          "quote": "As Senator, I will continue to advocate for the needs of our small businesses by cutting red tape, keeping taxes low, and getting government out of the way of your success.",
+          "source": "jim-risch-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Cutting Taxes and Wasteful Spending",
+          "quote": "In Congress, I helped push through President Trump’s historic 2017 tax cuts and successful economic policies that brought America’s economy to record growth and prosperity.",
+          "said_on": "",
+          "source": "jim-risch-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Affordability",
+          "quote": "From passing historic tax cuts to strengthening domestic supply chains, I’m working to lower the cost of groceries, housing, and everyday necessities.",
+          "said_on": "",
+          "source": "jim-risch-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "This is the only passage about housing on his site. It names housing along with other costs."
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Securing Our Southern Border",
+          "quote": "I have always supported efforts to secure our border, enforce our immigration laws, and hold criminals accountable.",
+          "said_on": "",
+          "source": "jim-risch-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Supercharging American Energy",
+          "quote": "We must strengthen our domestic energy supply to meet growing demand and end our country’s reliance on foreign nations. I am a leading voice on strengthening America’s nuclear energy infrastructure and defending hydropower from activist dam breaching efforts.",
+          "said_on": "",
+          "source": "jim-risch-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

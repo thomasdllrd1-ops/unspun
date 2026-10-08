@@ -6148,5 +6148,93 @@
   "url": "https://neilgillespie4senate.blogspot.com/",
   "type": "campaign",
   "accessed": "2026-10-08"
+ },
+ {
+  "id": "jim-risch-site-issues",
+  "title": "Issues page",
+  "publisher": "Jim Risch campaign website",
+  "url": "https://senatorrisch.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "jim-risch-site-about",
+  "title": "About page",
+  "publisher": "Jim Risch campaign website",
+  "url": "https://senatorrisch.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "jim-risch-site-home",
+  "title": "Home page",
+  "publisher": "Jim Risch campaign website",
+  "url": "https://senatorrisch.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "todd-achilles-site-policies",
+  "title": "Policies page",
+  "publisher": "Todd Achilles campaign website",
+  "url": "https://www.achillesforidaho.com/policies",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "todd-achilles-site-home",
+  "title": "Home page",
+  "publisher": "Todd Achilles campaign website",
+  "url": "https://www.achillesforidaho.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "natalie-m-fleming-site-just-a-few-issues",
+  "title": "Just a few issues page",
+  "publisher": "Natalie M Fleming campaign website",
+  "url": "https://nataliefleming.info/just-a-few-issues/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "natalie-m-fleming-site-policy",
+  "title": "Policy page",
+  "publisher": "Natalie M Fleming campaign website",
+  "url": "https://nataliefleming.info/policy/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "natalie-m-fleming-site-about-natalie-m-fleming",
+  "title": "About natalie m fleming page",
+  "publisher": "Natalie M Fleming campaign website",
+  "url": "https://nataliefleming.info/about-natalie-m-fleming/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "natalie-m-fleming-site-home",
+  "title": "Home page",
+  "publisher": "Natalie M Fleming campaign website",
+  "url": "https://nataliefleming.info/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "matt-loesby-site-platform",
+  "title": "Platform page",
+  "publisher": "Matt Loesby campaign website",
+  "url": "https://www.loesby.us/platform/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "matt-loesby-site-home",
+  "title": "Home page",
+  "publisher": "Matt Loesby campaign website",
+  "url": "https://www.loesby.us/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
  }
 ]
