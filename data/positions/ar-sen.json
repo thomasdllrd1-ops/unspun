@@ -1,0 +1,329 @@
+{
+  "race": "ar-sen",
+  "candidates": [
+    {
+      "candidate": "tom-cotton",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "tom-cotton-site-issues",
+        "tom-cotton-site-about-tom",
+        "tom-cotton-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Immigration & Our Sovereignty",
+          "quote": "He backed President Trump’s border enforcement policies, fought to end catch-and-release, and pushed to finish the wall. He voted to pass the Laken Riley Act to deport criminal illegal aliens.",
+          "source": "tom-cotton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Lower Taxes",
+          "quote": "Senator Cotton helped pass the largest tax cut in American history, cutting taxes for families, workers, and small businesses across Arkansas. He has voted to stop tax hikes, oppose IRS expansion, and keep more of your paycheck in your pocket.",
+          "source": "tom-cotton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Better Healthcare for Arkansas Families",
+          "quote": "Senator Cotton is responsible for ending the Obamacare Insurance Mandate that fined tens of thousands of Arkansas families for being unable to afford insurance.",
+          "source": "tom-cotton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lowering Prices for Working Arkansans",
+          "quote": "He helped pass the Working Families Tax Cut to put more money back in the pockets of Arkansas families. He also backed the largest tax cut in American history and has consistently voted against the spending that drove inflation higher.",
+          "said_on": "",
+          "source": "tom-cotton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Better Healthcare for Arkansas Families",
+          "quote": "Senator Cotton is responsible for ending the Obamacare Insurance Mandate that fined tens of thousands of Arkansas families for being unable to afford insurance.",
+          "said_on": "",
+          "source": "tom-cotton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration & Our Sovereignty",
+          "quote": "He backed President Trump’s border enforcement policies, fought to end catch-and-release, and pushed to finish the wall. He voted to pass the Laken Riley Act to deport criminal illegal aliens.",
+          "said_on": "",
+          "source": "tom-cotton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "National Security to Keep Arkansas Safe",
+          "quote": "Senator Cotton has delivered billions in Arkansas investments in Pine Bluff, Fort Ebbing, and across the state. Those investments support good jobs in Arkansas and strengthen America’s ability to deter China, Russia, Iran, and terrorists.",
+          "said_on": "",
+          "source": "tom-cotton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Lowering Prices for Working Arkansans",
+          "quote": "Senator Cotton has fought to lower costs by getting rid of the Democrats Green New Deal regulations and supporting American energy, which means lower costs for Arkansans and jobs right here at home.",
+          "said_on": "",
+          "source": "tom-cotton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "hallie-shoffner",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "hallie-shoffner-site-platform",
+        "hallie-shoffner-site-about",
+        "hallie-shoffner-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lowering Costs for Working Families",
+          "quote": "That means real economic vision by cutting taxes for working families, lowering the cost of groceries, childcare, housing, and healthcare, and strengthening Arkansas industries.",
+          "source": "hallie-shoffner-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Growing the Economy and Supporting the Workforce",
+          "quote": "We need an Arkansas-first economic plan. That means raising the minimum wage, expanding workforce training, cutting taxes for working families, giving local businesses the resources they need to thrive, cutting red tape, and modernizing infrastructure so people can live near where they work and build real futures here.",
+          "source": "hallie-shoffner-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Strengthening Unions and Protecting Workers",
+          "quote": "I will stand with workers to protect the right to organize, bargain collectively, and be treated with dignity.",
+          "source": "hallie-shoffner-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Growing the Economy and Supporting the Workforce",
+          "quote": "We need an Arkansas-first economic plan. That means raising the minimum wage, expanding workforce training, cutting taxes for working families, giving local businesses the resources they need to thrive, cutting red tape, and modernizing infrastructure so people can live near where they work and build real futures here.",
+          "said_on": "",
+          "source": "hallie-shoffner-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Lowering Costs for Working Families",
+          "quote": "That means real economic vision by cutting taxes for working families, lowering the cost of groceries, childcare, housing, and healthcare, and strengthening Arkansas industries.",
+          "said_on": "",
+          "source": "hallie-shoffner-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "This is the only passage about housing on her site. It names housing along with other costs."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Making Healthcare Affordable and Accessible",
+          "quote": "I will fight to protect our hospitals, lower prescription drug prices, strengthen the Affordable Care Act, protect Medicare and Medicaid, cut red tape, and hold insurance companies accountable.",
+          "said_on": "",
+          "source": "hallie-shoffner-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jeff-wadlin",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "jeff-wadlin-site-issues",
+        "jeff-wadlin-site-about",
+        "jeff-wadlin-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordability, Jobs & Real Competition",
+          "quote": "My first economic priority is affordability. We should eliminate broad tariffs that raise the price of food, equipment, vehicles, building materials, and household goods—and end wars of aggression that waste lives, fuel debt, and drive up energy and supply costs.",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Healthcare",
+          "quote": "My goal is straightforward: cover everyone, which requires cutting the total cost of healthcare roughly in half over time.",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Agriculture and Rural Arkansas",
+          "quote": "I oppose broad tariffs that raise the cost of equipment, fertilizer, fuel, and household goods while inviting retaliation against Arkansas rice, soybeans, poultry, cotton, and other exports.",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Affordability, Jobs & Real Competition",
+          "quote": "My first economic priority is affordability. We should eliminate broad tariffs that raise the price of food, equipment, vehicles, building materials, and household goods—and end wars of aggression that waste lives, fuel debt, and drive up energy and supply costs.",
+          "said_on": "",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Affordability, Jobs & Real Competition",
+          "quote": "Housing also requires more supply. Once inflation is under control, lower interest rates can help unlock the market by allowing homeowners trapped by low existing mortgage rates to move, freeing more starter homes for younger buyers. Federal policy should reduce financing and infrastructure barriers while leaving zoning primarily to state and local governments, encouraging more housing construction.",
+          "said_on": "",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "My goal is straightforward: cover everyone, which requires cutting the total cost of healthcare roughly in half over time.",
+          "said_on": "",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure Borders and Legal Immigration",
+          "quote": "I support effective border security, faster immigration and asylum decisions, more immigration judges, modern entry-and-exit systems, and reliable workplace verification. People who pose security risks or commit serious crimes should be removed promptly.",
+          "said_on": "",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy",
+          "quote": "I support helping Ukraine defend its sovereignty, with clear objectives, accountability, allied burden-sharing, and a realistic path toward peace. Russia should not be rewarded for invading a neighboring country, but American support should not become an undefined commitment without limits or strategy.",
+          "said_on": "",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy, Climate, and Infrastructure",
+          "quote": "I support an all-of-the-above strategy that allows nuclear power, natural gas, solar, wind, hydroelectric power, geothermal energy, storage, efficiency, and future technologies to compete on performance and cost.",
+          "said_on": "",
+          "source": "jeff-wadlin-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

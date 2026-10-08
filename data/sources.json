@@ -5732,5 +5732,373 @@
   "url": "https://kasiesouthcarolina.com/about/",
   "type": "campaign",
   "accessed": "2026-10-08"
+ },
+ {
+  "id": "barry-moore-site-issues",
+  "title": "Issues page",
+  "publisher": "Barry Moore campaign website",
+  "url": "https://barrymooreforalabama.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "barry-moore-site-about",
+  "title": "About page",
+  "publisher": "Barry Moore campaign website",
+  "url": "https://barrymooreforalabama.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "barry-moore-site-home",
+  "title": "Home page",
+  "publisher": "Barry Moore campaign website",
+  "url": "https://barrymooreforalabama.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "everett-wess-site-home",
+  "title": "Home page",
+  "publisher": "Everett Wess campaign website",
+  "url": "https://wessforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "tom-cotton-site-issues",
+  "title": "Issues page",
+  "publisher": "Tom Cotton campaign website",
+  "url": "https://tomcotton.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "tom-cotton-site-about-tom",
+  "title": "About tom page",
+  "publisher": "Tom Cotton campaign website",
+  "url": "https://tomcotton.com/about-tom/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "tom-cotton-site-home",
+  "title": "Home page",
+  "publisher": "Tom Cotton campaign website",
+  "url": "https://tomcotton.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "hallie-shoffner-site-platform",
+  "title": "Platform page",
+  "publisher": "Hallie Shoffner campaign website",
+  "url": "https://www.hallieshoffner.com/platform",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "hallie-shoffner-site-about",
+  "title": "About page",
+  "publisher": "Hallie Shoffner campaign website",
+  "url": "https://www.hallieshoffner.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "hallie-shoffner-site-home",
+  "title": "Home page",
+  "publisher": "Hallie Shoffner campaign website",
+  "url": "https://www.hallieshoffner.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "jeff-wadlin-site-issues",
+  "title": "Issues page",
+  "publisher": "Jeff Wadlin campaign website",
+  "url": "https://www.jeffwadlin.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "jeff-wadlin-site-about",
+  "title": "About page",
+  "publisher": "Jeff Wadlin campaign website",
+  "url": "https://www.jeffwadlin.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "jeff-wadlin-site-home",
+  "title": "Home page",
+  "publisher": "Jeff Wadlin campaign website",
+  "url": "https://www.jeffwadlin.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "mark-baisley-site-issues",
+  "title": "Issues page",
+  "publisher": "Mark Baisley campaign website",
+  "url": "https://baisleyforsenate.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "mark-baisley-site-home",
+  "title": "Home page",
+  "publisher": "Mark Baisley campaign website",
+  "url": "https://baisleyforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "john-hickenlooper-site-issues",
+  "title": "Issues page",
+  "publisher": "John Hickenlooper campaign website",
+  "url": "https://hickenlooper.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "john-hickenlooper-site-about",
+  "title": "About page",
+  "publisher": "John Hickenlooper campaign website",
+  "url": "https://hickenlooper.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "john-hickenlooper-site-home",
+  "title": "Home page",
+  "publisher": "John Hickenlooper campaign website",
+  "url": "https://hickenlooper.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "bob-chew-site-issues",
+  "title": "Issues page",
+  "publisher": "Bob Chew campaign website",
+  "url": "https://bobchew2026.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "bob-chew-site-about-bob",
+  "title": "About bob page",
+  "publisher": "Bob Chew campaign website",
+  "url": "https://bobchew2026.com/about-bob/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "bob-chew-site-home",
+  "title": "Home page",
+  "publisher": "Bob Chew campaign website",
+  "url": "https://bobchew2026.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-platform-menu",
+  "title": "Platform menu page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/platform-menu",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-energy",
+  "title": "Energy page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/energy",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-water",
+  "title": "Water page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/water",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-jobs",
+  "title": "Jobs page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/jobs",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-housing",
+  "title": "Housing page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/housing",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-healthcare",
+  "title": "Healthcare page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/healthcare",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-diplomacy",
+  "title": "Diplomacy page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/diplomacy",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-agriculture",
+  "title": "Agriculture page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/agriculture",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-social-security",
+  "title": "Social security page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/social-security",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-iran",
+  "title": "Iran page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/iran",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-israel-and-palestine",
+  "title": "Israel and palestine page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/israel-and-palestine",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-russia",
+  "title": "Russia page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/russia",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-china",
+  "title": "China page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/china",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-military",
+  "title": "Military page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/military",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-foreign-aid",
+  "title": "Foreign aid page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/foreign-aid",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-platform-discussion",
+  "title": "Platform discussion page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/platform-discussion",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-home",
+  "title": "Home page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "adam-withrow-site-about",
+  "title": "About page",
+  "publisher": "Adam Withrow campaign website",
+  "url": "https://www.senatorwithrow.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "chris-coons-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Chris Coons campaign website",
+  "url": "https://www.chriscoons.com/priorities/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "chris-coons-site-meet-chris",
+  "title": "Meet chris page",
+  "publisher": "Chris Coons campaign website",
+  "url": "https://www.chriscoons.com/meet-chris/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "chris-coons-site-home",
+  "title": "Home page",
+  "publisher": "Chris Coons campaign website",
+  "url": "https://www.chriscoons.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "michael-katz-site-platform",
+  "title": "Platform page",
+  "publisher": "Michael \"Dr. Mike\" Katz campaign website",
+  "url": "https://drmikekatz.com/platform",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "michael-katz-site-record",
+  "title": "Record page",
+  "publisher": "Michael \"Dr. Mike\" Katz campaign website",
+  "url": "https://drmikekatz.com/record",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "michael-katz-site-meet-mike",
+  "title": "Meet mike page",
+  "publisher": "Michael \"Dr. Mike\" Katz campaign website",
+  "url": "https://drmikekatz.com/meet-mike",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "michael-katz-site-home",
+  "title": "Home page",
+  "publisher": "Michael \"Dr. Mike\" Katz campaign website",
+  "url": "https://drmikekatz.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
  }
 ]

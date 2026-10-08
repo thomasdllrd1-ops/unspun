@@ -1,0 +1,219 @@
+{
+  "race": "al-sen",
+  "candidates": [
+    {
+      "candidate": "barry-moore",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "barry-moore-site-issues",
+        "barry-moore-site-about",
+        "barry-moore-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Border Security and Immigration",
+          "quote": "Barry voted for the One Big Beautiful Bill that provided $45 billion to ICE to deport the 10 million+ illegal immigrants that have entered since 2020.",
+          "source": "barry-moore-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "The Economy",
+          "quote": "Thanks to the One Big Beautiful Bill, working families and small business owners can count on a real tax cut. Barry is working with President Trump and DOGE to cut useless regulations, shrink the size of government, and restore freedom to our economy.",
+          "source": "barry-moore-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Law and Order",
+          "quote": "In the Senate, Barry will back to fully fund law enforcement to keep the attention where it belongs: locking up criminals.",
+          "source": "barry-moore-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "The Economy",
+          "quote": "Thanks to the One Big Beautiful Bill, working families and small business owners can count on a real tax cut. Barry is working with President Trump and DOGE to cut useless regulations, shrink the size of government, and restore freedom to our economy.",
+          "said_on": "",
+          "source": "barry-moore-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border Security and Immigration",
+          "quote": "Barry voted for the One Big Beautiful Bill that provided $45 billion to ICE to deport the 10 million+ illegal immigrants that have entered since 2020.",
+          "said_on": "",
+          "source": "barry-moore-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Veterans",
+          "quote": "Supporting our military means ensuring they never have to fight a fair fight and that we don’t waste their sacrifice in pointless foreign wars.",
+          "said_on": "",
+          "source": "barry-moore-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "everett-wess",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "everett-wess-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "SAFE COMMUNITIES",
+          "quote": "Economic opportunity is vital for our growth and prosperity. We must ensure quality public education to equip our future leaders.",
+          "source": "everett-wess-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "AFFORDABLE HEALTHCARE",
+          "quote": "AFFORDABLE HEALTHCARE is essential, especially when it comes to funding medical providers in rural Alabama and supporting hospitals in underserved areas.",
+          "source": "everett-wess-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "PROTECTING YOUR RIGHTS",
+          "quote": "PROTECTING YOUR RIGHTS is a fundamental pillar of our Alabama Senate campaign, advocating for fair courts and a clean government that serves all citizens, including the vision of leaders like Everett W. Wess.",
+          "source": "everett-wess-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": "His home page says economic opportunity is vital but doesn't say what he would do about it."
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "AFFORDABLE HEALTHCARE",
+          "quote": "AFFORDABLE HEALTHCARE is essential, especially when it comes to funding medical providers in rural Alabama and supporting hospitals in underserved areas.",
+          "said_on": "",
+          "source": "everett-wess-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "race": "co-sen",
+  "candidates": [
+    {
+      "candidate": "mark-baisley",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "mark-baisley-site-issues",
+        "mark-baisley-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordability & Prosperity",
+          "quote": "In the United States Senate, he will fight to cut federal taxes, roll back job-killing regulations, restore American energy dominance, and make the US a magnet for employers — not a playground for unelected bureaucrats.",
+          "source": "mark-baisley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Safe, Prosperous Communities",
+          "quote": "Mark will work with law enforcement to give them the support and funding they need to keep us safe. Similarly, Mark will work to end the dangerous programs that put violent criminals back into our neighborhoods before they’ve rehabilitated.",
+          "source": "mark-baisley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Immigration",
+          "quote": "Those applicants who are not fortunate enough to share in the American inheritance should establish Natural Law in their native countries by pledging to each other their lives, their fortunes and their sacred honor.",
+          "source": "mark-baisley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Affordability & Prosperity",
+          "quote": "In the United States Senate, he will fight to cut federal taxes, roll back job-killing regulations, restore American energy dominance, and make the US a magnet for employers — not a playground for unelected bureaucrats.",
+          "said_on": "",
+          "source": "mark-baisley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "Those applicants who are not fortunate enough to share in the American inheritance should establish Natural Law in their native countries by pledging to each other their lives, their fortunes and their sacred honor.",
+          "said_on": "",
+          "source": "mark-baisley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Affordability & Prosperity",
+          "quote": "In the United States Senate, he will fight to cut federal taxes, roll back job-killing regulations, restore American energy dominance, and make the US a magnet for employers — not a playground for unelected bureaucrats.",
+          "said_on": "",
+          "source": "mark-baisley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "This is the only passage about energy on his site (\"restore American energy dominance\"). The same sentence is used for Cost of living & jobs."
+        }
+      }
+    },
+    {
+      "candidate": "christopher-baum",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-co-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Colorado's official candidate list doesn't include websites, and a web search on Oct 8, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "bob-chew",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "bob-chew-site-issues",
+        "bob-chew-site-about-bob",
+        "bob-chew-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Entitlement Reform",
+          "quote": "We need to agree on some combination of these solutions, crafted in a fair and equitable manner, to put Social Security onto a sustainable path.",
+          "source": "bob-chew-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "National Debt",
+          "quote": "During my first year in office, I will introduce legislation designed to begin reducing the national debt over the next several decades.",
+          "source": "bob-chew-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Deficit Spending",
+          "quote": "We need to do four things to tackle deficit spending. First, cut out waste and fraud across the federal government, totaling an estimated half-a-trillion dollars.",
+          "source": "bob-chew-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Free Trade",
+          "quote": "Congress needs to re-assert its tariff authority under the Constitution. I will work with any member of Congress to reduce tariffs.",
+          "said_on": "",
+          "source": "bob-chew-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health Care",
+          "quote": "We need a practical, honest conversation about how to deliver better care at lower cost while preserving the innovation and quality that Americans depend on.",
+          "said_on": "",
+          "source": "bob-chew-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "Most people agree that we should remove violent criminals and cartel traffickers from the streets to keep our communities safe. At the same time, we should not expend limited government resources pursuing peaceful immigrants who contribute to our economy.",
+          "said_on": "",
+          "source": "bob-chew-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "International Conflict",
+          "quote": "We must support Ukraine against Russian aggression, counter China’s growing military ambitions, maintain stability in the Middle East, and watch out for threats from North Korea and Iran.",
+          "said_on": "",
+          "source": "bob-chew-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "I support an all-of-above energy strategy that includes a heavy reliance on nuclear power. Having served on a nuclear submarine, I understand the promise and safety of nuclear technology. I support investing in small modular reactors to fuel our American future – like the ones that power Navy ships.",
+          "said_on": "",
+          "source": "bob-chew-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "john-hickenlooper",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "john-hickenlooper-site-issues",
+        "john-hickenlooper-site-about",
+        "john-hickenlooper-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Stopping the Trump Administration’s Lawlessness",
+          "quote": "He has championed legislation to prevent Trump and his cronies from using insider information to make millions betting on military operations and stop lawmakers from using their position to enrich themselves.",
+          "source": "john-hickenlooper-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Create an Economy That Works for Everyone",
+          "quote": "As a former brewpub owner, John knows how hard it is to run a business. That’s why he’s standing up to Trump and demanding the president pay back every cent he stole with his illegal tariff-taxes.",
+          "source": "john-hickenlooper-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Stopping ICE’s Violence and Keeping Our Communities Safe",
+          "quote": "He knows they need to be completely overhauled or shut down. That’s why he voted against giving ICE a penny more and introduced legislation to ban ICE agents from wearing masks and conducting raids at sensitive locations like schools, hospitals, polling places, and places of worship.",
+          "source": "john-hickenlooper-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Defending You from Trump’s Illegal Tariff-taxes",
+          "quote": "As a former brewpub owner, John knows how hard it is to run a business. That’s why he’s standing up to Trump and demanding the president pay back every cent he stole with his illegal tariff-taxes.",
+          "said_on": "",
+          "source": "john-hickenlooper-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Lowering Prices",
+          "quote": "John is helping lower the cost of housing by preventing large corporations from dominating the housing market, cutting red tape that slows building more homes, and supporting local communities to invest in the housing they need.",
+          "said_on": "",
+          "source": "john-hickenlooper-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Fighting for Your Health Care",
+          "quote": "John supports legislation to create a public option, lower drug prices by empowering Medicare to negotiate all drug prices, and improve health care access for rural, low-income, and minority communities.",
+          "said_on": "",
+          "source": "john-hickenlooper-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Defending Colorado from ICE’s Violence",
+          "quote": "He knows they need to be completely overhauled or shut down. That’s why he voted against giving ICE a penny more and introduced legislation to ban ICE agents from wearing masks and conducting raids at sensitive locations like schools, hospitals, polling places, and places of worship.",
+          "said_on": "",
+          "source": "john-hickenlooper-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": "His site mentions the war in Iran only in a section about his opponent (\"What Voters Need to Know\"). Our rules don't quote those sections."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Saving our Public Lands & Environment",
+          "quote": "In 2022, John saved the largest climate investment EVER and helped secure billions for Colorado to fight climate change, protect communities from wildfire and extreme drought, and create tens of thousands of good-paying jobs.",
+          "said_on": "",
+          "source": "john-hickenlooper-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "blake-huber",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-co-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Colorado's official candidate list doesn't include websites, and a web search on Oct 8, 2026 found none. The Libertarian Party of Colorado posts a one-page flyer about him, but our rules use only campaign websites.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "adam-withrow",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "adam-withrow-site-platform-menu",
+        "adam-withrow-site-energy",
+        "adam-withrow-site-water",
+        "adam-withrow-site-agriculture",
+        "adam-withrow-site-jobs",
+        "adam-withrow-site-housing",
+        "adam-withrow-site-healthcare",
+        "adam-withrow-site-social-security",
+        "adam-withrow-site-diplomacy",
+        "adam-withrow-site-iran",
+        "adam-withrow-site-israel-and-palestine",
+        "adam-withrow-site-russia",
+        "adam-withrow-site-china",
+        "adam-withrow-site-military",
+        "adam-withrow-site-foreign-aid",
+        "adam-withrow-site-platform-discussion",
+        "adam-withrow-site-home",
+        "adam-withrow-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "The Platform",
+          "quote": "My first priority is to raise pay for all workers and tie that amount to the Consumer Price Index. That way, if prices go up, wages go up just as much.",
+          "source": "adam-withrow-site-platform-menu",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Energy",
+          "quote": "End net-metering offset caps. You generate it, you can sell it, no matter how much.",
+          "source": "adam-withrow-site-energy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Water",
+          "quote": "Replace our aging water grids in our old towns.",
+          "source": "adam-withrow-site-water",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Jobs",
+          "quote": "Federal Minimum Wage needs to be at least $25/hr and tied to the Consumer Price Index.",
+          "said_on": "",
+          "source": "adam-withrow-site-jobs",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "We must incentivize new starter home inventory.",
+          "said_on": "",
+          "source": "adam-withrow-site-housing",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "We know our whole private insurance industry is a scam. Ultimately, it must be abolished.",
+          "said_on": "",
+          "source": "adam-withrow-site-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Diplomacy",
+          "quote": "We must rekindle dialogue with Russia, China and Iran.",
+          "said_on": "",
+          "source": "adam-withrow-site-diplomacy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "End net-metering offset caps. You generate it, you can sell it, no matter how much.",
+          "said_on": "",
+          "source": "adam-withrow-site-energy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

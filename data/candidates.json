@@ -426,7 +426,7 @@
     "sort_name": "Wess",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://wessforsenate.com",
     "fec_id": "S6AL00518",
     "source": "official-al-2026"
   },
@@ -437,7 +437,7 @@
     "sort_name": "Moore",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://barrymooreforalabama.com",
     "fec_id": "S6AL00476",
     "source": "official-al-2026"
   },
@@ -492,7 +492,7 @@
     "sort_name": "Shoffner",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.hallieshoffner.com",
     "fec_id": "S6AR00199",
     "source": "official-ar-2026"
   },
@@ -503,7 +503,7 @@
     "sort_name": "Cotton",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://tomcotton.com",
     "fec_id": "S4AR00103",
     "source": "official-ar-2026",
     "note": "On the ballot as \"Senator Tom Cotton\" (his title is printed as part of his ballot name)."
@@ -515,7 +515,7 @@
     "sort_name": "Wadlin",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.jeffwadlin.com",
     "fec_id": "S6AR00223",
     "source": "official-ar-2026"
   },
@@ -526,7 +526,7 @@
     "sort_name": "Baisley",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://baisleyforsenate.com",
     "fec_id": "S6CO00507",
     "source": "official-co-2026"
   },
@@ -537,7 +537,7 @@
     "sort_name": "Hickenlooper",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://hickenlooper.com",
     "fec_id": "S0CO00575",
     "source": "official-co-2026"
   },
@@ -548,7 +548,7 @@
     "sort_name": "Chew",
     "party": "forward",
     "incumbent": false,
-    "website": null,
+    "website": "https://bobchew2026.com",
     "fec_id": "S6CO00556",
     "source": "official-co-2026",
     "note": "The FEC lists two registrations for this candidate; we use S6CO00556 (the more recently updated one). The other is S6CO00549."
@@ -584,7 +584,7 @@
     "sort_name": "Withrow",
     "party": "unity",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.senatorwithrow.com",
     "fec_id": "S6CO00564",
     "source": "official-co-2026"
   },
@@ -595,7 +595,7 @@
     "sort_name": "Coons",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.chriscoons.com",
     "fec_id": "S0DE00092",
     "source": "official-de-2026"
   },
@@ -606,7 +606,7 @@
     "sort_name": "Katz",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://drmikekatz.com",
     "fec_id": "S6DE00206",
     "source": "official-de-2026"
   },

@@ -63,7 +63,7 @@ A script already confirmed every quote is word for word on the candidate's site.
 2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
 3. If a pick looks unfair, tell Claude which one and why.
 
-Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
+Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
 
 Blocked or broken sites:
 - **VA-04, Robert Murray**: his site (murrayforcongress.com) is blocked by a security warning on our network and in your browser (Google's Safe Browsing check says it's clean). He's marked "we couldn't read his website." If it ever loads normally, tell Claude.
@@ -71,6 +71,8 @@ Blocked or broken sites:
 - **AK Senate, Daniel J. Sullivan Jr.**: the site on Alaska's official list (www.sullivanforsenate.com) didn't load for us. Try it in your browser. Gerald Heikes has no site on the official list.
 - **SC Senate, Kasie Whitener**: her menu's "On the Issues" link goes to a list of dated blog posts on her campaign site, not an issues list. We used those posts for her stances (no top 3). Check that this seems fair.
 - **SC Senate, Mark Hackett**: no campaign website found (official list and a web search, Oct 8).
+- **AL Senate, Everett Wess**: his site has a blog with policy posts, but no issues page. Our rules use issues/About/home pages, so only his home page was used. Should candidate blog posts count? (Same question as Kasie Whitener above.)
+- **CO Senate**: no campaign website found for Christopher Baum or Blake Huber (the state Libertarian Party hosts a flyer for Huber). Adam Withrow's "Platform" page says "My first priority is to raise pay," so that's his #1, followed by the first two platform items.
 - **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
 ---
