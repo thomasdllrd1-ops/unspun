@@ -617,7 +617,7 @@
     "sort_name": "Moody",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://ashleymoody.com",
     "fec_id": "S6FL00640",
     "source": "official-fl-2026"
   },
@@ -628,7 +628,7 @@
     "sort_name": "Nixon",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://angienixon.com",
     "fec_id": "S6FL00830",
     "source": "official-fl-2026"
   },
@@ -639,7 +639,7 @@
     "sort_name": "Gillespie",
     "party": "no-party-affiliation",
     "incumbent": false,
-    "website": null,
+    "website": "https://neilgillespie4senate.blogspot.com",
     "fec_id": null,
     "source": "official-fl-2026",
     "fec_checked": true

@@ -1,0 +1,298 @@
+{
+  "race": "fl-sen-special",
+  "candidates": [
+    {
+      "candidate": "neil-gillespie",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "neil-gillespie-site-home"
+      ],
+      "priorities_note": "His top 3 are the \"3 key messages\" in his answers to a Ballotpedia candidate survey, which he posted on his campaign website (a blog).",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Restore checks and balances in government, separation of powers.",
+          "quote": "Lawyers admitted to practice are officers of the court, part of the judicial branch of government, and must not serve in elected office in the legislature or executive branch.",
+          "source": "neil-gillespie-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Health care reform.",
+          "quote": "I propose national health coverage, with the ability to opt-out.",
+          "source": "neil-gillespie-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Guarantee the safety of Jews in the United States.",
+          "quote": "Hold Bibi responsible for allowing October 7th to happen, and for the war on Iran. Iran is Bibi's war, and it is a disaster.",
+          "source": "neil-gillespie-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health care reform.",
+          "quote": "I propose national health coverage, with the ability to opt-out.",
+          "said_on": "",
+          "source": "neil-gillespie-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "From his answers to a Ballotpedia candidate survey, which he posted on his campaign website."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Neil J. Gillespie Candidate Survey Responses to Ballotpedia",
+          "quote": "I support the lawful removal of people who enter the United States illegally, but not the spectacle created by activists confronting ICE. I also support a path to citizenship for immigrants who follow the rules.",
+          "said_on": "",
+          "source": "neil-gillespie-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "From his answers to a Ballotpedia candidate survey, which he posted on his campaign website."
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Guarantee the safety of Jews in the United States.",
+          "quote": "Hold Bibi responsible for allowing October 7th to happen, and for the war on Iran. Iran is Bibi's war, and it is a disaster.",
+          "said_on": "",
+          "source": "neil-gillespie-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": "From his answers to a Ballotpedia candidate survey, which he posted on his campaign website."
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "ashley-moody",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "ashley-moody-site-home",
+        "ashley-moody-site-about"
+      ],
+      "priorities_note": "Her campaign website has no list of issues and no stances on our 6 issues. It has a home page and an About page.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "angie-nixon",
+      "researched_on": "2026-10-08",
+      "researched_by": "ai",
+      "looked_at": [
+        "angie-nixon-site-priorities",
+        "angie-nixon-site-meet-angie",
+        "angie-nixon-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Angie believes in Medicare for All.",
+          "quote": "Medicare for All that covers every person in America — free at the point of service, with no premiums, no deductibles, no copays, and no surprise bills.",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 2,
+          "heading": "Angie believes in Universal Child Care & Pre-K.",
+          "quote": "Universal, high-quality child care and pre-kindergarten for every family, regardless of income, capping costs so no family pays more than a small share of their income.",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "rank": 3,
+          "heading": "Angie believes in quality Public Education.",
+          "quote": "Tuition-free public college and trade school, and canceling student debt.",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Angie will fight for the Working Families Guarantee",
+          "quote": "A universal jobs program with inflation-adjusted wages",
+          "said_on": "",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Angie will fight for the Working Families Guarantee",
+          "quote": "A National Rent Freeze and Moratorium on Evictions",
+          "said_on": "",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Angie believes in Medicare for All.",
+          "quote": "Medicare for All that covers every person in America — free at the point of service, with no premiums, no deductibles, no copays, and no surprise bills.",
+          "said_on": "",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Angie believes in supporting human dignity, ending mass incarceration and deportation.",
+          "quote": "A humane immigration system, including a swift path to citizenship for Dreamers and undocumented residents, and a moratorium on deportations pending a full audit of enforcement practices.",
+          "said_on": "",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Angie believes in a foreign policy rooted in diplomacy, human rights, and restraint.",
+          "quote": "End to the war in Iran and rebalance the federal budget toward investments in everyday people here at home",
+          "said_on": "",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Angie believes in climate action that matches the scale of the crisis.",
+          "quote": "A bold, union-built transition to renewable energy, creating millions of good-paying, union jobs in wind, solar, and grid modernization, prioritizing the frontline communities that have borne the brunt of pollution for generations.",
+          "said_on": "",
+          "source": "angie-nixon-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-08",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

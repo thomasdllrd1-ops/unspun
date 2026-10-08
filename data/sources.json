@@ -6100,5 +6100,53 @@
   "url": "https://drmikekatz.com/",
   "type": "campaign",
   "accessed": "2026-10-08"
+ },
+ {
+  "id": "ashley-moody-site-home",
+  "title": "Home page",
+  "publisher": "Ashley Moody campaign website",
+  "url": "https://ashleymoody.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "ashley-moody-site-about",
+  "title": "About page",
+  "publisher": "Ashley Moody campaign website",
+  "url": "https://ashleymoody.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "angie-nixon-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Angie Nixon campaign website",
+  "url": "https://angienixon.com/priorities/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "angie-nixon-site-meet-angie",
+  "title": "Meet angie page",
+  "publisher": "Angie Nixon campaign website",
+  "url": "https://angienixon.com/meet-angie/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "angie-nixon-site-home",
+  "title": "Home page",
+  "publisher": "Angie Nixon campaign website",
+  "url": "https://angienixon.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
+ },
+ {
+  "id": "neil-gillespie-site-home",
+  "title": "Home page",
+  "publisher": "Neil J. Gillespie campaign website",
+  "url": "https://neilgillespie4senate.blogspot.com/",
+  "type": "campaign",
+  "accessed": "2026-10-08"
  }
 ]
