@@ -1,0 +1,347 @@
+{
+  "race": "ky-sen",
+  "candidates": [
+    {
+      "candidate": "andy-barr",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "andy-barr-site-issues",
+        "andy-barr-site-issues-kentucky-coal-plan",
+        "andy-barr-site-issues-military-and-veterans",
+        "andy-barr-site-issues-law-enforcement",
+        "andy-barr-site-meet-andy",
+        "andy-barr-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Border Security",
+          "quote": "Andy Barr believes we must deport all criminal illegals and secure the border. Andy voted for the largest border security bill in history that sent record resources to the Department of Homeland Security (DHS) to seal our border in 2025.",
+          "source": "andy-barr-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Tax Cuts",
+          "quote": "In 2025, he voted for the largest tax cut in American history, the Big Beautiful Bill. The average Kentucky family with two kids saves $4,200 under the new tax law that Andy helped author, champion, and push through Congress.",
+          "source": "andy-barr-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Protecting Our Girls",
+          "quote": "He’s leading the Defend Girls’ Athletics Act that cuts off federal funding to any school or university that refuses to uphold the ban on biological men in girls’ sports.",
+          "source": "andy-barr-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Tax Cuts",
+          "quote": "In 2025, he voted for the largest tax cut in American history, the Big Beautiful Bill. The average Kentucky family with two kids saves $4,200 under the new tax law that Andy helped author, champion, and push through Congress.",
+          "said_on": "",
+          "source": "andy-barr-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border Security",
+          "quote": "Andy Barr believes we must deport all criminal illegals and secure the border. Andy voted for the largest border security bill in history that sent record resources to the Department of Homeland Security (DHS) to seal our border in 2025.",
+          "said_on": "",
+          "source": "andy-barr-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Fighting China",
+          "quote": "Andy led the STOP Chinese Fentanyl Act into law, which sanctions anyone involved in China with fentanyl manufacturing.",
+          "said_on": "",
+          "source": "andy-barr-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Kentucky Energy Powers America",
+          "quote": "Andy has a plan to bring back clean, beautiful coal, to create jobs, lower energy costs, and attract industries of the future to Kentucky.",
+          "said_on": "",
+          "source": "andy-barr-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "charles-booker",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "charles-booker-site-policies",
+        "charles-booker-site-policies-affordable",
+        "charles-booker-site-policies-small-business",
+        "charles-booker-site-policies-gas",
+        "charles-booker-site-policies-energy",
+        "charles-booker-site-policies-infrastructure",
+        "charles-booker-site-policies-data-centers",
+        "charles-booker-site-policies-swamp",
+        "charles-booker-site-policies-healthcare",
+        "charles-booker-site-policies-rural-hospitals",
+        "charles-booker-site-policies-vulnerable",
+        "charles-booker-site-policies-safety",
+        "charles-booker-site-policies-military",
+        "charles-booker-site-policies-farmers",
+        "charles-booker-site-policies-education",
+        "charles-booker-site-policies-seniors",
+        "charles-booker-site-policies-young",
+        "charles-booker-site-home",
+        "charles-booker-site-meet-charles"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Making Life More Affordable",
+          "quote": "I will cut taxes for working and middle-class families, lower costs for everyday necessities and excessive fees, protect Social Security and Medicare, and defend workers' freedom to organize for better wages and benefits.",
+          "source": "charles-booker-site-policies-affordable",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Growing Kentucky Small Businesses",
+          "quote": "Fight the tariff costs that squeeze small businesses on supplies and inventory.",
+          "source": "charles-booker-site-policies-small-business",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Lowering the Price at the Pump",
+          "quote": "Ending the war in Iran.",
+          "source": "charles-booker-site-policies-gas",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Making Life More Affordable",
+          "quote": "I will cut taxes for working and middle-class families, lower costs for everyday necessities and excessive fees, protect Social Security and Medicare, and defend workers' freedom to organize for better wages and benefits.",
+          "said_on": "",
+          "source": "charles-booker-site-policies-affordable",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Supporting Young Kentuckians",
+          "quote": "Propose First-Time Buyer Credits for down-payment assistance for young and first-generation homebuyers.",
+          "said_on": "",
+          "source": "charles-booker-site-policies-young",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Making Healthcare Affordable for All Kentuckians",
+          "quote": "Restoring the Affordable Care Act subsidies that Andy Barr voted to eliminate;",
+          "said_on": "",
+          "source": "charles-booker-site-policies-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Keep America Strong. End Reckless Wars. Honor Those Who Serve.",
+          "quote": "I will work to end the war in Iran, protect American service members, and pursue a durable diplomatic settlement.",
+          "said_on": "",
+          "source": "charles-booker-site-policies-military",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Lowering Energy Costs & Standing with Energy Workers",
+          "quote": "In addition to lowering costs at the pump, on day one if I am elected, I will co-sponsor: the Ratepayer Protection Act (requiring large data centers to fully cover their utility costs so that they aren't passed onto families);",
+          "said_on": "",
+          "source": "charles-booker-site-policies-energy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "christopher-campbell",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "christopher-campbell-site-home",
+        "christopher-campbell-site-pages-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Medicare 4 All",
+          "quote": "I believe that it is the U.S. government's sworn duty to 'Promote the General Welfare' and, therefore, provide for the basic medical needs of all its citizens.",
+          "source": "christopher-campbell-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Pro-Labor, Pro-Union",
+          "quote": "All American workers disserve to work in safe environments, with excellent benefits and quality pay. Additionally, those workers must have a means to address grievances without fear of retaliation or retribution.",
+          "source": "christopher-campbell-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Public Health & Environmental Sustainability",
+          "quote": "In keeping with this philosophy, I will push for a Constitutional “Green” Amendment that clarifies that the U.S. Government has a duty to insure a safe, healthy environment for its citizens.",
+          "source": "christopher-campbell-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Pro-Labor, Pro-Union",
+          "quote": "All American workers disserve to work in safe environments, with excellent benefits and quality pay. Additionally, those workers must have a means to address grievances without fear of retaliation or retribution.",
+          "said_on": "",
+          "source": "christopher-campbell-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Medicare 4 All",
+          "quote": "I believe that it is the U.S. government's sworn duty to 'Promote the General Welfare' and, therefore, provide for the basic medical needs of all its citizens.",
+          "said_on": "",
+          "source": "christopher-campbell-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Anti-War, Pro-Military",
+          "quote": "As a Senator, I will push for a major cut in the military budget by the following actions: 1) Push for the immediate moratorium on all military aide (money, weapons, personnel) to foreign governments.",
+          "said_on": "",
+          "source": "christopher-campbell-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": "His site supports a constitutional \"green\" amendment for a safe, healthy environment, but it doesn't mention climate change or energy."
+        }
+      }
+    }
+  ]
+}

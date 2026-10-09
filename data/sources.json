@@ -6324,5 +6324,221 @@
   "url": "https://whit4ilsenate.com/where-i-stand",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "andy-barr-site-issues",
+  "title": "Issues page",
+  "publisher": "Andy Barr campaign website",
+  "url": "https://barrforsenate.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "andy-barr-site-issues-kentucky-coal-plan",
+  "title": "Issues: kentucky coal plan page",
+  "publisher": "Andy Barr campaign website",
+  "url": "https://barrforsenate.com/issues/kentucky-coal-plan/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "andy-barr-site-issues-military-and-veterans",
+  "title": "Issues: military and veterans page",
+  "publisher": "Andy Barr campaign website",
+  "url": "https://barrforsenate.com/issues/military-and-veterans/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "andy-barr-site-issues-law-enforcement",
+  "title": "Issues: law enforcement page",
+  "publisher": "Andy Barr campaign website",
+  "url": "https://barrforsenate.com/issues/law-enforcement/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "andy-barr-site-meet-andy",
+  "title": "Meet andy page",
+  "publisher": "Andy Barr campaign website",
+  "url": "https://barrforsenate.com/meet-andy/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "andy-barr-site-home",
+  "title": "Home page",
+  "publisher": "Andy Barr campaign website",
+  "url": "https://barrforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-affordable",
+  "title": "Policies: affordable page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/affordable",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-small-business",
+  "title": "Policies: small business page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/small-business",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-gas",
+  "title": "Policies: gas page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/gas",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-young",
+  "title": "Policies: young page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/young",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-healthcare",
+  "title": "Policies: healthcare page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/healthcare",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-military",
+  "title": "Policies: military page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/military",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-energy",
+  "title": "Policies: energy page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/energy",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies",
+  "title": "Policies page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-infrastructure",
+  "title": "Policies: infrastructure page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/infrastructure",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-data-centers",
+  "title": "Policies: data centers page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/data-centers",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-swamp",
+  "title": "Policies: swamp page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/swamp",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-rural-hospitals",
+  "title": "Policies: rural hospitals page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/rural-hospitals",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-vulnerable",
+  "title": "Policies: vulnerable page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/vulnerable",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-safety",
+  "title": "Policies: safety page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/safety",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-farmers",
+  "title": "Policies: farmers page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/farmers",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-education",
+  "title": "Policies: education page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/education",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-policies-seniors",
+  "title": "Policies: seniors page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/policies/seniors",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-home",
+  "title": "Home page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "charles-booker-site-meet-charles",
+  "title": "Meet charles page",
+  "publisher": "Charles Booker campaign website",
+  "url": "https://charlesbookerky.org/meet-charles",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "christopher-campbell-site-home",
+  "title": "Home page",
+  "publisher": "Christopher Campbell campaign website",
+  "url": "https://campbellforsenate.org/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "christopher-campbell-site-pages-about",
+  "title": "Pages: about page",
+  "publisher": "Christopher Campbell campaign website",
+  "url": "https://campbellforsenate.org/pages/about/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]

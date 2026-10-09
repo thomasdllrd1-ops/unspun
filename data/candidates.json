@@ -816,7 +816,7 @@
     "sort_name": "Barr",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://barrforsenate.com",
     "fec_id": "S6KY00286",
     "source": "official-ky-2026"
   },
@@ -827,7 +827,7 @@
     "sort_name": "Booker",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://charlesbookerky.org",
     "fec_id": "S6KY00385",
     "source": "official-ky-2026"
   },
@@ -838,7 +838,7 @@
     "sort_name": "Campbell",
     "party": "kentucky",
     "incumbent": false,
-    "website": null,
+    "website": "https://campbellforsenate.org",
     "fec_id": "S6KY00377",
     "source": "official-ky-2026"
   },
