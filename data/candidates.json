@@ -1368,7 +1368,7 @@
     "sort_name": "Hern",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://hernforsenate.com",
     "fec_id": "S6OK04247",
     "source": "official-ok-2026"
   },
@@ -1379,7 +1379,7 @@
     "sort_name": "Thomas",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.jasmineforok.com",
     "fec_id": "S6OK04163",
     "source": "official-ok-2026"
   },
@@ -1402,7 +1402,7 @@
     "sort_name": "Meinhardt",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.running4ok.com",
     "fec_id": "S6OK04205",
     "source": "official-ok-2026"
   },
@@ -1413,7 +1413,7 @@
     "sort_name": "Stinnett",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.stinnettforsenate.org",
     "fec_id": null,
     "source": "official-ok-2026",
     "fec_checked": true

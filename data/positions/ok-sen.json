@@ -1,0 +1,495 @@
+{
+  "race": "ok-sen",
+  "candidates": [
+    {
+      "candidate": "kevin-hern",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "kevin-hern-site-home",
+        "kevin-hern-site-meet-kevin"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Support our Veterans",
+          "quote": "Cosponsored H.R.299 and H.R.550 to honor and recognize Blue Water Navy and WWII Merchant Mariners veterans.",
+          "source": "kevin-hern-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Support a Balanced Budget",
+          "quote": "Cosponsored H.J.Res.22 for a balanced budget amendment to address national debt and curb spending.",
+          "source": "kevin-hern-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Secure the Border",
+          "quote": "Voted for H.R.695 to fund border wall and cosponsored H.R.768 to defund sanctuary campuses.",
+          "source": "kevin-hern-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Put Americans Back to Work",
+          "quote": "Advocating for small business capital access and opposing policies that harm free enterprise.",
+          "said_on": "",
+          "source": "kevin-hern-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure the Border",
+          "quote": "Voted for H.R.695 to fund border wall and cosponsored H.R.768 to defund sanctuary campuses.",
+          "said_on": "",
+          "source": "kevin-hern-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Counter China",
+          "quote": "Introduced the Promoting Responsible Oversight to Eliminate Communist Teachings for Our Kids (PROTECT Our Kids) Act, legislation to prohibit federal funding through the Department of Education for any school which continues to host a Confucius Classroom.",
+          "said_on": "",
+          "source": "kevin-hern-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is the only item on his site about another country."
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "ron-meinhardt",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "ron-meinhardt-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Congress must authorize war.",
+          "quote": "No president — Republican or Democrat — should drag America into an actual open-ended war without a vote of the people’s representatives. Support our troops by refusing reckless conflict beyond the scope of the Constitution.",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Oklahoma families feel energy prices immediately.",
+          "quote": "Affordable domestic energy is not just an industry issue. It affects groceries, transportation, utilities, jobs, family budgets, and the cost of nearly everything.",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Healthcare should not bankrupt working families.",
+          "quote": "Reform should serve patients, nurses, providers, small businesses, and families — not giant corporate systems.",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Fiscal responsibility for the young",
+          "quote": "Younger Oklahomans deserve opportunity, affordable homes, stable money, and a solvent future — not endless debt and inflation.",
+          "said_on": "",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Fiscal responsibility for the young",
+          "quote": "Younger Oklahomans deserve opportunity, affordable homes, stable money, and a solvent future — not endless debt and inflation.",
+          "said_on": "",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is the only passage about housing on his site. It names affordable homes along with other goals."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare should not bankrupt working families.",
+          "quote": "Reform should serve patients, nurses, providers, small businesses, and families — not giant corporate systems.",
+          "said_on": "",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Law, order, and a system that actually works.",
+          "quote": "Congress must step up with real solutions to mitigate the crisis created by open borders and the failure to enforce existing law. That means securing the border, streamlining deportation, and ensuring a process that is constitutional, enforceable, and accountable.",
+          "said_on": "",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Congress must authorize war.",
+          "quote": "No president — Republican or Democrat — should drag America into an actual open-ended war without a vote of the people’s representatives. Support our troops by refusing reckless conflict beyond the scope of the Constitution.",
+          "said_on": "",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Oklahoma families feel energy prices immediately.",
+          "quote": "Affordable domestic energy is not just an industry issue. It affects groceries, transportation, utilities, jobs, family budgets, and the cost of nearly everything.",
+          "said_on": "",
+          "source": "ron-meinhardt-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "curtis-stinnett",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "curtis-stinnett-site-main-ideas",
+        "curtis-stinnett-site-main-ideas-era",
+        "curtis-stinnett-site-main-ideas-israel-and-palestine",
+        "curtis-stinnett-site-main-ideas-good-neighbors",
+        "curtis-stinnett-site-main-ideas-living-wage",
+        "curtis-stinnett-site-main-ideas-medicare-for-all",
+        "curtis-stinnett-site-main-ideas-reparations",
+        "curtis-stinnett-site-main-ideas-codify-roe",
+        "curtis-stinnett-site-main-ideas-get-the-house-in-order",
+        "curtis-stinnett-site-main-ideas-energy-independence-for-our-g",
+        "curtis-stinnett-site-main-ideas-overturn-citizens-united",
+        "curtis-stinnett-site-about-1",
+        "curtis-stinnett-site-home"
+      ],
+      "priorities_note": "His \"Main Ideas\" page is a list of dated posts, not a ranked list of issues, so there's no top 3. His stances below come from those posts.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Living Wage",
+          "quote": "I propose we tie the federal minimum wage to the MIT Living Wage Calculator set to single adult with no kids. This would be on a county by county basis for the employer and would be reevaluated every year on January 1st.",
+          "said_on": "",
+          "source": "curtis-stinnett-site-main-ideas-living-wage",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Medicare for all",
+          "quote": "If I were leading the charge in Washington on how to overhaul runaway healthcare costs I would switch us to a Medicare for All system. No more Medicaid, TriCare, VA etc. All rolled into Medicare.",
+          "said_on": "",
+          "source": "curtis-stinnett-site-main-ideas-medicare-for-all",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Good neighbors",
+          "quote": "I would under no circumstance be a Yes vote for ICE appropriations while we continue this shameful and lawless practice. I would be a Yes vote to claw back appropriations that are supporting ICE as it currently exists.",
+          "said_on": "",
+          "source": "curtis-stinnett-site-main-ideas-good-neighbors",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Israel and Palestine",
+          "quote": "We must stop all military aid to the country of Israel until they have stopped this campaign and begun to make restitution.",
+          "said_on": "",
+          "source": "curtis-stinnett-site-main-ideas-israel-and-palestine",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy Independence for Our Government",
+          "quote": "If we were to appropriate the funds to put solar in to power our buildings we would get that money back within 7-10 years.",
+          "said_on": "",
+          "source": "curtis-stinnett-site-main-ideas-energy-independence-for-our-g",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "n-kiyla-jasmine-thomas",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "n-kiyla-jasmine-thomas-site-policies",
+        "n-kiyla-jasmine-thomas-site-about",
+        "n-kiyla-jasmine-thomas-site-about-1",
+        "n-kiyla-jasmine-thomas-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Education",
+          "quote": "Reduce class sizes and expand early intervention",
+          "source": "n-kiyla-jasmine-thomas-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Economic Justice & Cost of Living",
+          "quote": "A living wage minimum wage",
+          "source": "n-kiyla-jasmine-thomas-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Healthcare & Public Health",
+          "quote": "Establish Medicare for All to guarantee universal healthcare coverage for every American and ensure that no one is denied care because they cannot afford it.",
+          "source": "n-kiyla-jasmine-thomas-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economic Justice & Cost of Living",
+          "quote": "A living wage minimum wage",
+          "said_on": "",
+          "source": "n-kiyla-jasmine-thomas-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Economic Justice & Cost of Living",
+          "quote": "Investment in affordable housing",
+          "said_on": "",
+          "source": "n-kiyla-jasmine-thomas-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare & Public Health",
+          "quote": "Establish Medicare for All to guarantee universal healthcare coverage for every American and ensure that no one is denied care because they cannot afford it.",
+          "said_on": "",
+          "source": "n-kiyla-jasmine-thomas-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": "Her environment plan is about clean water and holding polluters accountable. It doesn't mention climate change or energy."
+        }
+      }
+    },
+    {
+      "candidate": "sevier-white",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-ok-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Oklahoma's official candidate list doesn't include websites, and a web search on Oct 9, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
