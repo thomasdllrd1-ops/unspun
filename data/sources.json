@@ -6236,5 +6236,93 @@
   "url": "https://www.loesby.us/",
   "type": "campaign",
   "accessed": "2026-10-08"
+ },
+ {
+  "id": "juliana-stratton-site-issues",
+  "title": "Issues page",
+  "publisher": "Juliana Stratton campaign website",
+  "url": "https://www.julianastratton.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "juliana-stratton-site-meet-juliana",
+  "title": "Meet juliana page",
+  "publisher": "Juliana Stratton campaign website",
+  "url": "https://www.julianastratton.com/meet-juliana",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "juliana-stratton-site-home",
+  "title": "Home page",
+  "publisher": "Juliana Stratton campaign website",
+  "url": "https://www.julianastratton.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "don-tracy-site-home",
+  "title": "Home page",
+  "publisher": "Don Tracy campaign website",
+  "url": "https://dontracyforil.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "don-tracy-site-lower-the-cost-of-living",
+  "title": "Lower the cost of living page",
+  "publisher": "Don Tracy campaign website",
+  "url": "https://dontracyforil.com/lower-the-cost-of-living/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "don-tracy-site-defend",
+  "title": "Defend page",
+  "publisher": "Don Tracy campaign website",
+  "url": "https://dontracyforil.com/defend/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "don-tracy-site-common-sense-solutions",
+  "title": "Common sense solutions page",
+  "publisher": "Don Tracy campaign website",
+  "url": "https://dontracyforil.com/common-sense-solutions/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "don-tracy-site-represent",
+  "title": "Represent page",
+  "publisher": "Don Tracy campaign website",
+  "url": "https://dontracyforil.com/represent/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "don-tracy-site-about",
+  "title": "About page",
+  "publisher": "Don Tracy campaign website",
+  "url": "https://dontracyforil.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "whitfield-harrington-site-home",
+  "title": "Home page",
+  "publisher": "Whitfield Harrington Jr campaign website",
+  "url": "https://whit4ilsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "whitfield-harrington-site-where-i-stand",
+  "title": "Where i stand page",
+  "publisher": "Whitfield Harrington Jr campaign website",
+  "url": "https://whit4ilsenate.com/where-i-stand",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]

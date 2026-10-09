@@ -1,0 +1,331 @@
+{
+  "race": "il-sen",
+  "candidates": [
+    {
+      "candidate": "whitfield-harrington",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "whitfield-harrington-site-home",
+        "whitfield-harrington-site-where-i-stand"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Energy",
+          "quote": "Use America's domestic energy resources to bring costs down now while continuing to build the renewable capacity the country will need for the future.",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Food",
+          "quote": "Lower food costs by keeping tariffs off food, strengthening local farmers and markets, protecting farmers' right to repair equipment, and restoring practical food education.",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Housing",
+          "quote": "Make smaller mortgages available so working families can buy affordable homes that are too often captured by cash investors and rented back at higher prices.",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Food",
+          "quote": "Lower food costs by keeping tariffs off food, strengthening local farmers and markets, protecting farmers' right to repair equipment, and restoring practical food education.",
+          "said_on": "",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "Make smaller mortgages available so working families can buy affordable homes that are too often captured by cash investors and rented back at higher prices.",
+          "said_on": "",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health Care",
+          "quote": "Expand Direct Primary Care by helping doctors open independent practices through loan forgiveness, grants, and responsible financing so patients can receive care without an insurance middleman.",
+          "said_on": "",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration and Border Security",
+          "quote": "Secure the border according to each sector's needs, deport criminals, enforce the law with dignity, prevent family separation, and make legal immigration easier than illegal entry.",
+          "said_on": "",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "A Renaissance Foreign Policy",
+          "quote": "Step back without stepping away, require allies to carry more of their own defense burden, reduce open-ended commitments, and rebuild the American foundation that supports national strength.",
+          "said_on": "",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "Use America's domestic energy resources to bring costs down now while continuing to build the renewable capacity the country will need for the future.",
+          "said_on": "",
+          "source": "whitfield-harrington-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "juliana-stratton",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "juliana-stratton-site-issues",
+        "juliana-stratton-site-meet-juliana",
+        "juliana-stratton-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Making Life More Affordable",
+          "quote": "Ending Trump’s Trade War and Tax on Working Families",
+          "source": "juliana-stratton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Creating Opportunities for the Middle Class",
+          "quote": "Restoring the Department of Education",
+          "source": "juliana-stratton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Protecting Your Rights and Our Democracy",
+          "quote": "Abolishing ICE",
+          "source": "juliana-stratton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Making Life More Affordable",
+          "quote": "Ending Trump’s Trade War and Tax on Working Families",
+          "said_on": "",
+          "source": "juliana-stratton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Making Life More Affordable",
+          "quote": "Securing Medicare for All",
+          "said_on": "",
+          "source": "juliana-stratton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Protecting Your Rights and Our Democracy",
+          "quote": "Abolishing ICE",
+          "said_on": "",
+          "source": "juliana-stratton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protecting Your Rights and Our Democracy",
+          "quote": "She has fought alongside Governor Pritzker to protect voting rights, safeguard reproductive freedom, stand up for LGBTQ+ rights, tackle the gun violence crisis, and take urgent action on climate change.",
+          "said_on": "",
+          "source": "juliana-stratton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is the only mention of climate on her site. The sentence is about her record in Illinois and lists several issues."
+        }
+      }
+    },
+    {
+      "candidate": "don-tracy",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "don-tracy-site-home",
+        "don-tracy-site-lower-the-cost-of-living",
+        "don-tracy-site-common-sense-solutions",
+        "don-tracy-site-represent",
+        "don-tracy-site-defend",
+        "don-tracy-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lower the Cost-of-Living for Working Families",
+          "quote": "I will fight to lower the cost-of-living so everyone in our great state can achieve their own version of the American Dream.",
+          "source": "don-tracy-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Champion Common Sense Solutions, Not Extreme Agendas",
+          "quote": "America needs common sense leadership that puts families first, strengthens our communities, and expands opportunity for the next generation.",
+          "source": "don-tracy-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Represent All of Illinois",
+          "quote": "Too many of our politicians seem to forget Illinois has 102 counties, and the working families in every county deserve to have their voices heard. I will be proud to bring their voices to the halls of Congress.",
+          "source": "don-tracy-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower Taxes and Reduce Inflation",
+          "quote": "Lower Taxes and Reduce Inflation – Cut wasteful spending, improve efficiency, and help families keep more of what they earn.",
+          "said_on": "",
+          "source": "don-tracy-site-lower-the-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Make Housing More Affordable",
+          "quote": "Make Housing More Affordable – Support policies that expand opportunity and remove barriers that make it harder to build affordable homes.",
+          "said_on": "",
+          "source": "don-tracy-site-lower-the-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lower Health Care and Drug Costs",
+          "quote": "Lower Health Care and Drug Costs – Promote price transparency, more competition, and reforms that help reduce insurance and prescription costs.",
+          "said_on": "",
+          "source": "don-tracy-site-lower-the-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure Borders and the Rule of Law",
+          "quote": "Secure Borders and the Rule of Law – Enforce immigration laws and oppose taxpayer-funded benefits for those here illegally.",
+          "said_on": "",
+          "source": "don-tracy-site-defend",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Lower Energy and Utility Costs",
+          "quote": "Lower Energy and Utility Costs – Support a reasonable energy policy that uses available energy sources, protects reliability, and reduces household costs.",
+          "said_on": "",
+          "source": "don-tracy-site-lower-the-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -717,7 +717,7 @@
     "sort_name": "Stratton",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.julianastratton.com",
     "fec_id": "S6IL00458",
     "source": "official-il-2026"
   },
@@ -728,7 +728,7 @@
     "sort_name": "Tracy",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://dontracyforil.com",
     "fec_id": "S6IL00615",
     "source": "official-il-2026"
   },
@@ -739,7 +739,7 @@
     "sort_name": "Harrington",
     "party": "american-center",
     "incumbent": false,
-    "website": null,
+    "website": "https://whit4ilsenate.com",
     "fec_id": "S6IL00680",
     "source": "official-il-2026"
   },
