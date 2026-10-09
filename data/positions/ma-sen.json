@@ -1,0 +1,443 @@
+{
+  "race": "ma-sen",
+  "candidates": [
+    {
+      "candidate": "shiva-ayyadurai",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "shiva-ayyadurai-site-platform",
+        "shiva-ayyadurai-site-truth-freedom-health-the-platform-for-cr",
+        "shiva-ayyadurai-site-about-shiva",
+        "shiva-ayyadurai-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Truth, Freedom, Health",
+          "quote": "Truth, Freedom, Health® for All – End censorship, protect medical freedom, and return science to the people so you can make real health decisions and extend your life.",
+          "source": "shiva-ayyadurai-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "End the Swarm of Corruption",
+          "quote": "End the Swarm of Corruption – Rip lobbyists and billionaires out of government so resources go to working people’s health and vitality, not to corporate cronies.",
+          "source": "shiva-ayyadurai-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Real Health, Not Sickness Profits",
+          "quote": "Real Health, Not Sickness Profits – Shift from “sick-care” to preventive and integrative medicine, nutrition, and systems biology. Our Open Science Institute delivers protocols in months — not decades — so you and your family can be stronger now.",
+          "source": "shiva-ayyadurai-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economic Freedom for Working People",
+          "quote": "Economic Freedom for Working People – Cut taxes for families and small business so you can afford clean food, safe housing, and healthcare that actually extends your lifespan. End the Fed’s inflation robbery.",
+          "said_on": "",
+          "source": "shiva-ayyadurai-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Economic Freedom for Working People",
+          "quote": "Economic Freedom for Working People – Cut taxes for families and small business so you can afford clean food, safe housing, and healthcare that actually extends your lifespan. End the Fed’s inflation robbery.",
+          "said_on": "",
+          "source": "shiva-ayyadurai-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is the only passage that mentions housing on his site. It names housing along with other costs."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Real Health, Not Sickness Profits",
+          "quote": "Real Health, Not Sickness Profits – Shift from “sick-care” to preventive and integrative medicine, nutrition, and systems biology. Our Open Science Institute delivers protocols in months — not decades — so you and your family can be stronger now.",
+          "said_on": "",
+          "source": "shiva-ayyadurai-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Peace, Not Endless Wars",
+          "quote": "Peace, Not Endless Wars – No more trillion-dollar wars abroad. Bring troops home and reinvest in communities’ health infrastructure. War steals your wealth and your lifespan.",
+          "said_on": "",
+          "source": "shiva-ayyadurai-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": "His platform lists \"Microgrid Autonomy and Energy Independence\" as a goal but doesn't say what he would do."
+        }
+      }
+    },
+    {
+      "candidate": "john-deaton",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "john-deaton-site-issues",
+        "john-deaton-site-meet-john",
+        "john-deaton-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordable, Accessible Healthcare",
+          "quote": "I will fight to break up these vertically integrated insurers and break up the PBM monopoly so patients, doctors, and pharmacists — not middlemen — decide what care looks like.",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Opening Doors to Homeownership",
+          "quote": "I support permitting reform that sets real deadlines for local and state approval, and I oppose green-energy mandates that force builders to absorb costs that get passed straight on to buyers and renters in the form of higher prices.",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "A Responsible Energy Future",
+          "quote": "I support building out solar, wind, geothermal, and hydro alongside a serious recommitment to nuclear power — including small modular reactors (SMRs), like the ones I've proposed for Brayton Point, paired with data center growth and backed by real ratepayer protections and community benefit agreements so host communities share in the upside.",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Social Security: A Promise We Keep",
+          "quote": "I also believe Social Security benefits should not be taxed. Seniors already paid into this system with after-tax dollars; taxing their benefits a second time is unjust.",
+          "said_on": "",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Opening Doors to Homeownership",
+          "quote": "I support permitting reform that sets real deadlines for local and state approval, and I oppose green-energy mandates that force builders to absorb costs that get passed straight on to buyers and renters in the form of higher prices.",
+          "said_on": "",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Affordable, Accessible Healthcare",
+          "quote": "I will fight to break up these vertically integrated insurers and break up the PBM monopoly so patients, doctors, and pharmacists — not middlemen — decide what care looks like.",
+          "said_on": "",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure Borders, Expand Legal Immigration",
+          "quote": "I will fight to secure the border, end catch-and-release, and reform the asylum process while expanding legal immigration. Most people coming here seek a better life, but the status quo is unsustainable and undermines those who follow the law. I reject both blanket amnesty and mass deportation.",
+          "said_on": "",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Responsible Foreign Policy",
+          "quote": "I will not write blank checks. Every dollar spent overseas must be justified with verifiable facts that it advances American security and does not risk drawing us into a wider conflict.",
+          "said_on": "",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "A Responsible Energy Future",
+          "quote": "I support building out solar, wind, geothermal, and hydro alongside a serious recommitment to nuclear power — including small modular reactors (SMRs), like the ones I've proposed for Brayton Point, paired with data center growth and backed by real ratepayer protections and community benefit agreements so host communities share in the upside.",
+          "said_on": "",
+          "source": "john-deaton-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "edward-markey",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "edward-markey-site-issues-priorities",
+        "edward-markey-site-issues-priorities-pathways-to-opportunit",
+        "edward-markey-site-issues-priorities-affordable-care-for-al",
+        "edward-markey-site-issues-priorities-building-a-resilient-f",
+        "edward-markey-site-issues-priorities-freedom-equality-oppor",
+        "edward-markey-site-issues-priorities-justice-safety-for-all",
+        "edward-markey-site-meet-ed",
+        "edward-markey-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Pathways to Opportunity",
+          "quote": "Raising wages, advancing pay equity, and protecting workers’ benefits by supporting a higher minimum wage, eliminating subminimum wages, cracking down on pay discrimination, and ensuring workers don’t lose health coverage during labor disputes, while also strengthening Social Security benefits for when they retire.",
+          "source": "edward-markey-site-issues-priorities-pathways-to-opportunit",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Affordable Care for All",
+          "quote": "Expanding pathways to universal healthcare by allowing states to build systems with federal support and advancing a national Medicare for All program so that everyone can access comprehensive, affordable care regardless of income, employment, or zipcode.",
+          "source": "edward-markey-site-issues-priorities-affordable-care-for-al",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Building a Resilient Future",
+          "quote": "Holding polluters accountable and ending fossil fuel subsidies by closing tax loopholes and making fossil fuel companies pay their fair share, so that corporations, not taxpayers, pay for climate damage while federal policy supports a transition to clean energy.",
+          "source": "edward-markey-site-issues-priorities-building-a-resilient-f",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Workers, Wages & Economic Fairness",
+          "quote": "Raising wages, advancing pay equity, and protecting workers’ benefits by supporting a higher minimum wage, eliminating subminimum wages, cracking down on pay discrimination, and ensuring workers don’t lose health coverage during labor disputes, while also strengthening Social Security benefits for when they retire.",
+          "said_on": "",
+          "source": "edward-markey-site-issues-priorities-pathways-to-opportunit",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Making Massachusetts More Affordable",
+          "quote": "Making housing more affordable and secure by investing in the construction and preservation of affordable homes, expanding rental assistance, supporting first-generation homebuyers, and strengthening programs that prevent evictions and reduce homelessness so more families can stay safely housed.",
+          "said_on": "",
+          "source": "edward-markey-site-issues-priorities-pathways-to-opportunit",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lowering Costs & Expanding Coverage",
+          "quote": "Expanding pathways to universal healthcare by allowing states to build systems with federal support and advancing a national Medicare for All program so that everyone can access comprehensive, affordable care regardless of income, employment, or zipcode.",
+          "said_on": "",
+          "source": "edward-markey-site-issues-priorities-affordable-care-for-al",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigrant Justice & Opportunity",
+          "quote": "He has been a leading voice for reform, becoming the first U.S. Senator to call for the abolition of ICE, advocating to protect humanitarian relief programs, and working to replace a broken system that harms families and undermines civil liberties.",
+          "said_on": "",
+          "source": "edward-markey-site-issues-priorities-freedom-equality-oppor",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Bold Climate Action",
+          "quote": "Holding polluters accountable and ending fossil fuel subsidies by closing tax loopholes and making fossil fuel companies pay their fair share, so that corporations, not taxpayers, pay for climate damage while federal policy supports a transition to clean energy.",
+          "said_on": "",
+          "source": "edward-markey-site-issues-priorities-building-a-resilient-f",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "joe-tache",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "joe-tache-site-our-program",
+        "joe-tache-site-about",
+        "joe-tache-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "SEIZE THE TOP 100 CORPORATIONS AND REORGANIZE THE ECONOMY TO MEET OUR NEEDS!",
+          "quote": "We propose a set of National Emergency Acts to seize the top 100 corporations (worth over $30 trillion combined) and convert them to public property, along with a 100% tax on all assets above 10 million dollars.",
+          "source": "joe-tache-site-our-program",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "SAVE OUR PLANET FROM CAPITALISM!",
+          "quote": "We propose a National Climate Emergency Act to seize and decommission the billionaires’ fossil fuel infrastructure, and to build a renewable energy grid in its place.",
+          "source": "joe-tache-site-our-program",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "MEANINGFUL JOBS AND LIVING WAGES FOR ALL!",
+          "quote": "Through the National Employment Emergency Act, we will guarantee well-paid union jobs and job training so each one of us can take part in building the society we deserve.",
+          "source": "joe-tache-site-our-program",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "SEIZE THE TOP 100 CORPORATIONS AND REORGANIZE THE ECONOMY TO MEET OUR NEEDS!",
+          "quote": "We propose a set of National Emergency Acts to seize the top 100 corporations (worth over $30 trillion combined) and convert them to public property, along with a 100% tax on all assets above 10 million dollars.",
+          "said_on": "",
+          "source": "joe-tache-site-our-program",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "STOP SCAPEGOATING IMMIGRANTS",
+          "quote": "Abolishing ICE and providing a path to citizenship for every person living inside the United States",
+          "said_on": "",
+          "source": "joe-tache-site-our-program",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "FUND OUR NEEDS, NOT THE WAR MACHINE!",
+          "quote": "Our Emergency Act to End War and Militarism is the first step. It includes cutting the military budget by 90% (the U.S military budget is currently bigger than the next nine countries combined) and closing all 800+ military bases around the world.",
+          "said_on": "",
+          "source": "joe-tache-site-our-program",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "SAVE OUR PLANET FROM CAPITALISM!",
+          "quote": "We propose a National Climate Emergency Act to seize and decommission the billionaires’ fossil fuel infrastructure, and to build a renewable energy grid in its place.",
+          "said_on": "",
+          "source": "joe-tache-site-our-program",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -893,7 +893,7 @@
     "sort_name": "Markey",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.edmarkey.com",
     "fec_id": "S4MA00028",
     "source": "official-ma-2026"
   },
@@ -904,7 +904,7 @@
     "sort_name": "Deaton",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.johndeatonforsenate.com",
     "fec_id": "S6MA00304",
     "source": "official-ma-2026"
   },
@@ -915,7 +915,7 @@
     "sort_name": "Ayyadurai",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://shiva4senate.com",
     "fec_id": "S8MA00268",
     "source": "wikipedia-senate-2026"
   },
@@ -926,7 +926,7 @@
     "sort_name": "Tache",
     "party": "party-for-socialism-and-liberation",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.tache4ma.com",
     "fec_id": "S6MA00288",
     "source": "wikipedia-senate-2026"
   },
