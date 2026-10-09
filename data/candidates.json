@@ -1425,7 +1425,7 @@
     "sort_name": "Smith",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.davidbrocksmithfororegon.com",
     "fec_id": "S6OR05218",
     "source": "official-or-2026"
   },
@@ -1436,7 +1436,7 @@
     "sort_name": "Merkley",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.jeffmerkley.com",
     "fec_id": "S8OR00207",
     "source": "official-or-2026",
     "party_lines": [

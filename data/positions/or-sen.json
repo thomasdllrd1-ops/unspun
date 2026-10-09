@@ -1,0 +1,378 @@
+{
+  "race": "or-sen",
+  "candidates": [
+    {
+      "candidate": "gary-lyndon-dye",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-or-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Oregon's official candidate filings don't list one, and a web search on Oct 9, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "chris-henry",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-or-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Oregon's official candidate filings don't list one, and a web search on Oct 9, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jeff-merkley",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "jeff-merkley-site-issues",
+        "jeff-merkley-site-about",
+        "jeff-merkley-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "A We the People Democracy",
+          "quote": "We must reclaim our Constitution. Put an end to gerrymandering. Overturn Citizens United and shut down the dark money. Reinstate and strengthen the Voting Rights Act to stop voter suppression and intimidation.",
+          "source": "jeff-merkley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Reverse the Climate Crisis",
+          "quote": "We must invest in a shift to 100% clean and renewable energy sources. And we need a Green New Deal to ensure that as we drive this transition, we create millions of good-paying family jobs and invest in the front-line communities that have often been left behind.",
+          "source": "jeff-merkley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Opportunity for Everyone",
+          "quote": "We can create millions of good-paying jobs rebuilding America’s infrastructure from roads and bridges to docks and jetties.",
+          "source": "jeff-merkley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Opportunity for Everyone",
+          "quote": "We can create millions of good-paying jobs rebuilding America’s infrastructure from roads and bridges to docks and jetties.",
+          "said_on": "",
+          "source": "jeff-merkley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Opportunity for Everyone",
+          "quote": "Housing and child care should be affordable in every community and to every family.",
+          "said_on": "",
+          "source": "jeff-merkley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Opportunity for Everyone",
+          "quote": "We should give every American the opportunity to participate in simple, seamless, cost-effective Medicare for All. And we must end the gouging of Americans on drug prices by banning drug companies from charging more for a drug than they charge in Canada, Europe, and Japan.",
+          "said_on": "",
+          "source": "jeff-merkley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Reverse the Climate Crisis",
+          "quote": "We must invest in a shift to 100% clean and renewable energy sources. And we need a Green New Deal to ensure that as we drive this transition, we create millions of good-paying family jobs and invest in the front-line communities that have often been left behind.",
+          "said_on": "",
+          "source": "jeff-merkley-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "david-brock-smith",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "david-brock-smith-site-issues",
+        "david-brock-smith-site-about",
+        "david-brock-smith-site-copy-of-meet-david",
+        "david-brock-smith-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Making Oregon Affordable",
+          "quote": "We need common-sense solutions that incentivize job growth in our communities, help make homes more affordable, and bring back the American Dream for Oregonians. That means no new taxes, more support for our local businesses, eliminating fraud, and reducing unnecessary government spending.",
+          "source": "david-brock-smith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Addressing Crime & Public Safety",
+          "quote": "I support law enforcement, accountability for repeat offenders, and restoring consequences that keep our kids and communities safe.",
+          "source": "david-brock-smith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Ending the Homelessness Crisis",
+          "quote": "We need drug and mental health treatment that works, and I have and will continue to fight for treatment and accountability, as well as an end to permanent street camping.",
+          "source": "david-brock-smith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Making Oregon Affordable",
+          "quote": "We need common-sense solutions that incentivize job growth in our communities, help make homes more affordable, and bring back the American Dream for Oregonians. That means no new taxes, more support for our local businesses, eliminating fraud, and reducing unnecessary government spending.",
+          "said_on": "",
+          "source": "david-brock-smith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Ending the Homelessness Crisis",
+          "quote": "We need drug and mental health treatment that works, and I have and will continue to fight for treatment and accountability, as well as an end to permanent street camping.",
+          "said_on": "",
+          "source": "david-brock-smith-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

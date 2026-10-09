@@ -7428,5 +7428,61 @@
   "url": "https://www.stinnettforsenate.org/",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "david-brock-smith-site-issues",
+  "title": "Issues page",
+  "publisher": "David Brock Smith campaign website",
+  "url": "https://www.davidbrocksmithfororegon.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "david-brock-smith-site-about",
+  "title": "About page",
+  "publisher": "David Brock Smith campaign website",
+  "url": "https://www.davidbrocksmithfororegon.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "david-brock-smith-site-copy-of-meet-david",
+  "title": "Endorsements page",
+  "publisher": "David Brock Smith campaign website",
+  "url": "https://www.davidbrocksmithfororegon.com/copy-of-meet-david",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "david-brock-smith-site-home",
+  "title": "Home page",
+  "publisher": "David Brock Smith campaign website",
+  "url": "https://www.davidbrocksmithfororegon.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "jeff-merkley-site-issues",
+  "title": "Issues page",
+  "publisher": "Jeff Merkley campaign website",
+  "url": "https://www.jeffmerkley.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "jeff-merkley-site-about",
+  "title": "About page",
+  "publisher": "Jeff Merkley campaign website",
+  "url": "https://www.jeffmerkley.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "jeff-merkley-site-home",
+  "title": "Home page",
+  "publisher": "Jeff Merkley campaign website",
+  "url": "https://www.jeffmerkley.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]
