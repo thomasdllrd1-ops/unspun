@@ -1,0 +1,227 @@
+{
+  "race": "nm-sen",
+  "candidates": [
+    {
+      "candidate": "ben-r-lujan",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "ben-r-lujan-site-priorities",
+        "ben-r-lujan-site-issue-making-new-mexico-more-affordable",
+        "ben-r-lujan-site-issue-delivering-for-new-mexicans",
+        "ben-r-lujan-site-issue-keeping-new-mexicans-safe",
+        "ben-r-lujan-site-issue-upholding-new-mexican-values",
+        "ben-r-lujan-site-about",
+        "ben-r-lujan-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Making New Mexico More Affordable",
+          "quote": "With everything costing more under the Trump administration, no one should be scammed out of their money or face hidden fees. I introduced legislation banning surveillance pricing at grocery stores and am fighting to end junk fees.",
+          "source": "ben-r-lujan-site-issue-making-new-mexico-more-affordable",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Delivering for New Mexicans",
+          "quote": "New Mexico deserves good-paying jobs. I’m fighting for federal investment in infrastructure, clean energy, manufacturing, workforce training, and our National Labs.",
+          "source": "ben-r-lujan-site-issue-delivering-for-new-mexicans",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Keeping New Mexicans Safe",
+          "quote": "I secured millions in federal funding to improve the safety of New Mexico neighborhoods.",
+          "source": "ben-r-lujan-site-issue-keeping-new-mexicans-safe",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Scams and junk fees",
+          "quote": "With everything costing more under the Trump administration, no one should be scammed out of their money or face hidden fees. I introduced legislation banning surveillance pricing at grocery stores and am fighting to end junk fees.",
+          "said_on": "",
+          "source": "ben-r-lujan-site-issue-making-new-mexico-more-affordable",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "I helped pass the 21st Century ROAD to Housing Act to provide federal incentives for new housing, cheaper financing for manufactured and modular homes, and less red tape.",
+          "said_on": "",
+          "source": "ben-r-lujan-site-issue-making-new-mexico-more-affordable",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Prescription drugs",
+          "quote": "I helped pass the law letting Medicare negotiate drug prices, capped insulin at $35 a month, and capped seniors’ out-of-pocket drug costs.",
+          "said_on": "",
+          "source": "ben-r-lujan-site-issue-making-new-mexico-more-affordable",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Accountability for DHS and ICE",
+          "quote": "I’ve introduced legislation to mandate training for ICE and CBP officers and hold them accountable for the violence and chaos they have caused in our streets.",
+          "said_on": "",
+          "source": "ben-r-lujan-site-issue-keeping-new-mexicans-safe",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy and gas prices",
+          "quote": "I helped pass historic clean energy tax credits and efficiency rebates and have sponsored legislation to bring down energy costs.",
+          "said_on": "",
+          "source": "ben-r-lujan-site-issue-making-new-mexico-more-affordable",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "larry-e-marker",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "larry-e-marker-site-secure-new-mexico-borders",
+        "larry-e-marker-site-new-mexico-energy-independence",
+        "larry-e-marker-site-agriculture",
+        "larry-e-marker-site-meet-larry-led-marker",
+        "larry-e-marker-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "A Secure Border for a Safer New Mexico",
+          "quote": "I will use the appropriations process to tie Department of Homeland Security funding to strict performance metrics, ensuring that resources are only directed to programs that achieve verifiable, 100% border surveillance and interdiction.",
+          "source": "larry-e-marker-site-secure-new-mexico-borders",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "The Engine of Our State",
+          "quote": "I will introduce and champion legislation that mandates strict, non-negotiable \"shot-clocks\" for federal energy permitting.",
+          "source": "larry-e-marker-site-new-mexico-energy-independence",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Stop the lawfare against the people who feed",
+          "quote": "Larry Marker’s position is simple: the people who work the land should not be punished by unelected bureaucracies acting like they answer to nobody.",
+          "source": "larry-e-marker-site-agriculture",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "A Secure Border for a Safer New Mexico",
+          "quote": "I will use the appropriations process to tie Department of Homeland Security funding to strict performance metrics, ensuring that resources are only directed to programs that achieve verifiable, 100% border surveillance and interdiction.",
+          "said_on": "",
+          "source": "larry-e-marker-site-secure-new-mexico-borders",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "The Engine of Our State",
+          "quote": "I will introduce and champion legislation that mandates strict, non-negotiable \"shot-clocks\" for federal energy permitting.",
+          "said_on": "",
+          "source": "larry-e-marker-site-new-mexico-energy-independence",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

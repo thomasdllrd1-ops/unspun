@@ -1258,7 +1258,7 @@
     "sort_name": "Lujan",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://benraylujan.com",
     "fec_id": "S0NM00058",
     "source": "official-nm-2026"
   },
@@ -1269,7 +1269,7 @@
     "sort_name": "Marker",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://larrymarker.com",
     "fec_id": "S6NM01186",
     "source": "official-nm-2026"
   },
