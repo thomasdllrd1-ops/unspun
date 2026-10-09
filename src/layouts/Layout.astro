@@ -1,40 +1,34 @@
 ---
-import '@fontsource/barlow/400.css';
-import '@fontsource/barlow/500.css';
-import '@fontsource/barlow/600.css';
-import '@fontsource/barlow/700.css';
-import '@fontsource/barlow-condensed/600.css';
-import '@fontsource/barlow-condensed/700.css';
-import '@fontsource/barlow-condensed/800.css';
-import '@fontsource/barlow-condensed/800-italic.css';
+import '@fontsource/public-sans/400.css';
+import '@fontsource/public-sans/500.css';
+import '@fontsource/public-sans/600.css';
+import '@fontsource/public-sans/700.css';
+import '@fontsource/libre-caslon-display/400.css';
+import '@fontsource/libre-caslon-text/400.css';
+import '@fontsource/libre-caslon-text/400-italic.css';
+import '@fontsource/libre-caslon-text/700.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
 import '../styles/global.css';
-import Logo from '../components/Logo.astro';
+import StripeBand from '../components/chrome/StripeBand.astro';
+import Masthead from '../components/chrome/Masthead.astro';
+import Dateline from '../components/chrome/Dateline.astro';
+import Wordmark from '../components/chrome/Wordmark.astro';
 import Icon from '../components/Icon.astro';
-import { SHOW_PENDING, db } from '../lib/data';
-import { date, daysUntil } from '../lib/format';
+import { SHOW_PENDING } from '../lib/data';
+import { date } from '../lib/format';
 
 interface Props {
   title: string;
   description?: string;
   /** ISO date the facts on this page were last checked */
   updated?: string | null;
+  /** Full-width page (the homepage); other pages use the narrow reading column. */
+  wide?: boolean;
 }
-const { title, description = 'The 2026 midterms without the spin. Every number sourced.', updated } = Astro.props;
+const { title, description = 'The 2026 midterms without the spin. Every number sourced.', updated, wide = false } = Astro.props;
 const fullTitle = title === 'Unspun' ? 'Unspun · 2026 midterms, sourced' : `${title} · Unspun`;
 const path = Astro.url.pathname;
-const ELECTION = '2026-11-03';
-const toGo = daysUntil(ELECTION);
-const senateCount = db.races.filter((r) => r.chamber === 'senate').length;
-const houseCount = db.races.filter((r) => r.chamber === 'house').length;
-// Ticker: facts only, each one on the site with a source.
-const ticker = [
-  { html: `ELECTION DAY · TUE NOV 3 · <span data-countdown="${ELECTION}" data-unit="days">${toGo} DAYS</span>`, href: '/how-to-vote/virginia/' },
-  { html: 'VIRGINIA: EARLY VOTING IS OPEN', href: '/how-to-vote/virginia/' },
-  { html: 'VIRGINIA: REGISTER OR REQUEST A MAIL BALLOT BY OCT 23', href: '/how-to-vote/virginia/' },
-  { html: `${senateCount} SENATE RACES`, href: '/senate/' },
-  { html: `${houseCount} HOUSE RACES`, href: '/house/' },
-  { html: 'EVERY NUMBER SOURCED', href: '/show-our-work/' },
-];
 const nav = [
   { href: '/senate/', label: 'Senate', icon: 'Map' },
   { href: '/house/', label: 'House', icon: 'Landmark' },
@@ -51,7 +45,7 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#07090b" />
+    <meta name="theme-color" content="#1B2A47" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -62,36 +56,17 @@ const nav = [
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <header class="site-header">
-      <div class="wrap bar">
-        <a href="/" class="logo" aria-label="Unspun home"><Logo /></a>
-        <nav aria-label="Main">
-          {nav.map((n) => (
-            <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>
-          ))}
-        </nav>
-        <button class="theme-toggle" type="button" aria-label="Switch light or dark theme" title="Switch theme">
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.5 0-.9-.1-1.4A5.5 5.5 0 0 1 13.4 3.1 9 9 0 0 0 12 3Z"/></svg>
-        </button>
+    <StripeBand />
+    <Masthead nav={nav} path={path} />
+    <Dateline />
+    <div class="beta">
+      <div class="wrap wide">
+        <strong>Beta.</strong> Spot a mistake? <a href="/corrections/">Tell us</a>.
+        {SHOW_PENDING && <span class="chip chip-pending">Preview mode: showing items still pending a check</span>}
       </div>
-      <div class="ticker" aria-label="Key dates and facts">
-        <div class="ticker-track">
-          {[0, 1].map((copy) => (
-            <ul aria-hidden={copy === 1 ? 'true' : undefined}>
-              {ticker.map((t) => <li><a href={t.href} tabindex={copy === 1 ? -1 : undefined} set:html={t.html} /></li>)}
-            </ul>
-          ))}
-        </div>
-      </div>
-      <div class="beta">
-        <div class="wrap">
-          <strong>Beta.</strong> Spot a mistake? <a href="/corrections/">Tell us</a>.
-          {SHOW_PENDING && <span class="chip chip-pending">Preview mode: showing items still pending a check</span>}
-        </div>
-      </div>
-    </header>
+    </div>
 
-    <main id="main" class="wrap">
+    <main id="main" class:list={['wrap', { wide }]}>
       <slot />
       {updated && <p class="updated small muted">Facts on this page last checked {date(updated)}.</p>}
     </main>
@@ -103,18 +78,23 @@ const nav = [
     </nav>
 
     <footer class="site-footer">
-      <div class="wrap">
-        <p><Logo size={22} /></p>
-        <p>The 2026 midterms, explained like a scoreboard, for people who've never read a poll. No data is neutral, so we show all of it, label every source, and explain our choices.</p>
-        <p class="row small">
-          <a href="/show-our-work/">How we work</a>
+      <div class="wrap wide foot">
+        <div class="foot-main">
+          <Wordmark size={30} />
+          <p>The 2026 midterms, minus the spin. No data is neutral, so we show all of it, label every source, and explain our choices.</p>
+          <p class="small">An independent student project. Not affiliated with any campaign, party, or PAC.</p>
+          <p class="credits">Maps: U.S. Census Bureau. Icons: game-icons.net, CC BY 3.0. Candidate photos: credited on each candidate's page. Code MIT; data CC BY-SA 4.0.</p>
+        </div>
+        <nav aria-label="Footer" class="foot-nav">
+          <a href="/show-our-work/">Sources &amp; methods</a>
           <a href="/corrections/">Report an error</a>
           <a href="/corrections/#log">Corrections log</a>
           <a href="/glossary/">Glossary</a>
-        </p>
-        <p class="small muted">Not affiliated with any campaign, party, or PAC. Code is MIT-licensed; our data is CC BY-SA 4.0.</p>
+          <button type="button" class="print-btn" onclick="window.print()">Print this page</button>
+        </nav>
       </div>
     </footer>
+    <StripeBand />
 
     <script>
       // Keep day counts fresh on the visitor's device (the HTML was built earlier).
@@ -136,7 +116,7 @@ const nav = [
       const btn = document.querySelector<HTMLButtonElement>('.theme-toggle');
       btn?.addEventListener('click', () => {
         const root = document.documentElement;
-        const current = root.dataset.theme ?? (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        const current = root.dataset.theme ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
         const next = current === 'light' ? 'dark' : 'light';
         root.dataset.theme = next;
         try { localStorage.setItem('theme', next); } catch {}
@@ -146,46 +126,25 @@ const nav = [
 </html>
 
 <style>
-  .skip { position: absolute; left: -999px; top: 8px; background: var(--text); color: var(--bg); padding: 8px 12px; border-radius: 8px; z-index: 10; }
+  .skip { position: absolute; left: -999px; top: 8px; background: var(--navy); color: var(--paper); padding: 8px 12px; z-index: 10; }
   .skip:focus { left: 8px; }
-  .site-header { position: sticky; top: 0; z-index: 5; background: var(--board); color: var(--board-ink); border-bottom: 3px solid var(--accent); }
-  .bar { display: flex; align-items: center; gap: 12px; min-height: 58px; }
-  .logo { text-decoration: none; color: var(--board-ink); }
-  .bar nav { display: flex; gap: 2px; margin-left: auto; overflow-x: auto; min-width: 0; scrollbar-width: none; }
-  .tabbar { display: none; }
-  @media (max-width: 640px) {
-    .bar nav { display: none; }
-    .theme-toggle { margin-left: auto; }
-    .site-header { position: static; }
-    .tabbar { display: grid; grid-template-columns: repeat(6, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--board); border-top: 1px solid rgba(255,255,255,.12); padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); }
-    .tabbar a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 2px; min-height: 48px; color: #aeb5be; text-decoration: none; font-family: var(--font-display); font-weight: 700; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
-    .tabbar a :global(.icon) { width: 22px; height: 22px; }
-    .tabbar a[aria-current='page'] { color: var(--accent); }
-    :global(body) { padding-bottom: 64px; }
-  }
-  .bar nav::-webkit-scrollbar { display: none; }
-  .bar nav a { text-decoration: none; font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #b9bfc7; padding: 10px 7px; white-space: nowrap; }
-  .bar nav a:hover { color: #fff; }
-  .bar nav a[aria-current='page'] { color: var(--accent); }
-  .theme-toggle { background: none; border: 1px solid rgba(255,255,255,.25); color: #fff; border-radius: 8px; width: 40px; height: 40px; display: grid; place-items: center; cursor: pointer; flex: none; }
-  .ticker { background: var(--accent); color: var(--accent-ink); overflow: hidden; white-space: nowrap; font-family: var(--font-display); font-weight: 800; font-size: 0.95rem; letter-spacing: 0.06em; }
-  .ticker-track { display: inline-flex; animation: ticker 40s linear infinite; }
-  .ticker:hover .ticker-track { animation-play-state: paused; }
-  .ticker ul { display: inline-flex; list-style: none; margin: 0; padding: 0; }
-  .ticker li { padding: 6px 0; }
-  .ticker li::after { content: '★'; margin: 0 18px; opacity: 0.6; }
-  .ticker a { color: inherit; text-decoration: none; }
-  .ticker a:hover { text-decoration: underline; }
-  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-  @media (prefers-reduced-motion: reduce) { .ticker-track { animation: none; } .ticker { overflow-x: auto; } }
-  .beta { font-size: 0.8rem; color: #b9bfc7; background: var(--board); border-top: 1px solid rgba(255,255,255,.08); padding: 5px 0; }
-  .beta a { color: #fff; }
+  .beta { font-size: 0.82rem; color: var(--muted); padding: 6px 0; border-bottom: 1px solid var(--border); }
   .beta .chip { margin-left: 6px; }
   .updated { margin-top: 32px; }
-  .site-footer { background: var(--board); color: #b9bfc7; border-top: 3px solid var(--accent); padding: 28px 0 44px; font-size: 0.9rem; margin-top: 24px; }
-  .site-footer a { color: #fff; }
-  .site-footer .muted { color: #9aa1ab; }
-  .site-footer :global(.logo-wrap) { color: #fff; }
-  .site-footer .row { gap: 16px; }
-
+  .tabbar { display: none; }
+  @media (max-width: 640px) {
+    .tabbar { display: grid; grid-template-columns: repeat(6, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--navy); border-top: 3px solid var(--gold); padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); }
+    .tabbar a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 2px; min-height: 48px; color: var(--paper); text-decoration: none; font-weight: 600; font-size: 0.72rem; }
+    .tabbar a :global(.icon) { width: 22px; height: 22px; }
+    .tabbar a[aria-current='page'] { color: var(--gold-light); }
+    :global(body) { padding-bottom: 64px; }
+  }
+  .site-footer { background: var(--navy); color: #DCD3BD; border-top: 4px solid var(--gold); margin-top: 32px; }
+  .foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px 40px; padding-top: 36px; padding-bottom: 36px; font-size: 0.9rem; }
+  .foot-main { max-width: 34em; color: var(--paper); }
+  .foot-main p { margin: 10px 0 0; color: #DCD3BD; }
+  .credits { font-family: var(--font-mono); font-size: 0.75rem; }
+  .foot-nav { display: flex; flex-wrap: wrap; gap: 0 28px; align-content: flex-start; }
+  .foot-nav a, .print-btn { color: var(--paper); padding: 10px 0; min-height: 44px; display: inline-flex; align-items: center; }
+  .print-btn { background: none; border: 0; font: inherit; text-decoration: underline; cursor: pointer; }
 </style>

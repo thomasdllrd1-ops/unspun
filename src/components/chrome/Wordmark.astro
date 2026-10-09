@@ -1,0 +1,13 @@
+---
+/** Gold Capitol icon + UNSPUN wordmark (DESIGN.md #2). */
+interface Props { size?: number }
+const { size = 40 } = Astro.props;
+---
+<span class="wordmark">
+  <img src="/images/capitol-gold.svg" alt="" width={size} height={size} />
+  <span class="word" style={`font-size:${Math.round(size * 0.75)}px`}>UNSPUN</span>
+</span>
+<style>
+  .wordmark { display: inline-flex; align-items: center; gap: 12px; }
+  .word { font-family: var(--font-display); letter-spacing: 0.04em; line-height: 1; }
+</style>

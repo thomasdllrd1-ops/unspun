@@ -1,0 +1,29 @@
+---
+/** Mono strip: Election Day + live countdown + next Virginia deadline (DESIGN.md #3).
+ *  Numbers refresh on the reader's device via the data-countdown script in Layout. */
+import { db } from '../../lib/data';
+import { daysUntil, dateShort } from '../../lib/format';
+
+const ELECTION = '2026-11-03';
+const today = new Date();
+const next = db.howToVoteVA.deadlines.find((d) => d.key && daysUntil(d.date, today) >= 0);
+// Same-day key deadlines read as one line ("register or request a mail ballot").
+const sameDay = next ? db.howToVoteVA.deadlines.filter((d) => d.key && d.date === next.date).map((d) => d.label.toLowerCase()) : [];
+const label = sameDay.some((l) => l.includes('register')) && sameDay.some((l) => l.includes('mail'))
+  ? 'Register or request a mail ballot by'
+  : next?.label;
+---
+<div class="dateline">
+  <div class="wrap wide row-line">
+    <span>Election Day · Tue, Nov 3, 2026 · <span data-countdown={ELECTION} data-unit="num">{Math.max(0, daysUntil(ELECTION, today))}</span> days out</span>
+    {next && <a href="/how-to-vote/virginia/" data-date={next.date}>Virginia: {label} {dateShort(next.date)}</a>}
+  </div>
+</div>
+<style>
+  .dateline { border-bottom: 1px solid var(--border); font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .row-line { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-top: 10px; padding-bottom: 10px; }
+  .dateline a { color: var(--eyebrow); text-decoration: none; }
+  .dateline a:hover { text-decoration: underline; }
+  .dateline a.past { display: none; }
+  @media (max-width: 640px) { .dateline { font-size: 0.7rem; letter-spacing: 0.04em; } }
+</style>
