@@ -1,0 +1,144 @@
+{
+ "source": "ucsb-midterm-seats",
+ "note": "House seats gained or lost by the president's party in each midterm election. Seats held by independents are counted with the party they caucused with.",
+ "midterms": [
+  {
+   "year": 1934,
+   "president": "Franklin D. Roosevelt",
+   "party": "D",
+   "house_change": 9
+  },
+  {
+   "year": 1938,
+   "president": "Franklin D. Roosevelt",
+   "party": "D",
+   "house_change": -72
+  },
+  {
+   "year": 1942,
+   "president": "Franklin D. Roosevelt",
+   "party": "D",
+   "house_change": -45
+  },
+  {
+   "year": 1946,
+   "president": "Harry S. Truman",
+   "party": "D",
+   "house_change": -56
+  },
+  {
+   "year": 1950,
+   "president": "Harry S. Truman",
+   "party": "D",
+   "house_change": -28
+  },
+  {
+   "year": 1954,
+   "president": "Dwight D. Eisenhower",
+   "party": "R",
+   "house_change": -18
+  },
+  {
+   "year": 1958,
+   "president": "Dwight D. Eisenhower",
+   "party": "R",
+   "house_change": -48
+  },
+  {
+   "year": 1962,
+   "president": "John F. Kennedy",
+   "party": "D",
+   "house_change": -4
+  },
+  {
+   "year": 1966,
+   "president": "Lyndon B. Johnson",
+   "party": "D",
+   "house_change": -47
+  },
+  {
+   "year": 1970,
+   "president": "Richard Nixon",
+   "party": "R",
+   "house_change": -12
+  },
+  {
+   "year": 1974,
+   "president": "Gerald R. Ford",
+   "party": "R",
+   "house_change": -48
+  },
+  {
+   "year": 1978,
+   "president": "Jimmy Carter",
+   "party": "D",
+   "house_change": -15
+  },
+  {
+   "year": 1982,
+   "president": "Ronald Reagan",
+   "party": "R",
+   "house_change": -26
+  },
+  {
+   "year": 1986,
+   "president": "Ronald Reagan",
+   "party": "R",
+   "house_change": -5
+  },
+  {
+   "year": 1990,
+   "president": "George Bush",
+   "party": "R",
+   "house_change": -8
+  },
+  {
+   "year": 1994,
+   "president": "William J. Clinton",
+   "party": "D",
+   "house_change": -54
+  },
+  {
+   "year": 1998,
+   "president": "William J. Clinton",
+   "party": "D",
+   "house_change": 4
+  },
+  {
+   "year": 2002,
+   "president": "George W. Bush",
+   "party": "R",
+   "house_change": 8
+  },
+  {
+   "year": 2006,
+   "president": "George W. Bush",
+   "party": "R",
+   "house_change": -30
+  },
+  {
+   "year": 2010,
+   "president": "Barack Obama",
+   "party": "D",
+   "house_change": -63
+  },
+  {
+   "year": 2014,
+   "president": "Barack Obama",
+   "party": "D",
+   "house_change": -13
+  },
+  {
+   "year": 2018,
+   "president": "Donald J. Trump",
+   "party": "R",
+   "house_change": -41
+  },
+  {
+   "year": 2022,
+   "president": "Joseph R. Biden, Jr.",
+   "party": "D",
+   "house_change": -9
+  }
+ ]
+}

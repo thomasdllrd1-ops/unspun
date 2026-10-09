@@ -7580,5 +7580,69 @@
   "url": "https://bengsforsouthdakota.com/",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "ucsb-midterm-seats",
+  "title": "Seats in Congress Gained/Lost by the President's Party in Mid-Term Elections",
+  "publisher": "The American Presidency Project, UC Santa Barbara (calculated from the House Clerk's party divisions)",
+  "url": "https://www.presidency.ucsb.edu/statistics/data/seats-congress-gainedlost-the-presidents-party-mid-term-elections",
+  "type": "reference",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "shelley-moore-capito-site-home",
+  "title": "Home page",
+  "publisher": "Shelley Moore Capito campaign website",
+  "url": "https://shelleymoorecapito.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "rachel-fetty-anderson-site-platform",
+  "title": "Platform page",
+  "publisher": "Rachel Fetty Anderson campaign website",
+  "url": "https://www.fettyandersonforsenate.com/platform",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "rachel-fetty-anderson-site-issues",
+  "title": "Issues page",
+  "publisher": "Rachel Fetty Anderson campaign website",
+  "url": "https://www.fettyandersonforsenate.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "rachel-fetty-anderson-site-about",
+  "title": "About page",
+  "publisher": "Rachel Fetty Anderson campaign website",
+  "url": "https://www.fettyandersonforsenate.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "rachel-fetty-anderson-site-home",
+  "title": "Home page",
+  "publisher": "Rachel Fetty Anderson campaign website",
+  "url": "https://www.fettyandersonforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marshall-wilson-site-home",
+  "title": "Home page",
+  "publisher": "S. Marshall Wilson campaign website",
+  "url": "https://wilsonwv.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marshall-wilson-site-delegate-record-html",
+  "title": "Delegate record page",
+  "publisher": "S. Marshall Wilson campaign website",
+  "url": "https://wilsonwv.com/delegate-record.html",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]
