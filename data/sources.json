@@ -6540,5 +6540,53 @@
   "url": "https://campbellforsenate.org/pages/about/",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "davis-site-issues",
+  "title": "Issues page",
+  "publisher": "\"Jamie\" Davis campaign website",
+  "url": "https://jamieforlouisiana.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "davis-site-home",
+  "title": "Home page",
+  "publisher": "\"Jamie\" Davis campaign website",
+  "url": "https://jamieforlouisiana.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "julia-letlow-site-policyplan",
+  "title": "Policyplan page",
+  "publisher": "Julia Letlow campaign website",
+  "url": "https://www.julialetlow.com/policyplan",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "julia-letlow-site-issues",
+  "title": "Issues page",
+  "publisher": "Julia Letlow campaign website",
+  "url": "https://www.julialetlow.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "julia-letlow-site-letlow-about",
+  "title": "Letlow about page",
+  "publisher": "Julia Letlow campaign website",
+  "url": "https://www.julialetlow.com/letlow-about",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "julia-letlow-site-home",
+  "title": "Home page",
+  "publisher": "Julia Letlow campaign website",
+  "url": "https://www.julialetlow.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]

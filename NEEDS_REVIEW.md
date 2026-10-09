@@ -51,7 +51,7 @@ A script already confirmed every quote is word for word on the candidate's site.
 2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
 3. If a pick looks unfair, tell Claude which one and why.
 
-Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
+Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
 
 Blocked or broken sites:
 - **VA-04, Robert Murray**: his site (murrayforcongress.com) is blocked by a security warning on our network and in your browser (Google's Safe Browsing check says it's clean). He's marked "we couldn't read his website." If it ever loads normally, tell Claude.
@@ -66,6 +66,8 @@ Blocked or broken sites:
 ---
 
 ## Smaller items
+
+- **LA Senate**: Wikipedia's links list a campaign site for Jamie LaBranche (American Party), but Louisiana's official candidate list (checked Sep 25) has only Davis and Letlow. Worth a 1-minute check at voterportal.sos.la.gov.
 
 - **VA-11 incumbent**: Gerald Connolly won in 2024; the state lists James Walkinshaw as incumbent. Needs an official source (2025 special election results) before we add a note.
 - **Mail ballot deadline**: shown as Friday, Nov 6 (the state says "noon on the third day following the election"). Worth confirming a calendar date from an official source.

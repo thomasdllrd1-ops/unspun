@@ -1,0 +1,221 @@
+{
+  "race": "la-sen",
+  "candidates": [
+    {
+      "candidate": "davis",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "davis-site-issues",
+        "davis-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordability",
+          "quote": "Roll back portions of the 2025 tax law that added as much as $4 trillion to the debt to cut taxes for the billionaires.",
+          "source": "davis-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Opportunity",
+          "quote": "Expand trade schools and skills training so a good-paying career doesn't require a four-year degree — or leaving home to find one.",
+          "source": "davis-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "The Insurance Crisis",
+          "quote": "Make insurers prove their rate hikes with a federal backstop, real loss-data transparency, and an end to the \"pay or sue\" runaround.",
+          "source": "davis-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Affordability",
+          "quote": "Roll back portions of the 2025 tax law that added as much as $4 trillion to the debt to cut taxes for the billionaires.",
+          "said_on": "",
+          "source": "davis-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Affordability",
+          "quote": "Build and create affordable housing opportunities — prioritize housing that working families can actually afford, and deliver real solutions to the housing insurance crisis that's pricing people out of a roof over their heads.",
+          "said_on": "",
+          "source": "davis-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Hospitals & Healthcare",
+          "quote": "Restore the coverage that's been cut before more rural hospitals close across the state.",
+          "said_on": "",
+          "source": "davis-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "The Constitution & Good Government",
+          "quote": "Make Congress do its job — Congress is supposed to have the say over war and the budget, and Congress writes the laws while the administration carries them out.",
+          "said_on": "",
+          "source": "davis-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Affordability",
+          "quote": "Crack down on price-gouging at the pump when refiners post record profits and Louisiana drivers pay the bill.",
+          "said_on": "",
+          "source": "davis-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "julia-letlow",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "julia-letlow-site-policyplan",
+        "julia-letlow-site-issues",
+        "julia-letlow-site-letlow-about",
+        "julia-letlow-site-home"
+      ],
+      "priorities_note": "Her \"Issues\" page was empty when we checked, so her top 3 come from the numbered list on her \"Julia's Plan\" page.",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Secure the Border and Deport Criminal Illegal Aliens",
+          "quote": "Finish construction of the border wall",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Lower Costs and Make Life Affordable Again",
+          "quote": "Permanently extend the Trump tax cuts",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Protect Parents' Rights and Put Families First",
+          "quote": "Pass a national Parents' Bill of Rights",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower Costs and Make Life Affordable Again",
+          "quote": "Permanently extend the Trump tax cuts",
+          "said_on": "",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Fix the Flood Insurance Crisis",
+          "quote": "Reform the National Flood Insurance Program",
+          "said_on": "",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is about flood insurance costs for homeowners. We found no other passage about housing on her site."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lower Costs and Make Life Affordable Again",
+          "quote": "Lower healthcare and prescription drug costs",
+          "said_on": "",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure the Border and Deport Criminal Illegal Aliens",
+          "quote": "Finish construction of the border wall",
+          "said_on": "",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Fight for Louisiana Farmers and Rural Communities",
+          "quote": "Ban Chinese ownership of American farmland",
+          "said_on": "",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is the only item on her site about another country."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Secure American Energy Dominance",
+          "quote": "Expand oil and natural gas production",
+          "said_on": "",
+          "source": "julia-letlow-site-policyplan",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

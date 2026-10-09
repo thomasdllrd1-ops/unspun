@@ -849,7 +849,7 @@
     "sort_name": "Davis",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://jamieforlouisiana.com",
     "fec_id": "S6LA00615",
     "source": "official-la-2026"
   },
@@ -860,7 +860,7 @@
     "sort_name": "Letlow",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.julialetlow.com",
     "fec_id": "S6LA00664",
     "source": "official-la-2026"
   },
