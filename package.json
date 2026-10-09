@@ -2,7 +2,7 @@
   "name": "unspun",
   "private": true,
   "version": "0.1.0",
-  "description": "2026 midterm tracker for 18–25 year olds. Every number sourced.",
+  "description": "2026 midterm tracker for 18\u201325 year olds. Every number sourced.",
   "type": "module",
   "license": "MIT",
   "scripts": {
@@ -18,7 +18,8 @@
     "build:polls-history": "tsx scripts/build-poll-history.ts",
     "build:us-geo": "tsx scripts/build-us-geo.ts",
     "match:fec": "tsx scripts/match-fec.ts",
-    "verify": "tsx scripts/verify.ts"
+    "verify": "tsx scripts/verify.ts",
+    "build:va-localities": "tsx scripts/build-va-localities.ts"
   },
   "dependencies": {
     "@astrojs/preact": "^6.0.5",

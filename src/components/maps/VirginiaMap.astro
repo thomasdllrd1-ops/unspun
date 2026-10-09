@@ -1,0 +1,127 @@
+---
+/**
+ * Virginia "find your district" map (DESIGN.md #7): all 133 counties and independent cities.
+ * Tap one (or type a ZIP) to see its U.S. House district(s) and the Senate race.
+ * Built by scripts/build-va-localities.ts from Census shapes + relationship files.
+ * Without JavaScript, each place links to its row in the list below the map.
+ */
+import geo from '../../../data/geo/va-localities-svg.json';
+import { db, candidatesInRace, partyById } from '../../lib/data';
+
+const pad = (n: number) => String(n).padStart(2, '0');
+// Who's running in each district, for the panel ("Beyer (D) · Smith (R)").
+const lineup = Object.fromEntries(
+  db.races.filter((r) => r.state === 'VA' && r.chamber === 'house').map((r) => [
+    r.district,
+    candidatesInRace(r.id).map((c) => `${c.ballot_name.split(' ').at(-1)} (${partyById(c.party).abbr})`).join(' · '),
+  ]),
+);
+const senate = candidatesInRace('va-sen').map((c) => c.ballot_name).join(' vs. ');
+const pct = (s: number) => (s >= 0.995 ? '' : ` (${Math.round(s * 100)}% of its land)`);
+const places = geo.localities.map((l) => ({ ...l, id: `loc-${l.fips}` }));
+const payload = JSON.stringify({
+  places: Object.fromEntries(places.map((l) => [l.fips, { name: l.name, districts: l.districts }])),
+  zips: geo.zips,
+  lineup,
+  senate,
+});
+---
+<div class="vamap" data-vamap>
+  <form class="zip" role="search" data-zip>
+    <label for="va-zip">Type your ZIP</label>
+    <input id="va-zip" name="zip" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" placeholder="e.g. 23220" />
+    <button type="submit" class="btn">Find my district</button>
+  </form>
+  <p class="or">or tap your county or city</p>
+
+  <svg viewBox={geo.viewBox} role="group" aria-label="Map of Virginia's 133 counties and independent cities. Each one is a link.">
+    {places.map((l) => (
+      <a href={`#${l.id}`} data-fips={l.fips} aria-label={l.name}>
+        <path d={l.d}><title>{l.name}</title></path>
+      </a>
+    ))}
+  </svg>
+
+  <div class="panel" data-panel aria-live="polite">
+    <p class="muted">Your districts will show up here.</p>
+  </div>
+
+  <details class="list">
+    <summary>Find your county or city in a list</summary>
+    <ul>
+      {places.map((l) => (
+        <li id={l.id}>
+          <strong>{l.name}</strong>:{' '}
+          {l.districts.map((d, i) => <>{i > 0 && ', '}<a href={`/races/va-${pad(d.n)}/`}>VA-{pad(d.n)}</a>{pct(d.share)}</>)}
+        </li>
+      ))}
+    </ul>
+  </details>
+  <p class="limits small">Limits of this data: some counties and ZIPs are split between districts, so if yours is, check your exact address with the state's <a href="https://www.elections.virginia.gov/VoterInfo" rel="noopener">voter lookup</a>. Shapes and district splits: U.S. Census Bureau (2024 county boundaries; 119th Congress relationship files). ZIP areas are Census ZIP Code Tabulation Areas, which closely follow ZIP codes.</p>
+  <script type="application/json" data-vadata set:html={payload} />
+</div>
+
+<script>
+  type D = { n: number; share: number };
+  for (const root of document.querySelectorAll<HTMLElement>('[data-vamap]')) {
+    const data = JSON.parse(root.querySelector('[data-vadata]')!.textContent!) as {
+      places: Record<string, { name: string; districts: D[] }>; zips: Record<string, number[]>; lineup: Record<string, string>; senate: string;
+    };
+    const panel = root.querySelector<HTMLElement>('[data-panel]')!;
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+    const show = (title: string, nums: number[], split: boolean) => {
+      root.querySelectorAll('a[data-fips].on').forEach((a) => a.classList.remove('on'));
+      panel.innerHTML =
+        `<p class="ptitle">${esc(title)}</p>` +
+        (split ? `<p class="small">Split between ${nums.length} House districts. Check your exact address below if you're not sure.</p>` : '') +
+        `<ul class="races">${nums.map((n) => `<li><a href="/races/va-${pad(n)}/"><strong>U.S. House · VA-${pad(n)}</strong><span>${esc(data.lineup[n] ?? '')}</span></a></li>`).join('')}` +
+        `<li><a href="/races/va-sen/"><strong>U.S. Senate · statewide</strong><span>${esc(data.senate)}</span></a></li></ul>`;
+    };
+    root.querySelectorAll<HTMLAnchorElement>('a[data-fips]').forEach((a) =>
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const p = data.places[a.dataset.fips!];
+        show(p.districts.length > 1 ? `Parts of ${p.name} are in:` : `${p.name} is in:`, p.districts.map((d) => d.n), p.districts.length > 1);
+        a.classList.add('on');
+        if (matchMedia('(max-width: 640px)').matches) panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }),
+    );
+    root.querySelector<HTMLFormElement>('[data-zip]')!.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const z = (new FormData(e.currentTarget as HTMLFormElement).get('zip') as string).trim();
+      const nums = data.zips[z];
+      if (!nums) { panel.innerHTML = `<p>We couldn't find Virginia ZIP ${esc(z)}. Try tapping your county or city instead.</p>`; return; }
+      show(nums.length > 1 ? `ZIP ${z} is split between:` : `ZIP ${z} is in:`, nums, nums.length > 1);
+    });
+  }
+</script>
+
+<style>
+  .vamap { --v-fill: var(--navy-2); --v-line: var(--paper); --v-hover: var(--gold); --v-on: var(--gold-light); }
+  /* On navy backgrounds (homepage band, night edition) the borders go navy instead of paper. */
+  :global(.on-navy) .vamap { --v-line: var(--navy); }
+  :global(:root[data-theme='dark']) .vamap { --v-fill: #4E6491; --v-line: var(--navy); }
+  @media (prefers-color-scheme: dark) { :global(:root:not([data-theme='light'])) .vamap { --v-fill: #4E6491; --v-line: var(--navy); } }
+  .zip { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+  .zip label { font-weight: 600; }
+  .zip input { font: inherit; font-family: var(--font-mono); font-size: 1.05rem; width: 7.5em; min-height: 44px; padding: 0 10px; border: 1.5px solid var(--gold); background: var(--paper-2); color: var(--ink); border-radius: 2px; }
+  .or { margin: 12px 0 0; font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.8; }
+  svg { display: block; width: 100%; height: auto; margin-top: 12px; }
+  path { fill: var(--v-fill); stroke: var(--v-line); stroke-width: 0.8; cursor: pointer; transition: fill 0.12s; }
+  a:hover path, a:focus-visible path { fill: var(--v-hover); }
+  a.on path { fill: var(--v-on); }
+  a:focus-visible { outline: none; }
+  .panel { margin-top: 16px; padding: 16px; border: 1px solid var(--gold); min-height: 72px; }
+  .panel :global(.ptitle) { margin: 0 0 8px; font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; }
+  .panel :global(.races) { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .panel :global(.races a) { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; min-height: 44px; border: 1px solid currentColor; text-decoration: none; color: inherit; }
+  .panel :global(.races a:hover) { border-color: var(--gold-light); }
+  .panel :global(.races span) { font-size: 0.875rem; opacity: 0.85; }
+  .list { margin-top: 16px; }
+  .list summary { cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; }
+  .list ul { columns: 2 260px; padding-left: 18px; font-size: 0.9rem; }
+  .list li { break-inside: avoid; margin: 2px 0; }
+  .list li:target { background: var(--gold-light); color: var(--navy); }
+  .limits { margin-top: 12px; opacity: 0.85; }
+</style>

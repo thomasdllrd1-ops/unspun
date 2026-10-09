@@ -1,0 +1,90 @@
+---
+/**
+ * One page per state we cover: every race on that state's ballot that Unspun tracks,
+ * with the score, expert picks, and each candidate's top 3 in their own words.
+ * Same template for every state; candidates alphabetical, never by party or standing.
+ */
+import Layout from '../../layouts/Layout.astro';
+import Scoreboard from '../../components/Scoreboard.astro';
+import PartyTag from '../../components/PartyTag.astro';
+import { summarize } from '../../lib/summary';
+import { db, candidatesInRace, raceResearch, positionsOf } from '../../lib/data';
+import { stateName } from '../../lib/states';
+
+export function getStaticPaths() {
+  return [...new Set(db.races.map((r) => r.state))].map((code) => ({ params: { code: code.toLowerCase() }, props: { code } }));
+}
+const { code } = Astro.props;
+const name = stateName(code);
+const races = db.races
+  .filter((r) => r.state === code)
+  .sort((a, b) => (a.chamber === b.chamber ? (a.district ?? 0) - (b.district ?? 0) : a.chamber === 'senate' ? -1 : 1));
+const today = new Date();
+const n = races.length;
+---
+<Layout title={`${name}: your races`} description={`Every ${name} race Unspun covers in the 2026 midterms, with each candidate's priorities in their own words.`}>
+  <p class="small"><a href="/">Map</a> › {name}</p>
+  <p class="eyebrow">{name} · {n} race{n === 1 ? '' : 's'} we cover</p>
+  <h1>{name}</h1>
+  <p class="lead">Every {name} race we track, with each candidate in their own words.</p>
+
+  {races.map((race) => {
+    const research = raceResearch(race.id);
+    const cands = candidatesInRace(race.id);
+    return (
+      <section class="race" aria-labelledby={`h-${race.id}`}>
+        <h2 id={`h-${race.id}`}><a href={`/races/${race.id}/`}>{race.chamber === 'senate' ? `U.S. Senate${race.id.includes('special') ? ' (special election)' : ''}` : `U.S. House · ${race.short}`}</a></h2>
+        <Scoreboard s={summarize(race, today)} />
+        <h3 class="sub">In their own words: top priorities</h3>
+        {research.shown ? (
+          <ul class="cands">
+            {cands.map((c) => {
+              const cp = positionsOf(research, c.id);
+              return (
+                <li class="card">
+                  <p class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a>{c.incumbent && <span class="chip">Incumbent</span>} <PartyTag party={c.party} /></p>
+                  {cp.priorities.length ? (
+                    <ol class="pri">
+                      {cp.priorities.map((p) => <li><strong>{p.heading}</strong>{p.quote && <span class="q"> “{p.quote}”</span>}</li>)}
+                    </ol>
+                  ) : <p class="small muted">{cp.priorities_note}</p>}
+                </li>
+              );
+            })}
+          </ul>
+        ) : (
+          <p class="small muted">Not yet researched. We publish a race's positions only when every candidate in it has been checked. Candidates: {cands.map((c) => c.ballot_name).join(', ')}.</p>
+        )}
+        <p class="links small">
+          <a href={`/races/${race.id}/`}>Full race page</a>
+          <a href={`/races/${race.id}/compare/`}>Side by side</a>
+          <a href={`/races/${race.id}/quiz/`}>Blind quiz: who matches you?</a>
+        </p>
+      </section>
+    );
+  })}
+
+  <section class="card vote" aria-labelledby="vote-h">
+    <h2 id="vote-h">How to vote in {name}</h2>
+    {code === 'VA'
+      ? <p>Deadlines, early voting, and your polling place: <a href="/how-to-vote/virginia/">our Virginia voting guide</a>.</p>
+      : <p>Register, check deadlines, and find your official sample ballot at <a href="https://vote.gov/" rel="noopener">vote.gov</a>, the U.S. government's site that links to every state's election office.</p>}
+    <p class="small muted">Limits of this page: we cover every 2026 U.S. Senate race, all 11 Virginia House districts, and the House races forecasters rate as toss-ups. Your ballot also has state and local races we don't track.</p>
+  </section>
+</Layout>
+
+<style>
+  .lead { font-family: var(--font-serif); font-size: 1.2rem; color: var(--text-2); }
+  .race { margin: 32px 0; }
+  .race h2 a { color: inherit; text-decoration: none; }
+  .race h2 a:hover { text-decoration: underline; }
+  .sub { margin-top: 18px; }
+  .cands { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; }
+  .who { margin: 0 0 6px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; }
+  .pri { margin: 0; padding-left: 22px; }
+  .pri li { margin: 4px 0; }
+  .q { color: var(--text-2); }
+  .links { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 10px; }
+  .links a { min-height: 44px; display: inline-flex; align-items: center; }
+  .vote { margin-top: 32px; }
+</style>

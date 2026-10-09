@@ -1,0 +1,64 @@
+---
+/**
+ * U.S. map you can click into (DESIGN.md #6). One <path> per state from Census shapes
+ * (scripts/build-us-geo.ts). Every state with a race we cover links to /states/<code>/.
+ * Works without JavaScript; hover and keyboard focus highlight the state.
+ */
+import geo from '../../../data/geo/us-states-svg.json';
+import { db } from '../../lib/data';
+
+const counts = new Map<string, number>();
+for (const r of db.races) counts.set(r.state, (counts.get(r.state) ?? 0) + 1);
+const label = (code: string, name: string) => {
+  const n = counts.get(code);
+  return n ? `${name}: ${n} race${n === 1 ? '' : 's'} we cover` : `${name}: no race we cover`;
+};
+const covered = geo.states.filter((s) => counts.has(s.code));
+---
+<figure class="usmap">
+  <svg viewBox={geo.viewBox} role="group" aria-label="U.S. map. States with a race we cover are links.">
+    {geo.states.map((s) =>
+      counts.has(s.code) ? (
+        <a href={`/states/${s.code.toLowerCase()}/`} class:list={['st', { va: s.code === 'VA' }]} aria-label={label(s.code, s.name)}>
+          <path d={s.d}><title>{label(s.code, s.name)}</title></path>
+        </a>
+      ) : (
+        <path d={s.d} class="none"><title>{label(s.code, s.name)}</title></path>
+      ),
+    )}
+  </svg>
+  <figcaption>
+    <ul class="legend">
+      <li><span class="key k-race"></span>Has a race we cover</li>
+      <li><span class="key k-va"></span>Virginia (every district)</li>
+      <li><span class="key k-none"></span>No race we cover</li>
+    </ul>
+    <p class="hint">Tap a state to see its races. <span class="src">Map: U.S. Census Bureau</span></p>
+  </figcaption>
+  <nav class="picker" aria-label="Pick your state">
+    {covered.map((s) => <a href={`/states/${s.code.toLowerCase()}/`} class:list={{ va: s.code === 'VA' }}>{s.name}</a>)}
+  </nav>
+</figure>
+<style>
+  .usmap { margin: 0; --m-race: var(--navy); --m-va: var(--gold); --m-none: #DCD3BD; --m-line: var(--paper); --m-hover: var(--gold-light); }
+  :global(:root[data-theme='dark']) .usmap { --m-race: #4E6491; --m-va: var(--gold-light); --m-none: var(--navy-2); --m-line: var(--navy); --m-hover: var(--paper); }
+  @media (prefers-color-scheme: dark) { :global(:root:not([data-theme='light'])) .usmap { --m-race: #4E6491; --m-va: var(--gold-light); --m-none: var(--navy-2); --m-line: var(--navy); --m-hover: var(--paper); } }
+  svg { display: block; width: 100%; height: auto; }
+  path { stroke: var(--m-line); stroke-width: 1; stroke-linejoin: round; transition: fill 0.12s; }
+  .none { fill: var(--m-none); }
+  .st path { fill: var(--m-race); cursor: pointer; }
+  .st.va path { fill: var(--m-va); }
+  .st:hover path, .st:focus-visible path { fill: var(--m-hover); stroke: var(--oxblood); stroke-width: 2; }
+  .st:focus-visible { outline: none; }
+  figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 24px; margin-top: 12px; }
+  .legend { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 0.875rem; font-weight: 500; }
+  .legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .key { width: 14px; height: 14px; display: inline-block; }
+  .k-race { background: var(--m-race); } .k-va { background: var(--m-va); } .k-none { background: var(--m-none); box-shadow: inset 0 0 0 1px var(--border-strong); }
+  .hint { margin: 0; font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); }
+  .src { margin-left: 8px; }
+  .picker { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+  .picker a { font-size: 0.875rem; font-weight: 500; padding: 0 12px; min-height: 44px; display: inline-flex; align-items: center; border: 1px solid var(--border); background: var(--surface); color: var(--text); text-decoration: none; }
+  .picker a:hover, .picker a:focus-visible { border-color: var(--gold); background: var(--surface-2); }
+  .picker a.va { border-color: var(--gold); }
+</style>
