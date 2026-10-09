@@ -1,0 +1,221 @@
+{
+  "race": "sd-sen",
+  "candidates": [
+    {
+      "candidate": "brian-l-bengs",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "brian-l-bengs-site-policy-positions",
+        "brian-l-bengs-site-what-i-stand-for",
+        "brian-l-bengs-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Unrig The Tax Code",
+          "quote": "It’s long past time for the ultra-rich to pay their fair share once again, like they had to in the 1960s.",
+          "source": "brian-l-bengs-site-policy-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Balance The Budget & Pay Down The Debt",
+          "quote": "We must set aside partisan grandstanding and engage in honest budgeting with effects-based investing that strengthens our economy so we don’t pass down a bill to the next generation. To make that happen, members of Congress apparently need repercussions for not doing their job, such as withholding their salary during a government shutdown.",
+          "source": "brian-l-bengs-site-policy-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Target & Eliminate Corruption",
+          "quote": "For starters, members of Congress and their spouses must be banned from purchasing, selling, or holding individual stocks for the duration of their time in office.",
+          "source": "brian-l-bengs-site-policy-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Unrig The Tax Code",
+          "quote": "It’s long past time for the ultra-rich to pay their fair share once again, like they had to in the 1960s.",
+          "said_on": "",
+          "source": "brian-l-bengs-site-policy-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Establish Affordable & Accessible Healthcare",
+          "quote": "A 5-stage effects-based process of reinventing our system will simultaneously reduce costs while improving the affordability and accessibility that everyday Americans deserve.",
+          "said_on": "",
+          "source": "brian-l-bengs-site-policy-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "His site links to a longer healthcare plan on his blog. This is the summary on his Policy Positions page."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Overhaul Immigration & Secure Our Border",
+          "quote": "To remain globally competitive and keep Social Security strong, effects-based reform must include a strong border security component and increased legal immigration.",
+          "said_on": "",
+          "source": "brian-l-bengs-site-policy-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Get Out of the Unnecessary Iran War",
+          "quote": "If I were a United States Senator, I wouldn’t have voted to get into this quagmire in the first place. I sure wouldn’t be voting to keep it going.",
+          "said_on": "",
+          "source": "brian-l-bengs-site-policy-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "mike-rounds",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "mike-rounds-site-issues",
+        "mike-rounds-site-about",
+        "mike-rounds-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Put America FIRST",
+          "quote": "Mike stands with the America First agenda. In the Senate, Mike will always fight for and support policies that put South Dakota and America FIRST!",
+          "source": "mike-rounds-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "National Security",
+          "quote": "As a member of the Senate Armed Services Committee, Mike is working to make sure our military remains the best in the world.",
+          "source": "mike-rounds-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Education",
+          "quote": "Mike is working with President Trump to lead the effort to eliminate the Department of Education.",
+          "source": "mike-rounds-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "On the Issues",
+          "quote": "Creating jobs, fostering a friendly business environment, cutting bureaucratic red-tape, investing in our children, honoring our military, living within our means and keeping taxes low have long been priorities for Mike.",
+          "said_on": "",
+          "source": "mike-rounds-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Social Security and Medicare",
+          "quote": "Mike is committed to protecting Social Security and Medicare for today’s seniors and future generations. He supports commonsense reforms to keep these programs solvent without cutting benefits, making sure they remain strong for years to come.",
+          "said_on": "",
+          "source": "mike-rounds-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is about keeping Medicare funded. We found no other passage about health care on his site."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "law and order",
+          "quote": "Mike has consistently supported funding for building the wall, advanced surveillance technology and increased personnel for border enforcement.",
+          "said_on": "",
+          "source": "mike-rounds-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "National Security",
+          "quote": "As a member of the Senate Armed Services Committee, Mike is working to make sure our military remains the best in the world.",
+          "said_on": "",
+          "source": "mike-rounds-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "American Energy Dominance",
+          "quote": "He believes the United States should maximize the use of its natural resources to lower energy costs, create jobs and reduce reliance on foreign energy sources.",
+          "said_on": "",
+          "source": "mike-rounds-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

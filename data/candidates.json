@@ -1555,7 +1555,7 @@
     "sort_name": "Rounds",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://roundsforsenate.com",
     "fec_id": "S4SD00049",
     "source": "official-sd-2026"
   },
@@ -1566,7 +1566,7 @@
     "sort_name": "Bengs",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://bengsforsouthdakota.com",
     "fec_id": "S6SD01117",
     "source": "official-sd-2026"
   },

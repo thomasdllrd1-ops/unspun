@@ -7532,5 +7532,53 @@
   "url": "https://bahryforsenate.com/",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "mike-rounds-site-issues",
+  "title": "Issues page",
+  "publisher": "Mike Rounds campaign website",
+  "url": "https://roundsforsenate.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "mike-rounds-site-about",
+  "title": "About page",
+  "publisher": "Mike Rounds campaign website",
+  "url": "https://roundsforsenate.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "mike-rounds-site-home",
+  "title": "Home page",
+  "publisher": "Mike Rounds campaign website",
+  "url": "https://roundsforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "brian-l-bengs-site-policy-positions",
+  "title": "Policy positions page",
+  "publisher": "Brian L Bengs campaign website",
+  "url": "https://bengsforsouthdakota.com/policy-positions/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "brian-l-bengs-site-what-i-stand-for",
+  "title": "What i stand for page",
+  "publisher": "Brian L Bengs campaign website",
+  "url": "https://bengsforsouthdakota.com/what-i-stand-for/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "brian-l-bengs-site-home",
+  "title": "Home page",
+  "publisher": "Brian L Bengs campaign website",
+  "url": "https://bengsforsouthdakota.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]
