@@ -1,0 +1,381 @@
+{
+  "race": "nj-sen",
+  "candidates": [
+    {
+      "candidate": "cory-booker",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "cory-booker-site-about-cory",
+        "cory-booker-site-home"
+      ],
+      "priorities_note": "His campaign website has no list of issues. It has a home page and an About page.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "About Cory",
+          "quote": "Cory believes in an economy that values American workers and benefits everyone, not just the privileged few. He has wrote and helped pass the most sweeping economic development bill in a generation.",
+          "said_on": "",
+          "source": "cory-booker-site-about-cory",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "About Cory",
+          "quote": "He is an original co-sponsor of the Equality Act to protect the rights of LGBTQ Americans, has advocated to expand access to health care to every American, and is committed to addressing climate change with an eye toward its impact on vulnerable communities.",
+          "said_on": "",
+          "source": "cory-booker-site-about-cory",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This sentence covers several issues, including climate change. It is the only passage on his site about this one."
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "About Cory",
+          "quote": "He is an original co-sponsor of the Equality Act to protect the rights of LGBTQ Americans, has advocated to expand access to health care to every American, and is committed to addressing climate change with an eye toward its impact on vulnerable communities.",
+          "said_on": "",
+          "source": "cory-booker-site-about-cory",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This sentence covers several issues, including health care. It is the only passage on his site about this one."
+        }
+      }
+    },
+    {
+      "candidate": "veronica-fernandez",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "veronica-fernandez-site-policies",
+        "veronica-fernandez-site-about-me",
+        "veronica-fernandez-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Campaign finance reform",
+          "quote": "There is a proposed 28th Amendment resolution in the Senate to overturn CU that I will sign on day one.",
+          "source": "veronica-fernandez-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Healthcare",
+          "quote": "I am a FIERCE supporter of M4A and will sign on to Bernie Sander’s Bill S1506 immediately.",
+          "source": "veronica-fernandez-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "ICE",
+          "quote": "ABOLISH immediately and replace with a vigorous and fast-tracked path to citizenship.",
+          "source": "veronica-fernandez-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "I am a FIERCE supporter of M4A and will sign on to Bernie Sander’s Bill S1506 immediately.",
+          "said_on": "",
+          "source": "veronica-fernandez-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "ICE",
+          "quote": "ABOLISH immediately and replace with a vigorous and fast-tracked path to citizenship.",
+          "said_on": "",
+          "source": "veronica-fernandez-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Israel",
+          "quote": "Unlike Cory Booker, I will NOT vote in any way to continue arming Netanyahu and I will not be accepting support, money or otherwise from AIPAC in any form.",
+          "said_on": "",
+          "source": "veronica-fernandez-site-policies",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "joanne-kuniansky",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-nj-2026"
+      ],
+      "priorities_note": "We found no campaign website for her. New Jersey's official candidate list gives only an email address, and a web search on Oct 9, 2026 found no site.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "justin-murphy",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "justin-murphy-site-issue-energy",
+        "justin-murphy-site-issue-china",
+        "justin-murphy-site-issue-immigration",
+        "justin-murphy-site-issue-drugs",
+        "justin-murphy-site-issue-videos",
+        "justin-murphy-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Responsible Energy for America",
+          "quote": "Expedite federal leasing and permitting for energy development projects",
+          "source": "justin-murphy-site-issue-energy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "China",
+          "quote": "Engage the communist government of China from a position of strength, politically and economically.",
+          "source": "justin-murphy-site-issue-china",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Secure our borders",
+          "quote": "Secure both the southern and northern borders: Impenetrable wall; military presence; Title 42 enforcement; aggressive deportation of criminals",
+          "source": "justin-murphy-site-issue-immigration",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Taxes",
+          "quote": "Abolish the IRS and Internal Revenue Code and implement a Flat Income Tax.",
+          "said_on": "",
+          "source": "justin-murphy-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Home ownership",
+          "quote": "The best homeownership policy is a gainfully employed middle-class, and low interest rates.",
+          "said_on": "",
+          "source": "justin-murphy-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health Care",
+          "quote": "Ensures every American owns a Health Savings Account – these health care tools are portable, not employer owned, private, and can be left to the owners’ heirs as a way of insuring family members.",
+          "said_on": "",
+          "source": "justin-murphy-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure our borders",
+          "quote": "Secure both the southern and northern borders: Impenetrable wall; military presence; Title 42 enforcement; aggressive deportation of criminals",
+          "said_on": "",
+          "source": "justin-murphy-site-issue-immigration",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "China",
+          "quote": "Engage the communist government of China from a position of strength, politically and economically.",
+          "said_on": "",
+          "source": "justin-murphy-site-issue-china",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Responsible Energy for America",
+          "quote": "Expedite federal leasing and permitting for energy development projects",
+          "said_on": "",
+          "source": "justin-murphy-site-issue-energy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

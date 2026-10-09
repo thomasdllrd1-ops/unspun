@@ -7084,5 +7084,93 @@
   "url": "https://www.kyleaustinmt.com/",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "cory-booker-site-about-cory",
+  "title": "About cory page",
+  "publisher": "Cory Booker campaign website",
+  "url": "https://corybooker.com/about-cory/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "cory-booker-site-home",
+  "title": "Home page",
+  "publisher": "Cory Booker campaign website",
+  "url": "https://corybooker.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "justin-murphy-site-issue-energy",
+  "title": "Issue energy page",
+  "publisher": "Justin Murphy campaign website",
+  "url": "https://jerseyjustin4senate.org/issue-energy/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "justin-murphy-site-issue-china",
+  "title": "Issue china page",
+  "publisher": "Justin Murphy campaign website",
+  "url": "https://jerseyjustin4senate.org/issue-china/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "justin-murphy-site-issue-immigration",
+  "title": "Issue immigration page",
+  "publisher": "Justin Murphy campaign website",
+  "url": "https://jerseyjustin4senate.org/issue-immigration/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "justin-murphy-site-home",
+  "title": "Home page",
+  "publisher": "Justin Murphy campaign website",
+  "url": "https://jerseyjustin4senate.org/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "justin-murphy-site-issue-drugs",
+  "title": "Issue drugs page",
+  "publisher": "Justin Murphy campaign website",
+  "url": "https://jerseyjustin4senate.org/issue-drugs/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "justin-murphy-site-issue-videos",
+  "title": "Issue videos page",
+  "publisher": "Justin Murphy campaign website",
+  "url": "https://jerseyjustin4senate.org/issue-videos/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "veronica-fernandez-site-policies",
+  "title": "Policies page",
+  "publisher": "Veronica Fernandez campaign website",
+  "url": "https://veronicaforsenate.com/policies",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "veronica-fernandez-site-about-me",
+  "title": "About me page",
+  "publisher": "Veronica Fernandez campaign website",
+  "url": "https://veronicaforsenate.com/about-me",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "veronica-fernandez-site-home",
+  "title": "Home page",
+  "publisher": "Veronica Fernandez campaign website",
+  "url": "https://veronicaforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]

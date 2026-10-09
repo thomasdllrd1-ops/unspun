@@ -1214,7 +1214,7 @@
     "sort_name": "Booker",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://corybooker.com",
     "fec_id": "S4NJ00185",
     "source": "official-nj-2026"
   },
@@ -1225,7 +1225,7 @@
     "sort_name": "Murphy",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://jerseyjustin4senate.org",
     "fec_id": "S4NJ00532",
     "source": "official-nj-2026"
   },
@@ -1236,7 +1236,7 @@
     "sort_name": "Fernandez",
     "party": "end-the-corruption",
     "incumbent": false,
-    "website": null,
+    "website": "https://veronicaforsenate.com",
     "fec_id": "S0NJ00258",
     "source": "official-nj-2026"
   },
