@@ -7644,5 +7644,45 @@
   "url": "https://wilsonwv.com/delegate-record.html",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "harriet-hageman-site-home",
+  "title": "Home page",
+  "publisher": "Harriet Hageman campaign website",
+  "url": "https://www.hagemanforwyoming.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "harriet-hageman-site-resources",
+  "title": "Resources page",
+  "publisher": "Harriet Hageman campaign website",
+  "url": "https://www.hagemanforwyoming.com/resources",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "james-byrd-site-blank",
+  "title": "Issues page",
+  "publisher": "James Byrd campaign website",
+  "url": "https://www.byrdforsenate.com/blank",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "james-byrd-site-blank-1",
+  "title": "About page",
+  "publisher": "James Byrd campaign website",
+  "url": "https://www.byrdforsenate.com/blank-1",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "james-byrd-site-home",
+  "title": "Home page",
+  "publisher": "James Byrd campaign website",
+  "url": "https://www.byrdforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]

@@ -1756,7 +1756,7 @@
     "sort_name": "Hageman",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.hagemanforwyoming.com",
     "fec_id": "S6WY00209",
     "source": "official-wy-2026"
   },
@@ -1767,7 +1767,7 @@
     "sort_name": "Byrd",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.byrdforsenate.com",
     "fec_id": "S6WY00217",
     "source": "official-wy-2026"
   },
