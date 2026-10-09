@@ -51,7 +51,7 @@ A script already confirmed every quote is word for word on the candidate's site.
 2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
 3. If a pick looks unfair, tell Claude which one and why.
 
-Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA, MA, MS**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
+Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA, MA, MS, MT**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
 
 Blocked or broken sites:
 - **VA-04, Robert Murray**: his site (murrayforcongress.com) is blocked by a security warning on our network and in your browser (Google's Safe Browsing check says it's clean). He's marked "we couldn't read his website." If it ever loads normally, tell Claude.
@@ -61,6 +61,8 @@ Blocked or broken sites:
 - **SC Senate, Mark Hackett**: no campaign website found (official list and a web search, Oct 8).
 - **AL Senate, Everett Wess**: his site has a blog with policy posts, but no issues page. Our rules use issues/About/home pages, so only his home page was used. Should candidate blog posts count? (Same question as Kasie Whitener above.)
 - **CO Senate**: no campaign website found for Christopher Baum or Blake Huber (the state Libertarian Party hosts a flyer for Huber). Adam Withrow's "Platform" page says "My first priority is to raise pay," so that's his #1, followed by the first two platform items.
+- **MT Senate, Kurt Alme**: his "Priorities" page was placeholder text (lorem ipsum) on Oct 9, so he has no top 3 yet. Recheck before Election Day.
+- **"Number one priority" statements**: Adam Withrow (CO) and Kyle Austin (MT) each say outright what their first priority is, so that's their #1 even though it sits above their issue list. Check that this seems fair.
 - **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
 ---

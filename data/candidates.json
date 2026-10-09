@@ -1080,7 +1080,7 @@
     "sort_name": "Alme",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://almeforsenate.com",
     "fec_id": "S6MT00295",
     "source": "official-mt-2026"
   },
@@ -1091,7 +1091,7 @@
     "sort_name": "Bankhead",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://alaniformt.com",
     "fec_id": "S6MT00253",
     "source": "official-mt-2026"
   },
@@ -1102,7 +1102,7 @@
     "sort_name": "Bodnar",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.sethformontana.com",
     "fec_id": "S6MT00287",
     "source": "official-mt-2026"
   },
@@ -1113,7 +1113,7 @@
     "sort_name": "Austin",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.kyleaustinmt.com",
     "fec_id": "S6MT00261",
     "source": "official-mt-2026"
   },

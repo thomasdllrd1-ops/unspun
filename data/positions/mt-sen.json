@@ -1,0 +1,411 @@
+{
+  "race": "mt-sen",
+  "candidates": [
+    {
+      "candidate": "kurt-alme",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "kurt-alme-site-priorities",
+        "kurt-alme-site-meet-kurt",
+        "kurt-alme-site-home"
+      ],
+      "priorities_note": "His website's \"Priorities\" page had only placeholder text (\"lorem ipsum\") when we checked on Oct 9, 2026, so there was no list of issues to use.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Making Life More Affordable",
+          "quote": "As a former Department of Revenue Director and Budget Director, Kurt balanced budgets to limit inflation and cut taxes to put money back into the pockets of Montanans – to make life more affordable.",
+          "said_on": "",
+          "source": "kurt-alme-site-meet-kurt",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "kyle-austin",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "kyle-austin-site-platform",
+        "kyle-austin-site-meet-kyle",
+        "kyle-austin-site-candidacy-statement",
+        "kyle-austin-site-home"
+      ],
+      "priorities_note": "His Platform page opens with a letter that calls cutting federal money to Montana's Department of Labor and Industry his \"number one priority,\" so that is listed first, followed by the first two items on his platform list.",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "My fellow Montanans",
+          "quote": "As a candidate for the United States Senate, it is my number one priority when elected to pull the roughly $66.9 million federal dollars that is provided to the DLI. Doing so will downsize the big government, reduce taxes, create economic stability, and allow small businesses to thrive once more in our great State of Montana.",
+          "source": "kyle-austin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Agriculture",
+          "quote": "When elected to the United States Senate, Austin will work hard to overhaul the USDA and agriculture programs. This will include 0% financing for all ag producers and infrastructure improvements such as railways, highways and fertilizer production facility in the United States.",
+          "source": "kyle-austin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "2nd Amendment",
+          "quote": "Austin believes everyone American should un-restricted access to bear arms.",
+          "source": "kyle-austin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "My fellow Montanans",
+          "quote": "As a candidate for the United States Senate, it is my number one priority when elected to pull the roughly $66.9 million federal dollars that is provided to the DLI. Doing so will downsize the big government, reduce taxes, create economic stability, and allow small businesses to thrive once more in our great State of Montana.",
+          "said_on": "",
+          "source": "kyle-austin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare 2.0",
+          "quote": "Austin has plans, when elected, to overhaul our healthcare system to improve access and quality to all United States citizens.",
+          "said_on": "",
+          "source": "kyle-austin-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "alani-bankhead",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "alani-bankhead-site-home",
+        "alani-bankhead-site-positions",
+        "alani-bankhead-site-meet-alani"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordability",
+          "quote": "Bring the cost of living back to earth: housing, groceries, and care a Montana paycheck can actually cover.",
+          "source": "alani-bankhead-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Accountability",
+          "quote": "Zero corporate PAC money. Show up, answer for the work, and put Montana ahead of donors and special interests, the way service taught her.",
+          "source": "alani-bankhead-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Protecting the Vulnerable",
+          "quote": "A career spent on crimes against children, brought to the Senate, and a fierce guard for those most easily overlooked.",
+          "source": "alani-bankhead-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Jobs & Wages",
+          "quote": "Raise the federal minimum wage to at least $17 an hour by 2030, so a full-time job keeps a worker and their family out of poverty, and index it to inflation the way Montana already does, so the floor never sits frozen for 17 years again.",
+          "said_on": "",
+          "source": "alani-bankhead-site-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "Tax breaks for builders who make at least 30% of their units genuinely affordable.",
+          "said_on": "",
+          "source": "alani-bankhead-site-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "Her housing plan also backs the HOPE for Homeownership Act and down-payment help for first-time buyers. Those passages are longer than our 60-word limit, so see her Positions page for the full plan."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "I’m a universal healthcare girl. If you have a medical emergency, your focus should be getting better, not wondering if you’re about to go bankrupt.",
+          "said_on": "",
+          "source": "alani-bankhead-site-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration & Border Security",
+          "quote": "You shut it down, and the name ICE goes with it, because that name now stands for something that has no place in this country. You account for exactly how it got this bad, and you build its replacement from scratch, into whatever organizational solution an honest, independent review recommends.",
+          "said_on": "",
+          "source": "alani-bankhead-site-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Iran",
+          "quote": "Vote to end the war and invoke the War Powers Resolution to bring our troops home, since Congress never authorized this.",
+          "said_on": "",
+          "source": "alani-bankhead-site-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "Expand real choice, never mandates: bring back the home solar and battery credits families used to get, and the EV-charging credit, so any Montanan who wants to add them gets help doing it.",
+          "said_on": "",
+          "source": "alani-bankhead-site-positions",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "seth-bodnar",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "seth-bodnar-site-issues",
+        "seth-bodnar-site-about",
+        "seth-bodnar-site-seths-record-at-um",
+        "seth-bodnar-site-home"
+      ],
+      "priorities_note": "His Issues page lists his positions as one-line statements with no further detail.",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "End the Costly and Unauthorized War in Iran",
+          "quote": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Stop Reckless Tariffs Driving Up Prices",
+          "quote": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Lower Health Care, Housing, and Energy Costs",
+          "quote": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Seth on the Issues",
+          "quote": "Stop Reckless Tariffs Driving Up Prices",
+          "said_on": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Seth's Priorities",
+          "quote": "MAKE IT MORE AFFORDABLE TO BUY A HOME",
+          "said_on": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Seth's Priorities",
+          "quote": "LOWER HEALTH CARE PREMIUMS AND DRUG COSTS",
+          "said_on": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Seth's Priorities",
+          "quote": "SECURE OUR BORDER AND ENFORCE IMMIGRATION LAWS",
+          "said_on": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Seth on the Issues",
+          "quote": "End the Costly and Unauthorized War in Iran",
+          "said_on": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Seth on the Issues",
+          "quote": "Lower Health Care, Housing, and Energy Costs",
+          "said_on": "",
+          "source": "seth-bodnar-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This line is the only mention of energy on his Issues page."
+        }
+      }
+    }
+  ]
+}

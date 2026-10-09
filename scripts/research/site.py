@@ -29,7 +29,7 @@ def get(u):
     body, _, meta = r.stdout.rpartition('\n__FINAL__')
     final, code = (meta.split(' ') + [''])[:2]
     txt, how = to_text(body), 'plain'
-    if len(txt.split()) < 150 or code != '200':
+    if len(txt.split()) < 150 or code != '200' or '{{' in txt:  # {{ }} = JS template not filled in yet
         try:
             r = subprocess.run([CHROME, '--headless=new', '--disable-gpu', '--no-first-run', '--virtual-time-budget=8000',
                                 f'--user-agent={UA}', '--dump-dom', u], capture_output=True, text=True, timeout=60, errors='ignore')
