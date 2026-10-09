@@ -7484,5 +7484,53 @@
   "url": "https://www.jeffmerkley.com/",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "jack-reed-site-meet-jack",
+  "title": "Meet jack page",
+  "publisher": "Jack Reed campaign website",
+  "url": "https://jackreed.com/meet-jack/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "jack-reed-site-home",
+  "title": "Home page",
+  "publisher": "Jack Reed campaign website",
+  "url": "https://jackreed.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "raymond-mckay-site-right-direction",
+  "title": "Right direction page",
+  "publisher": "Raymond McKay campaign website",
+  "url": "https://www.mckayforussenate.com/right-direction/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "raymond-mckay-site-meet-ray-mckay",
+  "title": "Meet ray mckay page",
+  "publisher": "Raymond McKay campaign website",
+  "url": "https://www.mckayforussenate.com/meet-ray-mckay/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "raymond-mckay-site-home",
+  "title": "Home page",
+  "publisher": "Raymond McKay campaign website",
+  "url": "https://www.mckayforussenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "michael-bahry-site-home",
+  "title": "Home page",
+  "publisher": "Michael Bahry campaign website",
+  "url": "https://bahryforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]

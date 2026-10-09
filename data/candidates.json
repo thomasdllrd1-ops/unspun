@@ -1477,7 +1477,7 @@
     "sort_name": "Bahry",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://bahryforsenate.com",
     "fec_id": "S6RI00288",
     "source": "wikipedia-senate-2026"
   },
@@ -1488,7 +1488,7 @@
     "sort_name": "McKay",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.mckayforussenate.com",
     "fec_id": "S4RI00051",
     "source": "wikipedia-senate-2026"
   },
@@ -1499,7 +1499,7 @@
     "sort_name": "Reed",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://jackreed.com",
     "fec_id": "S6RI00163",
     "source": "wikipedia-senate-2026"
   },

@@ -1,0 +1,298 @@
+{
+  "race": "ri-sen",
+  "candidates": [
+    {
+      "candidate": "michael-bahry",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "michael-bahry-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Peace Through Faith, Mercy and Justice",
+          "quote": "Michael believes that our different beliefs should be talked about in honest respectful ways by everyone, including politicians. He also believes that open discussion about different faith issues can and should contribute to how policy is formed and how budgets are formulated.",
+          "source": "michael-bahry-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Peace & Ending Endless Wars",
+          "quote": "If elected, Michael will make ending war and international conflicts his focus. He believes that there is nothing more important than protecting the innocent and doing our part in healing our broken world.",
+          "source": "michael-bahry-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Peace in Politics",
+          "quote": "True bipartisanship and flexibility: Without party loyalty, an independent can vote issue-by-issue based purely on what is right for Rhode Island, our nation and for the world.",
+          "source": "michael-bahry-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Love of Neighbor and Immigration",
+          "quote": "Rhode Islanders want a compassionate solution - not the removal of good hardworking people. We must secure our border to stop human and drug trafficking. It's time to end the political fighting and fix our immigration system - with fairness for citizens and mercy for those seeking a better life.",
+          "said_on": "",
+          "source": "michael-bahry-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "NATO, Russia and Ukraine",
+          "quote": "As for the United States, I believe it's time to withdraw from NATO.",
+          "said_on": "",
+          "source": "michael-bahry-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "raymond-mckay",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "raymond-mckay-site-right-direction",
+        "raymond-mckay-site-meet-ray-mckay",
+        "raymond-mckay-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Grow Our Economy for the Benefit of All",
+          "quote": "Cognizant of these issues, Ray is committed to American energy independence getting colleagues on both sides of the aisle to work together for long-term strength and stability of our nuclear and fossil fuel industries and efficiently utilizing green energy solutions.",
+          "source": "raymond-mckay-site-right-direction",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Strengthen Social Security & Medicare",
+          "quote": "Ray is committed to securing the health of Social Security and Medicare by cutting “well-intentioned” programs, slashing wasteful, redundant spending by unaccountable, unelected government departments and agencies, going after and stopping fraud, and by seeking prison time for those who steal from you, the taxpayer.",
+          "source": "raymond-mckay-site-right-direction",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Protect the Constitution and Bill of Rights",
+          "quote": "Ray is committed to confronting these assaults on your pocketbook and liberty before the bills are passed and will look to rescind such bills already making it hard for Rhode Islanders and Americans to prosper, succeed in life, and enjoy the liberties that are encapsulated in our Constitution.",
+          "source": "raymond-mckay-site-right-direction",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Grow Our Economy for the Benefit of All",
+          "quote": "Cognizant of these issues, Ray is committed to American energy independence getting colleagues on both sides of the aisle to work together for long-term strength and stability of our nuclear and fossil fuel industries and efficiently utilizing green energy solutions.",
+          "said_on": "",
+          "source": "raymond-mckay-site-right-direction",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "His economy section is about energy and utility bills, so the same sentence is used for Climate & energy."
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Strengthen Social Security & Medicare",
+          "quote": "Ray is committed to securing the health of Social Security and Medicare by cutting “well-intentioned” programs, slashing wasteful, redundant spending by unaccountable, unelected government departments and agencies, going after and stopping fraud, and by seeking prison time for those who steal from you, the taxpayer.",
+          "said_on": "",
+          "source": "raymond-mckay-site-right-direction",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is about keeping Medicare funded. We found no other passage about health care on his site."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure Our Borders",
+          "quote": "Ray is committed to addressing responsible immigration and enforcement policies that consider the best interest of Rhode Islanders and Americans First.",
+          "said_on": "",
+          "source": "raymond-mckay-site-right-direction",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Grow Our Economy for the Benefit of All",
+          "quote": "Cognizant of these issues, Ray is committed to American energy independence getting colleagues on both sides of the aisle to work together for long-term strength and stability of our nuclear and fossil fuel industries and efficiently utilizing green energy solutions.",
+          "said_on": "",
+          "source": "raymond-mckay-site-right-direction",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jack-reed",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "jack-reed-site-meet-jack",
+        "jack-reed-site-home"
+      ],
+      "priorities_note": "His campaign website has no list of issues. His stances below come from his \"Meet Jack\" page.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "A Tested, Trusted Fighter for Rhode Island",
+          "quote": "He is using his experience to fight for transformational investments in housing, education, health care, and our environment by making billionaires pay their fair share and reforming our tax system to help Rhode Island families.",
+          "said_on": "",
+          "source": "jack-reed-site-meet-jack",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Fighting Trump Lawlessness",
+          "quote": "Hammering Republicans for their out-of-touch priorities, Jack fought to redirect Trump’s unnecessary $62 billion ICE slush fund and use it instead to create millions of new affordable homes.",
+          "said_on": "",
+          "source": "jack-reed-site-meet-jack",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Fighting Trump Lawlessness",
+          "quote": "Jack is fighting to strengthen and expand the Affordable Care Act (ACA), protect and restore reproductive rights for all Americans, safeguard and boost Medicaid and Medicare from additional Republican cuts, and increase support for mental health programs like the 988 Suicide & Crisis Lifeline that Jack helped create.",
+          "said_on": "",
+          "source": "jack-reed-site-meet-jack",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Fighting Trump Lawlessness",
+          "quote": "He voted against funding Trump’s quota-driven immigration raids and is fighting to rein in Trump’s ICE lawlessness.",
+          "said_on": "",
+          "source": "jack-reed-site-meet-jack",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "A Tested, Trusted Fighter for Rhode Island",
+          "quote": "He voted against the Iraq War, opposes Trump’s Iran War, and is using his voice and his vote in the Senate to stop Trump’s war and costly, unnecessary military operations around the world.",
+          "said_on": "",
+          "source": "jack-reed-site-meet-jack",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
