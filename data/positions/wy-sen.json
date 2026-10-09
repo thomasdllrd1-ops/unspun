@@ -1,0 +1,192 @@
+{
+  "race": "wy-sen",
+  "candidates": [
+    {
+      "candidate": "james-byrd",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "james-byrd-site-blank",
+        "james-byrd-site-blank-1",
+        "james-byrd-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Bring Down Gas and Grocery Prices",
+          "quote": "James Byrd will fight to lower energy costs for everyday Wyomingites by supporting responsible domestic production, cutting the red tape that drives prices up, and ending the wasteful foreign wars that leave us footing the bill overseas instead of investing at home.",
+          "source": "james-byrd-site-blank",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Protect Public Lands",
+          "quote": "James Byrd will stand against efforts to sell off or privatize the lands that belong to every Wyomingite, while working to keep them open for hunting, fishing, grazing, and recreation.",
+          "source": "james-byrd-site-blank",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Make Healthcare Affordable",
+          "quote": "James Byrd will push to lower prescription drug costs, protect rural hospitals from closure, and make sure insurance actually works for the people paying into it.",
+          "source": "james-byrd-site-blank",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Bring Down Gas and Grocery Prices",
+          "quote": "On groceries, he'll push back against corporate consolidation in food and agriculture that lets a handful of companies set prices while family producers get squeezed on both ends.",
+          "said_on": "",
+          "source": "james-byrd-site-blank",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Make Healthcare Affordable",
+          "quote": "James Byrd will push to lower prescription drug costs, protect rural hospitals from closure, and make sure insurance actually works for the people paying into it.",
+          "said_on": "",
+          "source": "james-byrd-site-blank",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Bring Down Gas and Grocery Prices",
+          "quote": "James Byrd will fight to lower energy costs for everyday Wyomingites by supporting responsible domestic production, cutting the red tape that drives prices up, and ending the wasteful foreign wars that leave us footing the bill overseas instead of investing at home.",
+          "said_on": "",
+          "source": "james-byrd-site-blank",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This sentence covers energy prices and foreign wars together. It is the only passage on his site about foreign policy."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Bring Down Gas and Grocery Prices",
+          "quote": "James Byrd will fight to lower energy costs for everyday Wyomingites by supporting responsible domestic production, cutting the red tape that drives prices up, and ending the wasteful foreign wars that leave us footing the bill overseas instead of investing at home.",
+          "said_on": "",
+          "source": "james-byrd-site-blank",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This sentence covers energy prices and foreign wars together. It is the only passage on his site about energy."
+        }
+      }
+    },
+    {
+      "candidate": "harriet-hageman",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "harriet-hageman-site-home",
+        "harriet-hageman-site-resources"
+      ],
+      "priorities_note": "Her campaign website has no list of issues and no stances on our 6 issues. It has a home page, a donation page, yard signs, and a page of campaign logos and photos. Its \"About\" link returned \"page not found\" on Oct 9, 2026.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
