@@ -1047,7 +1047,7 @@
     "sort_name": "Hyde-Smith",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://cindyhydesmith.com",
     "fec_id": "S8MS00261",
     "source": "official-ms-2026"
   },
@@ -1058,7 +1058,7 @@
     "sort_name": "Colom",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://scottcolom.com",
     "fec_id": "S6MS00133",
     "source": "official-ms-2026"
   },
@@ -1069,7 +1069,7 @@
     "sort_name": "Pinkins",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.typinkins.com",
     "fec_id": "S4MS00187",
     "source": "official-ms-2026"
   },

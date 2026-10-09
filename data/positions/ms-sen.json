@@ -1,0 +1,350 @@
+{
+  "race": "ms-sen",
+  "candidates": [
+    {
+      "candidate": "scott-colom",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "scott-colom-site-priorities",
+        "scott-colom-site-scotts-anti-corruption-plan",
+        "scott-colom-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lower Costs",
+          "quote": "Vote to take back Congress’s power over tariffs",
+          "source": "scott-colom-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Raise Wages",
+          "quote": "Fight to raise the minimum wage and tie it to the cost of living, so workers never wait years and years for a raise again",
+          "source": "scott-colom-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Save our Healthcare and Hospitals",
+          "quote": "Vote to cancel the Medicaid cuts to help keep rural Mississippi’s emergency rooms and delivery rooms open",
+          "source": "scott-colom-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower Costs",
+          "quote": "Vote to take back Congress’s power over tariffs",
+          "said_on": "",
+          "source": "scott-colom-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Save our Healthcare and Hospitals",
+          "quote": "Vote to cancel the Medicaid cuts to help keep rural Mississippi’s emergency rooms and delivery rooms open",
+          "said_on": "",
+          "source": "scott-colom-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Keep Mississippi Safe",
+          "quote": "Work to secure the border and enforce our immigration laws",
+          "said_on": "",
+          "source": "scott-colom-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Lower Costs",
+          "quote": "Require a vote of Congress before America goes to war, because Mississippi’s service members and their families deserve that much",
+          "said_on": "",
+          "source": "scott-colom-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Make Big Tech Pay Its Own Way",
+          "quote": "Push for a pause on new data center construction until the companies agree to pay for their own power and water, show the deal before it is signed, and hire Mississippi workers in writing",
+          "said_on": "",
+          "source": "scott-colom-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This passage is about data centers raising power bills. We found no passage about climate change."
+        }
+      }
+    },
+    {
+      "candidate": "cindy-hyde-smith",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "cindy-hyde-smith-site-issues",
+        "cindy-hyde-smith-site-issue-supporting-our-2nd-amendment-right",
+        "cindy-hyde-smith-site-issue-balancing-budget",
+        "cindy-hyde-smith-site-issue-health-care",
+        "cindy-hyde-smith-site-issue-defending-life-and-protecting-the",
+        "cindy-hyde-smith-site-issue-stopping-illegal-immigration",
+        "cindy-hyde-smith-site-issue-supporting-the-military-and-vetera",
+        "cindy-hyde-smith-site-issue-agriculture",
+        "cindy-hyde-smith-site-issue-education",
+        "cindy-hyde-smith-site-issue-more-jobs",
+        "cindy-hyde-smith-site-issue-lower-taxes",
+        "cindy-hyde-smith-site-issue-constitutional-judges",
+        "cindy-hyde-smith-site-issue-israel",
+        "cindy-hyde-smith-site-about",
+        "cindy-hyde-smith-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Supporting Our 2nd Amendment Rights",
+          "quote": "She will always stand up for our 2nd Amendment Constitutional rights.",
+          "source": "cindy-hyde-smith-site-issue-supporting-our-2nd-amendment-right",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Balancing the Budget",
+          "quote": "As your U.S. Senator, nobody will work harder to pass a Balanced Budget Amendment to the U.S. Constitution.",
+          "source": "cindy-hyde-smith-site-issue-balancing-budget",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Health Care",
+          "quote": "Cindy believes the Patient Protection and Affordable Care Act, better known as Obamacare, should be repealed and replaced with a common-sense, patient-centered healthcare plan to help Mississippi families afford health insurance coverage without expanding the government’s role in providing health care.",
+          "source": "cindy-hyde-smith-site-issue-health-care",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "More Jobs",
+          "quote": "To keep our economy growing, Cindy will work with her colleagues and President Trump to roll back unnecessary rules and regulations that hinder job creation and stymie economic growth.",
+          "said_on": "",
+          "source": "cindy-hyde-smith-site-issue-more-jobs",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health Care",
+          "quote": "Cindy believes the Patient Protection and Affordable Care Act, better known as Obamacare, should be repealed and replaced with a common-sense, patient-centered healthcare plan to help Mississippi families afford health insurance coverage without expanding the government’s role in providing health care.",
+          "said_on": "",
+          "source": "cindy-hyde-smith-site-issue-health-care",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Stopping Illegal Immigration",
+          "quote": "She believes illegal immigration must come to an end and supports President Trump’s plans to build a wall on America’s southwestern border and to increase funding to enforce U.S. immigration laws.",
+          "said_on": "",
+          "source": "cindy-hyde-smith-site-issue-stopping-illegal-immigration",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Israel",
+          "quote": "Cindy supports President Trump’s decision to locate the American embassy in Jerusalem and will work to strengthen U.S.-Israeli national security, economic and cultural interests.",
+          "said_on": "",
+          "source": "cindy-hyde-smith-site-issue-israel",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "ty-pinkins",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "ty-pinkins-site-issues",
+        "ty-pinkins-site-issues-1-jobs-economy",
+        "ty-pinkins-site-issues-1-healthcare",
+        "ty-pinkins-site-issues-1-housing",
+        "ty-pinkins-site-issues-1-education",
+        "ty-pinkins-site-issues-1-women-s-reproductive-freedom",
+        "ty-pinkins-site-issues-1-environment",
+        "ty-pinkins-site-issues-1-national-security",
+        "ty-pinkins-site-issues-1-voting-rights",
+        "ty-pinkins-site-issues-1-criminal-justice",
+        "ty-pinkins-site-meet-ty-pinkins",
+        "ty-pinkins-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Jobs & Economy",
+          "quote": "As your next Senator, I’ll focus on bringing good-paying jobs to every corner of Mississippi—especially the areas that have been left behind.",
+          "source": "ty-pinkins-site-issues-1-jobs-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Healthcare",
+          "quote": "I believe healthcare is a fundamental human right—not a privilege based on your job, your ZIP code, or your luck. That’s why I support the Medicare for All Act—because it’s time we guarantee every American access to high-quality, affordable healthcare, no matter where they live or what they earn.",
+          "source": "ty-pinkins-site-issues-1-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Housing",
+          "quote": "Support new construction, infill development, and the rehabilitation of older homes—so that more people will be encouraged to move to Mississippi or return home to take advantage of our state’s affordability.",
+          "source": "ty-pinkins-site-issues-1-housing",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Jobs & Economy",
+          "quote": "As your next Senator, I’ll focus on bringing good-paying jobs to every corner of Mississippi—especially the areas that have been left behind.",
+          "said_on": "",
+          "source": "ty-pinkins-site-issues-1-jobs-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "Support new construction, infill development, and the rehabilitation of older homes—so that more people will be encouraged to move to Mississippi or return home to take advantage of our state’s affordability.",
+          "said_on": "",
+          "source": "ty-pinkins-site-issues-1-housing",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "I believe healthcare is a fundamental human right—not a privilege based on your job, your ZIP code, or your luck. That’s why I support the Medicare for All Act—because it’s time we guarantee every American access to high-quality, affordable healthcare, no matter where they live or what they earn.",
+          "said_on": "",
+          "source": "ty-pinkins-site-issues-1-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": "His \"National Security\" page is about elections and democracy at home, not about conflicts abroad."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Environment",
+          "quote": "I’ll stand up to Big Oil and put a stop to massive tax giveaways that hurt our environment and rob our future.",
+          "said_on": "",
+          "source": "ty-pinkins-site-issues-1-environment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
