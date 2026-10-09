@@ -21,7 +21,8 @@ function edit(file: string, match: (r: Record<string, string>) => boolean, apply
   const parsed = Papa.parse<Record<string, string>>(readFileSync(file, 'utf8'), { header: true, skipEmptyLines: true });
   let n = 0;
   for (const r of parsed.data) if (match(r)) { apply(r); n++; }
-  writeFileSync(file, Papa.unparse(parsed.data, { columns: parsed.meta.fields }) + '\n');
+  const nl = parsed.meta.linebreak || '\n'; // keep the file's own line endings; mixing them corrupts the last row
+  writeFileSync(file, Papa.unparse(parsed.data, { columns: parsed.meta.fields, newline: nl }) + nl);
   return n;
 }
 

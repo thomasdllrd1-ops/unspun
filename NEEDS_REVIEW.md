@@ -4,23 +4,11 @@ Everything here is either **hidden from the public site** until a person checks 
 
 **Fastest way to work through it:** run `npm run dev`, open **http://localhost:4321/review/checklist/**, and use the `npm run verify` commands shown there. When you finish an item below, delete it (git keeps the history).
 
-_Last updated: Sep 28, 2026 (Phase 4 started: issues + candidate positions)_
+_Last updated: Oct 9, 2026 (all 192 race ratings checked by Thomas and published)_
 
 ---
 
-## Priority 1: Race ratings (192), about 20 minutes
-
-The forecasters' sites block automated tools, so ratings came from Wikipedia's cited tables. **They're all hidden on the public site**, which is why every scoreboard says "Picks under review" and the Senate map's "Forecasters" view is blank.
-
-1. Open the checklist page (above). Ratings are grouped by forecaster, with links:
-   - Cook: [Senate](https://www.cookpolitical.com/ratings/senate-race-ratings) · [House](https://www.cookpolitical.com/ratings/house-race-ratings)
-   - Inside Elections: [Senate](https://insideelections.com/ratings/senate) · [House](https://insideelections.com/ratings/house)
-   - Sabato's Crystal Ball: [Senate](https://centerforpolitics.org/crystalball/2026-senate/) · [House](https://centerforpolitics.org/crystalball/2026-house/)
-2. If a forecaster's page matches every row: `npm run verify -- ratings cook` (or `inside`, `sabato`).
-3. If one row differs, fix that row in `data/ratings.csv` first (values: `solid-d`, `likely-d`, `lean-d`, `tilt-d`, `tossup`, `tilt-r`, `lean-r`, `likely-r`, `solid-r`; Sabato's "Safe" = `solid`), then verify.
-4. Run `npm run validate`, then tell Claude to publish.
-
-## Priority 2: Candidate lists we couldn't confirm (browser needed)
+## Priority 1: Candidate lists we couldn't confirm (browser needed)
 
 These states' official sites block automated tools. The race page shows a "not confirmed" banner until you check.
 
@@ -38,7 +26,7 @@ Other candidate notes:
 - **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
 - **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-## Priority 3: Polls that need a human (50 recent polls, 22 races on hold)
+## Priority 2: Polls that need a human (50 recent polls, 22 races on hold)
 
 A race's average stays **on hold** until every poll from the last 60 days is checked, so these block the scoreboard for 22 races. The checklist page lists each one with its source link and the numbers to confirm. Most come from sites that block automated tools:
 
@@ -49,13 +37,13 @@ A race's average stays **on hold** until every poll from the last 60 days is che
 
 If a poll's numbers differ from what we have, fix `data/polls/poll_results.csv` before running `npm run verify -- poll <id>`.
 
-## Priority 4: Spot-check the AI assistant's work
+## Priority 3: Spot-check the AI assistant's work
 
 About 40 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
 
 Also spot-check 3 candidate lists against the official links on their race pages (the helpers' work was spot-checked for NJ, ME, WY, TX and FL, and all matched).
 
-## Priority 5: Spot-check candidate positions (new, about 10 minutes per race)
+## Priority 4: Spot-check candidate positions (new, about 10 minutes per race)
 
 A script already confirmed every quote is word for word on the candidate's site. What it can't judge is whether the AI picked a **fair** passage. For each newly researched race:
 
