@@ -1723,7 +1723,7 @@
     "sort_name": "Capito",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://shelleymoorecapito.com",
     "fec_id": "S4WV00159",
     "source": "official-wv-2026"
   },
@@ -1734,7 +1734,7 @@
     "sort_name": "Fetty Anderson",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.fettyandersonforsenate.com",
     "fec_id": "S6WV00188",
     "source": "official-wv-2026"
   },
@@ -1745,7 +1745,7 @@
     "sort_name": "Wilson",
     "party": "constitution",
     "incumbent": false,
-    "website": null,
+    "website": "https://wilsonwv.com",
     "fec_id": "S6WV00204",
     "source": "official-wv-2026"
   },

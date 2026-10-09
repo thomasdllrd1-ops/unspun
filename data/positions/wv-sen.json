@@ -1,0 +1,299 @@
+{
+  "race": "wv-sen",
+  "candidates": [
+    {
+      "candidate": "shelley-moore-capito",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "shelley-moore-capito-site-home"
+      ],
+      "priorities_note": "Her campaign website has no list of issues and no stances on our 6 issues. It has a biography, endorsements, and a veterans page.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "rachel-fetty-anderson",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "rachel-fetty-anderson-site-platform",
+        "rachel-fetty-anderson-site-issues",
+        "rachel-fetty-anderson-site-about",
+        "rachel-fetty-anderson-site-home"
+      ],
+      "priorities_note": "Her Issues page lists topics in alphabetical order, so her top 3 come from her Platform page, in its order. The first two are one-line headings; the text under them is longer than our 60-word limit.",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "I support the US Constitution.",
+          "quote": "",
+          "source": "rachel-fetty-anderson-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "I support human rights.",
+          "quote": "",
+          "source": "rachel-fetty-anderson-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "I will improve Medicare and Medicaid.",
+          "quote": "My plan for Medicare, Medicaid and Tricare ensures that patients receive the necessary care prescribed by their physicians and healthcare providers.",
+          "source": "rachel-fetty-anderson-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Taxation",
+          "quote": "The American tax and resource burden must be fairly and equitably distributed among our economy's beneficiaries and participants: individual, corporate and non-profit whatever the income stream.",
+          "said_on": "",
+          "source": "rachel-fetty-anderson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "Her Taxation section also supports ending the \"Buy, Borrow, Die\" tax loophole and raising the tax rate on income over $500,000. That sentence is longer than our 60-word limit; see her Issues page."
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "We must invest in Medicare, Medicaid and Tricare to allow all Americans to benefit in real time from the healthcare taxpayers invest in.",
+          "said_on": "",
+          "source": "rachel-fetty-anderson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Israel and Palestine",
+          "quote": "I support a two-state solution. Both Israel and Palestine deserve to exist. I support a two-state solution. Both Israel and Palestine deserve to exist. I would not vote to send or sell weapons to any country except for purely self-defense.",
+          "said_on": "",
+          "source": "rachel-fetty-anderson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "The government must encourage investment in sustainable energy sources that minimally affect the environment and utilize free natural resources such as solar, wind and water power.",
+          "said_on": "",
+          "source": "rachel-fetty-anderson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "marshall-wilson",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "marshall-wilson-site-home",
+        "marshall-wilson-site-delegate-record-html"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economy & Jobs",
+          "quote": "Marshall will fight to unleash West Virginia's energy economy, cut regulations that strangle small businesses, and put hard-working Mountain State families first.",
+          "source": "marshall-wilson-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 2,
+          "heading": "Government Spending & Debt",
+          "quote": "Marshall will vote against every budget that doesn't balance, oppose every spending bill that exceeds constitutional authority, and never vote to raise the debt ceiling without real cuts.",
+          "source": "marshall-wilson-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        },
+        {
+          "rank": 3,
+          "heading": "Constitutional Rights",
+          "quote": "Marshall Wilson will be a Senate vote that never flinches when it comes to the Bill of Rights, the sovereignty of West Virginia, and the God-given liberties of every American citizen.",
+          "source": "marshall-wilson-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy & Jobs",
+          "quote": "Marshall will fight to unleash West Virginia's energy economy, cut regulations that strangle small businesses, and put hard-working Mountain State families first.",
+          "said_on": "",
+          "source": "marshall-wilson-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Economy & Jobs",
+          "quote": "Marshall will fight to unleash West Virginia's energy economy, cut regulations that strangle small businesses, and put hard-working Mountain State families first.",
+          "said_on": "",
+          "source": "marshall-wilson-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-09",
+          "note": "This is the only passage about energy on his site. The same sentence is used for Cost of living & jobs."
+        }
+      }
+    }
+  ]
+}
