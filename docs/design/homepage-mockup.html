@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unspun — Oval Office Edition</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#F4EEDF}
+a{color:#1B2A47}a:hover{color:#8B1E2D}
+</style>
+</helmet>
+<div style="background: #F4EEDF; color: {{ink}}; font-family: 'Public Sans', system-ui, sans-serif; font-size: 17px; line-height: 1.5; min-height: 100vh">
+
+  <sc-if value="{{showStripes}}" hint-placeholder-val="{{ true }}">
+    <div aria-hidden="true" style="height: 18px; background: repeating-linear-gradient(to bottom, #8B1E2D 0 3px, #F4EEDF 3px 6px)"></div>
+  </sc-if>
+
+  <!-- Masthead -->
+  <header style="background: #1B2A47; color: #F4EEDF; border-bottom: 4px solid #B08D3C">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 12px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px">
+      <a href="#top" style="display: flex; align-items: center; gap: 12px; color: #F4EEDF; text-decoration: none">
+        <img src="/images/capitol-gold.svg" alt="" style="width: 40px; height: 40px">
+        <span style="font-family: 'Libre Caslon Display', Georgia, serif; font-size: 30px; letter-spacing: 0.04em">UNSPUN</span>
+      </a>
+      <nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 4px 28px; font-size: 15px; font-weight: 500">
+        <a href="#senate" style="color: #F4EEDF; text-decoration: none; padding: 10px 0">Senate Map</a>
+        <a href="#virginia" style="color: #F4EEDF; text-decoration: none; padding: 10px 0">Virginia</a>
+        <a href="#races" style="color: #F4EEDF; text-decoration: none; padding: 10px 0">Candidates</a>
+        <a href="#polls" style="color: #F4EEDF; text-decoration: none; padding: 10px 0">Polls</a>
+        <a href="#rotunda" style="color: #F4EEDF; text-decoration: none; padding: 10px 0">History</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Dateline -->
+  <div style="border-bottom: 1px solid #CDBF9C">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 10px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #5A4A2A">
+      <span>Election Day · Tuesday, Nov 3, 2026</span>
+      <span>[DAYS] days out</span>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section id="top" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 48px; display: flex; flex-wrap: wrap; align-items: center; gap: 40px">
+    <div style="flex: 999 1 480px; min-width: 0">
+      <h1 style="margin: 0; font-family: 'Libre Caslon Display', Georgia, serif; font-weight: 400; font-size: clamp(48px, 6.5vw, 88px); line-height: 1; color: #1B2A47">The 2026 midterms, minus the spin.</h1>
+      <p style="margin: 20px 0 0; max-width: 30em; font-family: 'Libre Caslon Text', Georgia, serif; font-size: 20px; color: #3A3426">Every Senate race. Ten House races to watch. All of Virginia. Sources on everything.</p>
+      <div style="margin-top: 28px; display: flex; flex-wrap: wrap; gap: 14px">
+        <a href="#virginia" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; background: #8B1E2D; color: #FFFFFF; text-decoration: none; font-weight: 600; border-radius: 2px">Find your race</a>
+        <a href="#senate" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border: 1.5px solid #1B2A47; color: #1B2A47; text-decoration: none; font-weight: 600; border-radius: 2px">See the map</a>
+      </div>
+    </div>
+
+    <!-- Eagle medallion (original emblem, not the Presidential Seal) -->
+    <div style="flex: 1 1 300px; display: flex; justify-content: center">
+      <div style="position: relative; width: 320px; max-width: 100%; aspect-ratio: 1 / 1">
+        <svg viewBox="0 0 320 320" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%">
+          <circle cx="160" cy="160" r="156" fill="#1B2A47"></circle>
+          <circle cx="160" cy="160" r="146" fill="none" stroke="#D4B26A" stroke-width="2"></circle>
+          <circle cx="160" cy="160" r="112" fill="none" stroke="#D4B26A" stroke-width="1"></circle>
+          <g fill="#D4B26A">
+            <path transform="translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(27.7 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(55.4 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(83.1 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(110.8 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(138.5 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(166.2 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(193.8 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(221.5 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(249.2 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(276.9 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(304.6 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+            <path transform="rotate(332.3 160 160) translate(160 30)" d="M0-7l1.6 4.9H7L2.7 1l1.6 5L0 3 -4.3 6l1.6-5L-7-2.1h5.4z"></path>
+          </g>
+        </svg>
+        <img src="/images/eagle-gold.svg" alt="Unspun emblem: a heraldic eagle in a ring of thirteen stars" style="position: absolute; left: 22%; top: 22%; width: 56%; height: 56%">
+      </div>
+    </div>
+  </section>
+
+  <!-- By the numbers -->
+  <div style="background: #1B2A47; color: #F4EEDF">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 28px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; text-align: center">
+      <div><div style="font-family: 'Libre Caslon Display', Georgia, serif; font-size: 56px; line-height: 1; color: #D4B26A">35</div><div style="margin-top: 6px; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase">Senate seats up</div></div>
+      <div><div style="font-family: 'Libre Caslon Display', Georgia, serif; font-size: 56px; line-height: 1; color: #D4B26A">435</div><div style="margin-top: 6px; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase">House seats up</div></div>
+      <div><div style="font-family: 'Libre Caslon Display', Georgia, serif; font-size: 56px; line-height: 1; color: #D4B26A">11</div><div style="margin-top: 6px; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase">Virginia districts</div></div>
+      <div><div style="font-family: 'Libre Caslon Display', Georgia, serif; font-size: 56px; line-height: 1; color: #D4B26A">[N]</div><div style="margin-top: 6px; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase">Polls tracked</div></div>
+    </div>
+  </div>
+
+  <!-- U.S. Senate map -->
+  <section id="senate" style="max-width: 1200px; margin: 0 auto; padding: 64px 24px 56px">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px">
+      <h2 style="margin: 0; font-family: 'Libre Caslon Display', Georgia, serif; font-weight: 400; font-size: 46px; color: #1B2A47">The Senate Map</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 14px; font-weight: 500">
+        <span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 14px; height: 14px; background: #1B2A47"></span>Race in 2026</span>
+        <span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 14px; height: 14px; background: #8B1E2D"></span>Virginia</span>
+        <span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 14px; height: 14px; background: #DCD3BD; box-shadow: inset 0 0 0 1px #B9AC8C"></span>No race</span>
+      </div>
+    </div>
+    <img src="/images/us-senate-2026.svg" alt="U.S. map with the 35 states holding a 2026 Senate race shaded navy and Virginia in red" style="display: block; margin-top: 28px; width: 100%; height: auto">
+    <p style="margin: 12px 0 0; text-align: center; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #5A4A2A">Tap a state to see its race</p>
+  </section>
+
+  <!-- Virginia map -->
+  <section id="virginia" style="background: #1B2A47; color: #F4EEDF">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px">
+      <h2 style="margin: 0; font-family: 'Libre Caslon Display', Georgia, serif; font-weight: 400; font-size: 46px">Virginia</h2>
+      <div style="margin-top: 20px; display: flex; flex-wrap: wrap; gap: 10px">
+        <sc-for list="{{regions}}" as="r" hint-placeholder-count="6">
+          <button type="button" style="min-height: 44px; padding: 0 18px; font: 600 15px 'Public Sans', sans-serif; color: {{r.fg}}; background: {{r.bg}}; border: 1.5px solid #D4B26A; border-radius: 22px; cursor: pointer">{{r.label}}</button>
+        </sc-for>
+      </div>
+      <img src="/images/virginia-localities.svg" alt="Map of Virginia's counties and cities with Hampton Roads highlighted in gold" style="display: block; margin-top: 32px; width: 100%; height: auto">
+    </div>
+  </section>
+
+  <!-- Candidate cards -->
+  <section id="races" style="max-width: 1200px; margin: 0 auto; padding: 64px 24px">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px">
+      <h2 style="margin: 0; font-family: 'Libre Caslon Display', Georgia, serif; font-weight: 400; font-size: 46px; color: #1B2A47">Head to Head</h2>
+      <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #5A4A2A">U.S. Senate · [STATE]</p>
+    </div>
+    <div style="margin-top: 28px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px">
+      <sc-for list="{{candidates}}" as="c" hint-placeholder-count="2">
+        <article style="background: #FBF8F0; border: 1px solid #CDBF9C; padding: 28px; display: flex; flex-direction: column; gap: 20px">
+          <div style="display: flex; gap: 22px; align-items: center">
+            <div style="flex: 0 0 auto; width: 132px; height: 164px; border-radius: 50%; padding: 6px; background: #B08D3C; box-shadow: inset 0 0 0 2px #7A5E1E">
+              <div style="width: 100%; height: 100%; border-radius: 50%; background: #E6DCC2; display: flex; align-items: center; justify-content: center; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #5A4A2A; text-align: center">[Official<br>portrait]</div>
+            </div>
+            <div style="min-width: 0">
+              <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #5A4A2A">{{c.role}}</p>
+              <h3 style="margin: 4px 0 8px; font-family: 'Libre Caslon Text', Georgia, serif; font-size: 26px; line-height: 1.15; color: #1B2A47">{{c.name}}</h3>
+              <span style="display: inline-block; padding: 3px 10px; font-size: 13px; font-weight: 600; color: #FFFFFF; background: {{c.partyColor}}">{{c.party}}</span>
+            </div>
+          </div>
+          <div>
+            <h4 style="margin: 0 0 8px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #8B1E2D">Priorities</h4>
+            <ol style="margin: 0; padding-left: 22px; font-family: 'Libre Caslon Text', Georgia, serif; font-size: 17px">
+              <li>[Priority one]</li>
+              <li>[Priority two]</li>
+              <li>[Priority three]</li>
+            </ol>
+          </div>
+          <div>
+            <h4 style="margin: 0 0 8px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #8B1E2D">Funding</h4>
+            <div aria-hidden="true" style="display: flex; height: 14px; border: 1px solid #1B2A47">
+              <div style="flex: 3; background: #1B2A47"></div>
+              <div style="flex: 2; background: #8A96AC"></div>
+              <div style="flex: 1; background: #D4B26A"></div>
+            </div>
+            <div style="margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 16px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3A3426">
+              <span>■ Individuals [%]</span><span style="color: #4E5D78">■ PACs [%]</span><span style="color: #7A5E1E">■ Self / party [%]</span>
+            </div>
+          </div>
+        </article>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- Poll receipts -->
+  <section id="polls" style="background: #EAE1CB; border-top: 1px solid #CDBF9C; border-bottom: 1px solid #CDBF9C">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px">
+      <h2 style="margin: 0; font-family: 'Libre Caslon Display', Georgia, serif; font-weight: 400; font-size: 46px; color: #1B2A47">Poll Receipts</h2>
+      <p style="margin: 8px 0 28px; font-family: 'Libre Caslon Text', Georgia, serif; font-size: 19px; color: #3A3426">Who ran it, who paid for it, and which way they lean.</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+        <sc-for list="{{polls}}" as="p" hint-placeholder-count="3">
+          <div style="background: #FFFDF7; padding: 22px 22px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #2A2418; border-top: 3px solid #1B2A47">
+            <div style="text-align: center; letter-spacing: 0.12em; font-size: 12px; color: #5A4A2A">— POLL RECEIPT —</div>
+            <div style="margin-top: 12px; display: flex; justify-content: space-between; gap: 12px"><span>Pollster</span><span>[NAME]</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 12px"><span>Paid for by</span><span>[SPONSOR]</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 12px"><span>Sample</span><span>[N] {{p.pop}}</span></div>
+            <div style="margin: 10px 0; border-top: 1px dashed #8A7B58"></div>
+            <div style="display: flex; justify-content: space-between; gap: 12px; font-weight: 500"><span>Cand. A</span><span>[%]</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 12px; font-weight: 500"><span>Cand. B</span><span>[%]</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 12px"><span>Margin</span><span>±[X]</span></div>
+            <div style="margin: 10px 0; border-top: 1px dashed #8A7B58"></div>
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px"><span>Leans</span><span style="padding: 2px 8px; border: 1px solid #1B2A47; font-size: 12px">{{p.lean}}</span></div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Rotunda -->
+  <section id="rotunda" style="max-width: 1200px; margin: 0 auto; padding: 64px 24px">
+    <h2 style="margin: 0; font-family: 'Libre Caslon Display', Georgia, serif; font-weight: 400; font-size: 46px; color: #1B2A47">The Rotunda</h2>
+    <p style="margin: 8px 0 0; font-family: 'Libre Caslon Text', Georgia, serif; font-size: 19px; color: #3A3426">Midterms past.</p>
+    <div style="margin-top: 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px">
+      <sc-for list="{{busts}}" as="b" hint-placeholder-count="4">
+        <figure style="margin: 0; display: flex; flex-direction: column; align-items: center; text-align: center">
+          <div style="width: 100%; max-width: 200px; aspect-ratio: 3 / 4; border-radius: 100px 100px 0 0; background: #1B2A47; display: flex; align-items: flex-end; justify-content: center; overflow: hidden">
+            <img src="/images/bust.svg" alt="" style="width: 80%; height: auto; margin-bottom: -2px">
+          </div>
+          <div aria-hidden="true" style="width: 100%; max-width: 220px; height: 14px; background: #B08D3C"></div>
+          <div aria-hidden="true" style="width: 100%; max-width: 184px; height: 8px; background: #7A5E1E"></div>
+          <figcaption style="margin-top: 14px">
+            <div style="font-family: 'Libre Caslon Display', Georgia, serif; font-size: 34px; line-height: 1; color: #8B1E2D">{{b.year}}</div>
+            <div style="margin-top: 6px; font-family: 'Libre Caslon Text', Georgia, serif; font-size: 20px; color: #1B2A47">{{b.name}}</div>
+            <p style="margin: 6px 0 0; font-size: 15px; color: #3A3426">{{b.lesson}}</p>
+          </figcaption>
+        </figure>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background: #1B2A47; color: #DCD3BD; border-top: 4px solid #B08D3C">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 36px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px 40px; font-size: 14px">
+      <div style="max-width: 34em">
+        <div style="font-family: 'Libre Caslon Display', Georgia, serif; font-size: 26px; color: #F4EEDF; letter-spacing: 0.04em">UNSPUN</div>
+        <p style="margin: 8px 0 0">An independent student project. Not affiliated with any campaign or party.</p>
+        <p style="margin: 8px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px">Maps: U.S. Census Bureau (us-atlas). Icons: game-icons.net, CC BY 3.0.</p>
+      </div>
+      <nav aria-label="Footer" style="display: flex; flex-wrap: wrap; gap: 4px 28px">
+        <a href="#polls" style="color: #F4EEDF; padding: 10px 0">Sources &amp; methods</a>
+        <a href="#top" style="color: #F4EEDF; padding: 10px 0">For teachers</a>
+        <a href="#top" style="color: #F4EEDF; padding: 10px 0">Print</a>
+      </nav>
+    </div>
+  </footer>
+  <sc-if value="{{showStripes}}" hint-placeholder-val="{{ true }}">
+    <div aria-hidden="true" style="height: 18px; background: repeating-linear-gradient(to bottom, #8B1E2D 0 3px, #F4EEDF 3px 6px)"></div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"showStripes":{"editor":"boolean","default":true},"ink":{"editor":"color","default":"#2A2418","options":["#2A2418","#1B2A47","#3A3426"]},"$preview":{"width":1440,"height":3600}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const sel = 'Hampton Roads';
+    const regions = ['Northern Virginia', 'Richmond', 'Hampton Roads', 'Shenandoah Valley', 'Southside', 'Southwest'].map((label) => ({
+      label,
+      bg: label === sel ? '#D4B26A' : 'transparent',
+      fg: label === sel ? '#1B2A47' : '#F4EEDF'
+    }));
+    return {
+      showStripes: this.props.showStripes ?? true,
+      ink: this.props.ink ?? '#2A2418',
+      regions,
+      candidates: [
+        { role: 'Incumbent', name: '[Candidate name]', party: '[Party]', partyColor: '#2E4A7D' },
+        { role: 'Challenger', name: '[Candidate name]', party: '[Party]', partyColor: '#8B1E2D' }
+      ],
+      polls: [
+        { pop: 'likely voters', lean: '[Lean]' },
+        { pop: 'registered voters', lean: '[Lean]' },
+        { pop: 'likely voters', lean: '[Lean]' }
+      ],
+      busts: [
+        { year: '1862', name: 'Abraham Lincoln', lesson: 'His party lost House seats mid–Civil War.' },
+        { year: '1934', name: 'Franklin D. Roosevelt', lesson: 'His party gained seats in both chambers.' },
+        { year: '1994', name: 'Bill Clinton', lesson: 'His party lost the House after 40 years in control.' },
+        { year: '2026', name: '[Current president]', lesson: 'You decide.' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

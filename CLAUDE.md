@@ -18,10 +18,11 @@ Help 18–25 year olds understand the 2026 midterms without spin. Radical transp
 - No adjectives that editorialize ("extreme," "radical," "common-sense," etc.).
 
 ## Design
-- Mobile-first, light + dark (follows the phone's setting), fast, WCAG AA.
-- **Sports-scoreboard look and metaphor** (decided Sep 28, 2026): use sports ideas everyone knows to explain polling — average = the score, within the margin = too close to call, unchecked polls = under review, number of polls = games played, recent polls = form guide, forecaster ratings = expert picks. Always "leading," never "winning"; poll averages are never presented as results.
-- **Party colors: blue = Democratic, red = Republican, teal = every other party/independent** (Thomas's decision, Sep 28, 2026; replaces the earlier neutral palette). Checked with the color-blindness validator; party names are always written out too, so color never carries meaning alone.
-- UI accent is scoreboard yellow — never red or blue — so site chrome never looks partisan.
+- **Read DESIGN.md before any UI work.** Since Oct 9, 2026 the look is the "Oval Office Edition" (navy, gold, cream, Caslon), replacing the scoreboard look.
+- Mobile-first, light + dark (follows the phone's setting; dark = navy "night edition"), fast, WCAG AA.
+- Keep the sports words that explain polling — average = the score, within the margin = too close to call, unchecked polls = under review, number of polls = games played, forecaster ratings = expert picks. Always "leading," never "winning"; poll averages are never presented as results.
+- **Party colors: blue = Democratic, red = Republican, teal = every other party/independent**, for party data only — never brand colors. Party names are always written out, so color never carries meaning alone. Virginia is marked gold on maps.
+- Candidate photos (since Oct 9): official portraits where they exist, else headshots the candidate published, all with the same engraving treatment; initials if none.
 - Fonts are self-hosted (no third-party font requests).
 
 ## Data
