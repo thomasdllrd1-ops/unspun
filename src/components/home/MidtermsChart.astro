@@ -1,0 +1,53 @@
+---
+/**
+ * "Midterms past": House seats gained or lost by the president's party in every midterm since 1934.
+ * One sourced chart instead of portrait busts; bars are colored by the president's party (party data).
+ */
+import data from '../../../data/midterms.json';
+import Source from '../Source.astro';
+
+const rows = data.midterms;
+const losses = rows.filter((r) => r.house_change < 0).length;
+const W = 960, H = 300, zero = 70, scale = (H - zero - 20) / 72; // 72 = biggest loss (1938)
+const left = 64; // room for the Gained / Lost labels
+const bw = (W - left) / rows.length;
+---
+<figure class="chart">
+  <p class="big"><strong>{losses} of {rows.length}</strong> times since {rows[0].year}, the president's party lost House seats in the midterm.</p>
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Bar chart of House seats gained or lost by the president's party in each midterm from ${rows[0].year} to ${rows.at(-1)!.year}. Losses in ${losses} of ${rows.length}.`}>
+    <line x1={left - 6} x2={W} y1={zero} y2={zero} class="axis" />
+    <text x="4" y={zero - 8} class="lbl">Gained</text>
+    <text x="4" y={zero + 18} class="lbl">Lost</text>
+    {rows.map((r, i) => {
+      const h = Math.abs(r.house_change) * scale;
+      const x = left + i * bw + bw * 0.18, w = bw * 0.64;
+      const y = r.house_change >= 0 ? zero - h : zero;
+      return (
+        <g>
+          <rect x={x} y={y} width={w} height={Math.max(h, 1)} class={r.party === 'D' ? 'dem' : 'rep'}><title>{`${r.year}: ${r.president} (${r.party}), ${r.house_change > 0 ? '+' : ''}${r.house_change} House seats`}</title></rect>
+          {(i % 2 === 0 || i === rows.length - 1) && <text x={x + w / 2} y={r.house_change >= 0 ? zero + 16 : Math.min(H - 4, zero + h + 14)} class="yr">{r.year}</text>}
+        </g>
+      );
+    })}
+  </svg>
+  <figcaption>
+    <span class="key"><span class="sw dem"></span>Democratic president</span>
+    <span class="key"><span class="sw rep"></span>Republican president</span>
+    <span class="srcline">Source: <Source id={data.source} label="The American Presidency Project (UC Santa Barbara)" /></span>
+  </figcaption>
+</figure>
+<style>
+  .chart { margin: 0; }
+  .big { font-family: var(--font-serif); font-size: 1.3rem; margin: 0 0 12px; }
+  .big strong { font-family: var(--font-display); font-weight: 400; font-size: 2.2rem; color: var(--eyebrow); }
+  svg { display: block; width: 100%; height: auto; }
+  .axis { stroke: var(--border-strong); stroke-width: 1.5; }
+  .lbl { font-family: var(--font-mono); font-size: 12px; fill: var(--muted); }
+  .yr { font-family: var(--font-mono); font-size: 11px; fill: var(--muted); text-anchor: middle; }
+  rect.dem { fill: var(--dem); } rect.rep { fill: var(--rep); }
+  figcaption { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 8px; font-size: 0.85rem; }
+  .key { display: inline-flex; align-items: center; gap: 6px; }
+  .sw { width: 12px; height: 12px; display: inline-block; }
+  .sw.dem { background: var(--dem); } .sw.rep { background: var(--rep); }
+  .srcline { margin-left: auto; font-family: var(--font-mono); font-size: 0.75rem; }
+</style>

@@ -1,0 +1,29 @@
+---
+/** Navy band of big gold numbers (DESIGN.md #5). Every number is computed from our data. */
+import { db } from '../../lib/data';
+const senate = db.races.filter((r) => r.chamber === 'senate').length;
+const house = db.races.filter((r) => r.chamber === 'house').length;
+const quoted = db.positions.reduce((n, f) => n + f.candidates.length, 0);
+const polls = db.polls.filter((p) => p.status === 'verified').length;
+const stats = [
+  { n: senate, label: 'Senate races', note: 'every one on the 2026 ballot' },
+  { n: house, label: 'House races', note: 'all of Virginia + the toss-ups' },
+  { n: quoted, label: 'Candidates quoted', note: 'in their own words, checked' },
+  { n: polls, label: 'Polls with receipts', note: 'who ran it, who paid' },
+];
+---
+<div class="strip">
+  <div class="wrap wide grid">
+    {stats.map((s) => <div><div class="n">{s.n}</div><div class="l">{s.label}</div><div class="note">{s.note}</div></div>)}
+  </div>
+  <p class="wrap wide src">Counts from our data files, updated with every change. <a href="/show-our-work/">How we count</a></p>
+</div>
+<style>
+  .strip { background: var(--navy); color: var(--paper); padding: 28px 0 14px; margin-inline: calc(50% - 50vw); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 20px; text-align: center; }
+  .n { font-family: var(--font-display); font-size: 56px; line-height: 1; color: var(--gold-light); }
+  .l { margin-top: 6px; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; }
+  .note { font-size: 0.8rem; color: #DCD3BD; }
+  .src { margin-top: 14px; font-family: var(--font-mono); font-size: 0.72rem; color: #DCD3BD; text-align: center; }
+  .src a { color: var(--gold-light); }
+</style>

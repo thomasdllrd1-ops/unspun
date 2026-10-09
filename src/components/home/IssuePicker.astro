@@ -1,0 +1,63 @@
+---
+/**
+ * "What do you care about?" Pick one of our 6 issues and see every candidate in the race,
+ * in their own words (word-for-word quotes, same card for everyone). Radio chips + :has(),
+ * so it works without JavaScript. A <slot name={issueId}> lets the page add issue money.
+ */
+import StanceCard from '../StanceCard.astro';
+import { issueList, candidatesInRace, raceResearch, positionsOf, partyById } from '../../lib/data';
+
+interface Props { raceId: string }
+const { raceId } = Astro.props;
+const research = raceResearch(raceId);
+const cands = candidatesInRace(raceId);
+---
+{research.shown ? (
+  <div class="ip">
+    <fieldset class="chips">
+      <legend class="visually-hidden">Pick an issue</legend>
+      {issueList.map((iss, i) => (
+        <label><input type="radio" name={`iss-${raceId}`} value={iss.id} checked={i === 0} />{iss.name}</label>
+      ))}
+    </fieldset>
+    {issueList.map((iss) => (
+      <div class="panel" data-issue={iss.id}>
+        <p class="q">{iss.question}</p>
+        <div class="cols">
+          {cands.map((c) => {
+            const cp = positionsOf(research, c.id);
+            return (
+              <div class="col">
+                <p class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a> <span class="muted small">{partyById(c.party).name}</span></p>
+                <StanceCard stance={cp.stances[iss.id]} lookedAt={cp.looked_at} />
+              </div>
+            );
+          })}
+        </div>
+        <slot name={iss.id} />
+      </div>
+    ))}
+  </div>
+) : <p class="muted">This race's positions aren't researched yet.</p>}
+<style>
+  .chips { border: 0; padding: 0; margin: 0 0 16px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .chips label { position: relative; display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border: 1.5px solid var(--gold); border-radius: 22px; font-weight: 600; font-size: 0.95rem; cursor: pointer; }
+  .chips input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+  .chips label:has(input:checked) { background: var(--gold-light); color: var(--navy); }
+  .chips label:has(input:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .panel { display: none; }
+  .q { font-family: var(--font-serif); font-size: 1.15rem; margin: 0 0 12px; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  .col { background: var(--surface); border: 1px solid var(--border); padding: 16px; }
+  .who { margin: 0 0 8px; font-family: var(--font-serif); font-weight: 700; font-size: 1.1rem; }
+  .who a { color: var(--heading); }
+</style>
+<style is:global>
+  /* Show the panel whose chip is checked (works without JavaScript). */
+  .ip:has(input[value='cost-of-living']:checked) .panel[data-issue='cost-of-living'],
+  .ip:has(input[value='housing']:checked) .panel[data-issue='housing'],
+  .ip:has(input[value='health-care']:checked) .panel[data-issue='health-care'],
+  .ip:has(input[value='immigration']:checked) .panel[data-issue='immigration'],
+  .ip:has(input[value='foreign-policy']:checked) .panel[data-issue='foreign-policy'],
+  .ip:has(input[value='climate-energy']:checked) .panel[data-issue='climate-energy'] { display: block; }
+</style>

@@ -19,7 +19,8 @@
     "build:us-geo": "tsx scripts/build-us-geo.ts",
     "match:fec": "tsx scripts/match-fec.ts",
     "verify": "tsx scripts/verify.ts",
-    "build:va-localities": "tsx scripts/build-va-localities.ts"
+    "build:va-localities": "tsx scripts/build-va-localities.ts",
+    "fetch:fec-groups": "tsx scripts/fetch-fec-groups.ts"
   },
   "dependencies": {
     "@astrojs/preact": "^6.0.5",

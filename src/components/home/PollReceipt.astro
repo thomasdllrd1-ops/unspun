@@ -1,0 +1,40 @@
+---
+/** A poll as a "receipt" (DESIGN.md #9): who ran it, who paid, sample, results, margin, lean. */
+import type { Poll } from '../../lib/schema';
+import { resultsForPoll, db } from '../../lib/data';
+import { dateShort } from '../../lib/format';
+import Source from '../Source.astro';
+
+interface Props { poll: Poll }
+const { poll: p } = Astro.props;
+const names = new Map(db.candidates.map((c) => [c.id, c.ballot_name.split(' ').at(-1)]));
+// Candidates first (highest first), then rows like "Undecided".
+const results = resultsForPoll(p.id).sort((a, b) => Number(!a.candidate) - Number(!b.candidate) || b.pct - a.pct);
+const pop = { LV: 'likely voters', RV: 'registered voters', A: 'adults', unknown: 'people' }[p.population];
+const lean = { D: 'Leans Democratic', R: 'Leans Republican', none: 'No party lean', unknown: 'Lean unknown' }[p.sponsor_lean];
+const paid = p.sponsor && p.sponsor !== p.pollster ? p.sponsor : p.sponsor_type === 'not-stated' ? 'Not stated' : 'The pollster';
+---
+<div class="receipt">
+  <div class="head">— POLL RECEIPT —</div>
+  <div class="ln"><span>Pollster</span><span>{p.pollster}</span></div>
+  <div class="ln"><span>Paid for by</span><span>{paid}</span></div>
+  <div class="ln"><span>Sample</span><span>{p.sample_size ? p.sample_size.toLocaleString('en-US') : '?'} {pop}</span></div>
+  <div class="ln"><span>Dates</span><span>{p.field_end ? `${p.field_start ? dateShort(p.field_start) + '–' : ''}${dateShort(p.field_end)}` : dateShort(p.released)}</span></div>
+  <div class="cut"></div>
+  {results.map((r) => <div class:list={['ln', { strong: !!r.candidate }]}><span>{(r.candidate && names.get(r.candidate)) || r.label || 'Other'}</span><span>{r.pct}%</span></div>)}
+  {p.moe != null && <div class="ln"><span>Margin of error</span><span>±{p.moe}</span></div>}
+  <div class="cut"></div>
+  <div class="ln"><span>Sponsor</span><span class="lean">{lean}</span></div>
+  <div class="src"><Source id={p.source} label="See the original" /></div>
+</div>
+<style>
+  .receipt { background: #FFFDF7; color: #2A2418; padding: 20px 20px 16px; font-family: var(--font-mono); font-size: 0.85rem; border-top: 3px solid var(--navy); }
+  .head { text-align: center; letter-spacing: 0.12em; font-size: 0.75rem; color: #5A4A2A; margin-bottom: 10px; }
+  .ln { display: flex; justify-content: space-between; gap: 12px; padding: 1px 0; }
+  .ln span:last-child { text-align: right; }
+  .strong { font-weight: 500; font-size: 0.95rem; }
+  .cut { margin: 10px 0; border-top: 1px dashed #8A7B58; }
+  .lean { padding: 1px 8px; border: 1px solid #1B2A47; font-size: 0.75rem; }
+  .src { margin-top: 10px; font-size: 0.75rem; }
+  .src :global(a) { color: #1B2A47; }
+</style>

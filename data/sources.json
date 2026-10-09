@@ -7580,5 +7580,13 @@
   "url": "https://bengsforsouthdakota.com/",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "ucsb-midterm-seats",
+  "title": "Seats in Congress Gained/Lost by the President's Party in Mid-Term Elections",
+  "publisher": "The American Presidency Project, UC Santa Barbara (calculated from the House Clerk's party divisions)",
+  "url": "https://www.presidency.ucsb.edu/statistics/data/seats-congress-gainedlost-the-presidents-party-mid-term-elections",
+  "type": "reference",
+  "accessed": "2026-10-09"
  }
 ]

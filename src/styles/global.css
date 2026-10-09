@@ -240,3 +240,31 @@ td.num, th.num { text-align: right; }
 .tile .st, .tile .lbl { text-shadow: 0 0 3px var(--bg), 0 0 1px var(--bg); }
 a.tile:hover { outline: 2px solid var(--text); outline-offset: -2px; }
 @media (max-width: 420px) { .tile .lbl { display: none; } }
+
+/* ---------- print: a clean handout (DESIGN.md "Rules") ---------- */
+@media print {
+  :root, :root[data-theme='dark'] { --bg: #fff; --surface: #fff; --surface-2: #fff; --text: #2A2418; --text-2: #3A3426; --muted: #5A4A2A; --heading: #1B2A47; --link: #1B2A47; color-scheme: light; }
+  body { background: #fff; color: #2A2418; font-size: 11pt; }
+  .masthead nav, .theme-toggle, .tabbar, .beta, .skip, .stripes, .foot-nav, form, .picker, .print-hide,
+  .btn, button, .hint { display: none !important; }
+  .masthead { background: #fff !important; color: #1B2A47 !important; border-bottom: 2px solid #1B2A47 !important; }
+  .masthead .home, .wordmark { color: #1B2A47 !important; }
+  .site-footer { background: #fff !important; color: #2A2418 !important; border-top: 1px solid #999 !important; }
+  .site-footer p, .foot-main { color: #2A2418 !important; }
+  .band, .strip, .navy { background: #fff !important; color: #2A2418 !important; --heading: #1B2A47 !important; }
+  .band h2, .navy h2 { color: #1B2A47 !important; }
+  .chips { display: none !important; }
+  /* Keep colors that carry meaning (scoreboards, party chips, bars, charts) when printed. */
+  .board, .pchip, .bar span, .fill, rect, .key, .sw, .dot, .oval, .stripes { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .strip .n { color: #1B2A47 !important; }
+  .navy a, .strip a { color: #1B2A47 !important; }
+  .card, .cand, .receipt, .board, figure, .race, .col { break-inside: avoid; }
+  section, .sec { break-inside: auto; }
+  h1, h2, h3 { break-after: avoid; }
+  .ip .panel { display: block !important; margin-bottom: 12pt; }
+  details > *:not(summary) { display: block; }
+  /* Show where sources live, since links can't be clicked on paper. */
+  main a[href^='http']::after { content: ' (' attr(href) ')'; font-size: 0.8em; word-break: break-all; color: #5A4A2A; }
+  .usmap a::after, .vamap a::after, svg a::after { content: none !important; }
+  .wrap.wide { max-width: none; padding: 0; }
+}

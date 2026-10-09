@@ -1,0 +1,19 @@
+{
+  "note": "Candidate portraits. Official congressional portraits are U.S. government works (public domain). Other photos are headshots the candidate published on their own campaign website, used to show voters who is on the ballot; candidates can ask us to swap or remove theirs via /corrections/. Every portrait is shown with the same engraving filter so photo quality doesn't favor anyone.",
+  "photos": {
+    "mark-warner": {
+      "file": "/images/candidates/mark-warner.jpg",
+      "credit": "Official portrait, U.S. Senate (public domain)",
+      "source_url": "https://bioguide.congress.gov/search/bio/W000805",
+      "kind": "official",
+      "saved": "2026-10-09"
+    },
+    "bert-mizusawa": {
+      "file": "/images/candidates/bert-mizusawa.jpg",
+      "credit": "Photo: Bert Mizusawa campaign (bertforsenate.com)",
+      "source_url": "https://bertforsenate.com/",
+      "kind": "campaign",
+      "saved": "2026-10-09"
+    }
+  }
+}
