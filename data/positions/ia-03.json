@@ -1,0 +1,228 @@
+{
+  "race": "ia-03",
+  "candidates": [
+    {
+      "candidate": "zach-nunn",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "zach-nunn-site-home",
+        "zach-nunn-site-about",
+        "zach-nunn-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Supporting Iowa Families",
+          "quote": "His first bill that passed the House of Representatives expanded parental leave for military parents, ensuring those who serve our country have time with new children.",
+          "source": "zach-nunn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Constitutional Rights",
+          "quote": "Zach put his life on the line to protect our First and Second Amendment Rights – he’s a firm believer in the right to free speech and the right to bear arms.",
+          "source": "zach-nunn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Stronger Economy",
+          "quote": "In Congress, he passed legislation to rein in government bureaucracy and the liberal wish lists impeding our economy.",
+          "source": "zach-nunn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Stronger Economy",
+          "quote": "In Congress, he passed legislation to rein in government bureaucracy and the liberal wish lists impeding our economy.",
+          "said_on": "",
+          "source": "zach-nunn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Back the Blue & Defend the Border",
+          "quote": "As your representative, he helped pass the most comprehensive border security solution – ensuring that we’re combatting the flow of illegal drugs, human trafficking, and exploitation coming across our Southern Border.",
+          "said_on": "",
+          "source": "zach-nunn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "National Defense",
+          "quote": "In Washington, he supported policies that not only adequately fund our military but prioritize our veterans, active military, military families, and mental health.",
+          "said_on": "",
+          "source": "zach-nunn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Growing Agriculture",
+          "quote": "Also a tireless advocate for Iowa’s biofuels and ethanol producers, he pushed for strong support for renewable fuels that help make America more energy independent.",
+          "said_on": "",
+          "source": "zach-nunn-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "sarah-trone-garriott",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "sarah-trone-garriott-site-home",
+        "sarah-trone-garriott-site-about",
+        "sarah-trone-garriott-site-issues",
+        "sarah-trone-garriott-site-issue-higher-standard",
+        "sarah-trone-garriott-site-issue-growing-our-economy-by-investing-i",
+        "sarah-trone-garriott-site-issue-health-care-thats-affordable-and-t",
+        "sarah-trone-garriott-site-issue-immigration-thats-smart-fair-and-r",
+        "sarah-trone-garriott-site-issue-making-life-more-affordable-for-al",
+        "sarah-trone-garriott-site-issue-protecting-iowas-land-water-and-cl",
+        "sarah-trone-garriott-site-issue-serving-our-veterans-like-they-ser"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "A Higher Standard for Washington",
+          "quote": "So here’s my promise: I’ll work to hold everyone who runs our government, members of Congress, the President, and federal judges alike, to the same higher standard.",
+          "source": "sarah-trone-garriott-site-issue-higher-standard",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Growing our economy by investing in people, not special interests",
+          "quote": "In Congress, I’ll fight to raise wages and support local small businesses—not by writing blank checks, but by investing in apprenticeships, vocational schools, community colleges, and job training programs that prepare Iowans for high-skill, high-wage work.",
+          "source": "sarah-trone-garriott-site-issue-growing-our-economy-by-investing-i",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Health care that’s affordable and there when you need it",
+          "quote": "In Congress, I’ll fight for common-sense solutions like allowing Medicare to negotiate prescription drug prices to lower costs and provide people with more choices.",
+          "source": "sarah-trone-garriott-site-issue-health-care-thats-affordable-and-t",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Making life more affordable—for all of us",
+          "quote": "This includes cracking down on corporate price gouging and ending the reckless tariff policy that is raising prices on ordinary families and wreaking havoc on Iowa’s economy.",
+          "said_on": "",
+          "source": "sarah-trone-garriott-site-issue-making-life-more-affordable-for-al",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health care that’s affordable and there when you need it",
+          "quote": "In Congress, I’ll fight for common-sense solutions like allowing Medicare to negotiate prescription drug prices to lower costs and provide people with more choices.",
+          "said_on": "",
+          "source": "sarah-trone-garriott-site-issue-health-care-thats-affordable-and-t",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration that’s smart, fair, and reflects our values",
+          "quote": "In Congress, I’ll push for comprehensive immigration reform that fixes our broken system: secures the border, streamlines legal pathways, protects Dreamers, and invests in preventing human trafficking and drug smuggling.",
+          "said_on": "",
+          "source": "sarah-trone-garriott-site-issue-immigration-thats-smart-fair-and-r",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protecting Iowa’s land, water, and clean energy future",
+          "quote": "In Congress, I’ll support investments in clean energy like wind, solar, and biofuels—which already power thousands of Iowa jobs—and I’ll work with farmers to promote sustainable practices that keep our soil healthy and our water safe.",
+          "said_on": "",
+          "source": "sarah-trone-garriott-site-issue-protecting-iowas-land-water-and-cl",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
