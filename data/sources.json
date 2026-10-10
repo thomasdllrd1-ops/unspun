@@ -8413,5 +8413,53 @@
   "url": "https://robforpa.com/about/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "jared-moskowitz-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Jared Moskowitz campaign website",
+  "url": "https://jaredforflorida.com/priorities",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "jared-moskowitz-site-home",
+  "title": "Home page",
+  "publisher": "Jared Moskowitz campaign website",
+  "url": "https://jaredforflorida.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "jared-moskowitz-site-about",
+  "title": "About page",
+  "publisher": "Jared Moskowitz campaign website",
+  "url": "https://jaredforflorida.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "scott-singer-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Scott Singer campaign website",
+  "url": "https://www.scottsingerusa.com/priorities",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "scott-singer-site-home",
+  "title": "Home page",
+  "publisher": "Scott Singer campaign website",
+  "url": "https://www.scottsingerusa.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "scott-singer-site-about-scott-singer",
+  "title": "About Scott Singer page",
+  "publisher": "Scott Singer campaign website",
+  "url": "https://www.scottsingerusa.com/about-scott-singer",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]

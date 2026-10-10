@@ -1,0 +1,299 @@
+{
+  "race": "fl-25",
+  "candidates": [
+    {
+      "candidate": "peter-jassenoff",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-fl-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Florida's official candidate list doesn't include websites, and a web search on Oct 10, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jared-moskowitz",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "jared-moskowitz-site-home",
+        "jared-moskowitz-site-about",
+        "jared-moskowitz-site-priorities"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lowering the Cost of Living",
+          "quote": "Jared authored legislation to cut homeowners' property insurance premiums, one of the biggest costs squeezing Florida families, and he has fought to bring down prescription drug prices, expand affordable housing, and crack down on the price gouging that quietly drains family budgets, putting money back in people's pockets.",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Protecting Social Security and Medicare",
+          "quote": "Jared is fighting back against every effort to weaken or privatize these programs, and he's working to strengthen Medicare and bring down the cost of prescription drugs.",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Lowering Healthcare Costs",
+          "quote": "Jared is fighting to restore the enhanced ACA tax credits Republicans let expire, so the tens of thousands of South Floridians who buy their own coverage aren't priced out of it.",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lowering the Cost of Living",
+          "quote": "Jared authored legislation to cut homeowners' property insurance premiums, one of the biggest costs squeezing Florida families, and he has fought to bring down prescription drug prices, expand affordable housing, and crack down on the price gouging that quietly drains family budgets, putting money back in people's pockets.",
+          "said_on": "",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Lowering the Cost of Living",
+          "quote": "Jared authored legislation to cut homeowners' property insurance premiums, one of the biggest costs squeezing Florida families, and he has fought to bring down prescription drug prices, expand affordable housing, and crack down on the price gouging that quietly drains family budgets, putting money back in people's pockets.",
+          "said_on": "",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "His only line on housing (\"expand affordable housing\") is in this sentence from his cost-of-living section."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lowering Healthcare Costs",
+          "quote": "Jared is fighting to restore the enhanced ACA tax credits Republicans let expire, so the tens of thousands of South Floridians who buy their own coverage aren't priced out of it.",
+          "said_on": "",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Securing the Border and Fixing a Broken System",
+          "quote": "He'll work with anyone to secure the border, fix a system that has failed for decades, improve pathways to citizenship, and treat people with basic decency.",
+          "said_on": "",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Confronting Antisemitism and Standing with Israel",
+          "quote": "As a member of the House Foreign Affairs Committee, he has been a steadfast voice for America's support for Israel, backing continued security assistance, keeping the U.S. embassy in Jerusalem, and supporting the expansion of the Abraham Accords to strengthen peace in the region.",
+          "said_on": "",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Disaster Preparedness and Protecting Our Coast",
+          "quote": "He has carried that hands-on experience to Congress, working across the aisle to reform FEMA and make disaster response faster and more accountable, all while protecting our coastlines, the Everglades, and the paradise we call home from rising seas and stronger storms.",
+          "said_on": "",
+          "source": "jared-moskowitz-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "scott-singer",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "scott-singer-site-home",
+        "scott-singer-site-priorities",
+        "scott-singer-site-about-scott-singer"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Jobs & Economy",
+          "quote": "Scott supports the Administration's work to slash overregulation that burdens businesses and raises costs for consumers.",
+          "source": "scott-singer-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Respect the Rule of Law & Stand with Law Enforcement",
+          "quote": "Scott strongly supports President Trump’s efforts to secure the border and turn back the failed Biden policies that allowed millions of people into our nation outside of the normal vetting process.",
+          "source": "scott-singer-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Committed to a Strong Military and Defense",
+          "quote": "As congressman, he will ensure that our brave military men and women receive the support and training they need so that America is prepared for any threat.",
+          "source": "scott-singer-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Jobs & Economy",
+          "quote": "Scott supports the Administration's work to slash overregulation that burdens businesses and raises costs for consumers.",
+          "said_on": "",
+          "source": "scott-singer-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Respect the Rule of Law & Stand with Law Enforcement",
+          "quote": "Scott strongly supports President Trump’s efforts to secure the border and turn back the failed Biden policies that allowed millions of people into our nation outside of the normal vetting process.",
+          "said_on": "",
+          "source": "scott-singer-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Committed to a Strong Military and Defense",
+          "quote": "As congressman, he will ensure that our brave military men and women receive the support and training they need so that America is prepared for any threat.",
+          "said_on": "",
+          "source": "scott-singer-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Jobs & Economy",
+          "quote": "Scott supports energy independence to advance our economy free from destabilizing foreign influences and to reduce costs for our nation.",
+          "said_on": "",
+          "source": "scott-singer-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

@@ -51,7 +51,7 @@ A script already confirmed every quote is word for word on the candidate's site.
 2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
 3. If a pick looks unfair, tell Claude which one and why.
 
-Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA, MA, MS, MT, NJ, NM, OK, OR, RI, SD, WV, WY; House: NY-17, WI-03, AZ-01, AZ-06, IA-01, CO-08, MI-07, PA-10, IA-03, PA-07, PA-08**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
+Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA, MA, MS, MT, NJ, NM, OK, OR, RI, SD, WV, WY; House: NY-17, WI-03, AZ-01, AZ-06, IA-01, CO-08, MI-07, PA-10, IA-03, PA-07, PA-08, FL-25**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
 
 Blocked or broken sites:
 - **VA-04, Robert Murray**: his site (murrayforcongress.com) is blocked by a security warning on our network and in your browser (Google's Safe Browsing check says it's clean). He's marked "we couldn't read his website." If it ever loads normally, tell Claude.
@@ -73,6 +73,7 @@ Blocked or broken sites:
 - **IA-01, Michael Bridgford**: his Issues page shows only 11 headings to our tools (the text may open when clicked), so his top 3 are headings only; his stances come from his home page. **Mariannette Miller-Meeks**: her site has no issues or stances, only a biography, 2024 news posts and a tour schedule.
 - **MI-07, Tom Barrett**: his site has a biography and a district page but no issues or stances, so he shows "no position found" on all 6. **Candidate lists to confirm**: Wikipedia lists Isabelle Harman (independent, PA-10) and Matt Althaus (Libertarian, OH-09), who aren't in our candidate list; PA's and OH's official sites block our tools.
 - **IA-03, Sarah Trone Garriott**: her 12 issues appear in alphabetical order (likely her website's default), so her top 3 follow that order (A Higher Standard, Economy, Health care). Same rule as everyone; worth a glance.
+- **FL-25, Peter Jassenoff (Libertarian)**: no website found. Republicans sued in 2026 to remove him from the ballot; a candidate guide citing Florida's certified list still shows him on it. Confirm before Election Day.
 - **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
 ---

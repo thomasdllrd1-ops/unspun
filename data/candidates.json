@@ -2117,7 +2117,7 @@
     "sort_name": "Moskowitz",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://jaredforflorida.com",
     "fec_id": "H2FL22171",
     "source": "official-fl-2026",
     "note": "Currently the U.S. Representative for Florida's 23rd District (House Clerk member list, Sep 2, 2026)."
@@ -2129,7 +2129,7 @@
     "sort_name": "Singer",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.scottsingerusa.com",
     "fec_id": "H6FL23188",
     "source": "official-fl-2026"
   },
