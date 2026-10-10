@@ -1,0 +1,438 @@
+{
+  "race": "wi-03",
+  "candidates": [
+    {
+      "candidate": "rebecca-cooke",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "rebecca-cooke-site-home",
+        "rebecca-cooke-site-meet-rebecca",
+        "rebecca-cooke-site-priorities"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lower Costs",
+          "quote": "Cap out-of-pocket costs on essential drugs like insulin, asthma inhalers, and cancer medications at $30/month.",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Combat Corruption",
+          "quote": "Ban stock trading for members of Congress and the White House.",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Bolster Agriculture",
+          "quote": "Expand export markets for all commodities.",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower Costs",
+          "quote": "Take on price-gouging corporations to reduce everyday costs.",
+          "said_on": "",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Rebuild our American Dream",
+          "quote": "Provide tax credits for first-time home buyers.",
+          "said_on": "",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lower Costs",
+          "quote": "Cap out-of-pocket costs on essential drugs like insulin, asthma inhalers, and cancer medications at $30/month.",
+          "said_on": "",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Combat Corruption",
+          "quote": "Fully fund law enforcement to keep our communities safe and protect our borders.",
+          "said_on": "",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "Her only line on borders is in her \"Combat Corruption\" list."
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Lower Costs",
+          "quote": "End the costly Iran War, which is costing taxpayers $2 billion per day and driving gas and diesel prices through the roof.",
+          "said_on": "",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Rebuild our American Dream",
+          "quote": "Expand energy solutions and build new green infrastructure.",
+          "said_on": "",
+          "source": "rebecca-cooke-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "alexander-valiensi-kent",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "alexander-valiensi-kent-site-home",
+        "alexander-valiensi-kent-site-aboutvdn",
+        "alexander-valiensi-kent-site-about-the-author",
+        "alexander-valiensi-kent-site-essays"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Full Voter Empowerment",
+          "quote": "This means online issue by issue voting on the Voter Directed Network app.",
+          "source": "alexander-valiensi-kent-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Full Anti-Corruption",
+          "quote": "We will end political corruption by removing the financial incentives that pull our nation away from the voters it was created to serve.",
+          "source": "alexander-valiensi-kent-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Servant Leadership",
+          "quote": "The belief that leadership begins with humble service.",
+          "source": "alexander-valiensi-kent-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His campaign page says voters should vote yes or no on every issue in his Voter Directed Network app, and that an elected official's job is to serve what voters decide. It takes no position of its own on this issue. The site also lists essays he wrote; like blog posts, we don't use those."
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His campaign page says voters should vote yes or no on every issue in his Voter Directed Network app, and that an elected official's job is to serve what voters decide. It takes no position of its own on this issue. The site also lists essays he wrote; like blog posts, we don't use those."
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His campaign page says voters should vote yes or no on every issue in his Voter Directed Network app, and that an elected official's job is to serve what voters decide. It takes no position of its own on this issue. The site also lists essays he wrote; like blog posts, we don't use those."
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His campaign page says voters should vote yes or no on every issue in his Voter Directed Network app, and that an elected official's job is to serve what voters decide. It takes no position of its own on this issue. The site also lists essays he wrote; like blog posts, we don't use those."
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His campaign page says voters should vote yes or no on every issue in his Voter Directed Network app, and that an elected official's job is to serve what voters decide. It takes no position of its own on this issue. The site also lists essays he wrote; like blog posts, we don't use those."
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His campaign page says voters should vote yes or no on every issue in his Voter Directed Network app, and that an elected official's job is to serve what voters decide. It takes no position of its own on this issue. The site also lists essays he wrote; like blog posts, we don't use those."
+        }
+      }
+    },
+    {
+      "candidate": "rustin-provance",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "rustin-provance-site-home",
+        "rustin-provance-site-website-about-1",
+        "rustin-provance-site-website-projects-1"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Judicial System Reform",
+          "quote": "The Supreme Court needs term limits.",
+          "source": "rustin-provance-site-website-projects-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "S.S.I Reform",
+          "quote": "The options we have are: to end the program and pay out the sums; make it optional to enter and exit the program just like any other retirement program.; Take out all the ties the Social Security Program has to other unethical programs.",
+          "source": "rustin-provance-site-website-projects-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Abolish the Federal Reserve & Combat Inflation",
+          "quote": "I can't remove the Federal Reserve from this country on my own, but I will fight to end the Federal Reserve in the United States, and it's fiat currency.",
+          "source": "rustin-provance-site-website-projects-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Abolish the Federal Reserve & Combat Inflation",
+          "quote": "I can't remove the Federal Reserve from this country on my own, but I will fight to end the Federal Reserve in the United States, and it's fiat currency.",
+          "said_on": "",
+          "source": "rustin-provance-site-website-projects-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Health Care",
+          "quote": "My goal is to remove federal control over healthcare, as it is an individual issue.",
+          "said_on": "",
+          "source": "rustin-provance-site-website-projects-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Military & the Veterans",
+          "quote": "We need a strong fist, with a voice of understanding and reason.",
+          "said_on": "",
+          "source": "rustin-provance-site-website-projects-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "The Environment",
+          "quote": "I think that this is a major issue that should be addressed by all nations to study the long term effects our environmental negligence. These nuclear explosions need to cease.",
+          "said_on": "",
+          "source": "rustin-provance-site-website-projects-1",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "His \"Environment\" section is about nuclear weapons tests."
+        }
+      }
+    },
+    {
+      "candidate": "derrick-van-orden",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "derrick-van-orden-site-home",
+        "derrick-van-orden-site-about",
+        "derrick-van-orden-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Transportation and Infrastructure",
+          "quote": "In Congress, Derrick has secured millions in funding to provide western Wisconsin with drinking water that is safe from contaminants and has also secured $350 million to transition firefighting foams away from PFAS to safer alternatives.",
+          "source": "derrick-van-orden-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Rebuilding our Economy",
+          "quote": "That is why he champions legislation like the Working Family Tax Cuts which ensures more of your hard earned money remains where it should be: in your pocket.",
+          "source": "derrick-van-orden-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Leading with Integrity",
+          "quote": "Derrick has put duty above personal gain his entire life.",
+          "source": "derrick-van-orden-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Rebuilding our Economy",
+          "quote": "That is why he champions legislation like the Working Family Tax Cuts which ensures more of your hard earned money remains where it should be: in your pocket.",
+          "said_on": "",
+          "source": "derrick-van-orden-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His \"Veterans Issues\" section mentions a veterans' home-loan bill. We don't count benefits only for veterans as a position on housing for everyone."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Improving Healthcare and Reducing Costs",
+          "quote": "Derrick will work to make sure individuals with preexisting conditions are protected when Obamacare is fully repealed and a new system is implemented allowing for true competition in healthcare, driving costs down.",
+          "said_on": "",
+          "source": "derrick-van-orden-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border Security",
+          "quote": "Derrick has staunchly supported President Trump’s border policies and his efforts to deport criminal illegal aliens, including the man who assaulted two women just blocks from his home in Prairie du Chien.",
+          "said_on": "",
+          "source": "derrick-van-orden-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Data Centers",
+          "quote": "Data centers will not begin construction until they have signed agreements with local utilities and communities to cover the new energy and grid infrastructure their facilities require, ensuring Wisconsin families are not left paying the bill.",
+          "said_on": "",
+          "source": "derrick-van-orden-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "From his \"Data Centers\" plan, on who pays for new power and grid costs."
+        }
+      }
+    }
+  ]
+}

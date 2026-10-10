@@ -1808,7 +1808,7 @@
     "sort_name": "Van Orden",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.vanordenforcongress.com",
     "fec_id": "H0WI03175",
     "source": "official-wi-2026"
   },
@@ -1819,7 +1819,7 @@
     "sort_name": "Cooke",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://cookeforwisconsin.com",
     "fec_id": "H4WI03169",
     "source": "official-wi-2026"
   },
@@ -1830,7 +1830,7 @@
     "sort_name": "Kent",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.voterdirectednetwork.com",
     "fec_id": "H6WI03230",
     "source": "official-wi-2026"
   },
@@ -1841,7 +1841,7 @@
     "sort_name": "Provance",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://rustinforcongress.wixsite.com",
     "fec_id": "H2WI03163",
     "source": "official-wi-2026"
   },
