@@ -63,6 +63,9 @@ Blocked or broken sites:
 - **CO Senate**: no campaign website found for Christopher Baum or Blake Huber (the state Libertarian Party hosts a flyer for Huber). Adam Withrow's "Platform" page says "My first priority is to raise pay," so that's his #1, followed by the first two platform items.
 - **MT Senate, Kurt Alme**: his "Priorities" page was placeholder text (lorem ipsum) on Oct 9, so he has no top 3 yet. Recheck before Election Day.
 - **"Number one priority" statements**: Adam Withrow (CO) and Kyle Austin (MT) each say outright what their first priority is, so that's their #1 even though it sits above their issue list. Check that this seems fair.
+- **TN Senate, Bill Hagerty (on hold)**: his site (teamhagerty.com) shows a bot check to our tools, and there's no archived copy. The other 9 TN candidates are done; the race goes live after Claude reads his site in your Chrome browser (5 minutes, during the supervised Chrome session).
+- **TN Senate, Barcy Whitson**: her site's footer says "Not authorized by any candidate or candidate's committee," which looks like the website builder's default text. The site is written in her voice and is the one a candidate guide links to, so we used it. Worth a glance.
+- **TN Senate, Jeremy Dean Hearn**: his one-page site is long and hard to follow. His top 3 are the three "Campaign Priorities" he names; his stances are the sentences under his own "INFLATION" and "IMMIGRATION" headings. Check that the picks seem fair.
 - **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
 ---
