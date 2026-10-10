@@ -2073,7 +2073,7 @@
     "sort_name": "Brooks",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.brooksforcongress.com",
     "fec_id": "H6PA07188",
     "source": "official-pa-2026"
   },
@@ -2084,7 +2084,7 @@
     "sort_name": "Mackenzie",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.mackenzieforcongress.com",
     "fec_id": "H8PA15195",
     "source": "official-pa-2026"
   },

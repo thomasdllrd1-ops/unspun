@@ -1,0 +1,222 @@
+{
+  "race": "pa-07",
+  "candidates": [
+    {
+      "candidate": "bob-brooks",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "bob-brooks-site-home",
+        "bob-brooks-site-meet-bob",
+        "bob-brooks-site-on-the-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "End the affordability crisis",
+          "quote": "Enact strong price-gouging enforcement, antitrust action, and transparency rules to protect ordinary people.",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Build a fair and sustainable healthcare system",
+          "quote": "Because of this, I support Medicare for All.",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Make the rich pay their taxes",
+          "quote": "We need to pass a billionaire minimum tax: a baseline tax rate the ultra-wealthy can’t dodge.",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "End the affordability crisis",
+          "quote": "Enact strong price-gouging enforcement, antitrust action, and transparency rules to protect ordinary people.",
+          "said_on": "",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "End the affordability crisis",
+          "quote": "Increase the amount of market-rate housing, ban private equity companies from buying up tons of houses and driving up costs, and pass the HELPER Act to extend VA-style home loans to teachers, nurses and first responders.",
+          "said_on": "",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "End the affordability crisis",
+          "quote": "Restore the cuts to Medicaid and provide Medicare for All.",
+          "said_on": "",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure the border and build a working immigration system",
+          "quote": "We need an immigration system that deters illegal entry and secures our border, while treating people humanely and give law-abiding folks a shot at earning citizenship.",
+          "said_on": "",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Stop endless wars and support our allies",
+          "quote": "That means supporting Ukraine and our NATO allies, paying attention to Asia, and rebuilding trust with the international community.",
+          "said_on": "",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "End the affordability crisis",
+          "quote": "Bring back renewables cut by Trump, invest in new nuclear and natural gas power plants, and crack down on price-gouging utility monopolies.",
+          "said_on": "",
+          "source": "bob-brooks-site-on-the-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "ryan-mackenzie",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "ryan-mackenzie-site-home",
+        "ryan-mackenzie-site-about",
+        "ryan-mackenzie-site-issues",
+        "ryan-mackenzie-site-copy-of-record"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Deliver Real Relief for Every American",
+          "quote": "That’s why Ryan Mackenzie worked so hard to deliver tax relief for every American in his first year in Congress – from increasing the standard tax deduction to eliminating taxes on Social Security for nearly 90% of seniors.",
+          "source": "ryan-mackenzie-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Safeguard Social Security and Medicare",
+          "quote": "In Congress, Ryan refused to support any budget that reduced Social Security benefits.",
+          "source": "ryan-mackenzie-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Stand Up for Working Families",
+          "quote": "The very first package of bills Ryan introduced in Congress included proposals to the Child Tax Credit, childcare tax credits, and more.",
+          "source": "ryan-mackenzie-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Deliver Real Relief for Every American",
+          "quote": "That’s why Ryan Mackenzie worked so hard to deliver tax relief for every American in his first year in Congress – from increasing the standard tax deduction to eliminating taxes on Social Security for nearly 90% of seniors.",
+          "said_on": "",
+          "source": "ryan-mackenzie-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Improve Housing Affordability",
+          "quote": "That’s why Ryan Mackenzie focused on providing the help that local families deserve – and was successful in passing the largest-ever expansion of affordable housing tax credits, which will help tocreate over one million new affordable housing units nationwide.",
+          "said_on": "",
+          "source": "ryan-mackenzie-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Reduce Health Care Costs",
+          "quote": "Already in Congress, he has taken on the big insurance companies and middlemen who drive up costs – passing legislation that puts patients before profits.",
+          "said_on": "",
+          "source": "ryan-mackenzie-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure the Border & Cracking Down on Trafficking",
+          "quote": "After decades of empty talk by the politicians, Ryan Mackenzie finally secured America’s border from illegal immigration through his work on the Homeland Security Committee.",
+          "said_on": "",
+          "source": "ryan-mackenzie-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Deliver Real Relief for Every American",
+          "quote": "Now he’ll continue the fight to make life more affordable through initiatives that provide further tax relief to working families, reduce the cost of healthcare and prescriptions, unleash American energy to reduce utility rates, and better control government spending.",
+          "said_on": "",
+          "source": "ryan-mackenzie-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "His only line on energy, from his cost-of-living priority."
+        }
+      }
+    }
+  ]
+}
