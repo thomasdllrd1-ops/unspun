@@ -51,7 +51,7 @@ A script already confirmed every quote is word for word on the candidate's site.
 2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
 3. If a pick looks unfair, tell Claude which one and why.
 
-Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA, MA, MS, MT, NJ, NM, OK, OR, RI, SD, WV, WY; House: NY-17, WI-03, AZ-01, AZ-06, IA-01, CO-08, MI-07, PA-10, IA-03, PA-07, PA-08, FL-25, TX-34, MI-10, WA-03, FL-14**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
+Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA, MA, MS, MT, NJ, NM, OK, OR, RI, SD, WV, WY; House: NY-17, WI-03, AZ-01, AZ-06, IA-01, CO-08, MI-07, PA-10, IA-03, PA-07, PA-08, FL-25, TX-34, MI-10, WA-03, FL-14, OH-09**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
 
 Blocked or broken sites:
 - **VA-04, Robert Murray**: his site (murrayforcongress.com) is blocked by a security warning on our network and in your browser (Google's Safe Browsing check says it's clean). He's marked "we couldn't read his website." If it ever loads normally, tell Claude.
@@ -77,6 +77,7 @@ Blocked or broken sites:
 - **TX-34, Chris Royal**: his site is one letter about the Constitution and federal spending, with no issues or stances on our 6. **Vicente Gonzalez**'s issue pages are general statements without specific plans; we quoted them as written.
 - **MI-10, Christina Hines**: her site's "Choose a Topic" links go to dated posts on her campaign Substack; we used them for 4 stances (same call as Curtis Stinnett; part of the open blog-post question). **Mike Saliba, Kwabena Nkromo, Andrea Kirby**: no websites found.
 - **FL-14, Kathy Castor**: no issues page; her top 3 come from her "Delivering for Florida" list of federal money she secured (same call as Ciscomani in AZ-06).
+- **OH-09, Derek Merrin**: his site is a biography of his Ohio legislative record with no issues list, so he has no top 3; his stances quote that record.
 - **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
 ---

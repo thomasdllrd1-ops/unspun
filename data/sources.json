@@ -8749,5 +8749,37 @@
   "url": "https://castorforcongress.com/about/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "marcy-kaptur-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Marcy Kaptur campaign website",
+  "url": "https://marcykaptur.com/priorities/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "marcy-kaptur-site-home",
+  "title": "Home page",
+  "publisher": "Marcy Kaptur campaign website",
+  "url": "https://marcykaptur.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "marcy-kaptur-site-about-marcy",
+  "title": "About Marcy page",
+  "publisher": "Marcy Kaptur campaign website",
+  "url": "https://marcykaptur.com/about-marcy/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "derek-merrin-site-home",
+  "title": "Home page",
+  "publisher": "Derek Merrin campaign website",
+  "url": "https://www.derekmerrin.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]

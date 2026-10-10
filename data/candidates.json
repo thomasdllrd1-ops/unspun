@@ -2306,7 +2306,7 @@
     "sort_name": "Kaptur",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://marcykaptur.com",
     "fec_id": "H2OH09031",
     "source": "official-oh-2026"
   },
@@ -2317,7 +2317,7 @@
     "sort_name": "Merrin",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.derekmerrin.com",
     "fec_id": "H4OH09169",
     "source": "official-oh-2026"
   },
