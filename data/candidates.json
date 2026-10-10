@@ -2051,7 +2051,7 @@
     "sort_name": "Nunn",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://zachnunn.com",
     "fec_id": "H2IA03119",
     "source": "official-ia-2026"
   },
@@ -2062,7 +2062,7 @@
     "sort_name": "Trone Garriott",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://sarahforiowa.com",
     "fec_id": "H6IA03268",
     "source": "official-ia-2026"
   },
