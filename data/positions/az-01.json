@@ -1,0 +1,329 @@
+{
+  "race": "az-01",
+  "candidates": [
+    {
+      "candidate": "monica-alponte",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "monica-alponte-site-home",
+        "monica-alponte-site-meetups",
+        "monica-alponte-site-seniors-2c-disabled-2c-vets"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Fiscal Sanity",
+          "quote": "",
+          "source": "monica-alponte-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Prosperity",
+          "quote": "",
+          "source": "monica-alponte-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Parental Sovereignty",
+          "quote": "",
+          "source": "monica-alponte-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Americans First - End the WARS!",
+          "quote": "Our solution is simple: Abolish the IRS, end the Federal Reserve's monopoly on our currency, and return the stolen trillions directly to the American family.",
+          "said_on": "",
+          "source": "monica-alponte-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "ISSUES NEAR & DEAR",
+          "quote": "End Incentives for Illegal Immigration",
+          "said_on": "",
+          "source": "monica-alponte-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "An item from her list of issues. Her longer statement on the border is a single 90-word sentence, too long to quote whole."
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "PEACE Pledge",
+          "quote": "I will never vote to authorize or fund military action without a formal Declaration of War from Congress—rejecting all vague \"authorizations\" (AUMFs) used to bypass the Constitution.",
+          "said_on": "",
+          "source": "monica-alponte-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jay-feely",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "jay-feely-site-home",
+        "jay-feely-site-meet-jay",
+        "jay-feely-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Arizona Interests Represented",
+          "quote": "That means protecting our water, standing up for our farmers and ranchers, defending our Second Amendment rights, and stopping out-of-control federal mandates that hurt our families, small businesses, and schools.",
+          "source": "jay-feely-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "A Secure Border",
+          "quote": "In Congress, I’ll fight to finish the wall, dismantle the Biden/Harris open-borders agenda, and deliver results.",
+          "source": "jay-feely-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "A Strong American Economy",
+          "quote": "In Congress, I’ll fight to slash red tape, expand Trump-era tax cuts, unleash domestic manufacturing, and drive down inflation.",
+          "source": "jay-feely-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "A Strong American Economy",
+          "quote": "In Congress, I’ll fight to slash red tape, expand Trump-era tax cuts, unleash domestic manufacturing, and drive down inflation.",
+          "said_on": "",
+          "source": "jay-feely-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "A Secure Border",
+          "quote": "In Congress, I’ll fight to finish the wall, dismantle the Biden/Harris open-borders agenda, and deliver results.",
+          "said_on": "",
+          "source": "jay-feely-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Standing with Israel & Fighting Antisemitism",
+          "quote": "In Congress, I will stand unapologetically with Israel and fight to strengthen the U.S.-Israel relationship.",
+          "said_on": "",
+          "source": "jay-feely-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Unleashing American Energy Independence",
+          "quote": "I proudly support President Trump’s America-First energy agenda—and I’ll work to unleash the full power of American oil, natural gas, clean coal, and the next generation of innovation.",
+          "said_on": "",
+          "source": "jay-feely-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "amish-shah",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "amish-shah-site-home",
+        "amish-shah-site-issues",
+        "amish-shah-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economy",
+          "quote": "In Congress, he will fight to lower costs by rolling back these crushing tariffs, making sure families can afford groceries and essentials, and ending the chaos in Washington so job growth and business investment can rebound.",
+          "source": "amish-shah-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Standing With Our Seniors",
+          "quote": "In Congress, Dr. Shah will always stand up to protect Social Security and Medicare so that every Arizona senior receives the benefits they paid for and earned.",
+          "source": "amish-shah-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Healthcare",
+          "quote": "In Congress, Amish will work to expand coverage, protect Medicare, and lower prescription drug prices.",
+          "source": "amish-shah-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy",
+          "quote": "In Congress, he will fight to lower costs by rolling back these crushing tariffs, making sure families can afford groceries and essentials, and ending the chaos in Washington so job growth and business investment can rebound.",
+          "said_on": "",
+          "source": "amish-shah-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "In Congress, Amish will work to expand coverage, protect Medicare, and lower prescription drug prices.",
+          "said_on": "",
+          "source": "amish-shah-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His \"Water\" section is about drought and the Colorado River; it doesn't mention climate change or energy."
+        }
+      }
+    }
+  ]
+}

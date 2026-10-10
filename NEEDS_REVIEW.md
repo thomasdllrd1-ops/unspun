@@ -51,7 +51,7 @@ A script already confirmed every quote is word for word on the candidate's site.
 2. Ask: is this the passage that most directly says what they'd do on the issue (rule 4 on `/issues/#rules`)? Is "No position found" really true on the pages listed?
 3. If a pick looks unfair, tell Claude which one and why.
 
-Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA, MA, MS, MT, NJ, NM, OK, OR, RI, SD, WV, WY; House: NY-17, WI-03**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
+Researched so far (Sep 28): **VA Senate and all 11 VA House districts; Senate races in OH (special), AK, IA, NH, NC, ME, MI, TX, GA, KS, MN, NE, SC, AL, AR, CO, DE, FL (special), ID, IL, KY, LA, MA, MS, MT, NJ, NM, OK, OR, RI, SD, WV, WY; House: NY-17, WI-03, AZ-01**. A good sample to start with: VA-02 (4 candidates), VA-07 (6 candidates), and NC Senate.
 
 Blocked or broken sites:
 - **VA-04, Robert Murray**: his site (murrayforcongress.com) is blocked by a security warning on our network and in your browser (Google's Safe Browsing check says it's clean). He's marked "we couldn't read his website." If it ever loads normally, tell Claude.
@@ -68,6 +68,7 @@ Blocked or broken sites:
 - **TN Senate, Jeremy Dean Hearn**: his one-page site is long and hard to follow. His top 3 are the three "Campaign Priorities" he names; his stances are the sentences under his own "INFLATION" and "IMMIGRATION" headings. Check that the picks seem fair.
 - **WI-03, Rustin Provance**: his campaign site (the one Wikipedia links for 2026) says ©2022 and some lines refer to 2022. It's what his site shows today, so we used it.
 - **WI-03, Alexander Kent**: his campaign page asks voters to decide every issue in his app, so he has no stances on our 6 issues. His site also lists essays he wrote on some issues (abortion, capitalism); like blog posts, we didn't use them (same open question as Whitener/Wess).
+- **AZ-01, Monica Alponte**: her top 3 are the first three items in her "Issues near & dear" list (Fiscal Sanity, Prosperity, Parental Sovereignty), shown as names only. Her site leads with "End the wars," which is the 9th item on that list. Check that this seems fair.
 - **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
 ---

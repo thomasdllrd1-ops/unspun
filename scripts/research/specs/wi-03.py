@@ -44,9 +44,9 @@ C = {
    'health-care': ('02-website-projects-1', 'Health Care', 'My goal is to remove federal control over healthcare', 'it is an individual issue.'),
    'immigration': None,
    'foreign-policy': ('02-website-projects-1', 'Military & the Veterans', 'We need a strong fist', 'understanding and reason.'),
-   'climate-energy': ('02-website-projects-1', 'The Environment', 'I think that this is a major issue', 'These nuclear explosions need to cease.'),
+   'climate-energy': None,
   },
-  'notes': {'climate-energy': 'His "Environment" section is about nuclear weapons tests.'},
+  'notes': {'climate-energy': 'His "Environment" section is about nuclear weapons tests, which this issue doesn\'t cover (it covers climate change, energy prices, the power grid, oil and gas, and clean energy).'},
  },
  'derrick-van-orden': {
   'pages': ['00-home', '01-about', '02-issues'],

@@ -41,7 +41,7 @@ def load(cid, page):
 
 
 def page_title(url, html_title):
-    path = urllib.parse.urlparse(url).path.strip('/')
+    path = urllib.parse.unquote(urllib.parse.urlparse(url).path).strip('/')
     if not path: return 'Home page'
     t = ': '.join(re.sub(r'\.html?$', '', s).replace('-', ' ').replace('_', ' ') for s in path.split('/') if s)
     t = t[0].upper() + t[1:] + ' page'
