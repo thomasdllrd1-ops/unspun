@@ -103,3 +103,10 @@ export function issueMoney(candidateId: string, issue: string) {
   if (!f) return null;
   return { given: byGroup(f.given, issue), forThem: byGroup(f.forThem, issue), against: byGroup(f.against, issue) };
 }
+
+/** The tagged groups that put the most money behind a candidate (gifts plus spending for them), any issue. */
+export function topGroups(candidateId: string, n = 3): GroupTotal[] {
+  const f = tagsShown ? fundersOf(candidateId) : null;
+  if (!f) return [];
+  return issueList.flatMap((i) => byGroup([...f.given, ...f.forThem], i.id)).sort((a, b) => b.amount - a.amount).slice(0, n);
+}

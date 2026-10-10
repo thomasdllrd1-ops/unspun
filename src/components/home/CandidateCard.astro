@@ -18,6 +18,7 @@ const research = raceResearch(c.race);
 const cp = research.shown ? positionsOf(research, c.id) : null;
 const m = moneyFor(c.id);
 const raised = m.status === 'ok' ? m.receipts ?? 0 : null;
+import TopGroups from '../TopGroups.astro';
 ---
 <article class="cand">
   <div class="top">
@@ -45,7 +46,7 @@ const raised = m.status === 'ok' ? m.receipts ?? 0 : null;
         <p class="amt"><strong>{money(raised)}</strong> <span class="muted">through {date((m as { coverage_end: string }).coverage_end)} · <a href={(m as { fec_url: string }).fec_url}>FEC</a></span></p>
       </>
     ) : <p class="small muted">No FEC reports.</p>}
-    <slot />
+    <TopGroups candidateId={c.id} />
   </div>
   {photo && <p class="credit">{photo.credit}</p>}
 </article>

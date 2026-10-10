@@ -7,6 +7,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Scoreboard from '../../components/Scoreboard.astro';
 import PartyTag from '../../components/PartyTag.astro';
+import TopGroups from '../../components/TopGroups.astro';
 import { summarize } from '../../lib/summary';
 import { db, candidatesInRace, raceResearch, positionsOf } from '../../lib/data';
 import { stateName } from '../../lib/states';
@@ -48,6 +49,7 @@ const n = races.length;
                       {cp.priorities.map((p) => <li><strong>{p.heading}</strong>{p.quote && <span class="q"> “{p.quote}”</span>}</li>)}
                     </ol>
                   ) : <p class="small muted">{cp.priorities_note}</p>}
+                  <TopGroups candidateId={c.id} />
                 </li>
               );
             })}
