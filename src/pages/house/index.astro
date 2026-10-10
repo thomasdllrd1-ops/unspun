@@ -8,6 +8,7 @@ import { consensus, ratingColor, ratingLabel } from '../../lib/ratings';
 import { money, date } from '../../lib/format';
 import sel from '../../../data/house_selection.json';
 import BoardGrid from '../../components/BoardGrid.astro';
+import RaceTabs from '../../components/RaceTabs.astro';
 import { summarize } from '../../lib/summary';
 
 const inData = new Set(db.races.map((r) => r.id));
@@ -23,6 +24,7 @@ const heldD = rows.filter((r) => r.incumbent_party === 'democratic').length;
 <Layout title="House" description="The 19 U.S. House races that at least two of three forecasters rate a toss-up, and how we picked them." updated={lastChecked(['wikipedia-house-ratings-2026', 'fec-api'])}>
   <div class="eyebrow">U.S. House · Nov 3, 2026</div>
   <h1>19 House races rated toss-ups</h1>
+  <RaceTabs current="house" />
   <p class="headline">All 435 House seats are on the ballot. We cover every district that at least 2 of 3 forecasters call a <Term id="toss-up">toss-up</Term>.</p>
 
   <div class="stack">

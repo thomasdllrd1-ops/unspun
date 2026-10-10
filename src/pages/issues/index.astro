@@ -6,42 +6,55 @@ import SourceList from '../../components/SourceList.astro';
 import Limits from '../../components/Limits.astro';
 import { db, issueList, raceResearch } from '../../lib/data';
 import { date } from '../../lib/format';
+import IssuePicker from '../../components/home/IssuePicker.astro';
+import { stateName } from '../../lib/states';
 
 const meta = db.issues;
 const published = db.races.filter((r) => raceResearch(r.id).shown);
+const FEATURED = 'va-sen';
 const sourceIds = [...new Set([...issueList.flatMap((i) => i.why.map((w) => w.source)), ...meta.left_out.map((l) => l.source)])];
 ---
-<Layout title="The 6 issues" description="The 6 issues we track for every candidate, why we picked them, and how we choose the words we quote." updated={meta.chosen_on}>
-  <div class="eyebrow">The playbook</div>
-  <h1>The 6 issues we track</h1>
-  <p class="headline">These are the issues 18–29 year olds said matter most in two big 2026 polls. We track every candidate on the same 6.</p>
+<Layout title="Issues" description="Pick an issue and see every candidate's position in their own words, plus the 6 issues we track and how we choose the words we quote." updated={meta.chosen_on} wide>
+  <div class="eyebrow">Issues · in their own words</div>
+  <h1>What do you care about?</h1>
+  <form class="pick" data-go-race>
+    <label for="race-pick">Race</label>
+    <select id="race-pick" name="race">
+      {published.map((r) => <option value={r.id} selected={r.id === FEATURED}>{r.chamber === 'senate' ? `${stateName(r.state)} Senate${r.id.includes('special') ? ' (special)' : ''}` : r.short}</option>)}
+    </select>
+    <button class="btn btn-ghost" type="submit">Compare this race</button>
+  </form>
+  <p class="small text-2">Showing {db.races.find((r) => r.id === FEATURED)!.name}. Pick an issue:</p>
+  <IssuePicker raceId={FEATURED} />
 
-  <div class="stack">
+  <div class="stack later">
+    <h2 class="sub">The 6 issues we track</h2>
     <ul class="grid">
       {issueList.map((i) => (
         <li class="card issue" id={i.id}>
-          <h2><Icon name={i.icon as any} />{i.name}</h2>
+          <span class="ibadge"><Icon name={i.icon as any} /></span>
+          <h3>{i.name}</h3>
           <p class="q">{i.question}</p>
-          <p>{i.covers} {i.not_covered && <span class="text-2">{i.not_covered}</span>}</p>
           <details>
-            <summary class="small">Why this issue?</summary>
+            <summary class="small">What it covers, and why we picked it</summary>
+            <p class="small">{i.covers} {i.not_covered && <span class="text-2">{i.not_covered}</span>}</p>
             <ul class="why small">{i.why.map((w) => <li>{w.text} <Source id={w.source} /></li>)}</ul>
           </details>
         </li>
       ))}
     </ul>
 
-    <section class="card" aria-labelledby="how-h">
-      <h2 id="how-h"><Icon name="ListChecks" />How we picked them</h2>
+    <details class="card more">
+      <summary><Icon name="ListChecks" />How we picked the 6 issues</summary>
       <p>{meta.method}</p>
       <p class="small muted">Chosen {date(meta.chosen_on)}. {meta.chosen_by}.</p>
       <h3>Close, but not in the 6</h3>
       <ul class="small">{meta.left_out.map((l) => <li><strong>{l.name}:</strong> {l.why} <Source id={l.source} /></li>)}</ul>
       <Limits>{meta.limits}</Limits>
-    </section>
+    </details>
 
-    <section class="card" id="rules" aria-labelledby="rules-h">
-      <h2 id="rules-h"><Icon name="Quote" />How we pick the words we quote</h2>
+    <details class="card more" id="rules">
+      <summary><Icon name="Quote" />How we pick the words we quote</summary>
       <ol class="rules">
         <li><strong>Where we look:</strong> each candidate's campaign website: its issues page, About page, and home page. We don't use social media posts (even ones embedded on a campaign site), which change constantly and can't be checked the same way for every candidate. We also don't quote pages about opponents, or words written by someone else (like a letter to the editor or a quote from another person).</li>
         <li><strong>Their words, not ours.</strong> Every quote is copied word for word. We don't fix typos, cut words out, or sum up what they "really mean."</li>
@@ -53,15 +66,15 @@ const sourceIds = [...new Set([...issueList.flatMap((i) => i.why.map((w) => w.so
         <li><strong>Checked by a script.</strong> An AI assistant finds the pages and picks the passages using these rules. Then a script re-opens each page and confirms the exact words are there. If it can't find them, the quote stays hidden until a person checks it. Our editor spot-checks the AI's picks.</li>
       </ol>
       <p class="small">Think we picked an unfair quote? <a href="/corrections/">Tell us</a> and we'll look again.</p>
-    </section>
+    </details>
 
-    <section class="card" aria-labelledby="done-h">
-      <h2 id="done-h"><Icon name="Flag" />Races researched so far: {published.length} of {db.races.length}</h2>
+    <details class="card more">
+      <summary><Icon name="Flag" />Races researched so far: {published.length} of {db.races.length}</summary>
       {published.length ? (
         <ul class="done">{published.map((r) => <li><a href={`/races/${r.id}/compare/`}>{r.name}</a> · <a class="small" href={`/races/${r.id}/quiz/`}>quiz</a></li>)}</ul>
       ) : <p class="text-2">None yet. The first races are being researched now.</p>}
       <p class="small muted">Order: Virginia first, then the closest Senate races, then House toss-ups, then the rest.</p>
-    </section>
+    </details>
 
     <form class="card form" id="suggest" name="issue-suggestions" method="POST" action="/issues/thanks/" data-netlify="true" netlify-honeypot="company" aria-labelledby="suggest-h">
       <h2 id="suggest-h"><Icon name="MessageSquarePlus" />Suggest an issue</h2>
@@ -79,8 +92,25 @@ const sourceIds = [...new Set([...issueList.flatMap((i) => i.why.map((w) => w.so
   </div>
 </Layout>
 
+<script>
+  document.querySelector<HTMLFormElement>('[data-go-race]')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    location.href = `/races/${new FormData(e.currentTarget as HTMLFormElement).get('race')}/compare/`;
+  });
+</script>
+
 <style>
+  .pick { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 10px 0 6px; }
+  .pick label { font-weight: 600; }
+  .pick select { font: inherit; min-height: 44px; padding: 0 10px; border: 1.5px solid var(--navy); background: var(--paper-2); color: var(--ink); border-radius: 2px; }
+  .later { margin-top: 40px; }
+  .sub { font-size: clamp(1.8rem, 3.5vw, 2.4rem); }
+  .ibadge { width: 52px; height: 52px; border-radius: 50%; background: var(--navy); display: grid; place-items: center; box-shadow: inset 0 0 0 2px var(--gold); }
+  .ibadge :global(.icon) { width: 26px; height: 26px; color: var(--gold-light); }
+  .issue h3 { margin: 10px 0 2px; }
+  .more summary { cursor: pointer; display: flex; align-items: center; gap: 10px; font-family: var(--font-serif); font-weight: 700; font-size: 1.15rem; min-height: 44px; color: var(--heading); }
   .grid { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--gap); grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  @media (min-width: 900px) { .grid { grid-template-columns: repeat(3, 1fr); } }
   .issue p { margin: 6px 0; }
   .issue .q { font-weight: 700; }
   .why { padding-left: 1.1em; margin: 6px 0 0; }

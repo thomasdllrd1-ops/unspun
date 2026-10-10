@@ -1,0 +1,33 @@
+---
+/**
+ * A candidate's gilt oval (DESIGN.md "Images"): their photo with the same engraving filter as
+ * everyone else's, or their initials. Fairness rule: a race shows photos only when we have one
+ * for every candidate in it; otherwise everyone in that race gets initials. The thin inner ring
+ * is the party color (party data, never decoration).
+ */
+import photos from '../../data/photos.json';
+import type { Candidate } from '../lib/schema';
+import { candidatesInRace, partyById } from '../lib/data';
+
+interface Props { c: Candidate; size?: 'sm' | 'md' | 'lg' }
+const { c, size = 'md' } = Astro.props;
+const all = photos.photos as Record<string, { file: string; credit: string }>;
+const raceHasAll = candidatesInRace(c.race).every((x) => all[x.id]);
+const photo = raceHasAll ? all[c.id] : undefined;
+const initials = c.ballot_name.replace(/["“”].*?["“”]/g, '').split(/\s+/).filter((w) => /^[A-Z]/.test(w) && !/^(Jr|Sr|II|III|IV)\.?$/.test(w)).map((w) => w[0]);
+const text = (initials.length > 1 ? initials[0] + initials.at(-1) : initials.join('')) || '?';
+---
+<span class:list={['portrait', size, partyById(c.party).color]} title={photo?.credit}>
+  {photo ? <img src={photo.file} alt="" loading="lazy" /> : <span class="init" aria-hidden="true">{text}</span>}
+</span>
+<style>
+  .portrait { flex: none; display: inline-block; border-radius: 50%; padding: 4px; background: linear-gradient(145deg, var(--gold-light), var(--gold) 45%, var(--gold-dark)); }
+  .sm { width: 44px; height: 54px; padding: 3px; }
+  .md { width: 72px; height: 88px; }
+  .lg { width: 120px; height: 150px; padding: 6px; }
+  img, .init { width: 100%; height: 100%; border-radius: 50%; display: block; box-shadow: 0 0 0 2px var(--ring, var(--navy)); }
+  .dem { --ring: var(--dem); } .rep { --ring: var(--rep); } .other { --ring: var(--other); }
+  img { object-fit: cover; object-position: 50% 25%; filter: grayscale(1) sepia(0.45) contrast(1.08) brightness(1.02); }
+  .init { display: grid; place-items: center; background: #E6DCC2; color: var(--navy); font-family: var(--font-display); line-height: 1; }
+  .sm .init { font-size: 1.05rem; } .md .init { font-size: 1.7rem; } .lg .init { font-size: 2.6rem; }
+</style>

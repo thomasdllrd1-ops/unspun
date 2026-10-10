@@ -34,7 +34,7 @@ const payload = JSON.stringify({
   counties: Object.fromEntries(geo.counties.map((c) => [c.fips, { name: c.name, d: c.districts.map((x) => [x.n, x.share]) }])),
 });
 ---
-<div class:list={['smap', { 'on-navy': onNavy }]} data-smap>
+<div class:list={['smap', { 'on-navy': onNavy }]} data-smap id="find">
   <form class="zip" data-zip>
     <label for={`zip-${code}`}>Type your ZIP</label>
     <input id={`zip-${code}`} name="zip" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" placeholder="5 digits" required />
@@ -151,6 +151,10 @@ const payload = JSON.stringify({
       show(`ZIP ${zip}: your races`, here.filter((p) => p.n).map((p) => [p.n, p.share] as [number, number]),
         here.length < parts.length ? `Part of this ZIP is in another state.` : '');
     });
+    // Arriving from the homepage ZIP box: /states/xx/?zip=12345
+    const z = new URLSearchParams(location.search).get('zip');
+    const form = root.querySelector<HTMLFormElement>('[data-zip]')!;
+    if (z && /^\d{5}$/.test(z)) { form.querySelector('input')!.value = z; form.requestSubmit(); }
   }
 </script>
 

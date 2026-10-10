@@ -4,6 +4,7 @@ import Layout from '../../../layouts/Layout.astro';
 import PartyTag from '../../../components/PartyTag.astro';
 import StanceCard from '../../../components/StanceCard.astro';
 import IssueMoney from '../../../components/IssueMoney.astro';
+import Portrait from '../../../components/Portrait.astro';
 import Icon from '../../../components/Icon.astro';
 import Limits from '../../../components/Limits.astro';
 import SourceList from '../../../components/SourceList.astro';
@@ -22,6 +23,7 @@ const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.
   <div class="eyebrow" style="margin-top:8px">{race.name}</div>
   <h1>Side by side</h1>
   <p class="headline">All {candidates.length} candidates on our 6 issues, word for word. Listed alphabetically by last name.</p>
+  <ul class="lineup">{candidates.map((c) => <li><Portrait c={c} size="md" /><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a><PartyTag party={c.party} /></li>)}</ul>
 
   <nav class="jump" aria-label="Jump to an issue">
     {issueList.map((i) => <a class="chip" href={`#${i.id}`}><Icon name={i.icon as any} />{i.name}</a>)}
@@ -38,7 +40,7 @@ const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.
             const cp = positionsOf(research, c.id);
             return (
               <div class="col">
-                <div class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a> <PartyTag party={c.party} /></div>
+                <div class="who"><Portrait c={c} size="sm" /><span><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a> <PartyTag party={c.party} /></span></div>
                 <StanceCard stance={cp.stances[i.id]} lookedAt={cp.looked_at} />
                 <IssueMoney candidateId={c.id} issue={i.id} />
               </div>
@@ -62,4 +64,8 @@ const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.
   .col { border-top: 3px solid var(--border-strong); padding-top: 8px; min-width: 0; display: grid; gap: 6px; align-content: start; }
   .q { font-weight: 700; margin: 4px 0; }
   .who { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-weight: 700; }
+  .lineup { list-style: none; padding: 0; margin: 14px 0 18px; display: flex; flex-wrap: wrap; gap: 18px 26px; }
+  .lineup li { display: grid; justify-items: center; gap: 6px; text-align: center; max-width: 9em; font-family: var(--font-serif); font-weight: 700; }
+  .lineup a { color: var(--heading); }
+  .who { display: flex; align-items: center; gap: 10px; }
 </style>

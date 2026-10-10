@@ -6,6 +6,7 @@
  */
 import StanceCard from '../StanceCard.astro';
 import IssueMoney from '../IssueMoney.astro';
+import Portrait from '../Portrait.astro';
 import { issueList, candidatesInRace, raceResearch, positionsOf, partyById } from '../../lib/data';
 
 interface Props { raceId: string }
@@ -29,7 +30,7 @@ const cands = candidatesInRace(raceId);
             const cp = positionsOf(research, c.id);
             return (
               <div class="col">
-                <p class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a> <span class="muted small">{partyById(c.party).name}</span></p>
+                <div class="who"><Portrait c={c} size="sm" /><p><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a><span class="muted small">{partyById(c.party).name}</span></p></div>
                 <StanceCard stance={cp.stances[iss.id]} lookedAt={cp.looked_at} />
                 <IssueMoney candidateId={c.id} issue={iss.id} />
               </div>
@@ -50,7 +51,8 @@ const cands = candidatesInRace(raceId);
   .q { font-family: var(--font-serif); font-size: 1.15rem; margin: 0 0 12px; }
   .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
   .col { background: var(--surface); border: 1px solid var(--border); padding: 16px; }
-  .who { margin: 0 0 8px; font-family: var(--font-serif); font-weight: 700; font-size: 1.1rem; }
+  .who { display: flex; align-items: center; gap: 12px; margin: 0 0 10px; }
+  .who p { margin: 0; display: grid; font-family: var(--font-serif); font-weight: 700; font-size: 1.1rem; }
   .who a { color: var(--heading); }
 </style>
 <style is:global>

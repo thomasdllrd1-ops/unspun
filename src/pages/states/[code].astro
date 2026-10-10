@@ -9,6 +9,7 @@ import Scoreboard from '../../components/Scoreboard.astro';
 import PartyTag from '../../components/PartyTag.astro';
 import TopGroups from '../../components/TopGroups.astro';
 import StateMap from '../../components/maps/StateMap.astro';
+import Portrait from '../../components/Portrait.astro';
 import { summarize } from '../../lib/summary';
 import { db, candidatesInRace, raceResearch, positionsOf } from '../../lib/data';
 import { stateName } from '../../lib/states';
@@ -46,7 +47,7 @@ const n = races.length;
               const cp = positionsOf(research, c.id);
               return (
                 <li class="card">
-                  <p class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a>{c.incumbent && <span class="chip">Incumbent</span>} <PartyTag party={c.party} /></p>
+                  <div class="whorow"><Portrait c={c} size="sm" /><p class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a>{c.incumbent && <span class="chip">Incumbent</span>} <PartyTag party={c.party} /></p></div>
                   {cp.priorities.length ? (
                     <ol class="pri">
                       {cp.priorities.map((p) => <li><strong>{p.heading}</strong>{p.quote && <span class="q"> “{p.quote}”</span>}</li>)}
@@ -86,7 +87,8 @@ const n = races.length;
   .race h2 a:hover { text-decoration: underline; }
   .sub { margin-top: 18px; }
   .cands { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; }
-  .who { margin: 0 0 6px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; }
+  .whorow { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+  .who { margin: 0; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; }
   .pri { margin: 0; padding-left: 22px; }
   .pri li { margin: 4px 0; }
   .q { color: var(--text-2); }

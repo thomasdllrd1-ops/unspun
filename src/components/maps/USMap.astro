@@ -14,6 +14,8 @@ const label = (code: string, name: string) => {
   return n ? `${name}: ${n} race${n === 1 ? '' : 's'} we cover` : `${name}: no race we cover`;
 };
 const covered = geo.states.filter((s) => counts.has(s.code));
+interface Props { picker?: boolean }
+const { picker = true } = Astro.props;
 ---
 <figure class="usmap">
   <svg viewBox={geo.viewBox} role="group" aria-label="U.S. map. States with a race we cover are links.">
@@ -35,9 +37,11 @@ const covered = geo.states.filter((s) => counts.has(s.code));
     </ul>
     <p class="hint">Tap a state to see its races. <span class="src">Map: U.S. Census Bureau</span></p>
   </figcaption>
-  <nav class="picker" aria-label="Pick your state">
-    {covered.map((s) => <a href={`/states/${s.code.toLowerCase()}/`} class:list={{ va: s.code === 'VA' }}>{s.name}</a>)}
-  </nav>
+  {picker && (
+    <nav class="picker" aria-label="Pick your state">
+      {covered.map((s) => <a href={`/states/${s.code.toLowerCase()}/`} class:list={{ va: s.code === 'VA' }}>{s.name}</a>)}
+    </nav>
+  )}
 </figure>
 <style>
   .usmap { margin: 0; --m-race: var(--navy); --m-va: var(--gold); --m-none: #DCD3BD; --m-line: var(--paper); --m-hover: var(--gold-light); }

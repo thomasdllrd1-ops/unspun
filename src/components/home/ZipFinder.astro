@@ -1,0 +1,57 @@
+---
+/**
+ * "Find your race" by ZIP, anywhere in the U.S. Looks the ZIP up in /geo/zip-races.json
+ * (built by scripts/build-state-maps.ts) and opens that state's map with your races showing.
+ * Without JavaScript, the U.S. map's state links still work.
+ */
+import { db } from '../../lib/data';
+import { stateName } from '../../lib/states';
+const states = [...new Set(db.races.map((r) => r.state))].sort((a, b) => stateName(a).localeCompare(stateName(b)));
+---
+<div class="finder">
+  <form data-zipfind>
+    <label for="zip-home">Your ZIP code</label>
+    <div class="row">
+      <input id="zip-home" name="zip" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" placeholder="5 digits" required />
+      <button class="btn" type="submit">Find my races</button>
+    </div>
+  </form>
+  <div class="or">
+    <label for="state-pick">or pick your state</label>
+    <select id="state-pick" name="state" data-states>
+      <option value="">Choose…</option>
+      {states.map((s) => <option value={s.toLowerCase()}>{stateName(s)}</option>)}
+    </select>
+  </div>
+  <p class="msg" data-msg aria-live="polite"></p>
+</div>
+<script>
+  import { STATE_NAMES } from '../../lib/states';
+  const races = new Set([...document.querySelectorAll<HTMLOptionElement>('[data-states] option')].map((o) => o.value).filter(Boolean));
+  const msg = document.querySelector<HTMLElement>('[data-msg]')!;
+  document.querySelector<HTMLFormElement>('[data-zipfind]')!.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const zip = (new FormData(e.currentTarget as HTMLFormElement).get('zip') as string).trim();
+    msg.textContent = 'Looking it up…';
+    const entry = ((await fetch('/geo/zip-races.json').then((r) => r.json())) as Record<string, string>)[zip];
+    if (!entry) { msg.textContent = `We couldn't find ZIP ${zip}. Check the number, or pick your state.`; return; }
+    const st = entry.split(' ')[0].slice(0, 2); // the state with most of this ZIP
+    if (races.has(st.toLowerCase())) location.href = `/states/${st.toLowerCase()}/?zip=${zip}#find`;
+    else msg.textContent = `ZIP ${zip} is in ${STATE_NAMES[st] ?? st}. We don't cover a race there this year.`;
+  });
+  document.querySelector<HTMLSelectElement>('[data-states]')!.addEventListener('change', (e) => {
+    const v = (e.currentTarget as HTMLSelectElement).value;
+    if (v) location.href = `/states/${v}/`;
+  });
+</script>
+<style>
+  .finder { display: grid; gap: 12px; }
+  label { display: block; font-weight: 600; margin-bottom: 6px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; }
+  input { font: inherit; font-family: var(--font-mono); font-size: 1.15rem; width: 8em; min-height: 52px; padding: 0 12px; border: 2px solid var(--gold); background: var(--paper-2); color: var(--ink); border-radius: 2px; }
+  .btn { min-height: 52px; font-size: 1.05rem; }
+  .or { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+  .or label { margin: 0; font-weight: 500; font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  select { font: inherit; min-height: 44px; padding: 0 10px; border: 1.5px solid var(--navy); background: var(--paper-2); color: var(--ink); border-radius: 2px; }
+  .msg { margin: 0; min-height: 1.5em; font-size: 0.95rem; }
+</style>

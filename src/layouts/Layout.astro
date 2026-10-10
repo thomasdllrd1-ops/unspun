@@ -15,6 +15,8 @@ import Masthead from '../components/chrome/Masthead.astro';
 import Dateline from '../components/chrome/Dateline.astro';
 import Wordmark from '../components/chrome/Wordmark.astro';
 import Icon from '../components/Icon.astro';
+import Toolbar from '../components/chrome/Toolbar.astro';
+import { TOOLBAR, TABBAR, isActive } from '../lib/nav';
 import { SHOW_PENDING } from '../lib/data';
 import { date } from '../lib/format';
 
@@ -29,14 +31,6 @@ interface Props {
 const { title, description = 'The 2026 midterms without the spin. Every number sourced.', updated, wide = false } = Astro.props;
 const fullTitle = title === 'Unspun' ? 'Unspun · 2026 midterms, sourced' : `${title} · Unspun`;
 const path = Astro.url.pathname;
-const nav = [
-  { href: '/senate/', label: 'Senate', icon: 'Map' },
-  { href: '/house/', label: 'House', icon: 'Landmark' },
-  { href: '/virginia/', label: 'Virginia', icon: 'MapPin' },
-  { href: '/issues/', label: 'Issues', icon: 'Flag' },
-  { href: '/how-to-vote/virginia/', label: 'Vote', icon: 'Vote' },
-  { href: '/show-our-work/', label: 'Our work', icon: 'BookOpenCheck' },
-] as const;
 ---
 <!doctype html>
 <html lang="en">
@@ -57,7 +51,8 @@ const nav = [
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <StripeBand />
-    <Masthead nav={nav} path={path} />
+    <Masthead />
+    <Toolbar items={TOOLBAR} path={path} />
     <Dateline />
     <div class="beta">
       <div class="wrap wide">
@@ -72,8 +67,8 @@ const nav = [
     </main>
 
     <nav class="tabbar" aria-label="Main (bottom)">
-      {nav.map((n) => (
-        <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}><Icon name={n.icon} /><span>{n.label}</span></a>
+      {TABBAR.map((n) => (
+        <a href={n.href} aria-current={isActive(n, path) ? 'page' : undefined}><Icon name={n.icon} /><span>{n.label}</span></a>
       ))}
     </nav>
 
@@ -113,6 +108,9 @@ const nav = [
         el.classList.toggle('past', days(el.dataset.date!) < 0);
       });
 
+      // Printing: open every tap-to-expand section so the handout has everything.
+      addEventListener('beforeprint', () => document.querySelectorAll('details').forEach((d) => (d.open = true)));
+
       const btn = document.querySelector<HTMLButtonElement>('.theme-toggle');
       btn?.addEventListener('click', () => {
         const root = document.documentElement;
@@ -130,6 +128,7 @@ const nav = [
   .skip:focus { left: 8px; }
   .beta { font-size: 0.82rem; color: var(--muted); padding: 6px 0; border-bottom: 1px solid var(--border); }
   .beta .chip { margin-left: 6px; }
+  main { padding-top: 22px; }
   .updated { margin-top: 32px; }
   .tabbar { display: none; }
   @media (max-width: 640px) {

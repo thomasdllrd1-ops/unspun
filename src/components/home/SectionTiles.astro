@@ -1,0 +1,137 @@
+---
+/**
+ * The homepage's doors into each section: a picture, one big number, one line.
+ * Every number is computed from our data files.
+ */
+import Icon from '../Icon.astro';
+import us from '../../../data/geo/us-states-svg.json';
+import midterms from '../../../data/midterms.json';
+import { db, issueList } from '../../lib/data';
+import { summarize, STATUS_TEXT } from '../../lib/summary';
+import { fec, kindOf } from '../../lib/funders';
+import { money } from '../../lib/format';
+
+const today = new Date();
+const senate = db.races.filter((r) => r.chamber === 'senate').length;
+const house = db.races.filter((r) => r.chamber === 'house').length;
+const polls = db.polls.filter((p) => p.status === 'verified').length;
+const closest = db.races.map((r) => summarize(r, today)).filter((s) => s.margin != null && s.leader).sort((a, b) => a.margin! - b.margin!)[0];
+
+// Outside spending in our races, by who spent it (FEC type in plain words)
+const byKind = new Map<string, number>();
+for (const e of Object.values(fec.candidates)) for (const o of e.outside) {
+  const k = kindOf(o.id).startsWith('Super PAC') ? 'Super PACs' : kindOf(o.id).startsWith('Party') ? 'Parties' : 'Other groups';
+  byKind.set(k, (byKind.get(k) ?? 0) + o.support + o.oppose);
+}
+const outside = [...byKind.values()].reduce((a, b) => a + b, 0);
+const kinds = [...byKind].sort((a, b) => b[1] - a[1]);
+
+// Virginia's outline, cropped to fit the tile
+const va = us.states.find((s) => s.code === 'VA')!;
+const nums = va.d.match(/-?\d+(\.\d+)?/g)!.map(Number);
+const xs = nums.filter((_, i) => i % 2 === 0), ys = nums.filter((_, i) => i % 2 === 1);
+const vaBox = `${Math.min(...xs) - 2} ${Math.min(...ys) - 2} ${Math.max(...xs) - Math.min(...xs) + 4} ${Math.max(...ys) - Math.min(...ys) + 4}`;
+
+const rows = midterms.midterms;
+const maxAbs = Math.max(...rows.map((r) => Math.abs(r.house_change)));
+---
+<ul class="stiles">
+  <li>
+    <a class="stile" href="/senate/">
+      <span class="head"><span class="ic"><Icon name="Landmark" /></span>Senate</span>
+      <span class="big">{senate}</span>
+      <span class="line">Senate races, every one on the ballot</span>
+      {closest && <span class="foot mono">Closest: {closest.race.short} · {closest.margin! < 0.05 ? 'tied' : `${closest.leader!.name} +${closest.margin!.toFixed(1)}`}</span>}
+    </a>
+  </li>
+  <li>
+    <a class="stile" href="/house/">
+      <span class="head"><span class="ic"><Icon name="Building2" /></span>House</span>
+      <span class="big">{house}</span>
+      <span class="line">House races: all of Virginia + the toss-ups</span>
+      <span class="foot mono">Tap a district to see who's running</span>
+    </a>
+  </li>
+  <li>
+    <a class="stile" href="/issues/">
+      <span class="head"><span class="ic"><Icon name="Flag" /></span>Issues</span>
+      <span class="icons" aria-hidden="true">{issueList.map((i) => <span class="iss"><Icon name={i.icon as any} /></span>)}</span>
+      <span class="line">6 issues, every candidate in their own words</span>
+    </a>
+  </li>
+  <li>
+    <a class="stile" href="/money/">
+      <span class="head"><span class="ic"><Icon name="Banknote" /></span>Money</span>
+      <span class="big">{money(outside)}</span>
+      <span class="line">outside spending in our races</span>
+      <span class="bars" aria-hidden="true">
+        {kinds.map(([k, v]) => <span class="brow"><span class="bl mono">{k} <b>{money(v)}</b></span><span class="bar"><span class="fill" style={`width:${(v / kinds[0][1]) * 100}%`}></span></span></span>)}
+      </span>
+    </a>
+  </li>
+  <li>
+    <a class="stile" href="/polls/">
+      <span class="head"><span class="ic"><Icon name="ChartColumn" /></span>Polls</span>
+      <span class="big">{polls}</span>
+      <span class="line">polls with receipts: who ran it, who paid</span>
+      <span class="foot mono">{closest ? `${STATUS_TEXT[closest.status]}: ${closest.race.short}` : 'Scores mid-game, not results'}</span>
+    </a>
+  </li>
+  <li>
+    <a class="stile stile-va" href="/virginia/">
+      <span class="head"><span class="ic"><Icon name="Map" /></span>Virginia</span>
+      <svg class="va" viewBox={vaBox} aria-hidden="true"><path d={va.d} /></svg>
+      <span class="line">1 Senate seat + all 11 House seats. Find yours by ZIP.</span>
+    </a>
+  </li>
+  <li>
+    <a class="stile" href="/history/">
+      <span class="head"><span class="ic"><Icon name="History" /></span>History</span>
+      <svg class="hist" viewBox={`0 0 ${rows.length * 10} 60`} aria-hidden="true" preserveAspectRatio="none">
+        <line x1="0" x2={rows.length * 10} y1="20" y2="20" />
+        {rows.map((r, i) => {
+          const h = (Math.abs(r.house_change) / maxAbs) * 38;
+          return <rect x={i * 10 + 1} y={r.house_change < 0 ? 20 : 20 - h} width="8" height={Math.max(1, h)} class={r.party === 'D' ? 'd' : 'r'} />;
+        })}
+      </svg>
+      <span class="line">The president's party usually loses House seats in a midterm</span>
+    </a>
+  </li>
+  <li>
+    <a class="stile stile-vote" href="/how-to-vote/virginia/">
+      <span class="head"><span class="ic"><Icon name="Vote" /></span>Vote</span>
+      <span class="big"><span data-countdown="2026-11-03" data-unit="num">24</span><small> days</small></span>
+      <span class="line">until Election Day, Tue, Nov 3</span>
+      <span class="foot mono">Virginia: register by Oct 23</span>
+    </a>
+  </li>
+</ul>
+<style>
+  .stiles { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 16px; }
+  .stile { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 18px; background: var(--surface); border: 1px solid var(--border); border-top: 4px solid var(--gold);
+          color: var(--text); text-decoration: none; transition: transform 0.12s, box-shadow 0.12s; }
+  .stile:hover, .stile:focus-visible { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(27, 42, 71, 0.16); }
+  .head { display: flex; align-items: center; gap: 10px; font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--eyebrow); }
+  .ic { width: 40px; height: 40px; border-radius: 50%; background: var(--navy); display: grid; place-items: center; flex: none; box-shadow: inset 0 0 0 2px var(--gold); }
+  .ic :global(.icon) { width: 20px; height: 20px; color: var(--gold-light); }
+  .big { font-family: var(--font-display); font-size: 3.2rem; line-height: 1; color: var(--heading); margin-top: 4px; }
+  .big small { font-family: var(--font-serif); font-size: 1.1rem; }
+  .line { font-family: var(--font-serif); font-size: 1.02rem; line-height: 1.35; }
+  .foot { margin-top: auto; padding-top: 6px; font-size: 0.75rem; color: var(--text-2); }
+  .mono { font-family: var(--font-mono); }
+  .icons { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+  .iss { width: 34px; height: 34px; border: 1.5px solid var(--gold); border-radius: 50%; display: grid; place-items: center; color: var(--heading); }
+  .iss :global(.icon) { width: 18px; height: 18px; }
+  .bars { display: grid; gap: 4px; margin-top: auto; padding-top: 6px; }
+  .brow { display: grid; gap: 2px; }
+  .bar { display: block; height: 8px; background: var(--paper-3); }
+  .fill { display: block; height: 100%; background: var(--navy-2); }
+  .bl { font-size: 0.72rem; color: var(--text-2); }
+  .bl b { color: var(--text); }
+  .va { width: 100%; height: 90px; margin: 6px 0; }
+  .va path { fill: var(--gold); stroke: var(--gold-dark); stroke-width: 0.6; }
+  .hist { width: 100%; height: 70px; margin: 6px 0; }
+  .hist line { stroke: var(--rule); stroke-width: 0.6; }
+  .hist .d { fill: var(--dem); } .hist .r { fill: var(--rep); }
+  @media (prefers-reduced-motion: reduce) { .stile { transition: none; } .stile:hover { transform: none; } }
+</style>

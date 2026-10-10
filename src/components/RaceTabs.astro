@@ -1,0 +1,22 @@
+---
+/** Tabs across the top of the Senate, House and Polls pages, so phones can move between them. */
+import Icon from './Icon.astro';
+interface Props { current: 'senate' | 'house' | 'polls' }
+const tabs = [
+  { id: 'senate', href: '/senate/', label: 'Senate', icon: 'Landmark' },
+  { id: 'house', href: '/house/', label: 'House', icon: 'Building2' },
+  { id: 'polls', href: '/polls/', label: 'Polls', icon: 'ChartColumn' },
+] as const;
+---
+<nav class="rtabs" aria-label="Races">
+  {tabs.map((t) => <a href={t.href} aria-current={t.id === Astro.props.current ? 'page' : undefined}><Icon name={t.icon} />{t.label}</a>)}
+</nav>
+<style>
+  .rtabs { display: flex; gap: 0; margin: 4px 0 18px; border: 1.5px solid var(--navy); width: fit-content; max-width: 100%; }
+  .rtabs a { display: inline-flex; align-items: center; gap: 8px; padding: 0 18px; min-height: 44px; color: var(--heading); text-decoration: none; font-weight: 600; }
+  .rtabs a + a { border-left: 1.5px solid var(--navy); }
+  .rtabs a :global(.icon) { width: 18px; height: 18px; }
+  .rtabs a[aria-current='page'] { background: var(--navy); color: var(--gold-light); }
+  :global(:root[data-theme='dark']) .rtabs, :global(:root[data-theme='dark']) .rtabs a + a { border-color: var(--gold-light); }
+  @media (prefers-color-scheme: dark) { :global(:root:not([data-theme='light'])) .rtabs, :global(:root:not([data-theme='light'])) .rtabs a + a { border-color: var(--gold-light); } }
+</style>

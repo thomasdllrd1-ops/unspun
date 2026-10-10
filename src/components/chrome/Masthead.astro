@@ -1,31 +1,25 @@
 ---
-/** Navy masthead: Capitol + UNSPUN, page links, theme toggle, 4px gold border (DESIGN.md #2). */
+/** Navy masthead: Capitol + UNSPUN and the theme toggle (DESIGN.md #2). Section links live in the Toolbar under it. */
 import Wordmark from './Wordmark.astro';
-interface Props { nav: readonly { href: string; label: string }[]; path: string }
-const { nav, path } = Astro.props;
 ---
 <header class="masthead">
   <div class="wrap wide bar">
     <a href="/" class="home" aria-label="Unspun home"><Wordmark /></a>
-    <nav aria-label="Main">
-      {nav.map((n) => <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>)}
-    </nav>
+    <p class="tag">The 2026 midterms, minus the spin.</p>
     <button class="theme-toggle" type="button" aria-label="Switch light or dark theme" title="Switch theme">
       <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.5 0-.9-.1-1.4A5.5 5.5 0 0 1 13.4 3.1 9 9 0 0 0 12 3Z"/></svg>
     </button>
   </div>
 </header>
 <style>
-  .masthead { background: var(--navy); color: var(--paper); border-bottom: 4px solid var(--gold); }
+  .masthead { background: var(--navy); color: var(--paper); border-bottom: 1px solid rgba(212, 178, 106, 0.35); }
   .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; padding-top: 12px; padding-bottom: 12px; }
   .home { color: var(--paper); text-decoration: none; }
-  nav { display: flex; flex-wrap: wrap; gap: 0 24px; margin-left: auto; font-size: 0.95rem; font-weight: 500; }
-  nav a { color: var(--paper); text-decoration: none; padding: 12px 0; min-height: 44px; display: inline-flex; align-items: center; }
-  nav a:hover, nav a[aria-current='page'] { color: var(--gold-light); text-decoration: underline; text-underline-offset: 6px; }
-  .theme-toggle { background: none; border: 1px solid rgba(244, 238, 223, 0.35); color: var(--paper); border-radius: 2px; width: 44px; height: 44px; display: grid; place-items: center; cursor: pointer; flex: none; }
+  .tag { margin: 0 0 0 auto; font-family: var(--font-serif); font-style: italic; color: #DCD3BD; }
+  .theme-toggle { margin-left: 12px; background: none; border: 1px solid rgba(244, 238, 223, 0.35); color: var(--paper); border-radius: 2px; width: 44px; height: 44px; display: grid; place-items: center; cursor: pointer; flex: none; }
   .theme-toggle:hover { border-color: var(--gold-light); color: var(--gold-light); }
   @media (max-width: 640px) {
-    nav { display: none; }   /* phones use the bottom tab bar */
+    .tag { display: none; }
     .theme-toggle { margin-left: auto; }
   }
 </style>

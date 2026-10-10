@@ -1,0 +1,180 @@
+---
+/** Follow the money: what candidates raised, and who spent to help or hurt them. FEC data. */
+import Layout from '../../layouts/Layout.astro';
+import Limits from '../../components/Limits.astro';
+import Pending from '../../components/Pending.astro';
+import Source from '../../components/Source.astro';
+import Icon from '../../components/Icon.astro';
+import { db, moneyFor, partyById, raceById } from '../../lib/data';
+import { fec, kindOf, tags, tagsShown, topics, issueMoney, fecCommitteeUrl } from '../../lib/funders';
+import { money, date } from '../../lib/format';
+
+// What candidates raised (their own reports)
+const raisedRows = db.candidates
+  .map((c) => ({ c, m: moneyFor(c.id) }))
+  .filter((x) => x.m.status === 'ok' && (x.m.receipts ?? 0) > 0)
+  .map((x) => ({ c: x.c, raised: (x.m as { receipts: number }).receipts }))
+  .sort((a, b) => b.raised - a.raised);
+const raisedTotal = raisedRows.reduce((s, r) => s + r.raised, 0);
+const topRaised = raisedRows.slice(0, 10);
+
+// Outside spending and PAC gifts (FEC Schedule E and B)
+type Agg = { id: string | null; support: number; oppose: number; races: Set<string> };
+const spenders = new Map<string, Agg>();
+let giftsTotal = 0;
+const cands = new Map(db.candidates.map((c) => [c.id, c]));
+for (const [cid, e] of Object.entries(fec.candidates)) {
+  for (const g of e.given) if (fec.committees[g.id]?.designation !== 'J') giftsTotal += g.total;
+  for (const o of e.outside) {
+    const key = o.id ?? 'none';
+    const a = spenders.get(key) ?? { id: o.id, support: 0, oppose: 0, races: new Set<string>() };
+    a.support += o.support; a.oppose += o.oppose; a.races.add(cands.get(cid)!.race);
+    spenders.set(key, a);
+  }
+}
+const outsideTotal = [...spenders.values()].reduce((s, a) => s + a.support + a.oppose, 0);
+const topSpenders = [...spenders.values()].sort((a, b) => b.support + b.oppose - (a.support + a.oppose)).slice(0, 12);
+const spMax = topSpenders[0].support + topSpenders[0].oppose;
+const groupOf = new Map(tags.groups.flatMap((g) => g.committees.map((c) => [c, g] as const)));
+
+const kindTotals = new Map<string, number>();
+for (const a of spenders.values()) {
+  const k = kindOf(a.id);
+  const label = k.startsWith('Super PAC') ? 'Super PACs' : k.startsWith('Hybrid') ? 'Hybrid PACs' : k.startsWith('Party') ? 'Party committees' : 'Other groups and people';
+  kindTotals.set(label, (kindTotals.get(label) ?? 0) + a.support + a.oppose);
+}
+const kinds = [...kindTotals].sort((a, b) => b[1] - a[1]);
+
+// Money by issue: tagged groups only (shown once the tag list is reviewed)
+const byTopic = topics.map((t) => {
+  const groups = new Map<string, { name: string; amount: number }>();
+  for (const cid of Object.keys(fec.candidates)) {
+    const m = issueMoney(cid, t.id);
+    if (!m) continue;
+    for (const g of [...m.given, ...m.forThem, ...m.against]) {
+      const x = groups.get(g.group.id) ?? { name: g.group.name, amount: 0 };
+      x.amount += g.amount; groups.set(g.group.id, x);
+    }
+  }
+  const list = [...groups.values()].sort((a, b) => b.amount - a.amount);
+  return { ...t, total: list.reduce((s, g) => s + g.amount, 0), top: list.slice(0, 3) };
+}).sort((a, b) => b.total - a.total);
+const topicMax = Math.max(1, ...byTopic.map((t) => t.total));
+const asOf = date(fec.fetched_at.slice(0, 10));
+---
+<Layout title="Money" description="What 2026 candidates raised, and who spent to help or hurt them: super PACs, parties and interest groups, from FEC reports." wide>
+  <div class="eyebrow">Money · Federal Election Commission data</div>
+  <h1>Follow the money</h1>
+
+  <div class="kpis">
+    <div><span class="k">{money(raisedTotal)}</span><span class="kl">raised by the candidates</span></div>
+    <div><span class="k">{money(giftsTotal)}</span><span class="kl">given by PACs to campaigns</span></div>
+    <div><span class="k">{money(outsideTotal)}</span><span class="kl">spent by outside groups</span></div>
+  </div>
+  <p class="small muted">Races we cover. FEC reports as of {asOf}; campaigns report every few months.</p>
+
+  <div class="two">
+    <section class="panel" aria-labelledby="raised-h">
+      <h2 id="raised-h"><Icon name="Wallet" />Raised the most</h2>
+      <ol class="hbars">
+        {topRaised.map((r) => {
+          const p = partyById(r.c.party);
+          return (
+            <li>
+              <a class="lbl" href={`/candidates/${r.c.id}/`}>{r.c.ballot_name}</a>
+              <span class="meta small">{p.abbr} · {raceById(r.c.race).short}</span>
+              <span class="track"><span class={`fill ${p.color}`} style={`width:${(r.raised / topRaised[0].raised) * 100}%`}></span></span>
+              <span class="amt">{money(r.raised)}</span>
+            </li>
+          );
+        })}
+      </ol>
+    </section>
+
+    <section class="panel" aria-labelledby="kind-h">
+      <h2 id="kind-h"><Icon name="Megaphone" />Outside spending, by who spent it</h2>
+      <ol class="hbars">
+        {kinds.map(([k, v]) => (
+          <li>
+            <span class="lbl">{k}</span>
+            <span class="track"><span class="fill neutral" style={`width:${(v / kinds[0][1]) * 100}%`}></span></span>
+            <span class="amt">{money(v)}</span>
+          </li>
+        ))}
+      </ol>
+      <p class="small text-2">Super PACs can raise and spend without limit but can't give to campaigns. A PAC can give a campaign at most $5,000 per election (<Source id={tags.limits_source} label="FEC" />).</p>
+    </section>
+  </div>
+
+  <section class="panel wide-panel" aria-labelledby="spend-h">
+    <h2 id="spend-h"><Icon name="Banknote" />Biggest outside spenders in our races</h2>
+    <p class="legend small"><span class="sw for"></span>Spent to help a candidate <span class="sw against"></span>Spent to hurt one</p>
+    <ol class="hbars spenders">
+      {topSpenders.map((a) => {
+        const c = a.id ? fec.committees[a.id] : null;
+        const g = tagsShown && a.id ? groupOf.get(a.id) : undefined;
+        return (
+          <li>
+            <span class="lbl mono">{a.id ? <a href={fecCommitteeUrl(a.id)} target="_blank" rel="noopener">{c?.name ?? a.id}</a> : 'Spenders without an FEC committee ID'}</span>
+            <span class="meta small">{kindOf(a.id)} · {a.races.size} {a.races.size === 1 ? 'race' : 'races'}{g && <> · <strong>{topics.find((t) => t.id === g.issue)!.name}</strong></>}</span>
+            <span class="track">
+              <span class="fill for" style={`width:${(a.support / spMax) * 100}%`}></span><span class="fill against" style={`width:${(a.oppose / spMax) * 100}%`}></span>
+            </span>
+            <span class="amt">{money(a.support + a.oppose)}</span>
+          </li>
+        );
+      })}
+    </ol>
+  </section>
+
+  <section class="panel wide-panel" aria-labelledby="issue-h">
+    <h2 id="issue-h"><Icon name="Flag" />Money from groups on each issue</h2>
+    {tagsShown ? (
+      <>
+        {tags.status !== 'verified' && <p><Pending /> Waiting for a person to review the list of groups.</p>}
+        <ol class="hbars">
+          {byTopic.filter((t) => t.total > 0).map((t) => (
+            <li>
+              <span class="lbl">{t.name}</span>
+              <span class="meta small">{t.top.map((g) => g.name).join(' · ')}</span>
+              <span class="track"><span class="fill gold" style={`width:${(t.total / topicMax) * 100}%`}></span></span>
+              <span class="amt">{money(t.total)}</span>
+            </li>
+          ))}
+        </ol>
+        <p class="small text-2">Gifts plus outside spending by the groups we tag on each issue. <a href="/show-our-work/#interest-groups">Which groups, and why</a>.</p>
+      </>
+    ) : <p class="text-2">Coming soon: we're reviewing our list of which groups work on which issue.</p>}
+  </section>
+
+  <Limits>Most campaign money comes from individual donors, who aren't grouped here. Outside spending includes only filings the FEC has processed, so the newest ads can take days to appear. Each candidate's page lists every committee that gave or spent.</Limits>
+</Layout>
+<style>
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 8px 0 6px; }
+  .kpis > div { background: var(--navy); color: var(--paper); padding: 16px 18px; border-top: 4px solid var(--gold); }
+  .k { display: block; font-family: var(--font-display); font-size: 2.8rem; line-height: 1; color: var(--gold-light); }
+  .kl { font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 18px; margin-top: 22px; }
+  .panel { background: var(--surface); border: 1px solid var(--border); padding: 18px; min-width: 0; }
+  .wide-panel { margin-top: 18px; }
+  .panel h2 { font-size: 1.5rem; display: flex; align-items: center; gap: 10px; margin-top: 0; }
+  .panel h2 :global(.icon) { width: 24px; height: 24px; color: var(--gold-dark); }
+  .hbars { list-style: none; padding: 0; margin: 12px 0 8px; display: grid; gap: 10px; }
+  .hbars li { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: 'lbl amt' 'meta meta' 'track track'; gap: 2px 12px; }
+  .lbl { grid-area: lbl; font-weight: 600; min-width: 0; overflow-wrap: anywhere; color: var(--text); }
+  .lbl.mono { font-family: var(--font-mono); font-size: 0.8rem; font-weight: 500; }
+  .lbl a { color: inherit; }
+  .meta { grid-area: meta; color: var(--text-2); }
+  .amt { grid-area: amt; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .track { grid-area: track; display: flex; height: 12px; background: var(--paper-3); }
+  .fill { display: block; height: 100%; }
+  .fill.dem { background: var(--dem); } .fill.rep { background: var(--rep); } .fill.other { background: var(--other); }
+  .fill.neutral, .fill.for { background: var(--navy-2); }
+  .fill.against { background: repeating-linear-gradient(135deg, var(--gold-dark) 0 4px, var(--gold) 4px 8px); }
+  .fill.gold { background: var(--gold); }
+  .legend { display: flex; align-items: center; gap: 6px 10px; flex-wrap: wrap; }
+  .sw { display: inline-block; width: 14px; height: 14px; }
+  .sw.for { background: var(--navy-2); } .sw.against { background: repeating-linear-gradient(135deg, var(--gold-dark) 0 4px, var(--gold) 4px 8px); margin-left: 10px; }
+  :global(:root[data-theme='dark']) .fill.neutral, :global(:root[data-theme='dark']) .fill.for, :global(:root[data-theme='dark']) .sw.for { background: #8DA6D6; }
+  @media (prefers-color-scheme: dark) { :global(:root:not([data-theme='light'])) .fill.neutral, :global(:root:not([data-theme='light'])) .fill.for, :global(:root:not([data-theme='light'])) .sw.for { background: #8DA6D6; } }
+</style>

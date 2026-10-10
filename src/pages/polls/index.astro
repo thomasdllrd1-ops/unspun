@@ -1,0 +1,48 @@
+---
+/** Polls: every race's score so far, and the newest checked polls as receipts. */
+import Layout from '../../layouts/Layout.astro';
+import RaceTabs from '../../components/RaceTabs.astro';
+import BoardGrid from '../../components/BoardGrid.astro';
+import PollReceipt from '../../components/home/PollReceipt.astro';
+import Limits from '../../components/Limits.astro';
+import Icon from '../../components/Icon.astro';
+import { db, pollsForRace } from '../../lib/data';
+import { summarize } from '../../lib/summary';
+import { pollDate } from '../../lib/polls';
+
+const today = new Date();
+const summaries = db.races.map((r) => summarize(r, today));
+const close = summaries.filter((s) => s.status === 'close').length;
+const newest = db.races.flatMap((r) => pollsForRace(r.id)).sort((a, b) => pollDate(b).localeCompare(pollDate(a))).slice(0, 6);
+const checked = db.polls.filter((p) => p.status === 'verified').length;
+---
+<Layout title="Polls" description="Every race's polling average as a scoreboard, closest first, plus the newest checked polls with their receipts." wide>
+  <div class="eyebrow">Polls · checked against the original source</div>
+  <h1>The score so far</h1>
+  <RaceTabs current="polls" />
+
+  <div class="kpis">
+    <div><span class="k">{checked}</span><span class="kl">polls checked</span></div>
+    <div><span class="k">{close}</span><span class="kl">races too close to call</span></div>
+    <div><span class="k">{summaries.filter((s) => s.status === 'lead').length}</span><span class="kl">races with a leader</span></div>
+  </div>
+  <p class="lead">A poll average is a score mid-game, not a result.</p>
+
+  <BoardGrid summaries={summaries} />
+
+  <section class="receipts-band" aria-labelledby="rec-h">
+    <h2 id="rec-h"><Icon name="Receipt" />Newest receipts</h2>
+    <div class="receipts">{newest.map((p) => <PollReceipt poll={p} />)}</div>
+  </section>
+
+  <Limits>Only polls we've checked against the pollster's own release count. Polls from campaigns and parties are labeled. <a href="/show-our-work/#average">How the average works</a>.</Limits>
+</Layout>
+<style>
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 8px 0 6px; }
+  .kpis > div { background: var(--navy); color: var(--paper); padding: 14px 16px; border-top: 4px solid var(--gold); }
+  .k { display: block; font-family: var(--font-display); font-size: 2.6rem; line-height: 1; color: var(--gold-light); }
+  .kl { font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .lead { font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-2); }
+  .receipts-band { margin-top: 32px; }
+  .receipts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 18px; margin-top: 12px; }
+</style>

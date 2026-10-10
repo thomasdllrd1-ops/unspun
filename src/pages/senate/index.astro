@@ -5,6 +5,7 @@ import Term from '../../components/Term.astro';
 import Source from '../../components/Source.astro';
 import Limits from '../../components/Limits.astro';
 import BoardGrid from '../../components/BoardGrid.astro';
+import RaceTabs from '../../components/RaceTabs.astro';
 import { summarize } from '../../lib/summary';
 import { db, candidatesInRace, ratingsForRace, pollsForRace, resultsForPoll, majorPair, pendingRecentPolls, lastChecked } from '../../lib/data';
 import { consensus, ratingColor, ratingLabel } from '../../lib/ratings';
@@ -50,6 +51,7 @@ const sourceIds = [...new Set(senate.flatMap((r) => ratingsForRace(r.id).map((x)
 <Layout title="Senate" description="All 35 U.S. Senate races in 2026 on one equal-size map: forecaster ratings, our polling average, and what happens if the polls are wrong." updated={lastChecked([...sourceIds, 'wikipedia-senate-2026'])}>
   <div class="eyebrow">U.S. Senate · Nov 3, 2026</div>
   <h1>35 Senate seats are on the ballot</h1>
+  <RaceTabs current="senate" />
   <p class="headline">That's 33 regular races plus special elections in Florida and Ohio. Tap a state to see its race.</p>
   <SenateOverview client:visible races={races} typicalMiss={db.pollHistory.typical_miss} cycles={db.pollHistory.cycles.map((c) => c.cycle)} />
   <BoardGrid summaries={senate.map((r) => summarize(r))} />

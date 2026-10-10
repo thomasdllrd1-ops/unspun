@@ -1,0 +1,44 @@
+---
+/** Midterms past: the president's party's House seat change in every midterm since 1934. */
+import Layout from '../../layouts/Layout.astro';
+import MidtermsChart from '../../components/home/MidtermsChart.astro';
+import EagleMedallion from '../../components/home/EagleMedallion.astro';
+import data from '../../../data/midterms.json';
+
+const rows = data.midterms;
+const lost = rows.filter((r) => r.house_change < 0);
+const worst = [...rows].sort((a, b) => a.house_change - b.house_change)[0];
+const best = [...rows].sort((a, b) => b.house_change - a.house_change)[0];
+const avg = Math.round(rows.reduce((s, r) => s + r.house_change, 0) / rows.length);
+---
+<Layout title="Midterms past" description="How the president's party has done in the U.S. House in every midterm since 1934, from the American Presidency Project." wide>
+  <div class="top">
+    <div>
+      <div class="eyebrow">History · {rows[0].year}–{rows.at(-1)!.year}</div>
+      <h1>Midterms past</h1>
+    </div>
+    <div class="medal"><EagleMedallion /></div>
+  </div>
+
+  <div class="kpis">
+    <div><span class="k">{lost.length}/{rows.length}</span><span class="kl">midterms with a loss</span></div>
+    <div><span class="k">{avg > 0 ? '+' : ''}{avg}</span><span class="kl">seats, on average</span></div>
+    <div><span class="k">{worst.house_change}</span><span class="kl">worst: {worst.year}, {worst.president}</span></div>
+    <div><span class="k">+{best.house_change}</span><span class="kl">best: {best.year}, {best.president}</span></div>
+  </div>
+
+  <section class="chart">
+    <MidtermsChart />
+  </section>
+  <p class="small text-2">History isn't a forecast. It's one reason forecasters watch the president's approval so closely in a midterm year.</p>
+</Layout>
+<style>
+  .top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; }
+  .lead { font-family: var(--font-serif); font-size: 1.25rem; color: var(--text-2); max-width: 30em; }
+  .medal :global(.medal) { width: 150px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 18px 0; }
+  .kpis > div { background: var(--navy); color: var(--paper); padding: 14px 16px; border-top: 4px solid var(--gold); }
+  .k { display: block; font-family: var(--font-display); font-size: 2.6rem; line-height: 1; color: var(--gold-light); }
+  .kl { font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .chart { background: var(--surface); border: 1px solid var(--border); padding: 18px; }
+</style>

@@ -1,9 +1,12 @@
 ---
-/** "Limits of this data": what this section can't tell you. */
+/** "Limits of this data": what this section can't tell you. Tap to open; always printed open. */
 ---
-<aside class="limits small">
-  <strong>Limits of this data.</strong> <slot />
-</aside>
+<details class="limits small">
+  <summary>Limits of this data</summary>
+  <div class="lbody"><slot /></div>
+</details>
 <style>
-  .limits { border-left: 3px solid var(--border-strong); padding: 4px 0 4px 12px; color: var(--text-2); margin-top: 12px; }
+  .limits { border-left: 3px solid var(--border-strong); padding: 2px 0 2px 12px; color: var(--text-2); margin-top: 12px; }
+  summary { cursor: pointer; font-weight: 700; min-height: 32px; display: flex; align-items: center; color: var(--text); }
+  .lbody { padding-bottom: 4px; }
 </style>
