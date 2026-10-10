@@ -98,27 +98,27 @@
           "heading": "Affordability",
           "quote": "Mary knows that refining more of our oil here in Alaska will lower fuel costs, create good-paying jobs, and help meet the increased need for military readiness in the Arctic, and she will push for targeted tax credits that encourage investment in Alaska refineries.",
           "source": "mary-peltola-site-affordability",
-          "status": "pending",
-          "checked_by": "",
-          "checked_on": ""
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
         },
         {
           "rank": 2,
           "heading": "Fixing the Rigged System",
           "quote": "Mary will fight for 12 year term limits in Congress, giving our representatives deadlines to deliver for Alaska.",
           "source": "mary-peltola-site-fixing-system",
-          "status": "pending",
-          "checked_by": "",
-          "checked_on": ""
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
         },
         {
           "rank": 3,
           "heading": "Fighting for Alaska Fisheries",
           "quote": "Mary will fight to ban factory trawling to protect our Alaska way of life.",
           "source": "mary-peltola-site-fish",
-          "status": "pending",
-          "checked_by": "",
-          "checked_on": ""
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
         }
       ],
       "stances": {
@@ -128,9 +128,9 @@
           "quote": "Mary will push for real wage increases for Alaska workers by creating tax incentives for companies that pay fair wages and holding large corporations accountable for prioritizing multimillion-dollar executive bonuses before worker pay.",
           "said_on": "",
           "source": "mary-peltola-site-affordability",
-          "status": "pending",
-          "checked_by": "",
-          "checked_on": "",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
           "note": ""
         },
         "housing": {
@@ -183,9 +183,9 @@
           "quote": "In the U.S. Senate, she will fight to lower Alaskans’ energy costs by modernizing energy infrastructure, pushing through meaningful permitting reform, and working alongside local communities to ensure the benefits of Alaska resources stay in Alaska.",
           "said_on": "",
           "source": "mary-peltola-site-energy",
-          "status": "pending",
-          "checked_by": "",
-          "checked_on": "",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
           "note": ""
         }
       }
@@ -207,9 +207,9 @@
           "quote": "From passing the biggest tax cut in American history and unleashing Alaska’s energy potential, to making historic investments in our military and national defense and strengthening Alaska’s healthcare system, Dan is running for re-election to continue delivering real results for Alaska.",
           "said_on": "",
           "source": "dan-sullivan-site-home",
-          "status": "pending",
-          "checked_by": "",
-          "checked_on": "",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
           "note": ""
         },
         "housing": {
@@ -251,9 +251,9 @@
           "quote": "With a distinguished record in military and national security service, Dan is a leading voice on foreign policy and a strong national defense advocate.",
           "said_on": "",
           "source": "dan-sullivan-site-meet-dan",
-          "status": "pending",
-          "checked_by": "",
-          "checked_on": "",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
           "note": ""
         },
         "climate-energy": {
@@ -262,9 +262,9 @@
           "quote": "A relentless advocate for an all-of-the-above energy strategy and the good-paying jobs and high environmental standards that support it, Dan led the fight against the Biden Administration’s disastrous war on energy.",
           "said_on": "",
           "source": "dan-sullivan-site-meet-dan",
-          "status": "pending",
-          "checked_by": "",
-          "checked_on": "",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
           "note": ""
         }
       }
