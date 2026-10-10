@@ -8637,5 +8637,117 @@
   "url": "https://marieforcongress.com/about/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "mike-beltran-site-platform",
+  "title": "Platform page",
+  "publisher": "Mike Beltran campaign website",
+  "url": "https://beltranforcongress.com/platform/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "mike-beltran-site-home",
+  "title": "Home page",
+  "publisher": "Mike Beltran campaign website",
+  "url": "https://beltranforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "mike-beltran-site-about",
+  "title": "About page",
+  "publisher": "Mike Beltran campaign website",
+  "url": "https://beltranforcongress.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-lambert-site-issues",
+  "title": "Issues page",
+  "publisher": "Brian Lambert campaign website",
+  "url": "https://www.brianlambertforcongress.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-lambert-site-home",
+  "title": "Home page",
+  "publisher": "Brian Lambert campaign website",
+  "url": "https://www.brianlambertforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-lambert-site-about-brian",
+  "title": "About Brian page",
+  "publisher": "Brian Lambert campaign website",
+  "url": "https://www.brianlambertforcongress.com/about-brian",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-lambert-site-issues-fiscal-responsibility",
+  "title": "Issues: fiscal responsibility page",
+  "publisher": "Brian Lambert campaign website",
+  "url": "https://www.brianlambertforcongress.com/issues/fiscal-responsibility",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-lambert-site-issues-individual-liberty",
+  "title": "Issues: individual liberty page",
+  "publisher": "Brian Lambert campaign website",
+  "url": "https://www.brianlambertforcongress.com/issues/individual-liberty",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-lambert-site-issues-election-integrity",
+  "title": "Issues: election integrity page",
+  "publisher": "Brian Lambert campaign website",
+  "url": "https://www.brianlambertforcongress.com/issues/election-integrity",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-lambert-site-issues-constitutional-government",
+  "title": "Issues: constitutional government page",
+  "publisher": "Brian Lambert campaign website",
+  "url": "https://www.brianlambertforcongress.com/issues/constitutional-government",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-lambert-site-issues-veterans",
+  "title": "Issues: veterans page",
+  "publisher": "Brian Lambert campaign website",
+  "url": "https://www.brianlambertforcongress.com/issues/veterans",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "kathy-castor-site-delivering-for-florida",
+  "title": "Delivering for Florida page",
+  "publisher": "Kathy Castor campaign website",
+  "url": "https://castorforcongress.com/delivering-for-florida/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "kathy-castor-site-home",
+  "title": "Home page",
+  "publisher": "Kathy Castor campaign website",
+  "url": "https://castorforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "kathy-castor-site-about",
+  "title": "About page",
+  "publisher": "Kathy Castor campaign website",
+  "url": "https://castorforcongress.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]

@@ -2273,7 +2273,7 @@
     "sort_name": "Castor",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://castorforcongress.com",
     "fec_id": "H6FL11126",
     "source": "official-fl-2026"
   },
@@ -2284,7 +2284,7 @@
     "sort_name": "Beltran",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://beltranforcongress.com",
     "fec_id": "H6FL14237",
     "source": "official-fl-2026"
   },
@@ -2295,7 +2295,7 @@
     "sort_name": "Lambert",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.brianlambertforcongress.com",
     "fec_id": "H6FL14245",
     "source": "official-fl-2026"
   },
