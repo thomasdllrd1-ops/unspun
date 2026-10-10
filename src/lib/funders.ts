@@ -18,17 +18,22 @@ export type Group = { id: string; name: string; issue: string; kind: string; com
 type Tags = {
   status: 'pending' | 'verified'; method: string; limits: string; limits_source: string;
   kinds: Record<string, string>; groups: Group[]; left_untagged: { name: string; committees: string[]; why: string }[];
+  /** Topics we tag money with that aren't one of our 6 issues (e.g. crypto). Money only: no candidate stances. */
+  extra_topics: Record<string, { name: string; covers: string }>;
 };
 
 const read = (f: string) => JSON.parse(readFileSync(join(process.cwd(), 'data', f), 'utf8'));
 export const fec: { fetched_at: string; candidates: Record<string, Entry>; committees: Record<string, Committee> } = read('money/groups.json');
 export const tags: Tags = read('interest_groups.json');
 export const tagsShown = tags.status === 'verified' || SHOW_PENDING;
+/** Every tag a group can carry: our 6 issues, then the extra money-only topics. */
+export const topics = [...issueList.map((i) => ({ id: i.id, name: i.name })), ...Object.entries(tags.extra_topics).map(([id, t]) => ({ id, name: t.name }))];
+export const topicName = (id: string) => topics.find((t) => t.id === id)!.name;
 
 // Bad tag data stops the build, like everything else in /data.
 const groupOf = new Map<string, Group>();
 for (const g of tags.groups) {
-  if (!issueList.some((i) => i.id === g.issue)) throw new Error(`interest_groups.json: ${g.id} has unknown issue ${g.issue}`);
+  if (!topics.some((t) => t.id === g.issue)) throw new Error(`interest_groups.json: ${g.id} has unknown issue ${g.issue}`);
   if (!(g.kind in tags.kinds)) throw new Error(`interest_groups.json: ${g.id} has unknown kind ${g.kind}`);
   for (const id of g.committees) {
     if (!/^C\d{8}$/.test(id)) throw new Error(`interest_groups.json: ${g.id} has a malformed committee ID ${id}`);
@@ -97,7 +102,7 @@ function byGroup(rows: Row[], issue: string): GroupTotal[] {
   return [...m.values()].sort((a, b) => b.amount - a.amount);
 }
 
-/** Money from the groups we tag on one issue, for one candidate. Null when tags aren't shown or there's no FEC data. */
+/** Money from the groups we tag on one issue (or extra topic), for one candidate. Null when tags aren't shown or there's no FEC data. */
 export function issueMoney(candidateId: string, issue: string) {
   const f = tagsShown ? fundersOf(candidateId) : null;
   if (!f) return null;
@@ -108,5 +113,5 @@ export function issueMoney(candidateId: string, issue: string) {
 export function topGroups(candidateId: string, n = 3): GroupTotal[] {
   const f = tagsShown ? fundersOf(candidateId) : null;
   if (!f) return [];
-  return issueList.flatMap((i) => byGroup([...f.given, ...f.forThem], i.id)).sort((a, b) => b.amount - a.amount).slice(0, n);
+  return topics.flatMap((t) => byGroup([...f.given, ...f.forThem], t.id)).sort((a, b) => b.amount - a.amount).slice(0, n);
 }

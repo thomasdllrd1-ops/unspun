@@ -2,7 +2,7 @@
   "status": "pending",
   "reviewed_by": "",
   "reviewed_on": "",
-  "method": "We tag a group with one of our 6 issues only when that issue is the group's main purpose (an issue group, union, or professional group) or its main business (an industry). Every tagged group is tracked the same way and ranked by dollars. The link between a committee and its company or organization comes from the FEC's own record for the committee (its \"connected organization\"), unless a source is listed. Groups on every side of an issue are tagged the same way, and we don't label which side a group is on.",
+  "method": "We tag a group with one of our 6 issues (or Crypto, which we also track) only when that issue is the group's main purpose (an issue group, union, or professional group) or its main business (an industry). Every tagged group is tracked the same way and ranked by dollars. The link between a committee and its company or organization comes from the FEC's own record for the committee (its \"connected organization\"), unless a source is listed. Groups on every side of an issue are tagged the same way, and we don't label which side a group is on.",
   "limits": "This is our list, and choosing it took judgment. A group that works on several issues gets the one that fits best, or none. Most money in politics isn't from groups at all: it comes from individual donors, who aren't tagged. A PAC can give a campaign at most $5,000 per election; a super PAC can raise and spend without limit but can't give to campaigns.",
   "kinds": {
     "issue-group": "Issue group",
@@ -885,19 +885,49 @@
         "C00432260",
         "C00487470"
       ]
-    }
-  ],
-  "left_untagged": [
+    },
     {
-      "name": "Crypto PACs (Fairshake, Defend American Jobs, Protect Progress, Coinbase)",
+      "id": "fairshake",
+      "name": "Fairshake and its affiliated super PACs (Defend American Jobs, Protect Progress)",
+      "issue": "crypto",
+      "kind": "issue-group",
       "committees": [
         "C00835959",
         "C00836221",
-        "C00848440",
-        "C00804179"
+        "C00848440"
       ],
-      "why": "Their issue is rules for crypto, which isn't one of our 6. Adding a crypto tag would change our issue list."
+      "source": "factcheck-fairshake-2026",
+      "note": "FactCheck.org describes Fairshake as backing candidates who favor the crypto industry, and names the other two as its affiliated super PACs."
     },
+    {
+      "id": "coinbase",
+      "name": "Coinbase (crypto exchange)",
+      "issue": "crypto",
+      "kind": "industry",
+      "committees": [
+        "C00804179"
+      ]
+    },
+    {
+      "id": "circle",
+      "name": "Circle Internet Group (stablecoin company)",
+      "issue": "crypto",
+      "kind": "industry",
+      "committees": [
+        "C00894055"
+      ]
+    },
+    {
+      "id": "blockchain-association",
+      "name": "Blockchain Association (crypto trade group)",
+      "issue": "crypto",
+      "kind": "industry",
+      "committees": [
+        "C00824896"
+      ]
+    }
+  ],
+  "left_untagged": [
     {
       "name": "VoteVets",
       "committees": [
@@ -936,5 +966,11 @@
       "why": "They exist to elect a party or a person, not to push one issue."
     }
   ],
-  "limits_source": "fec-contribution-limits"
+  "limits_source": "fec-contribution-limits",
+  "extra_topics": {
+    "crypto": {
+      "name": "Crypto",
+      "covers": "Rules for cryptocurrency and digital assets. It isn't one of our 6 issues; we track it because crypto groups spend heavily in these races."
+    }
+  }
 }

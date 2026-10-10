@@ -1,7 +1,6 @@
 ---
 /** One committee in a "Who's funding them" list: FEC name (linked to its FEC page), its type, our issue tag if any, dollars. */
-import { fecCommitteeUrl, type Row } from '../lib/funders';
-import { issueById } from '../lib/data';
+import { fecCommitteeUrl, topicName, type Row } from '../lib/funders';
 import { money } from '../lib/format';
 
 interface Props { r: Row }
@@ -10,7 +9,7 @@ const { r } = Astro.props;
 <li class="fl">
   <span class="nm">
     {r.id ? <a href={fecCommitteeUrl(r.id)} target="_blank" rel="noopener">{r.name}</a> : r.name}
-    <span class="kd">{r.kind}{r.group && <> · <strong>Issue: {issueById(r.group.issue).name}</strong></>}</span>
+    <span class="kd">{r.kind}{r.group && <> · <strong>Issue: {topicName(r.group.issue)}</strong></>}</span>
   </span>
   <span class="amt num">{money(r.amount)}</span>
 </li>

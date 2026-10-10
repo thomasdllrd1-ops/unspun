@@ -8869,5 +8869,14 @@
   "url": "https://poindexterforcongress.com/made-in-america/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "factcheck-fairshake-2026",
+  "title": "Fairshake (Players Guide 2026)",
+  "publisher": "FactCheck.org",
+  "url": "https://www.factcheck.org/2026/08/fairshake/",
+  "type": "news",
+  "published": "2026-08-07",
+  "accessed": "2026-10-10"
  }
 ]

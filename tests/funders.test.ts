@@ -14,7 +14,7 @@ describe('interest-group money', () => {
       const tagged = (rows: { id: string | null; amount: number }[]) =>
         rows.filter((r) => r.id && F.tags.groups.some((g) => g.committees.includes(r.id!))).reduce((s, r) => s + cents(r.amount), 0);
       const fromIssues = (k: 'given' | 'forThem' | 'against') =>
-        ['cost-of-living', 'housing', 'health-care', 'immigration', 'foreign-policy', 'climate-energy']
+        F.topics.map((t) => t.id)
           .flatMap((i) => F.issueMoney(cid, i)![k]).reduce((s, g) => s + cents(g.amount), 0);
       expect(fromIssues('given'), cid).toBe(tagged(f.given));
       expect(fromIssues('forThem'), cid).toBe(tagged(f.forThem));

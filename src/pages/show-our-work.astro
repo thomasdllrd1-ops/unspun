@@ -6,8 +6,7 @@ import { date } from '../lib/format';
 import { HALF_LIFE_DAYS, DEFAULT_WINDOW_DAYS, SHORT_WINDOW_DAYS, FALLBACK_SAMPLE } from '../lib/average';
 import Source from '../components/Source.astro';
 import Pending from '../components/Pending.astro';
-import { tags, tagsShown, fecCommitteeUrl } from '../lib/funders';
-import { issueList } from '../lib/data';
+import { tags, tagsShown, fecCommitteeUrl, topics } from '../lib/funders';
 const h = db.pollHistory;
 const signed = (x: number) => `${x > 0 ? '+' : ''}${x.toFixed(1)}`;
 
@@ -124,7 +123,7 @@ const pendingRatings = db.ratings.filter((r) => r.status === 'pending').length;
           <p class="text-2">{tags.method}</p>
           <p class="text-2">{tags.limits}</p>
           {tags.status !== 'verified' && <p><Pending /> This list is waiting for a person to review it, so it's hidden on the public site.</p>}
-          {issueList.map((i) => {
+          {topics.map((i) => {
             const gs = tags.groups.filter((g) => g.issue === i.id);
             return (
               <details>
