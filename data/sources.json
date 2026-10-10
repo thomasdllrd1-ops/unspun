@@ -8309,5 +8309,61 @@
   "url": "https://sarahforiowa.com/issue/serving-our-veterans-like-they-served-us/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "bob-brooks-site-on-the-issues",
+  "title": "On the issues page",
+  "publisher": "Bob Brooks campaign website",
+  "url": "https://www.brooksforcongress.com/on-the-issues/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "bob-brooks-site-home",
+  "title": "Home page",
+  "publisher": "Bob Brooks campaign website",
+  "url": "https://www.brooksforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "bob-brooks-site-meet-bob",
+  "title": "Meet Bob page",
+  "publisher": "Bob Brooks campaign website",
+  "url": "https://www.brooksforcongress.com/meet-bob/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "ryan-mackenzie-site-issues",
+  "title": "Issues page",
+  "publisher": "Ryan Mackenzie campaign website",
+  "url": "https://www.mackenzieforcongress.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "ryan-mackenzie-site-home",
+  "title": "Home page",
+  "publisher": "Ryan Mackenzie campaign website",
+  "url": "https://www.mackenzieforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "ryan-mackenzie-site-about",
+  "title": "About page",
+  "publisher": "Ryan Mackenzie campaign website",
+  "url": "https://www.mackenzieforcongress.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "ryan-mackenzie-site-copy-of-record",
+  "title": "Record page",
+  "publisher": "Ryan Mackenzie campaign website",
+  "url": "https://www.mackenzieforcongress.com/copy-of-record",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]
