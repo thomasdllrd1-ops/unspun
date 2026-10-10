@@ -1,7 +1,7 @@
 {
-  "status": "pending",
-  "reviewed_by": "",
-  "reviewed_on": "",
+  "status": "verified",
+  "reviewed_by": "Thomas",
+  "reviewed_on": "2026-10-10",
   "method": "We tag a group with one of our 6 issues (or Crypto, which we also track) only when that issue is the group's main purpose (an issue group, union, or professional group) or its main business (an industry). Every tagged group is tracked the same way and ranked by dollars. The link between a committee and its company or organization comes from the FEC's own record for the committee (its \"connected organization\"), unless a source is listed. Groups on every side of an issue are tagged the same way, and we don't label which side a group is on.",
   "limits": "This is our list, and choosing it took judgment. A group that works on several issues gets the one that fits best, or none. Most money in politics isn't from groups at all: it comes from individual donors, who aren't tagged. A PAC can give a campaign at most $5,000 per election; a super PAC can raise and spend without limit but can't give to campaigns.",
   "kinds": {
