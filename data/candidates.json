@@ -1996,7 +1996,7 @@
     "sort_name": "Lawrence",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://wewill2026.com",
     "fec_id": "H6MI07298",
     "source": "official-mi-2026"
   },
@@ -2007,7 +2007,7 @@
     "sort_name": "Barrett",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://tombarrettforcongress.com",
     "fec_id": "H2MI07123",
     "source": "official-mi-2026"
   },
