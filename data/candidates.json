@@ -2328,7 +2328,7 @@
     "sort_name": "Miller",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.votemaxmiller.com",
     "fec_id": "H2OH16051",
     "source": "official-oh-2026"
   },
@@ -2339,7 +2339,7 @@
     "sort_name": "Poindexter",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://poindexterforcongress.com",
     "fec_id": "H6OH07168",
     "source": "official-oh-2026"
   }
