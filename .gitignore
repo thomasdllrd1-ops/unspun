@@ -28,3 +28,4 @@ data/raw/
 # node_modules and .research can be symlinks (see ~/unspun-deps), which "dir/" patterns miss
 node_modules
 .research
+data/geo/raw
