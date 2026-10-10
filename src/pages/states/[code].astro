@@ -8,6 +8,7 @@ import Layout from '../../layouts/Layout.astro';
 import Scoreboard from '../../components/Scoreboard.astro';
 import PartyTag from '../../components/PartyTag.astro';
 import TopGroups from '../../components/TopGroups.astro';
+import StateMap from '../../components/maps/StateMap.astro';
 import { summarize } from '../../lib/summary';
 import { db, candidatesInRace, raceResearch, positionsOf } from '../../lib/data';
 import { stateName } from '../../lib/states';
@@ -23,11 +24,13 @@ const races = db.races
 const today = new Date();
 const n = races.length;
 ---
-<Layout title={`${name}: your races`} description={`Every ${name} race Unspun covers in the 2026 midterms, with each candidate's priorities in their own words.`}>
+<Layout title={`${name}: your races`} description={`Every ${name} race Unspun covers in the 2026 midterms, with each candidate's priorities in their own words.`} wide>
   <p class="small"><a href="/">Map</a> › {name}</p>
   <p class="eyebrow">{name} · {n} race{n === 1 ? '' : 's'} we cover</p>
   <h1>{name}</h1>
-  <p class="lead">Every {name} race we track, with each candidate in their own words.</p>
+  <p class="lead">Tap where you live to see your races.</p>
+  <StateMap code={code} />
+  <h2 class="all">Every {name} race we cover</h2>
 
   {races.map((race) => {
     const research = raceResearch(race.id);
@@ -77,6 +80,7 @@ const n = races.length;
 
 <style>
   .lead { font-family: var(--font-serif); font-size: 1.2rem; color: var(--text-2); }
+  .all { margin-top: 40px; }
   .race { margin: 32px 0; }
   .race h2 a { color: inherit; text-decoration: none; }
   .race h2 a:hover { text-decoration: underline; }

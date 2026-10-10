@@ -1,5 +1,5 @@
 // REFERENCE ONLY (from the Oct 2026 design handoff). Not run by the site.
-// The live maps are built from Census files by scripts/build-us-geo.ts and scripts/build-va-localities.ts.
+// The live maps are built from Census files by scripts/build-us-geo.ts and scripts/build-state-maps.ts.
 
 const fs = require('fs');
 const path = require('path');

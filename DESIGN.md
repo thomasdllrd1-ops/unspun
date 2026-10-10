@@ -49,7 +49,7 @@ Never use Inter, Roboto, Arial, or system defaults for visible text.
 4. **EagleMedallion** — navy circle, gold rings, 13 gold stars, gold heraldic eagle (`/images/eagle-gold.svg`). This is an ORIGINAL emblem — never use the real Presidential Seal (restricted by federal law).
 5. **StatStrip** — navy band of big gold Caslon numbers with small caps labels. Every number computed from our data, with its source.
 6. **SenateMap** — U.S. states: navy = a race we cover, gold = Virginia, tan = none. Every state with a race is a link into its state page (`/states/<code>/`).
-7. **VirginiaMap** — 133 counties/cities on navy. Tap one to see its U.S. House district(s) and the Senate race. A plain list of localities sits under it for no-JavaScript and screen-reader use.
+7. **StateMap** — "tap where you live" for every state with a race: its counties (Virginia: 133 counties and cities). Tap one, or type a ZIP, and that spot's races come up as scoreboards: the statewide Senate race plus the U.S. House district if it's one we cover. Covered districts get a gold outline and label. A plain list of counties sits under it for no-JavaScript and screen-reader use. Texas, Florida and Ohio use their new 2026 maps.
 8. **CandidateCard** — gilt oval portrait frame, role label, name, party chip, 3 priorities in their own words, money. Every candidate in the race gets a card — never just "incumbent vs. challenger."
 9. **PollReceipt** — mono "receipt": pollster, who paid, sample, results, margin, lean tag.
 10. **Midterms past** — one sourced chart of the president's party's House seat change in each midterm; the bust graphic is decoration only. No "you decide" framing.

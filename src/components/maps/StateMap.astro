@@ -1,0 +1,200 @@
+---
+/**
+ * "Tap where you live": a state's counties. Tap yours (or type your ZIP) and the races on your
+ * ballot that we cover come up as scoreboards: the statewide Senate race, plus your U.S. House
+ * district if it's one we cover. Same component for every state.
+ * Data: scripts/build-state-maps.ts (Census shapes; official 2026 maps for TX, FL, OH).
+ * Without JavaScript, every county links to its row in the list under the map.
+ */
+import { readFileSync } from 'node:fs';
+import Scoreboard from '../Scoreboard.astro';
+import { db } from '../../lib/data';
+import { summarize } from '../../lib/summary';
+
+interface Props { code: string; onNavy?: boolean }
+const { code, onNavy = false } = Astro.props;
+type County = { fips: string; name: string; d: string; districts: { n: number; share: number }[] };
+const geo = JSON.parse(readFileSync(`data/geo/states/${code.toLowerCase()}.json`, 'utf8')) as {
+  name: string; viewBox: string; counties: County[]; outlines: { n: number; d: string; x: number; y: number }[];
+  lines: { map: string; source: string; sourceName: string } | null; countySource: string;
+};
+const today = new Date();
+const stateRaces = db.races.filter((r) => r.state === code);
+const senate = stateRaces.filter((r) => r.chamber === 'senate');
+const house = new Map(stateRaces.filter((r) => r.chamber === 'house').map((r) => [r.district!, r]));
+const lookup = code === 'VA' ? 'https://www.elections.virginia.gov/VoterInfo' : 'https://vote.gov/';
+const covered = (c: County) => c.districts.filter((d) => house.has(d.n));
+const label = (n: number) => house.get(n)!.short;
+const payload = JSON.stringify({
+  state: code, name: geo.name,
+  raceStates: [...new Set(db.races.map((r) => r.state))],
+  senate: senate.map((r) => r.id),
+  house: Object.fromEntries([...house].map(([n, r]) => [n, r.id])),
+  short: Object.fromEntries([...house].map(([n, r]) => [n, r.short])),
+  counties: Object.fromEntries(geo.counties.map((c) => [c.fips, { name: c.name, d: c.districts.map((x) => [x.n, x.share]) }])),
+});
+---
+<div class:list={['smap', { 'on-navy': onNavy }]} data-smap>
+  <form class="zip" data-zip>
+    <label for={`zip-${code}`}>Type your ZIP</label>
+    <input id={`zip-${code}`} name="zip" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" placeholder="5 digits" required />
+    <button type="submit" class="btn">Show my races</button>
+  </form>
+  <p class="or">or tap where you live</p>
+
+  <div class="layout">
+    <figure class="map">
+      <svg viewBox={geo.viewBox} role="group" aria-label={`Map of ${geo.name}'s ${geo.counties.length} counties. Each one is a link.`}>
+        <g class:list={['counties', senate.length ? 'statewide' : 'no-statewide']}>
+          {geo.counties.map((c) => (
+            <a href={`#c-${c.fips}`} data-fips={c.fips} aria-label={c.name} class:list={[{ hot: covered(c).length > 0 }]}>
+              <path d={c.d}><title>{c.name}</title></path>
+            </a>
+          ))}
+        </g>
+        <g class="outlines" aria-hidden="true">
+          {geo.outlines.map((o) => <path d={o.d} />)}
+        </g>
+        <g class="labels" aria-hidden="true">
+          {geo.outlines.map((o) => <text x={o.x} y={o.y}>{label(o.n)}</text>)}
+        </g>
+      </svg>
+      <figcaption class="legend">
+        {senate.length > 0 && <span><i class="sw sw-sen"></i>Senate race: whole state</span>}
+        {house.size > 0 && <span><i class="sw sw-house"></i>House race we cover</span>}
+        {!senate.length && <span><i class="sw sw-none"></i>No race we cover</span>}
+      </figcaption>
+    </figure>
+
+    <div class="panel" aria-live="polite">
+      <p class="ptitle" data-title>{senate.length ? `On every ${geo.name} ballot` : `Tap where you live`}</p>
+      <p class="pnote small" data-note>{house.size ? `Tap your county to see if your U.S. House race is one we cover too.` : senate.length ? '' : `We cover ${[...house.values()].map((r) => r.short).join(' and ')} here.`}</p>
+      <div class="cards">
+        {senate.map((r) => <div data-race={r.id}><Scoreboard s={summarize(r, today)} /></div>)}
+        {[...house.values()].map((r) => <div data-race={r.id} hidden><Scoreboard s={summarize(r, today)} /></div>)}
+      </div>
+      <p class="small more"><a href={`/states/${code.toLowerCase()}/`}>Everything on {geo.name}'s ballot that we cover</a></p>
+    </div>
+  </div>
+
+  <details class="list">
+    <summary>Find your county in a list</summary>
+    <ul>
+      {geo.counties.map((c) => {
+        const cv = covered(c);
+        return (
+          <li id={`c-${c.fips}`}>
+            <strong>{c.name}</strong>:{' '}
+            {senate.map((r) => <a href={`/races/${r.id}/`}>U.S. Senate</a>)}
+            {cv.map((x) => <>{senate.length || cv.indexOf(x) > 0 ? ' · ' : ''}<a href={`/races/${house.get(x.n)!.id}/`}>{label(x.n)}</a>{x.share < 0.995 && ` (part of the county)`}</>)}
+            {!senate.length && !cv.length && <span class="muted">no race we cover</span>}
+          </li>
+        );
+      })}
+    </ul>
+  </details>
+  <p class="limits small">
+    Limits of this data: some counties and ZIPs are split between districts. If yours is, check your exact address with {code === 'VA' ? <a href={lookup} rel="noopener">Virginia's voter lookup</a> : <>your state's voter lookup (<a href={lookup} rel="noopener">vote.gov</a> links to every state's)</>}.
+    Shapes: U.S. Census Bureau. District lines: {geo.lines ? <a href={geo.lines.source} rel="noopener">{geo.lines.sourceName}</a> : 'not needed (no House race we cover here)'}.
+    {geo.lines?.map === '2026' && ` ${geo.name} adopted a new congressional map for 2026, so we use the state's official plan.`}
+  </p>
+  <script type="application/json" data-sdata set:html={payload} />
+</div>
+
+<script>
+  import { STATE_NAMES as NAMES } from '../../lib/states';
+  type Data = { state: string; name: string; raceStates: string[]; senate: string[]; house: Record<string, string>; short: Record<string, string>; counties: Record<string, { name: string; d: [number, number][] }> };
+  let zipIndex: Promise<Record<string, string>> | null = null;
+  for (const root of document.querySelectorAll<HTMLElement>('[data-smap]')) {
+    const data = JSON.parse(root.querySelector('[data-sdata]')!.textContent!) as Data;
+    const title = root.querySelector<HTMLElement>('[data-title]')!;
+    const note = root.querySelector<HTMLElement>('[data-note]')!;
+    const cards = [...root.querySelectorAll<HTMLElement>('[data-race]')];
+    /** Show the Senate race (always) plus the given House districts we cover. */
+    const show = (heading: string, districts: [number, number][], extra = '') => {
+      const ids = new Set([...data.senate, ...districts.filter(([n]) => data.house[n]).map(([n]) => data.house[n])]);
+      for (const c of cards) c.hidden = !ids.has(c.dataset.race!);
+      const hit = districts.filter(([n]) => data.house[n]);
+      const split = hit.some(([, s]) => s < 0.995);
+      title.textContent = heading;
+      note.textContent = extra || (hit.length
+        ? split ? `Part of this area is in ${hit.map(([n]) => data.short[n]).join(' and ')}. Not sure which part you're in? Check your address with your state's voter lookup.` : ''
+        : Object.keys(data.house).length ? `Your U.S. House race here isn't one we cover.` : '');
+      if (!ids.size) note.textContent = `We don't cover a race here.${note.textContent ? ' ' + note.textContent : ''}`;
+      if (matchMedia('(max-width: 640px)').matches) title.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+    root.querySelectorAll<HTMLAnchorElement>('a[data-fips]').forEach((a) =>
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        root.querySelectorAll('a[data-fips].on').forEach((x) => x.classList.remove('on'));
+        a.classList.add('on');
+        const c = data.counties[a.dataset.fips!];
+        show(`${c.name}: your races`, c.d);
+      }),
+    );
+    root.querySelector<HTMLFormElement>('[data-zip]')!.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const zip = (new FormData(e.currentTarget as HTMLFormElement).get('zip') as string).trim();
+      zipIndex ??= fetch('/geo/zip-races.json').then((r) => r.json());
+      const entry = (await zipIndex)[zip];
+      if (!entry) { title.textContent = `We couldn't find ZIP ${zip}`; note.textContent = 'Check the number, or tap where you live instead.'; return; }
+      const parts = entry.split(' ').map((p) => { const m = p.match(/^([A-Z]{2})(\d*)(?::([\d.]+))?$/)!; return { st: m[1], n: Number(m[2] || 0), share: m[3] ? Number(m[3]) : 1 }; });
+      const here = parts.filter((p) => p.st === data.state);
+      if (!here.length) {
+        const st = parts[0].st;
+        title.textContent = `ZIP ${zip} is in ${NAMES[st] ?? st}`;
+        note.innerHTML = data.raceStates.includes(st) ? `<a href="/states/${st.toLowerCase()}/">See the races we cover in ${NAMES[st] ?? st}</a>` : `We don't cover a race in ${NAMES[st] ?? st} this year.`;
+        for (const c of cards) c.hidden = true;
+        return;
+      }
+      root.querySelectorAll('a[data-fips].on').forEach((x) => x.classList.remove('on'));
+      show(`ZIP ${zip}: your races`, here.filter((p) => p.n).map((p) => [p.n, p.share] as [number, number]),
+        here.length < parts.length ? `Part of this ZIP is in another state.` : '');
+    });
+  }
+</script>
+
+<style>
+  .smap {
+    --s-sen: var(--navy-2); --s-none: #D9CFB4; --s-line: var(--paper); --s-hover: var(--gold); --s-on: var(--gold-light);
+    --s-out: var(--gold); --s-label: var(--navy); --s-halo: var(--paper);
+  }
+  :global(.on-navy) .smap, .smap.on-navy { --s-line: var(--navy); --s-none: #3A4C70; --s-label: var(--paper); --s-halo: var(--navy); }
+  :global(:root[data-theme='dark']) .smap { --s-sen: #4E6491; --s-none: #2B3B5E; --s-line: var(--navy); --s-label: var(--paper); --s-halo: var(--navy); --s-out: var(--gold-light); }
+  @media (prefers-color-scheme: dark) { :global(:root:not([data-theme='light'])) .smap { --s-sen: #4E6491; --s-none: #2B3B5E; --s-line: var(--navy); --s-label: var(--paper); --s-halo: var(--navy); --s-out: var(--gold-light); } }
+  .zip { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+  .zip label { font-weight: 600; }
+  .zip input { font: inherit; font-family: var(--font-mono); font-size: 1.05rem; width: 8.5em; min-height: 44px; padding: 0 10px; border: 1.5px solid var(--gold); background: var(--paper-2); color: var(--ink); border-radius: 2px; }
+  .or { margin: 10px 0 0; font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.8; }
+  .layout { display: grid; gap: 16px; margin-top: 10px; }
+  @media (min-width: 960px) { .layout { grid-template-columns: minmax(0, 1.4fr) minmax(340px, 1fr); align-items: start; gap: 28px; } }
+  .map { margin: 0; }
+  svg { display: block; width: 100%; height: auto; max-height: 72vh; }
+  .counties path { stroke: var(--s-line); stroke-width: 0.6; cursor: pointer; transition: fill 0.12s; }
+  .statewide path { fill: var(--s-sen); }
+  .no-statewide path { fill: var(--s-none); }
+  .no-statewide .hot path { fill: var(--s-sen); }
+  .counties a:hover path, .counties a:focus-visible path { fill: var(--s-hover); }
+  .counties a.on path { fill: var(--s-on); }
+  .counties a:focus-visible { outline: none; }
+  .outlines path { fill: none; stroke: var(--s-out); stroke-width: 3; stroke-linejoin: round; pointer-events: none; }
+  .labels text { font-family: var(--font-mono); font-size: 26px; font-weight: 500; fill: var(--s-label); stroke: var(--s-halo); stroke-width: 6px; paint-order: stroke; text-anchor: middle; dominant-baseline: middle; pointer-events: none; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 8px; font-size: 0.85rem; }
+  .sw { display: inline-block; width: 14px; height: 14px; margin-right: 6px; vertical-align: -2px; border: 1px solid var(--rule); }
+  .sw-sen { background: var(--s-sen); }
+  .sw-none { background: var(--s-none); }
+  .sw-house { background: transparent; border: 3px solid var(--s-out); }
+  .panel { padding: 16px; border: 1px solid var(--gold); background: var(--surface); }
+  .on-navy .panel { background: transparent; }
+  .ptitle { margin: 0; font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; color: var(--heading); }
+  .pnote { margin: 4px 0 0; }
+  .pnote:empty { display: none; }
+  .cards { display: grid; gap: 12px; margin-top: 12px; }
+  .more { margin: 12px 0 0; }
+  .list { margin-top: 14px; }
+  .list summary { cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; }
+  .list ul { columns: 2 240px; padding-left: 18px; font-size: 0.9rem; }
+  .list li { break-inside: avoid; margin: 2px 0; }
+  .list li:target { background: var(--gold-light); color: var(--navy); }
+  .limits { margin-top: 10px; opacity: 0.85; }
+</style>

@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import EagleMedallion from '../components/home/EagleMedallion.astro';
 import StatStrip from '../components/home/StatStrip.astro';
 import USMap from '../components/maps/USMap.astro';
-import VirginiaMap from '../components/maps/VirginiaMap.astro';
+import StateMap from '../components/maps/StateMap.astro';
 import Scoreboard from '../components/Scoreboard.astro';
 import CandidateCard from '../components/home/CandidateCard.astro';
 import IssuePicker from '../components/home/IssuePicker.astro';
@@ -64,7 +64,7 @@ const researched = db.positions.map((p) => db.races.find((r) => r.id === p.race)
     <div class="band-in">
       <h2>Virginia: find your district</h2>
       <p>One Senate seat and all 11 House seats are on your ballot.</p>
-      <VirginiaMap />
+      <StateMap code="VA" onNavy />
     </div>
   </section>
 

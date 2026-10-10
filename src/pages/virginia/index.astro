@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import VaMap, { type DistrictInfo } from '../../islands/VaMap';
-import VirginiaMap from '../../components/maps/VirginiaMap.astro';
+import StateMap from '../../components/maps/StateMap.astro';
 import Term from '../../components/Term.astro';
 import Source from '../../components/Source.astro';
 import SourceList from '../../components/SourceList.astro';
@@ -73,7 +73,7 @@ const sourceIds = ['census-cd119-2025', 'va-elec-candidates-2026', 'clerk-2024-s
 
   <section class="card find" aria-labelledby="find-h">
     <h2 id="find-h">Find your district</h2>
-    <VirginiaMap />
+    <StateMap code="VA" />
   </section>
 
   <div class="stack">
