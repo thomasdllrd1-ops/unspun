@@ -1,0 +1,35 @@
+---
+/**
+ * "Who's paying on this issue": money from the groups we tag on one issue, for one candidate.
+ * Shown under the candidate's own words on that issue. Renders nothing until the tag list is reviewed.
+ */
+import Pending from './Pending.astro';
+import { issueMoney, tags, type GroupTotal } from '../lib/funders';
+import { money } from '../lib/format';
+
+interface Props { candidateId: string; issue: string }
+const { candidateId, issue } = Astro.props;
+const m = issueMoney(candidateId, issue);
+const parts = m ? [
+  { label: 'Gave to the campaign', rows: m.given },
+  { label: 'Spent for them', rows: m.forThem },
+  { label: 'Spent against them', rows: m.against },
+].filter((p) => p.rows.length) : [];
+const total = (rows: GroupTotal[]) => rows.reduce((s, r) => s + r.amount, 0);
+---
+{m && (
+  <div class="im">
+    <p class="ih">Money from groups on this issue{tags.status !== 'verified' && <> <Pending /></>}</p>
+    {parts.length ? parts.map((p) => (
+      <p class="small"><strong>{p.label}: {money(total(p.rows))}</strong>{' '}
+        <span class="text-2">{p.rows.slice(0, 3).map((g) => `${g.group.name} ${money(g.amount)}`).join(' · ')}{p.rows.length > 3 && ` · ${p.rows.length - 3} more`}</span>
+      </p>
+    )) : <p class="small text-2">None of the groups we tag on this issue gave to or spent on this candidate.</p>}
+    <p class="small"><a href={`/candidates/${candidateId}/#fund-h`}>Everyone funding them</a></p>
+  </div>
+)}
+<style>
+  .im { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--border-strong); }
+  .im p { margin: 4px 0; }
+  .ih { font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--eyebrow); }
+</style>

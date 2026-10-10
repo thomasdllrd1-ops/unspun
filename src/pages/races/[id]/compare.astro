@@ -3,6 +3,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import PartyTag from '../../../components/PartyTag.astro';
 import StanceCard from '../../../components/StanceCard.astro';
+import IssueMoney from '../../../components/IssueMoney.astro';
 import Icon from '../../../components/Icon.astro';
 import Limits from '../../../components/Limits.astro';
 import SourceList from '../../../components/SourceList.astro';
@@ -39,6 +40,7 @@ const sourceIds = [...new Set(candidates.flatMap((c) => positionsOf(research, c.
               <div class="col">
                 <div class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a> <PartyTag party={c.party} /></div>
                 <StanceCard stance={cp.stances[i.id]} lookedAt={cp.looked_at} />
+                <IssueMoney candidateId={c.id} issue={i.id} />
               </div>
             );
           })}

@@ -10,6 +10,8 @@ import Icon from '../../components/Icon.astro';
 import EvidenceTag from '../../components/EvidenceTag.astro';
 import StanceCard from '../../components/StanceCard.astro';
 import Pending from '../../components/Pending.astro';
+import Funders from '../../components/Funders.astro';
+import { stateName } from '../../lib/states';
 import { db, raceById, moneyFor, lastChecked, candidatesInRace, raceResearch, issueList } from '../../lib/data';
 import { money, date } from '../../lib/format';
 
@@ -26,7 +28,7 @@ const found = cp ? issueList.filter((i) => cp.stances[i.id].evidence !== 'no-pos
 const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-registering-candidate' : null, ...(cp?.looked_at ?? [])];
 ---
 <Layout title={c.ballot_name} description={`${c.ballot_name}, candidate for ${race.name}: money raised and where they stand, with sources.`} updated={lastChecked(sourceIds)}>
-  <nav class="small muted" aria-label="Breadcrumb"><a href="/virginia/">Virginia</a> › <a href={`/races/${race.id}/`}>{race.short}</a></nav>
+  <nav class="small muted" aria-label="Breadcrumb"><a href={`/states/${race.state.toLowerCase()}/`}>{stateName(race.state)}</a> › <a href={`/races/${race.id}/`}>{race.short}</a></nav>
   <div class="eyebrow" style="margin-top:8px">{race.name}</div>
   <h1>{c.ballot_name}</h1>
   <p class="row"><PartyTag party={c.party} />{c.incumbent && <span class="chip"><Term id="incumbent">Incumbent</Term></span>}</p>
@@ -95,8 +97,9 @@ const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-reg
         </dl>
       ) : <p class="text-2">{m.note} {m.status === 'not-registered' && <Source id="fec-registering-candidate" label="FEC rule" />}</p>}
       {m.status === 'ok' && <p class="small muted">Reports cover {m.coverage_start ? `${date(m.coverage_start)} – ` : 'through '}{date(m.coverage_end)}. <a href={m.fec_url} target="_blank" rel="noopener">See it on fec.gov ↗</a></p>}
-      <Limits>Coming soon: small vs. large donors, in-state vs. out-of-state, top PAC givers, and outside spending for and against. The same breakdown for every candidate.</Limits>
     </section>
+
+    <Funders candidateId={c.id} />
 
     {others.length > 0 && (
       <section class="card">

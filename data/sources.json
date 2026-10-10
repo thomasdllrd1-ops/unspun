@@ -7684,5 +7684,22 @@
   "url": "https://www.byrdforsenate.com/",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "fec-contribution-limits",
+  "title": "Contribution limits for 2025–2026 federal elections",
+  "publisher": "Federal Election Commission",
+  "url": "https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/",
+  "type": "official",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "factcheck-udp-2026",
+  "title": "United Democracy Project (Players Guide 2026)",
+  "publisher": "FactCheck.org",
+  "url": "https://www.factcheck.org/2026/08/united-democracy-project-3/",
+  "type": "news",
+  "published": "2026-08-07",
+  "accessed": "2026-10-09"
  }
 ]

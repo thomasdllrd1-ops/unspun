@@ -5,6 +5,9 @@ import { db } from '../lib/data';
 import { date } from '../lib/format';
 import { HALF_LIFE_DAYS, DEFAULT_WINDOW_DAYS, SHORT_WINDOW_DAYS, FALLBACK_SAMPLE } from '../lib/average';
 import Source from '../components/Source.astro';
+import Pending from '../components/Pending.astro';
+import { tags, tagsShown, fecCommitteeUrl } from '../lib/funders';
+import { issueList } from '../lib/data';
 const h = db.pollHistory;
 const signed = (x: number) => `${x > 0 ? '+' : ''}${x.toFixed(1)}`;
 
@@ -111,6 +114,37 @@ const pendingRatings = db.ratings.filter((r) => r.status === 'pending').length;
     <section class="card">
       <h2>Money</h2>
       <p class="text-2">Fundraising comes straight from the Federal Election Commission's official data. We show totals for the full 2026 cycle. Candidates who haven't filed a report are listed in words, not shown as $0. Campaigns report every few months, so there's always a lag.</p>
+    </section>
+
+    <section class="card" id="interest-groups">
+      <h2>Interest groups: who's paying</h2>
+      <p class="text-2">Each candidate page lists every committee that gave to the campaign, and every outside group that spent for or against the candidate, ranked by dollars. These come from the FEC's records: what each committee reported giving (6 years for senators, 2025–2026 for House candidates) and what outside groups reported spending in 2025–2026.</p>
+      {tagsShown ? (
+        <>
+          <p class="text-2">{tags.method}</p>
+          <p class="text-2">{tags.limits}</p>
+          {tags.status !== 'verified' && <p><Pending /> This list is waiting for a person to review it, so it's hidden on the public site.</p>}
+          {issueList.map((i) => {
+            const gs = tags.groups.filter((g) => g.issue === i.id);
+            return (
+              <details>
+                <summary>{i.name}: {gs.length} {gs.length === 1 ? 'group' : 'groups'}</summary>
+                {gs.length ? (
+                  <ul class="small">
+                    {gs.map((g) => (
+                      <li><strong>{g.name}</strong> ({tags.kinds[g.kind]}). FEC committees: {g.committees.map((id, n) => <>{n > 0 && ', '}<a href={fecCommitteeUrl(id)} target="_blank" rel="noopener">{id}</a></>)}{g.source && <>. <Source id={g.source} /></>}{g.note && <>. {g.note}</>}</li>
+                    ))}
+                  </ul>
+                ) : <p class="small text-2">We found no PAC that mainly works on this issue among the committees funding our candidates.</p>}
+              </details>
+            );
+          })}
+          <details>
+            <summary>Big spenders we left untagged, and why</summary>
+            <ul class="small">{tags.left_untagged.map((u) => <li><strong>{u.name}</strong>: {u.why}</li>)}</ul>
+          </details>
+        </>
+      ) : <p class="text-2">Untagged for now: we're still reviewing our list of which groups work on which of our 6 issues.</p>}
     </section>
 
     <section class="card">

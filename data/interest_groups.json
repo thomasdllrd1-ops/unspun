@@ -1,0 +1,940 @@
+{
+  "status": "pending",
+  "reviewed_by": "",
+  "reviewed_on": "",
+  "method": "We tag a group with one of our 6 issues only when that issue is the group's main purpose (an issue group, union, or professional group) or its main business (an industry). Every tagged group is tracked the same way and ranked by dollars. The link between a committee and its company or organization comes from the FEC's own record for the committee (its \"connected organization\"), unless a source is listed. Groups on every side of an issue are tagged the same way, and we don't label which side a group is on.",
+  "limits": "This is our list, and choosing it took judgment. A group that works on several issues gets the one that fits best, or none. Most money in politics isn't from groups at all: it comes from individual donors, who aren't tagged. A PAC can give a campaign at most $5,000 per election; a super PAC can raise and spend without limit but can't give to campaigns.",
+  "kinds": {
+    "issue-group": "Issue group",
+    "industry": "Industry",
+    "union": "Labor union",
+    "business-group": "Business group",
+    "professional": "Professional group"
+  },
+  "groups": [
+    {
+      "id": "aipac",
+      "name": "AIPAC (American Israel Public Affairs Committee)",
+      "issue": "foreign-policy",
+      "kind": "issue-group",
+      "committees": [
+        "C00797670",
+        "C00799031"
+      ],
+      "source": "factcheck-udp-2026",
+      "note": "Includes United Democracy Project, which FactCheck.org describes as AIPAC's super PAC."
+    },
+    {
+      "id": "j-street",
+      "name": "J Street",
+      "issue": "foreign-policy",
+      "kind": "issue-group",
+      "committees": [
+        "C00441949"
+      ]
+    },
+    {
+      "id": "norpac",
+      "name": "NORPAC",
+      "issue": "foreign-policy",
+      "kind": "issue-group",
+      "committees": [
+        "C00247403"
+      ]
+    },
+    {
+      "id": "usi-pac",
+      "name": "U.S. Israel PAC",
+      "issue": "foreign-policy",
+      "kind": "issue-group",
+      "committees": [
+        "C00127811"
+      ]
+    },
+    {
+      "id": "citizens-against-aipac",
+      "name": "Citizens Against AIPAC Corruption",
+      "issue": "foreign-policy",
+      "kind": "issue-group",
+      "committees": [
+        "C00879080"
+      ]
+    },
+    {
+      "id": "lockheed-martin",
+      "name": "Lockheed Martin",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00303024"
+      ]
+    },
+    {
+      "id": "rtx",
+      "name": "RTX (Raytheon)",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00097568"
+      ]
+    },
+    {
+      "id": "northrop-grumman",
+      "name": "Northrop Grumman",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00088591"
+      ]
+    },
+    {
+      "id": "general-dynamics",
+      "name": "General Dynamics",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00078451"
+      ]
+    },
+    {
+      "id": "boeing",
+      "name": "Boeing",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00142711"
+      ]
+    },
+    {
+      "id": "l3harris",
+      "name": "L3Harris",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00100321"
+      ]
+    },
+    {
+      "id": "huntington-ingalls",
+      "name": "Huntington Ingalls (shipbuilder)",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00325092"
+      ]
+    },
+    {
+      "id": "bae-systems",
+      "name": "BAE Systems",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00281212"
+      ]
+    },
+    {
+      "id": "leidos",
+      "name": "Leidos",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00546234"
+      ]
+    },
+    {
+      "id": "anduril",
+      "name": "Anduril",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00763623"
+      ]
+    },
+    {
+      "id": "palantir",
+      "name": "Palantir",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00498691"
+      ]
+    },
+    {
+      "id": "shield-ai",
+      "name": "Shield AI",
+      "issue": "foreign-policy",
+      "kind": "industry",
+      "committees": [
+        "C00782532"
+      ]
+    },
+    {
+      "id": "lcv",
+      "name": "League of Conservation Voters",
+      "issue": "climate-energy",
+      "kind": "issue-group",
+      "committees": [
+        "C00252940",
+        "C00486845"
+      ]
+    },
+    {
+      "id": "edf",
+      "name": "Environmental Defense Fund",
+      "issue": "climate-energy",
+      "kind": "issue-group",
+      "committees": [
+        "C00707844"
+      ]
+    },
+    {
+      "id": "sierra-club",
+      "name": "Sierra Club",
+      "issue": "climate-energy",
+      "kind": "issue-group",
+      "committees": [
+        "C00483693",
+        "C00135368"
+      ]
+    },
+    {
+      "id": "environment-america",
+      "name": "Environment America",
+      "issue": "climate-energy",
+      "kind": "issue-group",
+      "committees": [
+        "C00442020"
+      ]
+    },
+    {
+      "id": "clearpath",
+      "name": "ClearPath Action Fund",
+      "issue": "climate-energy",
+      "kind": "issue-group",
+      "committees": [
+        "C00608943"
+      ]
+    },
+    {
+      "id": "american-conservation-coalition",
+      "name": "American Conservation Coalition",
+      "issue": "climate-energy",
+      "kind": "issue-group",
+      "committees": [
+        "C00877233"
+      ]
+    },
+    {
+      "id": "chevron",
+      "name": "Chevron",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00035006"
+      ]
+    },
+    {
+      "id": "exxonmobil",
+      "name": "ExxonMobil",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00121368"
+      ]
+    },
+    {
+      "id": "marathon-petroleum",
+      "name": "Marathon Petroleum",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00496307"
+      ]
+    },
+    {
+      "id": "valero",
+      "name": "Valero Energy",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00109546"
+      ]
+    },
+    {
+      "id": "conocophillips",
+      "name": "ConocoPhillips",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00112896"
+      ]
+    },
+    {
+      "id": "occidental",
+      "name": "Occidental Petroleum",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00083857"
+      ]
+    },
+    {
+      "id": "api",
+      "name": "American Petroleum Institute",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00483677"
+      ]
+    },
+    {
+      "id": "ipaa",
+      "name": "Independent Petroleum Association of America",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00246306"
+      ]
+    },
+    {
+      "id": "nd-petroleum-council",
+      "name": "North Dakota Petroleum Council",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00746529"
+      ]
+    },
+    {
+      "id": "ingaa",
+      "name": "Interstate Natural Gas Association of America",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00116145"
+      ]
+    },
+    {
+      "id": "national-mining-association",
+      "name": "National Mining Association",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00109819",
+        "C00304634"
+      ]
+    },
+    {
+      "id": "alliance-coal",
+      "name": "Alliance Coal",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00330233"
+      ]
+    },
+    {
+      "id": "duke-energy",
+      "name": "Duke Energy",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00083535"
+      ]
+    },
+    {
+      "id": "nextera",
+      "name": "NextEra Energy",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00064774"
+      ]
+    },
+    {
+      "id": "southern-company",
+      "name": "Southern Company",
+      "issue": "climate-energy",
+      "kind": "industry",
+      "committees": [
+        "C00144774",
+        "C00145037"
+      ]
+    },
+    {
+      "id": "national-nurses-united",
+      "name": "National Nurses United",
+      "issue": "health-care",
+      "kind": "union",
+      "committees": [
+        "C00490375",
+        "C00446237"
+      ]
+    },
+    {
+      "id": "1199seiu",
+      "name": "1199SEIU (health care workers)",
+      "issue": "health-care",
+      "kind": "union",
+      "committees": [
+        "C00348540"
+      ]
+    },
+    {
+      "id": "american-nurses-association",
+      "name": "American Nurses Association",
+      "issue": "health-care",
+      "kind": "professional",
+      "committees": [
+        "C00017525"
+      ]
+    },
+    {
+      "id": "ama",
+      "name": "American Medical Association",
+      "issue": "health-care",
+      "kind": "professional",
+      "committees": [
+        "C00000422"
+      ]
+    },
+    {
+      "id": "apha",
+      "name": "American Pharmacists Association",
+      "issue": "health-care",
+      "kind": "professional",
+      "committees": [
+        "C00193854"
+      ]
+    },
+    {
+      "id": "ashp",
+      "name": "American Society of Health-System Pharmacists",
+      "issue": "health-care",
+      "kind": "professional",
+      "committees": [
+        "C00245530"
+      ]
+    },
+    {
+      "id": "ncpa",
+      "name": "National Community Pharmacists Association",
+      "issue": "health-care",
+      "kind": "professional",
+      "committees": [
+        "C00030809"
+      ]
+    },
+    {
+      "id": "american-hospital-association",
+      "name": "American Hospital Association",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00106146",
+        "C00806117"
+      ]
+    },
+    {
+      "id": "phrma",
+      "name": "PhRMA (drug makers' trade group)",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00021972"
+      ]
+    },
+    {
+      "id": "pfizer",
+      "name": "Pfizer",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00016683"
+      ]
+    },
+    {
+      "id": "abbvie",
+      "name": "AbbVie",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00536573"
+      ]
+    },
+    {
+      "id": "amgen",
+      "name": "Amgen",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00251876"
+      ]
+    },
+    {
+      "id": "eli-lilly",
+      "name": "Eli Lilly",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00082792"
+      ]
+    },
+    {
+      "id": "merck",
+      "name": "Merck",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00097485"
+      ]
+    },
+    {
+      "id": "johnson-johnson",
+      "name": "Johnson & Johnson",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00010983"
+      ]
+    },
+    {
+      "id": "bristol-myers-squibb",
+      "name": "Bristol Myers Squibb",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00035675"
+      ]
+    },
+    {
+      "id": "vertex",
+      "name": "Vertex Pharmaceuticals",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00468660"
+      ]
+    },
+    {
+      "id": "takeda",
+      "name": "Takeda Pharmaceuticals",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00441733"
+      ]
+    },
+    {
+      "id": "jazz",
+      "name": "Jazz Pharmaceuticals",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00721811"
+      ]
+    },
+    {
+      "id": "teva",
+      "name": "Teva Pharmaceuticals",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00434811"
+      ]
+    },
+    {
+      "id": "alnylam",
+      "name": "Alnylam Pharmaceuticals",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00670331"
+      ]
+    },
+    {
+      "id": "regeneron",
+      "name": "Regeneron Pharmaceuticals",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00562264"
+      ]
+    },
+    {
+      "id": "biomarin",
+      "name": "BioMarin Pharmaceutical",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00543371"
+      ]
+    },
+    {
+      "id": "otsuka",
+      "name": "Otsuka America Pharmaceutical",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00553834"
+      ]
+    },
+    {
+      "id": "alexion",
+      "name": "Alexion Pharmaceuticals",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00471169"
+      ]
+    },
+    {
+      "id": "compounding-pharmacies",
+      "name": "Alliance for Pharmacy Compounding",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00424143"
+      ]
+    },
+    {
+      "id": "senior-care-pharmacy",
+      "name": "Senior Care Pharmacy Coalition",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00615203"
+      ]
+    },
+    {
+      "id": "guardian-pharmacy",
+      "name": "Guardian Pharmacy Services",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00899591"
+      ]
+    },
+    {
+      "id": "pcma",
+      "name": "Pharmaceutical Care Management Association (drug-benefit managers)",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00388819"
+      ]
+    },
+    {
+      "id": "elevance",
+      "name": "Elevance Health (insurer)",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00197228"
+      ]
+    },
+    {
+      "id": "unitedhealth",
+      "name": "UnitedHealth Group (insurer)",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00274431"
+      ]
+    },
+    {
+      "id": "cigna",
+      "name": "Cigna (insurer)",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00085316"
+      ]
+    },
+    {
+      "id": "humana",
+      "name": "Humana (insurer)",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00271007"
+      ]
+    },
+    {
+      "id": "blue-cross",
+      "name": "Blue Cross Blue Shield (insurers)",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00194746",
+        "C00276311",
+        "C00084061",
+        "C00450056"
+      ]
+    },
+    {
+      "id": "ahip",
+      "name": "America's Health Insurance Plans (insurers' trade group)",
+      "issue": "health-care",
+      "kind": "industry",
+      "committees": [
+        "C00106740"
+      ]
+    },
+    {
+      "id": "realtors",
+      "name": "National Association of Realtors",
+      "issue": "housing",
+      "kind": "industry",
+      "committees": [
+        "C00030718",
+        "C00488742"
+      ]
+    },
+    {
+      "id": "home-builders",
+      "name": "National Association of Home Builders",
+      "issue": "housing",
+      "kind": "industry",
+      "committees": [
+        "C00000901"
+      ]
+    },
+    {
+      "id": "multifamily-housing",
+      "name": "National Multifamily Housing Council (apartment owners)",
+      "issue": "housing",
+      "kind": "industry",
+      "committees": [
+        "C00130773"
+      ]
+    },
+    {
+      "id": "apartment-association",
+      "name": "National Apartment Association",
+      "issue": "housing",
+      "kind": "industry",
+      "committees": [
+        "C00113241"
+      ]
+    },
+    {
+      "id": "mortgage-bankers",
+      "name": "Mortgage Bankers Association",
+      "issue": "housing",
+      "kind": "industry",
+      "committees": [
+        "C00004812"
+      ]
+    },
+    {
+      "id": "affordable-housing-credit",
+      "name": "Affordable Housing Tax Credit Coalition",
+      "issue": "housing",
+      "kind": "industry",
+      "committees": [
+        "C00842583"
+      ]
+    },
+    {
+      "id": "immigrants-list",
+      "name": "Immigrants' List",
+      "issue": "immigration",
+      "kind": "issue-group",
+      "committees": [
+        "C00430280"
+      ]
+    },
+    {
+      "id": "afscme",
+      "name": "AFSCME (public employees' union)",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00011114",
+        "C90011172"
+      ]
+    },
+    {
+      "id": "seiu",
+      "name": "SEIU (service workers' union)",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00004036",
+        "C90017955"
+      ]
+    },
+    {
+      "id": "ibew",
+      "name": "IBEW (electrical workers' union)",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00027342"
+      ]
+    },
+    {
+      "id": "carpenters",
+      "name": "United Brotherhood of Carpenters",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00001016"
+      ]
+    },
+    {
+      "id": "teamsters",
+      "name": "Teamsters",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00032979",
+        "C00099234"
+      ]
+    },
+    {
+      "id": "liuna",
+      "name": "LIUNA (laborers' union)",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00007922",
+        "C00342907",
+        "C00345306"
+      ]
+    },
+    {
+      "id": "uaw",
+      "name": "UAW (auto workers' union)",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00002840"
+      ]
+    },
+    {
+      "id": "steelworkers",
+      "name": "United Steelworkers",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00003590"
+      ]
+    },
+    {
+      "id": "mine-workers",
+      "name": "United Mine Workers",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00013342"
+      ]
+    },
+    {
+      "id": "transportation-trades",
+      "name": "Transportation Trades Department, AFL-CIO",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00280909"
+      ]
+    },
+    {
+      "id": "nea",
+      "name": "National Education Association (teachers' union)",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00003251"
+      ]
+    },
+    {
+      "id": "aft",
+      "name": "American Federation of Teachers",
+      "issue": "cost-of-living",
+      "kind": "union",
+      "committees": [
+        "C00028860"
+      ]
+    },
+    {
+      "id": "us-chamber",
+      "name": "U.S. Chamber of Commerce",
+      "issue": "cost-of-living",
+      "kind": "business-group",
+      "committees": [
+        "C00082040"
+      ]
+    },
+    {
+      "id": "nfib",
+      "name": "National Federation of Independent Business",
+      "issue": "cost-of-living",
+      "kind": "business-group",
+      "committees": [
+        "C00101105"
+      ]
+    },
+    {
+      "id": "club-for-growth",
+      "name": "Club for Growth",
+      "issue": "cost-of-living",
+      "kind": "issue-group",
+      "committees": [
+        "C00432260",
+        "C00487470"
+      ]
+    }
+  ],
+  "left_untagged": [
+    {
+      "name": "Crypto PACs (Fairshake, Defend American Jobs, Protect Progress, Coinbase)",
+      "committees": [
+        "C00835959",
+        "C00836221",
+        "C00848440",
+        "C00804179"
+      ],
+      "why": "Their issue is rules for crypto, which isn't one of our 6. Adding a crypto tag would change our issue list."
+    },
+    {
+      "name": "VoteVets",
+      "committees": [
+        "C00418897"
+      ],
+      "why": "A veterans' group that spends on many issues; no single one of our 6 fits."
+    },
+    {
+      "name": "Americans for Prosperity Action",
+      "committees": [
+        "C00687103"
+      ],
+      "why": "Spends on many issues; no single one of our 6 fits."
+    },
+    {
+      "name": "Koch, Inc.",
+      "committees": [
+        "C00236489"
+      ],
+      "why": "The company's business spans energy, chemicals, paper and more, so no single issue fits."
+    },
+    {
+      "name": "Planned Parenthood Votes and the National Rifle Association",
+      "committees": [
+        "C00489799",
+        "C00053553"
+      ],
+      "why": "Abortion and guns aren't among our 6 issues."
+    },
+    {
+      "name": "Party and candidate super PACs (Senate Leadership Fund, Senate Majority PAC / WinSenate, and super PACs for one candidate)",
+      "committees": [
+        "C00571703",
+        "C00865444"
+      ],
+      "why": "They exist to elect a party or a person, not to push one issue."
+    }
+  ],
+  "limits_source": "fec-contribution-limits"
+}

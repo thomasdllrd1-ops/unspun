@@ -2,9 +2,10 @@
 /**
  * "What do you care about?" Pick one of our 6 issues and see every candidate in the race,
  * in their own words (word-for-word quotes, same card for everyone). Radio chips + :has(),
- * so it works without JavaScript. A <slot name={issueId}> lets the page add issue money.
+ * so it works without JavaScript. Under each quote: money from the groups we tag on that issue.
  */
 import StanceCard from '../StanceCard.astro';
+import IssueMoney from '../IssueMoney.astro';
 import { issueList, candidatesInRace, raceResearch, positionsOf, partyById } from '../../lib/data';
 
 interface Props { raceId: string }
@@ -30,11 +31,11 @@ const cands = candidatesInRace(raceId);
               <div class="col">
                 <p class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a> <span class="muted small">{partyById(c.party).name}</span></p>
                 <StanceCard stance={cp.stances[iss.id]} lookedAt={cp.looked_at} />
+                <IssueMoney candidateId={c.id} issue={iss.id} />
               </div>
             );
           })}
         </div>
-        <slot name={iss.id} />
       </div>
     ))}
   </div>

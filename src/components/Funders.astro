@@ -1,0 +1,60 @@
+---
+/**
+ * "Who's funding them" (candidate pages): every committee that gave to the campaign, and every
+ * outside spender for or against, ranked by dollars. Same template for every candidate.
+ */
+import Limits from './Limits.astro';
+import Pending from './Pending.astro';
+import Source from './Source.astro';
+import FunderLine from './FunderLine.astro';
+import { fundersOf, sum, fec, tags, tagsShown } from '../lib/funders';
+import { money, date } from '../lib/format';
+
+interface Props { candidateId: string }
+const f = fundersOf(Astro.props.candidateId);
+const TOP = 10;
+const lists = f ? [
+  { key: 'given', title: 'PAC gifts to the campaign', rows: f.given, none: 'No committee gifts reported yet.' },
+  { key: 'for', title: 'Outside spending for them', rows: f.forThem, none: 'No outside spending for them reported yet.' },
+  { key: 'against', title: 'Outside spending against them', rows: f.against, none: 'No outside spending against them reported yet.' },
+] : [];
+const span = f && f.cycles.length > 1 ? `${Number(f.cycles[0]) - 1}–${f.cycles.at(-1)}, a senator's full 6-year term` : '2025–2026';
+---
+<section class="card" aria-labelledby="fund-h">
+  <div class="eyebrow">The backers</div>
+  <h2 id="fund-h">Who's funding them</h2>
+  {f ? (
+    <>
+      <p class="headline">{money(sum(f.given))} from {f.given.length} committees to the campaign. Outside groups spent {money(sum(f.forThem))} for them and {money(sum(f.against))} against them.</p>
+      {lists.map((l) => (
+        <div class="list">
+          <h3>{l.title}</h3>
+          {l.rows.length ? (
+            <>
+              <ol class="ledger">{l.rows.slice(0, TOP).map((r) => <FunderLine r={r} />)}</ol>
+              {l.rows.length > TOP && (
+                <details>
+                  <summary>Show all {l.rows.length} ({money(sum(l.rows.slice(TOP)))} more)</summary>
+                  <ol class="ledger">{l.rows.slice(TOP).map((r) => <FunderLine r={r} />)}</ol>
+                </details>
+              )}
+            </>
+          ) : <p class="small muted">{l.none}</p>}
+          {l.key === 'given' && f.jfc.count > 0 && (
+            <p class="small text-2">Plus {money(f.jfc.total)} moved in from {f.jfc.count} joint fundraising {f.jfc.count === 1 ? 'committee' : 'committees'}. These collect donations (mostly from individuals) for several committees and split them, so they aren't interest groups and aren't ranked here.</p>
+          )}
+        </div>
+      ))}
+      <p class="small muted">Federal Election Commission data for {span}, as of {date(fec.fetched_at.slice(0, 10))}. Each name links to the committee's FEC page.</p>
+      <Limits>Most campaign money comes from individual donors, who aren't listed here. A PAC can give a campaign at most $5,000 per election (<Source id={tags.limits_source} label="FEC" />); a super PAC can spend without limit but can't give to campaigns. Outside spending includes only filings the FEC has processed, so the newest ads can take days to appear.{tagsShown && <> Issue tags are our judgment: <a href="/show-our-work/#interest-groups">how we tag groups</a>.{tags.status !== 'verified' && <> <Pending /></>}</>}</Limits>
+    </>
+  ) : (
+    <p class="text-2">This candidate has no FEC reports yet, so there's no list of who's funding them.</p>
+  )}
+</section>
+<style>
+  .list { margin-top: 18px; }
+  .list h3 { margin: 0 0 4px; }
+  .ledger { list-style: none; padding: 0; margin: 0; }
+  details summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; }
+</style>
