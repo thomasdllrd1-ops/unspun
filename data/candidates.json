@@ -1885,7 +1885,7 @@
     "sort_name": "Miller-Meeks",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://drmillermeeks.com",
     "fec_id": "H8IA02043",
     "source": "official-ia-2026"
   },
@@ -1896,7 +1896,7 @@
     "sort_name": "Bohannan",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://bohannanforcongress.com",
     "fec_id": "H2IA02111",
     "source": "official-ia-2026"
   },
@@ -1907,7 +1907,7 @@
     "sort_name": "Bridgford",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://bridgfordforiowa.com",
     "fec_id": "H6IA01213",
     "source": "official-ia-2026"
   },

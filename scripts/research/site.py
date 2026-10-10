@@ -3,7 +3,7 @@
   python3 scripts/research/site.py <candidate-id> <home-url> [extra-url ...]
 
 Saves .research/sites/<id>/NN-<slug>.txt (home + issue-looking links + extras).
-Pages with little text are re-opened in headless Chrome (JavaScript sites).
+Pages with little text are re-opened in headless Chrome (JavaScript sites); SITE_CHROME=1 forces Chrome for every page.
 """
 import html, os, re, subprocess, sys, urllib.parse
 
@@ -29,11 +29,13 @@ def get(u):
     body, _, meta = r.stdout.rpartition('\n__FINAL__')
     final, code = (meta.split(' ') + [''])[:2]
     txt, how = to_text(body), 'plain'
-    if len(txt.split()) < 150 or code != '200' or '{{' in txt:  # {{ }} = JS template not filled in yet
+    # {{ }} = JS template not filled in yet; SITE_CHROME=1 forces Chrome for JS sites whose shell text passes the word count
+    force = os.environ.get('SITE_CHROME') == '1'
+    if force or len(txt.split()) < 150 or code != '200' or '{{' in txt:
         try:
             r = subprocess.run([CHROME, '--headless=new', '--disable-gpu', '--no-first-run', '--virtual-time-budget=8000',
                                 f'--user-agent={UA}', '--dump-dom', u], capture_output=True, text=True, timeout=60, errors='ignore')
-            if len(to_text(r.stdout).split()) > len(txt.split()):
+            if (force and r.stdout.strip()) or len(to_text(r.stdout).split()) > len(txt.split()):
                 body, txt, how = r.stdout, to_text(r.stdout), 'chrome'
         except Exception:
             pass
