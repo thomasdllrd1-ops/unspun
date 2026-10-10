@@ -1,0 +1,455 @@
+{
+  "race": "mi-10",
+  "candidates": [
+    {
+      "candidate": "michael-bouchard",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "michael-bouchard-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economy",
+          "quote": "That means bringing manufacturing jobs back home and cutting red tape that crushes small businesses.",
+          "source": "michael-bouchard-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Immigration & Security",
+          "quote": "I stand for finishing the wall, restoring the “Remain in Mexico” policy, and ending catch-and-release once and for all.",
+          "source": "michael-bouchard-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Education",
+          "quote": "In Congress, I’ll back a Parents’ Bill of Rights, so moms and dads always have a say in what their kids are being taught.",
+          "source": "michael-bouchard-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy",
+          "quote": "That means bringing manufacturing jobs back home and cutting red tape that crushes small businesses.",
+          "said_on": "",
+          "source": "michael-bouchard-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Medicare & Social Security",
+          "quote": "I will always protect Medicare and Social Security.",
+          "said_on": "",
+          "source": "michael-bouchard-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration & Security",
+          "quote": "I stand for finishing the wall, restoring the “Remain in Mexico” policy, and ending catch-and-release once and for all.",
+          "said_on": "",
+          "source": "michael-bouchard-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "christina-bertrand-hines",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "christina-bertrand-hines-site-home",
+        "christina-bertrand-hines-site-p-my-plan-to-fix-healthcare-lessons",
+        "christina-bertrand-hines-site-p-the-american-dream-is-frozen",
+        "christina-bertrand-hines-site-p-why-your-grocery-bill-keeps-going",
+        "christina-bertrand-hines-site-p-my-plan-to-protect-michigans-water"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lower Costs",
+          "quote": "In Congress, Christina will fight to lower costs, take on the politicians and corporations that are taking advantage of working families, and fight for good-paying Michigan jobs.",
+          "source": "christina-bertrand-hines-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Protect Families",
+          "quote": "In Congress, she’ll fight for safer communities, world-class schools, and the resources law enforcement needs to prevent violent crime and protect kids and seniors online.",
+          "source": "christina-bertrand-hines-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Fight Corruption",
+          "quote": "In Congress, she’ll take on anyone driving up costs, ban members of Congress from trading stocks, and work with anyone — regardless of party — to clean up the corruption in Washington so that they finally start to deliver for working families.",
+          "source": "christina-bertrand-hines-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Why Your Grocery Bill Keeps Going Up—and What Congress Can Do About It",
+          "quote": "That’s why, when I’m in Congress, I will co-sponsor legislation that prevents companies from price gouging and aims to restore fairness and accountability.",
+          "said_on": "",
+          "source": "christina-bertrand-hines-site-p-why-your-grocery-bill-keeps-going",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "The American Dream Is Frozen",
+          "quote": "Expand tax incentives that help build affordable housing, and increase the supply of homes available to working families in our district.",
+          "said_on": "",
+          "source": "christina-bertrand-hines-site-p-the-american-dream-is-frozen",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "My Plan to Fix Healthcare: Lessons From My Mom",
+          "quote": "Strengthen and expand the ACA, Medicare, and Medicaid—So that every family, every senior, and every child can count on stable, affordable coverage.",
+          "said_on": "",
+          "source": "christina-bertrand-hines-site-p-my-plan-to-fix-healthcare-lessons",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "My Plan to Protect Michigan’s Water, Jobs, and Future",
+          "quote": "I support investments in clean energy, advanced manufacturing, and electric vehicle production that reduce pollution while strengthening American industry and creating good-paying jobs.",
+          "said_on": "",
+          "source": "christina-bertrand-hines-site-p-my-plan-to-protect-michigans-water",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "andrea-kirby",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-mi-2026"
+      ],
+      "priorities_note": "We found no campaign website for her. Michigan's official candidate list doesn't include websites, and a web search on Oct 10, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "kwabena-nkromo",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-mi-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Michigan's official candidate list doesn't include websites, and a web search on Oct 10, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "mike-saliba",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-mi-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Michigan's official candidate list doesn't include websites, and a web search on Oct 10, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
