@@ -1,0 +1,384 @@
+{
+  "race": "az-06",
+  "candidates": [
+    {
+      "candidate": "juan-ciscomani",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "juan-ciscomani-site-home",
+        "juan-ciscomani-site-meet-juan-2026",
+        "juan-ciscomani-site-results"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Supporting Veterans",
+          "quote": "Juan worked to honor the service of our veterans and expand opportunities for military veterans to achieve the dream of homeownership.",
+          "source": "juan-ciscomani-site-results",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Fighting for Lower Taxes",
+          "quote": "Juan has consistently supported tax relief to help Arizonans keep more of what they earn and combat rising costs, which includes eliminating taxes on tips, overtime, and Social Security.",
+          "source": "juan-ciscomani-site-results",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Bringing Federal Dollars Home",
+          "quote": "In just his first three years in Congress, Juan secured more than $60 million for local community projects across Southern Arizona.",
+          "source": "juan-ciscomani-site-results",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Fighting for Lower Taxes",
+          "quote": "Juan has consistently supported tax relief to help Arizonans keep more of what they earn and combat rising costs, which includes eliminating taxes on tips, overtime, and Social Security.",
+          "said_on": "",
+          "source": "juan-ciscomani-site-results",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His only line on homes is about veterans buying homes. We don't count benefits only for veterans as a position on housing for everyone."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Fighting for Better Health Care",
+          "quote": "Juan has focused on expanding access to health care in rural communities, supporting targeted medical research, and delivering record funding for cancer research.",
+          "said_on": "",
+          "source": "juan-ciscomani-site-results",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Ranked Arizona’s Most Effective Lawmaker",
+          "quote": "His focus is on getting results for the people he represents, whether it’s more agents at the border, lowering taxes for everyday Arizonans and seniors, securing the most resources for cancer research funding in American history, or supporting our veterans and law enforcement officers.",
+          "said_on": "",
+          "source": "juan-ciscomani-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "His only line on the border, from his home page."
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Strengthening Fort Huachuca",
+          "quote": "Juan advocated for and secured a new military mission for Fort Huachuca, protecting jobs, strengthening our national security, and ensuring Southern Arizona remains a critical part of America's defense infrastructure.",
+          "said_on": "",
+          "source": "juan-ciscomani-site-results",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "joanna-mendoza",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "joanna-mendoza-site-home",
+        "joanna-mendoza-site-meet-jo",
+        "joanna-mendoza-site-issues",
+        "joanna-mendoza-site-issues-cost-of-living",
+        "joanna-mendoza-site-issues-economy",
+        "joanna-mendoza-site-issues-healthcare",
+        "joanna-mendoza-site-issues-immigration-border-security",
+        "joanna-mendoza-site-issues-environment",
+        "joanna-mendoza-site-issues-oversight-accountability",
+        "joanna-mendoza-site-issues-veterans"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lowering Costs & Protecting Our Families and Seniors",
+          "quote": "In Congress, JoAnna will work to lower costs by cracking down on price gouging costing families an extra $2,000 a year by strengthening consumer protections and stopping unfair price disparities in rural communities.",
+          "source": "joanna-mendoza-site-issues-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Bring Good-Paying Jobs to Southern Arizona & Protecting Workers",
+          "quote": "In Congress, JoAnna will work to support small businesses, bring good-paying jobs back to our cities and towns, and ensure that companies who put roots down in Arizona hire and retain workers from our communities.",
+          "source": "joanna-mendoza-site-issues-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Strengthening our Healthcare System",
+          "quote": "That’s why JoAnna will work to reverse disastrous cuts to healthcare, including to AHCCCS and enhanced Affordable Care Act (ACA) subsidies.",
+          "source": "joanna-mendoza-site-issues-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lowering Costs & Protecting Our Families and Seniors",
+          "quote": "In Congress, JoAnna will work to lower costs by cracking down on price gouging costing families an extra $2,000 a year by strengthening consumer protections and stopping unfair price disparities in rural communities.",
+          "said_on": "",
+          "source": "joanna-mendoza-site-issues-cost-of-living",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Strengthening our Healthcare System",
+          "quote": "That’s why JoAnna will work to reverse disastrous cuts to healthcare, including to AHCCCS and enhanced Affordable Care Act (ACA) subsidies.",
+          "said_on": "",
+          "source": "joanna-mendoza-site-issues-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Safe Communities, Strong Borders & Real Immigration Solutions",
+          "quote": "In Congress, JoAnna will work with both parties to strengthen border security at ports of entry, deporting violent criminals, holding cartels accountable, and ensuring that immigration enforcement is professional, properly trained, and consistent with the law.",
+          "said_on": "",
+          "source": "joanna-mendoza-site-issues-immigration-border-security",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Climate, Water & Energy Security for Rural Arizona",
+          "quote": "In Congress, JoAnna will support investments in American-made energy, including clean energy, which will save money for ratepayers.",
+          "said_on": "",
+          "source": "joanna-mendoza-site-issues-environment",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jereme-peters",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "wikipedia-house-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Arizona's official candidate list couldn't be read by our tools, and web searches on Oct 10, 2026 found no site (a candidate guide reported the same on Sep 10).",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "gary-swing",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "gary-swing-site-home"
+      ],
+      "priorities_note": "His home page has a campaign message but no list or headings of priorities, so we don't show a top 3.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "My Campaign Message",
+          "quote": "Enact a universal basic income.",
+          "said_on": "",
+          "source": "gary-swing-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "My Campaign Message",
+          "quote": "Medicare for all.",
+          "said_on": "",
+          "source": "gary-swing-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "My Campaign Message",
+          "quote": "Abolish ICE.",
+          "said_on": "",
+          "source": "gary-swing-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "My Campaign Message",
+          "quote": "Uphold the Kellogg-Briand Pact outlawing war.",
+          "said_on": "",
+          "source": "gary-swing-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "My Campaign Message",
+          "quote": "Transition away from fossil fuels and nuclear energy to renewable energy sources.",
+          "said_on": "",
+          "source": "gary-swing-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
