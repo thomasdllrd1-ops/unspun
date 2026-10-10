@@ -8029,5 +8029,69 @@
   "url": "https://theswingvote.wixsite.com/unity",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "christina-bohannan-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Christina Bohannan campaign website",
+  "url": "https://bohannanforcongress.com/priorities/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "christina-bohannan-site-home",
+  "title": "Home page",
+  "publisher": "Christina Bohannan campaign website",
+  "url": "https://bohannanforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "christina-bohannan-site-about",
+  "title": "About page",
+  "publisher": "Christina Bohannan campaign website",
+  "url": "https://bohannanforcongress.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "michael-bridgford-site-issues",
+  "title": "Issues page",
+  "publisher": "Michael Bridgford campaign website",
+  "url": "https://bridgfordforiowa.com/Issues",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "michael-bridgford-site-home",
+  "title": "Home page",
+  "publisher": "Michael Bridgford campaign website",
+  "url": "https://bridgfordforiowa.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "michael-bridgford-site-about",
+  "title": "About page",
+  "publisher": "Michael Bridgford campaign website",
+  "url": "https://bridgfordforiowa.com/About",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "mariannette-miller-meeks-site-home",
+  "title": "Home page",
+  "publisher": "Mariannette Miller-Meeks campaign website",
+  "url": "https://drmillermeeks.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "mariannette-miller-meeks-site-triple-m-tour",
+  "title": "Triple-M Tour page",
+  "publisher": "Mariannette Miller-Meeks campaign website",
+  "url": "https://drmillermeeks.com/triple-m-tour/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]

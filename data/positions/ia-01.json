@@ -1,0 +1,300 @@
+{
+  "race": "ia-01",
+  "candidates": [
+    {
+      "candidate": "christina-bohannan",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "christina-bohannan-site-home",
+        "christina-bohannan-site-about",
+        "christina-bohannan-site-priorities"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lowering Costs For Iowans",
+          "quote": "Exercising Congress’s power to end the disastrous tariffs that are one of the biggest tax increases in American history and have left Iowans to pay thousands per year in higher costs",
+          "source": "christina-bohannan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Restoring Faith in our Government",
+          "quote": "Ban the trading of stocks by all Members of Congress, Executive Branch Members, Supreme Court Justices, their spouses, and staff – including requiring divestment of currently-owned stocks",
+          "source": "christina-bohannan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Fixing our Broken Health Care System",
+          "quote": "Immediately reverse the Medicaid cuts that will kick more than 100,000 Iowans off their health care and close rural hospitals and nursing homes",
+          "source": "christina-bohannan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lowering Costs For Iowans",
+          "quote": "Exercising Congress’s power to end the disastrous tariffs that are one of the biggest tax increases in American history and have left Iowans to pay thousands per year in higher costs",
+          "said_on": "",
+          "source": "christina-bohannan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Lowering Costs For Iowans",
+          "quote": "Prohibiting hedge funds and private investors from buying up Iowa’s family homes and land and artificially raising rents",
+          "said_on": "",
+          "source": "christina-bohannan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lowering Costs For Iowans",
+          "quote": "Lowering prescription drug prices by allowing Medicare to negotiate for lower prices on more lifesaving drugs and capping insulin costs at $35 per month for everyone",
+          "said_on": "",
+          "source": "christina-bohannan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Lowering Costs For Iowans",
+          "quote": "Cracking down on utility monopolies and expanding Iowa’s clean energy economy to lower energy bills",
+          "said_on": "",
+          "source": "christina-bohannan-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "michael-bridgford",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "michael-bridgford-site-home",
+        "michael-bridgford-site-about",
+        "michael-bridgford-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Represent the People of Our District, Not Party Bosses and Special Interests",
+          "quote": "",
+          "source": "michael-bridgford-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Address Our Affordability Crisis by Establishing Fiscal Responsibility",
+          "quote": "",
+          "source": "michael-bridgford-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Enact Term Limits, Congressional Stock Trading Bans, and Campaign Finance Reform",
+          "quote": "",
+          "source": "michael-bridgford-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Work to Lower Costs",
+          "quote": "for everyday Iowans—bringing fiscal sanity to Washington to tackle inflation, housing, and healthcare, so middle-class families can get ahead.",
+          "said_on": "",
+          "source": "michael-bridgford-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "This line finishes his home-page heading \"Work to Lower Costs.\""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Revitalize Rural Healthcare",
+          "quote": "By mandating absolute price transparency and enacting aggressive PBM reform to eliminate shadowy middle-men, we can guarantee affordable, accessible care for every Iowan while restoring the honest free-market competition and high quality our families deserve.",
+          "said_on": "",
+          "source": "michael-bridgford-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Put Iowa Producers First",
+          "quote": "I will fight to aggressively enforce ag antitrust laws, legally ban adversaries like China from buying our land, and secure permanent, nationwide year-round E15.",
+          "said_on": "",
+          "source": "michael-bridgford-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "E15 is gasoline blended with 15% ethanol, a fuel made from corn."
+        }
+      }
+    },
+    {
+      "candidate": "mariannette-miller-meeks",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "mariannette-miller-meeks-site-home",
+        "mariannette-miller-meeks-site-triple-m-tour"
+      ],
+      "priorities_note": "Her campaign website has no list of issues and no stances on our 6 issues. It has a biography, news posts from 2024, and a schedule of tour events.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
