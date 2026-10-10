@@ -8781,5 +8781,93 @@
   "url": "https://www.derekmerrin.com/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "max-miller-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Max Miller campaign website",
+  "url": "https://www.votemaxmiller.com/priorities",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "max-miller-site-home",
+  "title": "Home page",
+  "publisher": "Max Miller campaign website",
+  "url": "https://www.votemaxmiller.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "max-miller-site-about",
+  "title": "About page",
+  "publisher": "Max Miller campaign website",
+  "url": "https://www.votemaxmiller.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-poindexter-site-home",
+  "title": "Home page",
+  "publisher": "Brian Poindexter campaign website",
+  "url": "https://poindexterforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-poindexter-site-priority-1-cost-of-living",
+  "title": "Priority #1: Cost of living page",
+  "publisher": "Brian Poindexter campaign website",
+  "url": "https://poindexterforcongress.com/priority-1-cost-of-living/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-poindexter-site-healthcare-that-makes-sense",
+  "title": "Healthcare that makes sense page",
+  "publisher": "Brian Poindexter campaign website",
+  "url": "https://poindexterforcongress.com/healthcare-that-makes-sense/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-poindexter-site-gas-prices",
+  "title": "Gas prices page",
+  "publisher": "Brian Poindexter campaign website",
+  "url": "https://poindexterforcongress.com/gas-prices/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-poindexter-site-data-centers",
+  "title": "Data centers page",
+  "publisher": "Brian Poindexter campaign website",
+  "url": "https://poindexterforcongress.com/data-centers/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-poindexter-site-the-economy-and-cost-of-living",
+  "title": "The economy and cost of living page",
+  "publisher": "Brian Poindexter campaign website",
+  "url": "https://poindexterforcongress.com/the-economy-and-cost-of-living/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-poindexter-site-corruption",
+  "title": "Corruption page",
+  "publisher": "Brian Poindexter campaign website",
+  "url": "https://poindexterforcongress.com/corruption/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "brian-poindexter-site-made-in-america",
+  "title": "Made in America page",
+  "publisher": "Brian Poindexter campaign website",
+  "url": "https://poindexterforcongress.com/made-in-america/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]
