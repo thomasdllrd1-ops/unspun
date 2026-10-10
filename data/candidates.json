@@ -1778,7 +1778,7 @@
     "sort_name": "Conley",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://caitconley.com",
     "fec_id": "H6NY17171",
     "source": "official-ny-2026",
     "party_lines": [
@@ -1793,7 +1793,7 @@
     "sort_name": "Lawler",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.lawlerforcongress.com",
     "fec_id": "H2NY17162",
     "source": "official-ny-2026",
     "party_lines": [

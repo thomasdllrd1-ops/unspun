@@ -1,0 +1,220 @@
+{
+  "race": "ny-17",
+  "candidates": [
+    {
+      "candidate": "cait-conley",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "cait-conley-site-home",
+        "cait-conley-site-policy"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Investing in Education",
+          "quote": "Increasing access to affordable childcare through federal subsidies and tax credits, and investing in universal pre-K.",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Rebuilding our Infrastructure",
+          "quote": "Delivering investments to the Hudson Valley for critical energy, water, sewer, and transportation infrastructure through direct investments and expanding the federal BRIC (Building Resilient Infrastructure and Communities) grant programs.",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Lowering the Cost of Housing",
+          "quote": "Creating a public service housing loan program for teachers, nurses, and first responders to expand access to affordable homeownership in the communities they serve.",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Growing Our Economy for the 21st Century",
+          "quote": "Ending entirely the Trump and Lawler-imposed SALT tax cap, which did not exist for over 100 years until Trump instituted it in 2017 to punish New Yorkers, that raises taxes on middle-class New Yorkers and was set to expire, until Lawler voted to make it permanent.",
+          "said_on": "",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Lowering the Cost of Housing",
+          "quote": "Creating a public service housing loan program for teachers, nurses, and first responders to expand access to affordable homeownership in the communities they serve.",
+          "said_on": "",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Expanding and Protecting Affordable Healthcare",
+          "quote": "Allowing everyone to opt in to a public insurance option, regardless of age, expanding coverage, and driving down costs across the marketplace.",
+          "said_on": "",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Fixing a Broken Immigration System",
+          "quote": "Reining in ICE and restoring accountability, requiring body cameras, standard law enforcement uniforms with visible ID, and prohibiting masked agents.",
+          "said_on": "",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Defending Our Interests Abroad",
+          "quote": "Ending military escalation with Iran and pursuing diplomacy to ensure Iran never gets a nuclear weapon.",
+          "said_on": "",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Fighting Climate Change as a National Security Priority",
+          "quote": "Investing in clean energy, expanding federal investments in solar, wind, and geothermal projects.",
+          "said_on": "",
+          "source": "cait-conley-site-policy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "mike-lawler",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "mike-lawler-site-home",
+        "mike-lawler-site-about",
+        "mike-lawler-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Deliver Real Tax Relief So You Keep More of What You Earn",
+          "quote": "Voting for the Working Families Tax Cuts Act that saves the average Hudson Valley family nearly $4,000 this year",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Make Healthcare More Affordable and Accessible",
+          "quote": "Took on his own party leadership to force a House vote on extending Affordable Care Act subsidies and prevent premium increases for millions of Americans",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Protect Social Security & Medicare; Strengthen Medicaid",
+          "quote": "Strengthened the Medicaid program to protect coverage for New York’s most vulnerable residents, including low-income individuals, seniors, and single-parent households",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Deliver Real Tax Relief So You Keep More of What You Earn",
+          "quote": "Voting for the Working Families Tax Cuts Act that saves the average Hudson Valley family nearly $4,000 this year",
+          "said_on": "",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Improve Housing Affordability and Home Ownership",
+          "quote": "Introduced the Revitalizing America’s Housing Act (H.R. 4856), a broad package designed to incentivize construction, reduce regulatory barriers, and expand homeownership opportunities",
+          "said_on": "",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Make Healthcare More Affordable and Accessible",
+          "quote": "Took on his own party leadership to force a House vote on extending Affordable Care Act subsidies and prevent premium increases for millions of Americans",
+          "said_on": "",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure Our Border and Support Immigration Reform",
+          "quote": "Supported bipartisan efforts to reverse Biden-era policies that allowed for millions of illegal immigrants to cross the border completely unvetted",
+          "said_on": "",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Ensure a Strong National Defense and Military Preparedness",
+          "quote": "Introduced the Indo-Pacific Treaty Alliance Act (H.R. 3721) to study the creation of a NATO-like alliance with our Indo-Pacific allies to deter aggression by communist China and North Korea",
+          "said_on": "",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Lower Energy Costs and End New York's Energy Crisis",
+          "quote": "Advocating to reopen and rebuild the Indian Point Nuclear Energy Center, a clean, reliable, carbon-free source that supplied over 25% of New York City's electricity before Albany politicians shut it down.",
+          "said_on": "",
+          "source": "mike-lawler-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

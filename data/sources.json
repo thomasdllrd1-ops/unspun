@@ -7701,5 +7701,45 @@
   "type": "news",
   "published": "2026-08-07",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "cait-conley-site-policy",
+  "title": "Policy page",
+  "publisher": "Cait Conley campaign website",
+  "url": "https://caitconley.com/policy/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "cait-conley-site-home",
+  "title": "Home page",
+  "publisher": "Cait Conley campaign website",
+  "url": "https://caitconley.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "mike-lawler-site-issues",
+  "title": "Issues page",
+  "publisher": "Mike Lawler campaign website",
+  "url": "https://www.lawlerforcongress.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "mike-lawler-site-home",
+  "title": "Home page",
+  "publisher": "Mike Lawler campaign website",
+  "url": "https://www.lawlerforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "mike-lawler-site-about",
+  "title": "About page",
+  "publisher": "Mike Lawler campaign website",
+  "url": "https://www.lawlerforcongress.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]
