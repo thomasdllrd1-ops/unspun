@@ -8365,5 +8365,53 @@
   "url": "https://www.mackenzieforcongress.com/copy-of-record",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "paige-cognetti-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Paige Cognetti campaign website",
+  "url": "https://paigeforpa.com/priorities/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "paige-cognetti-site-home",
+  "title": "Home page",
+  "publisher": "Paige Cognetti campaign website",
+  "url": "https://paigeforpa.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "paige-cognetti-site-meet-paige-cognetti",
+  "title": "Meet Paige Cognetti page",
+  "publisher": "Paige Cognetti campaign website",
+  "url": "https://paigeforpa.com/meet-paige-cognetti/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "paige-cognetti-site-anti-corruption-agenda",
+  "title": "Anti-corruption agenda page",
+  "publisher": "Paige Cognetti campaign website",
+  "url": "https://paigeforpa.com/anti-corruption-agenda/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "rob-bresnahan-site-home",
+  "title": "Home page",
+  "publisher": "Rob Bresnahan Jr campaign website",
+  "url": "https://robforpa.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "rob-bresnahan-site-about",
+  "title": "About page",
+  "publisher": "Rob Bresnahan Jr campaign website",
+  "url": "https://robforpa.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]

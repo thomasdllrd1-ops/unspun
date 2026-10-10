@@ -2095,7 +2095,7 @@
     "sort_name": "Cognetti",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://paigeforpa.com",
     "fec_id": "H6PA08293",
     "source": "official-pa-2026"
   },
@@ -2106,7 +2106,7 @@
     "sort_name": "Bresnahan",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://robforpa.com",
     "fec_id": "H4PA08124",
     "source": "official-pa-2026"
   },
