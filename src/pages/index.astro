@@ -135,7 +135,7 @@ const researched = db.positions.map((p) => db.races.find((r) => r.id === p.race)
   .sec { padding: 56px 0 8px; }
   .sec h2, .band h2 { font-size: clamp(2rem, 4vw, 2.9rem); }
   .sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
-  .boards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 16px 0 8px; }
+  .boards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); gap: 16px; margin: 16px 0 8px; }
   .band { margin: 56px calc(50% - 50vw) 0; padding: 56px 0; }
   .band-in { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
   .navy { background: var(--navy); color: var(--paper); --heading: var(--paper); --muted: #DCD3BD; --text-2: #DCD3BD; }

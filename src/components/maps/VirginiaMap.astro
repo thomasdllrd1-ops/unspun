@@ -34,6 +34,7 @@ const payload = JSON.stringify({
   </form>
   <p class="or">or tap your county or city</p>
 
+  <div class="mp">
   <svg viewBox={geo.viewBox} role="group" aria-label="Map of Virginia's 133 counties and independent cities. Each one is a link.">
     {places.map((l) => (
       <a href={`#${l.id}`} data-fips={l.fips} aria-label={l.name}>
@@ -44,6 +45,7 @@ const payload = JSON.stringify({
 
   <div class="panel" data-panel aria-live="polite">
     <p class="muted">Your districts will show up here.</p>
+  </div>
   </div>
 
   <details class="list">
@@ -112,6 +114,8 @@ const payload = JSON.stringify({
   a:hover path, a:focus-visible path { fill: var(--v-hover); }
   a.on path { fill: var(--v-on); }
   a:focus-visible { outline: none; }
+  /* Wide screens: results panel beside the map, so a tap shows its answer without scrolling. */
+  @media (min-width: 900px) { .mp { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(260px, 1fr); gap: 24px; align-items: start; } .mp .panel { margin-top: 12px; } }
   .panel { margin-top: 16px; padding: 16px; border: 1px solid var(--gold); min-height: 72px; }
   .panel :global(.ptitle) { margin: 0 0 8px; font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; }
   .panel :global(.races) { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }

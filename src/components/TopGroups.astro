@@ -1,13 +1,16 @@
 ---
-/** One line: the issue groups that put the most money behind a candidate. Nothing until the tag list is reviewed. */
-import { topGroups } from '../lib/funders';
+/** One line, same for every candidate: the issue groups that put the most money behind them. Nothing until the tag list is reviewed. */
+import { topGroups, tagsShown, fec } from '../lib/funders';
 import { issueById } from '../lib/data';
 import { money } from '../lib/format';
 
 interface Props { candidateId: string }
-const tops = topGroups(Astro.props.candidateId);
+const { candidateId } = Astro.props;
+const tops = topGroups(candidateId);
 ---
-{tops.length > 0 && (
-  <p class="small tg"><strong>Top issue-group backers:</strong> {tops.map((t) => `${t.group.name} (${issueById(t.group.issue).name}) ${money(t.amount)}`).join(' · ')}. <a href={`/candidates/${Astro.props.candidateId}/#fund-h`}>Everyone funding them</a></p>
+{tagsShown && fec.candidates[candidateId] && (
+  <p class="small tg"><strong>Top issue-group backers:</strong> {tops.length
+    ? `${tops.map((t) => `${t.group.name} (${issueById(t.group.issue).name}) ${money(t.amount)}`).join(' · ')}.`
+    : 'none of the groups we tag gave to or spent for them.'} <a href={`/candidates/${candidateId}/#fund-h`}>Everyone funding them</a></p>
 )}
 <style>.tg { margin: 8px 0 0; color: var(--text-2); }</style>
