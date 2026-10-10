@@ -45,6 +45,8 @@ def page_title(url, html_title):
     if not path: return 'Home page'
     t = ': '.join(re.sub(r'\.html?$', '', s).replace('-', ' ').replace('_', ' ') for s in path.split('/') if s)
     t = t[0].upper() + t[1:] + ' page'
+    if t.startswith('Meet '):  # "Meet jo page" -> "Meet Jo page" (a name follows)
+        t = 'Meet ' + ' '.join(w.capitalize() for w in t[5:-5].split()) + ' page'
     first = re.split(r'\s[|–—-]\s', html_title)[0].strip()  # e.g. "VISION | VOTE MAKIBA GAINES" -> "VISION"
     if re.match(r'^(Blank|Copy of|Page|New page|Doku php)\b', t) and first:
         t = first.capitalize() + ' page'
