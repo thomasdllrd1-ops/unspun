@@ -1,0 +1,297 @@
+{
+  "race": "co-08",
+  "candidates": [
+    {
+      "candidate": "gabe-evans",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "gabe-evans-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "American Prosperity",
+          "quote": "Lower the cost of living by reining in deficit spending and the tax-and-regulate policies that are crushing our economy.",
+          "source": "gabe-evans-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "American Security",
+          "quote": "Ensure our military is focused on warfighting and not politically correct agendas.",
+          "source": "gabe-evans-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "American Education",
+          "quote": "Educational freedom means families can choose the education that works best for them.",
+          "source": "gabe-evans-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "American Prosperity",
+          "quote": "Lower the cost of living by reining in deficit spending and the tax-and-regulate policies that are crushing our economy.",
+          "said_on": "",
+          "source": "gabe-evans-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "FIGHT BACK FOR COLORADO",
+          "quote": "He represents Colorado's 8th Congressional District, where he is fighting to secure the border, strengthen public safety, and make life more affordable for hardworking Coloradans.",
+          "said_on": "",
+          "source": "gabe-evans-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "His only line on the border, from the introduction on his home page."
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "American Security",
+          "quote": "Ensure our military is focused on warfighting and not politically correct agendas.",
+          "said_on": "",
+          "source": "gabe-evans-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "manny-rutinel",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "manny-rutinel-site-home",
+        "manny-rutinel-site-meetmanny",
+        "manny-rutinel-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lower Costs for Working Families",
+          "quote": "I’ll expand tax credits for millions of working parents, make billionaires pay what they owe in taxes, and close tax loopholes for corporations.",
+          "source": "manny-rutinel-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Protect and Strengthen Social Security and Medicare",
+          "quote": "If anyone tries to cut Social Security or Medicare or raise the retirement age, I’ll stop them.",
+          "source": "manny-rutinel-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Lower Healthcare Costs and Expand Access",
+          "quote": "We need to expand Medicare’s power to negotiate lower prices for prescription drugs just like the VA does for our veterans.",
+          "source": "manny-rutinel-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower Costs for Working Families",
+          "quote": "I’ll expand tax credits for millions of working parents, make billionaires pay what they owe in taxes, and close tax loopholes for corporations.",
+          "said_on": "",
+          "source": "manny-rutinel-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Make Housing Affordable for Working Families",
+          "quote": "I’ll make housing more affordable. Housing is not a luxury; it’s a basic life necessity.",
+          "said_on": "",
+          "source": "manny-rutinel-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lower Healthcare Costs and Expand Access",
+          "quote": "We need to expand Medicare’s power to negotiate lower prices for prescription drugs just like the VA does for our veterans.",
+          "said_on": "",
+          "source": "manny-rutinel-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Stopping Trump’s Immigration Cruelty",
+          "quote": "Trump's ICE agents should not be wearing masks, taking people in unmarked cars, or stopping people based on their skin color, and they should be wearing body cameras, required to use judicial orders, and held accountable when they break the law.",
+          "said_on": "",
+          "source": "manny-rutinel-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "dave-wood",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-co-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Colorado's official candidate list doesn't include websites, and a web search on Oct 10, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

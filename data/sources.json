@@ -8093,5 +8093,37 @@
   "url": "https://drmillermeeks.com/triple-m-tour/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "gabe-evans-site-home",
+  "title": "Home page",
+  "publisher": "Gabe Evans campaign website",
+  "url": "https://www.electgabeevans.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "manny-rutinel-site-issues",
+  "title": "Issues page",
+  "publisher": "Manny Rutinel campaign website",
+  "url": "https://www.mannyforcolorado.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "manny-rutinel-site-home",
+  "title": "Home page",
+  "publisher": "Manny Rutinel campaign website",
+  "url": "https://www.mannyforcolorado.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "manny-rutinel-site-meetmanny",
+  "title": "Meet Manny page",
+  "publisher": "Manny Rutinel campaign website",
+  "url": "https://www.mannyforcolorado.com/meetmanny",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]
