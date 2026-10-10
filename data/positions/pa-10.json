@@ -1,0 +1,220 @@
+{
+  "race": "pa-10",
+  "candidates": [
+    {
+      "candidate": "scott-perry",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "scott-perry-site-home",
+        "scott-perry-site-about",
+        "scott-perry-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economy",
+          "quote": "A Balanced Budget Amendment",
+          "source": "scott-perry-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Immigration",
+          "quote": "Securing our borders",
+          "source": "scott-perry-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Energy",
+          "quote": "Scott Perry supports a blended energy portfolio that includes the development of clean energy technologies and using our vast energy resources – to reduce our dependence on foreign energy, turn around the economy, create jobs, reduce inflation, make energy more affordable, and preserve our environment.",
+          "source": "scott-perry-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy",
+          "quote": "A Balanced Budget Amendment",
+          "said_on": "",
+          "source": "scott-perry-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "Ensure coverage of pre-existing conditions",
+          "said_on": "",
+          "source": "scott-perry-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "Securing our borders",
+          "said_on": "",
+          "source": "scott-perry-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy",
+          "quote": "Scott Perry supports a blended energy portfolio that includes the development of clean energy technologies and using our vast energy resources – to reduce our dependence on foreign energy, turn around the economy, create jobs, reduce inflation, make energy more affordable, and preserve our environment.",
+          "said_on": "",
+          "source": "scott-perry-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "janelle-stelson",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "janelle-stelson-site-home",
+        "janelle-stelson-site-priorities"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Bring Down the Cost of Living & Fixing Our Economy",
+          "quote": "I support tax breaks for the hard-working middle class, not billionaires.",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Fixing Congress by Cleaning Out the Corruption in Both Parties",
+          "quote": "Limit terms to 12 years.",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Lowering the Cost of Your Health Care",
+          "quote": "I support lowering the price of prescription drugs by allowing the government to negotiate prices.",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Bring Down the Cost of Living & Fixing Our Economy",
+          "quote": "I support tax breaks for the hard-working middle class, not billionaires.",
+          "said_on": "",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Bring Down the Cost of Living & Fixing Our Economy",
+          "quote": "Stop Wall Street from Buying Up Homes",
+          "said_on": "",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "The first item in her housing plan, listed under her cost-of-living priority."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lowering the Cost of Your Health Care",
+          "quote": "I support lowering the price of prescription drugs by allowing the government to negotiate prices.",
+          "said_on": "",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Fixing Our Broken Immigration System",
+          "quote": "I support deporting every violent illegal immigrant and oppose taxpayer benefits for anyone in the country illegally.",
+          "said_on": "",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Bring Down the Cost of Living & Fixing Our Economy",
+          "quote": "I will repeal these tariff taxes that are increasing costs and vote to end the war in Iran.",
+          "said_on": "",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "Her only line on Iran, from her cost-of-living priority."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Lowering Your Electric Bill & Ensuring Data Centers Are Not Taking Advantage of Our Communities",
+          "quote": "I will fight for accountability on utility rate increases and push for investments that bring costs down — because no family should have to choose between keeping the lights on and paying for their healthcare.",
+          "said_on": "",
+          "source": "janelle-stelson-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

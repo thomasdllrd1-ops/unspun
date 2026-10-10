@@ -2029,7 +2029,7 @@
     "sort_name": "Stelson",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://janellestelson.com",
     "fec_id": "H4PA10104",
     "source": "official-pa-2026"
   },
@@ -2040,7 +2040,7 @@
     "sort_name": "Perry",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://patriotsforperry.com",
     "fec_id": "H2PA04135",
     "source": "official-pa-2026"
   },
