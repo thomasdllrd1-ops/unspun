@@ -95,7 +95,8 @@ const ids = [...new Set(Object.values(perCandidate).flatMap((e) => {
 }))].sort();
 const committeeCache = `${CACHE}/_committees.json`;
 const committees: Record<string, unknown> = existsSync(committeeCache) ? JSON.parse(readFileSync(committeeCache, 'utf8')) : {};
-const missing = ids.filter((id) => !committees[id]);
+// Filers sometimes type a malformed ID (the FEC rejects the whole batch); those stay undescribed.
+const missing = ids.filter((id) => !committees[id] && /^C\d{8}$/.test(id));
 for (let i = 0; i < missing.length; i += 50) {
   for (const r of await all('/committees/', { committee_id: missing.slice(i, i + 50) })) {
     committees[r.committee_id as string] = {
