@@ -8165,5 +8165,45 @@
   "url": "https://tombarrettforcongress.com/7th-district",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "janelle-stelson-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Janelle Stelson campaign website",
+  "url": "https://janellestelson.com/priorities/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "janelle-stelson-site-home",
+  "title": "Home page",
+  "publisher": "Janelle Stelson campaign website",
+  "url": "https://janellestelson.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "scott-perry-site-issues",
+  "title": "Issues page",
+  "publisher": "Scott Perry campaign website",
+  "url": "https://patriotsforperry.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "scott-perry-site-home",
+  "title": "Home page",
+  "publisher": "Scott Perry campaign website",
+  "url": "https://patriotsforperry.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "scott-perry-site-about",
+  "title": "About page",
+  "publisher": "Scott Perry campaign website",
+  "url": "https://patriotsforperry.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]
