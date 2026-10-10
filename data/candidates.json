@@ -2151,7 +2151,7 @@
     "sort_name": "Flores",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.ericflores.com",
     "fec_id": "H6TX34080",
     "source": "official-tx-2026"
   },
@@ -2162,7 +2162,7 @@
     "sort_name": "Gonzalez",
     "party": "democratic",
     "incumbent": true,
-    "website": null,
+    "website": "https://vicentegonzalez.com",
     "fec_id": "H6TX15162",
     "source": "official-tx-2026"
   },
@@ -2173,7 +2173,7 @@
     "sort_name": "Royal",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://chriscongress.com",
     "fec_id": "H0TX34059",
     "source": "official-tx-2026"
   },
@@ -2184,7 +2184,7 @@
     "sort_name": "Espinoza",
     "party": "green",
     "incumbent": false,
-    "website": null,
+    "website": "https://espinoza4tx.com",
     "fec_id": "H6TX34106",
     "source": "official-tx-2026"
   },

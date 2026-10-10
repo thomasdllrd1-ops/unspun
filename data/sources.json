@@ -8461,5 +8461,85 @@
   "url": "https://www.scottsingerusa.com/about-scott-singer",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "eric-flores-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Eric Flores campaign website",
+  "url": "https://www.ericflores.com/priorities",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "eric-flores-site-home",
+  "title": "Home page",
+  "publisher": "Eric Flores campaign website",
+  "url": "https://www.ericflores.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "eric-flores-site-abouteric",
+  "title": "About Eric page",
+  "publisher": "Eric Flores campaign website",
+  "url": "https://www.ericflores.com/abouteric",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "vicente-gonzalez-site-issues",
+  "title": "Issues page",
+  "publisher": "Vicente Gonzalez campaign website",
+  "url": "https://vicentegonzalez.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "vicente-gonzalez-site-home",
+  "title": "Home page",
+  "publisher": "Vicente Gonzalez campaign website",
+  "url": "https://vicentegonzalez.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "vicente-gonzalez-site-meet-vicente",
+  "title": "Meet Vicente page",
+  "publisher": "Vicente Gonzalez campaign website",
+  "url": "https://vicentegonzalez.com/meet-vicente/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "chris-royal-site-home",
+  "title": "Home page",
+  "publisher": "Chris Royal campaign website",
+  "url": "https://chriscongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "eddie-espinoza-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Eddie Espinoza campaign website",
+  "url": "https://espinoza4tx.com/priorities/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "eddie-espinoza-site-home",
+  "title": "Home page",
+  "publisher": "Eddie Espinoza campaign website",
+  "url": "https://espinoza4tx.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "eddie-espinoza-site-meet-eddie",
+  "title": "Meet Eddie page",
+  "publisher": "Eddie Espinoza campaign website",
+  "url": "https://espinoza4tx.com/meet-eddie/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]

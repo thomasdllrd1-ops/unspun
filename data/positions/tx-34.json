@@ -1,0 +1,407 @@
+{
+  "race": "tx-34",
+  "candidates": [
+    {
+      "candidate": "eddie-espinoza",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "eddie-espinoza-site-home",
+        "eddie-espinoza-site-meet-eddie",
+        "eddie-espinoza-site-priorities"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Help our Students, Seniors and Veterans",
+          "quote": "Free Palestine! Arms embargo and condition military aid to Israel",
+          "source": "eddie-espinoza-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Medicare for All",
+          "quote": "Improve and expand Medicare for All, with no co-pays or premiums, including free vision care, hearing aids, dental, and prescriptions.",
+          "source": "eddie-espinoza-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "U.S. Energy Independence",
+          "quote": "We must invest in safe renewable energy projects, such as solar, wind, and utility-scale batteries, the cheapest and most environmentally friendly options for energy.",
+          "source": "eddie-espinoza-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Protect Our Land and Water",
+          "quote": "We can localize our energy, food, and water, giving the Valley independence and strength – the best solution for affordability.",
+          "said_on": "",
+          "source": "eddie-espinoza-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "His only line on homelessness is for veterans (\"END homelessness for Veterans\"). We don't count benefits only for veterans as a position on housing for everyone."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Medicare for All",
+          "quote": "Improve and expand Medicare for All, with no co-pays or premiums, including free vision care, hearing aids, dental, and prescriptions.",
+          "said_on": "",
+          "source": "eddie-espinoza-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Help our Students, Seniors and Veterans",
+          "quote": "Free Palestine! Arms embargo and condition military aid to Israel",
+          "said_on": "",
+          "source": "eddie-espinoza-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "U.S. Energy Independence",
+          "quote": "We must invest in safe renewable energy projects, such as solar, wind, and utility-scale batteries, the cheapest and most environmentally friendly options for energy.",
+          "said_on": "",
+          "source": "eddie-espinoza-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "eric-flores",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "eric-flores-site-home",
+        "eric-flores-site-abouteric",
+        "eric-flores-site-priorities"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Stand Up for South Texas and the Coastal Bend",
+          "quote": "I'll bring federal funds to our community, push back on mandates that ignore how our region actually works, hold federal agencies accountable when they slow down projects that lead to good-paying jobs, and always deliver real, lasting results.",
+          "source": "eric-flores-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Lower the Cost of Living",
+          "quote": "I'll oppose reckless federal spending that fuels inflation, fight to cut the red tape driving up costs for families and small businesses, and support affordable housing solutions that keep pace with our growing communities.",
+          "source": "eric-flores-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Improve Our Infrastructure",
+          "quote": "I'll fight to secure federal funding for road, bridge, and port improvements, expand broadband in rural communities, and advocate for the Port of Corpus Christi and Brownsville like the national economic assets they are.",
+          "source": "eric-flores-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower the Cost of Living",
+          "quote": "I'll oppose reckless federal spending that fuels inflation, fight to cut the red tape driving up costs for families and small businesses, and support affordable housing solutions that keep pace with our growing communities.",
+          "said_on": "",
+          "source": "eric-flores-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Lower the Cost of Living",
+          "quote": "I'll oppose reckless federal spending that fuels inflation, fight to cut the red tape driving up costs for families and small businesses, and support affordable housing solutions that keep pace with our growing communities.",
+          "said_on": "",
+          "source": "eric-flores-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "His only line on housing (\"support affordable housing solutions\") is in this sentence from his cost-of-living section."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Safeguard Seniors' Benefits",
+          "quote": "While Vicente Gonzalez wants to tax seniors' benefits, I'll oppose any effort to cut those earned benefits, fight to ensure they keep pace with the true cost of living, support expanding access to affordable prescription drugs, and push for stronger protections against elder fraud and financial exploitation.",
+          "said_on": "",
+          "source": "eric-flores-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "His only line on health costs (prescription drugs), from his section on seniors."
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "vicente-gonzalez",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "vicente-gonzalez-site-home",
+        "vicente-gonzalez-site-meet-vicente",
+        "vicente-gonzalez-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Affordability",
+          "quote": "Vicente Gonzalez believes that people who work hard should be able to afford a stable and dignified life.",
+          "source": "vicente-gonzalez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Seniors",
+          "quote": "Vicente Gonzalez understands that protecting seniors means safeguarding programs that provide financial security and access to healthcare.",
+          "source": "vicente-gonzalez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Women’s Rights",
+          "quote": "Vicente Gonzalez supports policies that promote fairness, protect individual freedoms, and strengthen protections that allow women to make informed decisions about their lives and futures.",
+          "source": "vicente-gonzalez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Affordability",
+          "quote": "Vicente Gonzalez believes that people who work hard should be able to afford a stable and dignified life.",
+          "said_on": "",
+          "source": "vicente-gonzalez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "Vicente Gonzalez supports a healthcare system that works for everyone — whether someone lives in an urban center or a rural community.",
+          "said_on": "",
+          "source": "vicente-gonzalez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "chris-royal",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "chris-royal-site-home"
+      ],
+      "priorities_note": "His campaign website is one page with a letter about the Constitution and federal spending. It has no list of issues and no stances on our 6 issues.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
