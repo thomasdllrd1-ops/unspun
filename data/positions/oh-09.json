@@ -1,0 +1,191 @@
+{
+  "race": "oh-09",
+  "candidates": [
+    {
+      "candidate": "marcy-kaptur",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "marcy-kaptur-site-home",
+        "marcy-kaptur-site-about-marcy",
+        "marcy-kaptur-site-priorities"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Jobs, Costs & the Economy",
+          "quote": "She is fighting to bring jobs home, take away tax breaks from companies that ship jobs overseas, and for tariffs that protect Ohio-based factories and companies.",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Immigration & Our Border",
+          "quote": "She has voted to improve and expand border security, to hire more than 10,000 border agents, and to enable military presence at the border if needed.",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Energy, Infrastructure & Housing",
+          "quote": "As chair of the Energy and Water subcommittee on Appropriations, Marcy believes we need an “all of the above” energy policy.",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Jobs, Costs & the Economy",
+          "quote": "She is fighting to bring jobs home, take away tax breaks from companies that ship jobs overseas, and for tariffs that protect Ohio-based factories and companies.",
+          "said_on": "",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Energy, Infrastructure & Housing",
+          "quote": "Marcy is a leader in efforts to increase the supply of affordable housing, while reducing the dangers of lead in legacy homes.",
+          "said_on": "",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Jobs, Costs & the Economy",
+          "quote": "She has and will continue to fight to lower the costs of healthcare, prescription drugs, and groceries, while working to create high-wage jobs and make life easier for all.",
+          "said_on": "",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration & Our Border",
+          "quote": "She has voted to improve and expand border security, to hire more than 10,000 border agents, and to enable military presence at the border if needed.",
+          "said_on": "",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Defense & Foreign Affairs",
+          "quote": "Marcy is a strong believer that Congress, and not the president alone, must have a voice in defense actions.",
+          "said_on": "",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy, Infrastructure & Housing",
+          "quote": "As chair of the Energy and Water subcommittee on Appropriations, Marcy believes we need an “all of the above” energy policy.",
+          "said_on": "",
+          "source": "marcy-kaptur-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "derek-merrin",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "derek-merrin-site-home"
+      ],
+      "priorities_note": "His campaign website has no list of issues. It has a biography of his record in the Ohio legislature, so we quote that record below.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Meet Derek",
+          "quote": "He is a strong advocate for lower taxes, simplifying the tax code, and promoting transparency.",
+          "said_on": "",
+          "source": "derek-merrin-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Meet Derek",
+          "quote": "After a five-year push, Merrin pushed through the Affordable Homebuilding & Housing Act, which blocks property tax increases on subdivided lots until the home is built or lot is sold.",
+          "said_on": "",
+          "source": "derek-merrin-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "An Ohio state law he passed, from his biography."
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Meet Derek",
+          "quote": "He previously served as Chairman of the House Health Committee where he advocated for policies to reduce healthcare costs, promote price transparency, and ensure better patient access through fewer regulations.",
+          "said_on": "",
+          "source": "derek-merrin-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "From his time in the Ohio House, per his biography."
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
