@@ -1,0 +1,221 @@
+{
+  "race": "wa-03",
+  "candidates": [
+    {
+      "candidate": "john-braun",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "john-braun-site-home",
+        "john-braun-site-about",
+        "john-braun-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Cost of Living & Small Business",
+          "quote": "I'll push for a pro-growth, pro-work agenda: cut wasteful spending that feeds inflation, reduce red tape on small manufacturers, and protect the skilled-trades economy that powers Southwest Washington.",
+          "source": "john-braun-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Education: Parental Rights & College Affordability",
+          "quote": "I support the Parents Bill of Rights at the federal level.",
+          "source": "john-braun-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Crime, Homelessness & Public Order",
+          "quote": "I'll pair compassion with consequences: shut down open-air drug markets, support local camping bans when shelter is available, supercharge fentanyl interdiction, and fund detox and mental-health beds.",
+          "source": "john-braun-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Cost of Living & Small Business",
+          "quote": "I'll push for a pro-growth, pro-work agenda: cut wasteful spending that feeds inflation, reduce red tape on small manufacturers, and protect the skilled-trades economy that powers Southwest Washington.",
+          "said_on": "",
+          "source": "john-braun-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Crime, Homelessness & Public Order",
+          "quote": "I'll pair compassion with consequences: shut down open-air drug markets, support local camping bans when shelter is available, supercharge fentanyl interdiction, and fund detox and mental-health beds.",
+          "said_on": "",
+          "source": "john-braun-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "From his section on crime and homelessness (camping bans when shelter is available)."
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure the Border, Stop Fentanyl",
+          "quote": "I'll complete high-priority barriers, hire and equip more agents, deploy proven technology, tighten asylum loopholes, and go after cartel supply chains.",
+          "said_on": "",
+          "source": "john-braun-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Veterans & National Defense",
+          "quote": "I'll support a lethal, modern force, care for veterans with faster access to care and benefits and rebuild the industrial base—especially small manufacturers—so America never fights short of parts or people.",
+          "said_on": "",
+          "source": "john-braun-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy Independence",
+          "quote": "I'll champion market-based production including hydropower, solar, oil, natural gas and nuclear power.",
+          "said_on": "",
+          "source": "john-braun-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "marie-gluesenkamp-perez",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "marie-gluesenkamp-perez-site-home",
+        "marie-gluesenkamp-perez-site-about",
+        "marie-gluesenkamp-perez-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Fighting for Reproductive Freedom",
+          "quote": "Marie will do whatever it takes to prevent a national abortion ban, which would override the will of the people of Washington State.",
+          "source": "marie-gluesenkamp-perez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Safeguarding Our Communities & Securing the Border",
+          "quote": "Marie will always fight to make sure state and local law enforcement agencies have the resources they need to keep Fentanyl and illegal guns off of our streets.",
+          "source": "marie-gluesenkamp-perez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Championing the Right to Repair",
+          "quote": "She is working to stop manufacturers of farm and consumer equipment from gouging their customers by forcing them to pay the original manufacturer for repairs.",
+          "source": "marie-gluesenkamp-perez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Fighting Inflation",
+          "quote": "Marie has been working in Congress to combat unfair business practices — like opposing mergers of major grocery chains and opposing deceptive “Shrinkflation” food packaging.",
+          "said_on": "",
+          "source": "marie-gluesenkamp-perez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Supporting Working Families",
+          "quote": "In Congress, she is working to bring down the cost of housing, increase choices for childcare options, and cut out the middlemen who jack up the cost of healthcare.",
+          "said_on": "",
+          "source": "marie-gluesenkamp-perez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Supporting Working Families",
+          "quote": "In Congress, she is working to bring down the cost of housing, increase choices for childcare options, and cut out the middlemen who jack up the cost of healthcare.",
+          "said_on": "",
+          "source": "marie-gluesenkamp-perez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "Her one sentence on health costs, from her section on working families."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Addressing Substance Abuse",
+          "quote": "Marie believes in fighting the drug crisis through increased border security, stricter punishments for sale and possession, expanded access to treatment and rehab, and better job opportunities.",
+          "said_on": "",
+          "source": "marie-gluesenkamp-perez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "Her only line on the border, from her section on drug abuse. Her \"Securing the Border\" section is about police funding."
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Acting on the Climate Crisis",
+          "quote": "Marie has also championed tax-rebates for energy efficiency upgrades for working class families, like weather skirting for mobile homes.",
+          "said_on": "",
+          "source": "marie-gluesenkamp-perez-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

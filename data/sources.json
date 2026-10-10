@@ -8589,5 +8589,53 @@
   "url": "https://www.bouchardforcongress.com/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "john-braun-site-issues",
+  "title": "Issues page",
+  "publisher": "John Braun campaign website",
+  "url": "https://www.votebraun.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "john-braun-site-home",
+  "title": "Home page",
+  "publisher": "John Braun campaign website",
+  "url": "https://www.votebraun.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "john-braun-site-about",
+  "title": "About page",
+  "publisher": "John Braun campaign website",
+  "url": "https://www.votebraun.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "marie-gluesenkamp-perez-site-issues",
+  "title": "Issues page",
+  "publisher": "Marie Gluesenkamp Perez campaign website",
+  "url": "https://marieforcongress.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "marie-gluesenkamp-perez-site-home",
+  "title": "Home page",
+  "publisher": "Marie Gluesenkamp Perez campaign website",
+  "url": "https://marieforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "marie-gluesenkamp-perez-site-about",
+  "title": "About page",
+  "publisher": "Marie Gluesenkamp Perez campaign website",
+  "url": "https://marieforcongress.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]
