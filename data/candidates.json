@@ -2195,7 +2195,7 @@
     "sort_name": "Hines",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.christinahinesforcongress.com",
     "fec_id": "H6MI10276",
     "source": "official-mi-2026"
   },
@@ -2206,7 +2206,7 @@
     "sort_name": "Bouchard",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.bouchardforcongress.com",
     "fec_id": "H6MI10359",
     "source": "official-mi-2026"
   },
