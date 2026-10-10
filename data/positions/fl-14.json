@@ -1,0 +1,334 @@
+{
+  "race": "fl-14",
+  "candidates": [
+    {
+      "candidate": "mike-beltran",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "mike-beltran-site-home",
+        "mike-beltran-site-about",
+        "mike-beltran-site-platform"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Lower Healthcare Costs & Expand Access",
+          "quote": "Mike broke up healthcare bureaucracies that blocked new clinics from opening and expanded telehealth access so affordable, high-quality care is available to everyone, especially working families and seniors.",
+          "source": "mike-beltran-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Lower the Cost of Living & Keep More of What You Earn",
+          "quote": "In Congress, Mike will cut the wasteful spending that drives prices up and keep your money in your pocket.",
+          "source": "mike-beltran-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Grow Jobs & Remove Barriers to Opportunity",
+          "quote": "In Congress, he'll fight to reduce the regulations that raise costs and limit opportunity for Tampa Bay families and businesses.",
+          "source": "mike-beltran-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Lower the Cost of Living & Keep More of What You Earn",
+          "quote": "In Congress, Mike will cut the wasteful spending that drives prices up and keep your money in your pocket.",
+          "said_on": "",
+          "source": "mike-beltran-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Lower Healthcare Costs & Expand Access",
+          "quote": "Mike broke up healthcare bureaucracies that blocked new clinics from opening and expanded telehealth access so affordable, high-quality care is available to everyone, especially working families and seniors.",
+          "said_on": "",
+          "source": "mike-beltran-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Secure the Border",
+          "quote": "We need to finish the wall, deport the criminals and fraudsters, and restore law and order at our southern border.",
+          "said_on": "",
+          "source": "mike-beltran-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Support Our Veterans & Military",
+          "quote": "He supports a strong national defense and a military that is focused on protecting America, not advancing political agendas.",
+          "said_on": "",
+          "source": "mike-beltran-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Protect Our Community From Overreach",
+          "quote": "Mike will fight to ensure no data center is built in our community without local approval and a guarantee it won't raise your energy bills or harm our environment.",
+          "said_on": "",
+          "source": "mike-beltran-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "From his section on data centers, on keeping energy bills from rising."
+        }
+      }
+    },
+    {
+      "candidate": "kathy-castor",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "kathy-castor-site-home",
+        "kathy-castor-site-about",
+        "kathy-castor-site-delivering-for-florida"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Tampa Airport",
+          "quote": "Kathy has secured more than $114 million in the last three years to modernize Tampa International Airport (TPA), helping keep it among the nation's top airports while strengthening our regional economy, boosting tourism, and supporting good-paying local jobs.",
+          "source": "kathy-castor-site-delivering-for-florida",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Port Tampa Bay",
+          "quote": "Over the past four years alone, Kathy secured more than $63 million to expand Port Tampa Bay - creating jobs, strengthening the local economy, and helping businesses move more goods through Florida's largest port.",
+          "source": "kathy-castor-site-delivering-for-florida",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Transportation & Transit",
+          "quote": "Kathy has secured more than $250 million to improve roads, bridges, transit, and waterfront infrastructure across Tampa.",
+          "source": "kathy-castor-site-delivering-for-florida",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Meet Kathy",
+          "quote": "From securing federal investments that drive the local economy to championing landmark environmental protections, she works tirelessly to lower family costs, create good-paying jobs, and protect Florida’s unique way of life.",
+          "said_on": "",
+          "source": "kathy-castor-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Housing",
+          "quote": "Kathy has secured more than $76 million to build and preserve affordable housing in Tampa.",
+          "said_on": "",
+          "source": "kathy-castor-site-delivering-for-florida",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "About Kathy",
+          "quote": "She worked to pass the Bipartisan Infrastructure Law and led bipartisan bills to improve healthcare for our nation’s sickest kids, including by expanding access to life-saving treatments for cancer and other rare diseases.",
+          "said_on": "",
+          "source": "kathy-castor-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "MacDill Air Force Base",
+          "quote": "Along with championing funding for service member and civilian pay raises and improved military housing, Kathy has secured millions of dollars to expand the Tinker PreK-8 school on base and construct a Joint Special Operations University to educate our nation’s special operators.",
+          "said_on": "",
+          "source": "kathy-castor-site-delivering-for-florida",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "From her section on MacDill Air Force Base (military pay and base projects)."
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "About Kathy",
+          "quote": "Kathy Castor will continue to fight for a diverse and strong Tampa Bay economy that keeps costs for families in check, keeps health care and energy affordable, and protects our way of life.",
+          "said_on": "",
+          "source": "kathy-castor-site-about",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "Her only line on energy (keeping it affordable), from her About page."
+        }
+      }
+    },
+    {
+      "candidate": "brian-lambert",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "brian-lambert-site-home",
+        "brian-lambert-site-about-brian",
+        "brian-lambert-site-issues",
+        "brian-lambert-site-issues-fiscal-responsibility",
+        "brian-lambert-site-issues-individual-liberty",
+        "brian-lambert-site-issues-election-integrity",
+        "brian-lambert-site-issues-constitutional-government",
+        "brian-lambert-site-issues-veterans"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Fiscal Responsibility",
+          "quote": "Restore fiscal discipline, balance the budget, and protect future generations from crushing debt.",
+          "source": "brian-lambert-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Constitutional Government",
+          "quote": "The Constitution limits the government—not the people.",
+          "source": "brian-lambert-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Individual Liberty",
+          "quote": "Protect the freedoms guaranteed by the Bill of Rights and defend individual choice.",
+          "source": "brian-lambert-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy & Small Business",
+          "quote": "Lower taxes, reduce regulation, and let American entrepreneurs succeed.",
+          "said_on": "",
+          "source": "brian-lambert-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare Reform",
+          "quote": "Restore patient choice, medical freedom, price transparency, and competition while reducing unnecessary federal interference in healthcare.",
+          "said_on": "",
+          "source": "brian-lambert-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border Security & Immigration",
+          "quote": "Secure every border and port of entry while supporting legal immigration and the rule of law.",
+          "said_on": "",
+          "source": "brian-lambert-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "National Defense",
+          "quote": "Peace through strength, constitutional accountability, and unwavering support for our troops.",
+          "said_on": "",
+          "source": "brian-lambert-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Energy & American Independence",
+          "quote": "Reliable, affordable energy strengthens our economy, protects national security, and reduces dependence on foreign adversaries.",
+          "said_on": "",
+          "source": "brian-lambert-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
