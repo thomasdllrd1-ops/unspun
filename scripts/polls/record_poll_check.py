@@ -1,7 +1,7 @@
 """Mark a poll as checked by the AI assistant, optionally correcting fields/results to match the source.
 usage: python3 upd.py <poll_id> '<json>'   json keys: fields{...}, results[[candidate_id_or_label, pct], ...], note"""
-import csv, json, sys
-D='/Users/thomasdillard/Documents/unspun/data'
+import csv, json, os, sys
+D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data')  # repo/data, wherever the repo lives
 pid, ch = sys.argv[1], json.loads(sys.argv[2]) if len(sys.argv) > 2 else {}
 p=f'{D}/polls/polls.csv'; rows=list(csv.DictReader(open(p))); f=list(rows[0].keys())
 row=next(r for r in rows if r['id']==pid)

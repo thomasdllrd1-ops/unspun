@@ -1,8 +1,8 @@
 """Turn poll_checks.json (Wikipedia leads + automatic source check) into data/polls rows."""
-import json, csv, re, hashlib, sys, unicodedata
+import csv, hashlib, json, os, re, sys, unicodedata
 from urllib.parse import urlparse
 S = '/private/tmp/claude-501/-Users-thomasdillard-Documents-unspun/ed9b92f3-1f40-47d4-a497-db20b912688b/scratchpad'
-D = '/Users/thomasdillard/Documents/unspun/data'
+D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data')  # repo/data, wherever the repo lives
 DRY = '--dry' in sys.argv
 TODAY = '2026-09-25'
 AB = {"Alabama":"al","Alaska":"ak","Arkansas":"ar","Colorado":"co","Delaware":"de","Florida":"fl","Georgia":"ga","Idaho":"id","Illinois":"il","Iowa":"ia","Kansas":"ks","Kentucky":"ky","Louisiana":"la","Maine":"me","Massachusetts":"ma","Michigan":"mi","Minnesota":"mn","Mississippi":"ms","Montana":"mt","Nebraska":"ne","New_Hampshire":"nh","New_Jersey":"nj","New_Mexico":"nm","North_Carolina":"nc","Ohio":"oh","Oklahoma":"ok","Oregon":"or","Rhode_Island":"ri","South_Carolina":"sc","South_Dakota":"sd","Tennessee":"tn","Texas":"tx","West_Virginia":"wv","Wyoming":"wy"}
@@ -36,7 +36,7 @@ by_race = {}
 for c in cands: by_race.setdefault(c['race'], []).append(c)
 sources = json.load(open(f'{D}/sources.json')); src_ids = {s['id'] for s in sources}
 pollsters = json.load(open(f'{D}/pollsters.json')); pollster_names = {p['name'] for p in pollsters}
-fte = list(csv.DictReader(open('/Users/thomasdillard/Documents/unspun/data/raw/pollster-ratings-combined.csv')))
+fte = list(csv.DictReader(open(os.path.join(D, 'raw', 'pollster-ratings-combined.csv'))))
 fte_by = {r['pollster'].lower(): int(r['pollster_rating_id']) for r in fte}
 polls_f = list(csv.DictReader(open(f'{D}/polls/polls.csv'))); fields = list(polls_f[0].keys())
 res_f = list(csv.DictReader(open(f'{D}/polls/poll_results.csv'))); rfields = list(res_f[0].keys())

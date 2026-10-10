@@ -1,8 +1,8 @@
 """Merge verified candidate lists + staged races/ratings/results/polls into /data.
 Run from anywhere: python3 integrate.py [--dry]"""
-import json, csv, re, sys, glob, hashlib, unicodedata
+import csv, glob, hashlib, json, os, re, sys, unicodedata
 S = '/private/tmp/claude-501/-Users-thomasdillard-Documents-unspun/ed9b92f3-1f40-47d4-a497-db20b912688b/scratchpad'
-D = '/Users/thomasdillard/Documents/unspun/data'
+D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data')  # repo/data, wherever the repo lives
 DRY = '--dry' in sys.argv
 TODAY = '2026-09-25'
 
