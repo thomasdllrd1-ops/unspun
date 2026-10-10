@@ -1,0 +1,221 @@
+{
+  "race": "pa-08",
+  "candidates": [
+    {
+      "candidate": "rob-bresnahan",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "rob-bresnahan-site-home",
+        "rob-bresnahan-site-about"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Border",
+          "quote": "We must secure the border, build the wall, and reverse the Biden/Harris failed policies to stop the flow of illegal drugs and criminals into our communities.",
+          "source": "rob-bresnahan-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Economy",
+          "quote": "We need to stop the reckless spending, get inflation under control, and cut taxes so you can keep more of the money you earn for your family.",
+          "source": "rob-bresnahan-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "Social Security & Medicare",
+          "quote": "I will not support raising the retirement age or any benefit cuts to these programs.",
+          "source": "rob-bresnahan-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economy",
+          "quote": "We need to stop the reckless spending, get inflation under control, and cut taxes so you can keep more of the money you earn for your family.",
+          "said_on": "",
+          "source": "rob-bresnahan-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Social Security & Medicare",
+          "quote": "I will not support raising the retirement age or any benefit cuts to these programs.",
+          "said_on": "",
+          "source": "rob-bresnahan-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "From his \"Social Security & Medicare\" section."
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border",
+          "quote": "We must secure the border, build the wall, and reverse the Biden/Harris failed policies to stop the flow of illegal drugs and criminals into our communities.",
+          "said_on": "",
+          "source": "rob-bresnahan-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "paige-cognetti",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "paige-cognetti-site-home",
+        "paige-cognetti-site-meet-paige-cognetti",
+        "paige-cognetti-site-priorities",
+        "paige-cognetti-site-anti-corruption-agenda"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Government should work as hard as the people it serves",
+          "quote": "A Ban on Congressional Stock Trading.",
+          "source": "paige-cognetti-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Fight for families so they can get ahead",
+          "quote": "Break up the huge monopolies that hurt our small businesses and raise costs.",
+          "source": "paige-cognetti-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "NEPA Builds, Build it here",
+          "quote": "Reshore manufacturing jobs, including continuing to add more defense manufacturing in Northeastern Pennsylvania.",
+          "source": "paige-cognetti-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Fight for families so they can get ahead",
+          "quote": "Break up the huge monopolies that hurt our small businesses and raise costs.",
+          "said_on": "",
+          "source": "paige-cognetti-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Fight for families so they can get ahead",
+          "quote": "Prevent healthcare industry middlemen from denying care and medications prescribed by doctors.",
+          "said_on": "",
+          "source": "paige-cognetti-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Stand up to data center developers trying to take advantage of our community",
+          "quote": "Pay their own way and supply their own energy resources. Produce your own energy, don’t poison our water, and don’t jack up utility costs for local businesses and residents.",
+          "said_on": "",
+          "source": "paige-cognetti-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": "From her rules for data centers, on who pays for their power."
+        }
+      }
+    }
+  ]
+}
