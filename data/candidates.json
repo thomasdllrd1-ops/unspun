@@ -1962,7 +1962,7 @@
     "sort_name": "Evans",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://www.electgabeevans.com",
     "fec_id": "H4CO08034",
     "source": "official-co-2026"
   },
@@ -1973,7 +1973,7 @@
     "sort_name": "Rutinel",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.mannyforcolorado.com",
     "fec_id": "H6CO08013",
     "source": "official-co-2026"
   },
