@@ -1918,7 +1918,7 @@
     "sort_name": "Ciscomani",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://juanciscomani.com",
     "fec_id": "H2AZ02360",
     "source": "wikipedia-house-2026"
   },
@@ -1929,7 +1929,7 @@
     "sort_name": "Mendoza",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.joannamendoza.com",
     "fec_id": "H6AZ06099",
     "source": "wikipedia-house-2026"
   },
@@ -1951,7 +1951,7 @@
     "sort_name": "Swing",
     "party": "green",
     "incumbent": false,
-    "website": null,
+    "website": "https://theswingvote.wixsite.com",
     "fec_id": "H6AZ06164",
     "source": "wikipedia-house-2026"
   },
