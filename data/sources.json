@@ -8125,5 +8125,45 @@
   "url": "https://www.mannyforcolorado.com/meetmanny",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "william-lawrence-site-platform",
+  "title": "Platform page",
+  "publisher": "William Lawrence campaign website",
+  "url": "https://wewill2026.com/platform/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "william-lawrence-site-home",
+  "title": "Home page",
+  "publisher": "William Lawrence campaign website",
+  "url": "https://wewill2026.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "william-lawrence-site-about",
+  "title": "About page",
+  "publisher": "William Lawrence campaign website",
+  "url": "https://wewill2026.com/about/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "tom-barrett-site-home",
+  "title": "Home page",
+  "publisher": "Tom Barrett campaign website",
+  "url": "https://tombarrettforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "tom-barrett-site-7th-district",
+  "title": "7th district page",
+  "publisher": "Tom Barrett campaign website",
+  "url": "https://tombarrettforcongress.com/7th-district",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]

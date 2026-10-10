@@ -1,0 +1,270 @@
+{
+  "race": "mi-07",
+  "candidates": [
+    {
+      "candidate": "tom-barrett",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "tom-barrett-site-home",
+        "tom-barrett-site-7th-district"
+      ],
+      "priorities_note": "His campaign website has no list of issues and no stances on our 6 issues. It has a biography, a page about the district, and pages to endorse, volunteer and donate.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "shane-dedrick",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-mi-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Michigan's official candidate list doesn't include websites, a web search on Oct 10, 2026 found none, and Michigan news reports in August 2026 said he had no campaign website.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "william-lawrence",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "william-lawrence-site-home",
+        "william-lawrence-site-about",
+        "william-lawrence-site-platform"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Make housing affordable",
+          "quote": "We need major federal investment in quality housing, at all price points.",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 2,
+          "heading": "Guarantee healthcare",
+          "quote": "I support Medicare for All, which would remove the profit motive from health insurance and allow us all to access quality care, for a lower price.",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        },
+        {
+          "rank": 3,
+          "heading": "End homelessness",
+          "quote": "I support a “Housing First” approach, because having housing is the essential condition to rebuild a stable life.",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Tax the billionaires",
+          "quote": "I support a billionaire minimum tax, which is a minimum wealth tax rate that the mega-wealthy must pay.",
+          "said_on": "",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Make housing affordable",
+          "quote": "We need major federal investment in quality housing, at all price points.",
+          "said_on": "",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Guarantee healthcare",
+          "quote": "I support Medicare for All, which would remove the profit motive from health insurance and allow us all to access quality care, for a lower price.",
+          "said_on": "",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "End the ICE occupation of American cities and streets; create a path to citizenship for immigrants",
+          "quote": "I support a path to citizenship for undocumented immigrants, in order to level the playing field for all workers in the United States, and raise wages for everybody.",
+          "said_on": "",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Say no to endless war",
+          "quote": "Most urgently, we must stop arming Israel, which is pursuing a genocide of Palestinians in Gaza with U.S. weapons and tax dollars.",
+          "said_on": "",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Defend our water, land, air and climate",
+          "quote": "I will fight for investment to secure the climate we depend on, adapt to the changes we can’t prevent, and finally drive our electric bills down.",
+          "said_on": "",
+          "source": "william-lawrence-site-platform",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    }
+  ]
+}
