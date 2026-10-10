@@ -11,6 +11,7 @@ import EvidenceTag from '../../components/EvidenceTag.astro';
 import StanceCard from '../../components/StanceCard.astro';
 import Pending from '../../components/Pending.astro';
 import Funders from '../../components/Funders.astro';
+import Portrait from '../../components/Portrait.astro';
 import { stateName } from '../../lib/states';
 import { db, raceById, moneyFor, lastChecked, candidatesInRace, raceResearch, issueList } from '../../lib/data';
 import { money, date } from '../../lib/format';
@@ -27,13 +28,19 @@ const cp = research.shown ? research.byCandidate.get(c.id) : undefined;
 const found = cp ? issueList.filter((i) => cp.stances[i.id].evidence !== 'no-position').length : 0;
 const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-registering-candidate' : null, ...(cp?.looked_at ?? [])];
 ---
-<Layout title={c.ballot_name} description={`${c.ballot_name}, candidate for ${race.name}: money raised and where they stand, with sources.`} updated={lastChecked(sourceIds)}>
+<Layout title={c.ballot_name} description={`${c.ballot_name}, candidate for ${race.name}: money raised and where they stand, with sources.`} updated={lastChecked(sourceIds)} wide>
   <nav class="small muted" aria-label="Breadcrumb"><a href={`/states/${race.state.toLowerCase()}/`}>{stateName(race.state)}</a> › <a href={`/races/${race.id}/`}>{race.short}</a></nav>
-  <div class="eyebrow" style="margin-top:8px">{race.name}</div>
-  <h1>{c.ballot_name}</h1>
-  <p class="row"><PartyTag party={c.party} />{c.incumbent && <span class="chip"><Term id="incumbent">Incumbent</Term></span>}</p>
+  <header class="chead">
+    <Portrait c={c} size="lg" />
+    <div>
+      <div class="eyebrow">{race.name}</div>
+      <h1>{c.ballot_name}</h1>
+      <p class="row"><PartyTag party={c.party} />{c.incumbent && <span class="chip"><Term id="incumbent">Incumbent</Term></span>}<a href={`/races/${race.id}/`}>The race →</a></p>
+    </div>
+  </header>
 
-  <div class="stack">
+  <div class="cgrid">
+  <div class="stack main-col">
     {cp ? (
       <>
         <section class="card" aria-labelledby="top3">
@@ -87,28 +94,31 @@ const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-reg
       </section>
     )}
 
+
+    <Funders candidateId={c.id} />
+
+  </div>
+  <aside class="stack side-col">
     <section class="card">
       <h2>Money</h2>
       {m.status === 'ok' ? (
         <dl class="stats">
-          <div><dt>Raised</dt><dd class="num">{money(m.receipts)}</dd></div>
-          <div><dt>Spent</dt><dd class="num">{money(m.disbursements)}</dd></div>
-          <div><dt><Term id="cash-on-hand">Cash on hand</Term></dt><dd class="num">{money(m.cash_on_hand)}</dd></div>
+          <div><dt>Raised</dt><dd>{money(m.receipts)}</dd></div>
+          <div><dt>Spent</dt><dd>{money(m.disbursements)}</dd></div>
+          <div><dt><Term id="cash-on-hand">Cash on hand</Term></dt><dd>{money(m.cash_on_hand)}</dd></div>
         </dl>
       ) : <p class="text-2">{m.note} {m.status === 'not-registered' && <Source id="fec-registering-candidate" label="FEC rule" />}</p>}
       {m.status === 'ok' && <p class="small muted">Reports cover {m.coverage_start ? `${date(m.coverage_start)} – ` : 'through '}{date(m.coverage_end)}. <a href={m.fec_url} target="_blank" rel="noopener">See it on fec.gov ↗</a></p>}
     </section>
-
-    <Funders candidateId={c.id} />
-
     {others.length > 0 && (
       <section class="card">
         <h2>Also running in {race.short}</h2>
-        <ul class="plain">{others.map((o) => <li><a href={`/candidates/${o.id}/`}>{o.ballot_name}</a> <PartyTag party={o.party} /></li>)}</ul>
+        <ul class="others">{others.map((o) => <li><Portrait c={o} size="sm" /><span><a href={`/candidates/${o.id}/`}>{o.ballot_name}</a><PartyTag party={o.party} /></span></li>)}</ul>
       </section>
     )}
-    <SourceList ids={sourceIds} />
+  </aside>
   </div>
+  <SourceList ids={sourceIds} />
 </Layout>
 <style>
   .prio { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 14px; }
@@ -124,9 +134,20 @@ const sourceIds = [c.source, 'fec-api', m.status === 'not-registered' ? 'fec-reg
   .iname { font-weight: 700; flex: 1 1 auto; }
   .iss summary :global(.ev) { margin-left: auto; }
   .ibody { padding: 0 12px 12px; }
-  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 8px; }
-  .stats dt { font-size: 0.8rem; color: var(--muted); }
-  .stats dd { margin: 0; font-size: 1.3rem; font-weight: 800; }
+  .chead { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; margin: 6px 0 20px; }
+  .chead h1 { margin: 4px 0 8px; }
+  .chead .row { gap: 10px; align-items: center; }
+  .cgrid { display: grid; gap: var(--gap); align-items: start; }
+  @media (min-width: 1000px) { .cgrid { grid-template-columns: minmax(0, 1.65fr) minmax(300px, 1fr); } }
+  .main-col, .side-col { min-width: 0; }
+  .stats { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 0 0 8px; }
+  .stats > div { background: var(--navy); color: var(--paper); padding: 10px 14px; border-top: 3px solid var(--gold); }
+  .stats dt { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: #DCD3BD; }
+  .stats dt :global(a), .stats dt :global(button) { color: inherit; }
+  .stats dd { margin: 2px 0 0; font-family: var(--font-display); font-size: 2rem; line-height: 1.1; color: var(--gold-light); }
+  .others { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .others li { display: flex; align-items: center; gap: 12px; }
+  .others span { display: grid; gap: 2px; }
   .plain { list-style: none; padding: 0; margin: 0; }
   .plain li { padding: 6px 0; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 </style>

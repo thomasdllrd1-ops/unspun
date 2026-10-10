@@ -12,12 +12,19 @@ import { money, date } from '../lib/format';
 
 interface Props { candidateId: string }
 const f = fundersOf(Astro.props.candidateId);
-const TOP = 10;
+const TOP = 6;
 const lists = f ? [
   { key: 'given', title: 'PAC gifts to the campaign', rows: f.given, none: 'No committee gifts reported yet.' },
   { key: 'for', title: 'Outside spending for them', rows: f.forThem, none: 'No outside spending for them reported yet.' },
   { key: 'against', title: 'Outside spending against them', rows: f.against, none: 'No outside spending against them reported yet.' },
 ] : [];
+// What kinds of committees gave: one stacked bar (FEC types, grouped)
+const KIND_GROUP = (k: string) => k.startsWith('Corporate') ? 'Companies' : k.startsWith('Labor') ? 'Unions' : k.startsWith('Trade') ? 'Trade groups'
+  : k.startsWith('Membership') || k.startsWith('Cooperative') || k.startsWith('Nonprofit') ? 'Member groups' : k.startsWith('Leadership') || k.startsWith('Another candidate') ? 'Politicians' : k.startsWith('Party') ? 'Parties' : 'Other PACs';
+const mix = new Map<string, number>();
+for (const r of f?.given ?? []) mix.set(KIND_GROUP(r.kind), (mix.get(KIND_GROUP(r.kind)) ?? 0) + r.amount);
+const mixTotal = [...mix.values()].reduce((a, b) => a + b, 0);
+const mixRows = [...mix].sort((a, b) => b[1] - a[1]);
 const span = f && f.cycles.length > 1 ? `${Number(f.cycles[0]) - 1}–${f.cycles.at(-1)}, a senator's full 6-year term` : '2025–2026';
 ---
 <section class="card" aria-labelledby="fund-h">
@@ -26,6 +33,14 @@ const span = f && f.cycles.length > 1 ? `${Number(f.cycles[0]) - 1}–${f.cycles
   {f ? (
     <>
       <p class="headline">{money(sum(f.given))} from {f.given.length} committees to the campaign. Outside groups spent {money(sum(f.forThem))} for them and {money(sum(f.against))} against them.</p>
+      {mixTotal > 0 && (
+        <figure class="mix">
+          <div class="mixbar" role="img" aria-label={`PAC gifts by kind: ${mixRows.map(([k, v]) => `${k} ${money(v)}`).join(', ')}`}>
+            {mixRows.map(([k, v], i) => <span class={`seg s${i}`} style={`width:${(v / mixTotal) * 100}%`} title={`${k}: ${money(v)}`}></span>)}
+          </div>
+          <figcaption class="mixkey">{mixRows.map(([k, v], i) => <span><i class={`seg s${i}`}></i>{k} <b>{money(v)}</b></span>)}</figcaption>
+        </figure>
+      )}
       {lists.map((l) => (
         <div class="list">
           <h3>{l.title}</h3>
@@ -53,6 +68,12 @@ const span = f && f.cycles.length > 1 ? `${Number(f.cycles[0]) - 1}–${f.cycles
   )}
 </section>
 <style>
+  .mix { margin: 14px 0 4px; }
+  .mixbar { display: flex; height: 22px; border: 1px solid var(--border); }
+  .seg { display: inline-block; height: 100%; }
+  .s0 { background: var(--navy); } .s1 { background: var(--gold); } .s2 { background: #6E7FA3; } .s3 { background: var(--gold-dark); } .s4 { background: #A9B5CC; } .s5 { background: #D8C38D; } .s6 { background: var(--ink-mute); }
+  .mixkey { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 8px; font-size: 0.82rem; }
+  .mixkey i { display: inline-block; width: 12px; height: 12px; margin-right: 6px; vertical-align: -1px; }
   .list { margin-top: 18px; }
   .list h3 { margin: 0 0 4px; }
   .ledger { list-style: none; padding: 0; margin: 0; }

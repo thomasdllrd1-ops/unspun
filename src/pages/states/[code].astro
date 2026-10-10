@@ -39,8 +39,17 @@ const n = races.length;
     return (
       <section class="race" aria-labelledby={`h-${race.id}`}>
         <h2 id={`h-${race.id}`}><a href={`/races/${race.id}/`}>{race.chamber === 'senate' ? `U.S. Senate${race.id.includes('special') ? ' (special election)' : ''}` : `U.S. House · ${race.short}`}</a></h2>
-        <Scoreboard s={summarize(race, today)} />
-        <h3 class="sub">In their own words: top priorities</h3>
+        <div class="rgrid">
+        <div class="rboard">
+          <Scoreboard s={summarize(race, today)} />
+          <p class="links small">
+            <a href={`/races/${race.id}/`}>Full race page</a>
+            <a href={`/races/${race.id}/compare/`}>Side by side</a>
+            <a href={`/races/${race.id}/quiz/`}>Blind quiz</a>
+          </p>
+        </div>
+        <div class="rcands">
+        <h3 class="sub">Top priorities, in their words</h3>
         {research.shown ? (
           <ul class="cands">
             {cands.map((c) => {
@@ -50,7 +59,7 @@ const n = races.length;
                   <div class="whorow"><Portrait c={c} size="sm" /><p class="who"><a href={`/candidates/${c.id}/`}>{c.ballot_name}</a>{c.incumbent && <span class="chip">Incumbent</span>} <PartyTag party={c.party} /></p></div>
                   {cp.priorities.length ? (
                     <ol class="pri">
-                      {cp.priorities.map((p) => <li><strong>{p.heading}</strong>{p.quote && <span class="q"> “{p.quote}”</span>}</li>)}
+                      {cp.priorities.map((p) => <li><a href={`/candidates/${c.id}/#top3`}>{p.heading || `${p.quote.split(' ').slice(0, 10).join(' ')}…`}</a></li>)}
                     </ol>
                   ) : <p class="small muted">{cp.priorities_note}</p>}
                   <TopGroups candidateId={c.id} />
@@ -61,11 +70,8 @@ const n = races.length;
         ) : (
           <p class="small muted">Not yet researched. We publish a race's positions only when every candidate in it has been checked. Candidates: {cands.map((c) => c.ballot_name).join(', ')}.</p>
         )}
-        <p class="links small">
-          <a href={`/races/${race.id}/`}>Full race page</a>
-          <a href={`/races/${race.id}/compare/`}>Side by side</a>
-          <a href={`/races/${race.id}/quiz/`}>Blind quiz: who matches you?</a>
-        </p>
+        </div>
+        </div>
       </section>
     );
   })}
@@ -82,11 +88,15 @@ const n = races.length;
 <style>
   .lead { font-family: var(--font-serif); font-size: 1.2rem; color: var(--text-2); }
   .all { margin-top: 40px; }
-  .race { margin: 32px 0; }
+  .race { margin: 36px 0; }
+  .rgrid { display: grid; gap: 16px; align-items: start; }
+  @media (min-width: 1000px) { .rgrid { grid-template-columns: minmax(320px, 420px) minmax(0, 1fr); gap: 24px; } }
+  .rcands, .rboard { min-width: 0; }
   .race h2 a { color: inherit; text-decoration: none; }
   .race h2 a:hover { text-decoration: underline; }
-  .sub { margin-top: 18px; }
-  .cands { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; }
+  .sub { margin: 0 0 4px; font-size: 1.05rem; }
+  .pri a { color: inherit; }
+  .cands { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
   .whorow { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
   .who { margin: 0; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; }
   .pri { margin: 0; padding-left: 22px; }

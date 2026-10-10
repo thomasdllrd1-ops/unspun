@@ -55,9 +55,11 @@ const payload = JSON.stringify({
         <g class="outlines" aria-hidden="true">
           {geo.outlines.map((o) => <path d={o.d} />)}
         </g>
-        <g class="labels" aria-hidden="true">
-          {geo.outlines.map((o) => <text x={o.x} y={o.y}>{label(o.n)}</text>)}
-        </g>
+        {geo.outlines.length <= 4 && (
+          <g class="labels" aria-hidden="true">
+            {geo.outlines.map((o) => <text x={o.x} y={o.y}>{label(o.n)}</text>)}
+          </g>
+        )}
       </svg>
       <figcaption class="legend">
         {senate.length > 0 && <span><i class="sw sw-sen"></i>Senate race: whole state</span>}
