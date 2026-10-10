@@ -7845,5 +7845,77 @@
   "url": "https://www.vanordenforcongress.com/about/",
   "type": "campaign",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "monica-alponte-site-home",
+  "title": "Home page",
+  "publisher": "Monica Alponte campaign website",
+  "url": "https://monicaalponteaz.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "monica-alponte-site-meetups",
+  "title": "Meetups page",
+  "publisher": "Monica Alponte campaign website",
+  "url": "https://monicaalponteaz.com/meetups",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "monica-alponte-site-seniors-2c-disabled-2c-vets",
+  "title": "Seniors, disabled, vets page",
+  "publisher": "Monica Alponte campaign website",
+  "url": "https://monicaalponteaz.com/seniors%2C-disabled%2C-vets",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "jay-feely-site-issues",
+  "title": "Issues page",
+  "publisher": "Jay Feely campaign website",
+  "url": "https://www.jayfeelyforcongress.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "jay-feely-site-home",
+  "title": "Home page",
+  "publisher": "Jay Feely campaign website",
+  "url": "https://www.jayfeelyforcongress.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "jay-feely-site-meet-jay",
+  "title": "Meet Jay page",
+  "publisher": "Jay Feely campaign website",
+  "url": "https://www.jayfeelyforcongress.com/meet-jay",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "amish-shah-site-issues",
+  "title": "Issues page",
+  "publisher": "Amish Shah campaign website",
+  "url": "https://www.amishforarizona.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "amish-shah-site-home",
+  "title": "Home page",
+  "publisher": "Amish Shah campaign website",
+  "url": "https://www.amishforarizona.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "amish-shah-site-about",
+  "title": "About page",
+  "publisher": "Amish Shah campaign website",
+  "url": "https://www.amishforarizona.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-10"
  }
 ]

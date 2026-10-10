@@ -314,15 +314,15 @@
           "note": ""
         },
         "climate-energy": {
-          "evidence": "website",
-          "heading": "The Environment",
-          "quote": "I think that this is a major issue that should be addressed by all nations to study the long term effects our environmental negligence. These nuclear explosions need to cease.",
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
           "said_on": "",
-          "source": "rustin-provance-site-website-projects-1",
+          "source": null,
           "status": "verified",
-          "checked_by": "script",
+          "checked_by": "ai",
           "checked_on": "2026-10-10",
-          "note": "His \"Environment\" section is about nuclear weapons tests."
+          "note": "His \"Environment\" section is about nuclear weapons tests, which this issue doesn't cover (it covers climate change, energy prices, the power grid, oil and gas, and clean energy)."
         }
       }
     },

@@ -1852,7 +1852,7 @@
     "sort_name": "Alponte",
     "party": "libertarian",
     "incumbent": false,
-    "website": null,
+    "website": "https://monicaalponteaz.com",
     "fec_id": "H6AZ01488",
     "source": "wikipedia-house-2026"
   },
@@ -1863,7 +1863,7 @@
     "sort_name": "Feely",
     "party": "republican",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.jayfeelyforcongress.com",
     "fec_id": "H6AZ05190",
     "source": "wikipedia-house-2026"
   },
@@ -1874,7 +1874,7 @@
     "sort_name": "Shah",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.amishforarizona.com",
     "fec_id": "H4AZ01194",
     "source": "wikipedia-house-2026"
   },
