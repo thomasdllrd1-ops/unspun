@@ -9062,5 +9062,21 @@
   "url": "https://senatorbarcy.org/about",
   "type": "campaign",
   "accessed": "2026-10-09"
+ },
+ {
+  "id": "poll-ab04a07d50",
+  "title": "Glengariff Group poll, August 31 – September 3, 2026 (reported by Newsweek)",
+  "publisher": "newsweek.com",
+  "url": "https://www.newsweek.com/abdul-el-sayed-polling-blow-michigan-senate-mike-rogers-12421084",
+  "type": "news",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-da6c5270ce",
+  "title": "GQR Montana statewide survey for Contours, Inc., July 23–26, 2026 (frequency questionnaire)",
+  "publisher": "270towin.com",
+  "url": "https://www.270towin.com/uploads/GQR_Montana_072626.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-11"
  }
 ]
