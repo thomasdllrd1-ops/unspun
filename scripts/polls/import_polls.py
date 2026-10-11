@@ -82,8 +82,13 @@ for p in checks:
         sponsor = (m.group(1).strip() if m else note)[:90]
     elif marker == 'I':
         stype, lean = 'campaign', 'unknown'
+    if note and not sponsor:  # sponsored, but no (D)/(R) marker (e.g. an independent's campaign): still name who paid
+        m = re.search(r'(?:sponsored by|conducted (?:on behalf of|for)|commissioned by|on behalf of|for) (?:the )?([^.,;]+)', note, re.I)
+        sponsor = (m.group(1).strip() if m else note)[:90]
+        if re.search(r'campaign', note, re.I): stype, lean = 'campaign', lean if marker else 'unknown'
     ok = p['check'] == 'script-verified'
     notes = []
+    if note and not marker: notes.append(f'Wikipedia footnote: {note}')
     if marker: notes.append(f"Wikipedia marks this as a {'Democratic' if marker=='D' else 'Republican' if marker=='R' else 'third-party'}-sponsored poll{': ' + note if note else '.'}")
     if p.get('other_versions'): notes.append('The pollster also reported other versions (for example registered voters); we show the first one listed.')
     if not ok: notes.append('Found via Wikipedia. Not yet checked against the original source.')
