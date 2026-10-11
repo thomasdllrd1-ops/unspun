@@ -48,10 +48,6 @@ wedgewood-polls-2026-08-13-oh-sen-special,,Undecided,8
 beacon-research-d-shaw-co-research-2026-08-10-oh-sen-special,jon-husted,,45
 beacon-research-d-shaw-co-research-2026-08-10-oh-sen-special,sherrod-brown,,53
 beacon-research-d-shaw-co-research-2026-08-10-oh-sen-special,,Undecided,2
-tulchin-research-2026-08-04-oh-sen-special,jon-husted,,43
-tulchin-research-2026-08-04-oh-sen-special,sherrod-brown,,47
-tulchin-research-2026-08-04-oh-sen-special,,Other,4
-tulchin-research-2026-08-04-oh-sen-special,,Undecided,6
 new-york-times-siena-university-2026-06-28-oh-sen-special,jon-husted,,50
 new-york-times-siena-university-2026-06-28-oh-sen-special,sherrod-brown,,47
 new-york-times-siena-university-2026-06-28-oh-sen-special,,Undecided,3
@@ -266,9 +262,6 @@ yougov-2026-09-08-me-sen,susan-collins,,44
 yougov-2026-09-08-me-sen,troy-jackson,,48
 yougov-2026-09-08-me-sen,,Other,1
 yougov-2026-09-08-me-sen,,Undecided,6
-ssrs-2026-09-06-me-sen,susan-collins,,45
-ssrs-2026-09-06-me-sen,troy-jackson,,48
-ssrs-2026-09-06-me-sen,,Other,7
 abacus-data-2026-08-28-me-sen,susan-collins,,43
 abacus-data-2026-08-28-me-sen,troy-jackson,,52
 abacus-data-2026-08-28-me-sen,,Other,4
@@ -337,9 +330,6 @@ the-washington-post-sspg-2026-09-14-mi-sen,abdul-el-sayed,,48
 the-washington-post-sspg-2026-09-14-mi-sen,mike-rogers,,45
 the-washington-post-sspg-2026-09-14-mi-sen,,Other,5
 the-washington-post-sspg-2026-09-14-mi-sen,,Undecided,2
-ssrs-2026-09-06-mi-sen,abdul-el-sayed,,47
-ssrs-2026-09-06-mi-sen,mike-rogers,,44
-ssrs-2026-09-06-mi-sen,,Other,8
 glengariff-group-2026-09-03-mi-sen,abdul-el-sayed,,44
 glengariff-group-2026-09-03-mi-sen,mike-rogers,,46
 glengariff-group-2026-09-03-mi-sen,,Undecided,9
@@ -1122,3 +1112,16 @@ quantus-insights-2026-03-14-oh-sen-special,jon-husted,,45.5
 quantus-insights-2026-03-14-oh-sen-special,sherrod-brown,,44.4
 quantus-insights-2026-03-14-oh-sen-special,,Other,3.6
 quantus-insights-2026-03-14-oh-sen-special,,Undecided,6.5
+ssrs-2026-09-06-me-sen,susan-collins,,45
+ssrs-2026-09-06-me-sen,troy-jackson,,48
+ssrs-2026-09-06-me-sen,,Neither,4
+ssrs-2026-09-06-me-sen,,Other,3
+ssrs-2026-09-06-mi-sen,mike-rogers,,44
+ssrs-2026-09-06-mi-sen,abdul-el-sayed,,47
+ssrs-2026-09-06-mi-sen,,Neither,5
+ssrs-2026-09-06-mi-sen,,Other,3
+tulchin-research-2026-08-04-oh-sen-special,jon-husted,,43
+tulchin-research-2026-08-04-oh-sen-special,sherrod-brown,,47
+tulchin-research-2026-08-04-oh-sen-special,william-redpath,,2
+tulchin-research-2026-08-04-oh-sen-special,greg-levy,,2
+tulchin-research-2026-08-04-oh-sen-special,,Undecided,6
