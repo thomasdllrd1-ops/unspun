@@ -1,0 +1,969 @@
+{
+  "race": "tn-sen",
+  "candidates": [
+    {
+      "candidate": "marquita-bradshaw",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "marquita-bradshaw-site-home",
+        "marquita-bradshaw-site-meet-marquita",
+        "marquita-bradshaw-site-priorities",
+        "marquita-bradshaw-site-issues-economy",
+        "marquita-bradshaw-site-issues-invest-in-affordable-housing",
+        "marquita-bradshaw-site-issues-healthcare",
+        "marquita-bradshaw-site-issues-environmental-and-climate-justice",
+        "marquita-bradshaw-site-issues-public-education",
+        "marquita-bradshaw-site-issues-defend-voting-rights-end-gerryman",
+        "marquita-bradshaw-site-issues-universal-affordable-broadband"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Support Students and Teachers",
+          "quote": "Every student deserves a well-funded public school, and every teacher deserves competitive pay, strong resources, and respect.",
+          "source": "marquita-bradshaw-site-priorities",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 2,
+          "heading": "Build a Fair and Equitable Economy",
+          "quote": "She will pursue policies that ensure fair wages, strengthen workforce development, support small businesses, and protect workers from discrimination.",
+          "source": "marquita-bradshaw-site-issues-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 3,
+          "heading": "Invest In Affordable Housing",
+          "quote": "She will support policies that expand affordable housing, strengthen assistance for renters and first-time homebuyers, address homelessness, and protect families from unfair housing practices.",
+          "source": "marquita-bradshaw-site-issues-invest-in-affordable-housing",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Build a Fair and Equitable Economy",
+          "quote": "By expanding access to affordable childcare, housing, healthcare, education, and reliable transportation—and investing in historically underserved communities—Marquita will work to build shared prosperity and lasting financial security for families across Tennessee.",
+          "said_on": "",
+          "source": "marquita-bradshaw-site-issues-economy",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Invest In Affordable Housing",
+          "quote": "She will support policies that expand affordable housing, strengthen assistance for renters and first-time homebuyers, address homelessness, and protect families from unfair housing practices.",
+          "said_on": "",
+          "source": "marquita-bradshaw-site-issues-invest-in-affordable-housing",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare Is a Right",
+          "quote": "Her priorities include lowering prescription-drug costs, protecting rural hospitals and community clinics, and removing barriers that prevent families from receiving timely preventive and primary care.",
+          "said_on": "",
+          "source": "marquita-bradshaw-site-issues-healthcare",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Environmental and Climate Justice",
+          "quote": "She will support policies that reduce pollution, expand clean energy, conserve natural resources, and modernize infrastructure.",
+          "said_on": "",
+          "source": "marquita-bradshaw-site-issues-environmental-and-climate-justice",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "tharon-chandler",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-tn-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Tennessee's official candidate list doesn't include websites, and a web search on Oct 9, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "andrew-gerena",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-tn-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Tennessee's official candidate list doesn't include websites, and a web search on Oct 9, 2026 found none.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "bill-hagerty",
+      "researched_on": "2026-10-10",
+      "researched_by": "ai",
+      "looked_at": [
+        "bill-hagerty-site-home",
+        "bill-hagerty-site-meet-bill"
+      ],
+      "priorities_note": "His campaign website has no list of issues. It has a biography, news releases and endorsements, so we quote the record his biography describes below.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Successful Businessman and Conservative Reformer",
+          "quote": "From 2011 to 2014, Hagerty served as Commissioner of the Tennessee Department of Economic and Community Development, where he cut government waste, eliminated unnecessary bureaucracy, and helped Tennessee achieve record-setting job growth.",
+          "said_on": "",
+          "source": "bill-hagerty-site-meet-bill",
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "A Tennessee state job he held from 2011 to 2014, per his biography."
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "America-First Diplomat and National Security Leader",
+          "quote": "Hagerty worked tirelessly to counter the threats posed by Communist China, North Korea, and Russia, reinforcing America’s military posture in the Indo-Pacific and ensuring that American interests always came first.",
+          "said_on": "",
+          "source": "bill-hagerty-site-meet-bill",
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": "From his time as U.S. Ambassador to Japan, per his biography."
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-10",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "jeremy-dean-hearn",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "jeremy-dean-hearn-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Defend our US_Constitution",
+          "quote": "",
+          "source": "jeremy-dean-hearn-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 2,
+          "heading": "Clarify our History",
+          "quote": "",
+          "source": "jeremy-dean-hearn-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 3,
+          "heading": "Restore Equality for Humans",
+          "quote": "",
+          "source": "jeremy-dean-hearn-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "INFLATION",
+          "quote": "Since 2008 this has only gotten worse as the number of car types has increased. One remedy, that we will lead from Tennessee, is to solve with a plant that makes them all.",
+          "said_on": "",
+          "source": "jeremy-dean-hearn-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "IMMIGRATION",
+          "quote": "SINCE AMERICA BEGAN IN 1776, there was a process that has to be completed to gain citizenship-- otherwise, after currency is insurrected AMERICAN CITIZENS become genocided by the inability of our trinary governance to keep track of the USD.",
+          "said_on": "",
+          "source": "jeremy-dean-hearn-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Introduction",
+          "quote": "TOGETHER, WE CAN FINALLY RESTORE EQUALITY, ACTIVATE THE US_FORT KNOX TREASURY TO ADDRESS AND CLARIFY THE NATIONAL DEBT, and PROTECT LOVE by OFFERING 21st CENTURY ECONOMIC ALTERNATIVES TO WAR.",
+          "said_on": "",
+          "source": "jeremy-dean-hearn-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "robert-jones",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "robert-jones-site-home",
+        "robert-jones-site-about",
+        "robert-jones-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Accountability",
+          "quote": "I will seek to pass an Accountability Act that will create a secure system where all public servants have clear access to the will of their people (through an app or a secure website).",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 2,
+          "heading": "Transparency",
+          "quote": "By not accepting donations and help from a party, business, or PAC, I can act on your collective behalf without bias.",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 3,
+          "heading": "Necessities",
+          "quote": "Communities, with the assistance of the government, can ease their costs by working together, buying in bulk as a collective, and letting their money extend further.",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Food",
+          "quote": "Communities, with the assistance of the government, can ease their costs by working together, buying in bulk as a collective, and letting their money extend further.",
+          "said_on": "",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Shelter",
+          "quote": "We must use a combination of technological advancements, byproducts and recyclables, and investment to make quality housing achievable.",
+          "said_on": "",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "The fact that medical facilities may charge a customer less for a service if paid upfront versus an exorbitant amount if a customer uses insurance illustrates a massive failure of the system. This is multi-faceted. However, it exposes the fact that we need to completely rethink our healthcare system.",
+          "said_on": "",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Immigration",
+          "quote": "Anyone deemed to be breaking our laws should be dealt with accordingly. However, this must be done on the basis of proof.",
+          "said_on": "",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "website",
+          "heading": "Foreign Policy",
+          "quote": "We must strengthen our bonds with our allies, promote messages of peace and unity, and always use violence as a last resort for the defense of the defenseless.",
+          "said_on": "",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Environment",
+          "quote": "By focusing on renewable energy, conservation efforts, and responsible resource management, I aim to create a bridge between economic growth and ecological sustainability.",
+          "said_on": "",
+          "source": "robert-jones-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "james-william-macon",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "official-tn-2026"
+      ],
+      "priorities_note": "We found no campaign website for him. Tennessee's official candidate list doesn't include websites, and a web search on Oct 9, 2026 found none. A voter guide lists a Facebook page for him, but our rules use only campaign websites.",
+      "priorities": [],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "yoshi-matthews",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "yoshi-matthews-site-home",
+        "yoshi-matthews-site-about-yoshi",
+        "yoshi-matthews-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Reparations",
+          "quote": "My proposal addresses a specific historic injustice with a narrowly defined, Tennessee-based solution that is fair, lawful, and limited in scope.",
+          "source": "yoshi-matthews-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 2,
+          "heading": "Senior Property Taxes",
+          "quote": "No Tennessee senior should lose their home to property taxes after a lifetime of work and contribution.",
+          "source": "yoshi-matthews-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 3,
+          "heading": "Universal Basic Income",
+          "quote": "My proposal would provide a reliable financial foundation for eligible Americans while reducing economic insecurity and helping families meet the rising costs of everyday life.",
+          "source": "yoshi-matthews-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Universal Basic Income",
+          "quote": "My proposal would provide a reliable financial foundation for eligible Americans while reducing economic insecurity and helping families meet the rising costs of everyday life.",
+          "said_on": "",
+          "source": "yoshi-matthews-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Senior Property Taxes",
+          "quote": "No Tennessee senior should lose their home to property taxes after a lifetime of work and contribution.",
+          "said_on": "",
+          "source": "yoshi-matthews-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "Border Security & Immigration",
+          "quote": "Secure the border, enforce immigration laws, and support a functional legal immigration system.",
+          "said_on": "",
+          "source": "yoshi-matthews-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "david-sutman",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "david-sutman-site-home"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Cost of Living Crisis",
+          "quote": "Focus on practical solutions that reduce everyday costs",
+          "source": "david-sutman-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 2,
+          "heading": "Independent Leadership",
+          "quote": "I don't answer to a party. I answer to Tennessee.",
+          "source": "david-sutman-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 3,
+          "heading": "Accountability in Government",
+          "quote": "Push for term limits",
+          "source": "david-sutman-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Cost of Living Crisis",
+          "quote": "Focus on practical solutions that reduce everyday costs",
+          "said_on": "",
+          "source": "david-sutman-site-home",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        }
+      }
+    },
+    {
+      "candidate": "catherine-barcel-whitson",
+      "researched_on": "2026-10-09",
+      "researched_by": "ai",
+      "looked_at": [
+        "catherine-barcel-whitson-site-home",
+        "catherine-barcel-whitson-site-about",
+        "catherine-barcel-whitson-site-issues"
+      ],
+      "priorities_note": "",
+      "priorities": [
+        {
+          "rank": 1,
+          "heading": "Economic Growth",
+          "quote": "Lowering costs, creating high-paying jobs, and supporting local small business/entrepreneurs.",
+          "source": "catherine-barcel-whitson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 2,
+          "heading": "Healthcare",
+          "quote": "Work to reduce prescription drug costs and protect and improve rural hospitals.",
+          "source": "catherine-barcel-whitson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        },
+        {
+          "rank": 3,
+          "heading": "Education & Wellbeing",
+          "quote": "Boosting funding for public schools and expanding vocational training programs as well as promoting private and home schooling initiatives.",
+          "source": "catherine-barcel-whitson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "stances": {
+        "cost-of-living": {
+          "evidence": "website",
+          "heading": "Economic Growth",
+          "quote": "Lowering costs, creating high-paying jobs, and supporting local small business/entrepreneurs.",
+          "said_on": "",
+          "source": "catherine-barcel-whitson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "housing": {
+          "evidence": "website",
+          "heading": "Fair Housing",
+          "quote": "Affordable housing for all Tennesseans and help for the 10,000 currently unhoused via partnering with churches, businesses, etc. to create safe tiny house communities.",
+          "said_on": "",
+          "source": "catherine-barcel-whitson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "health-care": {
+          "evidence": "website",
+          "heading": "Healthcare",
+          "quote": "Work to reduce prescription drug costs and protect and improve rural hospitals.",
+          "said_on": "",
+          "source": "catherine-barcel-whitson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "immigration": {
+          "evidence": "website",
+          "heading": "New Wannabe Tennesseans",
+          "quote": "Build networks for helping refugees and immigrants who need assistance for rebuilding their lives right here in our wonderful state.",
+          "said_on": "",
+          "source": "catherine-barcel-whitson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        },
+        "foreign-policy": {
+          "evidence": "no-position",
+          "heading": "",
+          "quote": "",
+          "said_on": "",
+          "source": null,
+          "status": "verified",
+          "checked_by": "ai",
+          "checked_on": "2026-10-09",
+          "note": ""
+        },
+        "climate-energy": {
+          "evidence": "website",
+          "heading": "Economic Growth",
+          "quote": "Promoting green energy and creativity in order to steward our world better for us and future generations.",
+          "said_on": "",
+          "source": "catherine-barcel-whitson-site-issues",
+          "status": "verified",
+          "checked_by": "script",
+          "checked_on": "2026-10-11",
+          "note": ""
+        }
+      }
+    }
+  ]
+}

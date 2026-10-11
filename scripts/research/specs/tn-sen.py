@@ -1,9 +1,24 @@
 RACE = 'tn-sen'; DATE = '2026-10-09'
 ALL = ['cost-of-living', 'housing', 'health-care', 'immigration', 'foreign-policy', 'climate-energy']
 NOSITE = "We found no campaign website for him. Tennessee's official candidate list doesn't include websites, and a web search on Oct 9, 2026 found none."
-# bill-hagerty: teamhagerty.com shows a bot check (Cloudflare) to our tools on Oct 9, 2026, and no archived copy exists.
-# Read it in Thomas's browser (supervised Chrome session), add him here, then build. Don't publish TN without him.
 C = {
+ 'bill-hagerty': {
+  # teamhagerty.com shows a bot check (Cloudflare) to our tools, so both pages were read in Thomas's browser
+  # (supervised Chrome session, Oct 10, 2026). The site is a biography, news releases and endorsements; no list of issues.
+  'date': '2026-10-10',
+  'pages': ['00-home', '01-meet-bill'],
+  'priorities': [],
+  'priorities_note': 'His campaign website has no list of issues. It has a biography, news releases and endorsements, so we quote the record his biography describes below.',
+  'stances': {
+   'cost-of-living': ('01-meet-bill', 'Successful Businessman and Conservative Reformer', 'From 2011 to 2014, Hagerty served as Commissioner', 'record-setting job growth.'),
+   'housing': None,
+   'health-care': None,
+   'immigration': None,
+   'foreign-policy': ('01-meet-bill', 'America-First Diplomat and National Security Leader', 'Hagerty worked tirelessly to counter the threats posed by Communist China', 'American interests always came first.'),
+   'climate-energy': None,
+  },
+  'notes': {'cost-of-living': 'A Tennessee state job he held from 2011 to 2014, per his biography.', 'foreign-policy': 'From his time as U.S. Ambassador to Japan, per his biography.'},
+ },
  'marquita-bradshaw': {
   'pages': ['00-home', '01-meet-marquita', '02-priorities', '03-issues-economy', '04-issues-invest-in-affordable-housing', '05-issues-healthcare',
             '06-issues-environmental-and-climate-justice', '07-issues-public-education', '08-issues-defend-voting-rights-end-gerrymandering', '09-issues-universal-affordable-broadband'],

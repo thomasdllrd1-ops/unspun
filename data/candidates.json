@@ -1577,7 +1577,7 @@
     "sort_name": "Hagerty",
     "party": "republican",
     "incumbent": true,
-    "website": null,
+    "website": "https://teamhagerty.com",
     "fec_id": "S0TN00169",
     "source": "official-tn-2026"
   },
@@ -1588,7 +1588,7 @@
     "sort_name": "Bradshaw",
     "party": "democratic",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.marquitabradshaw.com",
     "fec_id": "S4TN00542",
     "source": "official-tn-2026"
   },
@@ -1622,7 +1622,7 @@
     "sort_name": "Hearn",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.jeremydeanhearnforsenate.com",
     "fec_id": null,
     "source": "official-tn-2026",
     "fec_checked": true
@@ -1634,7 +1634,7 @@
     "sort_name": "Jones",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://www.robertfortn.com",
     "fec_id": "S6TN00372",
     "source": "official-tn-2026"
   },
@@ -1657,7 +1657,7 @@
     "sort_name": "Matthews",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://yoshimatthewssenate.com",
     "fec_id": "S6TN00364",
     "source": "official-tn-2026"
   },
@@ -1668,7 +1668,7 @@
     "sort_name": "Sutman",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://sutmanjr4senate.com",
     "fec_id": "S6TN00398",
     "source": "official-tn-2026"
   },
@@ -1679,7 +1679,7 @@
     "sort_name": "Whitson",
     "party": "independent",
     "incumbent": false,
-    "website": null,
+    "website": "https://senatorbarcy.org",
     "fec_id": "S6TN00414",
     "source": "official-tn-2026"
   },

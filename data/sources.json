@@ -8878,5 +8878,189 @@
   "type": "news",
   "published": "2026-08-07",
   "accessed": "2026-10-10"
+ },
+ {
+  "id": "bill-hagerty-site-meet-bill",
+  "title": "Meet Bill page",
+  "publisher": "Bill Hagerty campaign website",
+  "url": "https://teamhagerty.com/meet-bill/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "bill-hagerty-site-home",
+  "title": "Home page",
+  "publisher": "Bill Hagerty campaign website",
+  "url": "https://teamhagerty.com/",
+  "type": "campaign",
+  "accessed": "2026-10-10"
+ },
+ {
+  "id": "marquita-bradshaw-site-priorities",
+  "title": "Priorities page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/priorities",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-issues-economy",
+  "title": "Issues: economy page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/issues/economy",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-issues-invest-in-affordable-housing",
+  "title": "Issues: invest in affordable housing page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/issues/invest-in-affordable-housing",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-issues-healthcare",
+  "title": "Issues: healthcare page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/issues/healthcare",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-issues-environmental-and-climate-justice",
+  "title": "Issues: environmental and climate justice page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/issues/environmental-and-climate-justice",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-home",
+  "title": "Home page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-meet-marquita",
+  "title": "Meet Marquita page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/meet-marquita",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-issues-public-education",
+  "title": "Issues: public education page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/issues/public-education",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-issues-defend-voting-rights-end-gerryman",
+  "title": "Issues: defend voting rights end gerrymandering page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/issues/defend-voting-rights-end-gerrymandering",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "marquita-bradshaw-site-issues-universal-affordable-broadband",
+  "title": "Issues: universal affordable broadband page",
+  "publisher": "Marquita Bradshaw campaign website",
+  "url": "https://www.marquitabradshaw.com/issues/universal-affordable-broadband",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "jeremy-dean-hearn-site-home",
+  "title": "Home page",
+  "publisher": "Jeremy Dean Hearn campaign website",
+  "url": "https://www.jeremydeanhearnforsenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "robert-jones-site-issues",
+  "title": "Issues page",
+  "publisher": "Robert Jones campaign website",
+  "url": "https://www.robertfortn.com/issues",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "robert-jones-site-home",
+  "title": "Home page",
+  "publisher": "Robert Jones campaign website",
+  "url": "https://www.robertfortn.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "robert-jones-site-about",
+  "title": "About page",
+  "publisher": "Robert Jones campaign website",
+  "url": "https://www.robertfortn.com/about",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "yoshi-matthews-site-issues",
+  "title": "Issues page",
+  "publisher": "Yoshi D. Matthews campaign website",
+  "url": "https://yoshimatthewssenate.com/issues/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "yoshi-matthews-site-home",
+  "title": "Home page",
+  "publisher": "Yoshi D. Matthews campaign website",
+  "url": "https://yoshimatthewssenate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "yoshi-matthews-site-about-yoshi",
+  "title": "About yoshi page",
+  "publisher": "Yoshi D. Matthews campaign website",
+  "url": "https://yoshimatthewssenate.com/about-yoshi/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "david-sutman-site-home",
+  "title": "Home page",
+  "publisher": "David Sutman, Jr. campaign website",
+  "url": "https://sutmanjr4senate.com/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "catherine-barcel-whitson-site-issues",
+  "title": "Issues page",
+  "publisher": "Catherine Barcel \"Barcy\" Whitson campaign website",
+  "url": "https://senatorbarcy.org/issues",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "catherine-barcel-whitson-site-home",
+  "title": "Home page",
+  "publisher": "Catherine Barcel \"Barcy\" Whitson campaign website",
+  "url": "https://senatorbarcy.org/",
+  "type": "campaign",
+  "accessed": "2026-10-09"
+ },
+ {
+  "id": "catherine-barcel-whitson-site-about",
+  "title": "About page",
+  "publisher": "Catherine Barcel \"Barcy\" Whitson campaign website",
+  "url": "https://senatorbarcy.org/about",
+  "type": "campaign",
+  "accessed": "2026-10-09"
  }
 ]

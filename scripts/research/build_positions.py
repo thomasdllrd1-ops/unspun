@@ -85,6 +85,7 @@ def none(note=''):
 pend = {'status': 'pending', 'checked_by': '', 'checked_on': ''}
 out = []
 for cid, c in C.items():
+    DATE = c.get('date', spec['DATE'])  # a candidate read on a later day than the rest of the race
     if cid not in cands or cands[cid]['race'] != RACE: errors.append(f'{cid}: not in {RACE}'); continue
     notes = c.get('notes', {})
     entry = {'candidate': cid, 'researched_on': DATE, 'researched_by': 'ai'}
