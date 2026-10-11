@@ -6,6 +6,8 @@ D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath
 pid, ch = sys.argv[1], json.loads(sys.argv[2]) if len(sys.argv) > 2 else {}
 p=f'{D}/polls/polls.csv'; rows=list(csv.DictReader(open(p))); f=list(rows[0].keys())
 row=next(r for r in rows if r['id']==pid)
+bad=set(ch.get('fields',{}))-set(f)
+if bad: raise SystemExit(f'Not a polls.csv column: {", ".join(sorted(bad))} (source links: set_source_url.py)')
 for k,v in ch.get('fields',{}).items(): row[k]=str(v)
 if not ch.get('hold'):
     row['status']='verified'; row['checked_by']='ai'; row['checked_on']=__import__('datetime').date.today().isoformat()
