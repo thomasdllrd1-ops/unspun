@@ -12,16 +12,21 @@ if not ch.get('hold'):
     notes=[n for n in row['notes'].split('  ') if 'Not yet checked against the original source' not in n]
     row['notes']=' '.join(x.replace('Found via Wikipedia. Not yet checked against the original source.','').strip() for x in notes).strip()
 if ch.get('note'): row['notes']=(row['notes']+' '+ch['note']).strip()
-w=csv.DictWriter(open(p,'w',newline=''),fieldnames=f); w.writeheader(); w.writerows(rows)
 if 'results' in ch:
     rp=f'{D}/polls/poll_results.csv'; rr=list(csv.DictReader(open(rp))); rf=list(rr[0].keys())
-    cands={c['id'] for c in json.load(open(f'{D}/candidates.json'))}
+    allc=json.load(open(f'{D}/candidates.json')); cands={c['id'] for c in allc}
+    names={w for c in allc if c['race']==row['race'] for w in c['id'].split('-')}
     rr=[r for r in rr if r['poll']!=pid]
     import re as _re
     for who,pct in ch['results']:
         # anything that looks like a candidate id (lowercase-with-dashes) must exist, so typos can't slip in as labels
         if _re.fullmatch(r'[a-z0-9]+(-[a-z0-9]+)+', who) and who not in cands:
             raise SystemExit(f'Unknown candidate id: {who}')
+        # a label that is a candidate's name (e.g. "Moody") should be their id, or the poll average can't use it
+        if who not in cands and who.lower() in names:
+            raise SystemExit(f'"{who}" is a candidate in this race: use their id')
         rr.append({'poll':pid,'candidate':who if who in cands else '','label':'' if who in cands else who,'pct':str(pct)})
+w=csv.DictWriter(open(p,'w',newline=''),fieldnames=f); w.writeheader(); w.writerows(rows)
+if 'results' in ch:
     w=csv.DictWriter(open(rp,'w',newline=''),fieldnames=rf); w.writeheader(); w.writerows(rr)
 print('on hold, partly checked:' if ch.get('hold') else 'checked:', pid)
