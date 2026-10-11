@@ -37,11 +37,19 @@ def ref_urls(cell, refs):
             elif name: urls.append(refs.get(name.strip()))
     return [u for u in urls if u]
 
-def efn_text(cell):
-    m = re.search(r'(?i)\{\{efn(?:-ua)?\|(?:name=[^|}]*\|)?([^{}]*(?:\{\{[^{}]*\}\}[^{}]*)*)\}\}', cell)
-    return clean(m.group(1)) if m else ''
+def named_efns(t):
+    """Footnotes defined once with a name ({{efn|name=X|text}}) and reused later as {{efn|name=X}}."""
+    return {m.group(1).strip(): clean(m.group(2)) for m in
+            re.finditer(r'(?i)\{\{efn(?:-ua)?\|\s*name\s*=\s*"?([^|}"]+)"?\s*\|([^{}]*(?:\{\{[^{}]*\}\}[^{}]*)*)\}\}', t)}
 
-def parse_table(tbl, refs):
+def efn_text(cell, efns=None):
+    m = re.search(r'(?i)\{\{efn(?:-ua)?\|(?:\s*name\s*=\s*"?([^|}"]+)"?\s*(?:\||(?=\}\})))?([^{}]*(?:\{\{[^{}]*\}\}[^{}]*)*)\}\}', cell)
+    if not m: return ''
+    if m.group(1) and not m.group(2).strip():  # a reused footnote: look up the text where it was defined
+        return (efns or {}).get(m.group(1).strip(), '')
+    return clean(m.group(2))
+
+def parse_table(tbl, refs, efns=None):
     lines = tbl.split('\n')
     def hdr(l):
         h = l.lstrip('!').strip()
@@ -87,8 +95,9 @@ def parse_table(tbl, refs):
         dates, sample, moe = vals[0], vals[1], vals[2]
         pct = vals[3:3 + len(cols)]
         polls.append({
-            'pollster': pollster, 'partisan': (re.search(r'\((D|R|I|L)\)\s*$', pollster) or [None, None])[1],
-            'sponsor_note': efn_text(cells[0]), 'dates': dates, 'sample': sample, 'moe': moe,
+            'pollster': pollster, 'partisan': None if re.search(r'\(D\)', pollster) and re.search(r'\(R\)', pollster)  # a bipartisan team, e.g. Beacon (D)/Shaw (R)
+                else (re.search(r'\((D|R|I|L)\)\s*$', pollster) or [None, None])[1],
+            'sponsor_note': efn_text(cells[0], efns), 'dates': dates, 'sample': sample, 'moe': moe,
             'cols': cols, 'pcts': pct, 'urls': ref_urls(cells[0], refs),
         })
     for p in polls:
@@ -101,26 +110,30 @@ def parse_table(tbl, refs):
         p['other_versions'] = p.get('other_versions', 0) + len(vs)
     return polls
 
-out = {}
-for f in sorted(glob.glob('*.wiki')):
-    t = open(f).read()
-    refs = named_refs(t)
-    g = re.search(r'\n==\s*General election\s*==\s*\n(.*?)(?=\n==[^=]|\Z)', t, re.S)
-    if not g: out[f] = {'error': 'no general election section'}; continue
-    sec = g.group(1)
-    p = re.search(r'\n===+\s*Polling\s*===+\s*\n(.*?)(?=\n===?[^=]|\Z)', sec, re.S)
-    if not p: out[f] = {'polls': [], 'note': 'no general-election polling section'}; continue
-    body = p.group(1)
-    body = body.split('{{hidden begin')[0]  # hypothetical matchups live in hidden boxes; skip them
-    tables = re.findall(r'\{\|.*?\n\|\}', body, re.S)
-    polls = []
-    for tb in tables:  # first table with "Poll source" + "Margin of error" = the actual matchup (skip aggregator averages)
-        got = parse_table(tb, refs)
-        if got is not None:
-            polls = got
-            break
-    out[f] = {'polls': polls}
-json.dump(out, open('../polls_wiki.json', 'w'), indent=1, ensure_ascii=False)
-for f, v in out.items():
-    ps = v.get('polls', [])
-    print(f"{f:<32} {len(ps):>3} polls" + (f"  cols={ps[0]['cols']}" if ps else f"  {v.get('note') or v.get('error','')}"))
+def main():
+  out = {}
+  for f in sorted(glob.glob('*.wiki')):
+      t = open(f).read()
+      refs = named_refs(t)
+      g = re.search(r'\n==\s*General election\s*==\s*\n(.*?)(?=\n==[^=]|\Z)', t, re.S)
+      if not g: out[f] = {'error': 'no general election section'}; continue
+      sec = g.group(1)
+      p = re.search(r'\n===+\s*Polling\s*===+\s*\n(.*?)(?=\n===?[^=]|\Z)', sec, re.S)
+      if not p: out[f] = {'polls': [], 'note': 'no general-election polling section'}; continue
+      body = p.group(1)
+      body = body.split('{{hidden begin')[0]  # hypothetical matchups live in hidden boxes; skip them
+      tables = re.findall(r'\{\|.*?\n\|\}', body, re.S)
+      polls = []
+      for tb in tables:  # first table with "Poll source" + "Margin of error" = the actual matchup (skip aggregator averages)
+          got = parse_table(tb, refs, named_efns(t))
+          if got is not None:
+              polls = got
+              break
+      out[f] = {'polls': polls}
+  json.dump(out, open('../polls_wiki.json', 'w'), indent=1, ensure_ascii=False)
+  for f, v in out.items():
+      ps = v.get('polls', [])
+      print(f"{f:<32} {len(ps):>3} polls" + (f"  cols={ps[0]['cols']}" if ps else f"  {v.get('note') or v.get('error','')}"))
+
+if __name__ == '__main__':
+    main()
