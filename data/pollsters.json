@@ -878,5 +878,125 @@
     "fte_id": null,
     "track_record": null,
     "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "big-data-poll",
+    "name": "Big Data Poll",
+    "url": null,
+    "fte_id": 251,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "rmg-research",
+    "name": "RMG Research",
+    "url": null,
+    "fte_id": 555,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "cbs-news-yougov",
+    "name": "CBS News/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "maine-people-s-resource-center",
+    "name": "Maine People's Resource Center",
+    "url": null,
+    "fte_id": 180,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "fabrizio-ward-r-impact-research",
+    "name": "Fabrizio Ward (R)/ Impact Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "massinc-polling-group",
+    "name": "MassINC Polling Group",
+    "url": null,
+    "fte_id": 198,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "guidant-polling-strategy",
+    "name": "Guidant Polling & Strategy",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "cygnal-r-beacon-research",
+    "name": "Cygnal (R)/Beacon Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "torchlight-strategies",
+    "name": "Torchlight Strategies",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "morning-consult",
+    "name": "Morning Consult",
+    "url": null,
+    "fte_id": 218,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "umass-lowell-yougov",
+    "name": "UMass Lowell/YouGov",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "stratus-intelligence",
+    "name": "Stratus Intelligence",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "university-of-houston-texas-southern-uni",
+    "name": "University of Houston/ Texas Southern University",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "firststrategic-communications-and-public",
+    "name": "FirstStrategic Communications and Public Affairs",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "dccc-analytics-department",
+    "name": "DCCC Analytics Department",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
   }
 ]

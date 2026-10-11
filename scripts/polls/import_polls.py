@@ -1,10 +1,10 @@
 """Turn poll_checks.json (Wikipedia leads + automatic source check) into data/polls rows."""
 import csv, hashlib, json, os, re, sys, unicodedata
 from urllib.parse import urlparse
-S = '/private/tmp/claude-501/-Users-thomasdillard-Documents-unspun/ed9b92f3-1f40-47d4-a497-db20b912688b/scratchpad'
+S = os.environ.get('POLLRUN') or sys.exit('set POLLRUN to the folder holding poll_checks.json')
 D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data')  # repo/data, wherever the repo lives
 DRY = '--dry' in sys.argv
-TODAY = '2026-09-25'
+TODAY = __import__('datetime').date.today().isoformat()
 AB = {"Alabama":"al","Alaska":"ak","Arkansas":"ar","Colorado":"co","Delaware":"de","Florida":"fl","Georgia":"ga","Idaho":"id","Illinois":"il","Iowa":"ia","Kansas":"ks","Kentucky":"ky","Louisiana":"la","Maine":"me","Massachusetts":"ma","Michigan":"mi","Minnesota":"mn","Mississippi":"ms","Montana":"mt","Nebraska":"ne","New_Hampshire":"nh","New_Jersey":"nj","New_Mexico":"nm","North_Carolina":"nc","Ohio":"oh","Oklahoma":"ok","Oregon":"or","Rhode_Island":"ri","South_Carolina":"sc","South_Dakota":"sd","Tennessee":"tn","Texas":"tx","West_Virginia":"wv","Wyoming":"wy"}
 MONTHS = {m: i for i, m in enumerate(['January','February','March','April','May','June','July','August','September','October','November','December'], 1)}
 def race_of(key):
@@ -41,6 +41,8 @@ fte_by = {r['pollster'].lower(): int(r['pollster_rating_id']) for r in fte}
 polls_f = list(csv.DictReader(open(f'{D}/polls/polls.csv'))); fields = list(polls_f[0].keys())
 res_f = list(csv.DictReader(open(f'{D}/polls/poll_results.csv'))); rfields = list(res_f[0].keys())
 existing = {p['id'] for p in polls_f}
+# polls we already have (re-runs must not re-add them; ids stay the same even if we later corrected the pollster name)
+have = existing | {f"{slug(p['pollster'])}-{p['field_end']}-{p['race']}" for p in polls_f}
 NEWS = ('nytimes','politico','washingtonpost','wsj','cnn','foxnews','nbcnews','abcnews','cbsnews','apnews','axios','thehill','punchbowl','detroitnews','carolinajournal','nbc4i','jamesmagazinega','reuters','bloomberg','usatoday','newsweek')
 checks = json.load(open(f'{S}/poll_checks.json'))
 added = pending = verified = skipped = 0
@@ -53,6 +55,7 @@ for p in checks:
     n, pop = sample(p['sample'])
     if not end: skipped += 1; continue
     pid = f"{slug(name)}-{end}-{race}"
+    if pid in have: skipped += 1; continue
     k = 2
     while pid in existing: pid = f"{slug(name)}-{end}-{race}-{k}"; k += 1
     existing.add(pid)
@@ -109,6 +112,6 @@ for p in checks:
 if not DRY:
     w = csv.DictWriter(open(f'{D}/polls/polls.csv','w',newline=''), fieldnames=fields); w.writeheader(); w.writerows(polls_f)
     w = csv.DictWriter(open(f'{D}/polls/poll_results.csv','w',newline=''), fieldnames=rfields); w.writeheader(); w.writerows(res_f)
-    json.dump(sources, open(f'{D}/sources.json','w'), indent=2, ensure_ascii=False)
+    with open(f'{D}/sources.json','w') as f: json.dump(sources, f, indent=1, ensure_ascii=False); f.write('\n')  # same format as build_positions.py
     json.dump(pollsters, open(f'{D}/pollsters.json','w'), indent=2, ensure_ascii=False)
 print(f"added {added} polls ({verified} verified by script, {pending} pending), skipped {skipped}", '(dry run)' if DRY else '')

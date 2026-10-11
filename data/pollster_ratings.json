@@ -329,6 +329,46 @@
    "polls_analyzed": 47,
    "percent_partisan_work": 0.9,
    "inactive": false
+  },
+  "Big Data Poll": {
+   "fte_id": 251,
+   "fte_name": "Big Data Poll",
+   "grade": 1.1,
+   "polls_analyzed": 4,
+   "percent_partisan_work": 0,
+   "inactive": false
+  },
+  "RMG Research": {
+   "fte_id": 555,
+   "fte_name": "RMG Research",
+   "grade": 2.3,
+   "polls_analyzed": 38,
+   "percent_partisan_work": 0,
+   "inactive": false
+  },
+  "Maine People's Resource Center": {
+   "fte_id": 180,
+   "fte_name": "Maine People's Resource Center",
+   "grade": 1.9,
+   "polls_analyzed": 18,
+   "percent_partisan_work": 0,
+   "inactive": false
+  },
+  "MassINC Polling Group": {
+   "fte_id": 198,
+   "fte_name": "MassINC Polling Group",
+   "grade": 2.8,
+   "polls_analyzed": 28,
+   "percent_partisan_work": 0,
+   "inactive": false
+  },
+  "Morning Consult": {
+   "fte_id": 218,
+   "fte_name": "Morning Consult",
+   "grade": 1.9,
+   "polls_analyzed": 96,
+   "percent_partisan_work": 0,
+   "inactive": false
   }
  }
 }

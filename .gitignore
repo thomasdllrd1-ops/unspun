@@ -29,3 +29,5 @@ data/raw/
 node_modules
 .research
 data/geo/raw
+__pycache__/
+*.pyc

@@ -21,15 +21,16 @@ def clean(s):
 
 def named_refs(t):
     refs = {}
-    for m in re.finditer(r'<ref name\s*=\s*"?([^">/]+?)"?\s*>(.*?)</ref>', t, re.S):
-        u = re.search(r'url\s*=\s*(https?://[^\s|}]+)', m.group(2)) or re.search(r'\[(https?://[^\s\]]+)', m.group(2))
-        if u: refs[m.group(1).strip()] = u.group(1)
+    for m in re.finditer(r'<ref name\s*=\s*(?:"([^"]+)"|([^\s>/]+))\s*>(.*?)</ref>', t, re.S):  # quoted names may contain "/"
+        name, body = (m.group(1) or m.group(2)).strip(), m.group(3)
+        u = re.search(r'url\s*=\s*(https?://[^\s|}]+)', body) or re.search(r'\[(https?://[^\s\]]+)', body)
+        if u: refs[name] = u.group(1)
     return refs
 
 def ref_urls(cell, refs):
     urls = []
-    for m in re.finditer(r'<ref(?: name\s*=\s*"?([^">/]+?)"?)?\s*(/?)>(.*?)(?:</ref>|$)', cell, re.S):
-        name, selfclose, body = m.group(1), m.group(2), m.group(3)
+    for m in re.finditer(r'<ref(?:\s+name\s*=\s*(?:"([^"]+)"|([^\s>/]+)))?\s*(/?)>(.*?)(?:</ref>|$)', cell, re.S):
+        name, selfclose, body = m.group(1) or m.group(2), m.group(3), m.group(4)
         if selfclose and name: urls.append(refs.get(name.strip()))
         else:
             u = re.search(r'url\s*=\s*(https?://[^\s|}]+)', body or '') or re.search(r'\[(https?://[^\s\]]+)', body or '')
