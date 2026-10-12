@@ -172,7 +172,7 @@
   "publisher": "The Cook Political Report",
   "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
   "type": "forecaster",
-  "accessed": "2026-09-24"
+  "accessed": "2026-10-12"
  },
  {
   "id": "sabato-senate",
@@ -188,7 +188,7 @@
   "publisher": "Sabato's Crystal Ball (UVA Center for Politics)",
   "url": "https://centerforpolitics.org/crystalball/2026-house/",
   "type": "forecaster",
-  "accessed": "2026-09-24"
+  "accessed": "2026-10-12"
  },
  {
   "id": "inside-senate",
@@ -204,7 +204,7 @@
   "publisher": "Inside Elections",
   "url": "https://insideelections.com/ratings/house",
   "type": "forecaster",
-  "accessed": "2026-09-24"
+  "accessed": "2026-10-12"
  },
  {
   "id": "fec-registering-candidate",
