@@ -26,9 +26,9 @@ Other candidate notes:
 - **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
 - **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-## Priority 2: Polls that need a human (14 races' averages on hold)
+## Priority 2: Polls that need a human (13 races' averages on hold)
 
-A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 12, 15 polls hold up 14 races (Alaska joined after we started reading Wikipedia's second Alaska poll table). Every other hidden poll is either older than 60 days or has no findable source, so it stays hidden without affecting any average.
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 12, 14 polls hold up 13 races. Every other hidden poll is either older than 60 days or has no findable source, so it stays hidden without affecting any average.
 
 **10 minutes, biggest payoff: New York Times/Siena (8 races: AK, IA, KS, ME, MI, NH, OH, TX).** The NYT shows our tools a robot check, so a person has to open these. The candidate numbers are already confirmed from Siena's own site. On each page, find the **sample size, margin of error, and the undecided %**, then tell Claude:
 
@@ -36,8 +36,6 @@ A race's average stays **on hold** while any poll from the last 60 days is unche
 |---|---|
 | Maine, Michigan, New Hampshire (Sept 15–22) | nytimes.com/interactive/2026/09/24/polls/times-siena-poll-me-toplines.html (swap `me` for `mi`, `nh`) |
 | Alaska, Iowa, Kansas, Ohio, Texas (Sept 21–Oct 1) | nytimes.com/interactive/2026/10/03/polls/times-siena-iowa-poll-toplines.html (swap `iowa` for `alaska`, `kansas`, `ohio`, `texas`) |
-
-**Needs your yes/no: TIPP Insights, Minnesota (Aug 31–Sept 2).** The results are only in an Excel download on tippinsights.com (about 1 MB). OK to download it? (Same question for 3 older TIPP polls.)
 
 **No public source found (5 races).** Each was searched for and checked in a browser; only second-hand reports exist:
 - **Louisiana:** Hart Research for Davis's campaign. The only source is a Bluesky post relaying what the campaign said.
@@ -60,7 +58,7 @@ Claude didn't decide these alone because each changes what we show or how we cou
 3. **Wedgewood Polls** (9 polls, all counted now): no website or track record, memos on Google Drive, the same analysis sentences reused word for word across states, and every Senate question forces a two-way choice with no undecided option. Their numbers match their memos. Keep counting them, or drop all 9?
 4. **Self-funded polls by party-leaning firms.** Wikipedia puts (R) or (D) after some pollsters' names (e.g. Quantus Insights, Big Data Poll, Rosetta Stone), and we tag those polls "partisan-aligned sponsor", even when the pollster says it paid for the poll itself. That drops them from the "no partisan polls" view. Wikipedia isn't consistent either: Big Data Poll is marked (R) in OH/GA/MI/MN but not NC/TX. Keep Wikipedia's marks, or tag self-funded polls "sponsor: the pollster" with no lean?
 5. **Advocacy-group sponsors.** 10 polls name a sponsor whose leaning we haven't sourced: James Madison Institute ("conservative think tank" per Wikipedia), Beacon Center of Tennessee, League of American Workers, Public First Action (MI, TX), Public Polling Project, Common Cause NC, Healthier United, Detroit Regional Chamber (x2), MEA + Business Leaders for Michigan, Northwest Progressive Institute. They show "Sponsor's leaning not verified" and still count as non-partisan. Tag each by its stated mission, or leave as is?
-6. **Downloads (needs your OK):** TIPP Insights results are only in Excel files (4 polls, about 1 MB each); Bullfinch Group's Idaho toplines (161 KB); Bullfinch's IA-01 poll (a .docx).
+6. **Downloads (needs your OK):** TIPP Insights results are only in Excel files (3 older polls, about 1 MB each; the Minnesota one was confirmed from a Newsweek report instead); Bullfinch Group's Idaho toplines (161 KB); Bullfinch's IA-01 poll (a .docx).
 
 ## Priority 3: Spot-check the AI assistant's work
 
