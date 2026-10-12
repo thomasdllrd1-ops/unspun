@@ -4,7 +4,7 @@ Everything here is either **hidden from the public site** until a person checks 
 
 **Fastest way to work through it:** run `npm run dev`, open **http://localhost:4321/review/checklist/**, and use the `npm run verify` commands shown there. When you finish an item below, delete it (git keeps the history).
 
-_Last updated: Oct 9, 2026 (all 192 race ratings checked by Thomas and published)_
+_Last updated: Oct 11, 2026 (poll checks; see Priority 2 for the 13 races whose averages are on hold)_
 
 ---
 
@@ -26,20 +26,34 @@ Other candidate notes:
 - **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
 - **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-## Priority 2: Polls that need a human (50 recent polls, 22 races on hold)
+## Priority 2: Polls that need a human (13 races' averages on hold)
 
-A race's average stays **on hold** until every poll from the last 60 days is checked, so these block the scoreboard for 22 races. The checklist page lists each one with its source link and the numbers to confirm. Most come from sites that block automated tools:
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 11, 14 polls hold up 13 races. Everything else that could be checked by Claude has been (46 older or unfindable polls stay hidden; none of them affects an average except the ones below).
 
-- **Google Drive** memos (9), **University of New Hampshire** PDFs (7), **DocumentCloud** (5), **New York Times** (3), **Politico** (2), **Change Research** (1)
-- **Abacus Data** (5 polls, one article): the numbers are in a chart. Also, the article says its likely-voter results total 1,507 people across the five states, but Wikipedia's per-state sizes add up to 1,594. Check the sample sizes in the chart.
-- **Quantus Insights, Maine** (Sep 14–15) didn't load for us. **Quantus, North Carolina (Sep 22)**: Wikipedia links it to a different pollster's page, so we couldn't find it.
-- **Hart Research (Louisiana)** and **Aspect Strategic (Montana)**: the only sources we found were social-media posts, not the pollster's release.
+**10 minutes, biggest payoff: New York Times/Siena (7 races: IA, KS, ME, MI, NH, OH, TX).** The NYT shows our tools a robot check, so a person has to open these. The candidate numbers are already confirmed from Siena's own site. On each page, find the **sample size, margin of error, and the undecided %**, then tell Claude:
+
+| Race | Open this |
+|---|---|
+| Maine, Michigan, New Hampshire (Sept 15–22) | nytimes.com/interactive/2026/09/24/polls/times-siena-poll-me-toplines.html (swap `me` for `mi`, `nh`) |
+| Iowa, Kansas, Ohio, Texas (Sept 21–Oct 1) | nytimes.com/interactive/2026/10/03/polls/times-siena-iowa-poll-toplines.html (swap `iowa` for `kansas`, `ohio`, `texas`) |
+
+**Needs your yes/no: TIPP Insights, Minnesota (Aug 31–Sept 2).** The results are only in an Excel download on tippinsights.com (about 1 MB). OK to download it? (Same question for 3 older TIPP polls.)
+
+**No public source found (5 races).** Each was searched for and checked in a browser; only second-hand reports exist:
+- **Louisiana:** Hart Research for Davis's campaign. The only source is a Bluesky post relaying what the campaign said.
+- **Montana:** Aspect Strategic for Montana Freedom PAC. The only source is a reporter's post on X.
+- **Nebraska:** Impact Research for Osborn's campaign. The article is paywalled, and the campaign didn't share a report.
+- **North Carolina:** YouGov, Sept 15–18. Wikipedia links a different pollster's page.
+- **South Dakota:** Lake Research. The only source is a LinkedIn repost.
+- **Kansas** (also NYT above): GBAO for Hamilton's campaign. The memo shows the exact shares only in a chart that mixes several polls.
+
+**Claude's recommendation (needs your OK, since it changes the method):** these will probably never get a public source, so under the current rule those 5 races show no average through Election Day. Suggested change: a poll with no findable release after a real search is marked **"reported, but we couldn't find the pollster's release."** It's listed on the race page, left out of the average, and no longer holds the race.
 
 If a poll's numbers differ from what we have, fix `data/polls/poll_results.csv` before running `npm run verify -- poll <id>`.
 
 ## Priority 3: Spot-check the AI assistant's work
 
-About 40 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
+About 217 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
 
 Also spot-check 3 candidate lists against the official links on their race pages (the helpers' work was spot-checked for NJ, ME, WY, TX and FL, and all matched).
 
