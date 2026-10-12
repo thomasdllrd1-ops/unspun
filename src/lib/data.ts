@@ -210,12 +210,21 @@ export const sourceById = (id: string) => {
 };
 export const partyById = (id: string) => db.parties.find((p) => p.id === id)!;
 
-/** The single Democratic-side and Republican-side candidate in a race (null if none or more than one). */
+/**
+ * The Democratic-side and Republican-side candidate in a race (null if none). When a party has several
+ * (Alaska: three Republicans), it's the one with the highest share in the newest checked poll that names them.
+ */
 export function majorPair(raceId: string) {
   const inRace = db.candidates.filter((c) => c.race === raceId);
   const one = (bloc: 'D' | 'R') => {
     const xs = inRace.filter((c) => partyById(c.party).bloc === bloc);
-    return xs.length === 1 ? xs[0] : null;
+    if (xs.length <= 1) return xs[0] ?? null;
+    for (const p of pollsForRace(raceId)) { // newest first
+      const share = new Map(resultsForPoll(p.id).map((r) => [r.candidate, r.pct]));
+      const named = xs.filter((c) => share.has(c.id)).sort((a, b) => share.get(b.id)! - share.get(a.id)!);
+      if (named.length) return named[0];
+    }
+    return null;
   };
   return { dem: one('D'), rep: one('R') };
 }

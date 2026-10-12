@@ -37,11 +37,13 @@ export function summarize(race: Race, today = new Date()): Summary {
   const recent = polls.filter((p) => daysBetween(pollDate(p), today) <= RECENT_DAYS);
   const avg = underReview ? null : pollingAverage(avgPolls, { today: today.toISOString().slice(0, 10) });
 
-  // Pick the two "teams": the Democratic and Republican candidates if both run, else the top two in the average.
+  // Pick the two "teams": the Democratic and Republican candidates if both run, else the top two in the average
+  // (or, while the average is on hold, in the newest checked poll; polls come newest first).
   const pair = majorPair(race.id);
   let two = pair.dem && pair.rep ? [pair.dem, pair.rep] : [];
   if (two.length < 2) {
-    const ranked = avg ? [...cands].sort((a, b) => (avg.shares[b.id] ?? -1) - (avg.shares[a.id] ?? -1)) : cands;
+    const standing = avg?.shares ?? avgPolls[0]?.shares;
+    const ranked = standing ? [...cands].sort((a, b) => (standing[b.id] ?? -1) - (standing[a.id] ?? -1)) : cands;
     two = ranked.slice(0, 2);
   }
   const teams: Team[] = two.map((c) => {
