@@ -28,7 +28,7 @@ Other candidate notes:
 
 ## Priority 2: Polls that need a human (14 races' averages on hold)
 
-A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 12, 15 polls hold up 14 races (Alaska joined after we started reading Wikipedia's second Alaska poll table). Everything else that could be checked by Claude has been (46 older or unfindable polls stay hidden; none of them affects an average except the ones below).
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 12, 15 polls hold up 14 races (Alaska joined after we started reading Wikipedia's second Alaska poll table). Every other hidden poll is either older than 60 days or has no findable source, so it stays hidden without affecting any average.
 
 **10 minutes, biggest payoff: New York Times/Siena (8 races: AK, IA, KS, ME, MI, NH, OH, TX).** The NYT shows our tools a robot check, so a person has to open these. The candidate numbers are already confirmed from Siena's own site. On each page, find the **sample size, margin of error, and the undecided %**, then tell Claude:
 
