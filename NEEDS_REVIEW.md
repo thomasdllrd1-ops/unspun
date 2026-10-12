@@ -26,16 +26,16 @@ Other candidate notes:
 - **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
 - **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-## Priority 2: Polls that need a human (13 races' averages on hold)
+## Priority 2: Polls that need a human (14 races' averages on hold)
 
-A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 11, 14 polls hold up 13 races. Everything else that could be checked by Claude has been (46 older or unfindable polls stay hidden; none of them affects an average except the ones below).
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 12, 15 polls hold up 14 races (Alaska joined after we started reading Wikipedia's second Alaska poll table). Everything else that could be checked by Claude has been (46 older or unfindable polls stay hidden; none of them affects an average except the ones below).
 
-**10 minutes, biggest payoff: New York Times/Siena (7 races: IA, KS, ME, MI, NH, OH, TX).** The NYT shows our tools a robot check, so a person has to open these. The candidate numbers are already confirmed from Siena's own site. On each page, find the **sample size, margin of error, and the undecided %**, then tell Claude:
+**10 minutes, biggest payoff: New York Times/Siena (8 races: AK, IA, KS, ME, MI, NH, OH, TX).** The NYT shows our tools a robot check, so a person has to open these. The candidate numbers are already confirmed from Siena's own site. On each page, find the **sample size, margin of error, and the undecided %**, then tell Claude:
 
 | Race | Open this |
 |---|---|
 | Maine, Michigan, New Hampshire (Sept 15–22) | nytimes.com/interactive/2026/09/24/polls/times-siena-poll-me-toplines.html (swap `me` for `mi`, `nh`) |
-| Iowa, Kansas, Ohio, Texas (Sept 21–Oct 1) | nytimes.com/interactive/2026/10/03/polls/times-siena-iowa-poll-toplines.html (swap `iowa` for `kansas`, `ohio`, `texas`) |
+| Alaska, Iowa, Kansas, Ohio, Texas (Sept 21–Oct 1) | nytimes.com/interactive/2026/10/03/polls/times-siena-iowa-poll-toplines.html (swap `iowa` for `alaska`, `kansas`, `ohio`, `texas`) |
 
 **Needs your yes/no: TIPP Insights, Minnesota (Aug 31–Sept 2).** The results are only in an Excel download on tippinsights.com (about 1 MB). OK to download it? (Same question for 3 older TIPP polls.)
 

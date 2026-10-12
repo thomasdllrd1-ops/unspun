@@ -9883,7 +9883,7 @@
   "id": "poll-bb02f21635",
   "title": "Rasmussen Reports poll, September 13–14, 2026",
   "publisher": "rasmussenreports.com",
-  "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate",
+  "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_alaska_senate_september_13_14_2026",
   "type": "pollster",
   "accessed": "2026-10-11"
  },
@@ -9988,6 +9988,14 @@
   "title": "Alaska Survey Research poll, April 21–25, 2023",
   "publisher": "mustreadalaska.com",
   "url": "https://mustreadalaska.com/new-poll-says-rep-mary-peltola-could-take-sen-dan-sullivan-in-2026/",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-bfba6e5426",
+  "title": "Alaska Survey Research poll, October 1–3, 2026",
+  "publisher": "bsky.app",
+  "url": "https://bsky.app/profile/alaskasurvey.bsky.social/post/3mxcbo5fsss2l",
   "type": "pollster",
   "accessed": "2026-10-11"
  }
