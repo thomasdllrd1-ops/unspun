@@ -949,9 +949,9 @@
   "id": "poll-87dfa332e8",
   "title": "Rasmussen Reports poll, September 14, 2026",
   "publisher": "rasmussenreports.com",
-  "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_georgia_senate",
+  "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_georgia_senate_september_14_2026",
   "type": "pollster",
-  "accessed": "2026-09-25"
+  "accessed": "2026-10-11"
  },
  {
   "id": "poll-ec18b17c2b",
@@ -1323,11 +1323,11 @@
  },
  {
   "id": "poll-0e84d208ce",
-  "title": "Rasmussen Reports poll, September 8–10, 2026",
+  "title": "Rasmussen Reports poll, October 5–8, 2026",
   "publisher": "rasmussenreports.com",
-  "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_maine_senate",
+  "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_maine_senate_october_5_8_2026",
   "type": "pollster",
-  "accessed": "2026-09-25"
+  "accessed": "2026-10-11"
  },
  {
   "id": "poll-73dbb9079e",
@@ -9187,7 +9187,7 @@
   "id": "poll-1b12e6db43",
   "title": "Rasmussen Reports poll, September 22–23, 2026",
   "publisher": "rasmussenreports.com",
-  "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_ohio_senate",
+  "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_ohio_senate_september_22_23_2026",
   "type": "pollster",
   "accessed": "2026-10-11"
  },
@@ -9547,7 +9547,7 @@
   "id": "poll-3d081bd5c6",
   "title": "Rasmussen Reports poll, October 5–7, 2026",
   "publisher": "rasmussenreports.com",
-  "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_minnesota_senate",
+  "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_minnesota_senate_october_5_7_2026",
   "type": "pollster",
   "accessed": "2026-10-11"
  },
@@ -9675,7 +9675,7 @@
   "id": "poll-678455baba",
   "title": "Rasmussen Reports poll, October 5–8, 2026",
   "publisher": "rasmussenreports.com",
-  "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_south_carolina_senate",
+  "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_south_carolina_senate_october_5_8_2026",
   "type": "pollster",
   "accessed": "2026-10-11"
  },
@@ -9836,6 +9836,14 @@
   "title": "DCCC Analytics Department poll, September 22–23, 2026",
   "publisher": "dccc.org",
   "url": "https://dccc.org/dccc-polling-memo-oh-09-is-a-dead-heat/",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-f029b571b2",
+  "title": "Rasmussen Reports poll, September 8–10, 2026",
+  "publisher": "rasmussenreports.com",
+  "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_maine_senate_september_8_10_2026",
   "type": "pollster",
   "accessed": "2026-10-11"
  }
