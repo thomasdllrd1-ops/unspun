@@ -14,7 +14,6 @@ These states' official sites block automated tools. The race page shows a "not c
 
 | Race | Open this in your browser | What to check |
 |---|---|---|
-| **New Hampshire Senate** | sos.nh.gov → 2026 general election candidates | Full ballot. A Rasmussen release lists 4 independents we don't have: Aaron Day, Tim Harris, Christine Lopez, Jeanne Logan Morrow, and an InsiderAdvantage poll (Sept 16-17) also names independent Matt Giovonizzi. Our list is Pappas, Sununu, LaPlante. |
 | **Rhode Island Senate** | vote.sos.ri.gov → Candidates | Full ballot (we have Reed, McKay, Bahry from Wikipedia) |
 | **AZ-01 and AZ-06** | azsos.gov → 2026 general election candidates | Full ballots (from Wikipedia: AZ-01 Feely, Shah, Alponte; AZ-06 Ciscomani, Mendoza, Peters, Swing). Is AZ-01 an open seat? |
 | **Massachusetts Senate** | sec.state.ma.us → 2026 state election candidates | Confirm the two non-major candidates: Shiva Ayyadurai (Independent) and Joe Tache (Socialism and Liberation) |

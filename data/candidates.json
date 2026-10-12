@@ -1177,13 +1177,13 @@
   {
     "id": "edmond-laplante",
     "race": "nh-sen",
-    "ballot_name": "Edmond LaPlante",
-    "sort_name": "LaPlante",
+    "ballot_name": "Edmond Laplante",
+    "sort_name": "Laplante",
     "party": "constitution",
     "incumbent": false,
     "website": "https://laplante4constitutionalnh.com",
     "fec_id": "S2NH00223",
-    "source": "wikipedia-senate-2026"
+    "source": "nh-sos-ge-candidates-2026"
   },
   {
     "id": "chris-pappas",
@@ -1194,7 +1194,7 @@
     "incumbent": false,
     "website": "https://chrispappas.org",
     "fec_id": "S6NH00141",
-    "source": "wikipedia-senate-2026"
+    "source": "nh-sos-ge-candidates-2026"
   },
   {
     "id": "john-sununu",
@@ -1205,7 +1205,7 @@
     "incumbent": false,
     "website": "https://www.sununusenator.com",
     "fec_id": "S6NH00208",
-    "source": "wikipedia-senate-2026"
+    "source": "nh-sos-ge-candidates-2026"
   },
   {
     "id": "cory-booker",

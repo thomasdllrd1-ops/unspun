@@ -327,9 +327,7 @@
     "name": "New Hampshire U.S. Senate",
     "short": "NH Senate",
     "election_date": "2026-11-03",
-    "source": "wikipedia-senate-2026",
-    "note": "This list may be incomplete. A Rasmussen Reports poll release says four independents are also on the ballot: Aaron Day, Tim Harris, Christine Lopez and Jeanne Logan Morrow. We're confirming the full ballot with New Hampshire's official list.",
-    "note_source": "poll-3c3699ec83"
+    "source": "nh-sos-ge-candidates-2026"
   },
   {
     "id": "nj-sen",
