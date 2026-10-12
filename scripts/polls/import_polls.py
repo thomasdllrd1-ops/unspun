@@ -69,6 +69,8 @@ for p in checks:
         if code.startswith('2'): url = alt
         else: skipped += 1; continue
     sid = 'poll-' + hashlib.sha1(url.encode()).hexdigest()[:10]
+    shared = [q['id'] for q in polls_f if q['source'] == sid]
+    if shared: print(f'WARNING {pid}: its link is also the source of {shared}; the page may have been overwritten by a newer poll (Rasmussen does this). Point each at a dated page with set_source_url.py.')
     if sid not in src_ids:
         host = urlparse(url).netloc.replace('www.', '')
         sources.append({'id': sid, 'title': f"{name} poll, {p['dates']}", 'publisher': host, 'url': url, 'type': 'news' if any(x in host for x in NEWS) else 'pollster', 'accessed': TODAY})
