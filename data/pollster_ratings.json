@@ -369,6 +369,14 @@
    "polls_analyzed": 96,
    "percent_partisan_work": 0,
    "inactive": false
+  },
+  "Alaska Survey Research": {
+   "fte_id": 155,
+   "fte_name": "Alaska Survey Research",
+   "grade": 1.9,
+   "polls_analyzed": 16,
+   "percent_partisan_work": 0,
+   "inactive": false
   }
  }
 }

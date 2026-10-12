@@ -9846,5 +9846,149 @@
   "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_maine_senate_september_8_10_2026",
   "type": "pollster",
   "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-a663b79cbd",
+  "title": "New York Times/Siena University poll, September 24 – October 1, 2026",
+  "publisher": "nytimes.com",
+  "url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-alaska-poll-toplines.html",
+  "type": "news",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-aaabf6d87e",
+  "title": "Quantus Insights poll, September 28–30, 2026",
+  "publisher": "quantusinsights.org",
+  "url": "https://quantusinsights.org/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-7445ac4a86",
+  "title": "Trafalgar Group poll, September 22–24, 2026",
+  "publisher": "thetrafalgargroup.org",
+  "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/AK-Midterms-Survey-Report-0925.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-5d6b74fe61",
+  "title": "co/efficient poll, September 14–17, 2026",
+  "publisher": "battlegrounds.coefficient.org",
+  "url": "https://battlegrounds.coefficient.org/ak/",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-bb02f21635",
+  "title": "Rasmussen Reports poll, September 13–14, 2026",
+  "publisher": "rasmussenreports.com",
+  "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-c3d92165b0",
+  "title": "Alaska Survey Research poll, August 20–23, 2026",
+  "publisher": "bsky.app",
+  "url": "https://bsky.app/profile/did:plc:qmuhdnevjtwbhbbhw4cah367/post/3mukcv6iqjk2d",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-fd1d4188e2",
+  "title": "Alaska Survey Research poll, August 2–5, 2026",
+  "publisher": "bsky.app",
+  "url": "https://bsky.app/profile/alaskasurvey.bsky.social/post/3mstcarsnc32q",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-aa3cc6730a",
+  "title": "Alaska Survey Research poll, June 4–7, 2026",
+  "publisher": "bsky.app",
+  "url": "https://bsky.app/profile/alaskasurvey.bsky.social/post/3mo4ifkz3tc25",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-6b8a79c24c",
+  "title": "Alaska Survey Research poll, May 14–17, 2026",
+  "publisher": "bsky.app",
+  "url": "https://bsky.app/profile/alaskasurvey.bsky.social/post/3mmrlwfjug22l",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-0256e59aaf",
+  "title": "Alaska Survey Research poll, April 16–19, 2026",
+  "publisher": "alaskasurveyresearch.com",
+  "url": "https://alaskasurveyresearch.com/peltola-vs-sullivan-april-2026/",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-1f03f74d8b",
+  "title": "Alaska Survey Research poll, March 19–22, 2026",
+  "publisher": "alaskasurveyresearch.com",
+  "url": "https://alaskasurveyresearch.com/wp-content/uploads/FULL-REPORT-March-Senate-Political-Tracking-Survey.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-02c57f6d70",
+  "title": "Public Policy Polling poll, January 16–17, 2026",
+  "publisher": "politico.com",
+  "url": "https://www.politico.com/f/?id=0000019b-dec9-d6ec-a99b-dfe9e6750000",
+  "type": "news",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-3609e53ef4",
+  "title": "Alaska Survey Research poll, January 8–11, 2026",
+  "publisher": "alaskasurveyresearch.com",
+  "url": "https://alaskasurveyresearch.com/wp-content/uploads/202526-Winter-Alaska-Survey-Report.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-d3318955fd",
+  "title": "Data for Progress poll, October 17–23, 2025",
+  "publisher": "alaskapublic.org",
+  "url": "https://alaskapublic.org/news/politics/2025-10-31/new-poll-shows-peltola-neck-and-neck-with-sullivan-if-she-were-to-run-for-u-s-senate",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-4075cf238e",
+  "title": "Alaska Survey Research poll, October 10–15, 2025",
+  "publisher": "juneauindependent.com",
+  "url": "https://www.juneauindependent.com/post/poll-peltola-ahead-of-sullivan-in-race-that-could-decide-control-of-us-senate",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-482d8c4cfe",
+  "title": "Alaska Survey Research poll, July 29 – August 1, 2025",
+  "publisher": "documentcloud.org",
+  "url": "https://www.documentcloud.org/documents/26071481-ak-sen-alaska-survey-research-d/",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-932b655ef1",
+  "title": "Data for Progress poll, July 21–27, 2025",
+  "publisher": "dataforprogress.org",
+  "url": "https://www.dataforprogress.org/blog/2025/8/8/mary-peltola-would-be-front-runner-for-alaska-governor",
+  "type": "pollster",
+  "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-68a6e9feaf",
+  "title": "Alaska Survey Research poll, April 21–25, 2023",
+  "publisher": "mustreadalaska.com",
+  "url": "https://mustreadalaska.com/new-poll-says-rep-mary-peltola-could-take-sen-dan-sullivan-in-2026/",
+  "type": "pollster",
+  "accessed": "2026-10-11"
  }
 ]

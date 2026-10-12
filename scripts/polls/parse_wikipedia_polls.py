@@ -124,12 +124,11 @@ def main():
       body = p.group(1)
       body = body.split('{{hidden begin')[0]  # hypothetical matchups live in hidden boxes; skip them
       tables = re.findall(r'\{\|.*?\n\|\}', body, re.S)
-      polls = []
-      for tb in tables:  # first table with "Poll source" + "Margin of error" = the actual matchup (skip aggregator averages)
-          got = parse_table(tb, refs, named_efns(t))
-          if got is not None:
-              polls = got
-              break
+      polls, seen = [], set()
+      for tb in tables:  # every table with "Poll source" + "Margin of error" (aggregator averages return None);
+          got = parse_table(tb, refs, named_efns(t)) or []  # Alaska has two: ranked-choice and first-past-the-post
+          for q in got:
+              if (q['pollster'], q['dates']) not in seen: seen.add((q['pollster'], q['dates'])); polls.append(q)
       out[f] = {'polls': polls}
   json.dump(out, open('../polls_wiki.json', 'w'), indent=1, ensure_ascii=False)
   for f, v in out.items():

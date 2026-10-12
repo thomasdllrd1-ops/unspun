@@ -69,7 +69,7 @@ for p in checks:
         if code.startswith('2'): url = alt
         else: skipped += 1; continue
     sid = 'poll-' + hashlib.sha1(url.encode()).hexdigest()[:10]
-    shared = [q['id'] for q in polls_f if q['source'] == sid]
+    shared = [q['id'] for q in polls_f if q['source'] == sid and q['race'] == race]  # same race, same link: likely an overwritten page
     if shared: print(f'WARNING {pid}: its link is also the source of {shared}; the page may have been overwritten by a newer poll (Rasmussen does this). Point each at a dated page with set_source_url.py.')
     if sid not in src_ids:
         host = urlparse(url).netloc.replace('www.', '')
