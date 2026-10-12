@@ -51,9 +51,22 @@ A race's average stays **on hold** while any poll from the last 60 days is unche
 
 If a poll's numbers differ from what we have, fix `data/polls/poll_results.csv` before running `npm run verify -- poll <id>`.
 
+## Decisions waiting on you (questions, not checks)
+
+Claude didn't decide these alone because each changes what we show or how we count it.
+
+1. **House race list.** You set the rule on Sept 24: cover every district rated Toss-up by at least 2 of Cook, Inside Elections and Sabato. Re-running it on Oct 12 ratings would **add** CA-22, FL-22, IA-02, MI-04, NC-01, NC-11, TX-15 and **drop** IA-01, IA-03, PA-07, WA-03 (all four now lean Democratic at 2+ forecasters). *Claude's suggestion:* keep all 18 we cover (they're still competitive, and readers may already use those pages). Add the 7 only if you want full coverage under your rule; Claude can do their candidate lists, positions, money and polls.
+2. **Polls with no public release** (see Priority 2): list them but leave them out of the average, so they stop holding races?
+3. **Wedgewood Polls** (9 polls, all counted now): no website or track record, memos on Google Drive, the same analysis sentences reused word for word across states, and every Senate question forces a two-way choice with no undecided option. Their numbers match their memos. Keep counting them, or drop all 9?
+4. **Self-funded polls by party-leaning firms.** Wikipedia puts (R) or (D) after some pollsters' names (e.g. Quantus Insights, Big Data Poll, Rosetta Stone), and we tag those polls "partisan-aligned sponsor", even when the pollster says it paid for the poll itself. That drops them from the "no partisan polls" view. Wikipedia isn't consistent either: Big Data Poll is marked (R) in OH/GA/MI/MN but not NC/TX. Keep Wikipedia's marks, or tag self-funded polls "sponsor: the pollster" with no lean?
+5. **Advocacy-group sponsors.** 10 polls name a sponsor whose leaning we haven't sourced: James Madison Institute ("conservative think tank" per Wikipedia), Beacon Center of Tennessee, League of American Workers, Public First Action (MI, TX), Public Polling Project, Common Cause NC, Healthier United, Detroit Regional Chamber (x2), MEA + Business Leaders for Michigan, Northwest Progressive Institute. They show "Sponsor's leaning not verified" and still count as non-partisan. Tag each by its stated mission, or leave as is?
+6. **Downloads (needs your OK):** TIPP Insights results are only in Excel files (4 polls, about 1 MB each); Bullfinch Group's Idaho toplines (161 KB); Bullfinch's IA-01 poll (a .docx).
+
 ## Priority 3: Spot-check the AI assistant's work
 
 About 217 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
+
+On Oct 12, Claude also updated 28 expert ratings that had changed (12 Senate, 16 House), each confirmed on the forecaster's own page; they say "verified by ai" in `data/ratings.csv`, with the old rating in the notes. Spot-check 3 of those too.
 
 Also spot-check 3 candidate lists against the official links on their race pages (the helpers' work was spot-checked for NJ, ME, WY, TX and FL, and all matched).
 
@@ -110,4 +123,4 @@ Blocked or broken sites:
 
 ## Sites our tools couldn't read (so a person has to)
 
-Cook Political Report, Inside Elections, Sabato's Crystal Ball, VPAP, Virginia Mercury, Politico, New York Times, University of New Hampshire PDFs, Google Drive, and official election sites for NH, RI, AZ, MA (candidate page), PA, NY, WI, GA, KS, AR, OH, TN. We didn't try to get around these blocks.
+VPAP, Virginia Mercury, Politico, New York Times, University of New Hampshire PDFs, Google Drive, and official election sites for NH, RI, AZ, MA (candidate page), PA, NY, WI, GA, KS, AR, OH, TN. We didn't try to get around these blocks. (In the supervised browser on Oct 12, Cook, Inside Elections and Sabato's pages loaded fine; the New York Times still showed a robot check.)
