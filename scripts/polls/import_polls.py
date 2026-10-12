@@ -15,7 +15,7 @@ def race_of(key):
     return key
 def dates(s):
     s = s.replace('–', '-').replace('—', '-').replace(' - ', '-')
-    m = re.match(r'^([A-Z][a-z]+) (\d{1,2})(?:-(?:([A-Z][a-z]+) )?(\d{1,2}))?, (\d{4})$', s.strip())
+    m = re.match(r'^([A-Z][a-z]+) (\d{1,2})(?:-(?:([A-Z][a-z]+) )?(\d{1,2}))?,? (\d{4})$', s.strip())
     if not m: return '', ''
     m1, d1, m2, d2, y = m.groups()
     if m1 not in MONTHS or (m2 and m2 not in MONTHS): return '', ''

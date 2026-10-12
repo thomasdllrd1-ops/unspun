@@ -377,6 +377,14 @@
    "polls_analyzed": 16,
    "percent_partisan_work": 0,
    "inactive": false
+  },
+  "DHM Research": {
+   "fte_id": 76,
+   "fte_name": "DHM Research",
+   "grade": 2.1,
+   "polls_analyzed": 20,
+   "percent_partisan_work": 0,
+   "inactive": false
   }
  }
 }

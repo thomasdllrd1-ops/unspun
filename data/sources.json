@@ -9998,5 +9998,21 @@
   "url": "https://bsky.app/profile/alaskasurvey.bsky.social/post/3mxcbo5fsss2l",
   "type": "pollster",
   "accessed": "2026-10-11"
+ },
+ {
+  "id": "poll-c004b81ce2",
+  "title": "DHM Research poll, July 8–10 2026",
+  "publisher": "opb.org",
+  "url": "https://www.opb.org/article/2026/10/01/gluesenkamp-perez-braun-southwest-washington-3rd-district/",
+  "type": "pollster",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "poll-71fd7ce2e7",
+  "title": "Emerson College poll, July 8–10 2026",
+  "publisher": "nwprogressive.org",
+  "url": "https://www.nwprogressive.org/weblog/2026/07/wa-03-is-still-washingtons-tossup-district-marie-gluesenkamp-perez-and-john-braun-are-tied-ahead-of-2026-top-two-election.html",
+  "type": "pollster",
+  "accessed": "2026-10-12"
  }
 ]
