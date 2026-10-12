@@ -36,8 +36,8 @@ al-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas
 al-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 al-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ak-sen,cook,tossup,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-ak-sen,inside,tilt-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-ak-sen,sabato,tossup,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+ak-sen,inside,tossup,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was tilt-r (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
+ak-sen,sabato,lean-d,2026-10-06,sabato-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on the Crystal Ball's Senate ratings and rating-changes pages (changed Oct. 6) in a supervised browser session.
 ar-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ar-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ar-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -51,7 +51,7 @@ fl-sen-special,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verifie
 fl-sen-special,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 fl-sen-special,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ga-sen,cook,likely-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-ga-sen,inside,tilt-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+ga-sen,inside,lean-d,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was tilt-d (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
 ga-sen,sabato,likely-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 id-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 id-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -62,7 +62,7 @@ il-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Th
 ia-sen,cook,tossup,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ia-sen,inside,tilt-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ia-sen,sabato,tossup,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-ks-sen,cook,lean-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+ks-sen,cook,tossup,2026-10-06,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was lean-r (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 ks-sen,inside,likely-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ks-sen,sabato,lean-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ky-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -78,10 +78,10 @@ ma-sen,cook,solid-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas
 ma-sen,inside,solid-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ma-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 mi-sen,cook,tossup,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-mi-sen,inside,tossup,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+mi-sen,inside,tilt-d,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
 mi-sen,sabato,lean-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 mn-sen,cook,likely-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-mn-sen,inside,likely-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+mn-sen,inside,lean-d,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was likely-d (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
 mn-sen,sabato,likely-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ms-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ms-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -90,9 +90,9 @@ mt-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas
 mt-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 mt-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ne-sen,cook,likely-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-ne-sen,inside,likely-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+ne-sen,inside,lean-r,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was likely-r (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
 ne-sen,sabato,likely-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-nh-sen,cook,tossup,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+nh-sen,cook,lean-d,2026-10-06,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 nh-sen,inside,tossup,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 nh-sen,sabato,lean-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 nj-sen,cook,solid-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -101,8 +101,8 @@ nj-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Th
 nm-sen,cook,solid-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 nm-sen,inside,solid-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 nm-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-nc-sen,cook,lean-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-nc-sen,inside,tilt-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+nc-sen,cook,likely-d,2026-10-06,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was lean-d (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
+nc-sen,inside,lean-d,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was tilt-d (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
 nc-sen,sabato,lean-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 oh-sen-special,cook,tossup,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 oh-sen-special,inside,tossup,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -118,7 +118,7 @@ ri-sen,inside,solid-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Th
 ri-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 sc-sen,cook,likely-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 sc-sen,inside,likely-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-sc-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+sc-sen,sabato,likely-r,2026-10-06,sabato-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was solid-r (as of the earlier update). Checked on the Crystal Ball's Senate ratings and rating-changes pages (changed Oct. 6) in a supervised browser session.
 sd-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 sd-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 sd-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -126,7 +126,7 @@ tn-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas
 tn-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 tn-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 tx-sen,cook,tossup,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-tx-sen,inside,lean-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+tx-sen,inside,tilt-r,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was lean-r (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
 tx-sen,sabato,tossup,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 va-sen,cook,solid-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 va-sen,inside,solid-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
