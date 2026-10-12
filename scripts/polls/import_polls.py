@@ -1,5 +1,6 @@
 """Turn poll_checks.json (Wikipedia leads + automatic source check) into data/polls rows."""
 import csv, hashlib, json, os, re, sys, unicodedata
+PARTY_ORGS = r'\b(DSCC|NRSC|DCCC|NRCC|DNC|RNC|Democratic Party|Republican Party|(Democratic|Republican) (Senatorial|Congressional) Campaign Committee|National Republican (Senatorial|Congressional) Committee|Democratic National Committee|Republican National Committee)\b'
 from urllib.parse import urlparse
 S = os.environ.get('POLLRUN') or sys.exit('set POLLRUN to the folder holding poll_checks.json')
 D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data')  # repo/data, wherever the repo lives
@@ -79,7 +80,7 @@ for p in checks:
     sponsor, stype, lean = '', 'unknown', 'none'
     if marker in ('D', 'R'):
         lean = marker
-        stype = 'campaign' if re.search(r'campaign', note, re.I) else 'party' if re.search(r'\b(DSCC|NRSC|DCCC|NRCC|DNC|RNC|Democratic Party|Republican Party)\b', note) else 'partisan-aligned'
+        stype = 'party' if re.search(PARTY_ORGS, note) else 'campaign' if re.search(r'campaign', note, re.I) else 'partisan-aligned'  # party first: "Senatorial Campaign Committee" is a party group
         m = re.search(r'(?:sponsored by|conducted (?:on behalf of|for)|commissioned by|on behalf of|for) (?:the )?([^.,;]+)', note, re.I)
         sponsor = (m.group(1).strip() if m else note)[:90]
     elif marker == 'I':

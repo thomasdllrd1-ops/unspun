@@ -40,7 +40,7 @@ def ref_urls(cell, refs):
 
 def named_efns(t):
     """Footnotes defined once with a name ({{efn|name=X|text}}) and reused later as {{efn|name=X}}."""
-    return {m.group(1).strip(): clean(m.group(2)) for m in
+    return {m.group(1).strip(): re.sub(r'^\s*text\s*=\s*', '', clean(m.group(2))) for m in
             re.finditer(r'(?i)\{\{efn(?:-ua)?\|\s*name\s*=\s*"?([^|}"]+)"?\s*\|([^{}]*(?:\{\{[^{}]*\}\}[^{}]*)*)\}\}', t)}
 
 def efn_text(cell, efns=None):
@@ -48,7 +48,7 @@ def efn_text(cell, efns=None):
     if not m: return ''
     if m.group(1) and not m.group(2).strip():  # a reused footnote: look up the text where it was defined
         return (efns or {}).get(m.group(1).strip(), '')
-    return clean(m.group(2))
+    return re.sub(r'^\s*text\s*=\s*', '', clean(m.group(2)))  # {{efn|text=...}} form
 
 def parse_table(tbl, refs, efns=None):
     lines = tbl.split('\n')
