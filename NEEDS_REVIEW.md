@@ -4,7 +4,7 @@ Everything here is either **hidden from the public site** until a person checks 
 
 **Fastest way to work through it:** run `npm run dev`, open **http://localhost:4321/review/checklist/**, and use the `npm run verify` commands shown there. When you finish an item below, delete it (git keeps the history).
 
-_Last updated: Oct 11, 2026 (poll checks; see Priority 2 for the 13 races whose averages are on hold)_
+_Last updated: Oct 12, 2026 (poll and rating checks; see Priority 2 for the 6 races whose averages are on hold)_
 
 ---
 
@@ -26,26 +26,21 @@ Other candidate notes:
 - **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
 - **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-## Priority 2: Polls that need a human (13 races' averages on hold)
+## Priority 2: Polls that need a human (6 races' averages on hold)
 
-A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 12, 14 polls hold up 13 races. Every other hidden poll is either older than 60 days or has no findable source, so it stays hidden without affecting any average.
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 12, 7 polls hold up 6 races. Every other hidden poll is either older than 60 days or has no findable source, so it stays hidden without affecting any average.
 
-**10 minutes, biggest payoff: New York Times/Siena (8 races: AK, IA, KS, ME, MI, NH, OH, TX).** The NYT shows our tools a robot check, so a person has to open these. The candidate numbers are already confirmed from Siena's own site. On each page, find the **sample size, margin of error, and the undecided %**, then tell Claude:
+**5 minutes: New York Times/Siena, Kansas (Sept 22-30).** The NYT shows our tools a robot check, and the open news reports disagree (Siena's release says 45-45 with Graham at 3; Political Wire says Graham 5; RealClearPolitics lists 47-46). Open nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-toplines.html and tell Claude the shares, sample size, margin of error and undecided %. (The other seven NYT/Siena polls were confirmed on Oct 12 from news reports of them; for Michigan and New Hampshire no report gave the margin or undecided share, so those are blank. If you open the Sept 24 Michigan and New Hampshire pages too, Claude can fill them in.)
 
-| Race | Open this |
-|---|---|
-| Maine, Michigan, New Hampshire (Sept 15–22) | nytimes.com/interactive/2026/09/24/polls/times-siena-poll-me-toplines.html (swap `me` for `mi`, `nh`) |
-| Alaska, Iowa, Kansas, Ohio, Texas (Sept 21–Oct 1) | nytimes.com/interactive/2026/10/03/polls/times-siena-iowa-poll-toplines.html (swap `iowa` for `alaska`, `kansas`, `ohio`, `texas`) |
-
-**No public source found (5 races).** Each was searched for and checked in a browser; only second-hand reports exist:
+**No public source found (5 races, plus GBAO in Kansas).** Each was searched for and checked in a browser; only second-hand reports exist:
 - **Louisiana:** Hart Research for Davis's campaign. The only source is a Bluesky post relaying what the campaign said.
 - **Montana:** Aspect Strategic for Montana Freedom PAC. The only source is a reporter's post on X.
 - **Nebraska:** Impact Research for Osborn's campaign. The article is paywalled, and the campaign didn't share a report.
 - **North Carolina:** YouGov, Sept 15–18. Wikipedia links a different pollster's page.
 - **South Dakota:** Lake Research. The only source is a LinkedIn repost.
-- **Kansas** (also NYT above): GBAO for Hamilton's campaign. The memo shows the exact shares only in a chart that mixes several polls.
+- **Kansas:** GBAO for Hamilton's campaign. The memo shows the exact shares only in a chart that mixes several polls.
 
-**Claude's recommendation (needs your OK, since it changes the method):** these will probably never get a public source, so under the current rule those 5 races show no average through Election Day. Suggested change: a poll with no findable release after a real search is marked **"reported, but we couldn't find the pollster's release."** It's listed on the race page, left out of the average, and no longer holds the race.
+**Claude's recommendation (needs your OK, since it changes the method):** these will probably never get a public source, so under the current rule those races show no average through Election Day. Suggested change: a poll with no findable release after a real search is marked **"reported, but we couldn't find the pollster's release."** It's listed on the race page, left out of the average, and no longer holds the race.
 
 If a poll's numbers differ from what we have, fix `data/polls/poll_results.csv` before running `npm run verify -- poll <id>`.
 
