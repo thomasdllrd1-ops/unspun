@@ -10,102 +10,102 @@
         "marcy-kaptur-site-about-marcy",
         "marcy-kaptur-site-priorities"
       ],
-      "priorities_note": "",
+      "priorities_note": "Her priorities page lists sections in this order; the top 3 are the first three section headings. (The page was rewritten in October with new sections.)",
       "priorities": [
         {
           "rank": 1,
-          "heading": "Jobs, Costs & the Economy",
-          "quote": "She is fighting to bring jobs home, take away tax breaks from companies that ship jobs overseas, and for tariffs that protect Ohio-based factories and companies.",
+          "heading": "Making Northwest Ohio More Affordable",
+          "quote": "Marcy is fighting to make life more affordable for working families — taking on the powerful interests driving up the cost of everyday goods, while ending Washington’s corporate welfare that uses taxpayer dollars to bankroll giveaways for Billionaires, big corporations, and the well-connected.",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10"
+          "checked_on": "2026-10-13"
         },
         {
           "rank": 2,
-          "heading": "Immigration & Our Border",
-          "quote": "She has voted to improve and expand border security, to hire more than 10,000 border agents, and to enable military presence at the border if needed.",
+          "heading": "Jobs/Manufacturing/Labor",
+          "quote": "That’s why she’s investing in Northwest Ohio’s workforce – to bring good-paying jobs home, end tax breaks for companies that ship jobs overseas, and expand workforce training so our workers are prepared to thrive in the industries of the future.",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10"
+          "checked_on": "2026-10-13"
         },
         {
           "rank": 3,
-          "heading": "Energy, Infrastructure & Housing",
-          "quote": "As chair of the Energy and Water subcommittee on Appropriations, Marcy believes we need an “all of the above” energy policy.",
+          "heading": "Keeping Northwest Ohio Safe and Secure",
+          "quote": "Marcy believes securing our border is a shared American responsibility — one we can solve if we work together to enforce our immigration laws, deport violent criminals, and give law enforcement the resources they need — all while protecting due process, accountability, and the rule of law.",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10"
+          "checked_on": "2026-10-13"
         }
       ],
       "stances": {
         "cost-of-living": {
           "evidence": "website",
-          "heading": "Jobs, Costs & the Economy",
-          "quote": "She is fighting to bring jobs home, take away tax breaks from companies that ship jobs overseas, and for tariffs that protect Ohio-based factories and companies.",
+          "heading": "Making Northwest Ohio More Affordable",
+          "quote": "Marcy is fighting to make life more affordable for working families — taking on the powerful interests driving up the cost of everyday goods, while ending Washington’s corporate welfare that uses taxpayer dollars to bankroll giveaways for Billionaires, big corporations, and the well-connected.",
           "said_on": "",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: her priorities page was rewritten with new sections."
         },
         "housing": {
           "evidence": "website",
-          "heading": "Energy, Infrastructure & Housing",
-          "quote": "Marcy is a leader in efforts to increase the supply of affordable housing, while reducing the dangers of lead in legacy homes.",
+          "heading": "Making Northwest Ohio More Affordable",
+          "quote": "Marcy is taking on Billionaire and corporate investors buying up homes and driving up prices while working to expand the supply of affordable housing so more families can put down roots in Northwest Ohio.",
           "said_on": "",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: her priorities page was rewritten with new sections."
         },
         "health-care": {
           "evidence": "website",
-          "heading": "Jobs, Costs & the Economy",
-          "quote": "She has and will continue to fight to lower the costs of healthcare, prescription drugs, and groceries, while working to create high-wage jobs and make life easier for all.",
+          "heading": "Making Northwest Ohio More Affordable",
+          "quote": "She is fighting to fully fund Medicare and Medicaid, restore Affordable Care Act tax credits, lower prescription drug prices, and protect families from surprise medical bills.",
           "said_on": "",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: her priorities page was rewritten with new sections."
         },
         "immigration": {
           "evidence": "website",
-          "heading": "Immigration & Our Border",
-          "quote": "She has voted to improve and expand border security, to hire more than 10,000 border agents, and to enable military presence at the border if needed.",
+          "heading": "Keeping Northwest Ohio Safe and Secure",
+          "quote": "Marcy believes securing our border is a shared American responsibility — one we can solve if we work together to enforce our immigration laws, deport violent criminals, and give law enforcement the resources they need — all while protecting due process, accountability, and the rule of law.",
           "said_on": "",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: her priorities page was rewritten with new sections."
         },
         "foreign-policy": {
           "evidence": "website",
-          "heading": "Defense & Foreign Affairs",
-          "quote": "Marcy is a strong believer that Congress, and not the president alone, must have a voice in defense actions.",
+          "heading": "Making Northwest Ohio More Affordable",
+          "quote": "Keep American Tax Dollars in American Communities by opposing foreign bailouts and endless wars that put Wall Street and foreign governments ahead of Northwest Ohio.",
           "said_on": "",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: her priorities page was rewritten with new sections."
         },
         "climate-energy": {
           "evidence": "website",
-          "heading": "Energy, Infrastructure & Housing",
-          "quote": "As chair of the Energy and Water subcommittee on Appropriations, Marcy believes we need an “all of the above” energy policy.",
+          "heading": "Making Northwest Ohio More Affordable",
+          "quote": "Lower Skyrocketing Utility Bills with an all-of-the-above energy approach that modernizes our aging grid, meets growing demand, and delivers reliable, affordable power for families and the industries that drive our regional economy.",
           "said_on": "",
           "source": "marcy-kaptur-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-10",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: her priorities page was rewritten with new sections."
         }
       }
     },
