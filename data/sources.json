@@ -10030,5 +10030,13 @@
   "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
   "type": "official",
   "accessed": "2026-10-12"
+ },
+ {
+  "id": "official-ma-2026-candidates",
+  "title": "2026 State Election Candidates",
+  "publisher": "Massachusetts Secretary of the Commonwealth, Elections Division",
+  "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+  "type": "official",
+  "accessed": "2026-10-12"
  }
 ]

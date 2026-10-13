@@ -16,7 +16,6 @@ These states' official sites block automated tools. The race page shows a "not c
 |---|---|---|
 | **Rhode Island Senate** | vote.sos.ri.gov → Candidates | Full ballot (we have Reed, McKay, Bahry from Wikipedia) |
 | **AZ-01 and AZ-06** | azsos.gov → 2026 general election candidates | Full ballots (from Wikipedia: AZ-01 Feely, Shah, Alponte; AZ-06 Ciscomani, Mendoza, Peters, Swing). Is AZ-01 an open seat? |
-| **Massachusetts Senate** | sec.state.ma.us → 2026 state election candidates | Confirm the two non-major candidates: Shiva Ayyadurai (Independent) and Joe Tache (Socialism and Liberation) |
 | **Mississippi Senate** | sos.ms.gov → Candidate Qualifying | Confirm Hyde-Smith, Colom, Pinkins are the full general-election ballot |
 
 To fix a list: tell Claude what the official page shows, and the source link will be switched to the official one.

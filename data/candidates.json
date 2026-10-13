@@ -895,7 +895,7 @@
     "incumbent": true,
     "website": "https://www.edmarkey.com",
     "fec_id": "S4MA00028",
-    "source": "official-ma-2026"
+    "source": "official-ma-2026-candidates"
   },
   {
     "id": "john-deaton",
@@ -906,7 +906,7 @@
     "incumbent": false,
     "website": "https://www.johndeatonforsenate.com",
     "fec_id": "S6MA00304",
-    "source": "official-ma-2026"
+    "source": "official-ma-2026-candidates"
   },
   {
     "id": "shiva-ayyadurai",
@@ -917,7 +917,7 @@
     "incumbent": false,
     "website": "https://shiva4senate.com",
     "fec_id": "S8MA00268",
-    "source": "wikipedia-senate-2026"
+    "source": "official-ma-2026-candidates"
   },
   {
     "id": "joe-tache",
@@ -928,7 +928,7 @@
     "incumbent": false,
     "website": "https://www.tache4ma.com",
     "fec_id": "S6MA00288",
-    "source": "wikipedia-senate-2026"
+    "source": "official-ma-2026-candidates"
   },
   {
     "id": "abdul-el-sayed",
