@@ -118,47 +118,47 @@
         "troy-jackson-site-home",
         "troy-jackson-site-about"
       ],
-      "priorities_note": "His priorities page lists each priority as a one-sentence statement, shown here as written.",
+      "priorities_note": "His priorities page lists each priority as a heading followed by a paragraph; the top 3 are shown here as the headings. (The page was rewritten in October; same positions, new wording.)",
       "priorities": [
         {
           "rank": 1,
-          "heading": "Pass Medicare for all.",
+          "heading": "Pass Medicare for All",
           "quote": "",
           "source": "troy-jackson-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-09-29"
+          "checked_on": "2026-10-13"
         },
         {
           "rank": 2,
-          "heading": "Lower the cost of prescription drugs.",
+          "heading": "Lower the cost of prescription drugs",
           "quote": "",
           "source": "troy-jackson-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-09-29"
+          "checked_on": "2026-10-13"
         },
         {
           "rank": 3,
-          "heading": "Tax the billionaires and make sure greedy corporations pay their fair share.",
+          "heading": "Tax billionaires and make large corporations pay their fair share",
           "quote": "",
           "source": "troy-jackson-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-09-29"
+          "checked_on": "2026-10-13"
         }
       ],
       "stances": {
         "cost-of-living": {
           "evidence": "website",
-          "heading": "",
-          "quote": "Tax the billionaires and make sure greedy corporations pay their fair share.",
+          "heading": "Tax billionaires and make large corporations pay their fair share",
+          "quote": "Billionaires and big corporations aren't paying their fair share while working families struggle to make ends meet.",
           "said_on": "",
           "source": "troy-jackson-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-09-29",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: his priorities page was rewritten (same positions, new wording)."
         },
         "housing": {
           "evidence": "no-position",
@@ -173,36 +173,36 @@
         },
         "health-care": {
           "evidence": "website",
-          "heading": "",
-          "quote": "Pass Medicare for all.",
+          "heading": "Pass Medicare for All",
+          "quote": "Troy believes health care is a right, not a privilege, and supports Medicare for All so every American can get the care they need without worrying about premiums, deductibles, or the fear of going bankrupt because they got sick.",
           "said_on": "",
           "source": "troy-jackson-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-09-29",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: his priorities page was rewritten (same positions, new wording)."
         },
         "immigration": {
           "evidence": "website",
-          "heading": "",
-          "quote": "Dismantle and abolish ICE.",
+          "heading": "Dismantle and abolish ICE",
+          "quote": "This rogue agency must be abolished, and that’s what Troy will fight to do in the Senate.",
           "said_on": "",
           "source": "troy-jackson-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-09-29",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: his priorities page was rewritten (same positions, new wording)."
         },
         "foreign-policy": {
           "evidence": "website",
-          "heading": "",
-          "quote": "End the genocide in Gaza. No U.S. tax dollars to Israel's military.",
+          "heading": "End the genocide in Gaza and stop U.S. funding for Israel's military",
+          "quote": "Troy believes what's happening in Gaza is a genocide, that Benjamin Netanyahu is a war criminal, and the U.S. government has a responsibility to not enable that suffering.",
           "said_on": "",
           "source": "troy-jackson-site-priorities",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-09-29",
-          "note": ""
+          "checked_on": "2026-10-13",
+          "note": "Updated Oct 12, 2026: his priorities page was rewritten (same positions, new wording)."
         },
         "climate-energy": {
           "evidence": "no-position",
