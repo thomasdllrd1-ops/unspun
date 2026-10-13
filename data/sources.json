@@ -10038,5 +10038,13 @@
   "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
   "type": "official",
   "accessed": "2026-10-12"
+ },
+ {
+  "id": "az-sos-ge-candidates-2026",
+  "title": "2026 General Election candidate listing",
+  "publisher": "Arizona Secretary of State",
+  "url": "https://apps.arizona.vote/electioninfo/Election/69",
+  "type": "official",
+  "accessed": "2026-10-12"
  }
 ]

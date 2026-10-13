@@ -15,7 +15,6 @@ These states' official sites block automated tools. The race page shows a "not c
 | Race | Open this in your browser | What to check |
 |---|---|---|
 | **Rhode Island Senate** | vote.sos.ri.gov → Candidates | Full ballot (we have Reed, McKay, Bahry from Wikipedia) |
-| **AZ-01 and AZ-06** | azsos.gov → 2026 general election candidates | Full ballots (from Wikipedia: AZ-01 Feely, Shah, Alponte; AZ-06 Ciscomani, Mendoza, Peters, Swing). Is AZ-01 an open seat? |
 | **Mississippi Senate** | sos.ms.gov → Candidate Qualifying | Confirm Hyde-Smith, Colom, Pinkins are the full general-election ballot |
 
 To fix a list: tell Claude what the official page shows, and the source link will be switched to the official one.
@@ -85,7 +84,7 @@ Blocked or broken sites:
 - **WI-03, Rustin Provance**: his campaign site (the one Wikipedia links for 2026) says ©2022 and some lines refer to 2022. It's what his site shows today, so we used it.
 - **WI-03, Alexander Kent**: his campaign page asks voters to decide every issue in his app, so he has no stances on our 6 issues. His site also lists essays he wrote on some issues (abortion, capitalism); like blog posts, we didn't use them (same open question as Whitener/Wess).
 - **AZ-01, Monica Alponte**: her top 3 are the first three items in her "Issues near & dear" list (Fiscal Sanity, Prosperity, Parental Sovereignty), shown as names only. Her site's banner says "End the WARS!", while "PEACE & Non-Intervention" is 9th on her list. Check that this seems fair.
-- **AZ-06, Juan Ciscomani**: his site has no issues page, so his top 3 come from his "Results" page (Supporting Veterans, Lower Taxes, Federal Dollars). **Gary Swing**'s platform is a campaign message without headings, so he has no top 3. **Jereme Peters**: no website found. Wikipedia also lists Iman Bah (Arizona Independent Party), but Fox 10's list of the five candidates on the ballot doesn't include him.
+- **AZ-06, Juan Ciscomani**: his site has no issues page, so his top 3 come from his "Results" page (Supporting Veterans, Lower Taxes, Federal Dollars). **Gary Swing**'s platform is a campaign message without headings, so he has no top 3. **Jereme Peters**: no website found. Wikipedia also lists Iman Bah (Arizona Independent Party), but he isn't on the Secretary of State's official general-election list (checked Oct 12).
 - **IA-01, Michael Bridgford**: his Issues page shows only 11 headings to our tools (the text may open when clicked), so his top 3 are headings only; his stances come from his home page. **Mariannette Miller-Meeks**: her site has no issues or stances, only a biography, 2024 news posts and a tour schedule.
 - **MI-07, Tom Barrett**: his site has a biography and a district page but no issues or stances, so he shows "no position found" on all 6. **Candidate lists to confirm**: Wikipedia lists Isabelle Harman (independent, PA-10) and Matt Althaus (Libertarian, OH-09), who aren't in our candidate list; PA's and OH's official sites block our tools.
 - **IA-03, Sarah Trone Garriott**: her 12 issues appear in alphabetical order (likely her website's default), so her top 3 follow that order (A Higher Standard, Economy, Health care). Same rule as everyone; worth a glance.

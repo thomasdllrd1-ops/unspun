@@ -1854,18 +1854,18 @@
     "incumbent": false,
     "website": "https://monicaalponteaz.com",
     "fec_id": "H6AZ01488",
-    "source": "wikipedia-house-2026"
+    "source": "az-sos-ge-candidates-2026"
   },
   {
     "id": "jay-feely",
     "race": "az-01",
-    "ballot_name": "Jay Feely",
+    "ballot_name": "Thomas \"Jay\" Feely IV",
     "sort_name": "Feely",
     "party": "republican",
     "incumbent": false,
     "website": "https://www.jayfeelyforcongress.com",
     "fec_id": "H6AZ05190",
-    "source": "wikipedia-house-2026"
+    "source": "az-sos-ge-candidates-2026"
   },
   {
     "id": "amish-shah",
@@ -1876,7 +1876,7 @@
     "incumbent": false,
     "website": "https://www.amishforarizona.com",
     "fec_id": "H4AZ01194",
-    "source": "wikipedia-house-2026"
+    "source": "az-sos-ge-candidates-2026"
   },
   {
     "id": "mariannette-miller-meeks",
@@ -1920,7 +1920,7 @@
     "incumbent": true,
     "website": "https://juanciscomani.com",
     "fec_id": "H2AZ02360",
-    "source": "wikipedia-house-2026"
+    "source": "az-sos-ge-candidates-2026"
   },
   {
     "id": "joanna-mendoza",
@@ -1931,18 +1931,18 @@
     "incumbent": false,
     "website": "https://www.joannamendoza.com",
     "fec_id": "H6AZ06099",
-    "source": "wikipedia-house-2026"
+    "source": "az-sos-ge-candidates-2026"
   },
   {
     "id": "jereme-peters",
     "race": "az-06",
-    "ballot_name": "Jereme Peters",
+    "ballot_name": "Jereme Lance Peters",
     "sort_name": "Peters",
     "party": "libertarian",
     "incumbent": false,
     "website": null,
     "fec_id": "H6AZ06214",
-    "source": "wikipedia-house-2026"
+    "source": "az-sos-ge-candidates-2026"
   },
   {
     "id": "gary-swing",
@@ -1953,7 +1953,7 @@
     "incumbent": false,
     "website": "https://theswingvote.wixsite.com",
     "fec_id": "H6AZ06164",
-    "source": "wikipedia-house-2026"
+    "source": "az-sos-ge-candidates-2026"
   },
   {
     "id": "gabe-evans",
