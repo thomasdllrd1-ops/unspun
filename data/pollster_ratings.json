@@ -154,14 +154,6 @@
    "percent_partisan_work": 0.6,
    "inactive": false
   },
-  "Marist College": {
-   "fte_id": 183,
-   "fte_name": "Marist College",
-   "grade": 2.9,
-   "polls_analyzed": 209,
-   "percent_partisan_work": 0,
-   "inactive": false
-  },
   "Global Strategy Group": {
    "fte_id": 118,
    "fte_name": "Global Strategy Group",
@@ -306,6 +298,14 @@
    "percent_partisan_work": 0,
    "inactive": false
   },
+  "Marist University": {
+   "fte_id": 183,
+   "fte_name": "Marist College",
+   "grade": 2.9,
+   "polls_analyzed": 209,
+   "percent_partisan_work": 0,
+   "inactive": false
+  },
   "Ragnar Research Partners": {
    "fte_id": 517,
    "fte_name": "Ragnar Research Partners",
@@ -383,6 +383,14 @@
    "fte_name": "DHM Research",
    "grade": 2.1,
    "polls_analyzed": 20,
+   "percent_partisan_work": 0,
+   "inactive": false
+  },
+  "Mason-Dixon Polling & Strategy": {
+   "fte_id": 197,
+   "fte_name": "Mason-Dixon Polling & Strategy",
+   "grade": 2.6,
+   "polls_analyzed": 498,
    "percent_partisan_work": 0,
    "inactive": false
   }

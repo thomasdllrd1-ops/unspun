@@ -10070,5 +10070,37 @@
   "url": "https://punchbowl.news/wp-content/uploads/VA05_Polling_Memo_vFIN.pdf",
   "type": "news",
   "accessed": "2026-10-12"
+ },
+ {
+  "id": "poll-f75e6cd760",
+  "title": "Trafalgar Group poll, October 7–9, 2026",
+  "publisher": "thetrafalgargroup.org",
+  "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/GA-General-Report-1010.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "poll-118325a877",
+  "title": "Mason-Dixon Polling & Strategy poll, October 5–7, 2026",
+  "publisher": "kare11.com",
+  "url": "https://www.kare11.com/article/news/politics/elections/minnesota-poll-flanagan-with-narrow-lead-over-tafoya-in-us-senate-race/89-ed06354a-4656-4cc0-907e-12e67119cf00",
+  "type": "pollster",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "poll-211f2e675d",
+  "title": "National Public Affairs poll, October 2–5, 2026",
+  "publisher": "backend.natpublicaffairs.com",
+  "url": "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_100926.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "poll-504c2cfec2",
+  "title": "Trafalgar Group poll, October 8–10, 2026",
+  "publisher": "thetrafalgargroup.org",
+  "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/NC-Gen-Sen-Poll-Report-1011.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-12"
  }
 ]

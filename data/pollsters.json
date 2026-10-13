@@ -296,14 +296,6 @@
     "track_record_note": "No FiveThirtyEight grade found under this exact name."
   },
   {
-    "id": "marist-college",
-    "name": "Marist College",
-    "url": null,
-    "fte_id": 183,
-    "track_record": null,
-    "track_record_note": ""
-  },
-  {
     "id": "global-strategy-group",
     "name": "Global Strategy Group",
     "url": null,
@@ -616,14 +608,6 @@
     "track_record_note": ""
   },
   {
-    "id": "the-trafalgar-group",
-    "name": "The Trafalgar Group",
-    "url": null,
-    "fte_id": null,
-    "track_record": null,
-    "track_record_note": "No FiveThirtyEight grade found under this exact name."
-  },
-  {
     "id": "east-carolina-university",
     "name": "East Carolina University",
     "url": null,
@@ -699,9 +683,9 @@
     "id": "marist-university",
     "name": "Marist University",
     "url": null,
-    "fte_id": null,
+    "fte_id": 183,
     "track_record": null,
-    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+    "track_record_note": "FiveThirtyEight rates the Marist Poll under its older name, Marist College."
   },
   {
     "id": "texas-southern-university",
@@ -714,14 +698,6 @@
   {
     "id": "reconmr-siena-university",
     "name": "ReconMR/Siena University",
-    "url": null,
-    "fte_id": null,
-    "track_record": null,
-    "track_record_note": "No FiveThirtyEight grade found under this exact name."
-  },
-  {
-    "id": "mason-dixon",
-    "name": "Mason-Dixon",
     "url": null,
     "fte_id": null,
     "track_record": null,
@@ -1014,5 +990,21 @@
     "fte_id": 76,
     "track_record": null,
     "track_record_note": ""
+  },
+  {
+    "id": "mason-dixon-polling-strategy",
+    "name": "Mason-Dixon Polling & Strategy",
+    "url": null,
+    "fte_id": 197,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "national-public-affairs",
+    "name": "National Public Affairs",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
   }
 ]

@@ -1,5 +1,6 @@
 """Turn poll_checks.json (Wikipedia leads + automatic source check) into data/polls rows."""
 import csv, hashlib, json, os, re, sys, unicodedata
+SAME_FIRM = {'The Trafalgar Group': 'Trafalgar Group', 'Mason-Dixon': 'Mason-Dixon Polling & Strategy', 'Marist College': 'Marist University'}  # Wikipedia uses both names
 PARTY_ORGS = r'\b(DSCC|NRSC|DCCC|NRCC|DNC|RNC|Democratic Party|Republican Party|(Democratic|Republican) (Senatorial|Congressional) Campaign Committee|National Republican (Senatorial|Congressional) Committee|Democratic National Committee|Republican National Committee)\b'
 from urllib.parse import urlparse
 S = os.environ.get('POLLRUN') or sys.exit('set POLLRUN to the folder holding poll_checks.json')
@@ -52,6 +53,7 @@ for p in checks:
     if race not in by_race or race == 'va-sen': skipped += 1; continue
     marker = p.get('partisan')
     name = re.sub(r'\s*\((D|R|I|L)\)\s*$', '', p['pollster']).strip()
+    name = SAME_FIRM.get(name, name)
     start, end = dates(p['dates'])
     n, pop = sample(p['sample'])
     if not end: skipped += 1; continue
@@ -70,6 +72,7 @@ for p in checks:
         if code.startswith('2'): url = alt
         else: skipped += 1; continue
     sid = 'poll-' + hashlib.sha1(url.encode()).hexdigest()[:10]
+    if any(q['source'] == sid and q['race'] == race and q['field_end'] == end for q in polls_f): skipped += 1; continue  # same poll, pollster renamed on Wikipedia
     shared = [q['id'] for q in polls_f if q['source'] == sid and q['race'] == race]  # same race, same link: likely an overwritten page
     if shared: print(f'WARNING {pid}: its link is also the source of {shared}; the page may have been overwritten by a newer poll (Rasmussen does this). Point each at a dated page with set_source_url.py.')
     if sid not in src_ids:
