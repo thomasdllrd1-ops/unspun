@@ -94,6 +94,8 @@ Blocked or broken sites:
 - **OH-09, Derek Merrin**: his site is a biography of his Ohio legislative record with no issues list, so he has no top 3; his stances quote that record.
 - **Other no-website candidates**: Geral Staten (VA-02) and Cooke Harvey (VA-05; he has a YouTube channel, which our rules don't use).
 
+- **Sites rewritten in October (Oct 12 re-check of all 1,180 quotes):** Troy Jackson (ME), Marcy Kaptur (OH-09) and Alani Bankhead (MT) rewrote their pages; their quotes were updated from the current pages by the same rules and confirmed word for word. Kaptur's top 3 and stances were redone from new sections, so they're worth a fairness glance. Ted Brown (TX) only moved his site to tedbrown.org/website/.
+
 ---
 
 ## Smaller items

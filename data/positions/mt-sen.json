@@ -199,34 +199,34 @@
         "alani-bankhead-site-positions",
         "alani-bankhead-site-meet-alani"
       ],
-      "priorities_note": "",
+      "priorities_note": "Her top 3 are the \"three fights\" she lists on her Meet Alani page (they were on her home page until October).",
       "priorities": [
         {
           "rank": 1,
           "heading": "Affordability",
-          "quote": "Bring the cost of living back to earth: housing, groceries, and care a Montana paycheck can actually cover.",
-          "source": "alani-bankhead-site-home",
+          "quote": "Bring the cost of living back to earth — housing, healthcare, and groceries a Montana paycheck can actually cover.",
+          "source": "alani-bankhead-site-meet-alani",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-09"
+          "checked_on": "2026-10-13"
         },
         {
           "rank": 2,
           "heading": "Accountability",
-          "quote": "Zero corporate PAC money. Show up, answer for the work, and put Montana ahead of donors and special interests, the way service taught her.",
-          "source": "alani-bankhead-site-home",
+          "quote": "Show up, answer for the work, and put Montana ahead of donors and special interests.",
+          "source": "alani-bankhead-site-meet-alani",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-09"
+          "checked_on": "2026-10-13"
         },
         {
           "rank": 3,
           "heading": "Protecting the Vulnerable",
-          "quote": "A career spent on crimes against children, brought to the Senate, and a fierce guard for those most easily overlooked.",
-          "source": "alani-bankhead-site-home",
+          "quote": "A career spent on crimes against children, brought to the Senate — and a fierce guard for those most easily overlooked.",
+          "source": "alani-bankhead-site-meet-alani",
           "status": "verified",
           "checked_by": "script",
-          "checked_on": "2026-10-09"
+          "checked_on": "2026-10-13"
         }
       ],
       "stances": {
