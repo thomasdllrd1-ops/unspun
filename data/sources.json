@@ -10046,5 +10046,21 @@
   "url": "https://apps.arizona.vote/electioninfo/Election/69",
   "type": "official",
   "accessed": "2026-10-12"
+ },
+ {
+  "id": "poll-3649dff7b5",
+  "title": "co/efficient poll, September 28–30, 2026",
+  "publisher": "coefficient.org",
+  "url": "https://coefficient.org/our-work/virginia-6th-congressional-district-sep-2026/",
+  "type": "pollster",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "poll-be32326c69",
+  "title": "Washington Post-Schar School poll of Virginia 1st and 5th districts, Sept. 23–28, 2026",
+  "publisher": "washingtonpost.com",
+  "url": "https://www.washingtonpost.com/documents/c5cba6fd-7edb-4550-93c3-0580e8084bfb.pdf",
+  "type": "news",
+  "accessed": "2026-10-12"
  }
 ]
