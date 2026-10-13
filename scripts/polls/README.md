@@ -21,3 +21,4 @@ Use a scratch folder `R` (not the repo): `fetch_wiki.py R` → `cd R/wiki && pyt
 - `set_source_url.py <id> <url>` repoints a poll's source (splits off a new source if the old one is shared).
 - `add_poll.py '<json>'` adds a poll Wikipedia cites only with a social-media post, after checking it against the pollster's own post or release.
 - `../ratings_diff.py R` compares our expert ratings with Wikipedia's current tables (then confirm each change on the forecaster's page).
+- `va_check.py R` lists Virginia polls on Wikipedia that we don't have (Virginia isn't in the import; add them by hand with `add_poll.py`). TPSI's June Senate poll always shows because we keep it without dates.
