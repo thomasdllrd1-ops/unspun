@@ -15,7 +15,6 @@ These states' official sites block automated tools. The race page shows a "not c
 | Race | Open this in your browser | What to check |
 |---|---|---|
 | **Rhode Island Senate** | vote.sos.ri.gov → "View Declared Candidates" (a search form; Claude doesn't submit forms without your OK) | Full ballot. We have Reed, McKay, Bahry from Wikipedia; Ballotpedia also lists independent **Jon Lindley**. Is he on the ballot? |
-| **Mississippi Senate** | sos.ms.gov → Candidate Qualifying | Confirm Hyde-Smith, Colom, Pinkins are the full general-election ballot |
 
 To fix a list: tell Claude what the official page shows, and the source link will be switched to the official one.
 
