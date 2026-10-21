@@ -10502,5 +10502,13 @@
   "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_ohio_senate_october_12_14_2026",
   "type": "pollster",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "poll-6a7af1475b",
+  "title": "University of North Florida poll, October 12–19, 2026",
+  "publisher": "st1.uvnimg.com",
+  "url": "https://www.unfporl.org/s/UNF-PORL-FALL-Statewide-2026-FLLV-Press-Release-1021-EMBARGO.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-21"
  }
 ]
