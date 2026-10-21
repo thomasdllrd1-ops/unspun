@@ -8,7 +8,7 @@ Wikipedia's poll tables are a **discovery list only**. Every poll is checked aga
 
 The check is deliberately strict. A poll can fail it even when it's correct (for example, results posted as an image), but it should almost never pass when it's wrong.
 
-**Known limits (found Oct 11–12, 2026).** The script checks only the two leading candidates, so it can pass a poll whose minor candidates were lumped into "Other" by Wikipedia, or whose page shows a rounded headline while the exact toplines are an image. It doesn't check field dates (Wikipedia once had a poll's dates wrong by two months). A pollster page that's reused for each new poll (Rasmussen) can match the wrong poll; `import_polls.py` warns when a new poll shares a link with an older one in the same race.
+**Known limits (found Oct 11–12, 2026).** The script checks only the two leading candidates, so it can pass a poll whose minor candidates were lumped into "Other" by Wikipedia, or whose page shows a rounded headline while the exact toplines are an image. It doesn't check field dates (Wikipedia once had a poll's dates wrong by two months). A pollster page that's reused for each new poll (Rasmussen) can match the wrong poll; `import_polls.py` warns when a new poll shares a link with an older one in the same race. Pages that always show the newest poll (co/efficient's battlegrounds.coefficient.org, ActiVote's undated race pages) break older polls' links: point an older poll at an Internet Archive copy (web.archive.org) or a dated page with `set_source_url.py`, as was done for co/efficient Iowa (Sept) and all ActiVote polls on Oct 21.
 
 ## Running a refresh
 
