@@ -4,7 +4,7 @@ Everything here is either **hidden from the public site** until a person checks 
 
 **Fastest way to work through it:** run `npm run dev`, open **http://localhost:4321/review/checklist/**, and use the `npm run verify` commands shown there. When you finish an item below, delete it (git keeps the history).
 
-_Last updated: Oct 12, 2026 (poll and rating checks; see Priority 2 for the 5 races whose averages are on hold)_
+_Last updated: Oct 21, 2026 (poll checks, FEC refresh; see Priority 2 for the 12 races whose averages are on hold)_
 
 ---
 
@@ -22,11 +22,24 @@ Other candidate notes:
 - **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
 - **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-## Priority 2: Polls that need a human (5 races' averages on hold)
+## Priority 2: Polls and ratings that need the browser (12 races' averages on hold)
 
-A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 12, 5 polls hold up 5 races. Every other hidden poll is either older than 60 days or has no findable source, so it stays hidden without affecting any average.
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 21, 15 polls hold up 12 races. On Oct 21 Claude checked 40+ new polls from the pollsters' own releases (including Quantus GA/TX and Emerson RI, whose Wikipedia links were blocked), so what's left needs a browser or a person.
 
-**5 minutes: New York Times/Siena, Kansas (Sept 22-30).** The NYT shows our tools a robot check, and the open news reports disagree (Siena's release says 45-45 with Graham at 3; Political Wire says Graham 5; RealClearPolitics lists 47-46). Open nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-toplines.html and tell Claude the shares, sample size, margin of error and undecided %. (The other seven NYT/Siena polls were confirmed on Oct 12 from news reports of them; for Michigan and New Hampshire no report gave the margin or undecided share, so those are blank. If you open the Sept 24 Michigan and New Hampshire pages too, Claude can fill them in.)
+**Next supervised Chrome session (about 30 minutes; connect the Claude extension and tell Claude "let's do chrome").** These pages load in a browser but block our scripts:
+- **Cook Political Report "Battleground District Project"** (GS Strategy Group/New River Strategies, Oct 9-13): **Iowa, Ohio, Texas** Senate.
+- **BGSU/YouGov Ohio** (Sept 29-Oct 9): the report is on scholarworks.bgsu.edu. News reports disagree on its numbers.
+- **SurveyUSA**: KSTP's **Minnesota** poll (Oct 8-12) and the **North Carolina** poll (Oct 7-11); SurveyUSA's results pages need JavaScript.
+- **Change Research/Carolina Forward, North Carolina** (Oct 1-7): toplines are a Google Doc that asks our tools for a sign-in check.
+- **The Alabama Poll** (Oct 15-16): only on al.com.
+- **Susquehanna, PA-10** and **Public Opinion Strategies, South Dakota**: only on X.
+- **24 expert-rating changes** Wikipedia shows since our last update (to confirm on each forecaster's page):
+  - Cook (Oct 20): MN-Sen Likely D to Lean D; MS-Sen Solid R to Likely R; SC-Sen Likely R to Lean R; FL-25 Toss-up to Lean D.
+  - Inside Elections (Oct 15): FL-Sen Solid R to Likely R; KS-Sen Likely R to Tilt R; NH-Sen Toss-up to Tilt D; SC-Sen Likely R to Lean R; TX-Sen Tilt R to Toss-up; AZ-01, PA-07, PA-08 Toss-up to Tilt D; OH-09 Tilt R to Toss-up.
+  - Sabato (Oct 14/20): KS-Sen Lean R to Toss-up; MN-Sen Likely D to Lean D; MS-Sen Solid R to Likely R; NE-Sen Likely R to Lean R; NH-Sen Lean D to Likely D; WI-03, AZ-01, AZ-06, CO-08, PA-10, IA-03 Toss-up to Lean D.
+  Until they're confirmed, the site keeps showing the older ratings with their dates.
+
+**5 minutes for you: New York Times/Siena, Kansas (Sept 22-30).** The NYT shows our tools a robot check, and the open news reports disagree (Siena's release says 45-45 with Graham at 3; Political Wire says Graham 5; RealClearPolitics lists 47-46). Open nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-toplines.html and tell Claude the shares, sample size, margin of error and undecided %. (For the Sept 24 Michigan and New Hampshire NYT/Siena polls, no open report gave the margin or undecided share, so those are blank; if you open those pages too, Claude can fill them in.)
 
 **No public source found (3 races).** Each was searched for and checked in a browser; only second-hand reports exist:
 - **Louisiana:** Hart Research for Davis's campaign. The only source is a Bluesky post relaying what the campaign said.
@@ -51,7 +64,7 @@ Claude didn't decide these alone because each changes what we show or how we cou
 
 ## Priority 3: Spot-check the AI assistant's work
 
-About 217 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
+About 310 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
 
 On Oct 12, Claude also updated 28 expert ratings that had changed (12 Senate, 16 House), each confirmed on the forecaster's own page; they say "verified by ai" in `data/ratings.csv`, with the old rating in the notes. Spot-check 3 of those too.
 
