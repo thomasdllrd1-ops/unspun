@@ -393,6 +393,22 @@
    "polls_analyzed": 498,
    "percent_partisan_work": 0,
    "inactive": false
+  },
+  "The Tyson Group": {
+   "fte_id": 334,
+   "fte_name": "The Tyson Group",
+   "grade": 1.1,
+   "polls_analyzed": 18,
+   "percent_partisan_work": 0.1,
+   "inactive": false
+  },
+  "Concord Public Opinion Partners": {
+   "fte_id": 553,
+   "fte_name": "Concord Public Opinion Partners",
+   "grade": 1.1,
+   "polls_analyzed": 1,
+   "percent_partisan_work": 1,
+   "inactive": false
   }
  }
 }

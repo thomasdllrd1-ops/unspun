@@ -1006,5 +1006,101 @@
     "fte_id": null,
     "track_record": null,
     "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "activote",
+    "name": "ActiVote",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "mdw-communications",
+    "name": "MDW Communications",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "gs-strategy-group-r-new-river-strategies",
+    "name": "GS Strategy Group (R)/New River Strategies",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "the-alabama-poll",
+    "name": "The Alabama Poll",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "npa-polling",
+    "name": "NPA Polling",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "the-tyson-group",
+    "name": "The Tyson Group",
+    "url": null,
+    "fte_id": 334,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "concord-public-opinion-partners",
+    "name": "Concord Public Opinion Partners",
+    "url": null,
+    "fte_id": 553,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "american-pulse-research",
+    "name": "American Pulse Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "emerson-college-wpri-tv",
+    "name": "Emerson College/WPRI-TV",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "embold-research",
+    "name": "Embold Research",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "university-of-houston",
+    "name": "University of Houston",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "gs-strategy-group-r-new-river-strategies",
+    "name": "GS Strategy Group (R)/ New River Strategies",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
   }
 ]
