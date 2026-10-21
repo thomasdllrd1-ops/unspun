@@ -409,6 +409,14 @@
    "polls_analyzed": 1,
    "percent_partisan_work": 1,
    "inactive": false
+  },
+  "Christopher Newport University": {
+   "fte_id": 50,
+   "fte_name": "Christopher Newport University Wason Center for Civic Leadership",
+   "grade": 2.8,
+   "polls_analyzed": 19,
+   "percent_partisan_work": 0,
+   "inactive": false
   }
  }
 }

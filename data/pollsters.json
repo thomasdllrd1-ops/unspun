@@ -1102,5 +1102,13 @@
     "fte_id": null,
     "track_record": null,
     "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "christopher-newport-university",
+    "name": "Christopher Newport University",
+    "url": "https://cnu.edu/wason/",
+    "track_record": null,
+    "track_record_note": "",
+    "fte_id": 50
   }
 ]
