@@ -10494,5 +10494,13 @@
   "url": "https://x.com/SusquehannaPR/status/2111471509856309679",
   "type": "pollster",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "poll-b1c812b626",
+  "title": "Rasmussen Reports poll, September 22–23, 2026",
+  "publisher": "rasmussenreports.com",
+  "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_ohio_senate_october_12_14_2026",
+  "type": "pollster",
+  "accessed": "2026-10-21"
  }
 ]
