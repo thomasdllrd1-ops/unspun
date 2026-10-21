@@ -12,6 +12,7 @@
  */
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { tmpdir } from 'node:os';
 import { execFileSync } from 'node:child_process';
 
 const DATA = join(process.cwd(), 'data');
@@ -74,7 +75,9 @@ async function fetchPlain(url: string): Promise<string> {
 function fetchRendered(url: string): string | null {
   if (!existsSync(CHROME)) return null;
   try {
-    const html = execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--no-first-run', '--virtual-time-budget=8000', `--user-agent=${UA}`, '--dump-dom', url], {
+    // own profile folder: the default one is locked while your everyday Chrome is open, and the page comes back empty
+    const profile = join(tmpdir(), 'unspun-check-quotes-chrome');
+    const html = execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--no-first-run', '--virtual-time-budget=15000', `--user-agent=${UA}`, `--user-data-dir=${profile}`, '--dump-dom', url], {
       encoding: 'utf8', timeout: 60_000, maxBuffer: 50 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'],
     });
     return normalize(htmlToText(html));
