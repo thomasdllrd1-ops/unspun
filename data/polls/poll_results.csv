@@ -87,10 +87,6 @@ data-for-progress-2026-08-04-ak-sen,,Undecided / Not Ranked,5
 grayhouse-2026-02-09-ar-sen,tom-cotton,,58
 grayhouse-2026-02-09-ar-sen,hallie-shoffner,,36
 grayhouse-2026-02-09-ar-sen,,Undecided,7
-yougov-2026-09-18-ga-sen,jon-ossoff,,52
-yougov-2026-09-18-ga-sen,mike-collins,,42
-yougov-2026-09-18-ga-sen,,Other,2
-yougov-2026-09-18-ga-sen,,Undecided,5
 rasmussen-reports-2026-09-14-ga-sen,jon-ossoff,,51
 rasmussen-reports-2026-09-14-ga-sen,mike-collins,,42
 rasmussen-reports-2026-09-14-ga-sen,,Undecided,6
@@ -129,10 +125,6 @@ the-bullfinch-group-2026-06-01-id-sen,,Undecided,24
 public-policy-polling-2026-03-17-id-sen,jim-risch,,48
 public-policy-polling-2026-03-17-id-sen,todd-achilles,,34
 public-policy-polling-2026-03-17-id-sen,,Undecided,18
-yougov-2026-09-08-ia-sen,ashley-hinson,,43
-yougov-2026-09-08-ia-sen,josh-turek,,47
-yougov-2026-09-08-ia-sen,,Other,1
-yougov-2026-09-08-ia-sen,,Undecided,8
 emerson-college-2026-09-01-ia-sen,ashley-hinson,,50
 emerson-college-2026-09-01-ia-sen,josh-turek,,45
 emerson-college-2026-09-01-ia-sen,,Other,1
@@ -415,10 +407,6 @@ co-efficient-2025-10-13-nh-sen,,Undecided,12
 1892-polling-2025-09-04-nh-sen,chris-pappas,,45
 1892-polling-2025-09-04-nh-sen,john-sununu,,43
 1892-polling-2025-09-04-nh-sen,,Undecided,12
-yougov-2026-09-18-nc-sen,michael-whatley,,41
-yougov-2026-09-18-nc-sen,roy-cooper,,53
-yougov-2026-09-18-nc-sen,,Other,1
-yougov-2026-09-18-nc-sen,,Undecided,4
 high-point-university-2026-09-16-nc-sen,michael-whatley,,42
 high-point-university-2026-09-16-nc-sen,roy-cooper,,50
 high-point-university-2026-09-16-nc-sen,,Other,3
@@ -1657,11 +1645,6 @@ kstp-surveyusa-2026-10-12-mn-sen,peggy-flanagan,,45
 kstp-surveyusa-2026-10-12-mn-sen,michele-tafoya,,42
 kstp-surveyusa-2026-10-12-mn-sen,,Other,4
 kstp-surveyusa-2026-10-12-mn-sen,,Undecided,9
-quantus-insights-2026-10-18-mt-sen,kurt-alme,,44
-quantus-insights-2026-10-18-mt-sen,alani-bankhead,,21
-quantus-insights-2026-10-18-mt-sen,seth-bodnar,,28
-quantus-insights-2026-10-18-mt-sen,kyle-austin,,2
-quantus-insights-2026-10-18-mt-sen,,Undecided,5
 concord-public-opinion-partners-2026-10-08-mt-sen,kurt-alme,,35
 concord-public-opinion-partners-2026-10-08-mt-sen,alani-bankhead,,13
 concord-public-opinion-partners-2026-10-08-mt-sen,seth-bodnar,,37
@@ -1799,3 +1782,22 @@ activote-2026-10-20-nc-sen,roy-cooper,,56.9
 activote-2026-10-20-nc-sen,michael-whatley,,43.1
 activote-2026-10-14-tx-sen,james-talarico,,51.9
 activote-2026-10-14-tx-sen,ken-paxton,,48.1
+quantus-insights-2026-10-18-mt-sen,kurt-alme,,43.8
+quantus-insights-2026-10-18-mt-sen,seth-bodnar,,28.2
+quantus-insights-2026-10-18-mt-sen,alani-bankhead,,20.6
+quantus-insights-2026-10-18-mt-sen,kyle-austin,,1.7
+quantus-insights-2026-10-18-mt-sen,,Undecided,5.2
+yougov-2026-09-18-nc-sen,roy-cooper,,53
+yougov-2026-09-18-nc-sen,michael-whatley,,41
+yougov-2026-09-18-nc-sen,,Someone else,1
+yougov-2026-09-18-nc-sen,,Undecided,4
+yougov-2026-09-18-ga-sen,jon-ossoff,,52
+yougov-2026-09-18-ga-sen,mike-collins,,42
+yougov-2026-09-18-ga-sen,,Someone else,1
+yougov-2026-09-18-ga-sen,,Undecided,5
+yougov-2026-09-18-ga-sen,,Would not vote,1
+yougov-2026-09-08-ia-sen,josh-turek,,45
+yougov-2026-09-08-ia-sen,ashley-hinson,,43
+yougov-2026-09-08-ia-sen,,Someone else,1
+yougov-2026-09-08-ia-sen,,Undecided,10
+yougov-2026-09-08-ia-sen,,Would not vote,1
