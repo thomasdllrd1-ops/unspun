@@ -4,7 +4,7 @@ Everything here is either **hidden from the public site** until a person checks 
 
 **Fastest way to work through it:** run `npm run dev`, open **http://localhost:4321/review/checklist/**, and use the `npm run verify` commands shown there. When you finish an item below, delete it (git keeps the history).
 
-_Last updated: Oct 21, 2026 (poll checks, FEC refresh; see Priority 2 for the 12 races whose averages are on hold)_
+_Last updated: Oct 21, 2026 (poll checks, FEC refresh; see Priority 2 for the 11 races whose averages are on hold)_
 
 ---
 
@@ -22,9 +22,9 @@ Other candidate notes:
 - **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
 - **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-## Priority 2: Polls and ratings that need the browser (12 races' averages on hold)
+## Priority 2: Polls and ratings that need the browser (11 races' averages on hold)
 
-A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 21, 15 polls hold up 12 races. On Oct 21 Claude checked 40+ new polls from the pollsters' own releases (including Quantus GA/TX and Emerson RI, whose Wikipedia links were blocked), so what's left needs a browser or a person.
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 21, 14 polls hold up 11 races. On Oct 21 Claude checked 40+ new polls from the pollsters' own releases (including Quantus GA/TX and Emerson RI, whose Wikipedia links were blocked), so what's left needs a browser or a person.
 
 **Next supervised Chrome session (about 30 minutes; connect the Claude extension and tell Claude "let's do chrome").** These pages load in a browser but block our scripts:
 - **Cook Political Report "Battleground District Project"** (GS Strategy Group/New River Strategies, Oct 9-13): **Iowa, Ohio, Texas** Senate.
