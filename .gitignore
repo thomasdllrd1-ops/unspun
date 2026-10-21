@@ -31,3 +31,6 @@ node_modules
 data/geo/raw
 __pycache__/
 *.pyc
+
+# Office lock files (e.g. NEEDS_REVIEW.md open in Word)
+~$*
