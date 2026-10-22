@@ -10550,5 +10550,29 @@
   "url": "https://www.wsfa.com/2026/10/22/what-alabama-voters-care-about-most-what-it-means-trump-senate-race/",
   "type": "news",
   "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-7682f28542",
+  "title": "Versalight/VoteHub poll, October 1–20, 2026",
+  "publisher": "cdn.votehub.com",
+  "url": "https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Ohio_Report_D1CB7735.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-9147fc57b9",
+  "title": "Emerson College/KELOLAND poll, October 19–20, 2026",
+  "publisher": "keloland.com",
+  "url": "https://www.keloland.com/keloland-com-original/keloland-poll-rounds-leads-bengs-at-8-trump-approval-down/",
+  "type": "pollster",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-93cfb7c80d",
+  "title": "GrayHouse memo: Arkansas U.S. Senate Survey (posted by Landon Wall, managing partner)",
+  "publisher": "GrayHouse (on X)",
+  "url": "https://x.com/LandonWall_/status/2108601370580332749",
+  "type": "pollster",
+  "accessed": "2026-10-22"
  }
 ]
