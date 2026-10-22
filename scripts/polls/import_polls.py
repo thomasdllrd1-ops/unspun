@@ -1,7 +1,8 @@
 """Turn poll_checks.json (Wikipedia leads + automatic source check) into data/polls rows."""
 import csv, hashlib, json, os, re, sys, unicodedata
 SAME_FIRM = {'The Trafalgar Group': 'Trafalgar Group', 'Mason-Dixon': 'Mason-Dixon Polling & Strategy', 'Marist College': 'Marist University',
-             'Public Opinon Strategies': 'Public Opinion Strategies', 'Rutgers-Eagleton': 'Rutgers University Eagleton Institute of Politics'}  # Wikipedia uses both names
+             'Public Opinon Strategies': 'Public Opinion Strategies', 'Rutgers-Eagleton': 'Rutgers University Eagleton Institute of Politics',
+             'Versalight/VoteHub': 'Verasight/VoteHub'}  # Wikipedia uses both names
 PARTY_ORGS = r'\b(DSCC|NRSC|DCCC|NRCC|DNC|RNC|Democratic Party|Republican Party|(Democratic|Republican) (Senatorial|Congressional) Campaign Committee|National Republican (Senatorial|Congressional) Committee|Democratic National Committee|Republican National Committee)\b'
 from urllib.parse import urlparse
 S = os.environ.get('POLLRUN') or sys.exit('set POLLRUN to the folder holding poll_checks.json')

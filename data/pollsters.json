@@ -1118,5 +1118,21 @@
     "fte_id": null,
     "track_record": null,
     "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "verasight-votehub",
+    "name": "Verasight/VoteHub",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
+  },
+  {
+    "id": "emerson-college-keloland",
+    "name": "Emerson College/KELOLAND",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
   }
 ]
