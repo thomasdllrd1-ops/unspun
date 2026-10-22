@@ -80,10 +80,10 @@ ma-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Th
 mi-sen,cook,tossup,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 mi-sen,inside,tilt-d,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
 mi-sen,sabato,lean-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-mn-sen,cook,likely-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+mn-sen,cook,lean-d,2026-10-20,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was likely-d (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 mn-sen,inside,lean-d,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was likely-d (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
 mn-sen,sabato,likely-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-ms-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+ms-sen,cook,likely-r,2026-10-20,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was solid-r (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 ms-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ms-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 mt-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -116,7 +116,7 @@ or-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Th
 ri-sen,cook,solid-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ri-sen,inside,solid-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ri-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-sc-sen,cook,likely-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+sc-sen,cook,lean-r,2026-10-20,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was likely-r (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 sc-sen,inside,likely-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 sc-sen,sabato,likely-r,2026-10-06,sabato-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was solid-r (as of the earlier update). Checked on the Crystal Ball's Senate ratings and rating-changes pages (changed Oct. 6) in a supervised browser session.
 sd-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -170,7 +170,7 @@ pa-07,sabato,lean-d,2026-09-29,sabato-house,wikipedia-house-ratings-2026,verifie
 pa-08,cook,tossup,2026-09-11,cook-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 pa-08,inside,tossup,2026-09-17,inside-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 pa-08,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
-fl-25,cook,tossup,2026-09-11,cook-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
+fl-25,cook,lean-d,2026-10-16,cook-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,Was tossup (as of the earlier update). Checked on Cook's House ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 fl-25,inside,tossup,2026-09-17,inside-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 fl-25,sabato,lean-d,2026-10-08,sabato-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on the Crystal Ball's rating-changes page in a supervised browser session.
 tx-34,cook,tossup,2026-09-11,cook-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
