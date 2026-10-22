@@ -53,9 +53,9 @@ Claude didn't decide these alone because each changes what we show or how we cou
 
 ## Priority 3: Spot-check the AI assistant's work
 
-About 310 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
+About 321 polls say "checked by an AI assistant." Pick 5 at random on the checklist page (filter `checked_by = ai` in `data/polls/polls.csv`), open each source, and confirm the numbers. If all 5 match, great. If any don't, tell Claude so it can re-check the rest.
 
-On Oct 12, Claude also updated 28 expert ratings that had changed (12 Senate, 16 House), each confirmed on the forecaster's own page; they say "verified by ai" in `data/ratings.csv`, with the old rating in the notes. Spot-check 3 of those too.
+On Oct 12 Claude updated 28 expert ratings, and on Oct 22 another 24 (Cook 4, Inside Elections 9, Sabato 11), each confirmed on the forecaster's own page; they say "verified by ai" in `data/ratings.csv`, with the old rating in the notes. Spot-check 3 of those too.
 
 Also spot-check 3 candidate lists against the official links on their race pages (the helpers' work was spot-checked for NJ, ME, WY, TX and FL, and all matched).
 
