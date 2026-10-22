@@ -5,5 +5,12 @@
   "was": "Daniel J. Sullivan Jr. was labeled as the incumbent.",
   "now": "Only Dan S. Sullivan is labeled as the incumbent. The FEC lists Daniel J. Sullivan Jr. as a challenger.",
   "source": "fec-api"
+ },
+ {
+  "date": "2026-10-22",
+  "page": "Polling averages and poll lists for the Senate races in Georgia, Iowa, Kansas, Maine, Michigan, Nebraska, Ohio and Texas",
+  "was": "These pages included 9 polls from Wedgewood Polls (July to October 2026). We had checked that their numbers matched Wedgewood's own memos, and had flagged the firm to our editor as unusual (no website or track record, repeated wording across states).",
+  "now": "All 9 Wedgewood polls are removed. On Oct. 20, 2026, Wedgewood said in a statement that most of its polls were fabricated, calling them an experiment; the New York Times and other trackers removed them too. Averages in those races are recalculated without them.",
+  "source": "news-wedgewood-mediaite-2026-10-21"
  }
 ]

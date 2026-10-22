@@ -738,14 +738,6 @@
   "accessed": "2026-09-25"
  },
  {
-  "id": "poll-2d93388c2c",
-  "title": "Wedgewood Polls poll, August 11–13, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1rP-26-yqNx9jy_gRqoLDmgJgzm5X8a4O/view?usp=embed_facebook",
-  "type": "pollster",
-  "accessed": "2026-09-25"
- },
- {
   "id": "poll-624e6270f0",
   "title": "Beacon Research (D)/ Shaw & Co. Research poll, August 6–10, 2026",
   "publisher": "foxnews.com",
@@ -1130,14 +1122,6 @@
   "accessed": "2026-09-25"
  },
  {
-  "id": "poll-d41c99b5ba",
-  "title": "Wedgewood Polls poll, August 27–29, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1db0gbhfCa_aNzU7yfM3dufl601cW1FbY/view",
-  "type": "pollster",
-  "accessed": "2026-09-25"
- },
- {
   "id": "poll-ed0e7d0b8c",
   "title": "Suffolk University poll, August 20–23, 2026",
   "publisher": "suffolk.edu",
@@ -1199,14 +1183,6 @@
   "publisher": "politico.com",
   "url": "https://www.politico.com/f/?id=0000019d-8400-d182-a9fd-b63c76ae0000",
   "type": "news",
-  "accessed": "2026-09-25"
- },
- {
-  "id": "poll-459a468f42",
-  "title": "Wedgewood Polls poll, September 22–24, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1MxCohCdxLl3Gy2iIUBnctm4oPipKwjSg/view",
-  "type": "pollster",
   "accessed": "2026-09-25"
  },
  {
@@ -1383,14 +1359,6 @@
   "publisher": "politico.com",
   "url": "https://www.politico.com/news/2026/07/08/graham-platner-polls-replacements-senate-00990664",
   "type": "news",
-  "accessed": "2026-09-25"
- },
- {
-  "id": "poll-02484847fa",
-  "title": "Wedgewood Polls poll, July 4–6, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1D7onbq7aV59X8lq2-YatdLNakqqCYTnB/view",
-  "type": "pollster",
   "accessed": "2026-09-25"
  },
  {
@@ -1870,14 +1838,6 @@
   "title": "Public Opinion Strategies poll, June 8–11, 2026",
   "publisher": "cdn.sanity.io",
   "url": "https://cdn.sanity.io/files/ifn0l6bs/production/626280779039a0a32a936d7010103c7a8d7acb5e.pdf",
-  "type": "pollster",
-  "accessed": "2026-09-25"
- },
- {
-  "id": "poll-5600fa72cc",
-  "title": "Wedgewood Polls poll, September 14–16, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1KBEbm4P_yziCxsZdgMhTzJ3p5UwtN7X5/view?pli=1",
   "type": "pollster",
   "accessed": "2026-09-25"
  },
@@ -2590,14 +2550,6 @@
   "title": "Emerson College poll, August 9–10, 2026",
   "publisher": "emersoncollegepolling.com",
   "url": "https://emersoncollegepolling.com/texas-2026-poll-paxton-and-talarico/",
-  "type": "pollster",
-  "accessed": "2026-09-25"
- },
- {
-  "id": "poll-d1bf7cdfc8",
-  "title": "Wedgewood Polls poll, July 30–31, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1t2mC4MFActxiBdx4ef_5crisXjD9xH7a/view",
   "type": "pollster",
   "accessed": "2026-09-25"
  },
@@ -9200,14 +9152,6 @@
   "accessed": "2026-10-11"
  },
  {
-  "id": "poll-9d8193dfdd",
-  "title": "Wedgewood Polls poll, October 2–3, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1-Qoij2YeWwq-EFaTY_W0iTf1fotSrKHI/view",
-  "type": "pollster",
-  "accessed": "2026-10-11"
- },
- {
   "id": "poll-16fd74b791",
   "title": "InsiderAdvantage poll, September 22–23, 2026",
   "publisher": "insideradvantage.com",
@@ -9368,14 +9312,6 @@
   "accessed": "2026-10-11"
  },
  {
-  "id": "poll-7cf2498bc3",
-  "title": "Wedgewood Polls poll, September 27 – October 1, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1sycfLKEWvUxaW7oNYTdih5DzlXlcmtXC/view",
-  "type": "pollster",
-  "accessed": "2026-10-11"
- },
- {
   "id": "poll-d2362eabf3",
   "title": "CBS News/YouGov poll, September 23 – October 1, 2026",
   "publisher": "cbsnews.com",
@@ -9428,14 +9364,6 @@
   "title": "Suffolk University poll, June 8–12, 2026",
   "publisher": "bostonglobe.com",
   "url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/massachusetts2/2026/6_16_2026_massachusetts_statewide_marginals.pdf",
-  "type": "pollster",
-  "accessed": "2026-10-11"
- },
- {
-  "id": "poll-b00031e588",
-  "title": "Wedgewood Polls poll, October 8–9, 2026",
-  "publisher": "drive.google.com",
-  "url": "https://drive.google.com/file/d/1aJZLOtyfQnZtPDHogNEN2UATqMhrLgxc/view",
   "type": "pollster",
   "accessed": "2026-10-11"
  },
@@ -10597,6 +10525,22 @@
   "publisher": "floridapolitics.com",
   "url": "https://floridapolitics.com/archives/826146-internal-poll-gives-scott-singer-7-point-lead-over-incumbent-jared-moskowitz-in-cd-25/",
   "type": "pollster",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "news-wedgewood-mediaite-2026-10-21",
+  "title": "National Polling Company Admits It's Totally Fake (quotes Wedgewood's statement and the New York Times editor's note)",
+  "publisher": "Mediaite",
+  "url": "https://www.mediaite.com/media/news/national-polling-company-admits-its-totally-fake-crows-it-was-far-too-easy-to-get-major-media-outlets-to-bite/",
+  "type": "news",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "news-wedgewood-lynnwood-2026-10-21",
+  "title": "FiftyPlusOne exposes fabricated poll data, Wedgwood says it was an 'experimental project'",
+  "publisher": "Lynnwood Times",
+  "url": "https://lynnwoodtimes.com/2026/10/21/wedgewood/",
+  "type": "news",
   "accessed": "2026-10-22"
  }
 ]

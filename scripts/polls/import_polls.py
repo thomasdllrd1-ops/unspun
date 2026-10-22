@@ -55,6 +55,7 @@ for p in checks:
     marker = p.get('partisan')
     name = re.sub(r'\s*\((D|R|I|L)\)\s*$', '', p['pollster']).strip()
     name = SAME_FIRM.get(name, name)
+    if re.search(r'wedgewood', name, re.I): skipped += 1; continue  # admitted on Oct 20, 2026 that its polls were fabricated (see data/corrections.json)
     start, end = dates(p['dates'])
     n, pop = sample(p['sample'])
     if not end: skipped += 1; continue
