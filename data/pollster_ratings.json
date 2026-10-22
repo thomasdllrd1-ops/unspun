@@ -417,6 +417,14 @@
    "polls_analyzed": 19,
    "percent_partisan_work": 0,
    "inactive": false
+  },
+  "University of Georgia School of Public and International Affairs": {
+   "fte_id": 350,
+   "fte_name": "University of Georgia School of Public and International Affairs",
+   "grade": 2.2,
+   "polls_analyzed": 5,
+   "percent_partisan_work": 0,
+   "inactive": false
   }
  }
 }

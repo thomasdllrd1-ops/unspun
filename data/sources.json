@@ -10534,5 +10534,69 @@
   "url": "https://cnu.edu/wason/surveys/archive/2026-10-14.html",
   "type": "pollster",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "poll-a8f07181fc",
+  "title": "co/efficient poll, October 18–20, 2026",
+  "publisher": "battlegrounds.coefficient.org",
+  "url": "https://battlegrounds.coefficient.org/fl/",
+  "type": "pollster",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-914e1e6871",
+  "title": "Beacon Research (D)/ Shaw & Co. Research poll, October 15–19, 2026",
+  "publisher": "static.foxnews.com",
+  "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+  "type": "news",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-720cb39ad2",
+  "title": "University of Georgia School of Public and International Affairs poll, October 7–15, 2026",
+  "publisher": "ajc.com",
+  "url": "https://www.ajc.com/politics/2026/10/ajc-poll-ossoff-leads-collins-in-georgias-us-senate-race/",
+  "type": "pollster",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-5aac076cbc",
+  "title": "Quantus Insights poll, October 17–19, 2026",
+  "publisher": "cdn.sanity.io",
+  "url": "https://cdn.sanity.io/files/ifn0l6bs/production/48e9d3be8a69fc295c00da2c82d13ad0b4eeb2e4.pdf",
+  "type": "pollster",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-72bf534e2f",
+  "title": "ActiVote poll, October 17–21, 2026",
+  "publisher": "activote.net",
+  "url": "https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-21/",
+  "type": "pollster",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-e1987f29a7",
+  "title": "Emerson College poll, October 17–19, 2026",
+  "publisher": "emersoncollegepolling.com",
+  "url": "https://emersoncollegepolling.com/texas-2026-poll-toss-up/",
+  "type": "pollster",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-64be6dcc87",
+  "title": "Beacon Research (D)/ Shaw & Co. Research poll, October 15–19, 2026",
+  "publisher": "foxnews.com",
+  "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+  "type": "news",
+  "accessed": "2026-10-22"
+ },
+ {
+  "id": "poll-9aab7c9260",
+  "title": "National Research Inc. poll, October 12–15, 2026",
+  "publisher": "floridapolitics.com",
+  "url": "https://floridapolitics.com/archives/826146-internal-poll-gives-scott-singer-7-point-lead-over-incumbent-jared-moskowitz-in-cd-25/",
+  "type": "pollster",
+  "accessed": "2026-10-22"
  }
 ]

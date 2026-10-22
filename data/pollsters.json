@@ -1110,5 +1110,21 @@
     "track_record": null,
     "track_record_note": "",
     "fte_id": 50
+  },
+  {
+    "id": "university-of-georgia-school-of-public-a",
+    "name": "University of Georgia School of Public and International Affairs",
+    "url": null,
+    "fte_id": 350,
+    "track_record": null,
+    "track_record_note": ""
+  },
+  {
+    "id": "national-research-inc",
+    "name": "National Research Inc.",
+    "url": null,
+    "fte_id": null,
+    "track_record": null,
+    "track_record_note": "No FiveThirtyEight grade found under this exact name."
   }
 ]
