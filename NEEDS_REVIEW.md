@@ -4,7 +4,7 @@ Everything here is either **hidden from the public site** until a person checks 
 
 **Fastest way to work through it:** run `npm run dev`, open **http://localhost:4321/review/checklist/**, and use the `npm run verify` commands shown there. When you finish an item below, delete it (git keeps the history).
 
-_Last updated: Oct 21, 2026 (poll checks, FEC refresh; see Priority 2 for the 11 races whose averages are on hold)_
+_Last updated: Oct 22, 2026 (poll and rating checks, FEC refresh; see Priority 2 for the 4 races whose averages are on hold)_
 
 ---
 
@@ -22,31 +22,20 @@ Other candidate notes:
 - **OH-09**: Libertarian Matthew Althaus isn't on printed county ballots (Erie, Fulton), but Fulton's filing notice still lists him. We left him off. A quick call to the Fulton County Board of Elections would settle it.
 - **Bob Chew (Colorado)** has two FEC registrations (S6CO00556 and S6CO00549). We use the more recent one.
 
-## Priority 2: Polls and ratings that need the browser (11 races' averages on hold)
+## Priority 2: Polls that need you (4 races' averages on hold)
 
-A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 21, 14 polls hold up 11 races. On Oct 21 Claude checked 40+ new polls from the pollsters' own releases (including Quantus GA/TX and Emerson RI, whose Wikipedia links were blocked), so what's left needs a browser or a person.
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 22, 4 polls hold up 4 races; the other 33 races with recent polls show their averages. (On Oct 21-22 Claude checked 55+ polls, including a supervised browser session for Cook, BGSU, KSTP, Change Research, Susquehanna, POS and NYT Kansas, and confirmed all 24 newer expert ratings on the forecasters' pages.)
 
-**Next supervised Chrome session (about 30 minutes; connect the Claude extension and tell Claude "let's do chrome").** These pages load in a browser but block our scripts:
-- **Cook Political Report "Battleground District Project"** (GS Strategy Group/New River Strategies, Oct 9-13): **Iowa, Ohio, Texas** Senate.
-- **BGSU/YouGov Ohio** (Sept 29-Oct 9): the report is on scholarworks.bgsu.edu. News reports disagree on its numbers.
-- **SurveyUSA**: KSTP's **Minnesota** poll (Oct 8-12) and the **North Carolina** poll (Oct 7-11); SurveyUSA's results pages need JavaScript.
-- **Change Research/Carolina Forward, North Carolina** (Oct 1-7): toplines are a Google Doc that asks our tools for a sign-in check.
-- **The Alabama Poll** (Oct 15-16): only on al.com.
-- **Susquehanna, PA-10** and **Public Opinion Strategies, South Dakota**: only on X.
-- **24 expert-rating changes** Wikipedia shows since our last update (to confirm on each forecaster's page):
-  - Cook (Oct 20): MN-Sen Likely D to Lean D; MS-Sen Solid R to Likely R; SC-Sen Likely R to Lean R; FL-25 Toss-up to Lean D.
-  - Inside Elections (Oct 15): FL-Sen Solid R to Likely R; KS-Sen Likely R to Tilt R; NH-Sen Toss-up to Tilt D; SC-Sen Likely R to Lean R; TX-Sen Tilt R to Toss-up; AZ-01, PA-07, PA-08 Toss-up to Tilt D; OH-09 Tilt R to Toss-up.
-  - Sabato (Oct 14/20): KS-Sen Lean R to Toss-up; MN-Sen Likely D to Lean D; MS-Sen Solid R to Likely R; NE-Sen Likely R to Lean R; NH-Sen Lean D to Likely D; WI-03, AZ-01, AZ-06, CO-08, PA-10, IA-03 Toss-up to Lean D.
-  Until they're confirmed, the site keeps showing the older ratings with their dates.
-
-**5 minutes for you: New York Times/Siena, Kansas (Sept 22-30).** The NYT shows our tools a robot check, and the open news reports disagree (Siena's release says 45-45 with Graham at 3; Political Wire says Graham 5; RealClearPolitics lists 47-46). Open nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-toplines.html and tell Claude the shares, sample size, margin of error and undecided %. (For the Sept 24 Michigan and New Hampshire NYT/Siena polls, no open report gave the margin or undecided share, so those are blank; if you open those pages too, Claude can fill them in.)
+**2 minutes for you: The Alabama Poll (Oct 15-16), Alabama Senate.** It's only on al.com, which our tools and the browser extension can't open. Open al.com/politics/2026/10/gop-faces-election-downturn-but-theres-no-blue-wave-for-alabama-democrats-poll-shows.html and tell Claude the Moore and Wess shares, the undecided share, the sample size, margin of error and dates. (We have Moore 56, Wess 35, undecided 9, 600 likely voters, from Wikipedia.)
 
 **No public source found (3 races).** Each was searched for and checked in a browser; only second-hand reports exist:
 - **Louisiana:** Hart Research for Davis's campaign. The only source is a Bluesky post relaying what the campaign said.
 - **Montana:** Aspect Strategic for Montana Freedom PAC. The only source is a reporter's post on X.
-- **South Dakota:** Lake Research. The only source is a LinkedIn repost.
+- **South Dakota:** Lake Research (Aug 26-30). The only source is a LinkedIn repost. (It drops out of the 60-day window on Oct 29, so the South Dakota average comes back then either way.)
 
-**Claude's recommendation (needs your OK, since it changes the method):** these will probably never get a public source, so under the current rule those races show no average through Election Day. Suggested change: a poll with no findable release after a real search is marked **"reported, but we couldn't find the pollster's release."** It's listed on the race page, left out of the average, and no longer holds the race.
+**Claude's recommendation (needs your OK, since it changes the method):** these will probably never get a public source, so under the current rule Louisiana and Montana show no average through Election Day. Suggested change: a poll with no findable release after a real search is marked **"reported, but we couldn't find the pollster's release."** It's listed on the race page, left out of the average, and no longer holds the race.
+
+**Optional:** the NYT/Siena polls from Sept 24 (Michigan, New Hampshire) and early October (Alaska, Ohio, Texas, Iowa) were confirmed from news reports; the NYT toplines would add their undecided and third-party shares. The NYT let our browser in once on Oct 22 (Kansas is now done from its toplines) and then showed a robot check, so Claude stopped. If you open those toplines pages, Claude can fill in the rest.
 
 If a poll's numbers differ from what we have, fix `data/polls/poll_results.csv` before running `npm run verify -- poll <id>`.
 
