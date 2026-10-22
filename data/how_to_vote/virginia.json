@@ -46,7 +46,8 @@
       "date": "2026-10-31",
       "label": "Last day of early voting",
       "detail": "In person at your local voter registration office. Official page: through 5:00 p.m.",
-      "source": "va-elec-upcoming-2026"
+      "source": "va-elec-upcoming-2026",
+      "key": true
     },
     {
       "date": "2026-11-03",
