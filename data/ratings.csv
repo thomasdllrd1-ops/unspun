@@ -64,7 +64,7 @@ ia-sen,inside,tilt-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Tho
 ia-sen,sabato,tossup,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ks-sen,cook,tossup,2026-10-06,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was lean-r (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 ks-sen,inside,tilt-r,2026-10-15,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was likely-r (as of the earlier update). Checked against Inside Elections' ratings data (the API export linked on its ratings page) in a supervised browser session; date from Inside Elections.
-ks-sen,sabato,lean-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+ks-sen,sabato,tossup,2026-10-14,sabato-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was lean-r (as of the earlier update). Checked on the Crystal Ball's rating-changes page (Oct. 14 changes) in a supervised browser session.
 ky-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ky-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ky-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -82,19 +82,19 @@ mi-sen,inside,tilt-d,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,
 mi-sen,sabato,lean-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 mn-sen,cook,lean-d,2026-10-20,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was likely-d (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 mn-sen,inside,lean-d,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was likely-d (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
-mn-sen,sabato,likely-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+mn-sen,sabato,lean-d,2026-10-14,sabato-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was likely-d (as of the earlier update). Checked on the Crystal Ball's rating-changes page (Oct. 14 changes) in a supervised browser session.
 ms-sen,cook,likely-r,2026-10-20,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was solid-r (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 ms-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
-ms-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+ms-sen,sabato,likely-r,2026-10-14,sabato-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was solid-r (as of the earlier update). Checked on the Crystal Ball's rating-changes page (Oct. 14 changes) in a supervised browser session.
 mt-sen,cook,solid-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 mt-sen,inside,solid-r,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 mt-sen,sabato,solid-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ne-sen,cook,likely-r,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 ne-sen,inside,lean-r,2026-10-01,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was likely-r (as of the earlier update). Checked on Inside Elections' Senate ratings page (updated Oct. 1) in a supervised browser session.
-ne-sen,sabato,likely-r,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+ne-sen,sabato,lean-r,2026-10-14,sabato-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was likely-r (as of the earlier update). Checked on the Crystal Ball's rating-changes page (Oct. 14 changes) in a supervised browser session.
 nh-sen,cook,lean-d,2026-10-06,cook-senate,wikipedia-senate-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Cook's Senate ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 nh-sen,inside,tilt-d,2026-10-15,inside-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was tossup (as of the earlier update). Checked against Inside Elections' ratings data (the API export linked on its ratings page) in a supervised browser session; date from Inside Elections.
-nh-sen,sabato,lean-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
+nh-sen,sabato,likely-d,2026-10-14,sabato-senate,wikipedia-senate-2026,verified,ai,2026-10-22,Was lean-d (as of the earlier update). Checked on the Crystal Ball's rating-changes page (Oct. 14 changes) in a supervised browser session.
 nj-sen,cook,solid-d,2026-09-23,cook-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 nj-sen,inside,solid-d,2026-09-17,inside-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
 nj-sen,sabato,solid-d,2026-09-22,sabato-senate,wikipedia-senate-2026,verified,Thomas,2026-10-09,
@@ -142,28 +142,28 @@ ny-17,inside,tossup,2026-09-17,inside-house,wikipedia-house-ratings-2026,verifie
 ny-17,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 wi-03,cook,tossup,2026-09-11,cook-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 wi-03,inside,tossup,2026-09-17,inside-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
-wi-03,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
+wi-03,sabato,lean-d,2026-10-20,sabato-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,"Was tossup (as of the earlier update). Checked in the Crystal Ball's Oct. 20 article (Table 1, House rating changes) in a supervised browser session; the matching table on its rating-changes page is a broken image."
 az-01,cook,lean-d,2026-09-25,cook-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Cook's House ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 az-01,inside,tilt-d,2026-10-15,inside-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,Was tossup (as of the earlier update). Checked against Inside Elections' ratings data (the API export linked on its ratings page) in a supervised browser session; date from Inside Elections.
-az-01,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
+az-01,sabato,lean-d,2026-10-20,sabato-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,"Was tossup (as of the earlier update). Checked in the Crystal Ball's Oct. 20 article (Table 1, House rating changes) in a supervised browser session; the matching table on its rating-changes page is a broken image."
 ia-01,cook,lean-d,2026-10-09,cook-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Cook's House ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 ia-01,inside,tilt-d,2026-10-01,inside-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Inside Elections' House ratings page (updated Oct. 1) in a supervised browser session.
 ia-01,sabato,lean-d,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 az-06,cook,tossup,2026-09-11,cook-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 az-06,inside,tossup,2026-09-17,inside-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
-az-06,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
+az-06,sabato,lean-d,2026-10-20,sabato-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,"Was tossup (as of the earlier update). Checked in the Crystal Ball's Oct. 20 article (Table 1, House rating changes) in a supervised browser session; the matching table on its rating-changes page is a broken image."
 co-08,cook,tossup,2026-09-11,cook-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 co-08,inside,tossup,2026-09-17,inside-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
-co-08,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
+co-08,sabato,lean-d,2026-10-20,sabato-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,"Was tossup (as of the earlier update). Checked in the Crystal Ball's Oct. 20 article (Table 1, House rating changes) in a supervised browser session; the matching table on its rating-changes page is a broken image."
 mi-07,cook,tossup,2026-09-11,cook-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 mi-07,inside,tossup,2026-09-17,inside-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 mi-07,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
 pa-10,cook,lean-d,2026-10-09,cook-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Cook's House ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 pa-10,inside,tossup,2026-09-17,inside-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
-pa-10,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
+pa-10,sabato,lean-d,2026-10-20,sabato-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,"Was tossup (as of the earlier update). Checked in the Crystal Ball's Oct. 20 article (Table 1, House rating changes) in a supervised browser session; the matching table on its rating-changes page is a broken image."
 ia-03,cook,lean-d,2026-10-09,cook-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Cook's House ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 ia-03,inside,tilt-d,2026-10-01,inside-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Inside Elections' House ratings page (updated Oct. 1) in a supervised browser session.
-ia-03,sabato,tossup,2026-09-22,sabato-house,wikipedia-house-ratings-2026,verified,Thomas,2026-10-09,
+ia-03,sabato,lean-d,2026-10-20,sabato-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,"Was tossup (as of the earlier update). Checked in the Crystal Ball's Oct. 20 article (Table 1, House rating changes) in a supervised browser session; the matching table on its rating-changes page is a broken image."
 pa-07,cook,lean-d,2026-10-09,cook-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on Cook's House ratings page in a supervised browser session; date from Wikipedia's table (Cook's page shows none).
 pa-07,inside,tilt-d,2026-10-15,inside-house,wikipedia-house-ratings-2026,verified,ai,2026-10-22,Was tossup (as of the earlier update). Checked against Inside Elections' ratings data (the API export linked on its ratings page) in a supervised browser session; date from Inside Elections.
 pa-07,sabato,lean-d,2026-09-29,sabato-house,wikipedia-house-ratings-2026,verified,ai,2026-10-12,Was tossup (as of the earlier update). Checked on the Crystal Ball's rating-changes page in a supervised browser session.
