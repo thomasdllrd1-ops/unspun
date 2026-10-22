@@ -24,9 +24,11 @@ Other candidate notes:
 
 ## Priority 2: Polls that need you (4 races' averages on hold)
 
-A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 22, 4 polls hold up 4 races; the other 33 races with recent polls show their averages. (On Oct 21-22 Claude checked 55+ polls, including a supervised browser session for Cook, BGSU, KSTP, Change Research, Susquehanna, POS and NYT Kansas, and confirmed all 24 newer expert ratings on the forecasters' pages.)
+A race's average stays **on hold** while any poll from the last 60 days is unchecked. As of Oct 22, 5 polls hold up 4 races; the other 33 races with recent polls show their averages. (On Oct 21-22 Claude checked 55+ polls, including a supervised browser session for Cook, BGSU, KSTP, Change Research, Susquehanna, POS and NYT Kansas, and confirmed all 24 newer expert ratings on the forecasters' pages.)
 
 **2 minutes for you: The Alabama Poll (Oct 15-16), Alabama Senate.** It's only on al.com, which our tools and the browser extension can't open. Open al.com/politics/2026/10/gop-faces-election-downturn-but-theres-no-blue-wave-for-alabama-democrats-poll-shows.html and tell Claude the Moore and Wess shares, the undecided share, the sample size, margin of error and dates. (We have Moore 56, Wess 35, undecided 9, 600 likely voters, from Wikipedia.)
+
+**2 minutes for you: Emerson College/KELOLAND, South Dakota (Oct 19-20).** KELOLAND's page shows our tools and the browser extension an "access denied" check, and Emerson hasn't posted its own release yet (Claude will keep checking). If you open keloland.com/keloland-com-original/keloland-poll-rounds-leads-bengs-at-8-trump-approval-down/ and tell Claude the Rounds/Bengs/undecided shares, sample and margin, it can be checked. (Wikipedia lists Rounds 50, Bengs 42, 803 likely voters.)
 
 **No public source found (3 races).** Each was searched for and checked in a browser; only second-hand reports exist:
 - **Louisiana:** Hart Research for Davis's campaign. The only source is a Bluesky post relaying what the campaign said.
